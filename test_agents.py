@@ -11,12 +11,16 @@ import asyncio
 import json
 import sys
 import time
+import statistics
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
 
 
-# Agent configurations
+# Number of runs per test for statistical significance
+NUM_RUNS = 3
+
+# Agent configurations with model info
 AGENTS = {
     # Python Agent Frameworks (Native AG-UI)
     "agno": {
@@ -25,6 +29,7 @@ AGENTS = {
         "health": "http://localhost:7771/health",
         "type": "native",
         "language": "Python",
+        "model": "claude-haiku-4-5",
     },
     "langgraph": {
         "url": "http://localhost:7772/agent",
@@ -32,6 +37,7 @@ AGENTS = {
         "health": "http://localhost:7772/health",
         "type": "native",
         "language": "Python",
+        "model": "claude-haiku-4-5",
     },
     "crewai": {
         "url": "http://localhost:7773/agent",
@@ -39,6 +45,7 @@ AGENTS = {
         "health": "http://localhost:7773/health",
         "type": "native",
         "language": "Python",
+        "model": "claude-haiku-4-5",
     },
     "pydantic-ai": {
         "url": "http://localhost:7774/",
@@ -46,6 +53,7 @@ AGENTS = {
         "health": "http://localhost:7774/health",
         "type": "native",
         "language": "Python",
+        "model": "claude-haiku-4-5",
     },
     "llamaindex": {
         "url": "http://localhost:7780/agent/run",
@@ -53,6 +61,7 @@ AGENTS = {
         "health": "http://localhost:7780/health",
         "type": "native",
         "language": "Python",
+        "model": "gpt-5-mini",
     },
     "ag2": {
         "url": "http://localhost:7781/agent",
@@ -60,6 +69,7 @@ AGENTS = {
         "health": "http://localhost:7781/health",
         "type": "wrapped",
         "language": "Python",
+        "model": "gpt-5-mini",
     },
     "google-adk": {
         "url": "http://localhost:7782/agent",
@@ -67,6 +77,7 @@ AGENTS = {
         "health": "http://localhost:7782/health",
         "type": "native",
         "language": "Python",
+        "model": "gemini-2.5-flash",
     },
     # Raw LLM APIs (AG-UI Wrapped)
     "openai-raw": {
@@ -75,7 +86,7 @@ AGENTS = {
         "health": "http://localhost:7775/health",
         "type": "wrapped",
         "language": "Python",
-        "model": "GPT-5.2",
+        "model": "gpt-5-mini",
     },
     "anthropic-raw": {
         "url": "http://localhost:7776/agent",
@@ -83,7 +94,7 @@ AGENTS = {
         "health": "http://localhost:7776/health",
         "type": "wrapped",
         "language": "Python",
-        "model": "Claude Haiku 4.5",
+        "model": "claude-haiku-4-5",
     },
     "gemini-raw": {
         "url": "http://localhost:7777/agent",
@@ -91,7 +102,7 @@ AGENTS = {
         "health": "http://localhost:7777/health",
         "type": "wrapped",
         "language": "Python",
-        "model": "Gemini 2.5 Flash",
+        "model": "gemini-2.5-flash",
     },
     # TypeScript Agents (AG-UI Wrapped)
     "vercel-ai-sdk": {
@@ -100,16 +111,16 @@ AGENTS = {
         "health": "http://localhost:7779/health",
         "type": "wrapped",
         "language": "TypeScript",
-        "model": "Claude Haiku 4.5",
+        "model": "claude-haiku-4-5",
     },
 }
 
 
-# Test messages - categorized by type
+# Unified test prompts - objective tasks that don't bias toward any framework
 TEST_PROMPTS = {
-    "simple": "Hello! What framework are you running on?",
-    "tool_time": "What time is it right now?",
-    "tool_calc": "Calculate 42 * 17 for me",
+    "simple": "Say hello and introduce yourself briefly in 2-3 sentences.",
+    "tool_time": "What is the current time? Use the time tool to check.",
+    "tool_calc": "Calculate 42 * 17 using the calculator tool and tell me the result.",
 }
 
 
@@ -275,79 +286,102 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
     return metrics
 
 
+def median(values: List[float]) -> float:
+    """Calculate median of a list of values."""
+    if not values:
+        return 0.0
+    return statistics.median(values)
+
+
 def print_metrics_table(all_metrics: Dict[str, List[TestMetrics]]):
     """Print a comparison table of metrics across frameworks."""
-    print("\n" + "=" * 100)
-    print("PERFORMANCE COMPARISON")
-    print("=" * 100)
+    print("\n" + "=" * 120)
+    print(f"PERFORMANCE COMPARISON (Median of {NUM_RUNS} runs per test)")
+    print("=" * 120)
 
-    # Calculate averages per framework
+    # Calculate medians per framework
     framework_stats = {}
     for name, metrics_list in all_metrics.items():
         successful = [m for m in metrics_list if m.success]
         if not successful:
             continue
 
+        config = AGENTS.get(name, {})
+        model = config.get("model", "unknown")
+
         framework_stats[name] = {
-            "total_time_avg": sum(m.total_time_ms for m in successful) / len(successful),
-            "ttfb_avg": sum(m.time_to_first_event_ms for m in successful) / len(successful),
-            "ttfc_avg": sum(m.time_to_first_content_ms for m in successful) / len(successful),
-            "tool_time_avg": sum(m.tool_call_time_ms for m in successful if m.tool_calls > 0) / max(1, len([m for m in successful if m.tool_calls > 0])),
-            "response_chars_avg": sum(m.response_chars for m in successful) / len(successful),
+            "model": model,
+            "total_time_median": median([m.total_time_ms for m in successful]),
+            "ttfb_median": median([m.time_to_first_event_ms for m in successful]),
+            "ttfc_median": median([m.time_to_first_content_ms for m in successful]),
+            "tool_time_median": median([m.tool_call_time_ms for m in successful if m.tool_calls > 0]) if any(m.tool_calls > 0 for m in successful) else 0,
+            "response_chars_median": median([m.response_chars for m in successful]),
             "tool_calls": sum(m.tool_calls for m in successful),
             "tests": len(successful),
-            "events_avg": sum(m.total_events for m in successful) / len(successful),
+            "events_median": median([m.total_events for m in successful]),
         }
 
-    # Sort by average total time
-    sorted_frameworks = sorted(framework_stats.items(), key=lambda x: x[1]["total_time_avg"])
+    # Sort by median total time
+    sorted_frameworks = sorted(framework_stats.items(), key=lambda x: x[1]["total_time_median"])
 
     # Print header
-    print(f"\n{'Framework':<15} {'Avg Time':<12} {'TTFB':<10} {'TTFC':<10} {'Tool Time':<12} {'Resp Chars':<12} {'Events':<8}")
-    print("-" * 100)
+    print(f"\n{'Framework':<15} {'Model':<20} {'Median Time':<12} {'TTFB':<10} {'TTFC':<10} {'Events':<8}")
+    print("-" * 120)
 
     for name, stats in sorted_frameworks:
-        print(f"{name:<15} {stats['total_time_avg']:>8.0f}ms  {stats['ttfb_avg']:>6.0f}ms  {stats['ttfc_avg']:>6.0f}ms  {stats['tool_time_avg']:>8.0f}ms   {stats['response_chars_avg']:>8.0f}     {stats['events_avg']:>5.0f}")
+        print(f"{name:<15} {stats['model']:<20} {stats['total_time_median']:>8.0f}ms  {stats['ttfb_median']:>6.0f}ms  {stats['ttfc_median']:>6.0f}ms  {stats['events_median']:>5.0f}")
 
     print("\nLegend: TTFB = Time to First Byte, TTFC = Time to First Content")
 
-    # Detailed per-test breakdown
-    print("\n" + "-" * 100)
-    print("DETAILED BREAKDOWN BY TEST TYPE")
-    print("-" * 100)
+    # Detailed per-test breakdown with median
+    print("\n" + "-" * 120)
+    print(f"DETAILED BREAKDOWN BY TEST TYPE (Median of {NUM_RUNS} runs)")
+    print("-" * 120)
 
     for prompt_type in TEST_PROMPTS.keys():
         print(f"\n📊 {prompt_type.upper()} TEST")
-        print(f"{'Framework':<15} {'Time (ms)':<12} {'Tool Calls':<12} {'Response Len':<12} {'Status':<10}")
-        print("-" * 60)
+        print(f"{'Framework':<15} {'Model':<20} {'Median (ms)':<12} {'Tools':<8} {'Resp Len':<10} {'Status':<8}")
+        print("-" * 80)
 
         type_results = []
         for name, metrics_list in all_metrics.items():
-            for m in metrics_list:
-                if m.prompt_type == prompt_type:
-                    type_results.append((name, m))
-                    break
+            # Get all runs for this test type
+            runs = [m for m in metrics_list if m.prompt_type == prompt_type]
+            successful_runs = [m for m in runs if m.success]
 
-        # Sort by time
-        type_results.sort(key=lambda x: x[1].total_time_ms if x[1].success else float('inf'))
+            if successful_runs:
+                median_time = median([m.total_time_ms for m in successful_runs])
+                median_chars = median([m.response_chars for m in successful_runs])
+                total_tools = sum(m.tool_calls for m in successful_runs)
+                config = AGENTS.get(name, {})
+                model = config.get("model", "unknown")
+                type_results.append((name, model, median_time, total_tools // len(successful_runs), median_chars, True))
+            elif runs:
+                config = AGENTS.get(name, {})
+                model = config.get("model", "unknown")
+                type_results.append((name, model, float('inf'), 0, 0, False))
 
-        for name, m in type_results:
-            status = "✅" if m.success else "❌"
-            tool_str = str(m.tool_calls) if m.tool_calls > 0 else "-"
-            print(f"{name:<15} {m.total_time_ms:>8.0f}     {tool_str:<12} {m.response_chars:<12} {status}")
+        # Sort by median time
+        type_results.sort(key=lambda x: x[2])
+
+        for name, model, med_time, tools, chars, success in type_results:
+            status = "✅" if success else "❌"
+            tool_str = str(tools) if tools > 0 else "-"
+            time_str = f"{med_time:>8.0f}" if med_time != float('inf') else "    N/A"
+            print(f"{name:<15} {model:<20} {time_str}     {tool_str:<8} {chars:<10.0f} {status}")
 
 
 def print_framework_report(analysis: Dict[str, Any], all_metrics: Dict[str, List[TestMetrics]]):
     """Print detailed framework compliance report."""
-    print("\n" + "-" * 100)
+    print("\n" + "-" * 120)
     print("FRAMEWORK COMPLIANCE & FEATURES")
-    print("-" * 100)
+    print("-" * 120)
 
     for name, fw in analysis["frameworks"].items():
         config = AGENTS.get(name, {})
         lang = config.get("language", "Unknown")
         agent_type = config.get("type", "unknown")
-        model = config.get("model", "Claude Haiku 4.5")
+        model = config.get("model", "unknown")
 
         print(f"\n📦 {name.upper()} ({lang}, {agent_type})")
         print(f"   Model: {model}")
@@ -359,9 +393,9 @@ def print_framework_report(analysis: Dict[str, Any], all_metrics: Dict[str, List
             metrics_list = all_metrics[name]
             successful = [m for m in metrics_list if m.success]
             if successful:
-                avg_time = sum(m.total_time_ms for m in successful) / len(successful)
-                avg_chars = sum(m.response_chars for m in successful) / len(successful)
-                print(f"   Avg Response Time: {avg_time:.0f}ms  Avg Response Length: {avg_chars:.0f} chars")
+                med_time = median([m.total_time_ms for m in successful])
+                med_chars = median([m.response_chars for m in successful])
+                print(f"   Median Response Time: {med_time:.0f}ms  Median Response Length: {med_chars:.0f} chars")
 
 
 def analyze_results(results: List[TestMetrics]) -> Dict[str, Any]:
@@ -480,7 +514,7 @@ def print_sample_responses(all_metrics: Dict[str, List[TestMetrics]]):
 
 async def main():
     print("🧪 AG-UI Multi-Framework Test Suite with Performance Metrics")
-    print("=" * 100)
+    print("=" * 120)
 
     async with httpx.AsyncClient() as client:
         # Step 1: Health checks
@@ -496,35 +530,38 @@ async def main():
 
         print(f"\n✅ {len(healthy_agents)}/{len(AGENTS)} agents healthy")
 
-        # Step 2: Run tests IN PARALLEL
-        print("\n🧪 Running AG-UI protocol tests (parallel)...")
-
-        tasks = []
-        task_info = []
-        for name, config in healthy_agents.items():
-            for prompt_type, prompt in TEST_PROMPTS.items():
-                tasks.append(test_agent(client, name, config, prompt_type, prompt))
-                task_info.append((name, prompt_type))
-
-        print(f"  Running {len(tasks)} tests in parallel...")
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+        # Step 2: Run tests multiple times for statistical significance
+        total_tests = len(healthy_agents) * len(TEST_PROMPTS) * NUM_RUNS
+        print(f"\n🧪 Running AG-UI protocol tests ({NUM_RUNS} runs each, {total_tests} total)...")
 
         # Organize results by framework
         all_metrics: Dict[str, List[TestMetrics]] = {name: [] for name in healthy_agents}
 
-        current_agent = None
-        for i, result in enumerate(results):
-            name, prompt_type = task_info[i]
-            if name != current_agent:
-                current_agent = name
-                print(f"\n  {name}:")
+        for run in range(NUM_RUNS):
+            print(f"\n  === Run {run + 1}/{NUM_RUNS} ===")
 
-            if isinstance(result, Exception):
-                print(f"    ❌ {prompt_type}: error - {result}")
-                metrics = TestMetrics(name=name, prompt_type=prompt_type, prompt=TEST_PROMPTS[prompt_type])
-                metrics.error = str(result)
-                all_metrics[name].append(metrics)
-            else:
+            tasks = []
+            task_info = []
+            for name, config in healthy_agents.items():
+                for prompt_type, prompt in TEST_PROMPTS.items():
+                    tasks.append(test_agent(client, name, config, prompt_type, prompt))
+                    task_info.append((name, prompt_type))
+
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            current_agent = None
+            for i, result in enumerate(results):
+                name, prompt_type = task_info[i]
+                if name != current_agent:
+                    current_agent = name
+                    print(f"\n  {name}:")
+
+                if isinstance(result, Exception):
+                    print(f"    ❌ {prompt_type}: error - {result}")
+                    metrics = TestMetrics(name=name, prompt_type=prompt_type, prompt=TEST_PROMPTS[prompt_type])
+                    metrics.error = str(result)
+                    all_metrics[name].append(metrics)
+                else:
                 status = "✅" if result.success else "❌"
                 time_str = f"{result.total_time_ms:.0f}ms"
                 tool_str = f" ({result.tool_calls} tools)" if result.tool_calls > 0 else ""
@@ -549,9 +586,9 @@ async def main():
         print_sample_responses(all_metrics)
 
         # Final verdict
-        print("\n" + "=" * 100)
+        print("\n" + "=" * 120)
         print("VERDICT")
-        print("=" * 100)
+        print("=" * 120)
 
         all_have_lifecycle = all(fw["has_lifecycle"] for fw in analysis["frameworks"].values())
         all_have_messages = all(fw["has_messages"] for fw in analysis["frameworks"].values())
@@ -565,18 +602,20 @@ async def main():
                 if not fw["has_lifecycle"] or not fw["has_messages"]:
                     print(f"   - {name}: missing events")
 
-        # Performance winner
+        # Performance winner (using median)
         framework_times = {}
         for name, metrics_list in all_metrics.items():
             successful = [m for m in metrics_list if m.success]
             if successful:
-                framework_times[name] = sum(m.total_time_ms for m in successful) / len(successful)
+                framework_times[name] = median([m.total_time_ms for m in successful])
 
         if framework_times:
             fastest = min(framework_times.items(), key=lambda x: x[1])
             slowest = max(framework_times.items(), key=lambda x: x[1])
-            print(f"\n🏆 Fastest: {fastest[0]} ({fastest[1]:.0f}ms avg)")
-            print(f"🐢 Slowest: {slowest[0]} ({slowest[1]:.0f}ms avg)")
+            fastest_model = AGENTS.get(fastest[0], {}).get("model", "unknown")
+            slowest_model = AGENTS.get(slowest[0], {}).get("model", "unknown")
+            print(f"\n🏆 Fastest: {fastest[0]} ({fastest[1]:.0f}ms median) - {fastest_model}")
+            print(f"🐢 Slowest: {slowest[0]} ({slowest[1]:.0f}ms median) - {slowest_model}")
 
 
 if __name__ == "__main__":
