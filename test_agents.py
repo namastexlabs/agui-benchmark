@@ -11,7 +11,8 @@ import asyncio
 import json
 import sys
 import time
-from typing import Dict, List, Any
+from pathlib import Path
+from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
 
 
@@ -412,6 +413,54 @@ def analyze_results(results: List[TestMetrics]) -> Dict[str, Any]:
     return analysis
 
 
+def load_startup_times() -> Optional[Dict[str, int]]:
+    """Load startup times from JSON file created by start_all.sh."""
+    startup_file = Path(__file__).parent / "logs" / "startup_times.json"
+    if startup_file.exists():
+        try:
+            with open(startup_file) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            return None
+    return None
+
+
+def print_startup_times(startup_times: Optional[Dict[str, int]]):
+    """Print startup time metrics."""
+    print("\n" + "-" * 100)
+    print("STARTUP TIMES (Cold Start)")
+    print("-" * 100)
+
+    if not startup_times:
+        print("\n  No startup times available. Run ./start_all.sh to measure.")
+        return
+
+    # Filter out failed starts (-1) and sort by time
+    valid_times = {k: v for k, v in startup_times.items() if v >= 0}
+    failed = {k: v for k, v in startup_times.items() if v < 0}
+
+    if valid_times:
+        sorted_times = sorted(valid_times.items(), key=lambda x: x[1])
+        print(f"\n{'Framework':<20} {'Startup Time':<15} {'Status':<10}")
+        print("-" * 50)
+
+        for name, ms in sorted_times:
+            print(f"{name:<20} {ms:>8} ms      ✅")
+
+        for name in failed:
+            print(f"{name:<20} {'N/A':>8}         ❌ failed")
+
+        # Stats
+        times = list(valid_times.values())
+        avg_time = sum(times) / len(times)
+        fastest = min(sorted_times, key=lambda x: x[1])
+        slowest = max(sorted_times, key=lambda x: x[1])
+
+        print(f"\n  🚀 Fastest startup: {fastest[0]} ({fastest[1]} ms)")
+        print(f"  🐢 Slowest startup: {slowest[0]} ({slowest[1]} ms)")
+        print(f"  📊 Average startup: {avg_time:.0f} ms")
+
+
 def print_sample_responses(all_metrics: Dict[str, List[TestMetrics]]):
     """Print sample responses from each framework."""
     print("\n" + "-" * 100)
@@ -495,6 +544,7 @@ async def main():
         print(f"Failed: {analysis['failed']}")
 
         print_metrics_table(all_metrics)
+        print_startup_times(load_startup_times())
         print_framework_report(analysis, all_metrics)
         print_sample_responses(all_metrics)
 
