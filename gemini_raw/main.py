@@ -68,7 +68,7 @@ def calculator(expression: str) -> str:
 
 # Create model with tools
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-3-flash",
     tools=[get_current_time, calculator],
     system_instruction="""You are a helpful assistant using raw Google Gemini API wrapped with AG-UI protocol.
     You can tell the current time and do basic math calculations.
@@ -239,7 +239,7 @@ async def health():
     return {
         "status": "healthy",
         "framework": "gemini-raw",
-        "model": "gemini-2.5-flash",
+        "model": "gemini-3-flash",
         "port": 7777,
         "agui_endpoint": "/agent",
         "native_agui": False,
