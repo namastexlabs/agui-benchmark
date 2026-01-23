@@ -26,6 +26,9 @@ uv run python test_agents.py
 ├── langgraph_agent/     # LangGraph framework (Python, native AG-UI)
 ├── crewai_agent/        # CrewAI framework (Python, native AG-UI) *
 ├── pydantic_agent/      # PydanticAI framework (Python, native AG-UI)
+├── llamaindex_agent/    # LlamaIndex framework (Python, native AG-UI)
+├── ag2_agent/           # AG2/AutoGen framework (Python, AG-UI wrapped)
+├── google_adk_agent/    # Google ADK framework (Python, native AG-UI)
 ├── openai_raw/          # Direct OpenAI API (Python, AG-UI wrapped)
 ├── anthropic_raw/       # Direct Anthropic API (Python, AG-UI wrapped)
 ├── gemini_raw/          # Direct Gemini API (Python, AG-UI wrapped)
@@ -51,6 +54,9 @@ uv run python test_agents.py
 | 7776 | Anthropic Raw | Wrapped |
 | 7777 | Gemini Raw | Wrapped |
 | 7779 | Vercel AI SDK | Wrapped (TS) |
+| 7780 | LlamaIndex | Native AG-UI |
+| 7781 | AG2 (AutoGen) | Wrapped |
+| 7782 | Google ADK | Native AG-UI |
 
 ## Environment Variables
 
@@ -81,5 +87,8 @@ The benchmark tests for these events:
 ## Known Issues
 
 - **CrewAI**: `ag-ui-crewai` package expects LiteLLM responses, not crew.kickoff()
-- **Mastra**: Version conflicts between `@mastra/core` and `@ag-ui/mastra`
+- **Mastra**: Version conflicts between `@mastra/core` and `@ag-ui/mastra` (not included)
 - **LangGraph**: Occasional failures on simple prompts (needs investigation)
+- **AG2**: Uses custom AG-UI adapter (no official `ag-ui-ag2` package yet)
+- **LlamaIndex**: Requires OpenAI API key (uses `llama-index-protocols-ag-ui`)
+- **Google ADK**: Requires Gemini API key

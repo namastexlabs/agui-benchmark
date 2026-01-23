@@ -28,6 +28,18 @@ echo "Starting PydanticAI agent on port 7774..."
 uv run python pydantic_agent/main.py > logs/pydantic.log 2>&1 &
 echo $! > logs/pydantic.pid
 
+echo "Starting LlamaIndex agent on port 7780..."
+uv run python llamaindex_agent/main.py > logs/llamaindex.log 2>&1 &
+echo $! > logs/llamaindex.pid
+
+echo "Starting AG2 agent on port 7781..."
+uv run python ag2_agent/main.py > logs/ag2.log 2>&1 &
+echo $! > logs/ag2.pid
+
+echo "Starting Google ADK agent on port 7782..."
+uv run python google_adk_agent/main.py > logs/google_adk.log 2>&1 &
+echo $! > logs/google_adk.pid
+
 # Raw LLM APIs (AG-UI Wrapped)
 echo ""
 echo "=== Raw LLM APIs (AG-UI Wrapped) ==="
@@ -71,6 +83,9 @@ echo "  - Agno:       http://localhost:7771/agui"
 echo "  - LangGraph:  http://localhost:7772/agent"
 echo "  - CrewAI:     http://localhost:7773/agent"
 echo "  - PydanticAI: http://localhost:7774/"
+echo "  - LlamaIndex: http://localhost:7780/agent"
+echo "  - AG2:        http://localhost:7781/agent"
+echo "  - Google ADK: http://localhost:7782/agent"
 echo ""
 echo "=== Raw LLM APIs (AG-UI Wrapped) ==="
 echo "  - OpenAI:     http://localhost:7775/agent"

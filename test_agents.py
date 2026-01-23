@@ -46,6 +46,27 @@ AGENTS = {
         "type": "native",
         "language": "Python",
     },
+    "llamaindex": {
+        "url": "http://localhost:7780/agent",
+        "port": 7780,
+        "health": "http://localhost:7780/health",
+        "type": "native",
+        "language": "Python",
+    },
+    "ag2": {
+        "url": "http://localhost:7781/agent",
+        "port": 7781,
+        "health": "http://localhost:7781/health",
+        "type": "wrapped",
+        "language": "Python",
+    },
+    "google-adk": {
+        "url": "http://localhost:7782/agent",
+        "port": 7782,
+        "health": "http://localhost:7782/health",
+        "type": "native",
+        "language": "Python",
+    },
     # Raw LLM APIs (AG-UI Wrapped)
     "openai-raw": {
         "url": "http://localhost:7775/agent",
