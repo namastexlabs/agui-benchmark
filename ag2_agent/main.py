@@ -66,7 +66,7 @@ def calculator(expression: str) -> str:
 
 # LLM config for AG2
 llm_config = {
-    "model": "gpt-5.2-mini",
+    "model": "gpt-5-mini",
     "api_key": os.getenv("OPENAI_API_KEY"),
 }
 

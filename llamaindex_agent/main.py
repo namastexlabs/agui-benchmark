@@ -43,7 +43,7 @@ def calculator(expression: str) -> str:
 # Create the AG-UI router with LlamaIndex
 # Using OpenAI since LlamaIndex's AG-UI adapter works well with it
 agentic_chat_router = get_ag_ui_workflow_router(
-    llm=OpenAI(model="gpt-5.2-mini"),
+    llm=OpenAI(model="gpt-5-mini"),
     frontend_tools=[],  # Tools that trigger UI actions
     backend_tools=[get_current_time, calculator],  # Tools executed on server
     system_prompt="""You are a helpful assistant running on the LlamaIndex framework.

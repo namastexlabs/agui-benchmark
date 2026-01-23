@@ -48,7 +48,7 @@ AGENTS = {
         "language": "Python",
     },
     "llamaindex": {
-        "url": "http://localhost:7780/agent",
+        "url": "http://localhost:7780/agent/run",
         "port": 7780,
         "health": "http://localhost:7780/health",
         "type": "native",

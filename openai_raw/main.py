@@ -127,7 +127,7 @@ async def agent_endpoint(input_data: RunAgentInput):
         try:
             # Call OpenAI with streaming
             response = client.chat.completions.create(
-                model="gpt-5.2-mini",
+                model="gpt-5-mini",
                 messages=messages,
                 tools=tools,
                 stream=True
@@ -224,7 +224,7 @@ async def agent_endpoint(input_data: RunAgentInput):
                 messages.extend(tool_results)
 
                 follow_up = client.chat.completions.create(
-                    model="gpt-5.2-mini",
+                    model="gpt-5-mini",
                     messages=messages,
                     stream=True
                 )
@@ -271,7 +271,7 @@ async def health():
     return {
         "status": "healthy",
         "framework": "openai-raw",
-        "model": "gpt-5.2-mini",
+        "model": "gpt-5-mini",
         "port": 7775,
         "agui_endpoint": "/agent",
         "native_agui": False,
