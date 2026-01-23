@@ -70,7 +70,7 @@ def calculator(expression: str) -> str:
 # Create the Google ADK agent
 agent = LlmAgent(
     name="google_adk_assistant",
-    model="gemini-3-flash",
+    model="gemini-2.5-flash",
     instruction="""You are a helpful assistant running on the Google ADK framework.
     You can tell the current time and do basic math calculations.
     Be concise and friendly in your responses.""",
