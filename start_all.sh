@@ -1,7 +1,8 @@
 #!/bin/bash
 # Start all AG-UI test agents in background
 
-cd /tmp/agui-test-frameworks
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
 echo "🚀 Starting AG-UI Test Agents..."
 echo ""
@@ -95,7 +96,7 @@ echo ""
 echo "=== TypeScript Agents (AG-UI Wrapped) ==="
 echo "  - Vercel AI SDK: http://localhost:7779/agent"
 echo ""
-echo "Logs: /tmp/agui-test-frameworks/logs/"
+echo "Logs: $SCRIPT_DIR/logs/"
 echo ""
 echo "To test: uv run python test_agents.py"
 echo "To stop: ./stop_all.sh"

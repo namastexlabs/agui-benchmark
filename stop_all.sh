@@ -1,7 +1,8 @@
 #!/bin/bash
 # Stop all AG-UI test agents
 
-cd /tmp/agui-test-frameworks
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
 echo "🛑 Stopping AG-UI Test Agents..."
 
