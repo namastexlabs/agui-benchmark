@@ -98,10 +98,16 @@ async def run_agent_with_agui(
     message_id = str(uuid.uuid4())
 
     try:
+        # Create or get session first (required by Google ADK)
+        session = await session_service.create_session(
+            app_name="google_adk_benchmark",
+            user_id="benchmark-user",
+        )
+
         # Create runner for this request
         runner = Runner(
             agent=agent,
-            app_name="google-adk-benchmark",
+            app_name="google_adk_benchmark",
             session_service=session_service,
         )
 
@@ -122,28 +128,17 @@ async def run_agent_with_agui(
         response_text = ""
         async for event in runner.run_async(
             user_id="benchmark-user",
-            session_id=thread_id,
+            session_id=session.id,
             new_message=content,
         ):
-            # Extract text from various event types
+            # Extract text from event.content.parts
             text_delta = ""
-
-            # Check for content in the event
             if hasattr(event, 'content') and event.content:
-                if hasattr(event.content, 'parts'):
+                if hasattr(event.content, 'parts') and event.content.parts:
                     for part in event.content.parts:
                         if hasattr(part, 'text') and part.text:
-                            text_delta = part.text
-                elif hasattr(event.content, 'text'):
-                    text_delta = event.content.text
-
-            # Check for direct text
-            if not text_delta and hasattr(event, 'text') and event.text:
-                text_delta = event.text
-
-            # Check for delta text
-            if not text_delta and hasattr(event, 'partial_text') and event.partial_text:
-                text_delta = event.partial_text
+                            text_delta = part.text.strip()
+                            break
 
             if text_delta and text_delta not in response_text:
                 response_text += text_delta
