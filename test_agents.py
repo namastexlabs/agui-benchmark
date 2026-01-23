@@ -562,11 +562,11 @@ async def main():
                     metrics.error = str(result)
                     all_metrics[name].append(metrics)
                 else:
-                status = "✅" if result.success else "❌"
-                time_str = f"{result.total_time_ms:.0f}ms"
-                tool_str = f" ({result.tool_calls} tools)" if result.tool_calls > 0 else ""
-                print(f"    {status} {prompt_type}: {time_str}{tool_str}")
-                all_metrics[name].append(result)
+                    status = "✅" if result.success else "❌"
+                    time_str = f"{result.total_time_ms:.0f}ms"
+                    tool_str = f" ({result.tool_calls} tools)" if result.tool_calls > 0 else ""
+                    print(f"    {status} {prompt_type}: {time_str}{tool_str}")
+                    all_metrics[name].append(result)
 
         # Step 3: Analyze and report
         flat_results = [m for metrics_list in all_metrics.values() for m in metrics_list]
