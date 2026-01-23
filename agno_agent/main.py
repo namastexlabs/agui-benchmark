@@ -89,4 +89,4 @@ async def root():
 if __name__ == "__main__":
     print("Starting Agno Agent on port 7771...")
     print("AG-UI Endpoint: POST http://localhost:7771/agui")
-    agent_os.serve(app="main:app", host="0.0.0.0", port=7771, reload=True)
+    agent_os.serve(app="main:app", host="0.0.0.0", port=7771, reload=False)

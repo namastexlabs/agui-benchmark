@@ -11,7 +11,9 @@ for pid_file in logs/*.pid; do
         pid=$(cat "$pid_file")
         name=$(basename "$pid_file" .pid)
         if kill -0 "$pid" 2>/dev/null; then
-            kill "$pid"
+            # Kill entire process group to handle spawned children (e.g., uvicorn reload)
+            pkill -P "$pid" 2>/dev/null
+            kill "$pid" 2>/dev/null
             echo "  Stopped $name (PID: $pid)"
         fi
         rm "$pid_file"
