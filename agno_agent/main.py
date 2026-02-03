@@ -1,7 +1,10 @@
 """
 Agno Agent with AG-UI Protocol Support
 Port: 7771
-Endpoint: POST /agui
+Endpoints:
+  - POST /agui/anthropic (Claude)
+  - POST /agui/openai (GPT-4o-mini)
+  - POST /agui/gemini (Gemini 2.0 Flash)
 
 Agno has native AG-UI support via the AGUI() interface.
 """
@@ -14,6 +17,8 @@ load_dotenv()
 
 from agno.agent.agent import Agent
 from agno.models.anthropic import Claude
+from agno.models.openai import OpenAIChat
+from agno.models.google import Gemini
 from agno.os import AgentOS
 from agno.os.interfaces.agui import AGUI
 from agno.tools import tool
@@ -44,21 +49,49 @@ def calculator(expression: str) -> str:
         return f"Error: {str(e)}"
 
 
-# Create the agent
-agent = Agent(
-    model=Claude(id="claude-haiku-4-5-20251001"),
-    tools=[get_current_time, calculator],
-    instructions="""You are a helpful assistant running on the Agno framework.
+# Common instructions for all agents
+COMMON_INSTRUCTIONS = """You are a helpful assistant running on the Agno framework.
     You can tell the current time and do basic math calculations.
-    Be concise and friendly in your responses.""",
-    name="agno-assistant",
-    description="Agno test agent with AG-UI support",
+    Be concise and friendly in your responses."""
+
+# Common tools for all agents
+COMMON_TOOLS = [get_current_time, calculator]
+
+# Create the Anthropic agent (Claude)
+anthropic_agent = Agent(
+    model=Claude(id="claude-haiku-4-5-20251001"),
+    tools=COMMON_TOOLS,
+    instructions=COMMON_INSTRUCTIONS,
+    name="agno-anthropic",
+    description="Agno agent with Claude (Anthropic)",
 )
 
-# Create AgentOS with AGUI interface
+# Create the OpenAI agent (GPT-4o-mini)
+openai_agent = Agent(
+    model=OpenAIChat(id="gpt-5-mini"),
+    tools=COMMON_TOOLS,
+    instructions=COMMON_INSTRUCTIONS,
+    name="agno-openai",
+    description="Agno agent with GPT-4o-mini (OpenAI)",
+)
+
+# Create the Gemini agent (Gemini 2.0 Flash)
+gemini_agent = Agent(
+    model=Gemini(id="gemini-2.5-flash"),
+    tools=COMMON_TOOLS,
+    instructions=COMMON_INSTRUCTIONS,
+    name="agno-gemini",
+    description="Agno agent with Gemini 2.0 Flash (Google)",
+)
+
+# Create AgentOS with multiple AGUI interfaces at different prefixes
 agent_os = AgentOS(
-    agents=[agent],
-    interfaces=[AGUI(agent=agent)]
+    agents=[anthropic_agent, openai_agent, gemini_agent],
+    interfaces=[
+        AGUI(agent=anthropic_agent, prefix="/agui/anthropic"),
+        AGUI(agent=openai_agent, prefix="/agui/openai"),
+        AGUI(agent=gemini_agent, prefix="/agui/gemini"),
+    ]
 )
 
 # Get the FastAPI app
@@ -72,7 +105,17 @@ async def health():
         "status": "healthy",
         "framework": "agno",
         "port": 7771,
-        "agui_endpoint": "/agui"
+        "providers": ["anthropic", "openai", "gemini"],
+        "agui_endpoints": {
+            "anthropic": "/agui/anthropic",
+            "openai": "/agui/openai",
+            "gemini": "/agui/gemini",
+        },
+        "models": {
+            "anthropic": "claude-haiku-4-5-20251001",
+            "openai": "gpt-5-mini",
+            "gemini": "gemini-2.5-flash",
+        }
     }
 
 
@@ -81,12 +124,20 @@ async def root():
     return {
         "name": "Agno AG-UI Test Agent",
         "framework": "agno",
-        "agui_endpoint": "POST /agui",
+        "providers": ["anthropic", "openai", "gemini"],
+        "agui_endpoints": {
+            "anthropic": "POST /agui/anthropic",
+            "openai": "POST /agui/openai",
+            "gemini": "POST /agui/gemini",
+        },
         "health_endpoint": "GET /health"
     }
 
 
 if __name__ == "__main__":
     print("Starting Agno Agent on port 7771...")
-    print("AG-UI Endpoint: POST http://localhost:7771/agui")
+    print("AG-UI Endpoints:")
+    print("  - POST http://localhost:7771/agui/anthropic (Claude)")
+    print("  - POST http://localhost:7771/agui/openai (GPT-4o-mini)")
+    print("  - POST http://localhost:7771/agui/gemini (Gemini 2.0 Flash)")
     agent_os.serve(app="main:app", host="0.0.0.0", port=7771, reload=False)

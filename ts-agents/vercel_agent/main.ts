@@ -1,7 +1,10 @@
 /**
  * Vercel AI SDK Agent with AG-UI Protocol Support (WRAPPED)
  * Port: 7779
- * Endpoint: POST /agent
+ * Endpoints:
+ *   POST /agent/anthropic - Claude Haiku
+ *   POST /agent/openai - GPT-4o Mini
+ *   POST /agent/gemini - Gemini 2.0 Flash
  *
  * Direct Vercel AI SDK wrapped with AG-UI events.
  * Note: There's no native @ag-ui/vercel-ai-sdk package yet.
@@ -10,16 +13,18 @@
 import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import { createAnthropic } from '@ai-sdk/anthropic';
-import { streamText, tool } from 'ai';
+import { createOpenAI } from '@ai-sdk/openai';
+import { createGoogleGenerativeAI } from '@ai-sdk/google';
+import { streamText, tool, LanguageModel } from 'ai';
 import { z } from 'zod';
 
 const app = express();
 app.use(express.json());
 
-// Initialize Anthropic provider
-const anthropic = createAnthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
+// Initialize all providers
+const anthropic = createAnthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const openai = createOpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const google = createGoogleGenerativeAI({ apiKey: process.env.GEMINI_API_KEY });
 
 // Define tools using Vercel AI SDK format
 const tools = {
@@ -61,8 +66,8 @@ function encodeSSE(eventType: string, data: Record<string, any>): string {
   return `data: ${JSON.stringify(payload)}\n\n`;
 }
 
-// AG-UI endpoint with manual wrapper
-app.post('/agent', async (req: Request, res: Response) => {
+// Helper function to handle AG-UI streaming for any model
+async function handleAgentRequest(model: LanguageModel, req: Request, res: Response): Promise<void> {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
@@ -81,7 +86,7 @@ app.post('/agent', async (req: Request, res: Response) => {
 
     // Stream response using Vercel AI SDK
     const result = streamText({
-      model: anthropic('claude-haiku-4-5-20251001'),
+      model,
       system: systemPrompt,
       messages: aiMessages,
       tools,
@@ -125,15 +130,42 @@ app.post('/agent', async (req: Request, res: Response) => {
     res.write(encodeSSE('RUN_FINISHED', { thread_id, run_id }));
     res.end();
   }
+}
+
+// AG-UI endpoint for Anthropic (Claude)
+app.post('/agent/anthropic', async (req: Request, res: Response) => {
+  await handleAgentRequest(anthropic('claude-haiku-4-5-20251001'), req, res);
+});
+
+// AG-UI endpoint for OpenAI (GPT-4o Mini)
+app.post('/agent/openai', async (req: Request, res: Response) => {
+  await handleAgentRequest(openai('gpt-5-mini'), req, res);
+});
+
+// AG-UI endpoint for Gemini
+app.post('/agent/gemini', async (req: Request, res: Response) => {
+  await handleAgentRequest(google('gemini-2.5-flash'), req, res);
 });
 
 app.get('/health', (_req: Request, res: Response) => {
   res.json({
     status: 'healthy',
     framework: 'vercel-ai-sdk',
-    model: 'claude-haiku-4-5-20251001',
     port: 7779,
-    agui_endpoint: '/agent',
+    providers: {
+      anthropic: {
+        model: 'claude-haiku-4-5-20251001',
+        endpoint: '/agent/anthropic',
+      },
+      openai: {
+        model: 'gpt-5-mini',
+        endpoint: '/agent/openai',
+      },
+      gemini: {
+        model: 'gemini-2.5-flash',
+        endpoint: '/agent/gemini',
+      },
+    },
     native_agui: false,
     note: 'Vercel AI SDK with AG-UI wrapper (no native package yet)',
   });
@@ -143,7 +175,11 @@ app.get('/', (_req: Request, res: Response) => {
   res.json({
     name: 'Vercel AI SDK AG-UI Test Agent',
     framework: 'vercel-ai-sdk',
-    agui_endpoint: 'POST /agent',
+    endpoints: {
+      anthropic: 'POST /agent/anthropic',
+      openai: 'POST /agent/openai',
+      gemini: 'POST /agent/gemini',
+    },
     health_endpoint: 'GET /health',
     native_agui: false,
   });
@@ -152,6 +188,9 @@ app.get('/', (_req: Request, res: Response) => {
 const PORT = 7779;
 app.listen(PORT, () => {
   console.log(`Starting Vercel AI SDK Agent on port ${PORT}...`);
-  console.log(`AG-UI Endpoint: POST http://localhost:${PORT}/agent`);
+  console.log(`AG-UI Endpoints:`);
+  console.log(`  - POST http://localhost:${PORT}/agent/anthropic (Claude Haiku)`);
+  console.log(`  - POST http://localhost:${PORT}/agent/openai (GPT-4o Mini)`);
+  console.log(`  - POST http://localhost:${PORT}/agent/gemini (Gemini 2.0 Flash)`);
   console.log('Using Vercel AI SDK with AG-UI wrapper');
 });
