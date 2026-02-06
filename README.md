@@ -92,6 +92,35 @@ uv run python test_agents.py
 ./stop_all.sh
 ```
 
+## Benchmark Results
+
+### Test Summary
+- **Agents Tested**: 26 implementations across 9 frameworks
+- **Tests Run**: 702 total (27 per agent × 26 agents)
+- **Success Rate**: 97.5% (686/702 passed)
+- **Models Tested**: Claude, OpenAI GPT, Google Gemini, Cerebras Llama
+
+### Performance Rankings (Median Response Time)
+
+| Rank | Framework | Model | Time |
+|------|-----------|-------|------|
+| 🥇 | Agno | Cerebras | 262ms |
+| 🥈 | LlamaIndex | Claude | 1,728ms |
+| 🥉 | PydanticAI | Claude | 1,746ms |
+| 4️⃣ | LangGraph | Claude | 2,296ms |
+| 5️⃣ | LlamaIndex | Gemini | 2,768ms |
+
+**Key Insights:**
+- **Cerebras Llama 3.3-70b** is dramatically faster than all others (262ms vs 1.7s+)
+- **PydanticAI** offers best balance: fast (1.7s with Claude) + reliable (100% success)
+- **LangGraph** has reliability issues (89% success rate on some models)
+- **Raw API wrappers** are slower than framework abstractions (20-24s vs 1-8s)
+
+### Full Results
+See [Framework Comparison Matrix](docs/reports/FRAMEWORK-COMPARISON-MATRIX.md) for complete rankings and metrics.
+
+---
+
 ## Key Findings
 
 ### HITL Implementation
@@ -107,6 +136,23 @@ The AG-UI specification defines **26 events** across 5 categories:
 
 See [AGUI Spec Reference](docs/research/AGUI-SPEC-REFERENCE.md) for complete details.
 
+## Framework Comparison (Latest Benchmark)
+
+| Framework | Tests | Success | Median Time | Throughput | Tool Calls |
+|-----------|-------|---------|-------------|-----------|------------|
+| agno-cerebras | 27 | 100% | 284ms | — | — |
+| pydantic-anthropic | 27 | 100% | 1,771ms | 13.4k c/s | 20 |
+| agno-anthropic | 27 | 100% | 2,388ms | 11.3k c/s | 19 |
+| pydantic-gemini | 27 | 100% | 2,738ms | 54k c/s | 16 |
+| vercel-anthropic | 27 | 100% | 2,748ms | 14.3k c/s | 13 |
+| llamaindex-anthropic | 27 | 89% | 1,637ms | — | — |
+| langgraph-anthropic | 27 | 93% | 2,295ms | 6.6k c/s | — |
+| openai-raw | 27 | 100% | 20,279ms | 3.4k c/s | 12 |
+
+**See full comparison:** [Framework Comparison Matrix](docs/reports/FRAMEWORK-COMPARISON-MATRIX.md)
+
+---
+
 ## Benchmark Architecture
 
 ```
@@ -114,16 +160,17 @@ test_agents.py (Benchmark Runner)
     │
     ├─ Starts 26 agent implementations on various ports
     │
-    └─ Runs 9 test scenarios per agent:
+    └─ Runs 27 test scenarios per agent:
        • Simple prompt (no tools)
        • Tool calling (6 tools available)
        • Streaming performance
        • Error handling
        • State management
-       └─ Collects AG-UI events, timing, tool calls
+       └─ Collects timing, tool calls, response metrics
           Saves JSON results → generate_reports.py
                                      ↓
                           Auto-generates 4 markdown reports
+                          in docs/reports/
 ```
 
 ## Related Resources
