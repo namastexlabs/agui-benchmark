@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2757.051180000417,
+    "time_to_first_event_ms": 316.8773290235549,
+    "time_to_first_content_ms": 2757.2197490371764,
+    "time_to_complete_ms": 2757.051180000417
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 928,
+    "tokens_approx": 232,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nThe tools I have access to are:\n- **Getting the current time**\n- **Performing math calculations**\n\nI cannot access, modify, or delete files, databases, or any other data on your system or elsewhere. Any data deletion would need to be done directly by you using your operating system, applications, or other tools you have access to.\n\nIf you're looking to delete something important, here are some general best practices:\n1. **Back up your data first** before deleting anything critical\n2. **Double-check** what you're about to delete to avoid mistakes\n3. **Use your trash/recycle bin** rather than permanent deletion, when possible\n4. **Consider archiving** instead of deleting if you might need it later\n\nIs there something specific I can help you think through or calculate regarding your data management?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 81,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 928,
+    "total_chunks": 77,
+    "duration_ms": 76.0,
+    "throughput_chars_per_sec": 12210.526315789475,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

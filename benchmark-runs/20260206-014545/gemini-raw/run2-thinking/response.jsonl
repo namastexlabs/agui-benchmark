@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}
+{"type": "TOOL_CALL_START", "toolCallId": "c1fd1f23-0b51-4d79-92e4-a87cbc95b5bd", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "c1fd1f23-0b51-4d79-92e4-a87cbc95b5bd", "delta": "{\"expression\": \"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "c1fd1f23-0b51-4d79-92e4-a87cbc95b5bd"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "c1fd1f23-0b51-4d79-92e4-a87cbc95b5bd", "result": "12 - 5 = 7"}
+{"type": "TEXT_MESSAGE_START", "message_id": "d86da9b8-5195-480e-a055-12083d8ae48c", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "d86da9b8-5195-480e-a055-12083d8ae48c", "delta": "To solve for x in the equation x + 5 = 12, we need to isolate x.\nWe can do this by subtracting 5 from both sides of the equation:\n\nx + 5 - 5 ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "d86da9b8-5195-480e-a055-12083d8ae48c", "delta": " 12 - 5\nx = 7\n\nSo, x is 7."}
+{"type": "TEXT_MESSAGE_END", "message_id": "d86da9b8-5195-480e-a055-12083d8ae48c"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}

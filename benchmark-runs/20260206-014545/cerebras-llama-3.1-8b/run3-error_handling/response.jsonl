@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353254", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " can't help with that. It seems you mentioned a \""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "nonexistent_tool.\" Since this tool does not exist, I am"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " unable to assist you with it. If you could provide more"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " context or clarify your request, I'd be happy to try"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " and help you find the tool you're looking for or assist you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " in a different way."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353254"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling"}

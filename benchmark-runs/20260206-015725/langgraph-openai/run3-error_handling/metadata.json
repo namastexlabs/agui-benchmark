@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6670.991500956006,
+    "time_to_first_event_ms": 1023.9716769428924,
+    "time_to_first_content_ms": 6673.901877948083,
+    "time_to_complete_ms": 6670.991500956006
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 992,
+    "tokens_approx": 248,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available. The callable tools here are:\n\n- get_current_time \u2014 returns the current date/time\n- calculator \u2014 evaluates math expressions\n- multi_tool_use.parallel \u2014 runs the above tools in parallel\n\nTell me what you want done and I\u2019ll either:\n- call one or both available tools (e.g., \u201cget current time\u201d or \u201ccalculate 12*7\u201d), or\n- simulate the behavior you expected from the nonexistent tool if you describe it.\n\nWhich would you like me to do?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available. The callable tools here are:\n\n- get_current_time \u2014 returns the current date/time\n- calculator \u2014 evaluates math expressions\n- multi_tool_use.parallel \u2014 runs the above tools in parallel\n\nTell me what you want done and I\u2019ll either:\n- call one or both available tools (e.g., \u201cget current time\u201d or \u201ccalculate 12*7\u201d), or\n- simulate the behavior you expected from the nonexistent tool if you describe it.\n\nWhich would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 380,
+    "total_tokens": 586
+  },
+  "events": {
+    "total_events": 253,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 496,
+    "total_chunks": 115,
+    "duration_ms": 229.0,
+    "throughput_chars_per_sec": 2165.938864628821,
+    "avg_gap_ms": 2.008771929824561,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

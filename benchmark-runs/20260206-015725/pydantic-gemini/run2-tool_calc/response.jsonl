@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_calc", "_timestamp": 539559.584190863, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_c5a730c25dc249b5bd417583e9e97648", "toolCallName": "calculator", "parentMessageId": "b3f4453f-bb43-4640-9fa1-3fc29544e4b2", "_timestamp": 539559.585190863, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_c5a730c25dc249b5bd417583e9e97648", "delta": "{\"expression\":\"42 * 17\"}", "_timestamp": 539559.5861908629, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_c5a730c25dc249b5bd417583e9e97648", "_timestamp": 539559.587190863, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "messageId": "cdfe9dc2-c770-4afb-a70e-e095d291e5b9", "toolCallId": "pyd_ai_c5a730c25dc249b5bd417583e9e97648", "content": "42 * 17 = 714", "role": "tool", "_timestamp": 539559.5881908629, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "messageId": "33e0fbe9-f857-48c3-b1e4-c81c49e6d148", "role": "assistant", "_timestamp": 539559.589190863, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "33e0fbe9-f857-48c3-b1e4-c81c49e6d148", "delta": "The result of ", "_timestamp": 539559.590190863, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "33e0fbe9-f857-48c3-b1e4-c81c49e6d148", "delta": "42 * 17 is 714.", "_timestamp": 539559.5911908629, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "33e0fbe9-f857-48c3-b1e4-c81c49e6d148", "_timestamp": 539559.592190863, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_calc", "_timestamp": 539559.5931908629, "_offset_ms": 9.0, "_index": 9}

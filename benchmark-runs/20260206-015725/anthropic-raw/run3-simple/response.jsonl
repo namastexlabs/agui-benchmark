@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 539606.220222319, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "role": "assistant", "_timestamp": 539606.221222319, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": "Hello! ", "_timestamp": 539606.222222319, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": "\ud83d\udc4b I'm Claude, an AI", "_timestamp": 539606.223222319, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " assistant here", "_timestamp": 539606.224222319, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " to help you", "_timestamp": 539606.225222319, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " with a", "_timestamp": 539606.2262223191, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " variety", "_timestamp": 539606.227222319, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " of tasks. I can", "_timestamp": 539606.228222319, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " answer", "_timestamp": 539606.229222319, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " questions, help with writing", "_timestamp": 539606.230222319, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": ", solve", "_timestamp": 539606.2312223191, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " math", "_timestamp": 539606.232222319, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " problems, check", "_timestamp": 539606.233222319, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " the", "_timestamp": 539606.234222319, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " current time, and have", "_timestamp": 539606.235222319, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " friendly", "_timestamp": 539606.236222319, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " conversations. Feel", "_timestamp": 539606.237222319, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": " free to ask me anything you'd like", "_timestamp": 539606.238222319, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "delta": "!", "_timestamp": 539606.239222319, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_END", "message_id": "aafbccb4-b589-47ce-8ef5-1137b7bcb8d6", "_timestamp": 539606.240222319, "_offset_ms": 20.0, "_index": 20}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 59, "total_tokens": 739, "model": "claude-haiku-4-5-20251001", "_timestamp": 539606.241222319, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 539606.242222319, "_offset_ms": 22.0, "_index": 22}

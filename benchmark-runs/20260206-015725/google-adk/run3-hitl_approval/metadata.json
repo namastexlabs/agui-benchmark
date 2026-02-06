@@ -1,0 +1,40 @@
+{
+  "agent": "google-adk",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5199.828161043115,
+    "time_to_first_event_ms": 3111.2681661034003,
+    "time_to_first_content_ms": 5199.857697007246,
+    "time_to_complete_ms": 5199.828161043115
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 217,
+    "tokens_approx": 54,
+    "final_text": "I'm sorry, but I can't help you with deleting data. My capabilities are limited to providing the current time and performing basic math calculations. I don't have access to your data or any functionality to delete it."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

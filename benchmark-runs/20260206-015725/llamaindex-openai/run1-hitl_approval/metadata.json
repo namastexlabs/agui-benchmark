@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12709.149379981682,
+    "time_to_first_event_ms": 2506.8566269474104,
+    "time_to_first_content_ms": 12709.860219969414,
+    "time_to_complete_ms": 12709.149379981682
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1183,
+    "tokens_approx": 295,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and your clear confirmation method.\n\nPlease tell me:\n1. What exact data do you want deleted? (file names, folders, databases, or descriptions)\n2. Where is it stored? (local PC, external drive, cloud provider and account, server, database name/table)\n3. Do you have permission/ownership to delete it? (I cannot help with unauthorized access.)\n4. Do you want irreversible deletion or a reversible removal (trash/soft-delete)? Any regulatory/retention requirements?\n5. Do you want a backup/export before deletion? If yes, where should the backup go?\n6. How do you want me to proceed: (a) I guide you step-by-step, (b) I provide commands/scripts for you to run, or (c) if you have an automation that I can trigger, confirm that I may run it.\n\nConfirmation method\n- To proceed with permanent deletion after I\u2019ve prepared the plan and backup option, reply with the exact confirmation phrase: CONFIRM PERMANENT DELETE\n- If you prefer soft-delete/trash only, reply with: CONFIRM SOFT DELETE\n\nI\u2019ll wait for the details above and your exact confirmation phrase before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 267,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

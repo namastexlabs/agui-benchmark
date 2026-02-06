@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12206.767544033937,
+    "time_to_first_event_ms": 12205.94231702853,
+    "time_to_first_content_ms": 12206.957980059087,
+    "time_to_complete_ms": 12206.767544033937
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 842,
+    "tokens_approx": 210,
+    "final_text": "I appreciate you reaching out, but I need to clarify something important: **I don't have the ability to delete any data**. I'm a helpful assistant with access to only two tools:\n\n1. **Getting the current time** - to tell you what time it is\n2. **Basic math calculations** - to solve mathematical expressions\n\nI cannot:\n- Access, modify, or delete files\n- Connect to databases or systems\n- Perform any file operations\n- Access your personal or work data\n\n**If you need to delete important data**, you should:\n- Do it directly through your device, application, or service\n- Always back up critical data before deletion\n- Use your operating system's file manager or the specific application\n- Consider whether you really want to permanently delete it\n\nIs there something else I can help you with, like checking the time or doing a calculation? \ud83d\ude0a"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 190,
+    "total_tokens": 873
+  },
+  "events": {
+    "total_events": 74,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

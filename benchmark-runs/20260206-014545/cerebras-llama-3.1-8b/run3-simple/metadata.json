@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5134.07653500326,
+    "time_to_first_event_ms": 4564.480333006941,
+    "time_to_first_content_ms": 5134.114605025388,
+    "time_to_complete_ms": 5134.07653500326
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 347,
+    "tokens_approx": 86,
+    "final_text": "Hello, I'm an AI assistant, here to provide information and answer your questions to the best of my abilities. I'm a machine learning model designed to process and generate human-like text, and I'm constantly learning and improving to provide more accurate and helpful responses. I'm happy to help with any topic or question you'd like to discuss."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

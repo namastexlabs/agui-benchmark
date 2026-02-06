@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5846.3484949897975,
+    "time_to_first_event_ms": 978.6006819922477,
+    "time_to_first_content_ms": 5848.19934295956,
+    "time_to_complete_ms": 5846.3484949897975
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 202,
+    "tokens_approx": 50,
+    "final_text": "The current time is 2026-02-06 01:59:36. Do you want this converted to a specific timezone or format?The current time is 2026-02-06 01:59:36. Do you want this converted to a specific timezone or format?"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 167,
+    "total_tokens": 413
+  },
+  "events": {
+    "total_events": 114,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 101,
+    "total_chunks": 30,
+    "duration_ms": 59.0,
+    "throughput_chars_per_sec": 1711.864406779661,
+    "avg_gap_ms": 2.0344827586206895,
+    "p95_gap_ms": 2.5,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

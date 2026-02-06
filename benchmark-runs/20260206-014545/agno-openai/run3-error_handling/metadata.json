@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6106.628976063803,
+    "time_to_first_event_ms": 253.29173007048666,
+    "time_to_first_content_ms": 6106.990757049061,
+    "time_to_complete_ms": 6106.628976063803
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 581,
+    "tokens_approx": 145,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool.\" I can\u2019t call something that doesn\u2019t exist in my toolset.\n\nTell me what you wanted that tool to do and I\u2019ll either:\n- use one of the tools I do have (get_current_time, calculator, or run multiple tools in parallel), or\n- perform the task directly without a tool.\n\nExamples:\n- Want the current time? I can run get_current_time.\n- Want a calculation? Give the expression (e.g., \"12345 * 0.078\") and I\u2019ll use the calculator.\n- Want several things at once? Describe them and I can use the parallel wrapper if appropriate.\n\nWhat should I do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 145,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

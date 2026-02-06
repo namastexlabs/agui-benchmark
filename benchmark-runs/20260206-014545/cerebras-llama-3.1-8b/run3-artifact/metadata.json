@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5258.820450049825,
+    "time_to_first_event_ms": 4650.209496961907,
+    "time_to_first_content_ms": 5258.914047968574,
+    "time_to_complete_ms": 5258.820450049825
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 715,
+    "tokens_approx": 178,
+    "final_text": "```python\ndef add_numbers(num1, num2):\n    \"\"\"\n    This function takes two numbers as input and returns their sum.\n    \n    Parameters:\n    num1 (float): The first number to add.\n    num2 (float): The second number to add.\n    \n    Returns:\n    float: The sum of num1 and num2.\n    \"\"\"\n    return num1 + num2\n```\n\n**Example Use Cases:**\n\n```python\n# Adding two integers\nprint(add_numbers(5, 7))  # Output: 12\n\n# Adding a float and an integer\nprint(add_numbers(3.5, 2))  # Output: 5.5\n\n# Adding two floats\nprint(add_numbers(1.25, 2.75))  # Output: 4.0\n```\n\nNote: This function does not include any error checking to handle cases where the inputs are not numbers. You may want to add this in a real-world application."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 37,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

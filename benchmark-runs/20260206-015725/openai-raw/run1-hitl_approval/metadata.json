@@ -1,0 +1,49 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 28317.259761039168,
+    "time_to_first_event_ms": 28315.51671004854,
+    "time_to_first_content_ms": 28317.709619062953,
+    "time_to_complete_ms": 28317.259761039168
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 819,
+    "tokens_approx": 204,
+    "final_text": "I can help \u2014 but I will not do anything until you explicitly approve. Before I proceed, please tell me:\n\n1. What exactly do you want to delete? (files, folders, database records, cloud buckets, whole device, etc.)\n2. Where is it located? (local machine + OS, server, cloud provider, specific path or database)\n3. Do you have a backup or are you sure you want this irreversible action?\n4. Do you require secure wipe (overwriting) or simple deletion?\n5. Do you own the data and have permission to delete it?\n\nIf you understand and want me to proceed, type one of the confirmation phrases exactly as shown:\n- CONFIRM DELETE \u2014 simple deletion\n- CONFIRM SECURE DELETE \u2014 secure irrecoverable wipe\n\nAlso tell me which output you want (step-by-step instructions, a shell/PowerShell script, or commands for your cloud/database)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 189,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 819,
+    "total_chunks": 185,
+    "duration_ms": 184.0,
+    "throughput_chars_per_sec": 4451.086956521739,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

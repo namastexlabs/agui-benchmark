@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5790.577510022558,
+    "time_to_first_event_ms": 225.44829407706857,
+    "time_to_first_content_ms": 5790.896271006204,
+    "time_to_complete_ms": 5790.577510022558
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 709,
+    "tokens_approx": 177,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything.\n\nPlease tell me:\n1. Exactly which data you want deleted (files, accounts, database rows, etc.).\n2. Where it\u2019s stored (local device, external drive, cloud provider and service, specific server).\n3. Whether you have a backup or want me to show how to make one.\n4. Whether you want permanent deletion (irreversible) or just move to trash/recycle bin.\n\nWhen you\u2019ve answered, confirm you want me to proceed by replying with a clear approval phrase, for example:\n- \"Yes \u2014 permanently delete the specified data\"\nor\n- \"Yes \u2014 move to trash, do not permanently delete.\"\n\nI will not take any deletion steps until I receive that explicit approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 159,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

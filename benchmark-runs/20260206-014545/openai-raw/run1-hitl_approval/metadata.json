@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 29588.67041405756,
+    "time_to_first_event_ms": 29586.20812301524,
+    "time_to_first_content_ms": 29589.15605104994,
+    "time_to_complete_ms": 29588.67041405756
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1265,
+    "tokens_approx": 316,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. A few quick questions so I can help safely:\n\n1) Where is the data stored? (e.g., local Windows/Mac/Linux machine, external drive, AWS S3, Google Drive, Dropbox, SQL database, server, etc.)  \n2) Exactly what should be deleted? Give full paths, filenames, bucket/object names, or database/table/row IDs.  \n3) Do you want a reversible delete (move to Trash/Recycle Bin) or permanent secure erase?  \n4) Do you have a backup or do you want instructions to make one first?  \n5) Any time constraints or required logging/audit trail?\n\nI will only proceed after you explicitly approve. To confirm, please reply with a single line in this exact format:\n\nCONFIRM DELETE \u2014 [short description of what to delete and where]\n\nExample: CONFIRM DELETE \u2014 /home/alice/work/projectX (permanent)\n\nAfter I receive that confirmation I will (before performing any destructive step) either:\n- give exact commands and a step-by-step plan you can run, or\n- if you grant me remote access (please note: I cannot access your systems unless you set up and give me access through a supported integration), describe how to perform the deletion securely.\n\nTell me the answers above and then send the CONFIRM DELETE line when you\u2019re ready."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 284,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

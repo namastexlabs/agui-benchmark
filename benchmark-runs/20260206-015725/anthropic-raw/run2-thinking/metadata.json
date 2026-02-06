@@ -1,0 +1,66 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9977.416661917232,
+    "time_to_first_event_ms": 9976.771223009564,
+    "time_to_first_content_ms": 9977.559880004264,
+    "time_to_complete_ms": 9977.416661917232
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 5.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01PnBRqAXxZ4rxDGXyBCaa2p",
+        "name": "calculator",
+        "start_ms": 43.0,
+        "end_ms": 47.0,
+        "result_ms": 48.0,
+        "duration_ms": 5.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "7 + 5 = 12"
+      }
+    ]
+  },
+  "response": {
+    "chars": 467,
+    "tokens_approx": 116,
+    "final_text": "I'll work through this step-by-step:\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\n- We need to find the value of x\n\n**Step 2: Isolate x**\n- We have x + 5 = 12\n- To get x by itself, we need to remove the \"+ 5\" from the left side\n- We do this by subtracting 5 from both sides of the equation\n\n**Step 3: Perform the calculation**\n- x + 5 - 5 = 12 - 5\n- x = 7\n\nLet me verify this with a calculation:**Answer: x = 7**\n\n**Check:** 7 + 5 = 12 \u2713"
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 210,
+    "total_tokens": 902
+  },
+  "events": {
+    "total_events": 58,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 467,
+    "total_chunks": 47,
+    "duration_ms": 52.0,
+    "throughput_chars_per_sec": 8980.76923076923,
+    "avg_gap_ms": 1.1304347826086956,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

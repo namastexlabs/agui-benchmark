@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13630.852354923263,
+    "time_to_first_event_ms": 2664.333918946795,
+    "time_to_first_content_ms": 13630.887614912353,
+    "time_to_complete_ms": 13630.852354923263
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1262,
+    "tokens_approx": 315,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything that deletes data.\n\nBefore we proceed, a few quick questions so I can help safely:\n1. What data exactly do you want to delete (file names, folders, email, cloud storage, database, etc.)?\n2. Where is it stored (local PC, external drive, Google Drive, Dropbox, AWS S3, company server, etc.)?\n3. Do you want permanent deletion (bypass Trash/Recycle Bin) or move to Trash/Archive first?\n4. Do you have a backup or want me to show how to make one first?\n5. Am I to provide exact commands for you to run, or will you paste a file list and I should produce a deletion plan?\n\nMy plan (I will not run or instruct any destructive command until you explicitly approve):\n- Step A (non-destructive): identify and list the items that match your description so you can confirm them.\n- Step B (safety): create or verify a backup (optional but recommended).\n- Step C (destructive only after your approval): perform deletion or give you the exact commands to run.\n\nMay I start with Step A and list the items that match your description? If yes, tell me the location and what to look for (name patterns, file types, date range). Please reply \u201cYes \u2014 list items\u201d to proceed, or tell me how you want to proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

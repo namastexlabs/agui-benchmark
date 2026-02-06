@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3216.4664870360866,
+    "time_to_first_event_ms": 241.5593951009214,
+    "time_to_first_content_ms": 3216.638830024749,
+    "time_to_complete_ms": 3216.4664870360866
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0011069932952523232
+  },
+  "response": {
+    "chars": 676,
+    "tokens_approx": 169,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Step 1: Set up the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate x**\nTo find x, I need to get x by itself on one side of the equation. I can do this by subtracting 5 from both sides:\n- x + 5 - 5 = 12 - 5\n- x = 7\n\n**Step 3: Verify the answer**\nLet me check by substituting x = 7 back into the original equation:Perfect! \u2713\n\n**Answer: x = 7**\n\n**Reasoning:** To solve for x, we used the principle that whatever operation we do to one side of an equation, we must do to the other side to keep it balanced. Since 5 was being added to x, we subtracted 5 from both sides, which gave us x = 7. We verified this is correct since 7 + 5 = 12."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

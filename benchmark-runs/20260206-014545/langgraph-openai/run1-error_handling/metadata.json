@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6077.304483042099,
+    "time_to_first_event_ms": 1276.5485510462895,
+    "time_to_first_content_ms": 6078.7886990001425,
+    "time_to_complete_ms": 6077.304483042099
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 238,
+    "tokens_approx": 59,
+    "final_text": "The current time is 2026-02-06 01:45:48 (server time). Would you like this converted to a different timezone or format?The current time is 2026-02-06 01:45:48 (server time). Would you like this converted to a different timezone or format?"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 234,
+    "total_tokens": 480
+  },
+  "events": {
+    "total_events": 118,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

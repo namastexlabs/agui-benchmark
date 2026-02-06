@@ -1,0 +1,27 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": "'t have access to a tool called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " tools available to me are:\n\n1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": ". **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " **calculator** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " expressions\n\nIs"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": ":\n- Tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " you the current date"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " and time\n- Do"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " math"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " calculations for"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": "\n\nLet"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " me know what you'd like to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a", "delta": " do!"}
+{"type": "TEXT_MESSAGE_END", "messageId": "e1f7a82f-2193-4919-8f0a-45b9961cb72a"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling"}

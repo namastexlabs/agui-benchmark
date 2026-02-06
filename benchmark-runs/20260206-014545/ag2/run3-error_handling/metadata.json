@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12094.363734009676,
+    "time_to_first_event_ms": 2442.902066046372,
+    "time_to_first_content_ms": 12094.400481088087,
+    "time_to_complete_ms": 12094.363734009676
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1256,
+    "tokens_approx": 314,
+    "final_text": "I can\u2019t access or invoke a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment. I can, however, help in one of these ways \u2014 tell me which you prefer and give any details about the task:\n\nOptions\n- I can do the task directly here (text edits, calculations, writing code, summarizing, etc.). Tell me what \u201cdo something\u201d means and any inputs/constraints.\n- I can show how you would call a tool named nonexistent_tool on your machine (example code / CLI invocation).\n- I can help you create or install a tool with that name (write the code for it, create a small CLI, packaging instructions).\n\nExamples (pick/modify as needed)\n\n1) CLI call (shell)\n- bash:\n  subprocess.run([\"nonexistent_tool\", \"arg1\", \"arg2\"], check=True)\n\n2) Python (if it were a Python package)\n- python:\n  try:\n      import nonexistent_tool\n      result = nonexistent_tool.do_something(input_data)\n  except ImportError:\n      print(\"nonexistent_tool package not installed\")\n\n3) Node.js (child_process)\n- js:\n  const { execFile } = require('child_process');\n  execFile('nonexistent_tool', ['arg1'], (err, stdout, stderr) => {\n    if (err) throw err;\n    console.log(stdout);\n  });\n\nWhat do you want the tool to do? Provide the task and any sample inputs and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

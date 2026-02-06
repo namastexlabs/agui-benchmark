@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9861.337086069398,
+    "time_to_first_event_ms": 298.9346500253305,
+    "time_to_first_content_ms": 9861.807574983686,
+    "time_to_complete_ms": 9861.337086069398
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 928,
+    "tokens_approx": 232,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. A few quick clarifying questions before we proceed:\n\n1. What exactly do you want to delete (files, database rows, cloud buckets, user accounts)? Please be specific.\n2. Where is the data located (Windows, macOS, Linux, AWS S3, Google Drive, a particular database, etc.)?\n3. Do you have a backup or snapshot? If not, do you want instructions to make one first?\n4. Should the deletion be permanent (irreversible) or a soft-delete/archival?\n5. Do you want me to (A) provide precise step-by-step commands/scripts you can run, or (B) walk you through the process interactively?\n\nWarning: permanent deletion is usually irreversible. If you still want me to proceed with deletion instructions, please confirm by typing exactly:\nI CONFIRM DELETE\n\nOnce you provide the details above and that explicit confirmation phrase, I\u2019ll proceed with safe, specific instructions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 206,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 928,
+    "total_chunks": 202,
+    "duration_ms": 201.0,
+    "throughput_chars_per_sec": 4616.915422885572,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

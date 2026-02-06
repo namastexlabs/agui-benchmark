@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10028.738806024194,
+    "time_to_first_event_ms": 253.88172501698136,
+    "time_to_first_content_ms": 10029.26274202764,
+    "time_to_complete_ms": 10028.738806024194
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1528,
+    "tokens_approx": 382,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and your explicit confirmation.\n\nPlease reply with the answers to these questions and then give an explicit approval phrase (see below):\n\n1. What exactly do you want deleted? (Describe files, folders, databases, or services, including exact paths or names.)\n2. Where is the data stored? (Local machine, external drive, network share, cloud provider and region, database type and host, etc.)\n3. Who else might be affected by this deletion? (Other users, systems, or downstream processes.)\n4. Do you have a current backup? If not, do you want instructions to create one first?\n5. Is there a required time window to perform the deletion (immediate or scheduled)?\n6. Are there legal, compliance, or organizational approvals already obtained for this action?\n\nRisks and recommendations (please read):\n- Deletion may be irreversible. Ensure backups exist if you might need recovery.\n- Deleting shared or production data can break services for others.\n- I can provide a safe checklist, a rollback plan, and exact commands/procedures once you confirm.\n\nExplicit approval\n- If you still want me to proceed after answering the questions above, please type the exact confirmation phrase:\n  CONFIRM DELETE: [brief description of what will be deleted]\n  Example: CONFIRM DELETE: /data/projectX (production DB backup)\n\nI will wait for your answers and that exact confirmation phrase before doing anything or giving removal commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 315,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

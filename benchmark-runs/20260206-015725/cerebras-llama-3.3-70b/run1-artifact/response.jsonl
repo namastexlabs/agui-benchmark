@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "model": "llama-3.3-70b", "_timestamp": 539437.60702026, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353845", "role": "assistant", "_timestamp": 539437.60802026, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": "```", "_timestamp": 539437.6090202599, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": "python\ndef add_two_numbers(a, b):\n    \"\"\"\n    Adds two numbers together.\n\n    Args:\n        a (float): The first number.\n       ", "_timestamp": 539437.61002026, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": " b (float): The second number.\n\n    Returns:\n        float: The sum of a and", "_timestamp": 539437.6110202599, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": " b.\n    \"\"\"\n    return a + b\n\n# Example usage:\n", "_timestamp": 539437.61202026, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": "if __name__ == \"__main__\":\n    num1 =", "_timestamp": 539437.61302026, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": " 5\n    num2 = 7\n    result = add_two_numbers", "_timestamp": 539437.6140202599, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": "(num1, num2)\n    print(f\"The sum of {num1} and {num2", "_timestamp": 539437.61502026, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353845", "delta": "} is {result}\")\n```", "_timestamp": 539437.6160202599, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353845", "_timestamp": 539437.61702026, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "_timestamp": 539437.61802026, "_offset_ms": 11.0, "_index": 11}

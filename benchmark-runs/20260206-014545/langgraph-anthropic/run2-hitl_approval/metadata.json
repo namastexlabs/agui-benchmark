@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3875.195405096747,
+    "time_to_first_event_ms": 999.8388780513778,
+    "time_to_first_content_ms": 3878.6719610216096,
+    "time_to_complete_ms": 3875.195405096747
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1774,
+    "tokens_approx": 443,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete data** from your systems or files. I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to file systems, databases, or any tools that could delete or modify your data.\n\nIf you're looking to delete data from your own computer or accounts, you would need to:\n1. Use your operating system's file manager or the application where the data is stored\n2. Ensure you have backups of anything important before deleting\n3. Be very careful with confirmation prompts when deleting\n\n**Important reminder:** Always back up critical data before deletion, and consider using your system's trash/recycle bin feature first so you can recover files if needed.\n\nIs there something else I can help you with, like doing some calculations or checking the time?I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete data** from your systems or files. I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to file systems, databases, or any tools that could delete or modify your data.\n\nIf you're looking to delete data from your own computer or accounts, you would need to:\n1. Use your operating system's file manager or the application where the data is stored\n2. Ensure you have backups of anything important before deleting\n3. Be very careful with confirmation prompts when deleting\n\n**Important reminder:** Always back up critical data before deletion, and consider using your system's trash/recycle bin feature first so you can recover files if needed.\n\nIs there something else I can help you with, like doing some calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 196,
+    "total_tokens": 876
+  },
+  "events": {
+    "total_events": 184,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

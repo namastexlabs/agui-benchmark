@@ -1,0 +1,16 @@
+{
+  "thread_id": "test-thread-cerebras-llama-3.1-70b",
+  "run_id": "test-run-cerebras-llama-3.1-70b-multi_tool",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "First get the current time, then calculate 10 + 20."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {},
+  "model": "llama-3.1-70b"
+}

@@ -1,0 +1,37 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353254", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "python\ndef add_numbers(num1, num2):\n    \"\"\"\n   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " This function takes two numbers as input and returns their"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " sum.\n    \n    Parameters:\n    num1 (float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "):"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " first"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " number"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ".\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " num"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "):"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " second"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " number"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ".\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "    \n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " Returns"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ": The sum of num1 and num2.\n    \"\"\"\n    return num1 + num2\n```\n\n**Example Use Cases:**\n\n```python\n# Adding"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " two integers\nprint(add_numbers(5, 7))  # Output: 12\n\n# Adding a float and an integer\nprint(add_numbers(3.5, 2))  # Output"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ": 5.5\n\n# Adding two floats\nprint(add_numbers(1.25, 2.75))  # Output: 4.0\n```\n\nNote: This function does not include"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " any error checking to handle cases where the inputs are not numbers. You may want to add this in a real-world application."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353254"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

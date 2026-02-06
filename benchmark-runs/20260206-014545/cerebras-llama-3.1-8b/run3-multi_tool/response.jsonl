@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353254", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " can perform the tasks you requested"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": ". Here's the code:\n\n```python\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "# Import the time module to get the current time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "\nimport time\n\n# Get the current time\ncurrent_time = time.localtime()\n\n# Print"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " the current time\nprint(f\"Current Time: {current_time.tm_year}-{current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "_time.tm_mon}-{current_time.tm_mday} {current_time.tm"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "_hour}:{current_time.tm_min}:{current_time.tm_sec}\")\n\n#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " Calculate 10 + 20\nresult = 10 +"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " 20\n\n# Print the result\nprint(f\"10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " + 20"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " = {result}\")\n``"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "`\n\nWhen you run this code, it will print the current time and the result of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " the calculation."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353254"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool"}

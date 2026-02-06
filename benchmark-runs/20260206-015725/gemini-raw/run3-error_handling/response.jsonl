@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling", "_timestamp": 539606.244032792, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "63156e8c-a59f-46f7-821b-73b6ab34e82a", "role": "assistant", "_timestamp": 539606.2450327921, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "63156e8c-a59f-46f7-821b-73b6ab34e82a", "delta": "I am sorry, but the tool 'nonexistent_tool' does not exist. I can tell you the current time or evaluate mathematical expressions using the available tools.", "_timestamp": 539606.246032792, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "message_id": "63156e8c-a59f-46f7-821b-73b6ab34e82a", "_timestamp": 539606.2470327921, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling", "_timestamp": 539606.248032792, "_offset_ms": 4.0, "_index": 4}

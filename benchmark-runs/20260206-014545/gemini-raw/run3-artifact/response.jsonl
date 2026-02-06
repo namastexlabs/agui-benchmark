@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact"}
+{"type": "TOOL_CALL_START", "toolCallId": "ca454d9b-691a-4cc1-a220-5117a7c8a553", "toolCallName": "run_code"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "ca454d9b-691a-4cc1-a220-5117a7c8a553", "delta": "{\"code\": \"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "ca454d9b-691a-4cc1-a220-5117a7c8a553"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "ca454d9b-691a-4cc1-a220-5117a7c8a553", "result": "Unknown function"}
+{"type": "TEXT_MESSAGE_START", "message_id": "2635d3a4-3326-4dba-bbbe-9e6b4761ea49", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2635d3a4-3326-4dba-bbbe-9e6b4761ea49", "delta": "```python\ndef add_numbers(a, b):\n    return a + b\n```"}
+{"type": "TEXT_MESSAGE_END", "message_id": "2635d3a4-3326-4dba-bbbe-9e6b4761ea49"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact"}

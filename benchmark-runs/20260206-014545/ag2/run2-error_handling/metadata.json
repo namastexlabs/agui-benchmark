@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13699.056953075342,
+    "time_to_first_event_ms": 2724.6031960239634,
+    "time_to_first_content_ms": 13699.096887023188,
+    "time_to_complete_ms": 13699.056953075342
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1295,
+    "tokens_approx": 323,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my environment, so I can\u2019t call it. I can still help though. Tell me what you wanted the tool to do and pick one of these options:\n\n- I perform the task here myself (if it\u2019s something I can do, e.g., summarize text, generate code, analyze data, draft messages).\n- I simulate what \"nonexistent_tool\" would output (useful for testing or designing workflows).\n- I produce code or instructions you can run locally to implement/use such a tool (specify language/platform).\n\nIf you want code, here\u2019s a short Python template you can adapt to call a hypothetical external tool or API:\n\n```python\nimport requests\n\ndef call_nonexistent_tool(endpoint, payload, api_key=None):\n    headers = {'Content-Type': 'application/json'}\n    if api_key:\n        headers['Authorization'] = f'Bearer {api_key}'\n    try:\n        resp = requests.post(endpoint, json=payload, headers=headers, timeout=10)\n        resp.raise_for_status()\n        return resp.json()\n    except requests.RequestException as e:\n        return {'error': str(e)}\n\n# Example use:\n# result = call_nonexistent_tool('https://api.example.com/do', {'task': 'something'}, api_key='KEY')\n# print(result)\n```\n\nWhich option do you want, and what specifically should the tool do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

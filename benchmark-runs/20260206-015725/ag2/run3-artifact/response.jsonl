@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 539606.192426553, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "2a1fcc8a-30bc-4122-8dc8-51413bcc662b", "role": "assistant", "_timestamp": 539606.193426553, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2a1fcc8a-30bc-4122-8dc8-51413bcc662b", "delta": "```python\ndef add(a: float, b: float) -> float:\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n\n# Example:\n# result = add(2, 3)  # 5.0\n```", "_timestamp": 539606.194426553, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "2a1fcc8a-30bc-4122-8dc8-51413bcc662b", "_timestamp": 539606.195426553, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 539606.196426553, "_offset_ms": 4.0, "_index": 4}

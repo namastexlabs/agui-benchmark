@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4754.407680011354,
+    "time_to_first_event_ms": 225.79500498250127,
+    "time_to_first_content_ms": 4754.472153959796,
+    "time_to_complete_ms": 4754.407680011354
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.000934000127017498
+  },
+  "response": {
+    "chars": 46,
+    "tokens_approx": 11,
+    "final_text": "Current time: 2026-02-06 01:47:33\n10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 41,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

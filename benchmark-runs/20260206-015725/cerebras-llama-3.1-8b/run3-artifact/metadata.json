@@ -1,0 +1,49 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5162.548095919192,
+    "time_to_first_event_ms": 4523.456711904146,
+    "time_to_first_content_ms": 5162.612981977873,
+    "time_to_complete_ms": 5162.548095919192
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1094,
+    "tokens_approx": 273,
+    "final_text": "```python\n# Function to add two numbers\n\ndef add_numbers(num1, num2):\n    \"\"\"\n    This function takes two numbers as input and returns their sum.\n\n    Args:\n        num1 (int or float): The first number to add.\n        num2 (int or float): The second number to add.\n\n    Returns:\n        int or float: The sum of num1 and num2.\n\n    Raises:\n        TypeError: If either num1 or num2 is not a number.\n    \"\"\"\n    if not isinstance(num1, (int, float)) or not isinstance(num2, (int, float)):\n        raise TypeError(\"Both inputs must be numbers\")\n    return num1 + num2\n\n# Example usage:\nprint(add_numbers(5, 7))  # Outputs: 12\nprint(add_numbers(3.5, 2.8))  # Outputs: 6.3\n```\n\nThis code defines a function called `add_numbers` that takes two arguments, `num1` and `num2`, and returns their sum. It includes a docstring that explains the function's purpose, arguments, return value, and any exceptions it may raise. The function also includes input validation to ensure that both `num1` and `num2` are numbers. The example usage demonstrates how to call the function with different types of input."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 27,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1094,
+    "total_chunks": 23,
+    "duration_ms": 22.0,
+    "throughput_chars_per_sec": 49727.27272727273,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

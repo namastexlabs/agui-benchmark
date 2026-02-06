@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9642.68056594301,
+    "time_to_first_event_ms": 253.28746903687716,
+    "time_to_first_content_ms": 9642.714290996082,
+    "time_to_complete_ms": 9642.68056594301
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1334,
+    "tokens_approx": 333,
+    "final_text": "I can\u2019t run a tool called \"nonexistent_tool\" because it doesn\u2019t exist / isn\u2019t available here. I won\u2019t pretend to run it. Tell me what you want to accomplish and I can help in one of these ways:\n\nOptions\n- Use built-in capabilities: tell me the task and I\u2019ll do it directly (analysis, transform text, compute, generate code, etc.).\n- Simulate the tool\u2019s output: I can produce a plausible example of what the tool would return so you can see how to proceed.\n- Give installation or implementation steps: I can show how to create or install a CLI named nonexistent_tool (shell or Python example) so you can run it locally.\n- Use a real alternative tool: tell me the actual tool you intended and I\u2019ll use or show how to use it.\n\nQuick example: create a simple CLI named nonexistent_tool (bash)\n1) Create file:\n#!/bin/bash\necho \"Simulated nonexistent_tool output for args: $*\"\n2) Make executable:\nchmod +x nonexistent_tool\n3) Move to PATH:\nsudo mv nonexistent_tool /usr/local/bin/\n\nOr a Python template:\n#!/usr/bin/env python3\nimport argparse\ndef main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"input\", nargs=\"*\")\n    args = p.parse_args()\n    print(\"Simulated output for:\", args.input)\nif __name__ == \"__main__\":\n    main()\n\nWhich option would you like, or what specific task were you hoping to perform with nonexistent_tool?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

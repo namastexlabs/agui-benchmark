@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2670.1343880267814,
+    "time_to_first_event_ms": 975.6663310108706,
+    "time_to_first_content_ms": 2670.3531040111557,
+    "time_to_complete_ms": 2670.1343880267814
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 510,
+    "tokens_approx": 127,
+    "final_text": "Hello, I'm a helpful assistant here to assist you with basic math calculations and provide information about the current time. I'm friendly and concise, and I'll do my best to help with any questions you may have. I'm looking forward to chatting with you.Hello, I'm a helpful assistant here to assist you with basic math calculations and provide information about the current time. I'm friendly and concise, and I'll do my best to help with any questions you may have. I'm looking forward to chatting with you."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 255,
+    "total_chunks": 7,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 21250.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

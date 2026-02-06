@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3636.049411026761,
+    "time_to_first_event_ms": 227.50661196187139,
+    "time_to_first_content_ms": 3636.1643279669806,
+    "time_to_complete_ms": 3636.049411026761
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 156,
+    "tokens_approx": 39,
+    "final_text": "```python\ndef add(a, b):\n    \"\"\"\n    Return the sum of a and b.\n\n    Works with ints, floats, and other types that implement +.\n    \"\"\"\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 47,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 156,
+    "total_chunks": 43,
+    "duration_ms": 42.0,
+    "throughput_chars_per_sec": 3714.285714285714,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10132.094827946275,
+    "time_to_first_event_ms": 2783.2611359190196,
+    "time_to_first_content_ms": 10132.131904945709,
+    "time_to_complete_ms": 10132.094827946275
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 960,
+    "tokens_approx": 240,
+    "final_text": "I can\u2019t call a tool that doesn\u2019t exist. I won\u2019t fabricate running a nonexistent tool, but I can help in one of these ways \u2014 tell me which you want:\n\n1. Tell me exactly what you want done and I\u2019ll do it directly here (I can analyze, compute, write code/text, fetch publicly-known info up to my cutoff, plan tasks, etc.).\n2. If you meant a real tool, give the correct tool name or enable it and I\u2019ll use it.\n3. I can show how to implement a tool named \"nonexistent_tool\" (example code) that performs the action you want. Example (Python):\n   - def nonexistent_tool(input_data):\n       # implement the behavior you need\n       return result\n   - Then show how to call it and handle results.\n4. I can produce a simulated output (clearly labeled as simulation) if you only want a demonstration.\n\nWhat specific task do you want done? If you want code for a particular behavior, say what the tool should do (e.g., fetch a web page, transform data, run a calculation)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12364.919034997001,
+    "time_to_first_event_ms": 1948.410400073044,
+    "time_to_first_content_ms": 12365.370527026244,
+    "time_to_complete_ms": 12364.919034997001
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 811,
+    "tokens_approx": 202,
+    "final_text": "I can help \u2014 but I won\u2019t do anything until you explicitly approve. Before you confirm, please tell me:\n\n1. Exactly what data you want deleted (file paths, account names, or descriptions).  \n2. Where it\u2019s stored (local device, external drive, cloud service, specific app).  \n3. Whether you have a backup or want me to advise how to make one.  \n4. Should the deletion be permanent (irreversible) or moved to a recycle/trash folder first?  \n5. Whether you want me to perform the deletion (if I have the ability) or just provide step\u2011by\u2011step instructions.\n\nWhen you\u2019re ready, give one of these exact confirmations so I can proceed safely:\n- \u201cYes \u2014 permanently delete the specified data.\u201d\n- \u201cYes \u2014 move the specified data to trash (not permanent).\u201d\n\nIf you prefer a different confirmation phrase, tell me what it is."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 189,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 811,
+    "total_chunks": 185,
+    "duration_ms": 184.0,
+    "throughput_chars_per_sec": 4407.608695652174,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

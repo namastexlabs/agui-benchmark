@@ -1,0 +1,38 @@
+{
+  "agent": "google-adk",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1549.519121996127,
+    "time_to_first_event_ms": 419.21950899995863,
+    "time_to_first_content_ms": 1549.546392983757,
+    "time_to_complete_ms": 1549.519121996127
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 87,
+    "tokens_approx": 21,
+    "final_text": "I'm sorry, I cannot delete data. I am a language model and do not have that capability."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

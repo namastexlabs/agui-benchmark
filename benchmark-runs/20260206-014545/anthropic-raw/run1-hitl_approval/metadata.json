@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12050.71274295915,
+    "time_to_first_event_ms": 12049.835628946312,
+    "time_to_first_content_ms": 12050.879604998045,
+    "time_to_complete_ms": 12050.71274295915
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 899,
+    "tokens_approx": 224,
+    "final_text": "I appreciate you wanting to be cautious, but I should clarify: **I don't have the ability to delete any data**. \n\nLooking at the tools available to me, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts. \n\n**If you need to delete important data**, you would need to do that directly through:\n- Your file manager or operating system\n- Your cloud storage service (Google Drive, OneDrive, etc.)\n- Your email provider\n- Database management tools\n- Or whatever application stores that data\n\nFor any important deletions, I'd recommend:\n1. \u2705 **Backing up** your data first\n2. \u2705 **Double-checking** what you're deleting\n3. \u2705 **Verifying** you have a recovery option (like trash/recycle bin)\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 232,
+    "total_tokens": 915
+  },
+  "events": {
+    "total_events": 84,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

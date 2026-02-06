@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5329.154898994602,
+    "time_to_first_event_ms": 321.3055080268532,
+    "time_to_first_content_ms": 5329.727080068551,
+    "time_to_complete_ms": 5329.154898994602
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 777,
+    "tokens_approx": 194,
+    "final_text": "I don't have a tool named \"nonexistent_tool\" available. The tools I can actually call are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you wanted \"nonexistent_tool\" to do and I can:\n- do the same task with one of the available tools (or a combination), or  \n- simulate the expected behavior and return a mock result, or  \n- provide code/instructions you can run locally to achieve it.\n\nExamples:\n- \"Give me the current time\" \u2192 I can call get_current_time.\n- \"Compute 12345 * 678\" \u2192 I can call calculator.\n- \"Get time and compute 2+2 at once\" \u2192 I can use multi_tool_use.parallel.\n\nWhat would you like me to do instead?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 186,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

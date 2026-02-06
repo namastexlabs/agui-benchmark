@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8130.739676998928,
+    "time_to_first_event_ms": 298.99782105349004,
+    "time_to_first_content_ms": 8131.171723012812,
+    "time_to_complete_ms": 8130.739676998928
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 739,
+    "tokens_approx": 184,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it doesn\u2019t exist in my toolset. I can, however, use the available tools (get_current_time, calculator) or run them together via the parallel wrapper.\n\nOptions:\n- I can get the current time now.\n- I can evaluate a math expression (e.g., \"12 / (3.5 + 0.5)\").\n- I can run both in parallel (example payload shown) and return results.\n\nExample of a parallel request I can run for you:\n{\n  \"tool_uses\": [\n    { \"recipient_name\": \"functions.get_current_time\", \"parameters\": {} },\n    { \"recipient_name\": \"functions.calculator\", \"parameters\": { \"expression\": \"2 + 2\" } }\n  ]\n}\n\nWhat would you like me to do instead? If you tell me a math expression or ask for the current time, I\u2019ll run it now."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 197,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 739,
+    "total_chunks": 193,
+    "duration_ms": 192.0,
+    "throughput_chars_per_sec": 3848.9583333333335,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12441.698945011012,
+    "time_to_first_event_ms": 12440.987791051157,
+    "time_to_first_content_ms": 12441.859557991847,
+    "time_to_complete_ms": 12441.698945011012
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 740,
+    "tokens_approx": 185,
+    "final_text": "I appreciate you checking in, but I should clarify: **I don't actually have the ability to delete any data.** \n\nI'm a helpful AI assistant with access to only two tools:\n- Getting the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete any files, databases, or data on your system or anywhere else. I'm designed to be safe and limited in what I can do.\n\nIf you're looking to delete important data from your own system, you would need to:\n1. Use your operating system's file manager or appropriate application\n2. Ensure you have proper backups before deletion\n3. Make sure you're deleting the correct files\n\nIs there something else I can help you with, like a math calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 172,
+    "total_tokens": 855
+  },
+  "events": {
+    "total_events": 69,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

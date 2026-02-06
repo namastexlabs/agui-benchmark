@@ -1,0 +1,57 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2314.834752934985,
+    "time_to_first_event_ms": 258.25410801917315,
+    "time_to_first_content_ms": 2315.3799410210922,
+    "time_to_complete_ms": 2314.834752934985
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 177,
+    "tokens_approx": 44,
+    "final_text": "The current time is **2026-02-06 01:57:26** (February 6th, 2026 at 1:57 AM and 26 seconds).The result of 42 * 17 is **714**. \n\nIs there anything else you'd like me to calculate?"
+  },
+  "tokens": {
+    "input_tokens": 739,
+    "output_tokens": 44,
+    "total_tokens": 783
+  },
+  "events": {
+    "total_events": 74,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 91,
+    "total_chunks": 10,
+    "duration_ms": 19.0,
+    "throughput_chars_per_sec": 4789.473684210527,
+    "avg_gap_ms": 2.111111111111111,
+    "p95_gap_ms": 3.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,20 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01VqwL5Fk44wzEgdAkEKbU6p", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01VqwL5Fk44wzEgdAkEKbU6p", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01VqwL5Fk44wzEgdAkEKbU6p"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01VqwL5Fk44wzEgdAkEKbU6p", "result": "2026-02-06 01:47:34"}
+{"type": "TEXT_MESSAGE_START", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": "2026-02-06 at"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " 01:47:34**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " (1"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": ":47 "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": "AM an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": "d 34"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " seconds on"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " February"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " 6th,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2", "delta": " 2026)."}
+{"type": "TEXT_MESSAGE_END", "message_id": "751b481f-86a1-4aa1-bc12-7d261cee27b2"}
+{"type": "USAGE_METADATA", "input_tokens": 679, "output_tokens": 39, "total_tokens": 718, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}

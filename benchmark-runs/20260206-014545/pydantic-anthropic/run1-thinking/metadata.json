@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3385.296681080945,
+    "time_to_first_event_ms": 220.0544560328126,
+    "time_to_first_content_ms": 3385.4693740140647,
+    "time_to_complete_ms": 3385.296681080945
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0012950040400028229
+  },
+  "response": {
+    "chars": 732,
+    "tokens_approx": 183,
+    "final_text": "I'll solve this step-by-step using algebraic reasoning.\n\n**Step 1: Identify what we know**\n- We have the equation: x + 5 = 12\n- We need to find the value of x\n\n**Step 2: Apply the principle of solving equations**\n- To isolate x, we need to undo the operation being performed on it\n- Currently, 5 is being added to x\n- To undo addition, we subtract\n\n**Step 3: Subtract 5 from both sides**\n- x + 5 - 5 = 12 - 5\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check this using the calculator:Perfect! \u2713\n\n**Answer: x = 7**\n\n**Reasoning summary:** By subtracting 5 from both sides of the equation (keeping it balanced), we isolate x and find that x equals 7. We verified this by substituting 7 back into the original equation: 7 + 5 = 12 \u2713"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 83,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

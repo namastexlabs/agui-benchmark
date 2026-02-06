@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-hitl_approval"}
+{"type": "STEP_STARTED", "stepName": "handle_message"}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "I need to delete important data. You must ask for my approval before proceeding."}]}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "I need to delete important data. You must ask for my approval before proceeding.", "name": null}], "copilotkit": {"actions": []}}}
+{"type": "STEP_FINISHED", "stepName": "handle_message"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-hitl_approval"}

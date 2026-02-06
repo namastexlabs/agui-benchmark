@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3565.1133839273825,
+    "time_to_first_event_ms": 216.76130301784724,
+    "time_to_first_content_ms": 3565.230345004238,
+    "time_to_complete_ms": 3565.1133839273825
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 177,
+    "tokens_approx": 44,
+    "final_text": "Hello! I\u2019m an AI assistant here to help with information, explanations, and everyday tasks. Ask me anything\u2014I can summarize, compute, draft text, and guide you through problems."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 42,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 177,
+    "total_chunks": 38,
+    "duration_ms": 37.0,
+    "throughput_chars_per_sec": 4783.783783783784,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2784.7176399081945,
+    "time_to_first_event_ms": 256.15279690828174,
+    "time_to_first_content_ms": 2784.86840298865,
+    "time_to_complete_ms": 2784.7176399081945
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 594,
+    "tokens_approx": 148,
+    "final_text": "I'll solve this step-by-step:\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate x**\nTo find x, I need to get it alone on one side of the equation. Since 5 is being added to x, I'll subtract 5 from both sides:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check: 7 + 5 = 12 \u2713\n\nTherefore, **x = 7**\n\nThe reasoning is straightforward: whatever operation is done to one side of an equation must be done to the other side to keep it balanced. Since 5 was added to x, subtracting 5 from both sides isolates x and gives us our answer."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

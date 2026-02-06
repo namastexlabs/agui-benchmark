@@ -1,0 +1,25 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-multi_tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_013Ty9Fkrtht295z1GU17VQn", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_013Ty9Fkrtht295z1GU17VQn", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_013Ty9Fkrtht295z1GU17VQn"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_013Ty9Fkrtht295z1GU17VQn", "result": "2026-02-06 01:46:43"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "delta": ""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "delta": "{\"expression"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "delta": "\": \"10 + 2"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "delta": "0\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01TqSHeXbRHUdDQDDTyLH9vV", "result": "10 + 20 = 30"}
+{"type": "TEXT_MESSAGE_START", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": "Done"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": "! Here are"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": " the results:\n\n**Current Time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": ":** "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": "2026-02-06 01"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": ":46:43\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": "Calculation:** 10 + 20"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": " = **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e", "delta": "30**"}
+{"type": "TEXT_MESSAGE_END", "message_id": "94bc67d4-509b-444c-9dcd-4d68d5ff864e"}
+{"type": "USAGE_METADATA", "input_tokens": 681, "output_tokens": 77, "total_tokens": 758, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-multi_tool"}

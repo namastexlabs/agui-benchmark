@@ -1,0 +1,42 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3839.818079955876,
+    "time_to_first_event_ms": 258.73597990721464,
+    "time_to_first_content_ms": 3840.0085798930377,
+    "time_to_complete_ms": 3839.818079955876
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0006239861249923706
+  },
+  "response": {
+    "chars": 755,
+    "tokens_approx": 188,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to do**\nWe need to isolate x on one side of the equation.\n\n**Step 2: Remove the constant from the left side**\nTo isolate x, we need to subtract 5 from both sides of the equation (since we're doing the opposite operation of addition):\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check this using the calculator:Perfect! \u2713\n\n**Answer: x = 7**\n\n**Reasoning:** We solved this by using the inverse operation (subtraction) to undo the addition of 5, which isolated x and gave us our answer. The verification confirms that when x = 7, substituting back into the original equation gives us 7 + 5 = 12, which is true."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 82,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4657.576375990175,
+    "time_to_first_event_ms": 4210.380553966388,
+    "time_to_first_content_ms": 4657.6248538913205,
+    "time_to_complete_ms": 4657.576375990175
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 422,
+    "tokens_approx": 105,
+    "final_text": "I don't have information about a tool called \"nonexistent_tool.\" It's possible that it's a fictional or made-up tool, or it could be a typo or misunderstanding. If you meant to ask about a different tool, please let me know and I'll do my best to help. If you'd like to create a hypothetical scenario or thought experiment involving a \"nonexistent_tool,\" I'd be happy to play along and see where the conversation takes us!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

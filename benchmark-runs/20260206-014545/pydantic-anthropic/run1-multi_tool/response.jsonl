@@ -1,0 +1,27 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-multi_tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_014xE9vo3jpVSqFx2WzJA9A8", "toolCallName": "get_current_time", "parentMessageId": "a7208ae3-4960-4cf3-9dec-0108b88f0f3d"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_014xE9vo3jpVSqFx2WzJA9A8", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_014xE9vo3jpVSqFx2WzJA9A8"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "toolCallName": "calculator", "parentMessageId": "a7208ae3-4960-4cf3-9dec-0108b88f0f3d"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": ""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": "{\"ex"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": "pres"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": "sion\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": ": "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": "\"10 +"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "delta": " 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX"}
+{"type": "TOOL_CALL_RESULT", "messageId": "f65c5726-461d-49f2-b504-58f11feb70e9", "toolCallId": "toolu_01Q4g7yB9RBwNJxzyKgFYMbX", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TOOL_CALL_RESULT", "messageId": "080e81c0-8ba1-4fe2-b562-bda213cbbde3", "toolCallId": "toolu_014xE9vo3jpVSqFx2WzJA9A8", "content": "2026-02-06 01:45:46", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": "Great"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": "! Here are the results:\n\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": " **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": "Current time:**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": "2026-02-06 01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": ":45:46\n- **10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": " + 20 = 30"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0", "delta": "**"}
+{"type": "TEXT_MESSAGE_END", "messageId": "a715457b-c576-4a1d-8100-b71add42d1f0"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-multi_tool"}

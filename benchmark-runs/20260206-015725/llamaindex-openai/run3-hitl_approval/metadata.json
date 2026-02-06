@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10323.805299936794,
+    "time_to_first_event_ms": 484.7173299640417,
+    "time_to_first_content_ms": 10324.666374945082,
+    "time_to_complete_ms": 10323.805299936794
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1256,
+    "tokens_approx": 314,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we go any further, I need a few details so I can proceed safely and correctly:\n\n1. What exactly do you want deleted? (file/folder names, database/table/rows, cloud bucket, account, etc.)  \n2. Where is the data located? (local machine, specific server, AWS/GCP/Azure, Google Drive, Dropbox, database type and host, etc.)  \n3. Do you have a backup or snapshot you can restore from if needed? Do you want me to create one first?  \n4. Is deletion permanent (irreversible) or a soft-delete/archival?  \n5. Are there any legal, compliance, or ownership constraints I should be aware of?  \n6. How do you want me to carry out the deletion? (Provide step-by-step commands/instructions for you to run, or perform deletion through an API/connected tool if you\u2019ve already linked one.)  \n7. Who is authorized to approve this deletion (just you?), and when should it happen (immediately or scheduled)?\n\nWhen you\u2019re ready for me to actually proceed, please reply with an explicit confirmation phrase plus the exact items to delete. For example:\n\"I APPROVE DELETION \u2014 delete files: /path/to/file1, /path/to/folder2\"\n\nI will not take any deletion action until I receive that explicit confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 292,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

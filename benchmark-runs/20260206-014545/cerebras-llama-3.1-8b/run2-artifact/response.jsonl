@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353193", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "Adding Two Numbers Function**\n================================\n\nHere's a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " simple Python function that takes two numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " as input and returns their sum:\n\n```python\ndef add_numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "(a: float, b: float) -> float:\n   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " \"\"\"\n    Returns the sum of two numbers.\n\n    Args:\n       "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " a (float): The first number.\n        b (float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "): The second number.\n\n    Returns:\n       "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " float: The sum of a and b.\n   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " \"\"\"\n    return a + b\n```\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "**Example Use Cases**\n--------------------\n\n```python\n# Add two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " integers\nresult = add_numbers(5, 7)\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "print(result)  # Output: 12\n\n# Add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " two floats\nresult = add_numbers(3.5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "2.8)\nprint(result)  # Output: "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "6.3\n```\n\nThis function uses type hints to indicate"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " that it expects two float arguments and returns a float result."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " It's also documented with a docstring that explains its purpose,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " arguments, and return value."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353193"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

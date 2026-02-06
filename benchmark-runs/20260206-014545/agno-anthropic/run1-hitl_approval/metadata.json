@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2965.3148320503533,
+    "time_to_first_event_ms": 268.0601989850402,
+    "time_to_first_content_ms": 2965.466907946393,
+    "time_to_complete_ms": 2965.3148320503533
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 728,
+    "tokens_approx": 182,
+    "final_text": "I appreciate you being thoughtful about this, but I should clarify: **I don't actually have the ability to delete any data.** I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to files, databases, systems, or any storage where I could delete information. I can't interact with your computer, cloud storage, or any other data systems.\n\nIf you're looking to delete data from your own system, you would need to do that directly through:\n- Your file manager or operating system\n- Your cloud service provider (Google Drive, OneDrive, etc.)\n- Your application's settings\n- Your database management tool\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

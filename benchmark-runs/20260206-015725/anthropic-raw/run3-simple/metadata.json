@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4097.012924030423,
+    "time_to_first_event_ms": 4096.053355024196,
+    "time_to_first_content_ms": 4097.059207968414,
+    "time_to_complete_ms": 4097.012924030423
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 240,
+    "tokens_approx": 60,
+    "final_text": "Hello! \ud83d\udc4b I'm Claude, an AI assistant here to help you with a variety of tasks. I can answer questions, help with writing, solve math problems, check the current time, and have friendly conversations. Feel free to ask me anything you'd like!"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 59,
+    "total_tokens": 739
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 240,
+    "total_chunks": 18,
+    "duration_ms": 17.0,
+    "throughput_chars_per_sec": 14117.64705882353,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

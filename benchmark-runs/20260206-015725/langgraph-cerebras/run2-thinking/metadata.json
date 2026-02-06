@@ -1,0 +1,52 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2232.471355004236,
+    "time_to_first_event_ms": 972.9720309842378,
+    "time_to_first_content_ms": 2232.7342490898445,
+    "time_to_complete_ms": 2232.471355004236
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 695,
+    "tokens_approx": 173,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. The equation given is x + 5 = 12. \n\nWe can do this by subtracting 5 from both sides of the equation, which keeps the equation balanced. \n\nSo, x + 5 - 5 = 12 - 5, which simplifies to x = 7.\n\nTherefore, the value of x is 7.I'm happy to help you with your query. Before we proceed with deleting any important data, I want to make sure you're aware of the consequences. Deleting important data can be irreversible and may result in loss of valuable information. \n\nCan you please confirm that you want to proceed with deleting the data and that you have taken necessary backups or have the means to recover the data if needed?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 34,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 295,
+    "total_chunks": 7,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 24583.333333333332,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

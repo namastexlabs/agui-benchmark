@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 539559.626626806, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "32fd0c50-051e-4933-a3d3-9ecbbb78c842", "role": "assistant", "_timestamp": 539559.627626806, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "32fd0c50-051e-4933-a3d3-9ecbbb78c842", "delta": "Sorry \u2014 I can\u2019t share my internal step-by-step chain-of-thought. I can, however, give the answer and a brief, direct explanation.\n\nx + 5 = 12  \nSubtract 5 from both sides: x = 12 \u2212 5  \nSo x = 7. (Check: 7 + 5 = 12.)", "_timestamp": 539559.628626806, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "32fd0c50-051e-4933-a3d3-9ecbbb78c842", "_timestamp": 539559.629626806, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 539559.6306268059, "_offset_ms": 4.0, "_index": 4}

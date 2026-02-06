@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "0b68b2f3-0f73-4047-9fd8-9dfb104cd3f8", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "0b68b2f3-0f73-4047-9fd8-9dfb104cd3f8"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01U29nsHhE5rKUKs5xZCtuML", "toolCallName": "calculator", "parentMessageId": "0b68b2f3-0f73-4047-9fd8-9dfb104cd3f8"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01U29nsHhE5rKUKs5xZCtuML", "delta": "{\"expression\": \"42 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01U29nsHhE5rKUKs5xZCtuML"}
+{"type": "TOOL_CALL_RESULT", "messageId": "628a4ac3-84f8-4359-a55f-e411ddbc01b5", "toolCallId": "toolu_01U29nsHhE5rKUKs5xZCtuML", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a5ce8af2-c2bf-43cb-8b0d-1305f2babdb6", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a5ce8af2-c2bf-43cb-8b0d-1305f2babdb6", "delta": "The result of 42 \u00d7"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a5ce8af2-c2bf-43cb-8b0d-1305f2babdb6", "delta": " 17 is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a5ce8af2-c2bf-43cb-8b0d-1305f2babdb6", "delta": "714**."}
+{"type": "TEXT_MESSAGE_END", "messageId": "a5ce8af2-c2bf-43cb-8b0d-1305f2babdb6"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_calc"}

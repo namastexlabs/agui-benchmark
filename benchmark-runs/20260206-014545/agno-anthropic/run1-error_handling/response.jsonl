@@ -1,0 +1,25 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": "'t have access to a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " tools available to me are:\n\n1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": ". **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " **calculator** - Evaluate mathematical expressions"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": "\n\nIs"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " you the current time or perform"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " math"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af", "delta": " calculation."}
+{"type": "TEXT_MESSAGE_END", "messageId": "5866fd9a-82c5-47f9-bb45-55bb9dd112af"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}

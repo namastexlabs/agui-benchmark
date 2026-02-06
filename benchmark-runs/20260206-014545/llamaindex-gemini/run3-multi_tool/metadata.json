@@ -1,0 +1,39 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4369.405624922365,
+    "time_to_first_event_ms": 1083.5261599859223,
+    "time_to_first_content_ms": 4369.490545010194,
+    "time_to_complete_ms": 4369.405624922365
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 60,
+    "tokens_approx": 15,
+    "final_text": "The current time is 01:47:32 on 2026-02-06 and 10 + 20 = 30."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  }
+}

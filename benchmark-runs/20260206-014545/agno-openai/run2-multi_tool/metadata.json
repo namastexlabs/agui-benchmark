@@ -1,0 +1,42 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4703.00533703994,
+    "time_to_first_event_ms": 255.36958605516702,
+    "time_to_first_content_ms": 4703.097495017573,
+    "time_to_complete_ms": 4703.00533703994
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0010220101103186607
+  },
+  "response": {
+    "chars": 46,
+    "tokens_approx": 11,
+    "final_text": "Current time: 2026-02-06 01:46:31\n10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 38,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

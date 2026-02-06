@@ -1,0 +1,66 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5749.9763070372865,
+    "time_to_first_event_ms": 5749.5974759804085,
+    "time_to_first_content_ms": 5750.031505944207,
+    "time_to_complete_ms": 5749.9763070372865
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_012VgZT9tFDDT7yFXxpkzPCd",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "2026-02-06 01:59:38"
+      }
+    ]
+  },
+  "response": {
+    "chars": 91,
+    "tokens_approx": 22,
+    "final_text": "The current time is **2026-02-06 at 01:59:38** (just before 2:00 AM on February 6th, 2026)."
+  },
+  "tokens": {
+    "input_tokens": 679,
+    "output_tokens": 39,
+    "total_tokens": 718
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 91,
+    "total_chunks": 8,
+    "duration_ms": 7.0,
+    "throughput_chars_per_sec": 13000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

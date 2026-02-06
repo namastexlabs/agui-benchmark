@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4722.4423959851265,
+    "time_to_first_event_ms": 853.0573809985071,
+    "time_to_first_content_ms": 4724.871709942818,
+    "time_to_complete_ms": 4722.4423959851265
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1810,
+    "tokens_approx": 452,
+    "final_text": "I appreciate you wanting to be careful, but I should clarify: **I don't have the ability to delete any data.** \n\nThe tools available to me are limited to:\n- Telling you the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete any files, databases, or other data on your system or elsewhere. Any data deletion would need to be done directly by you using your computer, applications, or services.\n\nIf you're concerned about accidentally deleting important data, here are some general best practices:\n- **Back up your data first** before any major deletions\n- **Use your application's undo feature** if available\n- **Move files to a trash/recycle bin** rather than permanently deleting them initially\n- **Double-check file names and locations** before confirming deletion\n\nIs there something specific I can help you with, like math calculations or checking the time?I appreciate you wanting to be careful, but I should clarify: **I don't have the ability to delete any data.** \n\nThe tools available to me are limited to:\n- Telling you the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete any files, databases, or other data on your system or elsewhere. Any data deletion would need to be done directly by you using your computer, applications, or services.\n\nIf you're concerned about accidentally deleting important data, here are some general best practices:\n- **Back up your data first** before any major deletions\n- **Use your application's undo feature** if available\n- **Move files to a trash/recycle bin** rather than permanently deleting them initially\n- **Double-check file names and locations** before confirming deletion\n\nIs there something specific I can help you with, like math calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 201,
+    "total_tokens": 881
+  },
+  "events": {
+    "total_events": 173,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

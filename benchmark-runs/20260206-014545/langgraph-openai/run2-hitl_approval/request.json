@@ -1,0 +1,15 @@
+{
+  "thread_id": "test-thread-langgraph-openai",
+  "run_id": "test-run-langgraph-openai-hitl_approval",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "I need to delete important data. You must ask for my approval before proceeding."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

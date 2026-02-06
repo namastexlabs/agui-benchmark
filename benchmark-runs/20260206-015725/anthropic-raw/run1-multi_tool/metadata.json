@@ -1,0 +1,77 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12127.717177965678,
+    "time_to_first_event_ms": 12127.379106008448,
+    "time_to_first_content_ms": 12127.78541399166,
+    "time_to_complete_ms": 12127.717177965678
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 10.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01R7EWpWN3keioc95T3sGYpB",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "2026-02-06 01:57:38"
+      },
+      {
+        "tool_call_id": "toolu_01NnHcvVSboJMrhCe3nSGfP7",
+        "name": "calculator",
+        "start_ms": 5.0,
+        "end_ms": 11.0,
+        "result_ms": 12.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "10 + 20 = 30"
+      }
+    ]
+  },
+  "response": {
+    "chars": 67,
+    "tokens_approx": 16,
+    "final_text": "The current time is **2026-02-06 01:57:38**.\n\nAnd 10 + 20 = **30**."
+  },
+  "tokens": {
+    "input_tokens": 681,
+    "output_tokens": 77,
+    "total_tokens": 758
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 67,
+    "total_chunks": 5,
+    "duration_ms": 4.0,
+    "throughput_chars_per_sec": 16750.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

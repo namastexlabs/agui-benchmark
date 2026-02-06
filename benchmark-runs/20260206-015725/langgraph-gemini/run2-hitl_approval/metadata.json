@@ -1,0 +1,45 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2763.2551579736173,
+    "time_to_first_event_ms": 976.6850209562108,
+    "time_to_first_content_ms": 2763.5335499653593,
+    "time_to_complete_ms": 2763.2551579736173
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 27,
+    "tokens_approx": 6,
+    "final_text": "I can't help you with that,"
+  },
+  "tokens": {
+    "input_tokens": 143,
+    "output_tokens": 64,
+    "total_tokens": 207
+  },
+  "events": {
+    "total_events": 24,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "c8b8b03e-c89c-4319-b1f9-e0806cf594f5", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c8b8b03e-c89c-4319-b1f9-e0806cf594f5", "delta": "42 * 17 = 714"}
+{"type": "TEXT_MESSAGE_END", "messageId": "c8b8b03e-c89c-4319-b1f9-e0806cf594f5"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc"}

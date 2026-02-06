@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "86b14262-79c3-4a7c-8f13-4472e536b8fa", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "86b14262-79c3-4a7c-8f13-4472e536b8fa", "delta": "I can\u2019t share my internal step-by-step chain-of-thought, but here\u2019s a concise solution:\n\nx + 5 = 12  \nSubtract 5 from both sides: x = 12 \u2212 5 = 7.\n\nCheck: 7 + 5 = 12, so x = 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "86b14262-79c3-4a7c-8f13-4472e536b8fa"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}

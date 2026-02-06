@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8647.245089989156,
+    "time_to_first_event_ms": 1892.7298280177638,
+    "time_to_first_content_ms": 8647.787427995354,
+    "time_to_complete_ms": 8647.245089989156
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 931,
+    "tokens_approx": 232,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I proceed, I need some details and a clear, explicit confirmation from you.\n\nPlease answer these questions:\n1. What exactly do you want deleted? (file names, folders, database/table names, account IDs, etc.)\n2. Where is the data located? (local machine, specific cloud provider and bucket, server path, database host, SaaS app)\n3. Is the deletion reversible? Do you have a backup or want me to create/export one first?\n4. Are there legal, compliance, or other stakeholders I should be aware of?\n5. When should the deletion occur? (now, scheduled time)\n\nWhen you\u2019ve provided those details, confirm you want me to proceed by replying with an explicit approval statement, for example:\n\"I approve deletion of [describe data] at [location]. I understand this action is irreversible.\"\n\nI will not take any deletion steps until I receive that explicit approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 200,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

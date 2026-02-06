@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5308.395753032528,
+    "time_to_first_event_ms": 1106.9499590666965,
+    "time_to_first_content_ms": 5310.100248083472,
+    "time_to_complete_ms": 5308.395753032528
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 282,
+    "tokens_approx": 70,
+    "final_text": "The current time is 2026-02-06 01:45:47. (I used the time tool; no timezone was returned \u2014 would you like this shown in a specific timezone?)The current time is 2026-02-06 01:45:47. (I used the time tool; no timezone was returned \u2014 would you like this shown in a specific timezone?)"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 241,
+    "total_tokens": 487
+  },
+  "events": {
+    "total_events": 136,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

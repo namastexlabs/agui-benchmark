@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 539437.602796285, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "4f6659ef-7ef4-4054-b8c4-aeb2805dbb5c", "role": "assistant", "_timestamp": 539437.603796285, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4f6659ef-7ef4-4054-b8c4-aeb2805dbb5c", "delta": "To find the value of x, we need to isolate x in the equation x + 5 = 12.\n\n1.  **Start with the equation:** x + 5", "_timestamp": 539437.6047962849, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4f6659ef-7ef4-4054-b8c4-aeb2805dbb5c", "delta": " = 12\n2.  **Subtract 5 from both sides of the equation** to keep it balanced:\n    x + 5 - 5 = 12 - 5\n3.  **Perform the subtraction:**\n", "_timestamp": 539437.605796285, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4f6659ef-7ef4-4054-b8c4-aeb2805dbb5c", "delta": "    ", "_timestamp": 539437.6067962849, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "b4cca61d-64ea-4a30-a682-67c02bf85926", "toolCallName": "calculator", "_timestamp": 539437.607796285, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "b4cca61d-64ea-4a30-a682-67c02bf85926", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 539437.608796285, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "b4cca61d-64ea-4a30-a682-67c02bf85926", "_timestamp": 539437.6097962849, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "b4cca61d-64ea-4a30-a682-67c02bf85926", "result": "12 - 5 = 7", "_timestamp": 539437.610796285, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "message_id": "4f6659ef-7ef4-4054-b8c4-aeb2805dbb5c", "_timestamp": 539437.6117962849, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 539437.612796285, "_offset_ms": 10.0, "_index": 10}

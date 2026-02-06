@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10194.787255953997,
+    "time_to_first_event_ms": 313.0847429856658,
+    "time_to_first_content_ms": 10195.469841943122,
+    "time_to_complete_ms": 10194.787255953997
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1076,
+    "tokens_approx": 269,
+    "final_text": "Understood \u2014 I will always ask for your explicit approval before doing any deletion. Before I prepare a deletion plan or take any action, I need a few details so I can confirm what will be deleted and the risks:\n\nPlease provide:\n1. A clear description of the data to delete (files, database, account, etc.).  \n2. Exact location/service (device path, server, cloud provider, database name, email account, etc.).  \n3. Do you have a backup? If not, do you want me to make one or walk you through making one?  \n4. Any time constraint (when should this be done)?  \n5. Who else (other accounts/people/systems) will be affected?  \n6. Any compliance/privacy/legal concerns I should know about?\n\nWhen you\u2019re ready to proceed, reply with the exact confirmation phrase below (replace <description> with the short data description you gave above):\nI APPROVE \u2014 delete <description> now\n\nI will not proceed with any deletion until I receive that exact confirmation phrase. Would you like me to draft a safe deletion plan now (including backup and rollback steps) based on the details above?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 239,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

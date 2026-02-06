@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2281.5700960345566,
+    "time_to_first_event_ms": 214.49605701491237,
+    "time_to_first_content_ms": 2281.7583079449832,
+    "time_to_complete_ms": 2281.5700960345566
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 805,
+    "tokens_approx": 201,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nI'm a helpful assistant with access to only two tools:\n- Getting the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete any files, databases, accounts, or other data on your system or anywhere else. So there's no risk of me accidentally deleting something important!\n\nIf you're looking to delete important data, that would be something you'd need to do directly through your own systems, applications, or services. Of course, it's always good practice to:\n- **Backup important data** before deletion\n- **Double-check** what you're deleting\n- **Use caution** with irreversible actions\n\nIs there something else I can help you with? \ud83d\ude0a"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 65,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 805,
+    "total_chunks": 61,
+    "duration_ms": 60.0,
+    "throughput_chars_per_sec": 13416.666666666666,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

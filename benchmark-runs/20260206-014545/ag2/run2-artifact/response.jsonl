@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "adb96fd0-0b95-4ace-a0f0-b0b7d2cdc7d0", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "adb96fd0-0b95-4ace-a0f0-b0b7d2cdc7d0", "delta": "```python\ndef add(a, b):\n    \"\"\"Return the sum of two numbers.\"\"\"\n    return a + b\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "adb96fd0-0b95-4ace-a0f0-b0b7d2cdc7d0"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact"}

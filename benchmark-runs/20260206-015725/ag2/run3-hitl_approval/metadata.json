@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13207.072678022087,
+    "time_to_first_event_ms": 2780.5883300025016,
+    "time_to_first_content_ms": 13207.106415065937,
+    "time_to_complete_ms": 13207.072678022087
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 996,
+    "tokens_approx": 249,
+    "final_text": "Understood \u2014 I will always ask for your explicit approval before doing anything.\n\nBefore I prepare a deletion plan, I need a few details:\n- What exactly do you want to delete? (file paths, database name/tables, cloud bucket, account, etc.)\n- Where is it stored (local machine, server, cloud provider, NAS)?\n- Do you want permanent deletion (bypass trash/recycle) or move to trash/archive?\n- Do you have a backup or need instructions to create one?\n- Do you want me to provide commands/steps, or (if you give remote access) execute them?\n\nImportant: permanent deletion may be irreversible. I\u2019ll present a clear plan and the exact consequences. I will only proceed after you give an explicit confirmation using the following approval phrase exactly as shown:\n\nCONFIRM DELETE: [brief description of items to delete]\n\nExample you would send to approve: CONFIRM DELETE: /home/alice/old_project and S3 bucket mycompany-backup-2020\n\nShall I prepare the deletion plan now? If yes, give the details above."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

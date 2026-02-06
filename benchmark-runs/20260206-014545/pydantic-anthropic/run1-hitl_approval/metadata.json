@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2749.5771179674193,
+    "time_to_first_event_ms": 255.6529939174652,
+    "time_to_first_content_ms": 2749.751300900243,
+    "time_to_complete_ms": 2749.5771179674193
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 897,
+    "tokens_approx": 224,
+    "final_text": "I appreciate you raising this, but I should clarify: **I don't actually have the ability to delete any data.** I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to files, databases, accounts, or any systems where data is stored. I can't delete, modify, or remove anything from your computer or any online service.\n\nIf you're looking to delete important data, you'll need to do that directly through:\n- Your file manager or operating system\n- Your email or cloud storage provider\n- Your database or application software\n- Other services where that data is stored\n\n**Important tip:** Before deleting important data, I'd recommend:\n1. Creating a backup copy first\n2. Double-checking that you really want to delete it\n3. Verifying you're deleting the correct files/data\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 86,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

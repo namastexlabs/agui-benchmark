@@ -1,0 +1,43 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8963.764518033713,
+    "time_to_first_event_ms": 8963.006217032671,
+    "time_to_first_content_ms": 8963.899911032058,
+    "time_to_complete_ms": 8963.764518033713
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0013191020116209984
+  },
+  "response": {
+    "chars": 428,
+    "tokens_approx": 107,
+    "final_text": "I'll work through this step-by-step.\n\n**Given equation:** x + 5 = 12\n\n**Reasoning process:**\n1. We need to isolate x (get x by itself on one side of the equation)\n2. Currently, 5 is being added to x\n3. To undo addition, we subtract from both sides\n4. So we subtract 5 from both sides: x + 5 - 5 = 12 - 5\n\nLet me calculate the right side:**Solution:**\n- x + 5 - 5 = 12 - 5\n- **x = 7**\n\n**Verification:** Let's check: 7 + 5 = 12 \u2713"
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 170,
+    "total_tokens": 862
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

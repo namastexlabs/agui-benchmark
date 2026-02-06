@@ -1,0 +1,42 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12254.90887707565,
+    "time_to_first_event_ms": 254.79985098354518,
+    "time_to_first_content_ms": 12254.956602002494,
+    "time_to_complete_ms": 12254.90887707565
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0008919741958379745
+  },
+  "response": {
+    "chars": 153,
+    "tokens_approx": 38,
+    "final_text": "To find x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx = 12 - 5\nTherefore, x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

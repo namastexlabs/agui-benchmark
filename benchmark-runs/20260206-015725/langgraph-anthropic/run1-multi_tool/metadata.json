@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2315.719480975531,
+    "time_to_first_event_ms": 405.49173299223185,
+    "time_to_first_content_ms": 2316.4692639838904,
+    "time_to_complete_ms": 2315.719480975531
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 126,
+    "tokens_approx": 31,
+    "final_text": "The result is **714**. So 42 \u00d7 17 = 714!The result of 42 * 17 is **714**. \n\nIs there anything else you'd like me to calculate?"
+  },
+  "tokens": {
+    "input_tokens": 758,
+    "output_tokens": 56,
+    "total_tokens": 780
+  },
+  "events": {
+    "total_events": 71,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 40,
+    "total_chunks": 5,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 5000.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

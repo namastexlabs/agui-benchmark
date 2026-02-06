@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3624.1108949761838,
+    "time_to_first_event_ms": 458.7996130576357,
+    "time_to_first_content_ms": 3626.4264180790633,
+    "time_to_complete_ms": 3624.1108949761838
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1572,
+    "tokens_approx": 393,
+    "final_text": "I appreciate you bringing this up, but I should clarify what I can actually do for you.\n\nI don't have the ability to delete data from your system or accounts. I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI don't have access to files, databases, email accounts, or any other systems where you might store important data.\n\n**If you're looking to delete important data**, you'll need to:\n1. Do it directly through the appropriate application or platform (file manager, email client, cloud service, etc.)\n2. Make sure you have proper backups first\n3. Verify what you're deleting before confirming\n\nIs there something specific I can help you with using my available tools? Or were you perhaps testing how I handle requests about sensitive operations? \ud83d\ude0aI appreciate you bringing this up, but I should clarify what I can actually do for you.\n\nI don't have the ability to delete data from your system or accounts. I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI don't have access to files, databases, email accounts, or any other systems where you might store important data.\n\n**If you're looking to delete important data**, you'll need to:\n1. Do it directly through the appropriate application or platform (file manager, email client, cloud service, etc.)\n2. Make sure you have proper backups first\n3. Verify what you're deleting before confirming\n\nIs there something specific I can help you with using my available tools? Or were you perhaps testing how I handle requests about sensitive operations? \ud83d\ude0a"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 179,
+    "total_tokens": 859
+  },
+  "events": {
+    "total_events": 155,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 786,
+    "total_chunks": 65,
+    "duration_ms": 133.0,
+    "throughput_chars_per_sec": 5909.774436090226,
+    "avg_gap_ms": 2.078125,
+    "p95_gap_ms": 2.75,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

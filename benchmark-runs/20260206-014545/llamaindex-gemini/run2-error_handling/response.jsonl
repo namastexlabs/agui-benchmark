@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "timestamp": 1770353190, "threadId": "test-thread-llamaindex-gemini", "runId": "test-run-llamaindex-gemini-error_handling"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353191, "messageId": "469a3683-39cc-4d6a-a3cb-2c98e8015918", "role": "assistant", "delta": "I cannot use a tool that does not exist."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353191, "messageId": "469a3683-39cc-4d6a-a3cb-2c98e8015918", "role": "assistant", "delta": " I can tell the current time and do basic math calculations."}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770353191, "messages": [{"id": "fb115a87-37ae-4a04-a8ec-45b989574b77", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses.\nUse the 'nonexistent_tool' to do something."}, {"id": "msg-1", "role": "user", "content": "Use the 'nonexistent_tool' to do something."}, {"id": "1190d5a1-ebc2-4958-8201-d4eecc9ec3dc", "role": "assistant", "content": "I cannot use a tool that does not exist. I can tell the current time and do basic math calculations."}]}
+{"type": "RUN_FINISHED", "timestamp": 1770353191, "threadId": "test-thread-llamaindex-gemini", "runId": "test-run-llamaindex-gemini-error_handling"}

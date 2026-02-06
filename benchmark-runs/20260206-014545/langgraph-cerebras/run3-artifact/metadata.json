@@ -1,0 +1,41 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2383.268050965853,
+    "time_to_first_event_ms": 845.3045740025118,
+    "time_to_first_content_ms": 2383.470927947201,
+    "time_to_complete_ms": 2383.268050965853
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 210,
+    "tokens_approx": 52,
+    "final_text": "def add_numbers(a, b):\n    return a + bI'm not able to use a 'nonexistent_tool' as it doesn't exist. I can only use the provided tools, which are 'get_current_time' and 'calculator'. How can I assist you today?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 24,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

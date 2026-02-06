@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8459.920190041885,
+    "time_to_first_event_ms": 8459.27794300951,
+    "time_to_first_content_ms": 8460.049065062776,
+    "time_to_complete_ms": 8459.920190041885
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 671,
+    "tokens_approx": 167,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, we need to remove the \"+5\" from the left side. We do this by subtracting 5 from both sides of the equation (this keeps the equation balanced).\n\nx + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\nx = 7\n\n**Step 4: Verify the answer**\nLet me check: If x = 7, then 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning process is:\n- We have x plus 5 equals 12\n- To find x alone, we subtract 5 from both sides\n- This gives us x = 7\n- We can verify this is correct by substituting back into the original equation"
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 241,
+    "total_tokens": 933
+  },
+  "events": {
+    "total_events": 63,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

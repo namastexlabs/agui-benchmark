@@ -1,0 +1,49 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5056.089836987667,
+    "time_to_first_event_ms": 4601.471323985606,
+    "time_to_first_content_ms": 5056.134402984753,
+    "time_to_complete_ms": 5056.089836987667
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 525,
+    "tokens_approx": 131,
+    "final_text": "To find the value of x, we'll use algebraic manipulation to isolate x on one side of the equation. Here's the step-by-step process:\n\n1. Given equation: x + 5 = 12\n\nThe goal is to get x by itself. We can do this by getting rid of the +5 on the left side of the equation.\n\n2. To eliminate the +5, we can subtract 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\n\nThis simplifies to:\n\n3. x = 7\n\nBy subtracting 5 from both sides, we've effectively \"canceled out\" the +5 on the left side of the equation, leaving x by itself."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 18,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 525,
+    "total_chunks": 14,
+    "duration_ms": 13.0,
+    "throughput_chars_per_sec": 40384.61538461539,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

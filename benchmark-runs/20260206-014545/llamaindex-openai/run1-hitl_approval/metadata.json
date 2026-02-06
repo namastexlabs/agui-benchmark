@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10200.6808409933,
+    "time_to_first_event_ms": 2318.43355007004,
+    "time_to_first_content_ms": 10201.16559905,
+    "time_to_complete_ms": 10200.6808409933
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 718,
+    "tokens_approx": 179,
+    "final_text": "I can help \u2014 but first I need your explicit approval. A few quick questions so I give safe, correct steps:\n\n1. What exactly do you want to delete (files, database, account, backups)?  \n2. Where is it stored (Windows/Mac/Linux, external drive, cloud provider like Google Drive/AWS/Dropbox, or a database)?  \n3. Do you have a backup or do you want me to include backup instructions?  \n4. Is this deletion intended to be reversible (trash/recycle) or permanent/secure wipe?\n\nThis action can be irreversible. If you still want me to proceed, please confirm by replying with this exact phrase:  \nI APPROVE DELETION OF THE SPECIFIED DATA\n\nI will not provide deletion steps or proceed until I receive that exact confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 166,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

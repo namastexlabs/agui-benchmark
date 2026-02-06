@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_ebdac685b1ed452f9e438ddd77ef4012", "toolCallName": "calculator", "parentMessageId": "7e893711-17b2-4eaf-85fb-477fa81957b3"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_ebdac685b1ed452f9e438ddd77ef4012", "delta": "{\"expression\":\"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_ebdac685b1ed452f9e438ddd77ef4012"}
+{"type": "TOOL_CALL_RESULT", "messageId": "f767ad1f-78d3-450b-b4e3-01991a83a2c2", "toolCallId": "pyd_ai_ebdac685b1ed452f9e438ddd77ef4012", "content": "12 - 5 = 7", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "ec81d6b0-5c8a-4cdc-be4f-8f01c2bc0cfc", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ec81d6b0-5c8a-4cdc-be4f-8f01c2bc0cfc", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ec81d6b0-5c8a-4cdc-be4f-8f01c2bc0cfc", "delta": " find x, we need to isolate it in the equation x + 5 = "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ec81d6b0-5c8a-4cdc-be4f-8f01c2bc0cfc", "delta": "12.\nWe can do this by subtracting 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7"}
+{"type": "TEXT_MESSAGE_END", "messageId": "ec81d6b0-5c8a-4cdc-be4f-8f01c2bc0cfc"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking"}

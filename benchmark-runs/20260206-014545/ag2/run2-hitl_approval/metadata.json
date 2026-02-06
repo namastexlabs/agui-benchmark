@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10625.879078055732,
+    "time_to_first_event_ms": 2650.942987995222,
+    "time_to_first_content_ms": 10625.914423028007,
+    "time_to_complete_ms": 10625.879078055732
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 915,
+    "tokens_approx": 228,
+    "final_text": "Understood \u2014 I will not perform any deletion without your explicit approval.\n\nBefore I prepare deletion steps, please answer these quick questions so I can give safe, correct instructions:\n1. What data exactly (files, database rows, S3 bucket, VM snapshots, etc.) and where is it stored (local PC, server, cloud provider and region, service name)?\n2. Do you have a recent backup or snapshot? If not, do you want instructions to make one first?\n3. Are you authorized to delete this data (legal/organizational consent)?\n4. Do you want permanent irreversible deletion, or a reversible move to trash/archive first?\n5. Do you want me to provide exact commands (e.g., rm, aws s3, SQL) or GUI steps?\n\nI will not proceed until you explicitly approve. If you want me to go ahead after I provide the plan, please reply with the exact approval phrase: I APPROVE DELETION. (I will treat any other response as no authorization.)"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

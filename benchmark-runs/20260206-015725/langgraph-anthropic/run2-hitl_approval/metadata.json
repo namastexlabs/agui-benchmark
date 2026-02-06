@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4595.408948021941,
+    "time_to_first_event_ms": 492.5884900148958,
+    "time_to_first_content_ms": 4597.332580015063,
+    "time_to_complete_ms": 4595.408948021941
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1370,
+    "tokens_approx": 342,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete data**. \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete any files, databases, or important information on your system or accounts.\n\nIf you need to delete important data, you'll need to:\n1. **Do it directly** through the appropriate application or service\n2. **Contact your system administrator** if you don't have access\n3. **Back up your data first** before any deletion, just to be safe\n\nIs there something else I can help you with, like calculations or checking the time?I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete data**. \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete any files, databases, or important information on your system or accounts.\n\nIf you need to delete important data, you'll need to:\n1. **Do it directly** through the appropriate application or service\n2. **Contact your system administrator** if you don't have access\n3. **Back up your data first** before any deletion, just to be safe\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 160,
+    "total_tokens": 840
+  },
+  "events": {
+    "total_events": 133,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 685,
+    "total_chunks": 55,
+    "duration_ms": 110.0,
+    "throughput_chars_per_sec": 6227.272727272728,
+    "avg_gap_ms": 2.037037037037037,
+    "p95_gap_ms": 2.25,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

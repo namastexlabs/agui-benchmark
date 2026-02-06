@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10885.736459982581,
+    "time_to_first_event_ms": 2359.6093059750274,
+    "time_to_first_content_ms": 10885.763490921818,
+    "time_to_complete_ms": 10885.736459982581
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1024,
+    "tokens_approx": 256,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I proceed, please tell me:\n\n1. Exactly which data to delete (paths, filenames, database/table names, cloud bucket, account, etc.).  \n2. Where it\u2019s stored (local machine, server, cloud provider, service name).  \n3. Scope: permanent wipe or move to trash/recycle bin? Single files or entire directories/databases? Date range?  \n4. Do you have a backup or do you want me to create/export one first?  \n5. Any legal/compliance retention requirements I should know about.  \n6. Preferred deletion method (simple delete, secure overwrite, irreversible purge).\n\nWhen you\u2019re ready, confirm by replying with this exact phrase (so I know you approve):  \nI CONFIRM DELETE: [brief description of what to delete] \u2014 [deletion method]\n\nExample: I CONFIRM DELETE: /home/alex/old-project (all files) \u2014 permanent purge\n\nI will not take any deletion steps until I receive that exact confirmation. I also recommend making a backup before deleting anything irreversible."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

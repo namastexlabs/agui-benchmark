@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact"}
+{"type": "TOOL_CALL_START", "toolCallId": "ec749be1-3340-466e-ab15-fd1131e1b7fc", "toolCallName": "run_code"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "ec749be1-3340-466e-ab15-fd1131e1b7fc", "delta": "{\"code\": \"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "ec749be1-3340-466e-ab15-fd1131e1b7fc"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "ec749be1-3340-466e-ab15-fd1131e1b7fc", "result": "Unknown function"}
+{"type": "TEXT_MESSAGE_START", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c", "delta": "Here's a simple Python function that adds two numbers:\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c", "delta": "```python\ndef add_numbers(a, b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c", "delta": "):\n    return a + b\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "message_id": "e13f387f-6007-45aa-87e1-faa70166179c"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact"}

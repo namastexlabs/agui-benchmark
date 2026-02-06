@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e8de40fb-a128-4bae-9a63-cd644b6ffc68", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8de40fb-a128-4bae-9a63-cd644b6ffc68", "delta": "I don\u2019t have access to the time tool in this chat. The system date here is 2026-02-06, but I can\u2019t read the exact current clock time without a timezone or a time-check tool.\n\nWould you like me to:\n- Give the current time in UTC, or\n- Convert to your local time if you tell me your timezone or city?\n\nTell me which and I\u2019ll compute it."}
+{"type": "TEXT_MESSAGE_END", "messageId": "e8de40fb-a128-4bae-9a63-cd644b6ffc68"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

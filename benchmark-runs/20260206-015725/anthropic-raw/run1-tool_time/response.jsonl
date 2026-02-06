@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time", "_timestamp": 539437.598819504, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01LqnrmEaQwmJ39tFdp4m5kq", "toolCallName": "get_current_time", "_timestamp": 539437.5998195041, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LqnrmEaQwmJ39tFdp4m5kq", "delta": "", "_timestamp": 539437.600819504, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01LqnrmEaQwmJ39tFdp4m5kq", "_timestamp": 539437.601819504, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01LqnrmEaQwmJ39tFdp4m5kq", "result": "2026-02-06 01:57:27", "_timestamp": 539437.602819504, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "role": "assistant", "_timestamp": 539437.603819504, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": "The current time is **", "_timestamp": 539437.6048195041, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": "01", "_timestamp": 539437.605819504, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": ":57:27 ", "_timestamp": 539437.606819504, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": "UTC", "_timestamp": 539437.607819504, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": " on", "_timestamp": 539437.608819504, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "delta": " February 6, 2026**.", "_timestamp": 539437.6098195041, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "message_id": "e973bdbf-4bbd-412e-a429-246c1aabacc5", "_timestamp": 539437.610819504, "_offset_ms": 12.0, "_index": 12}
+{"type": "USAGE_METADATA", "input_tokens": 679, "output_tokens": 39, "total_tokens": 718, "model": "claude-haiku-4-5-20251001", "_timestamp": 539437.6118195041, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time", "_timestamp": 539437.612819504, "_offset_ms": 14.0, "_index": 14}

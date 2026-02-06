@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4649.436563951895,
+    "time_to_first_event_ms": 262.8894969820976,
+    "time_to_first_content_ms": 4649.5597009779885,
+    "time_to_complete_ms": 4649.436563951895
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "call_1YCb44bd8tF6L0aIUSZnXXJC",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 118,
+    "tokens_approx": 29,
+    "final_text": "The current time is 02:00:24 on 2026-02-06 (server/system time). Would you like this in a specific timezone or format?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 42,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 118,
+    "total_chunks": 34,
+    "duration_ms": 33.0,
+    "throughput_chars_per_sec": 3575.7575757575755,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

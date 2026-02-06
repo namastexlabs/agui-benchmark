@@ -1,0 +1,49 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 29838.07025104761,
+    "time_to_first_event_ms": 29834.52701801434,
+    "time_to_first_content_ms": 29838.770029018633,
+    "time_to_complete_ms": 29838.07025104761
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1127,
+    "tokens_approx": 281,
+    "final_text": "Understood \u2014 I will not delete anything until you give explicit approval.\n\nBefore we proceed I need a few details so I can prepare safe, correct steps and clearly ask for your confirmation:\n\n1. What exactly do you want deleted? (file names, folders, or a description of the data)\n2. Where is it stored? (local PC \u2014 Windows/macOS/Linux, an external drive, a server, cloud provider and which one, database, etc.)\n3. Is there a backup you can restore from if needed? Do you want me to create or walk you through making a backup first?\n4. Do you need secure (irreversible, overwritten) deletion or a normal delete/trash?\n5. Do you have administrative access to the system, or will I provide commands for someone else to run?\n6. Any legal, compliance, or recovery concerns I should know about?\n\nWhen you\u2019re ready, explicitly approve deletion by replying with a confirmation in this exact form (so I don\u2019t act on an ambiguous reply):\n\n\"I approve deletion of: [brief description]. I understand this action is irreversible.\"\n\nI will only proceed after I receive that exact confirmation. Would you like to provide the details above now?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 246,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1127,
+    "total_chunks": 242,
+    "duration_ms": 241.0,
+    "throughput_chars_per_sec": 4676.348547717843,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

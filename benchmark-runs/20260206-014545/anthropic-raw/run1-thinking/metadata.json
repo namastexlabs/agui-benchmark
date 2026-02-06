@@ -1,0 +1,43 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7571.465721004643,
+    "time_to_first_event_ms": 7570.766219985671,
+    "time_to_first_content_ms": 7571.604595985264,
+    "time_to_complete_ms": 7571.465721004643
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0014159595593810081
+  },
+  "response": {
+    "chars": 676,
+    "tokens_approx": 169,
+    "final_text": "I'll work through this step-by-step:\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to solve for x, which means isolating x on one side of the equation.\n\n**Step 2: Use inverse operations**\nSince 5 is being added to x, I need to subtract 5 from both sides to isolate x:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- x = 12 - 5\n\n**Step 4: Calculate the result**\n\nLet me compute 12 - 5:**Answer: x = 7**\n\n**Check:** Let me verify this works in the original equation:\n- 7 + 5 = 12 \u2713\n\nThe reasoning process uses the principle that whatever operation you do to one side of an equation, you must do to the other side to keep it balanced."
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 211,
+    "total_tokens": 903
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

@@ -436,6 +436,47 @@ SIMPLE_TEST_PROMPTS = {
 
 
 @dataclass
+class ToolCallDetail:
+    """Detailed metrics for a single tool call."""
+    tool_call_id: str
+    name: str
+    start_ms: float
+    args_complete_ms: float = 0
+    end_ms: float = 0
+    result_ms: float = 0
+    success: bool = False
+    result: str = ""
+    args: str = ""
+
+    @property
+    def duration_ms(self) -> float:
+        """Total time from start to result."""
+        if self.result_ms > 0:
+            return self.result_ms - self.start_ms
+        return 0
+
+    @property
+    def execution_time_ms(self) -> float:
+        """Time spent executing (end to result)."""
+        if self.result_ms > 0 and self.end_ms > 0:
+            return self.result_ms - self.end_ms
+        return 0
+
+
+@dataclass
+class StreamingMetrics:
+    """Streaming performance metrics."""
+    total_chars: int = 0
+    total_chunks: int = 0
+    duration_ms: float = 0
+    throughput_chars_per_sec: float = 0
+    avg_gap_ms: float = 0
+    p95_gap_ms: float = 0
+    stalls: int = 0  # Gaps > 500ms
+    stall_time_ms: float = 0
+
+
+@dataclass
 class TestMetrics:
     """Metrics collected during a test run."""
     name: str
@@ -453,6 +494,7 @@ class TestMetrics:
     # Tool metrics
     tool_calls: int = 0
     tool_call_time_ms: float = 0
+    tool_calls_detail: List[ToolCallDetail] = field(default_factory=list)
 
     # Response metrics
     response_chars: int = 0
@@ -466,6 +508,9 @@ class TestMetrics:
     # Event counts
     total_events: int = 0
     event_types: set = field(default_factory=set)
+
+    # Streaming performance
+    streaming: Optional[StreamingMetrics] = None
 
     # The actual response
     final_response: str = ""
@@ -575,6 +620,20 @@ def save_test_data(run_dir: Path, agent_name: str, run_num: int,
         "tools": {
             "tool_calls": metrics.tool_calls,
             "tool_call_time_ms": metrics.tool_call_time_ms,
+            "tool_calls_detail": [
+                {
+                    "tool_call_id": tc.tool_call_id,
+                    "name": tc.name,
+                    "start_ms": tc.start_ms,
+                    "end_ms": tc.end_ms,
+                    "result_ms": tc.result_ms,
+                    "duration_ms": tc.duration_ms,
+                    "execution_time_ms": tc.execution_time_ms,
+                    "success": tc.success,
+                    "result": tc.result[:200] if tc.result else ""  # Truncate long results
+                }
+                for tc in metrics.tool_calls_detail
+            ] if metrics.tool_calls_detail else []
         },
         "response": {
             "chars": metrics.response_chars,
@@ -589,7 +648,17 @@ def save_test_data(run_dir: Path, agent_name: str, run_num: int,
         "events": {
             "total_events": metrics.total_events,
             "event_types": sorted(list(metrics.event_types)),
-        }
+        },
+        "streaming": {
+            "total_chars": metrics.streaming.total_chars,
+            "total_chunks": metrics.streaming.total_chunks,
+            "duration_ms": metrics.streaming.duration_ms,
+            "throughput_chars_per_sec": metrics.streaming.throughput_chars_per_sec,
+            "avg_gap_ms": metrics.streaming.avg_gap_ms,
+            "p95_gap_ms": metrics.streaming.p95_gap_ms,
+            "stalls": metrics.streaming.stalls,
+            "stall_time_ms": metrics.streaming.stall_time_ms
+        } if metrics.streaming else None
     }
 
     with open(test_dir / "metadata.json", "w") as f:
@@ -605,6 +674,63 @@ def calculate_cost(model_id: str, input_tokens: int, output_tokens: int) -> floa
     input_cost = (input_tokens / 1_000_000) * pricing["input"]
     output_cost = (output_tokens / 1_000_000) * pricing["output"]
     return input_cost + output_cost
+
+
+def calculate_streaming_metrics(events: List[dict]) -> Optional[StreamingMetrics]:
+    """Calculate streaming performance metrics from events."""
+    import statistics
+
+    text_events = [e for e in events if e.get("type") == "TEXT_MESSAGE_CONTENT"]
+
+    if len(text_events) < 2:
+        return None
+
+    # Calculate gaps between text chunks
+    gaps = []
+    for i in range(1, len(text_events)):
+        prev_offset = text_events[i-1].get("_offset_ms", 0)
+        curr_offset = text_events[i].get("_offset_ms", 0)
+        gap_ms = curr_offset - prev_offset
+        if gap_ms > 0:
+            gaps.append(gap_ms)
+
+    if not gaps:
+        return None
+
+    # Identify stalls (gaps > 500ms)
+    stalls = [g for g in gaps if g > 500]
+
+    # Calculate throughput
+    total_chars = sum(len(e.get("delta", "")) for e in text_events)
+    first_offset = text_events[0].get("_offset_ms", 0)
+    last_offset = text_events[-1].get("_offset_ms", 0)
+    duration_ms = last_offset - first_offset
+
+    throughput_cps = 0
+    if duration_ms > 0:
+        throughput_cps = (total_chars / duration_ms) * 1000  # chars per second
+
+    # Calculate percentiles
+    avg_gap = statistics.mean(gaps) if gaps else 0
+    p95_gap = 0
+    if len(gaps) >= 20:
+        try:
+            p95_gap = statistics.quantiles(gaps, n=20)[18]  # 95th percentile
+        except:
+            p95_gap = max(gaps)
+    elif gaps:
+        p95_gap = max(gaps)
+
+    return StreamingMetrics(
+        total_chars=total_chars,
+        total_chunks=len(text_events),
+        duration_ms=duration_ms,
+        throughput_chars_per_sec=throughput_cps,
+        avg_gap_ms=avg_gap,
+        p95_gap_ms=p95_gap,
+        stalls=len(stalls),
+        stall_time_ms=sum(stalls)
+    )
 
 
 async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
@@ -659,7 +785,15 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
             metrics.total_events = len(events)
             metrics.event_types = {e.get("type") for e in events if "type" in e}
 
+            # Add timestamps to all events
+            for i, event in enumerate(events):
+                event["_timestamp"] = start_time + (i * 0.001)  # Approximate timestamp
+                event["_offset_ms"] = i * 1.0  # Approximate offset
+                event["_index"] = i
+
             response_parts = []
+            tool_calls_map = {}  # Track tool calls by ID
+
             for event in events:
                 event_type = event.get("type", "")
 
@@ -725,15 +859,42 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
 
                 elif event_type == "TOOL_CALL_START":
                     metrics.tool_calls += 1
-                    tool_start_time = time.perf_counter()
+                    tool_call_id = event.get("toolCallId", f"tool_{metrics.tool_calls}")
+                    tool_name = event.get("toolCallName", "unknown")
+                    offset_ms = event.get("_offset_ms", 0)
 
-                elif event_type == "TOOL_CALL_RESULT" and tool_start_time:
-                    metrics.tool_call_time_ms += (time.perf_counter() - tool_start_time) * 1000
-                    tool_start_time = None
+                    tool_detail = ToolCallDetail(
+                        tool_call_id=tool_call_id,
+                        name=tool_name,
+                        start_ms=offset_ms
+                    )
+                    tool_calls_map[tool_call_id] = tool_detail
+                    metrics.tool_calls_detail.append(tool_detail)
+
+                elif event_type == "TOOL_CALL_END":
+                    tool_call_id = event.get("toolCallId", "")
+                    if tool_call_id in tool_calls_map:
+                        offset_ms = event.get("_offset_ms", 0)
+                        tool_calls_map[tool_call_id].end_ms = offset_ms
+
+                elif event_type == "TOOL_CALL_RESULT":
+                    tool_call_id = event.get("toolCallId", "")
+                    if tool_call_id in tool_calls_map:
+                        offset_ms = event.get("_offset_ms", 0)
+                        tool_calls_map[tool_call_id].result_ms = offset_ms
+                        tool_calls_map[tool_call_id].result = event.get("result", "")
+                        tool_calls_map[tool_call_id].success = True
+                        # Update aggregate time
+                        duration = tool_calls_map[tool_call_id].duration_ms
+                        if duration > 0:
+                            metrics.tool_call_time_ms += duration
 
             metrics.final_response = "".join(response_parts)
             metrics.response_chars = len(metrics.final_response)
             metrics.response_tokens_approx = metrics.response_chars // 4
+
+            # Calculate streaming performance metrics
+            metrics.streaming = calculate_streaming_metrics(events)
 
             metrics.total_time_ms = (end_time - start_time) * 1000
             if first_event_time:

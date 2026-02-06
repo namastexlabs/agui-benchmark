@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9491.967431968078,
+    "time_to_first_event_ms": 9490.883355028927,
+    "time_to_first_content_ms": 9492.179838009179,
+    "time_to_complete_ms": 9491.967431968078
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 872,
+    "tokens_approx": 218,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nI'm a helpful assistant with access to only two basic tools:\n- **Calculator** - for math problems\n- **Current time** - to tell you the time\n\nI don't have access to files, databases, accounts, or any systems where data is stored. I can't delete, modify, or access any of your information.\n\nIf you need to delete data from your own systems, I'd recommend:\n1. **Back up important data first** before deleting anything\n2. **Double-check what you're deleting** to ensure it's actually what you want to remove\n3. **Use your system's built-in tools** (file manager, database admin panel, etc.)\n4. **Keep records** of what was deleted and when, if it's important\n\nIs there anything else I can help you with, like calculations or telling you the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 216,
+    "total_tokens": 899
+  },
+  "events": {
+    "total_events": 83,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 872,
+    "total_chunks": 78,
+    "duration_ms": 77.0,
+    "throughput_chars_per_sec": 11324.675324675323,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

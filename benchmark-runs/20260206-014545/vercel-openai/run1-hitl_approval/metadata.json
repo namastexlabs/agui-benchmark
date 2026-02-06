@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11524.91922408808,
+    "time_to_first_event_ms": 3042.3079390311614,
+    "time_to_first_content_ms": 11525.315313017927,
+    "time_to_complete_ms": 11524.91922408808
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 921,
+    "tokens_approx": 230,
+    "final_text": "I will not delete anything without your explicit approval. Before we proceed, I need a few details and a clear confirmation from you.\n\n1) Tell me:\n- What exactly do you want deleted (file names, folders, database/table names, accounts)?\n- Where it\u2019s stored (local machine, specific server, cloud provider and path, database type)?\n- Do you want permanent deletion or move to trash/archive first?\n- Do you have a backup or should I walk you through creating one?\n- Any legal/compliance concerns or retention requirements?\n\n2) I will not take any action until you confirm. If you want me to proceed after I give a deletion plan, please type the exact confirmation phrase below (including the description of what to delete):\n\nI CONFIRM DELETE: [brief description of data]\n\nExample: I CONFIRM DELETE: /home/me/finance/*.csv (permanent)\n\nTell me the details above and then type the exact confirmation phrase when you\u2019re ready."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 199,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

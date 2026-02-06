@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_bf8d029a331841699bd74d37421eef00", "toolCallName": "run_code", "parentMessageId": "bf0f56c6-8b11-4f84-b502-fee016394ae8"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_bf8d029a331841699bd74d37421eef00", "delta": "{\"code\":\"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_bf8d029a331841699bd74d37421eef00"}
+{"type": "TOOL_CALL_RESULT", "messageId": "012b57ec-0122-47c9-a617-f03af949a062", "toolCallId": "pyd_ai_bf8d029a331841699bd74d37421eef00", "content": "Unknown tool name: 'run_code'. Available tools: 'get_current_time', 'calculator'\n\nFix the errors and try again.", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "5e39e164-21b4-44df-999a-f6a111a8a583", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e39e164-21b4-44df-999a-f6a111a8a583", "delta": "```python\ndef add_numbers(a, b):\n    return a + b\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "5e39e164-21b4-44df-999a-f6a111a8a583"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}

@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13657.502509071492,
+    "time_to_first_event_ms": 299.7528030537069,
+    "time_to_first_content_ms": 13657.534589990973,
+    "time_to_complete_ms": 13657.502509071492
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1057,
+    "tokens_approx": 264,
+    "final_text": "Understood \u2014 I will not delete anything without your explicit approval.\n\nBefore I can proceed, tell me:\n- Exactly which data to delete (file/folder names, database/table/rows, cloud buckets, user accounts, etc.)\n- Where it\u2019s stored (device, OS, cloud provider and region, database type)\n- Whether deletion should be permanent or move to trash/archive (recoverable vs irreversible)\n- Do you have a backup/snapshot? Do you want me to create one first?\n- When should the deletion happen (now or scheduled)?\n- Any authorization or account I should use (I can\u2019t access your systems without credentials or integration)\n- Any legal/compliance constraints I should know about\n\nWhen you provide those details, I will repeat the exact action I plan and ask for one final confirmation before doing anything. To confirm, please reply with the exact phrase:\nCONFIRM DELETE\n\nIf you prefer, I can (a) prepare safe deletion commands/scripts for you to run, (b) outline the steps to create a backup, or (c) schedule deletion instructions. Which would you like me to do next?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "9b5bf9a5-6cc9-4016-9f2f-40672ca5169e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "9b5bf9a5-6cc9-4016-9f2f-40672ca5169e"}
+{"type": "TOOL_CALL_START", "toolCallId": "0512e6e6-ae6d-402b-8b97-2420b8a4029e", "toolCallName": "get_current_time", "parentMessageId": "9b5bf9a5-6cc9-4016-9f2f-40672ca5169e"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "0512e6e6-ae6d-402b-8b97-2420b8a4029e", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "0512e6e6-ae6d-402b-8b97-2420b8a4029e"}
+{"type": "TOOL_CALL_RESULT", "messageId": "9a9e7c16-d3db-43c8-89fb-940ba264e22b", "toolCallId": "0512e6e6-ae6d-402b-8b97-2420b8a4029e", "content": "2026-02-06 01:47:40", "role": "tool"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_time"}

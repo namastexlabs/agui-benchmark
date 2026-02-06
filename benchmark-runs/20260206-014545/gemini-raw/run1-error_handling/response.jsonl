@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "f2b947fe-9f6a-4a33-a2ee-61bf3eff3154", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f2b947fe-9f6a-4a33-a2ee-61bf3eff3154", "delta": "I'm sorry,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f2b947fe-9f6a-4a33-a2ee-61bf3eff3154", "delta": " the tool 'nonexistent_tool' does not exist. I can only use the 'calculator' and 'get_current_time' tools."}
+{"type": "TEXT_MESSAGE_END", "message_id": "f2b947fe-9f6a-4a33-a2ee-61bf3eff3154"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling"}

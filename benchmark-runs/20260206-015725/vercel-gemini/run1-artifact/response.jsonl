@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-artifact", "_timestamp": 539437.591048137, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770353850858", "role": "assistant", "_timestamp": 539437.5920481371, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353850858", "delta": "```python\ndef add_numbers(a, b):\n  return a + b\n```", "_timestamp": 539437.593048137, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770353850858", "_timestamp": 539437.5940481371, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-artifact", "_timestamp": 539437.595048137, "_offset_ms": 4.0, "_index": 4}

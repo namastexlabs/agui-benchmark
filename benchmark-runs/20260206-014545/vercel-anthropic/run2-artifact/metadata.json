@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3015.6760240206495,
+    "time_to_first_event_ms": 1524.6869130060077,
+    "time_to_first_content_ms": 3015.7770139630884,
+    "time_to_complete_ms": 3015.6760240206495
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 443,
+    "tokens_approx": 110,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"Add two numbers and return the result.\"\"\"\n    return a + b\n\n# Example usage:\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Has an example showing how to use it\n\nYou can call it with any numbers: `add(10, 20)`, `add(3.5, 2.1)`, etc."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 38,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

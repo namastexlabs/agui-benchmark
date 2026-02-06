@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8548.742523998953,
+    "time_to_first_event_ms": 286.3863930106163,
+    "time_to_first_content_ms": 8549.535213038325,
+    "time_to_complete_ms": 8548.742523998953
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1152,
+    "tokens_approx": 288,
+    "final_text": "I can help \u2014 but I will not perform any destructive action until you explicitly approve. Before we proceed, please provide the following and then give a clear confirmation phrase.\n\n1) What exactly do you want deleted? (paths, filenames, database/table names, cloud bucket, etc.)  \n2) Where is it located? (local machine, server, cloud provider and region, database system)  \n3) Do you have a verified backup or export? If not, do you want instructions to create one first?  \n4) Do you need retention for compliance/legal reasons or an audit trail?  \n5) Do you want permanent deletion or soft-delete/archiving?  \n6) Preferred method (command-line, cloud console, SQL, script) and your environment (OS, shell, DBMS).  \n7) Any timetable or downtime constraints?\n\nIf you still want me to proceed after answering the above, type the exact confirmation phrase:\nI CONFIRM DELETE NOW\n\nI will not take any deletion steps until you reply with that phrase. Once you confirm, I will (a) repeat the exact items that will be deleted, (b) show the exact commands or steps I will run, and (c) ask one final confirmation before executing or guiding you to execute them."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

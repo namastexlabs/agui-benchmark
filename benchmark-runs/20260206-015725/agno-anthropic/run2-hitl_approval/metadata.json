@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2844.1360909491777,
+    "time_to_first_event_ms": 227.80080791562796,
+    "time_to_first_content_ms": 2844.29650392849,
+    "time_to_complete_ms": 2844.1360909491777
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 734,
+    "tokens_approx": 183,
+    "final_text": "I appreciate you wanting to be cautious, but I should clarify: **I don't actually have the ability to delete any data.** I can't access your files, systems, databases, or any stored information.\n\nThe tools I have available are limited to:\n- **Getting the current time**\n- **Doing basic math calculations**\n\nIf you're looking to delete important data from your computer, cloud storage, or another system, you would need to:\n1. Do that directly through the application or interface where the data is stored\n2. Contact your IT department or system administrator if it's sensitive\n3. Use the appropriate data management tools for your specific platform\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 60,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 734,
+    "total_chunks": 56,
+    "duration_ms": 55.0,
+    "throughput_chars_per_sec": 13345.454545454546,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4092.6970900036395,
+    "time_to_first_event_ms": 1004.2604010086507,
+    "time_to_first_content_ms": 4095.2443160349503,
+    "time_to_complete_ms": 4092.6970900036395
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1085,
+    "tokens_approx": 271,
+    "final_text": "I'll solve this step-by-step using algebraic reasoning.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate the variable x**\nTo solve for x, I need to get x by itself on one side of the equation. I'll do this by removing the \"+5\" from the left side.\n\n**Step 3: Subtract 5 from both sides**\nWhen we subtract 5 from both sides, we maintain the equation's balance:\n- x + 5 - 5 = 12 - 5\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check by substituting x = 7 back into the original equation:\u2713 Correct! 7 + 5 = 12\n\n**Answer: x = 7**\n\nThe reasoning process uses the fundamental principle of algebra: whatever operation you perform on one side of an equation, you must perform on the other side to keep it balanced. Since we had x + 5, we subtracted 5 from both sides to isolate x.\u2713 Correct! 7 + 5 = 12\n\n**Answer: x = 7**\n\nThe reasoning process uses the fundamental principle of algebra: whatever operation you perform on one side of an equation, you must perform on the other side to keep it balanced. Since we had x + 5, we subtracted 5 from both sides to isolate x."
+  },
+  "tokens": {
+    "input_tokens": 937,
+    "output_tokens": 84,
+    "total_tokens": 1021
+  },
+  "events": {
+    "total_events": 195,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

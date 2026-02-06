@@ -1,0 +1,39 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_UBg68QwpYEEBduyMGjWCXP14", "toolCallName": "get_current_time", "parentMessageId": "0f8a8e68-99ba-4958-99f9-4a16422395fe"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UBg68QwpYEEBduyMGjWCXP14", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_UBg68QwpYEEBduyMGjWCXP14"}
+{"type": "TOOL_CALL_RESULT", "messageId": "4cf75c19-512b-4d5e-b548-7a0bfbaeb29b", "toolCallId": "call_UBg68QwpYEEBduyMGjWCXP14", "content": "2026-02-06 01:45:48", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " system"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "45"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "48"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " Would"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " like"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " it"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " shown"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " in"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " different"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " timezone"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": " format"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a", "delta": "?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "4dd490c8-c435-400b-96f1-997d37e32b5a"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}

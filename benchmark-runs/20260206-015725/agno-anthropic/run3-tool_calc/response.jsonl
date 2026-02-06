@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_calc", "_timestamp": 539606.138058693, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "33692dbb-4d97-47a8-bd2a-59cae7792f35", "role": "assistant", "_timestamp": 539606.1390586931, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "33692dbb-4d97-47a8-bd2a-59cae7792f35", "_timestamp": 539606.140058693, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01SwZtGaQJMQJVPZEExYMwVv", "toolCallName": "calculator", "parentMessageId": "33692dbb-4d97-47a8-bd2a-59cae7792f35", "_timestamp": 539606.141058693, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01SwZtGaQJMQJVPZEExYMwVv", "delta": "{\"expression\": \"42 * 17\"}", "_timestamp": 539606.142058693, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01SwZtGaQJMQJVPZEExYMwVv", "_timestamp": 539606.143058693, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "29fc9147-26c7-4973-bde8-134cf2f47a88", "toolCallId": "toolu_01SwZtGaQJMQJVPZEExYMwVv", "content": "42 * 17 = 714", "role": "tool", "_timestamp": 539606.1440586931, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "0b3118db-7284-424f-8a02-ef73bebb3c95", "role": "assistant", "_timestamp": 539606.145058693, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0b3118db-7284-424f-8a02-ef73bebb3c95", "delta": "The result of 42 * ", "_timestamp": 539606.1460586931, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0b3118db-7284-424f-8a02-ef73bebb3c95", "delta": "17 is **", "_timestamp": 539606.147058693, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0b3118db-7284-424f-8a02-ef73bebb3c95", "delta": "714**.", "_timestamp": 539606.148058693, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "0b3118db-7284-424f-8a02-ef73bebb3c95", "_timestamp": 539606.1490586931, "_offset_ms": 11.0, "_index": 11}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_calc", "_timestamp": 539606.150058693, "_offset_ms": 12.0, "_index": 12}

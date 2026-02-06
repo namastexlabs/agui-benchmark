@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-error_handling", "_timestamp": 539559.620635039, "_offset_ms": 0.0, "_index": 0}
+{"type": "STEP_STARTED", "stepName": "handle_message", "_timestamp": 539559.6216350391, "_offset_ms": 1.0, "_index": 1}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "Use the 'nonexistent_tool' to do something."}], "_timestamp": 539559.622635039, "_offset_ms": 2.0, "_index": 2}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "Use the 'nonexistent_tool' to do something.", "name": null}], "copilotkit": {"actions": []}}, "_timestamp": 539559.6236350391, "_offset_ms": 3.0, "_index": 3}
+{"type": "STEP_FINISHED", "stepName": "handle_message", "_timestamp": 539559.624635039, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-error_handling", "_timestamp": 539559.6256350391, "_offset_ms": 5.0, "_index": 5}

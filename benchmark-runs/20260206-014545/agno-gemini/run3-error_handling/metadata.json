@@ -1,0 +1,38 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11373.939565964974,
+    "time_to_first_event_ms": 256.0801439685747,
+    "time_to_first_content_ms": 11373.965676990338,
+    "time_to_complete_ms": 11373.939565964974
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 83,
+    "tokens_approx": 20,
+    "final_text": "I can't use a tool that doesn't exist. Is there something else I can help you with?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

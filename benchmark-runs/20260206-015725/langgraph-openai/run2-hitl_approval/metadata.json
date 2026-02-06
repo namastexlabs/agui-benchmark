@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11188.528525060974,
+    "time_to_first_event_ms": 976.8541890662163,
+    "time_to_first_content_ms": 11216.581516084261,
+    "time_to_complete_ms": 11188.528525060974
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 2640,
+    "tokens_approx": 660,
+    "final_text": "I can\u2019t delete files directly from your devices, and I will not provide destructive commands unless you explicitly approve them. Before I help, please answer these quick questions and then give an explicit confirmation:\n\n1. What exactly do you want to delete? (file/folder names and full paths or the service \u2014 e.g., C:\\Users\\You\\Documents\\secret.docx, /home/you/private/, Google Drive folder, GitHub repo)\n2. What system or service holds the data? (Windows, macOS, Linux, AWS S3, Google Drive, GitHub, etc.)\n3. Do you have a backup? (Yes / No) \u2014 if not, do you want steps to back up first?\n4. Do you want a permanent, secure wipe (irreversible) or just move to Trash/Recycle Bin so it can be recovered?\n5. Do you have authorization to delete this data? (Are you the owner or an authorized admin?)\n\nWhen you\u2019re ready, confirm you want me to proceed by typing exactly one of these confirmation phrases (including the path or name you\u2019re deleting):\n\n- For a permanent delete: YES, PERMANENTLY DELETE [full path or resource name]  \n- For a recoverable delete (Trash/Recycle): YES, MOVE TO TRASH [full path or resource name]\n\nExample: YES, PERMANENTLY DELETE /home/me/private/\n\nAfter I receive that explicit confirmation plus your answers to 1\u20135, I\u2019ll provide step-by-step commands and safety checks tailored to your system.I can\u2019t delete files directly from your devices, and I will not provide destructive commands unless you explicitly approve them. Before I help, please answer these quick questions and then give an explicit confirmation:\n\n1. What exactly do you want to delete? (file/folder names and full paths or the service \u2014 e.g., C:\\Users\\You\\Documents\\secret.docx, /home/you/private/, Google Drive folder, GitHub repo)\n2. What system or service holds the data? (Windows, macOS, Linux, AWS S3, Google Drive, GitHub, etc.)\n3. Do you have a backup? (Yes / No) \u2014 if not, do you want steps to back up first?\n4. Do you want a permanent, secure wipe (irreversible) or just move to Trash/Recycle Bin so it can be recovered?\n5. Do you have authorization to delete this data? (Are you the owner or an authorized admin?)\n\nWhen you\u2019re ready, confirm you want me to proceed by typing exactly one of these confirmation phrases (including the path or name you\u2019re deleting):\n\n- For a permanent delete: YES, PERMANENTLY DELETE [full path or resource name]  \n- For a recoverable delete (Trash/Recycle): YES, MOVE TO TRASH [full path or resource name]\n\nExample: YES, PERMANENTLY DELETE /home/me/private/\n\nAfter I receive that explicit confirmation plus your answers to 1\u20135, I\u2019ll provide step-by-step commands and safety checks tailored to your system."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 834,
+    "total_tokens": 1045
+  },
+  "events": {
+    "total_events": 649,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1320,
+    "total_chunks": 313,
+    "duration_ms": 624.0,
+    "throughput_chars_per_sec": 2115.3846153846152,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

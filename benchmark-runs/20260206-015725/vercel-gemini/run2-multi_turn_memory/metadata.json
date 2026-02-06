@@ -1,0 +1,55 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 2,
+  "prompt_type": "multi_turn_memory",
+  "prompt": {
+    "type": "multi",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favorite programming language is Python. Remember this."
+      },
+      {
+        "role": "user",
+        "content": "What is my favorite programming language?"
+      }
+    ],
+    "validates": [
+      "context_retention",
+      "MESSAGES_SNAPSHOT",
+      "STATE_SNAPSHOT"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2132.9149400116876,
+    "time_to_first_event_ms": 2130.8856090763584,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 2132.9149400116876
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 3,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  },
+  "streaming": null
+}

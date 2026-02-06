@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353193", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " don't recognize the 'non"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": "existent_tool' as a valid tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " or command. It's possible that"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " it doesn't exist or is not a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " real tool. Can you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " please provide more context or clarify what you are trying"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " to accomplish? I'll do my best to help you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " find an alternative solution or guide you to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353193", "delta": " a relevant tool or resource."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353193"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling"}

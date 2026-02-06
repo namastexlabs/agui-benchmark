@@ -1,0 +1,49 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4761.873156996444,
+    "time_to_first_event_ms": 4365.47585693188,
+    "time_to_first_content_ms": 4761.938806041144,
+    "time_to_complete_ms": 4761.873156996444
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 816,
+    "tokens_approx": 204,
+    "final_text": "**Adding Two Numbers in Python**\n=====================================\n\nHere's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    Returns the sum of two numbers.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\n**Example Usage**\n---------------\n\n```python\n# Add 5 and 7\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12.0\n```\n\nThis function takes two arguments `a` and `b`, both of which are expected to be floating-point numbers. It returns the sum of these two numbers as a floating-point number. The function includes a docstring that describes its purpose, arguments, and return value, making it easier to understand and use."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 21,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 816,
+    "total_chunks": 17,
+    "duration_ms": 16.0,
+    "throughput_chars_per_sec": 51000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,61 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770353251627", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "python"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "def"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " ->"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "Return"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " of"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ".\"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " return"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " Example"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "2"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ")\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " print"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " #"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "0"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770353251627", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770353251627"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-artifact"}

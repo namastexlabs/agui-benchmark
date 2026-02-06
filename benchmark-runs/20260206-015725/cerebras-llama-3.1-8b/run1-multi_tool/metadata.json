@@ -1,0 +1,49 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5120.696970960125,
+    "time_to_first_event_ms": 4712.187372031622,
+    "time_to_first_content_ms": 5120.749532012269,
+    "time_to_complete_ms": 5120.696970960125
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 477,
+    "tokens_approx": 119,
+    "final_text": "I'm a text-based AI and do not have the ability to get the current time. However, I can suggest how you can get the current time in your operating system or programming environment. \n\nHere's an example in Python:\n\n```python\nimport datetime\n\n# Get the current time\ncurrent_time = datetime.datetime.now()\nprint(\"Current Time:\", current_time)\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(\"10 + 20 =\", result)\n```\n\nThis will print the current time and the result of the calculation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 15,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 477,
+    "total_chunks": 11,
+    "duration_ms": 10.0,
+    "throughput_chars_per_sec": 47700.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8866.074356017634,
+    "time_to_first_event_ms": 214.1596240689978,
+    "time_to_first_content_ms": 8866.735245101154,
+    "time_to_complete_ms": 8866.074356017634
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1252,
+    "tokens_approx": 313,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. Before we move forward, I need a few details so I can give safe, correct instructions and ask for your confirmation exactly when needed:\n\n1. What exactly do you want to delete?\n   - Files/folders? (give full paths)\n   - Database rows/tables? (which DB type and exact table/rows)\n   - Cloud objects? (provider and bucket/container names)\n2. Environment and access:\n   - Operating system (Windows, macOS, Linux), or cloud/DB console?\n   - Do you have command-line access or will I provide a script/console steps?\n3. Deletion type:\n   - Soft delete (move to trash/archive) or permanent delete?\n   - Secure overwrite (shred) required?\n4. Backups and recovery:\n   - Do you have backups? Want me to create one or show how?\n5. Constraints or compliance:\n   - Any legal, regulatory, or retention requirements?\n6. Confirmation method:\n   - How would you like to approve when I\u2019m ready to perform deletion? (e.g., reply with the exact phrase \u201cYES, DELETE\u201d)\n\nOnce you provide the details above and choose a confirmation phrase, I\u2019ll prepare a clear plan and the exact commands/steps. I will then ask for your explicit approval using your chosen phrase before giving any irreversible deletion commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 285,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1252,
+    "total_chunks": 281,
+    "duration_ms": 280.0,
+    "throughput_chars_per_sec": 4471.428571428572,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

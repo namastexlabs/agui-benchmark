@@ -1,0 +1,25 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling", "_timestamp": 539437.576925912, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "role": "assistant", "_timestamp": 539437.5779259121, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "I don", "_timestamp": 539437.578925912, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "'t have access to a tool", "_timestamp": 539437.5799259121, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " called ", "_timestamp": 539437.580925912, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "'nonexistent_tool'. ", "_timestamp": 539437.5819259121, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "\n\nThe tools available to me are:", "_timestamp": 539437.5829259121, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "\n1", "_timestamp": 539437.583925912, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": ". **", "_timestamp": 539437.5849259121, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": "get_current_time** - Get", "_timestamp": 539437.585925912, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " the current date and time\n2.", "_timestamp": 539437.5869259121, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " **calculator** - Evaluate mathematical", "_timestamp": 539437.5879259121, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " expressions\n\nIs", "_timestamp": 539437.588925912, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " there something I", "_timestamp": 539437.5899259121, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " can help you with using", "_timestamp": 539437.590925912, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " one", "_timestamp": 539437.5919259121, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " of these tools instead?", "_timestamp": 539437.592925912, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " For example, I can", "_timestamp": 539437.593925912, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " tell", "_timestamp": 539437.5949259121, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " you the current time or", "_timestamp": 539437.595925912, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " solve", "_timestamp": 539437.5969259121, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " a math problem for", "_timestamp": 539437.597925912, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "delta": " you.", "_timestamp": 539437.598925912, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_END", "messageId": "2f9b733a-0ca6-479b-a424-bf87c24d0f04", "_timestamp": 539437.5999259121, "_offset_ms": 23.0, "_index": 23}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling", "_timestamp": 539437.600925912, "_offset_ms": 24.0, "_index": 24}

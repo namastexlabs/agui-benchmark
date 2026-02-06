@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5630.336149013601,
+    "time_to_first_event_ms": 977.119495975785,
+    "time_to_first_content_ms": 5635.493356967345,
+    "time_to_complete_ms": 5630.336149013601
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1174,
+    "tokens_approx": 293,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool.\" I can only call the tools that are available here:\n\n- functions.get_current_time \u2014 get the current date/time  \n- functions.calculator \u2014 evaluate a math expression  \n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to do (e.g., \u201cwhat time is it?\u201d, \u201ccalculate 12*7+5\u201d, or \u201crun time and 100/3 in parallel\u201d) and I\u2019ll use the appropriate tool. If you meant a different tool, describe what it should do and I\u2019ll suggest how to accomplish that with the available tools or ask the integrator to add it.I don\u2019t have a tool called \"nonexistent_tool.\" I can only call the tools that are available here:\n\n- functions.get_current_time \u2014 get the current date/time  \n- functions.calculator \u2014 evaluate a math expression  \n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to do (e.g., \u201cwhat time is it?\u201d, \u201ccalculate 12*7+5\u201d, or \u201crun time and 100/3 in parallel\u201d) and I\u2019ll use the appropriate tool. If you meant a different tool, describe what it should do and I\u2019ll suggest how to accomplish that with the available tools or ask the integrator to add it."
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 276,
+    "total_tokens": 482
+  },
+  "events": {
+    "total_events": 302,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 587,
+    "total_chunks": 139,
+    "duration_ms": 277.0,
+    "throughput_chars_per_sec": 2119.13357400722,
+    "avg_gap_ms": 2.0072463768115942,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4894.449683954008,
+    "time_to_first_event_ms": 4447.749521001242,
+    "time_to_first_content_ms": 4894.506054930389,
+    "time_to_complete_ms": 4894.449683954008
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 638,
+    "tokens_approx": 159,
+    "final_text": "I'm not able to check the current time using the \"time\" tool. I'm a text-based AI assistant and do not have access to real-time information or tools. However, I can suggest ways for you to find the current time.\n\nYou can check the current time by:\n\n1. Checking your phone or computer's clock\n2. Searching online for \"current time\"\n3. Using a world clock website or app\n4. Asking a voice assistant like Siri, Google Assistant, or Alexa\n\nPlease note that I'm a large language model, I do not have the ability to access real-time information or check the current time. My responses are based on my training data, which may not be up to date."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 638,
+    "total_chunks": 13,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 53166.666666666664,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

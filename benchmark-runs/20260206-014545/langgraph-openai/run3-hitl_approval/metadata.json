@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9614.05284202192,
+    "time_to_first_event_ms": 851.4398239785805,
+    "time_to_first_content_ms": 9618.47582901828,
+    "time_to_complete_ms": 9614.05284202192
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1670,
+    "tokens_approx": 417,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and an explicit confirmation phrase from you.\n\nPlease provide:\n1. Exactly what to delete (file paths, database name/table/rows, cloud bucket, etc.).\n2. Scope (all data or specific date range/IDs).\n3. Where this data is stored (local machine, server, cloud provider, DB type).\n4. Whether a backup or snapshot exists and where; whether you want me to create one first.\n5. Desired timing (now or scheduled), and any expected downtime/impact.\n6. Any other people or services to notify.\n\nWhen you\u2019re ready, approve by typing this exact confirmation phrase (replace <resource> with the resource name you gave above):\nI approve deletion of <resource> now \u2014 proceed.\n\nI will not perform any deletion until I receive that exact phrase.Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and an explicit confirmation phrase from you.\n\nPlease provide:\n1. Exactly what to delete (file paths, database name/table/rows, cloud bucket, etc.).\n2. Scope (all data or specific date range/IDs).\n3. Where this data is stored (local machine, server, cloud provider, DB type).\n4. Whether a backup or snapshot exists and where; whether you want me to create one first.\n5. Desired timing (now or scheduled), and any expected downtime/impact.\n6. Any other people or services to notify.\n\nWhen you\u2019re ready, approve by typing this exact confirmation phrase (replace <resource> with the resource name you gave above):\nI approve deletion of <resource> now \u2014 proceed.\n\nI will not perform any deletion until I receive that exact phrase."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 573,
+    "total_tokens": 784
+  },
+  "events": {
+    "total_events": 383,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

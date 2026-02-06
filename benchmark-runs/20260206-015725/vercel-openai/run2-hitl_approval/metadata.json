@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10381.459233001806,
+    "time_to_first_event_ms": 1847.4057459970936,
+    "time_to_first_content_ms": 10382.11813091766,
+    "time_to_complete_ms": 10381.459233001806
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1213,
+    "tokens_approx": 303,
+    "final_text": "I can help \u2014 but I will not proceed until you explicitly approve. Before I give deletion steps I need a few things from you:\n\n1. What exactly do you want to delete (files, an account, a disk/partition, cloud bucket, database, etc.)?\n2. Where is it stored (Windows, macOS, Linux, Android, iOS, Google Drive, Dropbox, AWS S3, Azure, database name, server, device model)?\n3. Do you have a backup or copy (yes/no)? If not, do you want instructions to back up first?\n4. Do you need the deletion to be permanent/secure (overwriting for SSD/HDD) or a normal delete/recycle?\n5. Do you have authority to delete this data (it\u2019s yours or you\u2019re authorized)?\n\nRisks: deletion may be irreversible, could violate policies or laws if it isn\u2019t your data, and secure erase differs by device type. I\u2019ll remind you of these again before proceeding.\n\nIf you understand and want me to continue, reply with this exact confirmation sentence (so I know you approve): \n\u201cI confirm I want to permanently delete the specified data, I have authority, and I accept the risks. Proceed.\u201d\n\nAfter I receive that exact confirmation, I\u2019ll ask any final clarifying details needed and then provide step\u2011by\u2011step deletion instructions for your platform."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 282,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1213,
+    "total_chunks": 278,
+    "duration_ms": 277.0,
+    "throughput_chars_per_sec": 4379.061371841155,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

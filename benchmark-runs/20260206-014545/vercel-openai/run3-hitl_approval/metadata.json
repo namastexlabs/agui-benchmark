@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9814.359240001068,
+    "time_to_first_event_ms": 1802.1445979829878,
+    "time_to_first_content_ms": 9814.93671797216,
+    "time_to_complete_ms": 9814.359240001068
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1229,
+    "tokens_approx": 307,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before I proceed, I need a few details and a clear, explicit confirmation from you.\n\nPlease provide:\n1. What exactly should be deleted (files, folders, database rows, cloud buckets, etc.) and exact names/paths/IDs.  \n2. Where it lives (local drive, Windows/Mac, AWS S3, GCP, Azure, MySQL/Postgres, Git repo, etc.).  \n3. Whether you have a backup or want one created first (I can give backup steps).  \n4. Any time constraints (delete now, schedule, or simulated/dry-run first).  \n5. Confirmation you are authorized to delete this data.\n\nWarning: deletion may be irreversible and could cause data loss or service interruption. If you understand and still want me to proceed, type one of these exact confirmation phrases (pick one and include the resource description):  \n- CONFIRM DELETE \u2014 [describe resources to delete]  \nor  \n- I APPROVE PERMANENT DELETE \u2014 [describe resources to delete]\n\nAfter I receive that exact confirmation phrase and the details above, I will either (a) give step-by-step commands to delete safely, or (b) perform the deletion if you give me remote access and instructions (note: I can\u2019t access systems on my own). What do you want to delete?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 281,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9659.487230004743,
+    "time_to_first_event_ms": 9658.807825064287,
+    "time_to_first_content_ms": 9659.592698095366,
+    "time_to_complete_ms": 9659.487230004743
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 570,
+    "tokens_approx": 142,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"Add two numbers and return the result.\"\"\"\n    return a + b\n\n# Example usage:\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Has an example usage showing how to call it\n\nYou can use it with any numeric types (integers, floats, etc.):\n\n```python\nprint(add(10, 20))      # Output: 30\nprint(add(3.5, 2.5))    # Output: 6.0\nprint(add(-5, 15))      # Output: 10\n```"
+  },
+  "tokens": {
+    "input_tokens": 681,
+    "output_tokens": 190,
+    "total_tokens": 871
+  },
+  "events": {
+    "total_events": 48,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

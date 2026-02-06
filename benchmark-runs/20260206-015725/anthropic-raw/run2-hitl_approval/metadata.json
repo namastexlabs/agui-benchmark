@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14087.247868999839,
+    "time_to_first_event_ms": 14086.40617702622,
+    "time_to_first_content_ms": 14087.465174961835,
+    "time_to_complete_ms": 14087.247868999839
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 735,
+    "tokens_approx": 183,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to files, databases, accounts, or any systems where data could be stored or deleted. I can't take actions beyond these two functions.\n\nIf you're looking to delete data from your own system, device, or account, you would need to:\n1. Access that system directly yourself\n2. Use the appropriate deletion tools or settings within that application/platform\n3. Make sure you have proper backups before deleting anything important\n\nIs there something else I can help you with, like doing some calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 164,
+    "total_tokens": 847
+  },
+  "events": {
+    "total_events": 67,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 735,
+    "total_chunks": 62,
+    "duration_ms": 61.0,
+    "throughput_chars_per_sec": 12049.180327868851,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

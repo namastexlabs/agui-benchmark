@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6100.29938002117,
+    "time_to_first_event_ms": 318.1350389495492,
+    "time_to_first_content_ms": 6100.3377579618245,
+    "time_to_complete_ms": 6100.29938002117
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 549,
+    "tokens_approx": 137,
+    "final_text": "I don\u2019t have access to any tool called \"nonexistent_tool\", so I can\u2019t call it. I can still help \u2014 tell me what you wanted that tool to do and choose one:\n\n- I can perform the task myself here (analysis, text editing, generating code, conversions, summarization, brainstorming, etc.).\n- I can simulate what the tool\u2019s output would look like and explain the steps it would take.\n- I can recommend and show how to run a real tool (command line, script, or web service) that does the job.\n\nGive me the task or an example input and which option you want."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,52 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2233.7720330106094,
+    "time_to_first_event_ms": 972.8908280376345,
+    "time_to_first_content_ms": 2234.5644150627777,
+    "time_to_complete_ms": 2233.7720330106094
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 800,
+    "tokens_approx": 200,
+    "final_text": "I'm happy to help you with your query. Before we proceed with deleting any important data, I want to make sure you're aware of the consequences. Deleting important data can be irreversible and may result in loss of valuable information. \n\nCan you please confirm that you want to proceed with deleting the data and that you have taken necessary backups or have the means to recover the data if needed?I'm happy to help you with your query. Before we proceed with deleting any important data, I want to make sure you're aware of the consequences. Deleting important data can be irreversible and may result in loss of valuable information. \n\nCan you please confirm that you want to proceed with deleting the data and that you have taken necessary backups or have the means to recover the data if needed?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 48,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 400,
+    "total_chunks": 14,
+    "duration_ms": 26.0,
+    "throughput_chars_per_sec": 15384.615384615385,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

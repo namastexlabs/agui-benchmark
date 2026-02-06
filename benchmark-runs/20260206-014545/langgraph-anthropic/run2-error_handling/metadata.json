@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2903.659810894169,
+    "time_to_first_event_ms": 1002.486216952093,
+    "time_to_first_content_ms": 2905.466910917312,
+    "time_to_complete_ms": 2903.659810894169
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 770,
+    "tokens_approx": 192,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can:\n- Tell you what time it is right now\n- Do math calculations for you\n\nLet me know how I can assist! \ud83d\ude0aI don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can:\n- Tell you what time it is right now\n- Do math calculations for you\n\nLet me know how I can assist! \ud83d\ude0a"
+  },
+  "tokens": {
+    "input_tokens": 677,
+    "output_tokens": 105,
+    "total_tokens": 782
+  },
+  "events": {
+    "total_events": 96,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

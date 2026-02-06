@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple", "_timestamp": 539437.579034584, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "de6d3e62-2f2a-4871-b1ed-9c9f73b2298e", "role": "assistant", "_timestamp": 539437.580034584, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "de6d3e62-2f2a-4871-b1ed-9c9f73b2298e", "delta": "Hello! I'", "_timestamp": 539437.581034584, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "de6d3e62-2f2a-4871-b1ed-9c9f73b2298e", "delta": "m a helpful assistant powered by Google, ready to assist you. I can tell you", "_timestamp": 539437.582034584, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "de6d3e62-2f2a-4871-b1ed-9c9f73b2298e", "delta": " the current time and evaluate mathematical expressions.", "_timestamp": 539437.583034584, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "de6d3e62-2f2a-4871-b1ed-9c9f73b2298e", "_timestamp": 539437.584034584, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple", "_timestamp": 539437.585034584, "_offset_ms": 6.0, "_index": 6}

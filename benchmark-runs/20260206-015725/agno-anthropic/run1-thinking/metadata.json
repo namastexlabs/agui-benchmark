@@ -1,0 +1,76 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4266.74463506788,
+    "time_to_first_event_ms": 289.1848790459335,
+    "time_to_first_content_ms": 4267.016621073708,
+    "time_to_complete_ms": 4266.74463506788
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 6.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_017Va6BRpNpHT1k5Tg9PMn58",
+        "name": "calculator",
+        "start_ms": 38.0,
+        "end_ms": 40.0,
+        "result_ms": 41.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "toolu_01BSKm5gGVZNLTuU9TVFagPG",
+        "name": "calculator",
+        "start_ms": 56.0,
+        "end_ms": 58.0,
+        "result_ms": 59.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 735,
+    "tokens_approx": 183,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1: Identify what we know**\n- We have the equation: x + 5 = 12\n- We need to find the value of x\n\n**Step 2: Isolate x**\n- To get x by itself, I need to remove the \"+5\" from the left side\n- I can do this by subtracting 5 from both sides of the equation (keeping it balanced)\n\n**Step 3: Perform the calculation**\n- Left side: x + 5 - 5 = x\n- Right side: 12 - 5 = ?**Step 4: State the solution**\n- x = 7\n\n**Verification:** Let me check this is correct by substituting x = 7 back into the original equation:Perfect! \u2713\n\n**Answer: x = 7**\n\nThe reasoning: We subtract 5 from both sides of the equation to isolate x, which gives us x = 12 - 5 = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 77,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 735,
+    "total_chunks": 61,
+    "duration_ms": 72.0,
+    "throughput_chars_per_sec": 10208.333333333334,
+    "avg_gap_ms": 1.2,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

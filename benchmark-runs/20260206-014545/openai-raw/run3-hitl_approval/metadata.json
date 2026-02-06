@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 35758.18074506242,
+    "time_to_first_event_ms": 35756.548541015945,
+    "time_to_first_content_ms": 35758.56881705113,
+    "time_to_complete_ms": 35758.18074506242
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 885,
+    "tokens_approx": 221,
+    "final_text": "I can help, but I cannot delete files directly from your systems. I will ask for your explicit approval before I provide any deletion steps or irreversible commands.\n\nBefore we proceed, please tell me:\n1. Exactly what to delete (file/folder path, database name/table, cloud resource ID, etc.).  \n2. Where it is (Windows, macOS, Linux, AWS/Azure/GCP, SQL server, etc.).  \n3. Whether you have a backup or want me to include backup/restore steps.  \n4. Whether you want permanent deletion (irreversible) or move to Trash/Recycle (recoverable).\n\nWhen you\u2019re ready, type the exact confirmation phrase below (including the paths/IDs you want deleted) so I know you explicitly approve proceeding:\nI CONFIRM DELETE: [exact path(s) or resource ID(s)]\n\nAfter you send that, I\u2019ll prepare the deletion commands/instructions and ask you once more to confirm before showing any irreversible commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 200,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

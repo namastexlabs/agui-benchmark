@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2760.056848055683,
+    "time_to_first_event_ms": 996.9253650633618,
+    "time_to_first_content_ms": 2760.688087088056,
+    "time_to_complete_ms": 2760.056848055683
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 305,
+    "tokens_approx": 76,
+    "final_text": "I'm not able to use a tool called 'nonexistent_tool' because it doesn't exist. I can only use the tools I have been given, which are getting the current time and doing basic math calculations, as well as using the 'get_current_time' and 'calculator' functions. Is there something else I can help you with?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 47,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

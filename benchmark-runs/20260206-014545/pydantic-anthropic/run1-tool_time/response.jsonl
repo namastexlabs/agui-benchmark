@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01CKYKWX4QvcjAe44GPSFcWw", "toolCallName": "get_current_time", "parentMessageId": "615c689e-a7e5-480c-bb7c-faab63977379"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01CKYKWX4QvcjAe44GPSFcWw", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01CKYKWX4QvcjAe44GPSFcWw"}
+{"type": "TOOL_CALL_RESULT", "messageId": "05a65073-3bb0-420c-99a9-c91fbd8f1725", "toolCallId": "toolu_01CKYKWX4QvcjAe44GPSFcWw", "content": "2026-02-06 01:45:46", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": ":45:46 "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": "on February 6, 2026"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": " (just"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": " before"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": " 2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": "AM"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101", "delta": ")."}
+{"type": "TEXT_MESSAGE_END", "messageId": "8c5ae9cd-c440-46aa-970c-8333f18eb101"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time"}

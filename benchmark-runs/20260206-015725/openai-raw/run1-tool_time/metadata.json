@@ -1,0 +1,65 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8513.09930998832,
+    "time_to_first_event_ms": 8512.647412950173,
+    "time_to_first_content_ms": 8513.18669191096,
+    "time_to_complete_ms": 8513.09930998832
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "867dfaf3-7564-4487-8594-0083568c2225",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "2026-02-06 01:57:30"
+      }
+    ]
+  },
+  "response": {
+    "chars": 108,
+    "tokens_approx": 27,
+    "final_text": "The current time is 2026-02-06 01:57:30 (server time). Would you like this converted to a specific timezone?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 39,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 108,
+    "total_chunks": 31,
+    "duration_ms": 30.0,
+    "throughput_chars_per_sec": 3600.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

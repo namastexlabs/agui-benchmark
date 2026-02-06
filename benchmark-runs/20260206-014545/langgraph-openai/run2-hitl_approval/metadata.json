@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9125.544190988876,
+    "time_to_first_event_ms": 995.9687790833414,
+    "time_to_first_content_ms": 9169.824802083895,
+    "time_to_complete_ms": 9125.544190988876
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2014,
+    "tokens_approx": 503,
+    "final_text": "I can help \u2014 but first I need explicit approval and some details.\n\n1) Quick safety checks (please confirm):\n- Do you have a current backup or snapshot of the data? (yes/no)\n- Are you the authorized owner to delete this data? (yes/no)\n- Is this deletion irreversible and permanent? (yes/no)\n\n2) Tell me:\n- Where is the data stored? (local PC, server, cloud provider, database, specific service)\n- What exactly do you want deleted? (file paths, database names/tables, buckets, records, etc.)\n- Do you want a dry-run / list of items to be deleted before actual deletion? (yes/no)\n\n3) IMPORTANT: I cannot directly delete files or access your systems. I will provide commands or step-by-step instructions. If you want me to proceed with deletion instructions, type the exact confirmation phrase below:\n\nI CONFIRM DELETE \u2014 PROCEED\n\nOnce you provide the confirmation phrase and the details above, I will give a careful deletion plan (with backup reminders and safety checks) and the exact commands or steps to run.I can help \u2014 but first I need explicit approval and some details.\n\n1) Quick safety checks (please confirm):\n- Do you have a current backup or snapshot of the data? (yes/no)\n- Are you the authorized owner to delete this data? (yes/no)\n- Is this deletion irreversible and permanent? (yes/no)\n\n2) Tell me:\n- Where is the data stored? (local PC, server, cloud provider, database, specific service)\n- What exactly do you want deleted? (file paths, database names/tables, buckets, records, etc.)\n- Do you want a dry-run / list of items to be deleted before actual deletion? (yes/no)\n\n3) IMPORTANT: I cannot directly delete files or access your systems. I will provide commands or step-by-step instructions. If you want me to proceed with deletion instructions, type the exact confirmation phrase below:\n\nI CONFIRM DELETE \u2014 PROCEED\n\nOnce you provide the confirmation phrase and the details above, I will give a careful deletion plan (with backup reminders and safety checks) and the exact commands or steps to run."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 552,
+    "total_tokens": 763
+  },
+  "events": {
+    "total_events": 471,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

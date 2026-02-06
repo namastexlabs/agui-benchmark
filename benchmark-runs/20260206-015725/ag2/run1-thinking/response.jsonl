@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 539437.59427169, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "145f7542-9fda-4ba1-917e-dca5156fc27e", "role": "assistant", "_timestamp": 539437.59527169, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "145f7542-9fda-4ba1-917e-dca5156fc27e", "delta": "I can't share my internal step-by-step chain-of-thought, but I can give the answer and a brief summary of the method.\n\nAnswer: x = 7.\n\nSummary: Subtract 5 from both sides of x + 5 = 12 to get x = 12 \u2212 5 = 7. Check: 7 + 5 = 12. Would you like a similar example or a short explanation of solving linear equations?", "_timestamp": 539437.59627169, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "145f7542-9fda-4ba1-917e-dca5156fc27e", "_timestamp": 539437.59727169, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 539437.59827169, "_offset_ms": 4.0, "_index": 4}

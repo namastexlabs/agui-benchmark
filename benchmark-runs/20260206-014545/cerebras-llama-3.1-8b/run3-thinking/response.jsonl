@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353254", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " solve for x, we need to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " isolate x on one side of the equation. The equation is x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " + 5 = 12.\n\nStep 1: Subtract 5 from both sides of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " the equation to get rid of the 5 that's being"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " added to x.\nx + 5 - 5 = 12"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " - 5\n\nStep 2: Simplify the equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " by performing the subtraction.\nx = 7\n\nSo, x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353254", "delta": " is equal to 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353254"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

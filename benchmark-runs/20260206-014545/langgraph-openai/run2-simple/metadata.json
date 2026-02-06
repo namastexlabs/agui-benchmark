@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3239.359693019651,
+    "time_to_first_event_ms": 1001.0176470968872,
+    "time_to_first_content_ms": 3240.7495620427653,
+    "time_to_complete_ms": 3239.359693019651
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 322,
+    "tokens_approx": 80,
+    "final_text": "Hello \u2014 I\u2019m ChatGPT, an AI assistant here to help with questions, brainstorming, writing, and problem solving. Tell me what you need and I\u2019ll do my best to help.Hello \u2014 I\u2019m ChatGPT, an AI assistant here to help with questions, brainstorming, writing, and problem solving. Tell me what you need and I\u2019ll do my best to help."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 111,
+    "total_tokens": 319
+  },
+  "events": {
+    "total_events": 104,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

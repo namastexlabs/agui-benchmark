@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10684.96151198633,
+    "time_to_first_event_ms": 1828.819769085385,
+    "time_to_first_content_ms": 10685.435460065491,
+    "time_to_complete_ms": 10684.96151198633
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 960,
+    "tokens_approx": 240,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. A few quick questions so I can prepare the correct, safe steps:\n\n1. Where is the data stored? (local machine, Linux server, Windows, cloud storage like S3, database, etc.)\n2. Exact items/paths to delete (or an example). Be specific \u2014 I will only act on what you specify.\n3. Do you have a backup or snapshot? Should I create one or show how to before deleting?\n4. Do you want a dry-run (list what would be deleted) or immediate permanent deletion?\n5. How would you like me to perform the deletion: show shell/SQL/console commands for you to run, or a script you can run?\n\nIf you want me to proceed after you answer the above, please confirm explicitly by typing one of these exact phrases (so I know it\u2019s intentional):\n- \u201cYES \u2014 Delete the specified data now\u201d\nor\n- \u201cYES \u2014 Show me deletion commands (I will run them)\u201d\n\nI will wait for your answers and that explicit confirmation before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 225,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

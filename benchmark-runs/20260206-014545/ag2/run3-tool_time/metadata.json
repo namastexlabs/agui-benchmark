@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10252.737483009696,
+    "time_to_first_event_ms": 2350.9259070269763,
+    "time_to_first_content_ms": 10252.763518015854,
+    "time_to_complete_ms": 10252.737483009696
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 334,
+    "tokens_approx": 83,
+    "final_text": "I don\u2019t have access to the time tool in this chat. The system date here is 2026-02-06, but I can\u2019t read the exact current clock time without a timezone or a time-check tool.\n\nWould you like me to:\n- Give the current time in UTC, or\n- Convert to your local time if you tell me your timezone or city?\n\nTell me which and I\u2019ll compute it."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7596.068489016034,
+    "time_to_first_event_ms": 1003.8313589757308,
+    "time_to_first_content_ms": 7599.842492025346,
+    "time_to_complete_ms": 7596.068489016034
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1198,
+    "tokens_approx": 299,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it\u2019s not available in my environment. Available tools here are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions (e.g., \"10 * 5\")  \n- multi_tool_use.parallel \u2014 runs the above tools in parallel if you need both at once\n\nTell me what you want to do and I\u2019ll use one of those (or simulate/describe how a missing tool would work). Examples you can ask now:\n- \"Get the current time.\"\n- \"Calculate 234*19.6.\"\n- \"Give me both the time and the result of 2^10.\"\n\nWhich would you like me to run?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it\u2019s not available in my environment. Available tools here are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions (e.g., \"10 * 5\")  \n- multi_tool_use.parallel \u2014 runs the above tools in parallel if you need both at once\n\nTell me what you want to do and I\u2019ll use one of those (or simulate/describe how a missing tool would work). Examples you can ask now:\n- \"Get the current time.\"\n- \"Calculate 234*19.6.\"\n- \"Give me both the time and the result of 2^10.\"\n\nWhich would you like me to run?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 414,
+    "total_tokens": 620
+  },
+  "events": {
+    "total_events": 322,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

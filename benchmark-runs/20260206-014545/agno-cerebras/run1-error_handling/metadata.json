@@ -1,0 +1,32 @@
+{
+  "agent": "agno-cerebras",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 748.5672730254009,
+    "time_to_first_event_ms": 745.8915050374344,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 748.5672730254009
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

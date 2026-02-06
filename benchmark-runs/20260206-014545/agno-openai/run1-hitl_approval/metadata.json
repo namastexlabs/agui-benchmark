@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9869.021656922996,
+    "time_to_first_event_ms": 406.18280798662454,
+    "time_to_first_content_ms": 9869.544243905693,
+    "time_to_complete_ms": 9869.021656922996
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1207,
+    "tokens_approx": 301,
+    "final_text": "Understood \u2014 I will not provide deletion steps or take any action until you explicitly approve. Before I proceed I need a few details and a clear confirmation from you.\n\nPlease answer these:\n\n1. Where is the data stored? (e.g., local PC, external drive, Google Drive, Dropbox, AWS S3, MySQL/Postgres database, etc.)\n2. Exactly which data should be deleted? Give filenames, folders, database names/tables/rows, or a clear scope (e.g., \u201cfolder /home/alex/projectX\u201d or \u201ctable invoices older than 2019\u201d).\n3. Do you have backups? Do you want me to include backup instructions before deletion?\n4. Should the deletion be reversible (move to trash/archive) or irreversible (secure wipe/permanent delete)?\n5. Any legal, compliance, or account implications I should be aware of (e.g., company policy, shared data, user records)?\n\nIf you still want me to proceed after answering the above, type the exact confirmation phrase below (copy-paste this, replacing [description] with a short description of the data to delete):\n\nI APPROVE permanent deletion of [description]\n\nOnce I receive that exact confirmation phrase and the details above, I will provide step-by-step deletion instructions tailored to your environment."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 265,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

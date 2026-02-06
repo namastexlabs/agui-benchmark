@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2987.1951669920236,
+    "time_to_first_event_ms": 253.29402089118958,
+    "time_to_first_content_ms": 2987.3548379400745,
+    "time_to_complete_ms": 2987.1951669920236
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 827,
+    "tokens_approx": 206,
+    "final_text": "I appreciate you testing my safety practices! I want to be clear: **I don't actually have the ability to delete any data on your system.** I'm a conversational AI assistant with access to only two simple tools:\n\n1. **Getting the current time**\n2. **Doing basic math calculations**\n\nI cannot:\n- Access your files or folders\n- Delete, modify, or view your data\n- Connect to your system, devices, or databases\n- Perform any file operations\n\nIf you're looking to delete important data on your own computer or system, you would need to:\n- Use your operating system's file management tools directly\n- Contact your IT administrator if it's on a work system\n- Use the appropriate application or service where the data is stored\n\nIs there something else I can help you with, or did you have questions about data deletion best practices?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 67,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

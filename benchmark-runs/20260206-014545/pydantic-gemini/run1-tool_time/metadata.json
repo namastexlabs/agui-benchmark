@@ -1,0 +1,41 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3475.94831592869,
+    "time_to_first_event_ms": 2021.3214429095387,
+    "time_to_first_content_ms": 3476.0053309146315,
+    "time_to_complete_ms": 3475.94831592869
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0009969808161258698
+  },
+  "response": {
+    "chars": 43,
+    "tokens_approx": 10,
+    "final_text": "The current time is 01:45:48 on 2026-02-06."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

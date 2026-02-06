@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14502.641477971338,
+    "time_to_first_event_ms": 3306.494093965739,
+    "time_to_first_content_ms": 14503.25474399142,
+    "time_to_complete_ms": 14502.641477971338
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1393,
+    "tokens_approx": 348,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and an explicit confirmation from you.\n\nPlease provide:\n- Exact data to delete (file paths, database names/tables/rows, buckets, account IDs, etc.).\n- Where it is located (system, server, cloud provider, environment: prod/staging).\n- Deletion type you want: permanent wipe, move to trash/archive, or revoke access only.\n- Do you have a backup or snapshot? If not, do you want me to include backup steps?\n- Any legal/retention or authorization constraints I should know about.\n- When to perform the deletion (now or scheduled).\n- Who is authorizing this (your name/role) for auditing.\n\nTo confirm you want me to proceed, please reply with the exact confirmation phrase below (include the data identifiers in brackets). I will not act on any other reply:\nCONFIRM DELETE \u2014 [exact data identifiers and location]\n\nExample:\nCONFIRM DELETE \u2014 /home/project/secret.db on prod-server-1, bucket my-company/backups/old/ (permanent)\n\nWhen I receive that exact confirmation phrase, I will:\n- Re-state the deletion plan and consequences,\n- Provide the deletion commands or step-by-step runbook,\n- Ask one final yes/no if you want me to execute or if you want the instructions only.\n\nDo you want me to prepare a backup and a deletion runbook first, or go straight to preparing the deletion commands?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 309,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1393,
+    "total_chunks": 305,
+    "duration_ms": 304.0,
+    "throughput_chars_per_sec": 4582.236842105262,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

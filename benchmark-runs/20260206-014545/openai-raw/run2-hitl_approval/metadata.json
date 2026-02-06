@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 43772.976843989454,
+    "time_to_first_event_ms": 43770.62235295307,
+    "time_to_first_content_ms": 43773.50381901488,
+    "time_to_complete_ms": 43772.976843989454
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 903,
+    "tokens_approx": 225,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we continue, please answer these quick questions so I can proceed safely:\n\n1. What exactly do you want deleted? (file paths, database names/tables, cloud buckets, devices, etc.)\n2. Where is it stored? (local machine, server, AWS/GCP/Azure, NAS, phone, etc.)\n3. Do you have a backup? Do you want me to create or confirm a backup first?\n4. Should deletion be permanent (irreversible) or move to trash/archive first?\n5. Do you want a preview/list of items I will delete before I execute anything?\n\nWhen you\u2019re ready, give an explicit confirmation using one of these exact phrases:\n- \u201cI CONFIRM DELETE \u2014 proceed\u201d (to delete now), or\n- \u201cSHOW PREVIEW\u201d (to list items but not delete).\n\nAlso tell me the environment and the exact items to delete. I\u2019ll wait for your answers and your explicit confirmation phrase before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 210,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

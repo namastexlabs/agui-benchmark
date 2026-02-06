@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2318.1162249529734,
+    "time_to_first_event_ms": 1790.6650889199227,
+    "time_to_first_content_ms": 2318.615661934018,
+    "time_to_complete_ms": 2318.1162249529734
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 666,
+    "tokens_approx": 166,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. The equation is x + 5 = 12. \n\nFirst, we want to get rid of the +5 on the left side. To do this, we subtract 5 from both sides of the equation. This keeps the equation balanced.\n\nSo, x + 5 - 5 = 12 - 5\n\nThis simplifies to x = 7\n\nTherefore, the value of x is 7.To find the value of x, we need to isolate x on one side of the equation. The equation is x + 5 = 12. \n\nFirst, we want to get rid of the +5 on the left side. To do this, we subtract 5 from both sides of the equation. This keeps the equation balanced.\n\nSo, x + 5 - 5 = 12 - 5\n\nThis simplifies to x = 7\n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 46,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

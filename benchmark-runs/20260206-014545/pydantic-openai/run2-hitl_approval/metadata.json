@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11826.995553914458,
+    "time_to_first_event_ms": 251.80347997229546,
+    "time_to_first_content_ms": 11827.49306189362,
+    "time_to_complete_ms": 11826.995553914458
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1301,
+    "tokens_approx": 325,
+    "final_text": "I will not delete anything until you explicitly approve. Before I proceed, I need some information and an unambiguous confirmation from you.\n\nPlease tell me:\n1. Exactly what you want deleted (files/folders, database, cloud bucket, Git repo, etc.) and a short identifier (path, bucket name, DB/table name).\n2. Where it\u2019s stored (local Windows/Mac/Linux machine, Google Drive, Dropbox, AWS S3, Azure, MySQL/Postgres, etc.).\n3. Whether you have backups or snapshots and whether those should also be removed.\n4. The deletion method you want (move to trash/recycle bin, permanent delete, secure overwrite, purge backups/snapshots).\n5. Any legal/organization/ownership constraints (are you authorized to delete this? any retention policy?).\n6. Whether you want me to (a) provide exact step-by-step commands/instructions you can run, or (b) perform the deletion for you (note: I can only execute actions if you provide appropriate access or run the commands I give).\n\nWhen you\u2019re ready, confirm by typing this exact phrase (replace the bracketed text with a brief identifier of the data):\nCONFIRM DELETE \u2014 I AUTHORIZE DELETION OF [short description]\n\nExample:\nCONFIRM DELETE \u2014 I AUTHORIZE DELETION OF /home/alex/old_backups\n\nI will only proceed after I receive that exact confirmation plus the details above."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 296,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

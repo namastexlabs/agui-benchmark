@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770353149", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353149", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353149", "delta": " calculate 42 * 17, I will use the calculator tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770353149", "delta": ".\n\n42 * 17 = 714"}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770353149"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc"}

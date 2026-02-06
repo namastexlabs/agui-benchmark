@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5766.105246031657,
+    "time_to_first_event_ms": 1010.610286029987,
+    "time_to_first_content_ms": 5767.941797035746,
+    "time_to_complete_ms": 5766.105246031657
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 274,
+    "tokens_approx": 68,
+    "final_text": "The current time (from the system) is 2026-02-06 01:45:47. Would you like this converted to a specific timezone or formatted differently?The current time (from the system) is 2026-02-06 01:45:47. Would you like this converted to a specific timezone or formatted differently?"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 237,
+    "total_tokens": 483
+  },
+  "events": {
+    "total_events": 124,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

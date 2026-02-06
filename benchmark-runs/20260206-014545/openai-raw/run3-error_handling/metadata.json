@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 41631.10502297059,
+    "time_to_first_event_ms": 41629.453426925465,
+    "time_to_first_content_ms": 41631.46057992708,
+    "time_to_complete_ms": 41631.10502297059
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 811,
+    "tokens_approx": 202,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. I can\u2019t call tools that don\u2019t exist, but I can help in a few ways \u2014 pick one:\n\n- If you meant a real action, tell me what you want done and I\u2019ll either do it with available tools or simulate it.\n- I can call the available tools here: get_current_time (returns current date/time) and calculator (evaluate math expressions). I can also run them in parallel.\n- I can write code or pseudo-code that would use a hypothetical tool, or show how to integrate an external API/service you name.\n\nExamples \u2014 tell me which you want and I\u2019ll run it:\n- \u201cGet the current time.\u201d\n- \u201cCompute 12345 * 6789.\u201d\n- \u201cDo both at once.\u201d\n\nOr describe what \u201cnonexistent_tool\u201d was supposed to do and I\u2019ll implement the behavior using available tools or a simulation. Which do you want?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 195,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

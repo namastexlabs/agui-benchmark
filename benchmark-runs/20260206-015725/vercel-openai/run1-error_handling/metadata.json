@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10622.457367950119,
+    "time_to_first_event_ms": 3391.542154015042,
+    "time_to_first_content_ms": 10622.710429946892,
+    "time_to_complete_ms": 10622.457367950119
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 385,
+    "tokens_approx": 96,
+    "final_text": "I can\u2019t use a tool named \"nonexistent_tool\" \u2014 it\u2019s not in my available toolset. I do have these tools I can use for you:\n- get_current_time \u2014 return the current date/time\n- calculator \u2014 evaluate math expressions (e.g., \"12 * 7 + 3\")\n\nTell me what you want done and I\u2019ll either run one of those tools or do it directly. If you meant a different tool, give its name or describe the task."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 102,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 385,
+    "total_chunks": 98,
+    "duration_ms": 97.0,
+    "throughput_chars_per_sec": 3969.0721649484535,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

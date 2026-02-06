@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9355.275087989867,
+    "time_to_first_event_ms": 302.13885591365397,
+    "time_to_first_content_ms": 9355.94488796778,
+    "time_to_complete_ms": 9355.275087989867
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1003,
+    "tokens_approx": 250,
+    "final_text": "I can help \u2014 but I will not delete anything until you explicitly approve. Please confirm the details and your clear consent:\n\n1. What exactly should be deleted? (paths, filenames, accounts, services, or a description of the data and where it is located)\n2. Do you have a backup or are you willing to accept that this is irreversible? (yes / no)\n3. Do you want me to:\n   - A) provide step-by-step instructions or deletion commands you will run, or\n   - B) perform deletions for you (note: I can only perform deletions if you run provided commands or grant a remote session; I cannot access your devices on my own).\n4. To confirm you understand and approve, type one of these exact approval phrases (choose and include the data description from item 1):\n   - I APPROVE: delete [exact data description]\n   - CONFIRM DELETE: delete [exact data description]\n\nI will not proceed until you reply with the exact approval phrase and the answers above. I also recommend making a backup now if you haven\u2019t already."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 226,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

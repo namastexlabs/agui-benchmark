@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9332.603915943764,
+    "time_to_first_event_ms": 229.44435302633792,
+    "time_to_first_content_ms": 9333.277589990757,
+    "time_to_complete_ms": 9332.603915943764
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1331,
+    "tokens_approx": 332,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details so I can prepare a safe, reversible plan and an explicit approval prompt for you to confirm.\n\nPlease tell me:\n1. What exactly do you want deleted? (files, folders, database rows, VM images, cloud buckets, etc.)\n2. Where is it located? (local machine and OS, cloud provider and region, database type and name, path, etc.)\n3. Is there a required backup or retention policy I should follow first?\n4. Is this data subject to legal or compliance rules (GDPR, HIPAA, corporate retention)?\n5. Do you want me to (a) provide step-by-step deletion commands/scripts you will run, or (b) produce a script you can run, or (c) just draft the textual approval prompt and a checklist?\n6. Do you want a one-time confirmation phrase (e.g., type DELETE NOW) or multi-factor confirmation (e.g., enter code I give you)?\n\nIf you want, I can now:\n- Draft a deletion checklist and backup steps.\n- Produce the exact commands/scripts for the platform you specify.\n- Create a strict approval prompt you must respond with before I give the deletion commands.\n\nTell me the details above and which of the options you prefer. I will then present the deletion plan and ask for your explicit approval before giving or executing any deletion instructions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 295,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1331,
+    "total_chunks": 291,
+    "duration_ms": 290.0,
+    "throughput_chars_per_sec": 4589.6551724137935,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

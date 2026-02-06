@@ -1,0 +1,30 @@
+{"type": "RUN_STARTED", "timestamp": 1770353145, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-error_handling"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353145, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "'t have access to a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " called "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " tools"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " available to me are:\n\n1."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " **"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "get_current_time()"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "** - Get"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " **calculator("}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "expression)"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": "** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " expressions\n\nIs"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " one"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " you the current time or"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " perform"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " math"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " calculations for"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770353146, "messageId": "d2e08157-29c2-45c9-85d5-34c21977c09a", "role": "assistant", "delta": " you."}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770353146, "messages": [{"id": "1658e27a-cee0-422e-a32b-59b11620ac54", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "Use the 'nonexistent_tool' to do something."}, {"id": "6995676e-5380-475b-afe7-23e09fe990ca", "role": "assistant", "content": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time()** - Get the current date and time\n2. **calculator(expression)** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can tell you the current time or perform math calculations for you."}]}
+{"type": "RUN_FINISHED", "timestamp": 1770353146, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-error_handling"}

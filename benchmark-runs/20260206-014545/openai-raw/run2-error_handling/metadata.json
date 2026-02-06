@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 50107.57175006438,
+    "time_to_first_event_ms": 50106.52849404141,
+    "time_to_first_content_ms": 50107.80254704878,
+    "time_to_complete_ms": 50107.57175006438
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 499,
+    "tokens_approx": 124,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because that tool isn\u2019t available here. What would you like done? I can instead:\n\n- Use the available tools (get current time, or run a calculation).\n- Simulate or mock what the nonexistent tool would return (describe expected behavior and produce sample output).\n- Help design or write code for a new tool you can add.\n\nTell me which you'd like and any details (e.g., a math expression to calculate, or the behavior/output you expect), and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 113,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}
