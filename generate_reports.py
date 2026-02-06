@@ -427,35 +427,38 @@ def main():
 
     print(f"✅ Loaded {len(results)} agents with results")
 
-    # Generate reports
+    # Generate reports in docs/reports/ directory
+    reports_dir = Path("docs/reports")
+    reports_dir.mkdir(parents=True, exist_ok=True)
+
     print("\n🚀 Generating reports...\n")
 
     generate_event_coverage_matrix(
         results,
-        Path("EVENT-COVERAGE-MATRIX.md")
+        reports_dir / "EVENT-COVERAGE-MATRIX.md"
     )
 
     generate_framework_comparison(
         results,
-        Path("FRAMEWORK-COMPARISON-MATRIX.md")
+        reports_dir / "FRAMEWORK-COMPARISON-MATRIX.md"
     )
 
     generate_event_type_analysis(
         results,
-        Path("EVENT-TYPE-ANALYSIS.md")
+        reports_dir / "EVENT-TYPE-ANALYSIS.md"
     )
 
     generate_summary_report(
         results,
-        Path("BENCHMARK-SUMMARY.md")
+        reports_dir / "BENCHMARK-SUMMARY.md"
     )
 
     print("\n✅ All reports generated successfully!")
     print("\n📋 Generated files:")
-    print("  - EVENT-COVERAGE-MATRIX.md (26 events × agents)")
-    print("  - FRAMEWORK-COMPARISON-MATRIX.md (capabilities)")
-    print("  - EVENT-TYPE-ANALYSIS.md (event breakdown)")
-    print("  - BENCHMARK-SUMMARY.md (overall stats)")
+    print(f"  - {reports_dir}/EVENT-COVERAGE-MATRIX.md (26 events × agents)")
+    print(f"  - {reports_dir}/FRAMEWORK-COMPARISON-MATRIX.md (capabilities)")
+    print(f"  - {reports_dir}/EVENT-TYPE-ANALYSIS.md (event breakdown)")
+    print(f"  - {reports_dir}/BENCHMARK-SUMMARY.md (overall stats)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 31734.584973000892,
+    "time_to_first_event_ms": 31733.511118000024,
+    "time_to_first_content_ms": 31734.780472001148,
+    "time_to_complete_ms": 31734.584973000892
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 141,
+    "tokens_approx": 35,
+    "final_text": "```python\ndef add(a: float, b: float) -> float:\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n\n# Example:\n# print(add(2, 3))  # 5\n```"
+  },
+  "tokens": {
+    "input_tokens": 210,
+    "output_tokens": 251,
+    "total_tokens": 461
+  },
+  "events": {
+    "total_events": 55,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 141,
+    "total_chunks": 50,
+    "duration_ms": 49.0,
+    "throughput_chars_per_sec": 2877.551020408163,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

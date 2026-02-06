@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 48092.182589000004,
+    "time_to_first_event_ms": 48089.12278800199,
+    "time_to_first_content_ms": 48092.93250100018,
+    "time_to_complete_ms": 48092.182589000004
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1578,
+    "tokens_approx": 394,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and your explicit confirmation.\n\n1) Quick questions\n- What exactly do you want deleted? (files, database rows, S3 bucket, VM, Git branch, email, etc.)\n- Where is it located? (local machine, AWS/GCP/Azure, company server, specific path or DB/table)\n- Why must it be deleted and when do you want it done?\n- Do you have authorization to delete this data (company policy, owner consent)?\n- Do you need a backup or recovery snapshot before deletion?\n\n2) Recommended pre-deletion checklist (I can help perform these)\n- Take a full backup or snapshot and verify it.\n- Export any logs or records you may need later.\n- Confirm retention/compliance/legal constraints.\n- Notify stakeholders who may be affected.\n- Plan and test a recovery procedure.\n\n3) How I\u2019ll proceed once you approve\n- I\u2019ll follow a clear step-by-step deletion plan and report each action and its results.\n- I\u2019ll keep a record of what was deleted (names, locations, timestamps).\n- I\u2019ll not run any destructive action until I receive your explicit confirmation in the form below.\n\nPlease reply with:\n- The answers to the questions in (1), and\n- This explicit confirmation phrase exactly as shown: I APPROVE deletion of [short description of what will be deleted]\n\nExample reply you can copy and edit:\nI APPROVE deletion of \"old_backups/2023\" on S3 bucket my-company-backups. Backup has been taken.\n\nOnce I receive that exact confirmation phrase and the location/details, I will proceed with the deletion plan."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 738,
+    "total_tokens": 949
+  },
+  "events": {
+    "total_events": 350,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1578,
+    "total_chunks": 345,
+    "duration_ms": 344.0,
+    "throughput_chars_per_sec": 4587.209302325581,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,37 +1,37 @@
 # 🏗️ Framework Capabilities Comparison
 
-**Generated:** 2026-02-06 04:29:36
+**Generated:** 2026-02-06 11:51:36
 
 ## 📊 Framework Performance Matrix
 
 | Framework | Tests | Success | Median Time (ms) | Throughput (c/s) | Tool Calls |
 |-----------|-------|---------|------------------|------------------|------------|
-| agno-cerebras | 27 | 100% | 284 | 0 | 0 |
-| pydantic-anthropic | 27 | 100% | 1771 | 13361 | 20 |
-| agno-anthropic | 27 | 100% | 2388 | 11327 | 19 |
-| pydantic-gemini | 27 | 100% | 2738 | 54000 | 16 |
-| vercel-anthropic | 27 | 100% | 2748 | 14290 | 13 |
-| vercel-gemini | 27 | 100% | 4219 | 29500 | 15 |
-| google-adk | 27 | 100% | 4412 | 99000 | 0 |
-| cerebras-llama-3.3-70b | 27 | 100% | 4493 | 31714 | 0 |
-| cerebras-llama-3.1-70b | 27 | 100% | 4600 | 0 | 0 |
-| llamaindex-openai | 27 | 100% | 4885 | 0 | 0 |
-| cerebras-llama-3.1-8b | 27 | 100% | 4962 | 47250 | 0 |
-| agno-openai | 27 | 100% | 5047 | 3086 | 15 |
-| pydantic-openai | 27 | 100% | 5303 | 3177 | 15 |
-| vercel-openai | 27 | 100% | 6634 | 3397 | 12 |
-| ag2 | 27 | 100% | 7469 | 0 | 0 |
-| anthropic-raw | 27 | 100% | 7614 | 14086 | 15 |
-| agno-gemini | 27 | 100% | 7674 | 40500 | 18 |
-| gemini-raw | 27 | 100% | 7957 | 63500 | 13 |
-| crewai | 27 | 100% | 17554 | 0 | 0 |
-| openai-raw | 27 | 100% | 20279 | 3449 | 12 |
-| llamaindex-gemini | 27 | 96% | 2768 | 0 | 0 |
-| langgraph-anthropic | 27 | 93% | 2295 | 6631 | 0 |
-| langgraph-gemini | 27 | 93% | 3466 | 23500 | 0 |
-| langgraph-openai | 27 | 93% | 5005 | 1154 | 0 |
-| llamaindex-anthropic | 27 | 89% | 1637 | 0 | 0 |
-| langgraph-cerebras | 27 | 89% | 2794 | 19075 | 0 |
+| agno-cerebras | 27 | 100% | 675 | 0 | 0 |
+| pydantic-anthropic | 27 | 100% | 1838 | 14000 | 17 |
+| pydantic-gemini | 27 | 100% | 2182 | 34500 | 18 |
+| agno-anthropic | 27 | 100% | 2451 | 12548 | 19 |
+| vercel-anthropic | 27 | 100% | 2747 | 14625 | 15 |
+| llamaindex-gemini | 27 | 100% | 2992 | 0 | 0 |
+| vercel-gemini | 27 | 100% | 3668 | 29500 | 15 |
+| google-adk | 27 | 100% | 3689 | 124000 | 0 |
+| cerebras-llama-3.3-70b | 27 | 100% | 4172 | 28959 | 0 |
+| cerebras-llama-3.1-70b | 27 | 100% | 4597 | 0 | 0 |
+| cerebras-llama-3.1-8b | 27 | 100% | 5020 | 42014 | 0 |
+| pydantic-openai | 27 | 100% | 6209 | 3602 | 14 |
+| agno-openai | 27 | 100% | 6790 | 3442 | 15 |
+| gemini-raw | 27 | 100% | 7550 | 62000 | 14 |
+| agno-gemini | 27 | 100% | 7820 | 50000 | 18 |
+| llamaindex-openai | 27 | 100% | 7951 | 0 | 0 |
+| vercel-openai | 27 | 100% | 8051 | 3551 | 12 |
+| anthropic-raw | 27 | 100% | 9183 | 14097 | 15 |
+| ag2 | 27 | 100% | 10167 | 0 | 0 |
+| crewai | 27 | 100% | 17154 | 0 | 0 |
+| openai-raw | 27 | 100% | 20791 | 3420 | 11 |
+| langgraph-anthropic | 27 | 93% | 2138 | 7647 | 0 |
+| langgraph-cerebras | 27 | 93% | 2667 | 14500 | 0 |
+| langgraph-gemini | 27 | 93% | 3254 | 23500 | 0 |
+| langgraph-openai | 27 | 93% | 6372 | 2141 | 0 |
+| llamaindex-anthropic | 27 | 89% | 1806 | 0 | 0 |
 
 ## 🎯 Feature Support Matrix
 

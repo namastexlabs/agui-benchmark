@@ -1,6 +1,6 @@
 # 🎯 AG-UI Event Coverage Matrix
 
-**Generated:** 2026-02-06 04:29:36
+**Generated:** 2026-02-06 11:51:36
 **Total Agents:** 26
 **AG-UI Spec Events:** 26
 
