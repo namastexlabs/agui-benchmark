@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4311.150156000167,
+    "time_to_first_event_ms": 4310.2881930003605,
+    "time_to_first_content_ms": 4311.223142000017,
+    "time_to_complete_ms": 4311.150156000167
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 243,
+    "tokens_approx": 60,
+    "final_text": "Hello! \ud83d\udc4b I'm Claude, an AI assistant made by Anthropic. I'm here to help you with a variety of tasks, including answering questions, having conversations, doing math calculations, and telling you the current time. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 60,
+    "total_tokens": 740
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 243,
+    "total_chunks": 15,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 17357.14285714286,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

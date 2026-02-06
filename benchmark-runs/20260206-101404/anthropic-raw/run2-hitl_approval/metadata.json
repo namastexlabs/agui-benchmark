@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12887.306024000281,
+    "time_to_first_event_ms": 12886.551003000932,
+    "time_to_first_content_ms": 12887.498677999247,
+    "time_to_complete_ms": 12887.306024000281
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 836,
+    "tokens_approx": 209,
+    "final_text": "I appreciate you bringing this up, but I should clarify what I can actually do: **I don't have the ability to delete any data.** \n\nI'm a helpful assistant with access to very limited tools - I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, accounts, or any other data on your systems or anywhere else.\n\nIf you need to delete important data, you should:\n1. **Do this directly** through whatever system stores that data (your computer, cloud service, application, etc.)\n2. **Back up your data first** if there's any chance you might need it later\n3. **Be very careful** with deletion commands - important data should ideally be backed up before permanent deletion\n\nIs there something else I can help you with, like a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 193,
+    "total_tokens": 876
+  },
+  "events": {
+    "total_events": 72,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 836,
+    "total_chunks": 67,
+    "duration_ms": 66.0,
+    "throughput_chars_per_sec": 12666.666666666666,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

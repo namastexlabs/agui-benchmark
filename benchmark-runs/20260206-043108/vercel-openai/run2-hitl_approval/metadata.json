@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13915.542172999722,
+    "time_to_first_event_ms": 1845.8701449999353,
+    "time_to_first_content_ms": 13916.272631999618,
+    "time_to_complete_ms": 13915.542172999722
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1613,
+    "tokens_approx": 403,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need some details and your clear, written confirmation.\n\n1) Quick checklist I need from you\n- Exactly what to delete (names, file paths, database/table names, buckets, etc.)\n- Where it is stored (local machine, specific server, cloud provider and region)\n- Desired deletion type: soft delete (move to trash/archive), permanent delete, or secure overwrite (irreversible)\n- Are there backups that must be preserved? Do you want a backup created first?\n- Any compliance or legal concerns I should know about (retention rules, audits)\n- Who else has access or ownership that must be notified/revoked\n- Preferred timeframe (now / scheduled)\n\n2) What I will do once you confirm\n- Provide a clear, step-by-step deletion plan and exact commands or UI steps\n- Explain consequences and how to recover (if possible)\n- Ask you to confirm one final time with an explicit confirmation phrase before any destructive steps\n- After you approve, I\u2019ll show the exact commands you can run \u2014 I will not run them myself\n\n3) Please confirm you want to proceed and provide the details above. Then type one of these exact confirmation phrases (copy/paste):\n- For permanent deletion: I confirm permanent deletion of [short description]\n- For soft delete / archive: I confirm soft deletion of [short description]\n\nReplace [short description] with the data name (e.g., \u201c/home/alice/important_folder\u201d or \u201ccustomer_db.production.orders\u201d).\n\nOnce you supply the details and the exact confirmation phrase, I\u2019ll give the precise deletion plan and commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 342,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1613,
+    "total_chunks": 338,
+    "duration_ms": 337.0,
+    "throughput_chars_per_sec": 4786.350148367952,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

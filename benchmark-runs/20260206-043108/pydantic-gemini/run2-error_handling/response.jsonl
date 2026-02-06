@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling", "_timestamp": 2153.027346017, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "6489ef35-2595-49ae-85da-57ab2934a9ba", "role": "assistant", "_timestamp": 2153.0283460170003, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "6489ef35-2595-49ae-85da-57ab2934a9ba", "delta": "I can't find a tool called `nonexistent_tool`. I can tell the current time, do basic math calculations, and request approval for sensitive actions.", "_timestamp": 2153.029346017, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "6489ef35-2595-49ae-85da-57ab2934a9ba", "_timestamp": 2153.0303460170003, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling", "_timestamp": 2153.031346017, "_offset_ms": 4.0, "_index": 4}

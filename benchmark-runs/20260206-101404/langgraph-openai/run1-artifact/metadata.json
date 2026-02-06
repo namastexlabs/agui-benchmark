@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8292.132801001571,
+    "time_to_first_event_ms": 1206.7313330007892,
+    "time_to_first_content_ms": 8293.212477001362,
+    "time_to_complete_ms": 8292.132801001571
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 144,
+    "tokens_approx": 36,
+    "final_text": "The current time (according to the system clock) is 2026-02-06 10:14:06.The current time (according to the system clock) is 2026-02-06 10:14:06."
+  },
+  "tokens": {
+    "input_tokens": 313,
+    "output_tokens": 226,
+    "total_tokens": 539
+  },
+  "events": {
+    "total_events": 106,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 72,
+    "total_chunks": 25,
+    "duration_ms": 48.0,
+    "throughput_chars_per_sec": 1500.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

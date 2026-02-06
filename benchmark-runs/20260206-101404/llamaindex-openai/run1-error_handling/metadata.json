@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11489.475051999761,
+    "time_to_first_event_ms": 2677.6603090002027,
+    "time_to_first_content_ms": 11489.910231000977,
+    "time_to_complete_ms": 11489.475051999761
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 611,
+    "tokens_approx": 152,
+    "final_text": "I can\u2019t access a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my available tool set. I can, however, use the tools that are available:\n\n- get_current_time \u2014 return the current date/time  \n- calculator \u2014 evaluate math expressions  \n- multi_tool_use \u2014 run multiple available tools in parallel\n\nTell me what you want to accomplish and I\u2019ll pick the right tool. Examples:\n- \u201cWhat time is it now?\u201d \u2192 I\u2019ll call get_current_time.\n- \u201cCalculate 234*17.5\u201d \u2192 I\u2019ll call calculator with that expression.\n- \u201cGet the time and compute 3^8\u201d \u2192 I can run both in parallel with multi_tool_use.\n\nWhat would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 153,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

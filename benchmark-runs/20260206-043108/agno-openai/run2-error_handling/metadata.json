@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6536.827407999681,
+    "time_to_first_event_ms": 286.2528129999191,
+    "time_to_first_content_ms": 6537.202337999588,
+    "time_to_complete_ms": 6536.827407999681
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 569,
+    "tokens_approx": 142,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool.\" I can\u2019t call tools that aren\u2019t available. \n\nAvailable tools I can use now:\n- functions.get_current_time \u2014 return the current date/time.\n- functions.calculator \u2014 evaluate math expressions.\n- functions.request_approval \u2014 ask a human for approval before a sensitive action.\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel.\n\nTell me what you want to accomplish (or what \"nonexistent_tool\" was supposed to do), and I\u2019ll either use one of the available tools or suggest an alternative approach."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 124,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 569,
+    "total_chunks": 120,
+    "duration_ms": 119.0,
+    "throughput_chars_per_sec": 4781.512605042017,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

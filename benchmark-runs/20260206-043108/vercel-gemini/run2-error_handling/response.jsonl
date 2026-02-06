@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-error_handling", "_timestamp": 2153.054776619, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770363198683", "role": "assistant", "_timestamp": 2153.0557766190004, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363198683", "delta": "I am sorry, but the tool 'nonexistent_", "_timestamp": 2153.056776619, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363198683", "delta": "tool' does not exist. I can tell you the current time or evaluate a mathematical expression.", "_timestamp": 2153.0577766190004, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770363198683", "_timestamp": 2153.058776619, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-error_handling", "_timestamp": 2153.0597766190003, "_offset_ms": 5.0, "_index": 5}

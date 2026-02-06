@@ -1,84 +1,50 @@
-# AG-UI Benchmark
+# AG-UI Protocol Research Benchmark
 
-> Comprehensive benchmark suite for the AG-UI (Agent-User Interaction) protocol across multiple AI agent frameworks.
+> Comprehensive benchmark suite for the AG-UI (Agent-User Interaction) protocol across multiple AI agent frameworks. This is a research guide documenting protocol compliance, performance, and capabilities.
 
 ## What is AG-UI?
 
 [AG-UI](https://docs.ag-ui.com/) is an open, lightweight, event-based protocol for agent-user interaction created by CopilotKit. It enables framework-agnostic communication between AI agents and user interfaces through Server-Sent Events (SSE).
 
-## Why This Benchmark?
+## Research Goals
 
-Different agent frameworks claim various performance characteristics, but real-world numbers are rarely published. This benchmark provides:
+This benchmark provides rigorous testing and documentation of:
 
-- **Protocol Compliance Testing** - Verify AG-UI event support
-- **Response Time Benchmarks** - Measure latency across frameworks
-- **Tool Calling Performance** - Compare function calling efficiency
-- **Framework Overhead Analysis** - Quantify the cost of abstraction
+- **Protocol Compliance** - Which frameworks support which AG-UI events
+- **Framework Capabilities** - What features each framework implements
+- **Performance Characteristics** - Response times, throughput, tool calling
+- **HITL Implementation** - How human-in-the-loop workflows work via the protocol
 
-## Benchmark Results
+## Documentation Structure
 
-### Simple Response (No Tools)
+### 📖 Core Reference
+- **[AGUI Spec Reference](docs/research/AGUI-SPEC-REFERENCE.md)** - Complete specification of all 26 AG-UI protocol events
+- **[Framework Capabilities](docs/research/FRAMEWORK-CAPABILITIES.md)** - Deep analysis of what each framework supports
 
-| Rank | Framework | Avg Time | Model |
-|------|-----------|----------|-------|
-| 1 | Gemini Raw | 640ms | Gemini 2.5 Flash |
-| 2 | Anthropic Raw | 667ms | Claude Haiku 4.5 |
-| 3 | Vercel AI SDK | 797ms | Claude Haiku 4.5 |
-| 4 | PydanticAI | 908ms | Claude Haiku 4.5 |
-| 5 | LangGraph | 1,237ms | Claude Haiku 4.5 |
-| 6 | Agno | 1,494ms | Claude Haiku 4.5 |
-| 7 | OpenAI Raw | 2,148ms | GPT-5.2 |
+### 🔬 Research Results
+- **[HITL Validation Results](docs/research/HITL-VALIDATION-RESULTS.md)** - Testing human-in-the-loop implementation across frameworks
+- **[Event Coverage Matrix](docs/reports/EVENT-COVERAGE-MATRIX.md)** - Which frameworks emit which events
+- **[Framework Comparison](docs/reports/FRAMEWORK-COMPARISON-MATRIX.md)** - Performance and feature comparison
+- **[Event Type Analysis](docs/reports/EVENT-TYPE-ANALYSIS.md)** - Event adoption statistics
+- **[Benchmark Summary](docs/reports/BENCHMARK-SUMMARY.md)** - Overall statistics and rankings
 
-### Tool Calling Performance
+### 📚 Guides
+- **[Report Generation](docs/guides/REPORT-GENERATION-GUIDE.md)** - How to run benchmarks and auto-generate reports
 
-| Rank | Framework | Avg Time | Tools Used |
-|------|-----------|----------|------------|
-| 1 | OpenAI Raw | 1,467ms | 6/6 |
-| 2 | LangGraph | 1,611ms | 3/6 |
-| 3 | PydanticAI | 1,644ms | 6/6 |
-| 4 | Gemini Raw | 2,064ms | 6/6 |
-| 5 | Anthropic Raw | 2,395ms | 6/6 |
-| 6 | Vercel AI SDK | 2,414ms | 6/6 |
-| 7 | Agno | 2,905ms | 6/6 |
+## Frameworks Tested
 
-### Key Insights
+This benchmark covers **26 agent implementations** across multiple frameworks:
 
-- **PydanticAI** offers the best balance of speed and features
-- **GPT-5.2** is slow for chat but fast for function calling
-- **Gemini 2.5 Flash** is genuinely fast for simple responses
-- **Raw API wrappers** often outperform native framework integrations
-- **Agno** claims "fastest to instantiate" but has ~800ms overhead vs raw API
+**Multi-Model Frameworks** (Anthropic, OpenAI, Google):
+- Agno, LangGraph, PydanticAI, LlamaIndex, Vercel AI SDK
 
-### Framework Overhead (vs Raw API)
+**Single-Model Frameworks**:
+- CrewAI (Anthropic), AG2 (OpenAI), Google ADK (Google)
 
-| Framework | Overhead | Percentage |
-|-----------|----------|------------|
-| Vercel AI SDK | +130ms | +19% |
-| PydanticAI | +241ms | +36% |
-| LangGraph | +570ms | +85% |
-| Agno | +827ms | +124% |
+**Raw LLM APIs** (baseline):
+- Anthropic, OpenAI, Google Gemini
 
-## Supported Frameworks
-
-### Native AG-UI Support
-
-| Framework | Language | Package | Status |
-|-----------|----------|---------|--------|
-| Agno | Python | Built-in `AGUI()` | Working |
-| LangGraph | Python | `ag-ui-langgraph` | Working |
-| PydanticAI | Python | Built-in `AGUIAdapter` | Working |
-| CrewAI | Python | `ag-ui-crewai` | Issues* |
-
-### AG-UI Wrapped (Manual Implementation)
-
-| Framework | Language | Status |
-|-----------|----------|--------|
-| OpenAI API | Python | Working |
-| Anthropic API | Python | Working |
-| Gemini API | Python | Working |
-| Vercel AI SDK | TypeScript | Working |
-
-*CrewAI's `ag-ui-crewai` package expects LiteLLM responses, not `crew.kickoff()`
+For detailed framework analysis, see [Framework Capabilities](docs/research/FRAMEWORK-CAPABILITIES.md).
 
 ## Quick Start
 
@@ -126,106 +92,53 @@ uv run python test_agents.py
 ./stop_all.sh
 ```
 
-## Architecture
+## Key Findings
+
+### HITL Implementation
+We validated that human-in-the-loop workflows can be fully implemented using the AG-UI protocol's existing `TOOL_CALL_*` events, without requiring special HITL-specific events. See [HITL Validation Results](docs/research/HITL-VALIDATION-RESULTS.md).
+
+### Protocol Coverage
+The AG-UI specification defines **26 events** across 5 categories:
+- **Lifecycle**: RUN_STARTED, RUN_FINISHED, RUN_ERROR
+- **Text Messages**: TEXT_MESSAGE_START/CONTENT/END, THINKING_START/END, THINKING_TEXT_MESSAGE_*
+- **Tool Calls**: TOOL_CALL_START/ARGS/END/RESULT
+- **State**: STATE_SNAPSHOT, STATE_DELTA, MESSAGES_SNAPSHOT, ACTIVITY_SNAPSHOT, ACTIVITY_DELTA
+- **Custom**: STEP_STARTED, STEP_FINISHED, RAW, CUSTOM
+
+See [AGUI Spec Reference](docs/research/AGUI-SPEC-REFERENCE.md) for complete details.
+
+## Benchmark Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        test_agents.py                            │
-│                     (Benchmark Runner)                           │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-                              │ HTTP POST /agent
-                              │ Accept: text/event-stream
-                              ▼
-┌─────────────┬─────────────┬─────────────┬─────────────┐
-│   :7771     │   :7772     │   :7774     │   :7775-79  │
-│   Agno      │  LangGraph  │  PydanticAI │   Raw APIs  │
-│  (Native)   │  (Native)   │  (Native)   │  (Wrapped)  │
-└─────────────┴─────────────┴─────────────┴─────────────┘
-                              │
-                              │ AG-UI SSE Events
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  RUN_STARTED → TEXT_MESSAGE_* → TOOL_CALL_* → RUN_FINISHED      │
-└─────────────────────────────────────────────────────────────────┘
+test_agents.py (Benchmark Runner)
+    │
+    ├─ Starts 26 agent implementations on various ports
+    │
+    └─ Runs 9 test scenarios per agent:
+       • Simple prompt (no tools)
+       • Tool calling (6 tools available)
+       • Streaming performance
+       • Error handling
+       • State management
+       └─ Collects AG-UI events, timing, tool calls
+          Saves JSON results → generate_reports.py
+                                     ↓
+                          Auto-generates 4 markdown reports
 ```
 
-## AG-UI Protocol Events
+## Related Resources
 
-| Event | Description |
-|-------|-------------|
-| `RUN_STARTED` | Agent run begins |
-| `RUN_FINISHED` | Agent run completes |
-| `TEXT_MESSAGE_START` | Begin streaming text |
-| `TEXT_MESSAGE_CONTENT` | Text chunk (delta) |
-| `TEXT_MESSAGE_END` | End streaming text |
-| `TOOL_CALL_START` | Tool invocation begins |
-| `TOOL_CALL_ARGS` | Tool arguments (streaming) |
-| `TOOL_CALL_END` | Tool invocation ends |
-| `TOOL_CALL_RESULT` | Tool execution result |
-| `STATE_SNAPSHOT` | Full state snapshot |
-| `MESSAGES_SNAPSHOT` | Messages snapshot |
-
-## Adding New Frameworks
-
-1. Create a directory for your agent (e.g., `my_agent/`)
-2. Implement the AG-UI endpoint:
-   - POST `/agent` - Accept AG-UI requests, return SSE stream
-   - GET `/health` - Return health status
-3. Add to `start_all.sh` and `stop_all.sh`
-4. Add to `AGENTS` dict in `test_agents.py`
-
-### AG-UI Request Format
-
-```json
-{
-  "thread_id": "string",
-  "run_id": "string",
-  "messages": [{"id": "string", "role": "user", "content": "string"}],
-  "state": {},
-  "tools": [],
-  "context": [],
-  "forwardedProps": {}
-}
-```
-
-### AG-UI Response Format (SSE)
-
-```
-data: {"type": "RUN_STARTED", "thread_id": "...", "run_id": "..."}
-
-data: {"type": "TEXT_MESSAGE_START", "message_id": "...", "role": "assistant"}
-
-data: {"type": "TEXT_MESSAGE_CONTENT", "message_id": "...", "delta": "Hello"}
-
-data: {"type": "TEXT_MESSAGE_END", "message_id": "..."}
-
-data: {"type": "RUN_FINISHED", "thread_id": "...", "run_id": "..."}
-```
-
-## Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new frameworks
-4. Submit a pull request
+- **[AG-UI Protocol](https://docs.ag-ui.com/)** - Official specification
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** - AG-UI creators
+- Framework repositories:
+  - [PydanticAI](https://github.com/pydantic/pydantic-ai)
+  - [LangGraph](https://github.com/langchain-ai/langgraph)
+  - [Agno](https://github.com/agno-agi/agno)
+  - [LlamaIndex](https://github.com/run-llama/llama_index)
+  - [Vercel AI SDK](https://github.com/vercel/ai)
+  - [CrewAI](https://github.com/joaomdmoura/crewAI)
+  - [AG2](https://github.com/ag2ai/ag2)
 
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
-## Related Projects
-
-- [AG-UI Protocol](https://docs.ag-ui.com/) - Official documentation
-- [CopilotKit](https://github.com/CopilotKit/CopilotKit) - AG-UI creators
-- [PydanticAI](https://github.com/pydantic/pydantic-ai) - Fast Python agent framework
-- [LangGraph](https://github.com/langchain-ai/langgraph) - LangChain's graph framework
-- [Agno](https://github.com/agno-agi/agno) - Multi-agent orchestration
-
-## Acknowledgments
-
-- CopilotKit team for creating the AG-UI protocol
-- All framework maintainers for their AG-UI integrations
-- [Namastex Labs](https://github.com/namastexlabs) for sponsoring this benchmark

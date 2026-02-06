@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13457.93588100014,
+    "time_to_first_event_ms": 260.2290469999389,
+    "time_to_first_content_ms": 13457.965607999995,
+    "time_to_complete_ms": 13457.93588100014
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 700,
+    "tokens_approx": 175,
+    "final_text": "Understood \u2014 I will not proceed without your explicit approval.\n\nDo you want me to continue and provide instructions to delete the important data now? If yes, please reply with a clear \"Yes\" and include:\n- Which operating system or device (Windows, macOS, Linux, iPhone, Android, external drive, cloud service, etc.)\n- Where the data is located (folder, drive, cloud account)\n- Whether you want a regular delete (recyclable/soft delete) or a secure/permanent wipe (hard to recover)\n- Whether you have a backup or want to keep a copy\n\nIf you do not want to continue, reply \"No.\" Once you confirm \"Yes,\" I will proceed with step\u2011by\u2011step instructions and explicit warnings before any irreversible steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

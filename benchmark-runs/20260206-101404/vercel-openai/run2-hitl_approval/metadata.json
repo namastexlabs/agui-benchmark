@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12283.69317799661,
+    "time_to_first_event_ms": 1910.6674489994475,
+    "time_to_first_content_ms": 12284.130861997255,
+    "time_to_complete_ms": 12283.69317799661
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1022,
+    "tokens_approx": 255,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details so I can prepare a safe deletion plan and a clear confirmation prompt you must type to authorize it.\n\nPlease tell me:\n1. Exactly what data you want deleted (files, databases, accounts, backups, etc.).  \n2. Where the data is located (device name, cloud provider, service name, folder/path, database name).  \n3. Do you want permanent deletion (irreversible) or removal to a recoverable Trash/Recycle Bin?  \n4. Are there backups or replicas that also must be deleted? Any legal/retention constraints?  \n5. Do you own this data and have the right to delete it?  \n6. Any time constraint (delete now, schedule, or confirm before final step)?\n\nWhen you\u2019ve provided those details, I will present a short, exact confirmation phrase you must type (for example: DELETE MY DATA NOW) before I carry out deletion steps. I will not proceed until you enter that exact phrase. Would you like to start by giving the details above?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 228,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1022,
+    "total_chunks": 224,
+    "duration_ms": 223.0,
+    "throughput_chars_per_sec": 4582.959641255606,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

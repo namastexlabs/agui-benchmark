@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 2031.058910534, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "deaf2ca2-125e-4ad2-a4c8-a6819d19a34f", "toolCallName": "run_code", "_timestamp": 2031.059910534, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "deaf2ca2-125e-4ad2-a4c8-a6819d19a34f", "delta": "{\"code\": \"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}", "_timestamp": 2031.060910534, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "deaf2ca2-125e-4ad2-a4c8-a6819d19a34f", "_timestamp": 2031.061910534, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "deaf2ca2-125e-4ad2-a4c8-a6819d19a34f", "result": "Unknown function", "_timestamp": 2031.062910534, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "df65642d-9f35-45eb-bc7a-a65d7cb93646", "role": "assistant", "_timestamp": 2031.0639105340001, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "df65642d-9f35-45eb-bc7a-a65d7cb93646", "delta": "Here's a simple Python function that adds two numbers:\n\n", "_timestamp": 2031.064910534, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "df65642d-9f35-45eb-bc7a-a65d7cb93646", "delta": "```python\ndef add_numbers(a, b):\n    return a + b\n```", "_timestamp": 2031.065910534, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "message_id": "df65642d-9f35-45eb-bc7a-a65d7cb93646", "_timestamp": 2031.066910534, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 119, "output_tokens": 31, "total_tokens": 239, "model": "gemini-2.5-flash", "_timestamp": 2031.067910534, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 2031.068910534, "_offset_ms": 10.0, "_index": 10}

@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "model": "llama-3.3-70b", "_timestamp": 2153.134292322, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363200", "role": "assistant", "_timestamp": 2153.135292322, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "```", "_timestamp": 2153.136292322, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    Adds two numbers.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n   ", "_timestamp": 2153.137292322, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": " Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n\n# Example usage\nif __name__ == \"__main__\":\n    num1 = 5\n    num2 = ", "_timestamp": 2153.138292322, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "7\n    result = add_numbers(num1, num2)\n    print(f\"The sum of {num1", "_timestamp": 2153.139292322, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "} and {num2} is {result}.\")\n```", "_timestamp": 2153.140292322, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363200", "_timestamp": 2153.141292322, "_offset_ms": 7.0, "_index": 7}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 125, "total_tokens": 175, "model": "llama-3.3-70b", "_timestamp": 2153.142292322, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "_timestamp": 2153.143292322, "_offset_ms": 9.0, "_index": 9}

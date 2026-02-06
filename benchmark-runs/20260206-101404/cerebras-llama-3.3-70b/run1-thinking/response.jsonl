@@ -1,0 +1,24 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking", "model": "llama-3.3-70b", "_timestamp": 21657.305090573, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383644", "role": "assistant", "_timestamp": 21657.306090573, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": "To", "_timestamp": 21657.307090573002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " solve for x, we need to isolate x on one side of the equation. Here", "_timestamp": 21657.308090573002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": "'s my step", "_timestamp": 21657.309090573002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": "-by-step reasoning:\n\n1. The equation", "_timestamp": 21657.310090573003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " is x", "_timestamp": 21657.311090573003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " + 5 = 12.\n2. My goal", "_timestamp": 21657.312090573003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " is to get x by itself, so I want to", "_timestamp": 21657.313090573003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " get", "_timestamp": 21657.314090573, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " rid", "_timestamp": 21657.315090573, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " of", "_timestamp": 21657.316090573, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " the", "_timestamp": 21657.317090573, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " +5 on the left side of the equation.\n3. To do this, I can subtract 5 from both sides", "_timestamp": 21657.318090573, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " of the equation. This will keep the equation balanced.\n4. So, I'll subtract 5 from both sides: x + 5 - 5 = 12 - 5.\n5. The +5", "_timestamp": 21657.319090573, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " and -5 on the", "_timestamp": 21657.320090573, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " left side cancel each other out, leaving me with just x.\n6. On the", "_timestamp": 21657.321090573, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " right side, 12", "_timestamp": 21657.322090573, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " - 5 = 7.\n7. Therefore, the equation", "_timestamp": 21657.323090573, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " becomes x = 7.\n\nSo,", "_timestamp": 21657.324090573, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " the value of x is 7.", "_timestamp": 21657.325090573002, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383644", "_timestamp": 21657.326090573002, "_offset_ms": 21.0, "_index": 21}
+{"type": "USAGE_METADATA", "input_tokens": 58, "output_tokens": 181, "total_tokens": 239, "model": "llama-3.3-70b", "_timestamp": 21657.327090573002, "_offset_ms": 22.0, "_index": 22}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking", "_timestamp": 21657.328090573003, "_offset_ms": 23.0, "_index": 23}

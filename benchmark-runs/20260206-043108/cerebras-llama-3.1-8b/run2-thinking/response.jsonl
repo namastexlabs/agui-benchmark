@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b", "_timestamp": 2153.165972366, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363201", "role": "assistant", "_timestamp": 2153.166972366, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "To", "_timestamp": 2153.167972366, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " find the value of x, we need to isolate x on one", "_timestamp": 2153.168972366, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " side of the equation. Here's the step-by-step process", "_timestamp": 2153.169972366, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": ":\n\n1. Given equation: x + 5 = 12", "_timestamp": 2153.170972366, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "\n\n2. Our goal is to isolate x, so we", "_timestamp": 2153.171972366, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " want to get rid of the +5 on the left side of", "_timestamp": 2153.172972366, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " the equation.\n\n3. To do this, we can subtract", "_timestamp": 2153.173972366, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " 5 from both sides of the equation.", "_timestamp": 2153.174972366, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " This will cancel out the +5 on the left side.\n\n", "_timestamp": 2153.175972366, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "   x + 5 - 5 = 12 - ", "_timestamp": 2153.176972366, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "5\n\n4. Simplifying both sides of the equation:\n\n", "_timestamp": 2153.177972366, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "   x = 7\n\n   Therefore, the value of x", "_timestamp": 2153.178972366, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " is 7.", "_timestamp": 2153.179972366, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363201", "_timestamp": 2153.180972366, "_offset_ms": 15.0, "_index": 15}
+{"type": "USAGE_METADATA", "input_tokens": 58, "output_tokens": 140, "total_tokens": 198, "model": "llama-3.1-8b", "_timestamp": 2153.181972366, "_offset_ms": 16.0, "_index": 16}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "_timestamp": 2153.182972366, "_offset_ms": 17.0, "_index": 17}

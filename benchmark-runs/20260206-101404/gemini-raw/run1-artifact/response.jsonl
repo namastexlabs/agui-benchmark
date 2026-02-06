@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 21657.303126328, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "760ace03-7a01-4fc5-8974-57ea434c0696", "toolCallName": "run_code", "_timestamp": 21657.304126328, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "760ace03-7a01-4fc5-8974-57ea434c0696", "delta": "{\"code\": \"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}", "_timestamp": 21657.305126328, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "760ace03-7a01-4fc5-8974-57ea434c0696", "_timestamp": 21657.306126328, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "760ace03-7a01-4fc5-8974-57ea434c0696", "result": "Unknown function", "_timestamp": 21657.307126328, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "33108600-27cd-47ee-bfa7-bd7ace4844b0", "role": "assistant", "_timestamp": 21657.308126328, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "33108600-27cd-47ee-bfa7-bd7ace4844b0", "delta": "```python\ndef add_numbers(a", "_timestamp": 21657.309126328, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "33108600-27cd-47ee-bfa7-bd7ace4844b0", "delta": ", b):\n    return a + b\n", "_timestamp": 21657.310126328, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "33108600-27cd-47ee-bfa7-bd7ace4844b0", "delta": "```", "_timestamp": 21657.311126328, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "message_id": "33108600-27cd-47ee-bfa7-bd7ace4844b0", "_timestamp": 21657.312126327997, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 119, "output_tokens": 31, "total_tokens": 217, "model": "gemini-2.5-flash", "_timestamp": 21657.313126327997, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 21657.314126327998, "_offset_ms": 11.0, "_index": 11}

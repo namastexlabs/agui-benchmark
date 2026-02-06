@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3817.287006000697,
+    "time_to_first_event_ms": 900.0003459987056,
+    "time_to_first_content_ms": 3818.0970449975575,
+    "time_to_complete_ms": 3817.287006000697
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 378,
+    "tokens_approx": 94,
+    "final_text": "To find x, we need to isolate it in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7\n\nTo find the value of x, we need to isolate x in the equation x +To find the value of x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7"
+  },
+  "tokens": {
+    "input_tokens": 288,
+    "output_tokens": 66,
+    "total_tokens": 317
+  },
+  "events": {
+    "total_events": 59,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 216,
+    "total_chunks": 5,
+    "duration_ms": 37.0,
+    "throughput_chars_per_sec": 5837.8378378378375,
+    "avg_gap_ms": 9.25,
+    "p95_gap_ms": 31.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5528.762525999809,
+    "time_to_first_event_ms": 307.42741799986106,
+    "time_to_first_content_ms": 5529.22091299979,
+    "time_to_complete_ms": 5528.762525999809
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 560,
+    "tokens_approx": 140,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool\" available. The only tools I can use here are:\n\n- get_current_time \u2014 returns the current date/time  \n- calculator(expression) \u2014 evaluates a math expression\n\nTell me what you want to accomplish and I\u2019ll either run one of the available tools or show how to do it. Examples:\n- \u201cGet current time\u201d \u2192 I can call get_current_time.\n- \u201cCompute 256 * 37 + 5\u201d \u2192 I can call calculator(\"256 * 37 + 5\").\n\nOr, if you meant a different tool, tell me its name and what it should do and I can suggest how to implement or simulate it."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 143,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

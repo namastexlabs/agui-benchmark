@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 38506.48386800094,
+    "time_to_first_event_ms": 1161.220759000571,
+    "time_to_first_content_ms": 38508.04001800134,
+    "time_to_complete_ms": 38506.48386800094
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 258,
+    "tokens_approx": 64,
+    "final_text": "The current system time is 2026-02-06 10:14:07. Would you like this shown in a specific timezone or converted to your local time?The current system time is 2026-02-06 10:14:07. Would you like this shown in a specific timezone or converted to your local time?"
+  },
+  "tokens": {
+    "input_tokens": 313,
+    "output_tokens": 236,
+    "total_tokens": 549
+  },
+  "events": {
+    "total_events": 123,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 129,
+    "total_chunks": 35,
+    "duration_ms": 68.0,
+    "throughput_chars_per_sec": 1897.0588235294117,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

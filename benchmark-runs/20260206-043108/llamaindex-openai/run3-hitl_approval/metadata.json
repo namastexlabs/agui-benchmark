@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9408.944754000004,
+    "time_to_first_event_ms": 309.68982400008827,
+    "time_to_first_content_ms": 9409.630792999906,
+    "time_to_complete_ms": 9408.944754000004
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1083,
+    "tokens_approx": 270,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I prepare deletion steps, I need a few details so the plan is safe and appropriate:\n\n1. Exactly what data (files, folders, database, account)?  \n2. Where is it stored (device type and OS, external drive, cloud service\u2014e.g., Windows, macOS, Linux, Google Drive, AWS S3, Dropbox, Gmail, etc.)?  \n3. Do you want permanent/secure deletion (overwriting, shred) or a normal delete (recycle bin / trash)?  \n4. Do you have a backup, or should I include backup instructions first?  \n5. Any time constraints or legal/regulatory concerns I should know about?\n\nWhen you confirm those details, I will produce a clear, step-by-step deletion plan. I will only proceed after you give an explicit approval phrase. Please approve using this exact sentence (fill in the bracketed description of the data):\n\nI approve deletion of: [brief description of the data and location].\n\nOnce you send that exact sentence, I\u2019ll carry out the next step in the plan (or provide the commands/instructions if you want to run them yourself)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 246,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

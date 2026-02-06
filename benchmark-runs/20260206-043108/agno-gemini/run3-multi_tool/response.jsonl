@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-multi_tool", "_timestamp": 2200.334229003, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "310562d5-9512-489c-87e2-23fee0047521", "role": "assistant", "_timestamp": 2200.335229003, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "310562d5-9512-489c-87e2-23fee0047521", "_timestamp": 2200.336229003, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "e97b5562-09bc-445b-8183-2e03856cf11f", "toolCallName": "get_current_time", "parentMessageId": "310562d5-9512-489c-87e2-23fee0047521", "_timestamp": 2200.337229003, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "e97b5562-09bc-445b-8183-2e03856cf11f", "delta": "{}", "_timestamp": 2200.338229003, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "e97b5562-09bc-445b-8183-2e03856cf11f", "_timestamp": 2200.339229003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "68b1ba1e-cf2f-4e84-8111-516ebd2aae38", "toolCallId": "e97b5562-09bc-445b-8183-2e03856cf11f", "content": "2026-02-06 04:34:18", "role": "tool", "_timestamp": 2200.340229003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_START", "toolCallId": "f656ae25-61d8-49a7-a7ef-49153de422c7", "toolCallName": "calculator", "parentMessageId": "310562d5-9512-489c-87e2-23fee0047521", "_timestamp": 2200.341229003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "f656ae25-61d8-49a7-a7ef-49153de422c7", "delta": "{\"expression\": \"10 + 20\"}", "_timestamp": 2200.342229003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_END", "toolCallId": "f656ae25-61d8-49a7-a7ef-49153de422c7", "_timestamp": 2200.343229003, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_RESULT", "messageId": "cfd5b877-d155-41d5-8568-c0577669433e", "toolCallId": "f656ae25-61d8-49a7-a7ef-49153de422c7", "content": "10 + 20 = 30", "role": "tool", "_timestamp": 2200.3442290030002, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_START", "messageId": "223f1efc-5c6a-41d5-a9d7-6ec901077ec0", "role": "assistant", "_timestamp": 2200.345229003, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "223f1efc-5c6a-41d5-a9d7-6ec901077ec0", "delta": "The current time is 2026-02-06 04:34:18", "_timestamp": 2200.346229003, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "223f1efc-5c6a-41d5-a9d7-6ec901077ec0", "delta": ". And 10 + 20 = 30.\n", "_timestamp": 2200.347229003, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "messageId": "223f1efc-5c6a-41d5-a9d7-6ec901077ec0", "_timestamp": 2200.348229003, "_offset_ms": 14.0, "_index": 14}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-multi_tool", "_timestamp": 2200.349229003, "_offset_ms": 15.0, "_index": 15}

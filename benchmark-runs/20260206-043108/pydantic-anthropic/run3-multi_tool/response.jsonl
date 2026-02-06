@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-multi_tool", "_timestamp": 2200.35639897, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_0127vPtZKVjBGwHmy47A6mAW", "toolCallName": "get_current_time", "parentMessageId": "befd413e-644d-437b-ba33-ab40b1fce487", "_timestamp": 2200.3573989700003, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_0127vPtZKVjBGwHmy47A6mAW", "delta": "", "_timestamp": 2200.35839897, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_0127vPtZKVjBGwHmy47A6mAW", "_timestamp": 2200.3593989700003, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "toolCallName": "calculator", "parentMessageId": "befd413e-644d-437b-ba33-ab40b1fce487", "_timestamp": 2200.36039897, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "delta": "", "_timestamp": 2200.36139897, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "delta": "{\"ex", "_timestamp": 2200.36239897, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "delta": "pression\"", "_timestamp": 2200.36339897, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "delta": ": \"10 + 20\"}", "_timestamp": 2200.36439897, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "_timestamp": 2200.36539897, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_RESULT", "messageId": "1444d7ee-aefd-483b-9c08-c536cd9358e8", "toolCallId": "toolu_0127vPtZKVjBGwHmy47A6mAW", "content": "2026-02-06 04:34:08", "role": "tool", "_timestamp": 2200.3663989700003, "_offset_ms": 10.0, "_index": 10}
+{"type": "TOOL_CALL_RESULT", "messageId": "7610c752-5f7f-4a34-9447-b003dea11c6f", "toolCallId": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ", "content": "10 + 20 = 30", "role": "tool", "_timestamp": 2200.36739897, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_START", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "role": "assistant", "_timestamp": 2200.3683989700003, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": "Perfect", "_timestamp": 2200.36939897, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": "! Here are the results:\n\n-", "_timestamp": 2200.37039897, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": " **Current time:**", "_timestamp": 2200.37139897, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": " ", "_timestamp": 2200.37239897, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": "2026-02-06 04", "_timestamp": 2200.37339897, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": ":34:08\n- **", "_timestamp": 2200.37439897, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": "Calculation:** 10 + 20", "_timestamp": 2200.37539897, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "delta": " = 30", "_timestamp": 2200.37639897, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_END", "messageId": "a30eae5d-dea7-4ade-bb31-bca48cd811ed", "_timestamp": 2200.3773989700003, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-multi_tool", "_timestamp": 2200.37839897, "_offset_ms": 22.0, "_index": 22}

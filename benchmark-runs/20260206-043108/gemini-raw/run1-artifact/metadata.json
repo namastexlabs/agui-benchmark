@@ -1,0 +1,66 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8635.365788999934,
+    "time_to_first_event_ms": 8635.061934000078,
+    "time_to_first_content_ms": 8635.412157000019,
+    "time_to_complete_ms": 8635.365788999934
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "deaf2ca2-125e-4ad2-a4c8-a6819d19a34f",
+        "name": "run_code",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "Unknown function"
+      }
+    ]
+  },
+  "response": {
+    "chars": 109,
+    "tokens_approx": 27,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a, b):\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 119,
+    "output_tokens": 31,
+    "total_tokens": 239
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 109,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 109000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9193.290290000277,
+    "time_to_first_event_ms": 9192.970870999943,
+    "time_to_first_content_ms": 9193.326862000049,
+    "time_to_complete_ms": 9193.290290000277
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "5113bdb3-9b23-4677-b8c1-35813f543e1b",
+        "name": "calculator",
+        "start_ms": 4.0,
+        "end_ms": 6.0,
+        "result_ms": 7.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "12 - 5 = 7"
+      }
+    ]
+  },
+  "response": {
+    "chars": 166,
+    "tokens_approx": 41,
+    "final_text": "To find the value of x in the equation x + 5 = 12, we need to isolate x.\n\n1.  Start with the equation: x + 5 = 12\n2.  Subtract 5 from both sides of the equation:\n    "
+  },
+  "tokens": {
+    "input_tokens": 130,
+    "output_tokens": 72,
+    "total_tokens": 284
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 166,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 166000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

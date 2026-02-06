@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2428.203005999876,
+    "time_to_first_event_ms": 213.0982240000776,
+    "time_to_first_content_ms": 2428.3179399999426,
+    "time_to_complete_ms": 2428.203005999876
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 512,
+    "tokens_approx": 128,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n3. **request_approval** - Request human approval before proceeding with sensitive actions\n\nIs there something I can help you with using one of these available tools? For example, I can:\n- Tell you what time it is\n- Do math calculations\n- Request approval for a sensitive action\n\nLet me know what you'd like to do!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 39,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 512,
+    "total_chunks": 35,
+    "duration_ms": 34.0,
+    "throughput_chars_per_sec": 15058.823529411764,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

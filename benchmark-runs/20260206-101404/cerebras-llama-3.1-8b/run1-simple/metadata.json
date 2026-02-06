@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5054.760842001997,
+    "time_to_first_event_ms": 4615.229679999175,
+    "time_to_first_content_ms": 5054.8139800011995,
+    "time_to_complete_ms": 5054.760842001997
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 354,
+    "tokens_approx": 88,
+    "final_text": "Hello, my name is LLaMA, and I'm an artificial intelligence designed to assist and communicate with users in a helpful and informative way. I'm a large language model, trained on a vast amount of text data to provide accurate and up-to-date information on a wide range of topics. I'm here to help answer your questions and provide assistance when needed."
+  },
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 74,
+    "total_tokens": 122
+  },
+  "events": {
+    "total_events": 12,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 354,
+    "total_chunks": 7,
+    "duration_ms": 6.0,
+    "throughput_chars_per_sec": 59000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

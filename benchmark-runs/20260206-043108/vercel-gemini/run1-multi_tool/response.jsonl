@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-multi_tool", "_timestamp": 2031.049803118, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-1", "toolCallName": "get_current_time", "_timestamp": 2031.050803118, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-1", "delta": "{}", "_timestamp": 2031.051803118, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-1", "_timestamp": 2031.052803118, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-1", "result": "2026-02-06 07:31:15", "_timestamp": 2031.053803118, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770363073808", "role": "assistant", "_timestamp": 2031.054803118, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363073808", "delta": "The current time is 07:31", "_timestamp": 2031.055803118, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363073808", "delta": ":15 on 2026-02-06.\n", "_timestamp": 2031.056803118, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-2", "toolCallName": "calculator", "_timestamp": 2031.057803118, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-2", "delta": "{\"expression\":\"10 + 20\"}", "_timestamp": 2031.058803118, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-2", "_timestamp": 2031.059803118, "_offset_ms": 10.0, "_index": 10}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-2", "result": "10 + 20 = 30", "_timestamp": 2031.060803118, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363073808", "delta": "1", "_timestamp": 2031.061803118, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770363073808", "delta": "0 + 20 = 30.\n", "_timestamp": 2031.062803118, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770363073808", "_timestamp": 2031.063803118, "_offset_ms": 14.0, "_index": 14}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-multi_tool", "_timestamp": 2031.064803118, "_offset_ms": 15.0, "_index": 15}

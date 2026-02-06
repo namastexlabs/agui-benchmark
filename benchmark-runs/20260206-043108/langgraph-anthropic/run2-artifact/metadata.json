@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2774.032236000039,
+    "time_to_first_event_ms": 779.989439000019,
+    "time_to_first_content_ms": 2775.8855350002705,
+    "time_to_complete_ms": 2774.032236000039
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1388,
+    "tokens_approx": 347,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: The first number\n        b: The second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Works with integers, floats, or any numeric types that support addition\n\nYou can use it like:\n```python\nadd_numbers(10, 20)    # Returns 30\nadd_numbers(3.5, 2.5)  # Returns 6.0\nadd_numbers(-5, 8)     # Returns 3\n```Here's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: The first number\n        b: The second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Works with integers, floats, or any numeric types that support addition\n\nYou can use it like:\n```python\nadd_numbers(10, 20)    # Returns 30\nadd_numbers(3.5, 2.5)  # Returns 6.0\nadd_numbers(-5, 8)     # Returns 3\n```"
+  },
+  "tokens": {
+    "input_tokens": 799,
+    "output_tokens": 224,
+    "total_tokens": 1023
+  },
+  "events": {
+    "total_events": 114,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 694,
+    "total_chunks": 45,
+    "duration_ms": 90.0,
+    "throughput_chars_per_sec": 7711.111111111111,
+    "avg_gap_ms": 2.0454545454545454,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

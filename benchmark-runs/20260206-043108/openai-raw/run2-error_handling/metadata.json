@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 42034.27828200029,
+    "time_to_first_event_ms": 42032.90859100025,
+    "time_to_first_content_ms": 42034.82847300029,
+    "time_to_complete_ms": 42034.27828200029
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 681,
+    "tokens_approx": 170,
+    "final_text": "I can\u2019t run a tool named \"nonexistent_tool\" because it\u2019s not available in my tool set. The tools I can actually use are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 runs multiple available tools at once (only the above)\n\nWould you like me to:\n- run one of the available tools now (tell me the math expression or ask for the current time),  \n- simulate what \"nonexistent_tool\" might do (describe desired behavior and I\u2019ll produce a mock result), or  \n- show an example of how I\u2019d call the parallel tool to run both get_current_time and calculator?\n\nTell me which and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 414,
+    "total_tokens": 620
+  },
+  "events": {
+    "total_events": 154,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 681,
+    "total_chunks": 149,
+    "duration_ms": 148.0,
+    "throughput_chars_per_sec": 4601.351351351352,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

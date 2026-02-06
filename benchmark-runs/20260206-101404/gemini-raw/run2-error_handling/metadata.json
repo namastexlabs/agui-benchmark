@@ -1,0 +1,50 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13608.818148000864,
+    "time_to_first_event_ms": 13608.580468000582,
+    "time_to_first_content_ms": 13608.842411002115,
+    "time_to_complete_ms": 13608.818148000864
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 121,
+    "tokens_approx": 30,
+    "final_text": "I am sorry, but the tool 'nonexistent_tool' does not exist. I can only use the 'calculator' and 'get_current_time' tools."
+  },
+  "tokens": {
+    "input_tokens": 116,
+    "output_tokens": 35,
+    "total_tokens": 210
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 121,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 121000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

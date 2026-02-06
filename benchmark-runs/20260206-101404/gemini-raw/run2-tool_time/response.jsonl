@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 21713.419985345, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "5e63e953-1d04-46f1-8a86-27a4f0233115", "toolCallName": "get_current_time", "_timestamp": 21713.420985345, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "5e63e953-1d04-46f1-8a86-27a4f0233115", "delta": "{}", "_timestamp": 21713.421985345, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "5e63e953-1d04-46f1-8a86-27a4f0233115", "_timestamp": 21713.422985345, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "5e63e953-1d04-46f1-8a86-27a4f0233115", "result": "2026-02-06 10:15:08", "_timestamp": 21713.423985345, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "47be9a77-2204-4bab-a784-fb1c111d1c77", "role": "assistant", "_timestamp": 21713.424985345002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "47be9a77-2204-4bab-a784-fb1c111d1c77", "delta": "The current time is", "_timestamp": 21713.425985345002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "47be9a77-2204-4bab-a784-fb1c111d1c77", "delta": " 10:15:08 on February 6, 202", "_timestamp": 21713.426985345002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "47be9a77-2204-4bab-a784-fb1c111d1c77", "delta": "6.\n", "_timestamp": 21713.427985345003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "message_id": "47be9a77-2204-4bab-a784-fb1c111d1c77", "_timestamp": 21713.428985345, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 117, "output_tokens": 12, "total_tokens": 174, "model": "gemini-2.5-flash", "_timestamp": 21713.429985345, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 21713.430985345, "_offset_ms": 11.0, "_index": 11}

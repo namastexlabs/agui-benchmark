@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 21657.296621821, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "ca578746-23c5-4804-a1db-cd3e43d58f14", "role": "assistant", "_timestamp": 21657.297621821, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca578746-23c5-4804-a1db-cd3e43d58f14", "delta": "```python\nfrom typing import Union\n\nNumber = Union[int, float, complex]\n\ndef add(a: Number, b: Number) -> Number:\n    \"\"\"Return the sum of two numbers.\"\"\"\n    return a + b\n```", "_timestamp": 21657.298621821, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "ca578746-23c5-4804-a1db-cd3e43d58f14", "_timestamp": 21657.299621821, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 21657.300621821, "_offset_ms": 4.0, "_index": 4}

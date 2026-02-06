@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2198.712032997719,
+    "time_to_first_event_ms": 274.2642049997812,
+    "time_to_first_content_ms": 2198.871369997505,
+    "time_to_complete_ms": 2198.712032997719
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 653,
+    "tokens_approx": 163,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data**. I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to files, databases, accounts, or any systems where data is stored. I can't delete, modify, or access any of your information.\n\nIf you're looking to delete data from your own systems, you would need to:\n1. Use the appropriate application or service directly\n2. Follow that platform's deletion procedures\n3. Verify any confirmation prompts they provide\n\nIs there something else I can help you with, like a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 653,
+    "total_chunks": 57,
+    "duration_ms": 56.0,
+    "throughput_chars_per_sec": 11660.714285714286,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b", "_timestamp": 21657.308888914, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383649", "role": "assistant", "_timestamp": 21657.309888914002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": "I", "_timestamp": 21657.310888914002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " can't help you with that. The 'nonexistent_tool'", "_timestamp": 21657.311888914002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " is not a real tool, so it can't be used", "_timestamp": 21657.312888914003, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " to do anything. If you meant to ask about a specific tool", "_timestamp": 21657.313888914003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " or software, I'd be happy to try", "_timestamp": 21657.314888914003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " and assist you with that. Alternatively,", "_timestamp": 21657.315888914003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " if you'd like to describe the tool and its intended function, I may be able to", "_timestamp": 21657.316888914003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": " suggest a real tool or method that could achieve a similar outcome", "_timestamp": 21657.317888914, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383649", "delta": ".", "_timestamp": 21657.318888914, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383649", "_timestamp": 21657.319888914, "_offset_ms": 11.0, "_index": 11}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 88, "total_tokens": 134, "model": "llama-3.1-8b", "_timestamp": 21657.320888914, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "_timestamp": 21657.321888914, "_offset_ms": 13.0, "_index": 13}

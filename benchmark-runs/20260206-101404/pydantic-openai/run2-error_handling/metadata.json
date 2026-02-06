@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13318.167722001817,
+    "time_to_first_event_ms": 231.15831000177423,
+    "time_to_first_content_ms": 13318.518150001182,
+    "time_to_complete_ms": 13318.167722001817
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 716,
+    "tokens_approx": 179,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\", so I can\u2019t call it. If you tell me what you want to accomplish, I can:\n\n- Use one of the available tools (get_current_time, calculator, request_approval, or run multiple via multi_tool_use.parallel).\n- Do the task directly without a tool (if it\u2019s something I can handle conversationally).\n- Suggest or simulate what the nonexistent tool might have done.\n\nExamples:\n- Want the current time? I can call get_current_time.\n- Need a math result? Tell me the expression and I\u2019ll use the calculator.\n- Want to perform a sensitive action that needs approval? I\u2019ll call request_approval first.\n\nWhat would you like me to do? If you meant a different tool name, please correct it."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 165,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 716,
+    "total_chunks": 161,
+    "duration_ms": 160.0,
+    "throughput_chars_per_sec": 4475.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-tool_time", "model": "llama-3.3-70b", "_timestamp": 21657.304594369, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383644", "role": "assistant", "_timestamp": 21657.305594369, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": "I", "_timestamp": 21657.306594369, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": "'m not currently able to share the", "_timestamp": 21657.307594369002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383644", "delta": " time.", "_timestamp": 21657.308594369002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383644", "_timestamp": 21657.309594369002, "_offset_ms": 5.0, "_index": 5}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 11, "total_tokens": 59, "model": "llama-3.3-70b", "_timestamp": 21657.310594369003, "_offset_ms": 6.0, "_index": 6}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-tool_time", "_timestamp": 21657.311594369003, "_offset_ms": 7.0, "_index": 7}

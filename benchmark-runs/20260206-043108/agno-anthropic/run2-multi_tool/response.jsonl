@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool", "_timestamp": 2153.018256435, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "bcd15564-e6a3-4c97-a517-8f567de5eb1c", "role": "assistant", "_timestamp": 2153.019256435, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "bcd15564-e6a3-4c97-a517-8f567de5eb1c", "_timestamp": 2153.0202564349997, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01VcheYWFnrhCEAvouR3BQtq", "toolCallName": "get_current_time", "parentMessageId": "bcd15564-e6a3-4c97-a517-8f567de5eb1c", "_timestamp": 2153.021256435, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01VcheYWFnrhCEAvouR3BQtq", "delta": "{}", "_timestamp": 2153.0222564349997, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01J2ccUcwopmB6LqtwLCsgfj", "toolCallName": "calculator", "parentMessageId": "bcd15564-e6a3-4c97-a517-8f567de5eb1c", "_timestamp": 2153.023256435, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01J2ccUcwopmB6LqtwLCsgfj", "delta": "{\"expression\": \"10 + 20\"}", "_timestamp": 2153.0242564349996, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01VcheYWFnrhCEAvouR3BQtq", "_timestamp": 2153.025256435, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "b2a2f8c0-5408-43bf-b929-85ba2d7843eb", "toolCallId": "toolu_01VcheYWFnrhCEAvouR3BQtq", "content": "2026-02-06 04:33:17", "role": "tool", "_timestamp": 2153.0262564349996, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01J2ccUcwopmB6LqtwLCsgfj", "_timestamp": 2153.027256435, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_RESULT", "messageId": "fa02c328-28a4-472a-bac6-051c8a93e440", "toolCallId": "toolu_01J2ccUcwopmB6LqtwLCsgfj", "content": "10 + 20 = 30", "role": "tool", "_timestamp": 2153.028256435, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_START", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "role": "assistant", "_timestamp": 2153.0292564349998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": "Perfect", "_timestamp": 2153.030256435, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": "! Here are the results:\n\n-", "_timestamp": 2153.0312564349997, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": " **Current time:**", "_timestamp": 2153.032256435, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": " ", "_timestamp": 2153.0332564349997, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": "2026-02-06 04", "_timestamp": 2153.034256435, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": ":33:17\n- **", "_timestamp": 2153.0352564349996, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": "Calculation:** 10 + 20", "_timestamp": 2153.036256435, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": " = **", "_timestamp": 2153.0372564349996, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "delta": "30**", "_timestamp": 2153.0382564349998, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_END", "messageId": "aec8b12d-89ff-494f-8531-4018f5d958b9", "_timestamp": 2153.039256435, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool", "_timestamp": 2153.0402564349997, "_offset_ms": 22.0, "_index": 22}

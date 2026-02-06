@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling", "_timestamp": 21713.328402055, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "bdbc8071-ce69-43f3-bb86-30e1097201dd", "role": "assistant", "_timestamp": 21713.329402055002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bdbc8071-ce69-43f3-bb86-30e1097201dd", "delta": "I cannot use the 'nonexistent_tool' because it does not exist. Please use one of the available tools.", "_timestamp": 21713.330402055002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "bdbc8071-ce69-43f3-bb86-30e1097201dd", "_timestamp": 21713.331402055002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling", "_timestamp": 21713.332402055003, "_offset_ms": 4.0, "_index": 4}

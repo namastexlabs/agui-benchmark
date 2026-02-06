@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4711.529160999817,
+    "time_to_first_event_ms": 4153.966942999887,
+    "time_to_first_content_ms": 4711.587162999876,
+    "time_to_complete_ms": 4711.529160999817
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 885,
+    "tokens_approx": 221,
+    "final_text": "Before we proceed with deleting any data, I want to confirm that you are aware of the potential consequences of doing so. Deleting important data can result in permanent loss of information and may have significant impacts on your work or personal life.\n\nTo ensure that you are making an informed decision, I would like to ask:\n\n1. Are you certain that you want to delete the data in question?\n2. Have you verified that the data is no longer needed or is redundant?\n3. Do you have a backup of the data in case you need to recover it later?\n\nPlease respond with a clear \"yes\" or \"no\" to each of these questions. If you are unsure or have any doubts, I can help you explore alternative options for managing the data.\n\nOnce I have your approval, I will guide you through the process of deleting the data. However, I want to emphasize that I will not proceed without your explicit consent."
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 186,
+    "total_tokens": 237
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 885,
+    "total_chunks": 17,
+    "duration_ms": 16.0,
+    "throughput_chars_per_sec": 55312.5,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

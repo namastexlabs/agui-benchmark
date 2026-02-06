@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 21713.328077769, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "role": "assistant", "_timestamp": 21713.329077769, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "delta": "To solve for x in the equation x + 5 = 12", "_timestamp": 21713.330077769002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "delta": ", we need to isolate x.\n\n1. **Start with the equation:** x + 5 = 12\n2. **Subtract 5 from both sides** of the equation to keep it balanced:\n   x + 5", "_timestamp": 21713.331077769002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "delta": " - 5 = 12 - 5\n3. **Simplify:**\n   x = 7\n\n", "_timestamp": 21713.332077769002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "_timestamp": 21713.333077769003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_cea0e6fcb9b14af3a05415286d7a85e6", "toolCallName": "calculator", "parentMessageId": "d934afa4-c032-4aa6-9667-1553c5dc1f36", "_timestamp": 21713.334077769003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_cea0e6fcb9b14af3a05415286d7a85e6", "delta": "{\"expression\":\"12 - 5\"}", "_timestamp": 21713.335077769003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_cea0e6fcb9b14af3a05415286d7a85e6", "_timestamp": 21713.336077769003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_RESULT", "messageId": "c0b7e160-192d-4674-b0a6-643fdc0994ba", "toolCallId": "pyd_ai_cea0e6fcb9b14af3a05415286d7a85e6", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 21713.337077769, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_START", "messageId": "5071a11b-ef38-440b-b0b5-d69eee90fd1e", "role": "assistant", "_timestamp": 21713.338077769, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5071a11b-ef38-440b-b0b5-d69eee90fd1e", "delta": "So, x =", "_timestamp": 21713.339077769, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5071a11b-ef38-440b-b0b5-d69eee90fd1e", "delta": " 7.", "_timestamp": 21713.340077769, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_END", "messageId": "5071a11b-ef38-440b-b0b5-d69eee90fd1e", "_timestamp": 21713.341077769, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 21713.342077769, "_offset_ms": 14.0, "_index": 14}

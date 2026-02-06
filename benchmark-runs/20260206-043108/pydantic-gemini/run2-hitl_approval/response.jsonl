@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-hitl_approval", "_timestamp": 2153.027241267, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_8e563019d3e84fe0803dbeb260110b9f", "toolCallName": "request_approval", "parentMessageId": "3990e65d-90f5-46dc-adf6-4b05194aaebf", "_timestamp": 2153.0282412670003, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_8e563019d3e84fe0803dbeb260110b9f", "delta": "{\"action\":\"delete important data\"}", "_timestamp": 2153.029241267, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_8e563019d3e84fe0803dbeb260110b9f", "_timestamp": 2153.0302412670003, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "messageId": "5a803993-b104-49a8-b735-ca445f9241d5", "toolCallId": "pyd_ai_8e563019d3e84fe0803dbeb260110b9f", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval", "role": "tool", "_timestamp": 2153.031241267, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "messageId": "b3edc570-4f25-4820-865d-238528907278", "role": "assistant", "_timestamp": 2153.0322412670002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b3edc570-4f25-4820-865d-238528907278", "delta": "Your", "_timestamp": 2153.033241267, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b3edc570-4f25-4820-865d-238528907278", "delta": " request to delete important data has been submitted for approval.\n", "_timestamp": 2153.034241267, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "b3edc570-4f25-4820-865d-238528907278", "_timestamp": 2153.035241267, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-hitl_approval", "_timestamp": 2153.036241267, "_offset_ms": 9.0, "_index": 9}

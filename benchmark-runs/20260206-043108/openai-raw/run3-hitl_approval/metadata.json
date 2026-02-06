@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 35240.586038999936,
+    "time_to_first_event_ms": 35238.65445299998,
+    "time_to_first_content_ms": 35241.146417999975,
+    "time_to_complete_ms": 35240.586038999936
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 991,
+    "tokens_approx": 247,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before I proceed, I need a few details and your clear confirmation.\n\n1) What exactly should be deleted? (file paths, folder names, database & table names, cloud bucket(s), device(s), etc.)\n2) Where is it stored? (local machine OS, server via SSH, cloud provider and service, database type, SaaS app)\n3) Do you have a backup or snapshot? If not, do you want help creating one before deletion?\n4) Do you want a safe (recoverable) delete or permanent/secure wipe (irreversible)?\n5) Any timeframe or downtime constraints?\n6) Are there legal, compliance, or business implications I should know about?\n\nWhen you\u2019re ready, confirm in one clear message using this exact phrase (so I know it\u2019s intentional):\nYES \u2014 delete [brief description of what to delete]\n\nExample: YES \u2014 delete /home/me/old_backups and s3://my-bucket/old_backups\n\nI will wait for that exact confirmation before giving deletion commands or proceeding with any steps."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 681,
+    "total_tokens": 892
+  },
+  "events": {
+    "total_events": 229,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 991,
+    "total_chunks": 224,
+    "duration_ms": 223.0,
+    "throughput_chars_per_sec": 4443.946188340808,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

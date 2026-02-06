@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8800.98060499995,
+    "time_to_first_event_ms": 2463.898486999824,
+    "time_to_first_content_ms": 8801.02510000006,
+    "time_to_complete_ms": 8800.98060499995
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 202,
+    "tokens_approx": 50,
+    "final_text": "Sorry \u2014 I can\u2019t provide my internal step\u2011by\u2011step chain-of-thought. Here\u2019s a concise explanation and the result:\n\nSubtract 5 from both sides of the equation: x = 12 \u2212 5 = 7.\n\nCheck: 7 + 5 = 12, so x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

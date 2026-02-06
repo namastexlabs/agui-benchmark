@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "model": "llama-3.1-8b", "_timestamp": 2200.497563093, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363251", "role": "assistant", "_timestamp": 2200.498563093, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": "I", "_timestamp": 2200.499563093, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": " cannot provide instructions on how to delete data without your explicit approval.", "_timestamp": 2200.500563093, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": " Is there anything else I can help you with?", "_timestamp": 2200.5015630929997, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363251", "_timestamp": 2200.502563093, "_offset_ms": 5.0, "_index": 5}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 25, "total_tokens": 76, "model": "llama-3.1-8b", "_timestamp": 2200.5035630929997, "_offset_ms": 6.0, "_index": 6}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "_timestamp": 2200.504563093, "_offset_ms": 7.0, "_index": 7}

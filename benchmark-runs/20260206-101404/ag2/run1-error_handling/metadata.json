@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10014.143870001135,
+    "time_to_first_event_ms": 284.5751810018555,
+    "time_to_first_content_ms": 10014.1798500008,
+    "time_to_complete_ms": 10014.143870001135
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 855,
+    "tokens_approx": 213,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool\". I can\u2019t call something that isn\u2019t available, but I can help in one of three ways \u2014 tell me which you prefer:\n\n1. I can do the task here directly (explain what you want done and I\u2019ll do it).\n2. I can show example code to call a similarly named tool or to implement the tool yourself.\n3. I can simulate what that tool would do and provide sample output.\n\nExample (Python) stub you can adapt if you actually have a tool/library to call:\n```\n# hypothetical usage \u2014 replace with the real library/API\ntry:\n    import nonexistent_tool\n    result = nonexistent_tool.do_something(arg1=\"value\")\n    print(\"Result:\", result)\nexcept ImportError:\n    print(\"Error: 'nonexistent_tool' not installed.\")\nexcept Exception as e:\n    print(\"Tool error:\", e)\n```\n\nWhat specifically do you want \"to do something\" to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

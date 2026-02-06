@@ -1,0 +1,76 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3908.4711099999367,
+    "time_to_first_event_ms": 209.02170399995157,
+    "time_to_first_content_ms": 3908.6568829998214,
+    "time_to_complete_ms": 3908.4711099999367
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 14.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01Hdn39N6LjzcqW5k98iYTJy",
+        "name": "calculator",
+        "start_ms": 35.0,
+        "end_ms": 41.0,
+        "result_ms": 42.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "toolu_014upcDhwda67XUTPaRdZgYv",
+        "name": "calculator",
+        "start_ms": 54.0,
+        "end_ms": 60.0,
+        "result_ms": 61.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 555,
+    "tokens_approx": 138,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, we need to remove the 5 from the left side of the equation. We do this by subtracting 5 from both sides:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\nLet me calculate the right side:**Result:** x = 7\n\n**Verification:**\nLet me verify this is correct by substituting x = 7 back into the original equation:\u2713 Confirmed! Since 7 + 5 = 12, our answer is correct.\n\n**Answer: x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 74,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 555,
+    "total_chunks": 50,
+    "duration_ms": 69.0,
+    "throughput_chars_per_sec": 8043.478260869564,
+    "avg_gap_ms": 1.4081632653061225,
+    "p95_gap_ms": 6.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

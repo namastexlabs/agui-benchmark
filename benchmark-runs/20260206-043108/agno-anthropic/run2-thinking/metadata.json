@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3727.3844390001614,
+    "time_to_first_event_ms": 224.23427200010337,
+    "time_to_first_content_ms": 3727.524223999808,
+    "time_to_complete_ms": 3727.3844390001614
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 696,
+    "tokens_approx": 174,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1: Identify the equation**\n- x + 5 = 12\n\n**Step 2: Isolate x by removing the constant on the left side**\n- To isolate x, I need to subtract 5 from both sides of the equation\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- x = 7\n\n**Step 4: Verify the answer**\n- Let me substitute x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning is straightforward: whatever operation you do to one side of an equation, you must do to the other side to keep it balanced. Since 5 was being added to x, we subtract 5 from both sides to isolate x and find that x equals 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 696,
+    "total_chunks": 58,
+    "duration_ms": 57.0,
+    "throughput_chars_per_sec": 12210.526315789475,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3888.2076350000716,
+    "time_to_first_event_ms": 221.26811899988752,
+    "time_to_first_content_ms": 3888.2645839998986,
+    "time_to_complete_ms": 3888.2076350000716
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 5.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "pyd_ai_6172c8cb2d9c494d88f3b389f8a8623b",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 2.0,
+        "result_ms": 3.0,
+        "duration_ms": 2.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "pyd_ai_ad466620e5e740e99d19125be0777e46",
+        "name": "calculator",
+        "start_ms": 4.0,
+        "end_ms": 6.0,
+        "result_ms": 7.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 58,
+    "tokens_approx": 14,
+    "final_text": "The current time is 04:34:08 on 2026-02-06.\n10 + 20 = 30.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 58,
+    "total_chunks": 3,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 29000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2667.591630000061,
+    "time_to_first_event_ms": 779.3968030000542,
+    "time_to_first_content_ms": 2668.7244709996776,
+    "time_to_complete_ms": 2667.591630000061
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 164,
+    "tokens_approx": 41,
+    "final_text": "def add_numbers(a, b):\n    return a + b\n\nprint(\"Example usage: add_numbers(5, 7)\")def add_numbers(a, b):\n    return a + b\n\nprint(\"Example usage: add_numbers(5, 7)\")"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 33,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 82,
+    "total_chunks": 5,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 10250.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

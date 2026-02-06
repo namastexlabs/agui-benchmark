@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7647.229693000099,
+    "time_to_first_event_ms": 765.4771069996968,
+    "time_to_first_content_ms": 7651.392143000066,
+    "time_to_complete_ms": 7647.229693000099
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1490,
+    "tokens_approx": 372,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in my environment. Available tools I can use right now:\n\n- get_current_time \u2014 return the current date/time  \n- calculator \u2014 evaluate a math expression (e.g., \"12/3 + 4\")  \n- request_approval \u2014 ask a human to approve an action  \n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to accomplish and I\u2019ll either:\n- use one of the available tools for you (say which and give any inputs), or  \n- simulate/implement the requested action myself if it doesn\u2019t require an external tool, or  \n- if you control the environment, I can tell you what\u2019s needed to add a new tool (name, purpose, parameters).\n\nWhat would you like me to do next?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in my environment. Available tools I can use right now:\n\n- get_current_time \u2014 return the current date/time  \n- calculator \u2014 evaluate a math expression (e.g., \"12/3 + 4\")  \n- request_approval \u2014 ask a human to approve an action  \n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to accomplish and I\u2019ll either:\n- use one of the available tools for you (say which and give any inputs), or  \n- simulate/implement the requested action myself if it doesn\u2019t require an external tool, or  \n- if you control the environment, I can tell you what\u2019s needed to add a new tool (name, purpose, parameters).\n\nWhat would you like me to do next?"
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 439,
+    "total_tokens": 712
+  },
+  "events": {
+    "total_events": 372,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 745,
+    "total_chunks": 174,
+    "duration_ms": 348.0,
+    "throughput_chars_per_sec": 2140.8045977011498,
+    "avg_gap_ms": 2.0115606936416186,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10026.36858599999,
+    "time_to_first_event_ms": 2856.899958999975,
+    "time_to_first_content_ms": 10026.904340999863,
+    "time_to_complete_ms": 10026.36858599999
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 862,
+    "tokens_approx": 215,
+    "final_text": "I won\u2019t delete anything until you explicitly approve. Before we proceed, please confirm these details so I can act safely:\n\n1. What exactly do you want deleted? (file/folder names, database/table/rows, cloud storage bucket, etc.)\n2. Where is it located? (local path, server hostname, cloud provider and bucket/container, database name)\n3. Do you have a backup or export of this data? (recommended)\n4. Do you want permanent deletion (irreversible) or move to trash/archive first?\n5. Any time constraints or dependencies I should know about?\n\nIf you still want me to proceed, please confirm by typing exactly:\nYES \u2014 DELETE [brief description of the data]\n\nExample: YES \u2014 DELETE directory /home/me/old_reports\n\nAfter I receive that exact confirmation, I\u2019ll provide step-by-step commands and a final warning before performing any deletion. Would you like to proceed?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 189,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

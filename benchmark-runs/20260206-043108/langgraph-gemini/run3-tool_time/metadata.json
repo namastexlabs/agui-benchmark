@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3035.6320620003316,
+    "time_to_first_event_ms": 763.1059670002287,
+    "time_to_first_content_ms": 3036.172715000248,
+    "time_to_complete_ms": 3035.6320620003316
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 96,
+    "tokens_approx": 24,
+    "final_text": "The current time is 04:34:09 on February 6, 202The current time is 04:34:09 on February 6, 2026."
+  },
+  "tokens": {
+    "input_tokens": 337,
+    "output_tokens": 17,
+    "total_tokens": 341
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 47,
+    "total_chunks": 2,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 23500.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

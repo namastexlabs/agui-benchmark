@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b", "_timestamp": 2153.171691157, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363201", "role": "assistant", "_timestamp": 2153.1726911570004, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "I", "_timestamp": 2153.173691157, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " can't assist with that as the term 'nonexistent", "_timestamp": 2153.1746911570003, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "_tool' does not refer to a real tool. If you would like", "_timestamp": 2153.175691157, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": " to use a real tool, please let me know and I", "_timestamp": 2153.1766911570003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363201", "delta": "'ll be happy to assist you with that.", "_timestamp": 2153.177691157, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363201", "_timestamp": 2153.1786911570002, "_offset_ms": 7.0, "_index": 7}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 48, "total_tokens": 94, "model": "llama-3.1-8b", "_timestamp": 2153.179691157, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "_timestamp": 2153.180691157, "_offset_ms": 9.0, "_index": 9}

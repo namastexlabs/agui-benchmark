@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5312.241784999969,
+    "time_to_first_event_ms": 779.5539100002316,
+    "time_to_first_content_ms": 5315.744781999911,
+    "time_to_complete_ms": 5312.241784999969
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1112,
+    "tokens_approx": 278,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. Available tools I can use here are:\n- get_current_time (tell current time)\n- calculator (evaluate math expressions)\n- request_approval (ask for human approval)\n\nTell me what you want to do with \"nonexistent_tool\" and I\u2019ll either perform it directly or map it to one of the available tools. Examples:\n- If you wanted the current time, I can call get_current_time.\n- If you wanted a calculation, give the expression and I\u2019ll use calculator.\n- If you wanted an approval step, I can use request_approval.I don\u2019t have a tool named \"nonexistent_tool\" available. Available tools I can use here are:\n- get_current_time (tell current time)\n- calculator (evaluate math expressions)\n- request_approval (ask for human approval)\n\nTell me what you want to do with \"nonexistent_tool\" and I\u2019ll either perform it directly or map it to one of the available tools. Examples:\n- If you wanted the current time, I can call get_current_time.\n- If you wanted a calculation, give the expression and I\u2019ll use calculator.\n- If you wanted an approval step, I can use request_approval."
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 263,
+    "total_tokens": 536
+  },
+  "events": {
+    "total_events": 276,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 556,
+    "total_chunks": 126,
+    "duration_ms": 252.0,
+    "throughput_chars_per_sec": 2206.3492063492067,
+    "avg_gap_ms": 2.016,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

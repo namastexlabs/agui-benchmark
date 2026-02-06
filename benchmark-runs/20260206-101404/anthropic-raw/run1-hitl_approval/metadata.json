@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10408.302117997664,
+    "time_to_first_event_ms": 10407.667855997715,
+    "time_to_first_content_ms": 10408.45275600077,
+    "time_to_complete_ms": 10408.302117997664
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 899,
+    "tokens_approx": 224,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify something important: **I don't have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, accounts, or any other data on your systems or elsewhere.\n\nIf you need to delete data, you would need to:\n1. Do it directly through the appropriate application or system\n2. Contact your IT administrator or support team if you need assistance\n3. Use the proper data management tools for your specific platform\n\nIf you have concerns about an important deletion you need to make, I'd recommend:\n- Making a backup first\n- Double-checking which data you want to delete\n- Following your organization's data retention and deletion policies\n\nIs there something specific I can help you with instead?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 196,
+    "total_tokens": 879
+  },
+  "events": {
+    "total_events": 65,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 899,
+    "total_chunks": 60,
+    "duration_ms": 59.0,
+    "throughput_chars_per_sec": 15237.28813559322,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

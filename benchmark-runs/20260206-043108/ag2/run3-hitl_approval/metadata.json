@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12932.856257999902,
+    "time_to_first_event_ms": 2530.755367999973,
+    "time_to_first_content_ms": 12932.886994,
+    "time_to_complete_ms": 12932.856257999902
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 890,
+    "tokens_approx": 222,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, please provide these details and then give explicit consent:\n\n1) What exactly should be deleted (file names/paths, database/table names, cloud bucket, etc.)?  \n2) Where it\u2019s located (local machine, server hostname, cloud provider and account, OS).  \n3) Do you want permanent (irreversible) deletion, secure overwrite, or soft-delete/move to trash?  \n4) Do you have authorization to delete this data? (Are you the owner/admin?)  \n5) Do you have a backup or want me to recommend/prepare one first?\n\nWhen you\u2019re ready, confirm by replying with this exact phrase (including the text in quotes):  \n\"I authorize permanent deletion of [brief description of data/location]\"\n\nReplace the bracketed part with the data/location. I will wait for that exact confirmation before giving deletion steps or proceeding."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12289.04243299985,
+    "time_to_first_event_ms": 2630.520325999896,
+    "time_to_first_content_ms": 12289.079218000097,
+    "time_to_complete_ms": 12289.04243299985
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1408,
+    "tokens_approx": 352,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool\" (it isn\u2019t available here). I can\u2019t run or call nonexistent tools, but I can help in several ways\u2014pick one:\n\n- Tell me what you want the tool to do and I\u2019ll simulate the output or walk through the steps manually.\n- I can generate code or CLI commands that would call such a tool on your machine (example below).\n- I can show how to implement the tool (a small script or package) to perform the task.\n- I can perform equivalent work here (text processing, calculations, generating files, drafting HTTP requests, etc.) if it\u2019s something I can do directly.\n\nExample: if you wanted a CLI named nonexistent_tool that analyzes a text file, here\u2019s a simple Python CLI you can save as nonexistent_tool.py and run locally:\n\n#!/usr/bin/env python3\nimport argparse\nimport sys\ndef analyze(text):\n    words = text.split()\n    return {\"chars\": len(text), \"words\": len(words), \"lines\": text.count(\"\\n\")+1}\ndef main():\n    p = argparse.ArgumentParser(description=\"Fake analyzer\")\n    p.add_argument(\"--input\", \"-i\", type=argparse.FileType('r'), default=sys.stdin)\n    args = p.parse_args()\n    txt = args.input.read()\n    res = analyze(txt)\n    print(res)\nif __name__ == \"__main__\":\n    main()\n\nOr a shell invocation example:\nnonexistent_tool --input file.txt --action analyze\n\nWhich option would you like me to do now, and what specifically should the tool accomplish?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

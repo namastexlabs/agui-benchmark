@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-hitl_approval", "_timestamp": 2031.051009344, "_offset_ms": 0.0, "_index": 0}
+{"type": "STEP_STARTED", "stepName": "handle_message", "_timestamp": 2031.052009344, "_offset_ms": 1.0, "_index": 1}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "I need to delete important data. You must ask for my approval before proceeding."}], "_timestamp": 2031.053009344, "_offset_ms": 2.0, "_index": 2}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "I need to delete important data. You must ask for my approval before proceeding.", "name": null}], "copilotkit": {"actions": []}}, "_timestamp": 2031.054009344, "_offset_ms": 3.0, "_index": 3}
+{"type": "STEP_FINISHED", "stepName": "handle_message", "_timestamp": 2031.055009344, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-hitl_approval", "_timestamp": 2031.0560093440001, "_offset_ms": 5.0, "_index": 5}

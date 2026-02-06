@@ -1,0 +1,66 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8657.831706999787,
+    "time_to_first_event_ms": 8657.189353999911,
+    "time_to_first_content_ms": 8658.071519999794,
+    "time_to_complete_ms": 8657.831706999787
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 8.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_0156FueSBSX81NEqaREAcyQF",
+        "name": "calculator",
+        "start_ms": 39.0,
+        "end_ms": 46.0,
+        "result_ms": 47.0,
+        "duration_ms": 8.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "12 - 5 = 7"
+      }
+    ]
+  },
+  "response": {
+    "chars": 440,
+    "tokens_approx": 110,
+    "final_text": "I'll solve this step-by-step:\n\n**Given equation:** x + 5 = 12\n\n**Step 1:** Identify what we need to find\n- We need to find the value of x\n\n**Step 2:** Isolate x by removing the +5 from the left side\n- To do this, we subtract 5 from both sides of the equation\n- x + 5 - 5 = 12 - 5\n\n**Step 3:** Simplify both sides\n- Left side: x + 5 - 5 = x\n- Right side: 12 - 5 = ?\n\nLet me calculate the right side:**Answer: x = 7**\n\n**Check:** 7 + 5 = 12 \u2713"
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 206,
+    "total_tokens": 898
+  },
+  "events": {
+    "total_events": 57,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 440,
+    "total_chunks": 43,
+    "duration_ms": 51.0,
+    "throughput_chars_per_sec": 8627.450980392156,
+    "avg_gap_ms": 1.2142857142857142,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

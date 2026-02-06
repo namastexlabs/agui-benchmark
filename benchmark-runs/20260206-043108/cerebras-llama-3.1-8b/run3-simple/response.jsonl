@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "model": "llama-3.1-8b", "_timestamp": 2200.486129917, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363251", "role": "assistant", "_timestamp": 2200.4871299170004, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": "Hello", "_timestamp": 2200.488129917, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": ", I'm an AI designed to provide information and assist with tasks", "_timestamp": 2200.4891299170004, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": ". I'm a machine learning model trained on a vast amount", "_timestamp": 2200.490129917, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": " of text data, and I'm here to help", "_timestamp": 2200.4911299170003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": " answer your questions and engage in conversation to the best of my", "_timestamp": 2200.492129917, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363251", "delta": " abilities.", "_timestamp": 2200.4931299170003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363251", "_timestamp": 2200.494129917, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 51, "total_tokens": 99, "model": "llama-3.1-8b", "_timestamp": 2200.495129917, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "_timestamp": 2200.4961299170004, "_offset_ms": 10.0, "_index": 10}

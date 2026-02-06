@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 21713.319913695, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "adc57bae-ea24-4f17-a5ef-fd8e3b31efda", "role": "assistant", "_timestamp": 21713.320913695, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "adc57bae-ea24-4f17-a5ef-fd8e3b31efda", "delta": "To find x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of", "_timestamp": 21713.321913695, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "adc57bae-ea24-4f17-a5ef-fd8e3b31efda", "delta": " the equation:\nx + 5 - 5 = 12 - 5\nx = 12 - 5\n\n", "_timestamp": 21713.322913695, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "adc57bae-ea24-4f17-a5ef-fd8e3b31efda", "_timestamp": 21713.323913695, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "e552fbfb-7b44-4781-9a6e-7611ba935774", "toolCallName": "calculator", "parentMessageId": "adc57bae-ea24-4f17-a5ef-fd8e3b31efda", "_timestamp": 21713.324913695, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "e552fbfb-7b44-4781-9a6e-7611ba935774", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 21713.325913695, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "e552fbfb-7b44-4781-9a6e-7611ba935774", "_timestamp": 21713.326913695, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "2fcf3083-1c90-455c-96e7-0361ca712c90", "toolCallId": "e552fbfb-7b44-4781-9a6e-7611ba935774", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 21713.327913695, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_START", "messageId": "e1f9bc48-7f17-4255-a3b7-290603f34626", "role": "assistant", "_timestamp": 21713.328913694997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f9bc48-7f17-4255-a3b7-290603f34626", "delta": "Therefore, x =", "_timestamp": 21713.329913694997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e1f9bc48-7f17-4255-a3b7-290603f34626", "delta": " 7.", "_timestamp": 21713.330913694997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "e1f9bc48-7f17-4255-a3b7-290603f34626", "_timestamp": 21713.331913694998, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 21713.332913694998, "_offset_ms": 13.0, "_index": 13}

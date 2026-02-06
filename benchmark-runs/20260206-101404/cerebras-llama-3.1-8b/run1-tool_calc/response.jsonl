@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "model": "llama-3.1-8b", "_timestamp": 21657.307869447, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383648", "role": "assistant", "_timestamp": 21657.308869447, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": "To", "_timestamp": 21657.309869447, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " calculate 42 * 17 using a calculator tool, I will simulate", "_timestamp": 21657.310869447, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " the calculation.\n\n42 * 17 = ?\n\nFirst, I will", "_timestamp": 21657.311869447, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " multiply 42 by 10:\n42 * 10 =", "_timestamp": 21657.312869447, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " 420\n\nNext, I will multiply 42 by 7", "_timestamp": 21657.313869447, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": ":\n42 * 7 = 294\n\n", "_timestamp": 21657.314869447, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": "Now, I will add", "_timestamp": 21657.315869447, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " these two results together:\n420 + 294 = 714\n\nSo, the result", "_timestamp": 21657.316869446997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383648", "delta": " of 42 * 17 is:\n42 * 17 = 714", "_timestamp": 21657.317869446997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383648", "_timestamp": 21657.318869446997, "_offset_ms": 11.0, "_index": 11}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 100, "total_tokens": 151, "model": "llama-3.1-8b", "_timestamp": 21657.319869446997, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "_timestamp": 21657.320869446998, "_offset_ms": 13.0, "_index": 13}

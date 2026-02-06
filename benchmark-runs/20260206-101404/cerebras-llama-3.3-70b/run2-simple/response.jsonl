@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-simple", "model": "llama-3.3-70b", "_timestamp": 21713.432876678, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383706", "role": "assistant", "_timestamp": 21713.433876678002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": "Hello", "_timestamp": 21713.434876678002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": ", I'm an AI assistant, and I", "_timestamp": 21713.435876678002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": "'m here to help answer", "_timestamp": 21713.436876678003, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " any questions you may have. My", "_timestamp": 21713.437876678003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " purpose is to provide information", "_timestamp": 21713.438876678003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " and assist with tasks to the best of my abilities, using my training", "_timestamp": 21713.439876678003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " and knowledge base. I'm looking forward", "_timestamp": 21713.440876678003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " to interacting with you and providing helpful", "_timestamp": 21713.441876678, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383706", "delta": " responses.", "_timestamp": 21713.442876678, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383706", "_timestamp": 21713.443876678, "_offset_ms": 11.0, "_index": 11}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 59, "total_tokens": 107, "model": "llama-3.3-70b", "_timestamp": 21713.444876678, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-simple", "_timestamp": 21713.445876678, "_offset_ms": 13.0, "_index": 13}

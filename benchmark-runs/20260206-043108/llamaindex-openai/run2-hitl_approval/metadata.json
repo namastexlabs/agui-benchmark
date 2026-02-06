@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8931.080140000176,
+    "time_to_first_event_ms": 313.713264999933,
+    "time_to_first_content_ms": 8931.488872000045,
+    "time_to_complete_ms": 8931.080140000176
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 523,
+    "tokens_approx": 130,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve.\n\nBefore I do anything, please tell me:\n1) Exactly which data to delete (names, file paths, or records).  \n2) Where it is (device, cloud service, database, etc.).  \n3) Whether there\u2019s a backup and where it is.  \n4) Whether deletion is permanent or can be recovered.\n\nIf you want me to proceed now, type the exact confirmation phrase below (case-sensitive):\nCONFIRM DELETE\n\nType anything else to cancel or to ask more questions. What would you like to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 123,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

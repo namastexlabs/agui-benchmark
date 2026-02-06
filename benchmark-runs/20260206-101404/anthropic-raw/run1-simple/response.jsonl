@@ -1,0 +1,22 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 21657.300711169, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "role": "assistant", "_timestamp": 21657.301711169, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": "Hello! I'm Claude, an AI", "_timestamp": 21657.302711169, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " assistant made", "_timestamp": 21657.303711169, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " by Anthropic. I'm here", "_timestamp": 21657.304711169, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " to help you", "_timestamp": 21657.305711169, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " with a", "_timestamp": 21657.306711169, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " variety", "_timestamp": 21657.307711169, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " of tasks, including answering questions,", "_timestamp": 21657.308711169, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " having", "_timestamp": 21657.309711168997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " conversations, and performing practical", "_timestamp": 21657.310711168997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " functions", "_timestamp": 21657.311711168997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " like telling", "_timestamp": 21657.312711168997, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " you", "_timestamp": 21657.313711168998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " the current time or", "_timestamp": 21657.314711168998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " doing math", "_timestamp": 21657.315711168998, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " calculations. Feel", "_timestamp": 21657.316711168998, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": " free to ask me anything", "_timestamp": 21657.317711169, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "delta": "!", "_timestamp": 21657.318711169, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_END", "message_id": "f55e6b4f-204e-4332-9bf2-6f9a814d4c4e", "_timestamp": 21657.319711169, "_offset_ms": 19.0, "_index": 19}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 60, "total_tokens": 740, "model": "claude-haiku-4-5-20251001", "_timestamp": 21657.320711169, "_offset_ms": 20.0, "_index": 20}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 21657.321711169, "_offset_ms": 21.0, "_index": 21}

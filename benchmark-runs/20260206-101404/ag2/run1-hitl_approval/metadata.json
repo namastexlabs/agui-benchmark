@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10601.627765001467,
+    "time_to_first_event_ms": 268.0097350021242,
+    "time_to_first_content_ms": 10601.660284999525,
+    "time_to_complete_ms": 10601.627765001467
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 993,
+    "tokens_approx": 248,
+    "final_text": "I will not delete anything until you explicitly approve. Before I proceed, please confirm a few details so I can act safely and correctly:\n\n1. What exactly do you want deleted? (files, folders, database rows, cloud storage, account, etc.)  \n2. Where is it stored? (local machine \u2014 OS, cloud provider/service, server, database type)  \n3. Scope: permanent erase vs move to trash/recycle bin vs archive.  \n4. Do you want a backup/export first? (recommended if recovery may be needed)  \n5. Are there time constraints or a scheduled time to perform this?  \n6. Any dependencies or related systems that could be affected?\n\nI can\u2019t directly access your devices unless you give me access or run commands I provide. If you want me to proceed after you supply the details, please give explicit approval by replying exactly with:\n\n\"I approve deletion of [brief description of the data].\"\n\n(Replace the bracketed text with the data description.) I will only proceed after receiving that exact confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

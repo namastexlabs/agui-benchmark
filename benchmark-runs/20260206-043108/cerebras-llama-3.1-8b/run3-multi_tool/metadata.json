@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5010.131401999843,
+    "time_to_first_event_ms": 4429.455657999824,
+    "time_to_first_content_ms": 5010.191146000125,
+    "time_to_complete_ms": 5010.131401999843
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 594,
+    "tokens_approx": 148,
+    "final_text": "I'm not capable of getting the current time, but I can simulate it. Here's how you can do it:\n\n```python\nfrom datetime import datetime\n\n# Get the current time\ncurrent_time = datetime.now().strftime(\"%H:%M:%S\")\nprint(\"Current Time:\", current_time)\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(\"Result of 10 + 20:\", result)\n```\n\nWhen you run this code, it will print the current time in the format `HH:MM:SS` and then print the result of `10 + 20`, which is `30`. \n\nThis is a simple Python script that uses the `datetime` module to get the current time and then calculates the result of `10 + 20`."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 161,
+    "total_tokens": 210
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 594,
+    "total_chunks": 15,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 42428.57142857143,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

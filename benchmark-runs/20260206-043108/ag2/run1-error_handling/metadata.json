@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5766.182982999908,
+    "time_to_first_event_ms": 272.63216100004684,
+    "time_to_first_content_ms": 5766.215452000097,
+    "time_to_complete_ms": 5766.182982999908
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 665,
+    "tokens_approx": 166,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool.\" I can\u2019t call a tool that isn\u2019t available, but I can help in other ways. Which would you prefer?\n\nOptions:\n- Tell me what you want done and I\u2019ll do it directly (analysis, generate text, write/run code snippets you can run locally, calculations, data transformation, etc.).\n- I can simulate what \"nonexistent_tool\" would do if you describe its expected inputs/behavior, and return a mock output.\n- I can give step-by-step instructions or code to create/install a real tool or script that performs the task.\n\nTell me the task and which option you want (or describe the tool\u2019s expected behavior) and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

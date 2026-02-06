@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 21713.372809773, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "ca7e2b68-9213-463a-babf-f2675ed54bc0", "role": "assistant", "_timestamp": 21713.373809773002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca7e2b68-9213-463a-babf-f2675ed54bc0", "delta": "Answer: x = 7.\n\nWork (concise): Start with x + 5 = 12. Subtract 5 from both sides: x = 12 \u2212 5 = 7. Check: 7 + 5 = 12.", "_timestamp": 21713.374809773002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "ca7e2b68-9213-463a-babf-f2675ed54bc0", "_timestamp": 21713.375809773002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 21713.376809773003, "_offset_ms": 4.0, "_index": 4}

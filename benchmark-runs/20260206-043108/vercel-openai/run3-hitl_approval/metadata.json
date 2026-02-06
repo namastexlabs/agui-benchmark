@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10141.76958400003,
+    "time_to_first_event_ms": 2001.898249000078,
+    "time_to_first_content_ms": 10142.241869999907,
+    "time_to_complete_ms": 10141.76958400003
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 897,
+    "tokens_approx": 224,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we continue, a few quick things so I can help safely:\n\n1. What exactly do you want to delete? (service/device/database/files \u2014 include paths, table names, or filenames)\n2. Where is it located? (local machine, cloud provider, specific account or server)\n3. Have you backed up the data or are you sure you don\u2019t need a backup? Deletion may be irreversible.\n4. Do you want me to:\n   - Show a preview/list of items that will be deleted first, or\n   - Proceed with deletion once you confirm?\n\nIf you want me to proceed after I show the preview, please give explicit approval by typing one of these exact phrases:\n- \u201cYES \u2014 permanently delete the listed data\u201d\nor\n- \u201cCONFIRM DELETE NOW\u201d\n\nTell me the answers to 1\u20133 and which option you prefer (preview or proceed). I\u2019ll wait for your explicit confirmation before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 206,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 897,
+    "total_chunks": 202,
+    "duration_ms": 201.0,
+    "throughput_chars_per_sec": 4462.686567164179,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

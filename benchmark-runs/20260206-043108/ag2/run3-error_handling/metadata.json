@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8846.545320000132,
+    "time_to_first_event_ms": 2540.9773689998474,
+    "time_to_first_content_ms": 8846.577473999787,
+    "time_to_complete_ms": 8846.545320000132
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 927,
+    "tokens_approx": 231,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool.\" I can\u2019t call tools that aren\u2019t available, but I can help in other ways. Which would you prefer?\n\nOptions:\n1. Tell me exactly what you want done and I\u2019ll do it directly (summarize, analyze, generate code, run calculations, draft messages, etc.).\n2. I can simulate how \"nonexistent_tool\" would be used: show example commands, expected output, and a mock run.\n3. Recommend and show how to use a real tool or library that accomplishes the same task (with commands or sample code).\n\nIf you want a simulation, here\u2019s a short example (replace <args> with real values):\n\n- Mock command:\n  nonexistent_tool process --input data.csv --mode analyze\n- Mock output:\n  Processing data.csv...\n  Rows: 12,345 Columns: 8\n  Top issues: missing_values=3, outliers=2\n  Analysis complete \u2014 summary written to data_summary.txt\n\nTell me which option you want and what specific task to perform."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

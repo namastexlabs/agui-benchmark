@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4002.1299879999788,
+    "time_to_first_event_ms": 326.9598799997766,
+    "time_to_first_content_ms": 4004.8486929999854,
+    "time_to_complete_ms": 4002.1299879999788
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 856,
+    "tokens_approx": 214,
+    "final_text": "I appreciate you being upfront about this! However, I should clarify the process: **I need to request *your* approval before *I* proceed**, not the other way around.\n\nLet me do that now:I've submitted a request for approval to proceed with deleting the important data. Please confirm that you want to go ahead with this action, as it's a significant operation that could have consequences. \n\nCould you provide more details about what specific data needs to be deleted? This will help ensure we're handling this correctly.I've submitted a request for approval to proceed with deleting the important data. Please confirm that you want to go ahead with this action, as it's a significant operation that could have consequences. \n\nCould you provide more details about what specific data needs to be deleted? This will help ensure we're handling this correctly."
+  },
+  "tokens": {
+    "input_tokens": 965,
+    "output_tokens": 68,
+    "total_tokens": 1033
+  },
+  "events": {
+    "total_events": 169,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 521,
+    "total_chunks": 50,
+    "duration_ms": 147.0,
+    "throughput_chars_per_sec": 3544.21768707483,
+    "avg_gap_ms": 3.0,
+    "p95_gap_ms": 2.5,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8618.079192998266,
+    "time_to_first_event_ms": 900.1062149982317,
+    "time_to_first_content_ms": 8622.563315999287,
+    "time_to_complete_ms": 8618.079192998266
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1438,
+    "tokens_approx": 359,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. Available tools I can use here are:\n- functions.get_current_time \u2014 get the current date/time\n- functions.calculator \u2014 evaluate math expressions\n- functions.request_approval \u2014 request human approval for an action\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to do and which of the available tools to use (or give the correct tool name). Examples:\n- \u201cGet the current time\u201d\n- \u201cCalculate 12345 * 678\u201d\n- \u201cRequest approval to delete file X for reason Y\u201d\n- \u201cRun the calculator and get current time in parallel\u201d\n\nIf you intended a different tool, tell me its correct name or describe the action you want and I\u2019ll proceed.I don\u2019t have a tool named \"nonexistent_tool\" available. Available tools I can use here are:\n- functions.get_current_time \u2014 get the current date/time\n- functions.calculator \u2014 evaluate math expressions\n- functions.request_approval \u2014 request human approval for an action\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to do and which of the available tools to use (or give the correct tool name). Examples:\n- \u201cGet the current time\u201d\n- \u201cCalculate 12345 * 678\u201d\n- \u201cRequest approval to delete file X for reason Y\u201d\n- \u201cRun the calculator and get current time in parallel\u201d\n\nIf you intended a different tool, tell me its correct name or describe the action you want and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 297,
+    "total_tokens": 570
+  },
+  "events": {
+    "total_events": 344,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 719,
+    "total_chunks": 160,
+    "duration_ms": 319.0,
+    "throughput_chars_per_sec": 2253.9184952978057,
+    "avg_gap_ms": 2.006289308176101,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5066.302901002928,
+    "time_to_first_event_ms": 4648.376490000373,
+    "time_to_first_content_ms": 5066.3525970012415,
+    "time_to_complete_ms": 5066.302901002928
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 290,
+    "tokens_approx": 72,
+    "final_text": "To calculate 42 * 17 using a calculator tool, I will simulate the calculation.\n\n42 * 17 = ?\n\nFirst, I will multiply 42 by 10:\n42 * 10 = 420\n\nNext, I will multiply 42 by 7:\n42 * 7 = 294\n\nNow, I will add these two results together:\n420 + 294 = 714\n\nSo, the result of 42 * 17 is:\n42 * 17 = 714"
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 100,
+    "total_tokens": 151
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 290,
+    "total_chunks": 9,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 36250.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

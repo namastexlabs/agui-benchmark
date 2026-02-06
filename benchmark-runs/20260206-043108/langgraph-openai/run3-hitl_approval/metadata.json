@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5411.346159999994,
+    "time_to_first_event_ms": 764.4485069999973,
+    "time_to_first_content_ms": 5414.422151000053,
+    "time_to_complete_ms": 5411.346159999994
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 788,
+    "tokens_approx": 197,
+    "final_text": "I can help with that, but I need your explicit approval before I proceed.\n\nPlease confirm:\n1) Exactly which data should be deleted (specify files, folders, database entries, or describe scope).\n2) If there are backups and whether you want them deleted too.\n3) Confirm you understand this action may be irreversible.\n\nReply with \"I approve\" and the details above to proceed, or \"Cancel\" to stop.I can help with that, but I need your explicit approval before I proceed.\n\nPlease confirm:\n1) Exactly which data should be deleted (specify files, folders, database entries, or describe scope).\n2) If there are backups and whether you want them deleted too.\n3) Confirm you understand this action may be irreversible.\n\nReply with \"I approve\" and the details above to proceed, or \"Cancel\" to stop."
+  },
+  "tokens": {
+    "input_tokens": 388,
+    "output_tokens": 185,
+    "total_tokens": 477
+  },
+  "events": {
+    "total_events": 299,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 394,
+    "total_chunks": 86,
+    "duration_ms": 171.0,
+    "throughput_chars_per_sec": 2304.093567251462,
+    "avg_gap_ms": 2.011764705882353,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

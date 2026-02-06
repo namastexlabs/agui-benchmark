@@ -1,0 +1,37 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-artifact", "_timestamp": 21713.340495039, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770383704505", "role": "assistant", "_timestamp": 21713.341495039, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "Here", "_timestamp": 21713.342495039, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "'s a simple Python function that adds two", "_timestamp": 21713.343495039, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " numbers:\n\n```", "_timestamp": 21713.344495039, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "python\ndef add(", "_timestamp": 21713.345495039, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "a, b):\n    \"\"\"Ad", "_timestamp": 21713.346495039, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "d two numbers an", "_timestamp": 21713.347495039, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "d return the result.\"\"\"", "_timestamp": 21713.348495039, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\n    return a + b\n\n#", "_timestamp": 21713.349495038998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " Example usage:", "_timestamp": 21713.350495038998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\nresult = add(5, ", "_timestamp": 21713.351495038998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "3)\nprint(result", "_timestamp": 21713.352495039, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": ")  # Output: 8", "_timestamp": 21713.353495039, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\n```\n\nThis function:", "_timestamp": 21713.354495039, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\n- Takes two parameters `a`", "_timestamp": 21713.355495039, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " and `b`", "_timestamp": 21713.356495039, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\n- Returns their sum\n-", "_timestamp": 21713.357495039, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " Includes", "_timestamp": 21713.358495039, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " a docstring explaining", "_timestamp": 21713.359495039, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " what it", "_timestamp": 21713.360495039, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " does", "_timestamp": 21713.361495039, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "\n- Has", "_timestamp": 21713.362495039, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " an", "_timestamp": 21713.363495039, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " example showing how to use it\n\nYou", "_timestamp": 21713.364495039, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " can call", "_timestamp": 21713.365495039, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " it with", "_timestamp": 21713.366495039, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " any numbers", "_timestamp": 21713.367495038998, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": ":", "_timestamp": 21713.368495038998, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " `add(10, 20)", "_timestamp": 21713.369495038998, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "`,", "_timestamp": 21713.370495039, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": " `add(3.5, ", "_timestamp": 21713.371495039, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": "2.1", "_timestamp": 21713.372495039, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": ")`, etc", "_timestamp": 21713.373495039, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383704505", "delta": ".", "_timestamp": 21713.374495039, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770383704505", "_timestamp": 21713.375495039, "_offset_ms": 35.0, "_index": 35}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-artifact", "_timestamp": 21713.376495039, "_offset_ms": 36.0, "_index": 36}

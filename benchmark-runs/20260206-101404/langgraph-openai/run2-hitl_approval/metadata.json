@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14398.163056001067,
+    "time_to_first_event_ms": 899.4182040005398,
+    "time_to_first_content_ms": 14422.615961000702,
+    "time_to_complete_ms": 14398.163056001067
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1138,
+    "tokens_approx": 284,
+    "final_text": "I\u2019m ready to help delete the important data, but I need your explicit approval first.\n\nPlease confirm all of the following before I proceed:\n1. You authorize deletion of the specified important data now. (Reply: \u201cI approve\u201d.)\n2. Precisely which dataset, file(s), or storage location should be deleted? Provide full paths or identifiers.\n3. Are there any backups that should be preserved? If so, specify them.\n4. Do you understand this action may be irreversible? (Reply: \u201cI understand\u201d.)\n\nOnce you reply with explicit approval and the information above, I will proceed.I\u2019m ready to help delete the important data, but I need your explicit approval first.\n\nPlease confirm all of the following before I proceed:\n1. You authorize deletion of the specified important data now. (Reply: \u201cI approve\u201d.)\n2. Precisely which dataset, file(s), or storage location should be deleted? Provide full paths or identifiers.\n3. Are there any backups that should be preserved? If so, specify them.\n4. Do you understand this action may be irreversible? (Reply: \u201cI understand\u201d.)\n\nOnce you reply with explicit approval and the information above, I will proceed."
+  },
+  "tokens": {
+    "input_tokens": 369,
+    "output_tokens": 304,
+    "total_tokens": 582
+  },
+  "events": {
+    "total_events": 352,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 569,
+    "total_chunks": 122,
+    "duration_ms": 242.0,
+    "throughput_chars_per_sec": 2351.2396694214876,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

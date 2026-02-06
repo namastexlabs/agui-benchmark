@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_time", "model": "llama-3.1-8b", "_timestamp": 2153.160376766, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363200", "role": "assistant", "_timestamp": 2153.161376766, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "I", "_timestamp": 2153.162376766, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363200", "delta": "'m not currently able to share the time.", "_timestamp": 2153.163376766, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363200", "_timestamp": 2153.164376766, "_offset_ms": 4.0, "_index": 4}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 11, "total_tokens": 59, "model": "llama-3.1-8b", "_timestamp": 2153.165376766, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_time", "_timestamp": 2153.1663767659998, "_offset_ms": 6.0, "_index": 6}

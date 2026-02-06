@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 17202.996116000577,
+    "time_to_first_event_ms": 3001.3094899986754,
+    "time_to_first_content_ms": 17203.371972998866,
+    "time_to_complete_ms": 17202.996116000577
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 717,
+    "tokens_approx": 179,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I proceed, please confirm and provide a few details:\n\n1. What exactly do you want deleted? (files, databases, accounts, folders \u2014 include paths or names)\n2. Where is it located? (local machine, cloud provider + service, external drive, etc.)\n3. Do you have a backup, and do you want me to create one or skip backup?\n4. Should this be permanent deletion (irreversible) or move to Trash/Archive first?\n5. Any time window or constraints for doing this?\n\nIf you understand the risks and want me to proceed, type this exact confirmation phrase: CONFIRM DELETE \u2014 then I\u2019ll continue with step-by-step instructions or the next action you authorize."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 160,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 717,
+    "total_chunks": 156,
+    "duration_ms": 155.0,
+    "throughput_chars_per_sec": 4625.806451612903,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

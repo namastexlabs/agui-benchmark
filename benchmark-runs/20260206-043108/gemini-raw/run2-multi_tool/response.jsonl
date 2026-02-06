@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-multi_tool", "_timestamp": 2153.124017962, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "fd183878-9b18-4aa5-8f44-23d091c4f6f2", "toolCallName": "get_current_time", "_timestamp": 2153.125017962, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "fd183878-9b18-4aa5-8f44-23d091c4f6f2", "delta": "{}", "_timestamp": 2153.126017962, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "fd183878-9b18-4aa5-8f44-23d091c4f6f2", "_timestamp": 2153.127017962, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "fd183878-9b18-4aa5-8f44-23d091c4f6f2", "result": "2026-02-06 04:33:34", "_timestamp": 2153.128017962, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "4467de88-0f12-4ba3-86da-32f9599410a0", "role": "assistant", "_timestamp": 2153.129017962, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4467de88-0f12-4ba3-86da-32f9599410a0", "delta": "The current time is", "_timestamp": 2153.130017962, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4467de88-0f12-4ba3-86da-32f9599410a0", "delta": " 04:33:34 on February 6, 202", "_timestamp": 2153.131017962, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4467de88-0f12-4ba3-86da-32f9599410a0", "delta": "6.\n", "_timestamp": 2153.1320179619997, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_ERROR", "message": "Could not convert `part.function_call` to text.", "code": "GEMINI_ERROR", "_timestamp": 2153.133017962, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-multi_tool", "_timestamp": 2153.134017962, "_offset_ms": 10.0, "_index": 10}

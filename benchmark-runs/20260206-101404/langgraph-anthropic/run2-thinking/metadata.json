@@ -1,0 +1,55 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3966.1826679985097,
+    "time_to_first_event_ms": 389.43728799858945,
+    "time_to_first_content_ms": 3968.1059200011077,
+    "time_to_complete_ms": 3966.1826679985097
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 937,
+    "tokens_approx": 234,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate x**\nTo find x, I need to get x by itself on one side of the equation. I can do this by subtracting 5 from both sides:\n- x + 5 - 5 = 12 - 5\n- x = 12 - 5\n\n**Step 3: Calculate the result****Answer: x = 7**\n\n**Verification:** Let's check our answer by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\nThe reasoning is simple: to solve for x when it's being added to a number, we subtract that number from both sides of the equation. This maintains the equality while isolating the variable.**Answer: x = 7**\n\n**Verification:** Let's check our answer by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\nThe reasoning is simple: to solve for x when it's being added to a number, we subtract that number from both sides of the equation. This maintains the equality while isolating the variable."
+  },
+  "tokens": {
+    "input_tokens": 1005,
+    "output_tokens": 91,
+    "total_tokens": 1096
+  },
+  "events": {
+    "total_events": 163,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_RESULT"
+    ]
+  },
+  "streaming": {
+    "total_chars": 617,
+    "total_chunks": 55,
+    "duration_ms": 141.0,
+    "throughput_chars_per_sec": 4375.886524822695,
+    "avg_gap_ms": 2.611111111111111,
+    "p95_gap_ms": 2.5,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

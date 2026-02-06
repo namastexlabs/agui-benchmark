@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6649.010517001443,
+    "time_to_first_event_ms": 285.1977630016336,
+    "time_to_first_content_ms": 6649.243173000286,
+    "time_to_complete_ms": 6649.010517001443
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 384,
+    "tokens_approx": 96,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool.\" I can\u2019t call tools that aren\u2019t available.\n\nTell me what you want to accomplish and I can likely help with one of the tools I do have:\n- Get the current time (I can fetch it).\n- Do a math calculation (give me the expression).\n- Request human approval for a sensitive action (describe the action and reason).\n\nWhat would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 92,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 384,
+    "total_chunks": 88,
+    "duration_ms": 87.0,
+    "throughput_chars_per_sec": 4413.793103448275,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

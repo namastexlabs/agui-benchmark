@@ -1,0 +1,76 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2019.1627449999032,
+    "time_to_first_event_ms": 210.53773899984662,
+    "time_to_first_content_ms": 2019.2288959997313,
+    "time_to_complete_ms": 2019.1627449999032
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 16.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_0127vPtZKVjBGwHmy47A6mAW",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 10.0,
+        "duration_ms": 9.0,
+        "execution_time_ms": 7.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "toolu_01GQmUTg1oC5z6Qp9iqpkuLZ",
+        "name": "calculator",
+        "start_ms": 4.0,
+        "end_ms": 9.0,
+        "result_ms": 11.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 2.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 103,
+    "tokens_approx": 25,
+    "final_text": "Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 04:34:08\n- **Calculation:** 10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 103,
+    "total_chunks": 8,
+    "duration_ms": 7.0,
+    "throughput_chars_per_sec": 14714.285714285714,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

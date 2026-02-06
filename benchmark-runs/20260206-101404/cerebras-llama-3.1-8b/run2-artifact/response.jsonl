@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b", "_timestamp": 21713.475215142, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383707", "role": "assistant", "_timestamp": 21713.476215142, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "**", "_timestamp": 21713.477215142, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "Adding Two Numbers Function**\n================================\n\nHere's a simple Python function that", "_timestamp": 21713.478215142, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " takes two numbers as input and returns their sum:\n\n", "_timestamp": 21713.479215142, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "```python\ndef add_numbers(a: float, b:", "_timestamp": 21713.480215142, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " float) -> float:\n    \"\"\"\n    Returns the sum of two", "_timestamp": 21713.481215142, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " numbers.\n\n    Args:\n        a (", "_timestamp": 21713.482215142, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "float): The first number.\n        b (float): The second number.\n\n    Returns", "_timestamp": 21713.483215142, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": ":\n        float: The sum of a and b.\n   ", "_timestamp": 21713.484215141998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " \"\"\"\n    return a + b\n```\n\n**", "_timestamp": 21713.485215142, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "Example Usage**\n---------------\n\n```python\n# Add 5 and 7", "_timestamp": 21713.486215142, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "\nresult = add_numbers(5, 7)\nprint(result", "_timestamp": 21713.487215142, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": ")  # Output: 12\n\n# Add -3", "_timestamp": 21713.488215142, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " and 2\nresult = add_numbers(-3, 2", "_timestamp": 21713.489215142, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": ")\nprint(result)  # Output: -1\n``", "_timestamp": 21713.490215142, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "`\n\nThis function uses type hints to indicate that it expects two floating", "_timestamp": 21713.491215142, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": "-point numbers as input and returns a floating-point number as output", "_timestamp": 21713.492215142, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": ". You can use this function in your Python code to add", "_timestamp": 21713.493215142, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383707", "delta": " two numbers together.", "_timestamp": 21713.494215142, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383707", "_timestamp": 21713.495215142, "_offset_ms": 20.0, "_index": 20}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 204, "total_tokens": 254, "model": "llama-3.1-8b", "_timestamp": 21713.496215142, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "_timestamp": 21713.497215142, "_offset_ms": 22.0, "_index": 22}

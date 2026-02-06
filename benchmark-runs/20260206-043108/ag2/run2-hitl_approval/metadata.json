@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11549.091037999915,
+    "time_to_first_event_ms": 2630.606788000023,
+    "time_to_first_content_ms": 11549.139779999678,
+    "time_to_complete_ms": 11549.091037999915
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 834,
+    "tokens_approx": 208,
+    "final_text": "Understood \u2014 I will ask for your approval before doing anything. A few quick questions so I can give safe, accurate instructions:\n\n1. What exactly do you want to delete (files, folders, a database, cloud storage, user account, etc.)?  \n2. Where is it stored (Windows, macOS, Linux, AWS/GCP/Azure, Dropbox/Google Drive, etc.)?  \n3. Do you have a backup you can restore from if needed?  \n4. Should deletion be permanent/secure (overwrite) or just remove access?  \n5. Do you confirm you own this data and are authorized to delete it?\n\nIf you understand the risks and want me to proceed, please type one of these exact confirmations:  \n- YES \u2014 delete and provide instructions  \n- YES SECURE \u2014 delete and securely overwrite  \n- NO \u2014 do not proceed\n\nI\u2019ll wait for your confirmation and the answers above before giving any destructive steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

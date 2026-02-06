@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 19340.56923800017,
+    "time_to_first_event_ms": 2594.1551420000906,
+    "time_to_first_content_ms": 19341.18486299849,
+    "time_to_complete_ms": 19340.56923800017
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 991,
+    "tokens_approx": 247,
+    "final_text": "Understood \u2014 I won\u2019t delete anything until you explicitly approve. Before I proceed, I need a few details and a clear confirmation from you.\n\nPlease provide:\n- Exactly what data to delete (file names, folders, database/tables, accounts, or service and path).\n- Where it\u2019s stored (local machine, cloud service + account, server, device).\n- Whether you want permanent deletion or just archiving/soft-delete.\n- Whether you have a backup or want me to create/advise one first.\n- Any deadline or time window for the deletion.\n\nWarning: deletion may be irreversible and could cause data loss or service disruption. I recommend backing up before deleting.\n\nIf you still want me to proceed, please confirm by replying with this exact phrase (so I know you approve): \n\"I approve permanent deletion of [brief description of the data].\"\n\nReplace [brief description of the data] with what you want deleted. I will only act after receiving that exact confirmation and after we agree on the details above."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 209,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

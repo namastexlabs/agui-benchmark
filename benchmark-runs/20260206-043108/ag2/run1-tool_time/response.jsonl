@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 2031.05176508, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "05eea84c-baa7-47d2-8fc5-66eadf466b0c", "role": "assistant", "_timestamp": 2031.05276508, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "05eea84c-baa7-47d2-8fc5-66eadf466b0c", "delta": "Sorry \u2014 I don\u2019t have access to the time tool in this chat. I can still tell you the current time if you tell me which timezone (or say \u201cUTC\u201d), or I can give a small command/snippet you can run locally to check. Which would you prefer?", "_timestamp": 2031.05376508, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "05eea84c-baa7-47d2-8fc5-66eadf466b0c", "_timestamp": 2031.05476508, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 2031.05576508, "_offset_ms": 4.0, "_index": 4}

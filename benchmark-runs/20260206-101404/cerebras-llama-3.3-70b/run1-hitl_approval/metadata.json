@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 976.2135340024543,
+    "time_to_first_event_ms": 290.1645689998986,
+    "time_to_first_content_ms": 976.2995330020203,
+    "time_to_complete_ms": 976.2135340024543
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 833,
+    "tokens_approx": 208,
+    "final_text": "Before we proceed with deleting any data, I want to confirm that you are aware of the potential consequences of deleting important data. Once data is deleted, it may be irretrievable.\n\nTo ensure that I have your explicit approval, can you please confirm the following:\n\n1. You have identified the specific data that you want to delete.\n2. You understand that deleting this data may have significant consequences, such as loss of important information or potential impact on related systems or processes.\n3. You have verified that you have the necessary permissions and authority to delete this data.\n\nIf you are still sure that you want to proceed with deleting the data, please provide your explicit approval by typing \"I approve\" or a similar statement. I will not proceed with deleting any data without your explicit confirmation."
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 158,
+    "total_tokens": 209
+  },
+  "events": {
+    "total_events": 31,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 833,
+    "total_chunks": 26,
+    "duration_ms": 25.0,
+    "throughput_chars_per_sec": 33320.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

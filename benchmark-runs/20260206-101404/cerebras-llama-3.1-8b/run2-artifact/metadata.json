@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4972.811596999236,
+    "time_to_first_event_ms": 4574.7963760004495,
+    "time_to_first_content_ms": 4972.881757999858,
+    "time_to_complete_ms": 4972.811596999236
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 825,
+    "tokens_approx": 206,
+    "final_text": "**Adding Two Numbers Function**\n================================\n\nHere's a simple Python function that takes two numbers as input and returns their sum:\n\n```python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    Returns the sum of two numbers.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\n**Example Usage**\n---------------\n\n```python\n# Add 5 and 7\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12\n\n# Add -3 and 2\nresult = add_numbers(-3, 2)\nprint(result)  # Output: -1\n```\n\nThis function uses type hints to indicate that it expects two floating-point numbers as input and returns a floating-point number as output. You can use this function in your Python code to add two numbers together."
+  },
+  "tokens": {
+    "input_tokens": 50,
+    "output_tokens": 204,
+    "total_tokens": 254
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 825,
+    "total_chunks": 18,
+    "duration_ms": 17.0,
+    "throughput_chars_per_sec": 48529.41176470588,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

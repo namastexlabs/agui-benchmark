@@ -1,0 +1,77 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11312.143025000069,
+    "time_to_first_event_ms": 11311.601064999877,
+    "time_to_first_content_ms": 11312.239175000059,
+    "time_to_complete_ms": 11312.143025000069
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 11.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01RHbtnUdH2Mx8JvQ9qBQjqa",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "2026-02-06 04:31:20"
+      },
+      {
+        "tool_call_id": "toolu_01X5nPiLmDjKTyEvxzekQYpP",
+        "name": "calculator",
+        "start_ms": 5.0,
+        "end_ms": 12.0,
+        "result_ms": 13.0,
+        "duration_ms": 8.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "10 + 20 = 30"
+      }
+    ]
+  },
+  "response": {
+    "chars": 104,
+    "tokens_approx": 26,
+    "final_text": "Done! Here are the results:\n\n- **Current time:** 2026-02-06 04:31:20\n- **Calculation:** 10 + 20 = **30**"
+  },
+  "tokens": {
+    "input_tokens": 681,
+    "output_tokens": 77,
+    "total_tokens": 758
+  },
+  "events": {
+    "total_events": 27,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 104,
+    "total_chunks": 9,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 13000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

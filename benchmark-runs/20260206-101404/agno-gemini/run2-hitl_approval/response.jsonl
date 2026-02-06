@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-hitl_approval", "_timestamp": 21713.320176511, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "e72ec565-09ed-469b-b5f2-8a1cbe14fbd5", "role": "assistant", "_timestamp": 21713.321176511, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "e72ec565-09ed-469b-b5f2-8a1cbe14fbd5", "_timestamp": 21713.322176511, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "17c6ad5c-9cfd-4926-97ef-d076354ccabe", "toolCallName": "request_approval", "parentMessageId": "e72ec565-09ed-469b-b5f2-8a1cbe14fbd5", "_timestamp": 21713.323176511, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "17c6ad5c-9cfd-4926-97ef-d076354ccabe", "delta": "{\"action\": \"delete important data\"}", "_timestamp": 21713.324176511, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "17c6ad5c-9cfd-4926-97ef-d076354ccabe", "_timestamp": 21713.325176511, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "ae8add99-49f2-4af7-8fce-0859393845bd", "toolCallId": "17c6ad5c-9cfd-4926-97ef-d076354ccabe", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval", "role": "tool", "_timestamp": 21713.326176511, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "6ac37e32-982c-466a-a740-d8d9d6dedaf0", "role": "assistant", "_timestamp": 21713.327176511, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "6ac37e32-982c-466a-a740-d8d9d6dedaf0", "delta": "I have submitted", "_timestamp": 21713.328176511, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "6ac37e32-982c-466a-a740-d8d9d6dedaf0", "delta": " a request for approval to delete important data. I will proceed once it's approved.", "_timestamp": 21713.329176510997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_END", "messageId": "6ac37e32-982c-466a-a740-d8d9d6dedaf0", "_timestamp": 21713.330176510997, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-hitl_approval", "_timestamp": 21713.331176510997, "_offset_ms": 11.0, "_index": 11}

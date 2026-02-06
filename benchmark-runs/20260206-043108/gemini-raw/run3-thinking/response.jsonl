@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 2200.447186763, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "a2f35a52-84c5-40cf-b91f-a27b5f0de0e6", "role": "assistant", "_timestamp": 2200.448186763, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a2f35a52-84c5-40cf-b91f-a27b5f0de0e6", "delta": "To find the value of x, we need to isolate x in the equation x + 5 = 12.\nWe can do this", "_timestamp": 2200.449186763, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a2f35a52-84c5-40cf-b91f-a27b5f0de0e6", "delta": " by subtracting 5 from both sides of the equation:\n\nx = 12 - 5\n\n", "_timestamp": 2200.450186763, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_START", "toolCallId": "f3797d5d-c399-4f83-bf56-7bf7f1fd0472", "toolCallName": "calculator", "_timestamp": 2200.451186763, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "f3797d5d-c399-4f83-bf56-7bf7f1fd0472", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 2200.452186763, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_END", "toolCallId": "f3797d5d-c399-4f83-bf56-7bf7f1fd0472", "_timestamp": 2200.453186763, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "f3797d5d-c399-4f83-bf56-7bf7f1fd0472", "result": "12 - 5 = 7", "_timestamp": 2200.454186763, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "message_id": "a2f35a52-84c5-40cf-b91f-a27b5f0de0e6", "_timestamp": 2200.455186763, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 130, "output_tokens": 66, "total_tokens": 282, "model": "gemini-2.5-flash", "_timestamp": 2200.456186763, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 2200.457186763, "_offset_ms": 10.0, "_index": 10}

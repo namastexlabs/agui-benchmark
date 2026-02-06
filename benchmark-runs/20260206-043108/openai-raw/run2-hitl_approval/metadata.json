@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 35736.346631999826,
+    "time_to_first_event_ms": 35734.69865300012,
+    "time_to_first_content_ms": 35736.881134000214,
+    "time_to_complete_ms": 35736.346631999826
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1048,
+    "tokens_approx": 262,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything.\n\nBefore I proceed, I need a few details and an explicit confirmation from you.\n\n1) Quick details\n- What exactly do you want deleted? (files, database rows, cloud storage, email, device)\n- Where is it located? (path, server, service, account)\n- Do you have a backup or snapshot? If not, do you want instructions to make one first?\n- Should the deletion be permanent (irrecoverable) or move to Trash/Archive first?\n- Any legal/ethical or compliance concerns I should know about?\n\n2) Risks (brief)\n- Deletion may be irreversible and could cause data loss, service outages, or legal issues. Make a backup if you might need recovery.\n\n3) How to confirm\nIf you want me to proceed after I provide steps, type one of these exact confirmation phrases:\n- For permanent deletion: DELETE PERMANENTLY\n- For move to Trash/Archive only: MOVE TO TRASH\n\nI will not proceed until you reply with one of those exact phrases. What do you want deleted, and which confirmation phrase will you use?"
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 629,
+    "total_tokens": 840
+  },
+  "events": {
+    "total_events": 241,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1048,
+    "total_chunks": 236,
+    "duration_ms": 235.0,
+    "throughput_chars_per_sec": 4459.574468085107,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

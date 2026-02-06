@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4077.5789330000407,
+    "time_to_first_event_ms": 900.5106500007969,
+    "time_to_first_content_ms": 4078.9629350001633,
+    "time_to_complete_ms": 4077.5789330000407
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 889,
+    "tokens_approx": 222,
+    "final_text": "I need to clarify something here. You're asking me to delete important data, but I should actually be requesting **your** approval before proceeding with such an action\u2014not the other way around!\n\nLet me request your approval:I've submitted a request for approval to delete the important data. Before this action can proceed, I need confirmation from you (or an authorized person) to approve it. \n\nCould you confirm that you want to proceed with deleting this important data? It's important to be absolutely certain since this action cannot be easily undone.I've submitted a request for approval to delete the important data. Before this action can proceed, I need confirmation from you (or an authorized person) to approve it. \n\nCould you confirm that you want to proceed with deleting this important data? It's important to be absolutely certain since this action cannot be easily undone."
+  },
+  "tokens": {
+    "input_tokens": 965,
+    "output_tokens": 70,
+    "total_tokens": 1035
+  },
+  "events": {
+    "total_events": 184,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 557,
+    "total_chunks": 54,
+    "duration_ms": 162.0,
+    "throughput_chars_per_sec": 3438.2716049382716,
+    "avg_gap_ms": 3.056603773584906,
+    "p95_gap_ms": 2.3,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

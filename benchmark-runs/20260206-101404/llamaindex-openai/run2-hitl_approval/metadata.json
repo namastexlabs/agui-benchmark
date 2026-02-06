@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15136.962309999944,
+    "time_to_first_event_ms": 322.37219300077413,
+    "time_to_first_content_ms": 15137.463784001739,
+    "time_to_complete_ms": 15136.962309999944
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 747,
+    "tokens_approx": 186,
+    "final_text": "I can help \u2014 but I won\u2019t delete anything until you explicitly approve. Before I proceed, please confirm and provide a few details:\n\n1. What exactly should be deleted? (file names/paths, databases, accounts, or systems)\n2. Where is the data stored? (local machine, cloud provider and region, server name)\n3. Do you have backups or a recovery plan? Deletion may be irreversible.\n4. Do you want permanent deletion (irreversible) or a soft/delete-to-trash first?\n5. Are you authorized to delete this data?\n\nOnce you reply with those details, type one of these exact confirmation phrases to authorize deletion:\n- I APPROVE PERMANENT DELETE\nor\n- I APPROVE SOFT DELETE\n\nI will not take any deletion action until you send one of those exact confirmations."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 171,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

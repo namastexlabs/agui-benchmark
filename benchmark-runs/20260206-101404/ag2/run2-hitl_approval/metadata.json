@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15192.771690999507,
+    "time_to_first_event_ms": 2627.205969001807,
+    "time_to_first_content_ms": 15192.802279998432,
+    "time_to_complete_ms": 15192.771690999507
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 956,
+    "tokens_approx": 239,
+    "final_text": "Understood \u2014 I will not delete anything until I have your explicit approval.\n\nBefore you approve, I need a few details so you know exactly what will be deleted and the consequences. Please provide:\n- What exactly to delete (file names/paths, database/table names, cloud bucket and object keys, or system identifiers).\n- Where it is (machine/hostname, cloud provider & region, account or project).\n- Whether you want a soft delete (recoverable) or permanent deletion (irreversible).\n- Whether a backup exists (and where) or whether you want me to make one first.\n- Any timing constraints (do it now or at a scheduled time).\n- Any legal/compliance or multi-user approvals required.\n\nIf you confirm, type an explicit approval phrase so I can proceed safely. For example:\n- \u201cI approve deletion of the data described above\u201d (to proceed), or\n- \u201cDo not delete\u201d (to cancel).\n\nI will wait for your details and that explicit approval phrase before taking any action."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}
