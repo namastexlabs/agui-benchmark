@@ -11,10 +11,15 @@ Agno has native AG-UI support via the AGUI() interface.
 """
 
 import os
+import logging
 from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 from agno.agent.agent import Agent
 from agno.models.anthropic import Claude
@@ -106,27 +111,44 @@ gemini_agent = Agent(
 )
 
 # Create the Cerebras agent (Llama 3.3 70B via OpenAI-compatible API)
-cerebras_agent = Agent(
-    model=OpenAIChat(
-        id="llama-3.3-70b",
-        api_key=os.getenv("CEREBRAS_API_KEY"),
-        base_url="https://api.cerebras.ai/v1"
-    ),
-    tools=COMMON_TOOLS,
-    instructions=COMMON_INSTRUCTIONS,
-    name="agno-cerebras",
-    description="Agno agent with Cerebras Llama 3.3 70B (OpenAI-compatible)",
-)
+cerebras_api_key = os.getenv("CEREBRAS_API_KEY")
+cerebras_agent = None
+agui_interfaces = [
+    AGUI(agent=anthropic_agent, prefix="/agui/anthropic"),
+    AGUI(agent=openai_agent, prefix="/agui/openai"),
+    AGUI(agent=gemini_agent, prefix="/agui/gemini"),
+]
+
+if cerebras_api_key:
+    try:
+        logger.info("Initializing Cerebras agent with API key...")
+        cerebras_agent = Agent(
+            model=OpenAIChat(
+                id="llama-3.3-70b",
+                api_key=cerebras_api_key,
+                base_url="https://api.cerebras.ai/v1"
+            ),
+            tools=COMMON_TOOLS,
+            instructions=COMMON_INSTRUCTIONS,
+            name="agno-cerebras",
+            description="Agno agent with Cerebras Llama 3.3 70B (OpenAI-compatible)",
+        )
+        logger.info("✅ Cerebras agent initialized successfully")
+        agui_interfaces.append(AGUI(agent=cerebras_agent, prefix="/agui/cerebras"))
+    except Exception as e:
+        logger.error(f"❌ Failed to initialize Cerebras agent: {str(e)}")
+        cerebras_agent = None
+else:
+    logger.warning("⚠️  CEREBRAS_API_KEY not set, skipping Cerebras agent")
 
 # Create AgentOS with multiple AGUI interfaces at different prefixes
+agents_list = [anthropic_agent, openai_agent, gemini_agent]
+if cerebras_agent:
+    agents_list.append(cerebras_agent)
+
 agent_os = AgentOS(
-    agents=[anthropic_agent, openai_agent, gemini_agent, cerebras_agent],
-    interfaces=[
-        AGUI(agent=anthropic_agent, prefix="/agui/anthropic"),
-        AGUI(agent=openai_agent, prefix="/agui/openai"),
-        AGUI(agent=gemini_agent, prefix="/agui/gemini"),
-        AGUI(agent=cerebras_agent, prefix="/agui/cerebras"),
-    ]
+    agents=agents_list,
+    interfaces=agui_interfaces
 )
 
 # Get the FastAPI app
@@ -136,47 +158,65 @@ app = agent_os.get_app()
 # Add a health endpoint for testing
 @app.get("/health")
 async def health():
+    providers = ["anthropic", "openai", "gemini"]
+    endpoints = {
+        "anthropic": "/agui/anthropic",
+        "openai": "/agui/openai",
+        "gemini": "/agui/gemini",
+    }
+    models = {
+        "anthropic": "claude-haiku-4-5-20251001",
+        "openai": "gpt-5-mini",
+        "gemini": "gemini-2.5-flash",
+    }
+
+    if cerebras_agent:
+        providers.append("cerebras")
+        endpoints["cerebras"] = "/agui/cerebras"
+        models["cerebras"] = "llama-3.3-70b"
+
     return {
         "status": "healthy",
         "framework": "agno",
         "port": 7771,
-        "providers": ["anthropic", "openai", "gemini", "cerebras"],
-        "agui_endpoints": {
-            "anthropic": "/agui/anthropic",
-            "openai": "/agui/openai",
-            "gemini": "/agui/gemini",
-            "cerebras": "/agui/cerebras",
-        },
-        "models": {
-            "anthropic": "claude-haiku-4-5-20251001",
-            "openai": "gpt-5-mini",
-            "gemini": "gemini-2.5-flash",
-            "cerebras": "llama-3.3-70b",
-        }
+        "providers": providers,
+        "agui_endpoints": endpoints,
+        "models": models,
+        "cerebras_enabled": cerebras_agent is not None,
     }
 
 
 @app.get("/")
 async def root():
+    providers = ["anthropic", "openai", "gemini"]
+    endpoints = {
+        "anthropic": "POST /agui/anthropic",
+        "openai": "POST /agui/openai",
+        "gemini": "POST /agui/gemini",
+    }
+
+    if cerebras_agent:
+        providers.append("cerebras")
+        endpoints["cerebras"] = "POST /agui/cerebras"
+
     return {
         "name": "Agno AG-UI Test Agent",
         "framework": "agno",
-        "providers": ["anthropic", "openai", "gemini", "cerebras"],
-        "agui_endpoints": {
-            "anthropic": "POST /agui/anthropic",
-            "openai": "POST /agui/openai",
-            "gemini": "POST /agui/gemini",
-            "cerebras": "POST /agui/cerebras",
-        },
-        "health_endpoint": "GET /health"
+        "providers": providers,
+        "agui_endpoints": endpoints,
+        "health_endpoint": "GET /health",
+        "cerebras_enabled": cerebras_agent is not None,
     }
 
 
 if __name__ == "__main__":
     print("Starting Agno Agent on port 7771...")
     print("AG-UI Endpoints:")
-    print("  - POST http://localhost:7771/agui/anthropic (Claude)")
-    print("  - POST http://localhost:7771/agui/openai (GPT-4o-mini)")
-    print("  - POST http://localhost:7771/agui/gemini (Gemini 2.0 Flash)")
-    print("  - POST http://localhost:7771/agui/cerebras (Cerebras Llama 3.3 70B)")
+    print("  ✅ POST http://localhost:7771/agui/anthropic (Claude)")
+    print("  ✅ POST http://localhost:7771/agui/openai (GPT-4o-mini)")
+    print("  ✅ POST http://localhost:7771/agui/gemini (Gemini 2.0 Flash)")
+    if cerebras_agent:
+        print("  ✅ POST http://localhost:7771/agui/cerebras (Cerebras Llama 3.3 70B)")
+    else:
+        print("  ⚠️  POST http://localhost:7771/agui/cerebras (Cerebras - NOT ENABLED)")
     agent_os.serve(app="main:app", host="0.0.0.0", port=7771, reload=False)

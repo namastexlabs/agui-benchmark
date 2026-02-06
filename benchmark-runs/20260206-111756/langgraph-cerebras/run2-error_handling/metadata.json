@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2325.9039639997354,
+    "time_to_first_event_ms": 846.4820430017426,
+    "time_to_first_content_ms": 2326.3165160024073,
+    "time_to_complete_ms": 2325.9039639997354
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 289,
+    "tokens_approx": 72,
+    "final_text": "I don't have access to a 'nonexistent_tool'. I can only provide general information and perform basic math calculations, or use the provided functions such as getting the current time or using a calculator. Is there anything else I can help you with?def add_numbers(a, b):\n    return a + b"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 41,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 250,
+    "total_chunks": 10,
+    "duration_ms": 18.0,
+    "throughput_chars_per_sec": 13888.888888888889,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

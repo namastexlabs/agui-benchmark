@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2104.962051998882,
+    "time_to_first_event_ms": 331.33683699998073,
+    "time_to_first_content_ms": 2106.1185489998024,
+    "time_to_complete_ms": 2104.962051998882
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 820,
+    "tokens_approx": 205,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n3. **request_approval** - Request human approval before proceeding with an action\n\nIs there something I can help you with using one of these available tools, or would you like information about what they can do?I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n3. **request_approval** - Request human approval before proceeding with an action\n\nIs there something I can help you with using one of these available tools, or would you like information about what they can do?"
+  },
+  "tokens": {
+    "input_tokens": 798,
+    "output_tokens": 100,
+    "total_tokens": 898
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 410,
+    "total_chunks": 23,
+    "duration_ms": 44.0,
+    "throughput_chars_per_sec": 9318.181818181818,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

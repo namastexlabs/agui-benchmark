@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "model": "llama-3.1-8b", "_timestamp": 25322.168695985, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387480", "role": "assistant", "_timestamp": 25322.169695985, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "To", "_timestamp": 25322.170695985, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " calculate 42 * 17, I will use the calculator tool.\n\n42", "_timestamp": 25322.171695985002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " * 17 = 714\n\nThe result of multiplying 42", "_timestamp": 25322.172695985002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " by 17 is 714.", "_timestamp": 25322.173695985002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387480", "_timestamp": 25322.174695985002, "_offset_ms": 6.0, "_index": 6}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 37, "total_tokens": 88, "model": "llama-3.1-8b", "_timestamp": 25322.175695985003, "_offset_ms": 7.0, "_index": 7}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "_timestamp": 25322.176695985003, "_offset_ms": 8.0, "_index": 8}

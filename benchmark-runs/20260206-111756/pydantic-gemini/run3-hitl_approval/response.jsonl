@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-hitl_approval", "_timestamp": 25445.384708752, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_119475178dbc44e0a34003528193724b", "toolCallName": "request_approval", "parentMessageId": "9f729d79-2e4b-4793-acfa-75555111fda7", "_timestamp": 25445.385708752, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_119475178dbc44e0a34003528193724b", "delta": "{\"action\":\"delete important data\"}", "_timestamp": 25445.386708752, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_119475178dbc44e0a34003528193724b", "_timestamp": 25445.387708752, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "messageId": "9bf03f25-624d-45d7-9c12-3e6c39fa1638", "toolCallId": "pyd_ai_119475178dbc44e0a34003528193724b", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval", "role": "tool", "_timestamp": 25445.388708752, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "messageId": "298df73e-2cf5-427c-afb0-921e807b3ded", "role": "assistant", "_timestamp": 25445.389708752, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "298df73e-2cf5-427c-afb0-921e807b3ded", "delta": "I", "_timestamp": 25445.390708752002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "298df73e-2cf5-427c-afb0-921e807b3ded", "delta": " have requested approval for deleting important data. Please let me know when you have approved it", "_timestamp": 25445.391708752002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "298df73e-2cf5-427c-afb0-921e807b3ded", "delta": ".", "_timestamp": 25445.392708752002, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "298df73e-2cf5-427c-afb0-921e807b3ded", "_timestamp": 25445.393708752, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-hitl_approval", "_timestamp": 25445.394708752, "_offset_ms": 10.0, "_index": 10}

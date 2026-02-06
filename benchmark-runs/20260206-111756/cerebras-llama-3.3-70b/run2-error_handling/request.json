@@ -1,0 +1,16 @@
+{
+  "thread_id": "test-thread-cerebras-llama-3.3-70b",
+  "run_id": "test-run-cerebras-llama-3.3-70b-error_handling",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "Use the 'nonexistent_tool' to do something."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {},
+  "model": "llama-3.3-70b"
+}

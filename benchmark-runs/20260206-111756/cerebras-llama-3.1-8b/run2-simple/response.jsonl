@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "model": "llama-3.1-8b", "_timestamp": 25376.882132543, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387538", "role": "assistant", "_timestamp": 25376.883132543, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "Hello", "_timestamp": 25376.884132543, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": ", my name is LLaMA, which stands for Large Language Model", "_timestamp": 25376.885132543, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " Application. I'm an AI designed to assist and communicate with", "_timestamp": 25376.886132543, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " users in a helpful and informative manner.", "_timestamp": 25376.887132543, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " I'm here to answer your questions, provide information, and engage in conversation to the", "_timestamp": 25376.888132543, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " best of my abilities.", "_timestamp": 25376.889132543, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387538", "_timestamp": 25376.890132543, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 58, "total_tokens": 106, "model": "llama-3.1-8b", "_timestamp": 25376.891132542998, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "_timestamp": 25376.892132543, "_offset_ms": 10.0, "_index": 10}

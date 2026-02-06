@@ -1,0 +1,15 @@
+{
+  "thread_id": "test-thread-vercel-gemini",
+  "run_id": "test-run-vercel-gemini-error_handling",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "Use the 'nonexistent_tool' to do something."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 57419.632786000875,
+    "time_to_first_event_ms": 57418.27522300082,
+    "time_to_first_content_ms": 57420.017870001175,
+    "time_to_complete_ms": 57419.632786000875
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 790,
+    "tokens_approx": 197,
+    "final_text": "I will not delete anything until you explicitly approve. Before we go further, please tell me:\n\n1. Exactly what you want deleted (paths, filenames, database/table names, account IDs, etc.).  \n2. Where it\u2019s stored (local machine, cloud provider and region, server name, etc.).  \n3. Do you have a backup or snapshot? Is recovery required if something goes wrong?  \n4. Preferred deletion method: soft delete (recoverable) or secure/irreversible wipe?  \n5. Are you authorized to delete this data (company policy, account owner)?  \n\nWhen you\u2019re ready, give explicit written approval by replying with this exact phrase (including the data description in brackets):  \nI approve permanent deletion of: [exact data description]\n\nI will take no deletion steps until I receive that exact confirmation."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 815,
+    "total_tokens": 1026
+  },
+  "events": {
+    "total_events": 171,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 790,
+    "total_chunks": 166,
+    "duration_ms": 165.0,
+    "throughput_chars_per_sec": 4787.878787878788,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b", "_timestamp": 21769.948852829, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383767", "role": "assistant", "_timestamp": 21769.949852829, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "It", "_timestamp": 21769.950852829, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " seems like you're trying to use a non-existent tool, which is not possible", "_timestamp": 21769.951852829, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ". I'm a large language model, I don", "_timestamp": 21769.952852829, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "'t have any information about a tool by that name, and", "_timestamp": 21769.953852829, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " it's likely that it doesn't exist.\n\nIf you meant to", "_timestamp": 21769.954852829, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " ask me to use a real tool, could you please specify", "_timestamp": 21769.955852829, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " what tool you're looking for? I'd be happy to", "_timestamp": 21769.956852829, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " help you with that.\n\nAlternatively, if you were making a joke", "_timestamp": 21769.957852828997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " or trying to be humorous, I'd love to play along", "_timestamp": 21769.958852828997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "! In that case, please go ahead and tell me what kind", "_timestamp": 21769.959852828997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " of ridiculous task you think the nonexistent \"nonexistent_tool\"", "_timestamp": 21769.960852828997, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " could accomplish.", "_timestamp": 21769.961852828998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383767", "_timestamp": 21769.962852828998, "_offset_ms": 14.0, "_index": 14}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 130, "total_tokens": 176, "model": "llama-3.1-8b", "_timestamp": 21769.963852828998, "_offset_ms": 15.0, "_index": 15}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "_timestamp": 21769.964852828998, "_offset_ms": 16.0, "_index": 16}

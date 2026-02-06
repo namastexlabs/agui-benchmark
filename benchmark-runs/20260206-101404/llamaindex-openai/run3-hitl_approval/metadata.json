@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10427.437667996855,
+    "time_to_first_event_ms": 290.3420279981219,
+    "time_to_first_content_ms": 10427.94094099736,
+    "time_to_complete_ms": 10427.437667996855
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 743,
+    "tokens_approx": 185,
+    "final_text": "I can help \u2014 but I will not delete anything until you explicitly approve. Before we proceed I need you to confirm a few things:\n\n1. What exactly do you want deleted (file paths, account/service, database/table, etc.) and where is it located?  \n2. Do you have a backup, or do you want me to create one first? (Recommended.)  \n3. Do you understand this may be irreversible and could cause loss of functionality or data?\n\nIf you still want me to proceed, type the exact confirmation phrase below (this ensures you really intend to delete):\n\nPlease reply with: I APPROVE PERMANENT DELETE \u2014 then repeat the exact items/locations to delete.\n\nIf you\u2019re not sure, say \u201cHelp me decide\u201d and I\u2019ll suggest safer alternatives (archive, export, quarantine)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 168,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

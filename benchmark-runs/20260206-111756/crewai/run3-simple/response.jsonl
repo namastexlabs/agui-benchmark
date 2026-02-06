@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-simple", "_timestamp": 25445.410936484, "_offset_ms": 0.0, "_index": 0}
+{"type": "STEP_STARTED", "stepName": "handle_message", "_timestamp": 25445.411936484, "_offset_ms": 1.0, "_index": 1}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "Say hello and introduce yourself briefly in 2-3 sentences."}], "_timestamp": 25445.412936484, "_offset_ms": 2.0, "_index": 2}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "Say hello and introduce yourself briefly in 2-3 sentences.", "name": null}], "copilotkit": {"actions": []}}, "_timestamp": 25445.413936484, "_offset_ms": 3.0, "_index": 3}
+{"type": "STEP_FINISHED", "stepName": "handle_message", "_timestamp": 25445.414936484, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-simple", "_timestamp": 25445.415936484, "_offset_ms": 5.0, "_index": 5}

@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-simple", "_timestamp": 25322.162753388, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "de048639-c5c0-4e2b-84b7-4b4524d92bf3", "role": "assistant", "_timestamp": 25322.163753388, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "de048639-c5c0-4e2b-84b7-4b4524d92bf3", "delta": "Hello! I'", "_timestamp": 25322.164753388, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "de048639-c5c0-4e2b-84b7-4b4524d92bf3", "delta": "m a large language model, trained by Google. I can tell you the current time", "_timestamp": 25322.165753388, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "de048639-c5c0-4e2b-84b7-4b4524d92bf3", "delta": " and evaluate mathematical expressions.", "_timestamp": 25322.166753388, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "message_id": "de048639-c5c0-4e2b-84b7-4b4524d92bf3", "_timestamp": 25322.167753388, "_offset_ms": 5.0, "_index": 5}
+{"type": "USAGE_METADATA", "input_tokens": 117, "output_tokens": 26, "total_tokens": 143, "model": "gemini-2.5-flash", "_timestamp": 25322.168753388, "_offset_ms": 6.0, "_index": 6}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-simple", "_timestamp": 25322.169753388, "_offset_ms": 7.0, "_index": 7}

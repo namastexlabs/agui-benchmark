@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-simple", "_timestamp": 25445.420683582, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "56e45bde-405c-4f96-a587-bd77cc82d196", "role": "assistant", "_timestamp": 25445.421683582, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "56e45bde-405c-4f96-a587-bd77cc82d196", "delta": "Hello! I\u2019m ChatGPT, an AI language model here to help answer questions, brainstorm, draft text, and assist with many tasks. Tell me what you need and I\u2019ll do my best to help.", "_timestamp": 25445.422683582, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "56e45bde-405c-4f96-a587-bd77cc82d196", "_timestamp": 25445.423683582, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-simple", "_timestamp": 25445.424683582, "_offset_ms": 4.0, "_index": 4}

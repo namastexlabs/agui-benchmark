@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b", "_timestamp": 25322.16922215, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387480", "role": "assistant", "_timestamp": 25322.17022215, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "```", "_timestamp": 25322.171222150002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "python\ndef add_numbers(a: float, b: float) ->", "_timestamp": 25322.172222150002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " float:\n    \"\"\"\n    Adds two numbers together.\n\n    Args:\n", "_timestamp": 25322.173222150002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "    a (float): The first number.\n    b (", "_timestamp": 25322.174222150003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "float): The second number.\n\n   ", "_timestamp": 25322.175222150003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " Returns:\n    float: The sum of a and b.\n    \"\"\"\n   ", "_timestamp": 25322.176222150003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " return a + b\n```\n\nYou can use this function", "_timestamp": 25322.177222150003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " like this:\n\n```python\nprint(add_numbers(5, ", "_timestamp": 25322.17822215, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "7))  # Outputs: 12.0\n```", "_timestamp": 25322.17922215, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387480", "_timestamp": 25322.18022215, "_offset_ms": 11.0, "_index": 11}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 100, "total_tokens": 150, "model": "llama-3.1-8b", "_timestamp": 25322.18122215, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "_timestamp": 25322.18222215, "_offset_ms": 13.0, "_index": 13}

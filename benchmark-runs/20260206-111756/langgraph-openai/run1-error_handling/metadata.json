@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8931.90313499872,
+    "time_to_first_event_ms": 1643.4341040003346,
+    "time_to_first_content_ms": 8935.487604001537,
+    "time_to_complete_ms": 8931.90313499872
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 768,
+    "tokens_approx": 192,
+    "final_text": "I\u2019m ready to proceed but I need your explicit approval before I delete the important data.\n\nPlease confirm you want me to delete the important data by replying with one of these exact phrases:\n- \"I approve deletion\"\n- \"I do not approve deletion\"\n\nIf you approve, tell me which specific data to delete and any additional constraints (e.g., backup first, delete only older than a date).I\u2019m ready to proceed but I need your explicit approval before I delete the important data.\n\nPlease confirm you want me to delete the important data by replying with one of these exact phrases:\n- \"I approve deletion\"\n- \"I do not approve deletion\"\n\nIf you approve, tell me which specific data to delete and any additional constraints (e.g., backup first, delete only older than a date)."
+  },
+  "tokens": {
+    "input_tokens": 357,
+    "output_tokens": 234,
+    "total_tokens": 512
+  },
+  "events": {
+    "total_events": 257,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 384,
+    "total_chunks": 80,
+    "duration_ms": 159.0,
+    "throughput_chars_per_sec": 2415.094339622641,
+    "avg_gap_ms": 2.0126582278481013,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 21769.810513762, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "66bed645-54cf-4e35-aea5-d0d69772aa55", "role": "assistant", "_timestamp": 21769.811513762, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "66bed645-54cf-4e35-aea5-d0d69772aa55", "delta": "To find x, we need to isolate x in the equation x + 5 = 12.\n", "_timestamp": 21769.812513762, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "66bed645-54cf-4e35-aea5-d0d69772aa55", "delta": "We can do this by subtracting 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7\n\nTherefore, x is 7.\n", "_timestamp": 21769.813513762, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "66bed645-54cf-4e35-aea5-d0d69772aa55", "_timestamp": 21769.814513762, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_72ab661bc6574aadb6df74ed8ff42374", "toolCallName": "calculator", "parentMessageId": "66bed645-54cf-4e35-aea5-d0d69772aa55", "_timestamp": 21769.815513762, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_72ab661bc6574aadb6df74ed8ff42374", "delta": "{\"expression\":\"12 - 5\"}", "_timestamp": 21769.816513762, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_72ab661bc6574aadb6df74ed8ff42374", "_timestamp": 21769.817513762002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "668a6b15-87ba-4703-bb3a-6164b0d0e53c", "toolCallId": "pyd_ai_72ab661bc6574aadb6df74ed8ff42374", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 21769.818513762002, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 21769.819513762, "_offset_ms": 9.0, "_index": 9}

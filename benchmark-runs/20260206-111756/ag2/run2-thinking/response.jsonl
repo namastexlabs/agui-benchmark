@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 25376.791850339, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "d8ce02af-a02c-456b-b1ce-b83003457a05", "role": "assistant", "_timestamp": 25376.792850339, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d8ce02af-a02c-456b-b1ce-b83003457a05", "delta": "To solve x + 5 = 12:\n\n1. Subtract 5 from both sides to isolate x: x = 12 \u2212 5.  \n2. Compute the right side: x = 7.  \nCheck: 7 + 5 = 12, so x = 7 is correct.", "_timestamp": 25376.793850339, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "d8ce02af-a02c-456b-b1ce-b83003457a05", "_timestamp": 25376.794850339, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking", "_timestamp": 25376.795850339, "_offset_ms": 4.0, "_index": 4}

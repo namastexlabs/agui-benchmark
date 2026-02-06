@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14693.926840998756,
+    "time_to_first_event_ms": 265.52862899916363,
+    "time_to_first_content_ms": 14693.959798998549,
+    "time_to_complete_ms": 14693.926840998756
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1290,
+    "tokens_approx": 322,
+    "final_text": "I can help, but I will not proceed until you explicitly approve. Before we continue, please answer these quick questions so I can act safely and correctly:\n\n1. What exactly do you want to delete? (filenames, folders, database, cloud storage, email account, etc.)\n2. Where is it located? (local PC (Windows/macOS/Linux), server, AWS/Azure/GCP, Dropbox/Google Drive, a specific app)\n3. Do you have a backup or do you want me to create one first?\n4. Should the deletion be permanent (irreversible) or moved to trash/recycle bin/archive first?\n5. Are there legal or business constraints I should be aware of (retention policies, shared ownership)?\n6. Do you want me to: \n   - give step-by-step instructions you will run, \n   - generate a deletion script/command, or \n   - (if I have system access) execute the deletion?\n\nWhen you\u2019re ready, type the exact confirmation phrase below (copy/paste), and I will proceed with the requested action or provide the deletion steps:\n\nCONFIRM DELETE \u2014 I understand this is permanent and I approve you to proceed.\n\nIf you prefer a less risky option first, type:\nCONFIRM MOVE TO TRASH \u2014 I approve moving the data to trash/recycle (recoverable).\n\nTell me the answers to the questions above and paste one of the confirmation phrases when you want me to proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

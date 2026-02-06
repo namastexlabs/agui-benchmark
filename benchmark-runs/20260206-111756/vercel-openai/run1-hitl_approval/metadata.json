@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 23589.430541000183,
+    "time_to_first_event_ms": 3352.058273001603,
+    "time_to_first_content_ms": 23590.033129999938,
+    "time_to_complete_ms": 23589.430541000183
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1435,
+    "tokens_approx": 358,
+    "final_text": "Understood \u2014 I will not delete anything until you give explicit approval. Before I can proceed, please provide the following and then give a clear confirmation phrase when you\u2019re ready:\n\n1. What exactly should be deleted?\n   - Precise paths, filenames, bucket names, DB names/tables/queries, or record selection criteria.\n2. Where is the data stored?\n   - Local machine (OS), remote server (SSH), cloud provider & bucket, database type (MySQL/Postgres/Mongo/etc.), SaaS app, etc.\n3. Do you have a verified backup?\n   - If yes, where is it and how can it be restored? If no, do you want instructions to make one first?\n4. Retention / legal constraints\n   - Any compliance or business rules that prevent deletion or require logs/audit?\n5. Do you want a dry-run first?\n   - I can show the exact commands or queries and the items that would be affected without performing deletion.\n6. Desired timing and any other constraints\n   - Immediate, scheduled, maintenance window, or notify other users?\n\nWhen you\u2019ve answered the above, type one of these exact confirmation phrases to authorize the deletion:\n- CONFIRM DELETE \u2014 proceed with deletion now\n- CONFIRM DRY RUN \u2014 only show what would be deleted, don\u2019t delete\n\nIf you prefer a different confirmation phrase, tell me what it is. After you confirm and I have the details, I\u2019ll list the exact steps/commands I propose to run and ask you one more time to confirm before anything is executed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 321,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1435,
+    "total_chunks": 317,
+    "duration_ms": 316.0,
+    "throughput_chars_per_sec": 4541.139240506329,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

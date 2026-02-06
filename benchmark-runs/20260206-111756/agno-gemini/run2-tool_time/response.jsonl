@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_time", "_timestamp": 25376.742325786, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "758671bc-8460-414f-a02f-701daf8dcdbc", "role": "assistant", "_timestamp": 25376.743325786, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "758671bc-8460-414f-a02f-701daf8dcdbc", "_timestamp": 25376.744325786, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "e2249e3a-1a6e-4c9b-bc9d-dc5055785a98", "toolCallName": "get_current_time", "parentMessageId": "758671bc-8460-414f-a02f-701daf8dcdbc", "_timestamp": 25376.745325786, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "e2249e3a-1a6e-4c9b-bc9d-dc5055785a98", "delta": "{}", "_timestamp": 25376.746325786, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "e2249e3a-1a6e-4c9b-bc9d-dc5055785a98", "_timestamp": 25376.747325786, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "521f963b-f71c-4e1b-bcfb-344bccc6f7de", "toolCallId": "e2249e3a-1a6e-4c9b-bc9d-dc5055785a98", "content": "2026-02-06 11:19:05", "role": "tool", "_timestamp": 25376.748325786, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "b885dedf-cef3-4c14-9b0c-88db644684f8", "role": "assistant", "_timestamp": 25376.749325786, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b885dedf-cef3-4c14-9b0c-88db644684f8", "delta": "The current time is", "_timestamp": 25376.750325786, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b885dedf-cef3-4c14-9b0c-88db644684f8", "delta": " 11:19:05 on February 6, 202", "_timestamp": 25376.751325785997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b885dedf-cef3-4c14-9b0c-88db644684f8", "delta": "6.", "_timestamp": 25376.752325785998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "b885dedf-cef3-4c14-9b0c-88db644684f8", "_timestamp": 25376.753325785998, "_offset_ms": 11.0, "_index": 11}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_time", "_timestamp": 25376.754325785998, "_offset_ms": 12.0, "_index": 12}

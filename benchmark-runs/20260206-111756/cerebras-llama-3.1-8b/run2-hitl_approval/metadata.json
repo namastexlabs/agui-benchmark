@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4940.3685629986285,
+    "time_to_first_event_ms": 4515.701492997323,
+    "time_to_first_content_ms": 4940.412956999353,
+    "time_to_complete_ms": 4940.3685629986285
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 329,
+    "tokens_approx": 82,
+    "final_text": "Before we proceed, I need to confirm that you would like to delete the data. Please acknowledge that this action is irreversible and may have consequences.\n\nTo confirm, you would like to delete the data, and you are aware of the potential risks involved. Please type \"confirm\" to proceed or \"cancel\" to stop the deletion process."
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 68,
+    "total_tokens": 119
+  },
+  "events": {
+    "total_events": 12,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 329,
+    "total_chunks": 7,
+    "duration_ms": 6.0,
+    "throughput_chars_per_sec": 54833.333333333336,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

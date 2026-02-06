@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3058.2982940031798,
+    "time_to_first_event_ms": 247.6189590015565,
+    "time_to_first_content_ms": 3058.4887490003894,
+    "time_to_complete_ms": 3058.2982940031798
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 818,
+    "tokens_approx": 204,
+    "final_text": "I need to solve for x in the equation x + 5 = 12.\n\n**Step-by-step reasoning:**\n\n1. **Start with the equation:** x + 5 = 12\n\n2. **Identify what we need to do:** We need to isolate x on one side of the equation. Currently, x has 5 added to it.\n\n3. **Apply the inverse operation:** To undo addition of 5, we subtract 5 from both sides of the equation. This maintains equality:\n   - x + 5 - 5 = 12 - 5\n\n4. **Simplify both sides:**\n   - x = 7\n\n5. **Verify the answer:** Let's check by substituting x = 7 back into the original equation:\n   - 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning process uses the fundamental principle of algebra: whatever operation you do to one side of an equation, you must do to the other side to keep the equation balanced. By subtracting 5 from both sides, we isolated x and found its value."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 818,
+    "total_chunks": 71,
+    "duration_ms": 70.0,
+    "throughput_chars_per_sec": 11685.714285714284,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

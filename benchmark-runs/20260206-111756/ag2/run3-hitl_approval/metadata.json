@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 16696.146926002257,
+    "time_to_first_event_ms": 2670.3794679997372,
+    "time_to_first_content_ms": 16696.1826930019,
+    "time_to_complete_ms": 16696.146926002257
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1449,
+    "tokens_approx": 362,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a bit of information and your explicit confirmation.\n\n1) What exactly do you want deleted?\n   - Type (files, folders, database rows, cloud objects, emails, etc.)\n   - Location/platform (local Windows/macOS/Linux, external drive, AWS S3, Google Drive, Dropbox, MySQL/Postgres, etc.)\n   - Specific paths, names, patterns, or SQL WHERE clause (be as precise as possible)\n\n2) Scope and permanence\n   - Permanent erase (irreversible) or move to Trash/Recycle Bin first?\n   - Date range or other filters (e.g., files older than X days, size > Y, matching pattern *.log)\n\n3) Backup and recovery\n   - Have you backed up the data or do you want me to create an export/backup before deletion? (I strongly recommend a backup.)\n\n4) Any constraints or safety checks you want (e.g., dry run listing items to be deleted first, confirmation after dry run)\n\nI cannot directly access or delete your files from here. I can:\n   - Give exact commands or scripts to run on your system or cloud console\n   - Walk you through the GUI steps\n   - Produce a dry-run listing command you can inspect before final deletion\n\nPlease provide the details above and then explicitly confirm you want me to proceed (for example: \u201cYes \u2014 proceed and permanently delete /path/to/data\u201d or \u201cYes \u2014 show dry run first\u201d). I will wait for your approval before giving or executing any deletion steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

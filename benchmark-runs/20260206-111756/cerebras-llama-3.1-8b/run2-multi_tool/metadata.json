@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5024.216476998845,
+    "time_to_first_event_ms": 4543.508365997695,
+    "time_to_first_content_ms": 5024.281013997097,
+    "time_to_complete_ms": 5024.216476998845
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 742,
+    "tokens_approx": 185,
+    "final_text": "I'm happy to assist you with that. However, please note that I'm a text-based AI and don't have the capability to access the current time in real-time. But I can suggest a way to get the current time.\n\nYou can use the datetime module in Python to get the current time. Here's an example:\n\n```python\nimport datetime\nimport time\n\n# Get the current time\ncurrent_time = datetime.datetime.now()\nprint(\"Current Time:\", current_time)\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(\"Result of 10 + 20:\", result)\n```\n\nAlternatively, if you're using a browser or terminal, you can simply type `date` or `datetime` to get the current time.\n\nAs for the calculation, it's a simple arithmetic operation:\n\n10 + 20 = 30\n\nSo, the result of the calculation is 30."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 186,
+    "total_tokens": 235
+  },
+  "events": {
+    "total_events": 21,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 742,
+    "total_chunks": 16,
+    "duration_ms": 15.0,
+    "throughput_chars_per_sec": 49466.66666666667,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

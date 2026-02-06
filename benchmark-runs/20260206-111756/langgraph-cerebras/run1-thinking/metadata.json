@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2735.9428519994253,
+    "time_to_first_event_ms": 2198.228143999586,
+    "time_to_first_content_ms": 2736.431694997009,
+    "time_to_complete_ms": 2735.9428519994253
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 681,
+    "tokens_approx": 170,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. \n\nWe are given the equation x + 5 = 12. \n\nFirst, we want to get x by itself. To do this, we can subtract 5 from both sides of the equation. \n\nSo, x + 5 - 5 = 12 - 5. \n\nThis simplifies to x = 7. \n\nTherefore, the value of x is 7.To find the value of x, we need to isolate x on one side of the equation. \n\nWe are given the equation: x + 5 = 12\n\nOur goal is to get x by itself. Since 5 is being added to x, we can do the opposite operation, which is subtracting 5, to both sides of the equation.\n\nSo, we subtract 5 from both sides: \nx + 5 - 5 = 12 - 5\nThis simplifies to: \nx = 7\n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 301,
+    "total_chunks": 10,
+    "duration_ms": 28.0,
+    "throughput_chars_per_sec": 10750.0,
+    "avg_gap_ms": 3.111111111111111,
+    "p95_gap_ms": 4.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

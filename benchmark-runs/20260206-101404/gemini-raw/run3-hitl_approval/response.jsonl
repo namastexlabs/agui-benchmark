@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 21769.899334255, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "8d8e4019-673f-4477-968e-b082db21385d", "role": "assistant", "_timestamp": 21769.900334255, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8d8e4019-673f-4477-968e-b082db21385d", "delta": "I cannot directly delete data for you as I am an AI assistant and do not have access to your personal files or system. I can't perform actions that would modify or delete your data.", "_timestamp": 21769.901334255, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "message_id": "8d8e4019-673f-4477-968e-b082db21385d", "_timestamp": 21769.902334255, "_offset_ms": 3.0, "_index": 3}
+{"type": "USAGE_METADATA", "input_tokens": 120, "output_tokens": 39, "total_tokens": 234, "model": "gemini-2.5-flash", "_timestamp": 21769.903334255, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 21769.904334255, "_offset_ms": 5.0, "_index": 5}

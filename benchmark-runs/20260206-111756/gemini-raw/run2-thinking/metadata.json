@@ -1,0 +1,50 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8434.71322500045,
+    "time_to_first_event_ms": 8434.43846000082,
+    "time_to_first_content_ms": 8434.742186000221,
+    "time_to_complete_ms": 8434.71322500045
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 168,
+    "tokens_approx": 42,
+    "final_text": "To solve for x in the equation x + 5 = 12, we need to isolate x.\nWe can do this by subtracting 5 from both sides of the equation:\n\nx + 5 - 5 = 12 - 5\nx = 7\n\nSo, x is 7."
+  },
+  "tokens": {
+    "input_tokens": 130,
+    "output_tokens": 65,
+    "total_tokens": 302
+  },
+  "events": {
+    "total_events": 8,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 168,
+    "total_chunks": 3,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 84000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

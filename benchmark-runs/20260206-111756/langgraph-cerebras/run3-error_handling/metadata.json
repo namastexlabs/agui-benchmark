@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2611.8524490011623,
+    "time_to_first_event_ms": 995.4104899989034,
+    "time_to_first_content_ms": 2612.34228900139,
+    "time_to_complete_ms": 2611.8524490011623
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 462,
+    "tokens_approx": 115,
+    "final_text": "I'm not able to use a 'nonexistent_tool' as it's not available to me. I can only use the provided functions: get_current_time, calculator, and request_approval. How can I assist you with one of these tools or with a basic question?I'm not able to use a 'nonexistent_tool' as it's not available to me. I can only use the provided functions: get_current_time, calculator, and request_approval. How can I assist you with one of these tools or with a basic question?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 41,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 231,
+    "total_chunks": 10,
+    "duration_ms": 18.0,
+    "throughput_chars_per_sec": 12833.333333333334,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

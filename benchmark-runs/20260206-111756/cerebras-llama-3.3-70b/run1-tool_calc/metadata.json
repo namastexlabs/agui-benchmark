@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1728.8464900011604,
+    "time_to_first_event_ms": 258.20610799928545,
+    "time_to_first_content_ms": 1728.8852790006786,
+    "time_to_complete_ms": 1728.8464900011604
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 63,
+    "tokens_approx": 15,
+    "final_text": "To calculate 42 * 17, I get:\n\n42 * 17 = 714\n\nThe result is 714."
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 26,
+    "total_tokens": 77
+  },
+  "events": {
+    "total_events": 9,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 63,
+    "total_chunks": 4,
+    "duration_ms": 3.0,
+    "throughput_chars_per_sec": 21000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

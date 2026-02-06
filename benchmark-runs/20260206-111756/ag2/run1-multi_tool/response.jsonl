@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 25322.157514659, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "5bece97a-1f97-4d88-8c7e-ce806ae913f2", "role": "assistant", "_timestamp": 25322.158514659, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5bece97a-1f97-4d88-8c7e-ce806ae913f2", "delta": "Current time (UTC): 2026-02-06 00:00:00 UTC\n\n10 + 20 = 30\n\nIf you want the time in a different timezone (or your local time), tell me which zone.", "_timestamp": 25322.159514659, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "5bece97a-1f97-4d88-8c7e-ce806ae913f2", "_timestamp": 25322.160514659, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 25322.161514659, "_offset_ms": 4.0, "_index": 4}

@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "model": "llama-3.3-70b", "_timestamp": 25376.861202119, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387538", "role": "assistant", "_timestamp": 25376.862202119, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "There", "_timestamp": 25376.863202119, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " is no such thing as a \"", "_timestamp": 25376.864202119, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "non", "_timestamp": 25376.865202119, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "existent_tool.\" It doesn't exist and", "_timestamp": 25376.866202119, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " therefore cannot be used to do", "_timestamp": 25376.867202119, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " anything. If you'd like", "_timestamp": 25376.868202119, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " to ask about using", "_timestamp": 25376.869202119, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " a real tool or finding an", "_timestamp": 25376.870202118997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " alternative solution, I'd be happy to help!", "_timestamp": 25376.871202118997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387538", "_timestamp": 25376.872202118997, "_offset_ms": 11.0, "_index": 11}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 50, "total_tokens": 96, "model": "llama-3.3-70b", "_timestamp": 25376.873202118997, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "_timestamp": 25376.874202118997, "_offset_ms": 13.0, "_index": 13}

@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3004.261673999281,
+    "time_to_first_event_ms": 195.9063319991401,
+    "time_to_first_content_ms": 3004.4417700009944,
+    "time_to_complete_ms": 3004.261673999281
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 7.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01UskY6CKj6W6SVeCQSHoJfX",
+        "name": "calculator",
+        "start_ms": 42.0,
+        "end_ms": 48.0,
+        "result_ms": 49.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 646,
+    "tokens_approx": 161,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1: Identify what we know**\n- We have the equation: x + 5 = 12\n- We need to find the value of x\n\n**Step 2: Isolate x**\n- To isolate x, I need to remove the +5 from the left side\n- I do this by subtracting 5 from both sides of the equation\n\n**Step 3: Perform the calculation**\n- x + 5 - 5 = 12 - 5\n- x = 12 - 5\n\nLet me calculate this:**Step 4: Verify the answer**\n- If x = 7, then: 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning is that we use the inverse operation (subtraction) to undo the addition, which allows us to isolate x and find its value."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 73,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 646,
+    "total_chunks": 59,
+    "duration_ms": 68.0,
+    "throughput_chars_per_sec": 9500.0,
+    "avg_gap_ms": 1.1724137931034482,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc", "_timestamp": 25376.748392845, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "toolCallName": "calculator", "parentMessageId": "c6fd9529-1b8e-4520-9e9c-7ddb67f6bd5e", "_timestamp": 25376.749392845, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "delta": "", "_timestamp": 25376.750392845, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "delta": "{\"express", "_timestamp": 25376.751392845, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "delta": "ion\": \"", "_timestamp": 25376.752392845, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "delta": "42 ", "_timestamp": 25376.753392845, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "delta": "* 17\"}", "_timestamp": 25376.754392845, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "_timestamp": 25376.755392845, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "cb157648-3ead-490a-9e8c-e407be3f02ec", "toolCallId": "toolu_01BS7rCeAP83wP2jsY5REHaL", "content": "42 * 17 = 714", "role": "tool", "_timestamp": 25376.756392845, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_START", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "role": "assistant", "_timestamp": 25376.757392844997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "delta": "The result", "_timestamp": 25376.758392844997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "delta": " of 42 \u00d7", "_timestamp": 25376.759392844997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "delta": " 17 is **", "_timestamp": 25376.760392844997, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "delta": "714**.", "_timestamp": 25376.761392844997, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "messageId": "d368a041-be07-47ba-9bbb-1470451a2769", "_timestamp": 25376.762392844998, "_offset_ms": 14.0, "_index": 14}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc", "_timestamp": 25376.763392844998, "_offset_ms": 15.0, "_index": 15}

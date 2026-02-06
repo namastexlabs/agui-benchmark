@@ -1,0 +1,108 @@
+{
+  "timestamp": "20260206-111756",
+  "start_time": "2026-02-06T11:17:56.266258",
+  "num_runs": 3,
+  "models": {
+    "claude": "claude-haiku-4-5-20251001",
+    "openai": "gpt-5-mini",
+    "gemini": "gemini-2.5-flash",
+    "cerebras": "llama-3.3-70b"
+  },
+  "test_prompts": {
+    "simple": {
+      "type": "single",
+      "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+      "validates": [
+        "TEXT_MESSAGE_CONTENT",
+        "RUN_STARTED",
+        "RUN_FINISHED"
+      ]
+    },
+    "tool_time": {
+      "type": "single",
+      "prompt": "What is the current time? Use the time tool to check.",
+      "validates": [
+        "TOOL_CALL_START",
+        "TOOL_CALL_ARGS",
+        "TOOL_CALL_END",
+        "TOOL_CALL_RESULT"
+      ]
+    },
+    "tool_calc": {
+      "type": "single",
+      "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+      "validates": [
+        "TOOL_CALL_START",
+        "TOOL_CALL_ARGS",
+        "TOOL_CALL_END",
+        "TOOL_CALL_RESULT"
+      ]
+    },
+    "multi_turn_memory": {
+      "type": "multi",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My favorite programming language is Python. Remember this."
+        },
+        {
+          "role": "user",
+          "content": "What is my favorite programming language?"
+        }
+      ],
+      "validates": [
+        "context_retention",
+        "MESSAGES_SNAPSHOT",
+        "STATE_SNAPSHOT"
+      ]
+    },
+    "thinking": {
+      "type": "single",
+      "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+      "validates": [
+        "THINKING_START",
+        "THINKING_CONTENT",
+        "THINKING_END"
+      ]
+    },
+    "artifact": {
+      "type": "single",
+      "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+      "validates": [
+        "ARTIFACT_START",
+        "ARTIFACT_CONTENT",
+        "ARTIFACT_END"
+      ]
+    },
+    "hitl_approval": {
+      "type": "hitl",
+      "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+      "hitl_response": {
+        "approved": true,
+        "message": "Yes, you may proceed"
+      },
+      "validates": [
+        "HUMAN_INPUT_REQUESTED",
+        "HUMAN_INPUT_RECEIVED"
+      ]
+    },
+    "error_handling": {
+      "type": "single",
+      "prompt": "Use the 'nonexistent_tool' to do something.",
+      "validates": [
+        "ERROR"
+      ],
+      "expect_error": true
+    },
+    "multi_tool": {
+      "type": "single",
+      "prompt": "First get the current time, then calculate 10 + 20.",
+      "validates": [
+        "TOOL_CALL_START",
+        "TOOL_CALL_END"
+      ],
+      "expect_tools": 2
+    }
+  },
+  "total_agents": 26
+}

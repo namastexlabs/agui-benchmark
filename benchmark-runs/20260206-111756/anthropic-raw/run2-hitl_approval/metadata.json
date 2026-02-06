@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12603.962896999292,
+    "time_to_first_event_ms": 12603.325549996953,
+    "time_to_first_content_ms": 12604.091703997256,
+    "time_to_complete_ms": 12603.962896999292
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 695,
+    "tokens_approx": 173,
+    "final_text": "I appreciate you bringing this to my attention, but I need to clarify something important:\n\n**I don't have the ability to delete data.** I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI don't have access to your files, databases, systems, or any data storage. I can't delete, modify, or access any of your information.\n\nIf you're looking to delete data on your own system, you'll need to:\n1. Use your operating system's file manager or system tools\n2. Contact your IT administrator or relevant service provider\n3. Follow your organization's data management procedures\n\nIs there something else I can help you with, like math calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 158,
+    "total_tokens": 841
+  },
+  "events": {
+    "total_events": 58,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 695,
+    "total_chunks": 53,
+    "duration_ms": 52.0,
+    "throughput_chars_per_sec": 13365.384615384615,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

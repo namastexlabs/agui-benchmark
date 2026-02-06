@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4545.111285999155,
+    "time_to_first_event_ms": 997.547555998608,
+    "time_to_first_content_ms": 4546.272634997877,
+    "time_to_complete_ms": 4545.111285999155
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 190,
+    "tokens_approx": 47,
+    "final_text": "def add(a: float, b: float) -> float:\n    \"\"\"Return the sum of two numbers.\"\"\"\n    return a + bdef add(a: float, b: float) -> float:\n    \"\"\"Return the sum of two numbers.\"\"\"\n    return a + b"
+  },
+  "tokens": {
+    "input_tokens": 277,
+    "output_tokens": 164,
+    "total_tokens": 441
+  },
+  "events": {
+    "total_events": 77,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 95,
+    "total_chunks": 27,
+    "duration_ms": 53.0,
+    "throughput_chars_per_sec": 1792.4528301886794,
+    "avg_gap_ms": 2.0384615384615383,
+    "p95_gap_ms": 2.65,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

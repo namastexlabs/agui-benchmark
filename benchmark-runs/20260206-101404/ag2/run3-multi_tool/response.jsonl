@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 21769.85462862, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "4a7c6432-c027-4727-a743-d92dea05e3cb", "role": "assistant", "_timestamp": 21769.85562862, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4a7c6432-c027-4727-a743-d92dea05e3cb", "delta": "Current time (UTC): 2026-02-06 00:00:00\n10 + 20 = 30", "_timestamp": 21769.85662862, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "4a7c6432-c027-4727-a743-d92dea05e3cb", "_timestamp": 21769.85762862, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 21769.85862862, "_offset_ms": 4.0, "_index": 4}

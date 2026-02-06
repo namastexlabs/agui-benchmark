@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-simple", "_timestamp": 25445.430763146, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "125c9062-7352-4863-be51-d68070177b52", "role": "assistant", "_timestamp": 25445.431763146, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "125c9062-7352-4863-be51-d68070177b52", "delta": "Hello! I'm a helpful assistant running on the Google ADK framework. I can tell you the current time and perform basic math calculations.", "_timestamp": 25445.432763146, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "125c9062-7352-4863-be51-d68070177b52", "_timestamp": 25445.433763146, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-simple", "_timestamp": 25445.434763146, "_offset_ms": 4.0, "_index": 4}

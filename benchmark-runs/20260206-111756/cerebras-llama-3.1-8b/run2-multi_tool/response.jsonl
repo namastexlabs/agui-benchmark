@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b", "_timestamp": 25376.897454712, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387538", "role": "assistant", "_timestamp": 25376.898454712, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "I", "_timestamp": 25376.899454712002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "'m happy to assist you with that. However, please note", "_timestamp": 25376.900454712002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " that I'm a text-based AI and don't have the capability", "_timestamp": 25376.901454712002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " to access the current time in real-time. But I can", "_timestamp": 25376.902454712003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " suggest a way to get the current time.\n\nYou can use the", "_timestamp": 25376.903454712003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " datetime module in Python to get the current time. Here's", "_timestamp": 25376.904454712003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " an example:\n\n```python\nimport datetime\nimport time\n\n#", "_timestamp": 25376.905454712003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " Get the current time\ncurrent_time = datetime.datetime.now()\n", "_timestamp": 25376.906454712, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "print(\"Current Time:\", current_time)\n\n# Calculate 10 +", "_timestamp": 25376.907454712, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " 20\nresult = 10 + 20\nprint", "_timestamp": 25376.908454712, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "(\"Result of 10 + 20:\", result)\n", "_timestamp": 25376.909454712, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "```\n\nAlternatively, if you're using a browser or terminal, you", "_timestamp": 25376.910454712, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " can simply type `date` or `datetime` to get", "_timestamp": 25376.911454712, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " the current time.\n\nAs for the calculation, it's a simple", "_timestamp": 25376.912454712, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " arithmetic operation:\n\n10 + 20 = 30\n\nSo", "_timestamp": 25376.913454712, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": ", the result of the calculation is 30.", "_timestamp": 25376.914454712, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387538", "_timestamp": 25376.915454712, "_offset_ms": 18.0, "_index": 18}
+{"type": "USAGE_METADATA", "input_tokens": 49, "output_tokens": 186, "total_tokens": 235, "model": "llama-3.1-8b", "_timestamp": 25376.916454712, "_offset_ms": 19.0, "_index": 19}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "_timestamp": 25376.917454712002, "_offset_ms": 20.0, "_index": 20}

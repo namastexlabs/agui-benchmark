@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1539.7732730016287,
+    "time_to_first_event_ms": 207.6264210008958,
+    "time_to_first_content_ms": 1539.8289010008739,
+    "time_to_complete_ms": 1539.7732730016287
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 7.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01BS7rCeAP83wP2jsY5REHaL",
+        "name": "calculator",
+        "start_ms": 1.0,
+        "end_ms": 7.0,
+        "result_ms": 8.0,
+        "duration_ms": 7.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 33,
+    "tokens_approx": 8,
+    "final_text": "The result of 42 \u00d7 17 is **714**."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 33,
+    "total_chunks": 4,
+    "duration_ms": 3.0,
+    "throughput_chars_per_sec": 11000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

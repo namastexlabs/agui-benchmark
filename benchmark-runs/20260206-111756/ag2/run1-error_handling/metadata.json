@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13219.290251003258,
+    "time_to_first_event_ms": 278.01706900208956,
+    "time_to_first_content_ms": 13219.32646300047,
+    "time_to_complete_ms": 13219.290251003258
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 697,
+    "tokens_approx": 174,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. I can\u2019t call it, but I can help in other ways. Which would you prefer?\n\n- I can simulate what that tool would do and show sample input/output.\n- I can write a script/CLI commands you can run locally that replicate the tool\u2019s behavior.\n- I can perform the task directly here if it\u2019s something I can do (text processing, calculations, code, etc.).\n\nTell me what \u201cdo something\u201d means (give a concrete task or example) and which option you want. If useful, here\u2019s a quick example: if the tool was meant to convert CSV to JSON, I can give a ready-to-run Python script or convert a small CSV you paste here."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

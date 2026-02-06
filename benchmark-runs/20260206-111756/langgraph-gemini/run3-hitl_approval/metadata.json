@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4159.999809002329,
+    "time_to_first_event_ms": 991.7673279996961,
+    "time_to_first_content_ms": 4160.479673999362,
+    "time_to_complete_ms": 4159.999809002329
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 186,
+    "tokens_approx": 46,
+    "final_text": "Your request to delete important data requires human approval. I have submitted the request.\nYour request to delete important data requires human approval. I have submitted the request.\n"
+  },
+  "tokens": {
+    "input_tokens": 361,
+    "output_tokens": 15,
+    "total_tokens": 362
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 93,
+    "total_chunks": 2,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 46500.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

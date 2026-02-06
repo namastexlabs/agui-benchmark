@@ -1,0 +1,45 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3624.6820380001736,
+    "time_to_first_event_ms": 2072.770001999743,
+    "time_to_first_content_ms": 3624.9344800016843,
+    "time_to_complete_ms": 3624.6820380001736
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 74,
+    "tokens_approx": 18,
+    "final_text": "To find x, we need to isolate x in the equation x + 5 = 12.\nWe can do this"
+  },
+  "tokens": {
+    "input_tokens": 251,
+    "output_tokens": 165,
+    "total_tokens": 416
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

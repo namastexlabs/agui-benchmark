@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 25376.842133474, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "232b7f49-00d4-49d8-8a9f-944182d35a71", "role": "assistant", "_timestamp": 25376.843133474, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "232b7f49-00d4-49d8-8a9f-944182d35a71", "delta": "```python\ndef add_numbers(a, b):\n  return a + b\n```", "_timestamp": 25376.844133474002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "message_id": "232b7f49-00d4-49d8-8a9f-944182d35a71", "_timestamp": 25376.845133474002, "_offset_ms": 3.0, "_index": 3}
+{"type": "USAGE_METADATA", "input_tokens": 119, "output_tokens": 20, "total_tokens": 206, "model": "gemini-2.5-flash", "_timestamp": 25376.846133474002, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 25376.847133474002, "_offset_ms": 5.0, "_index": 5}

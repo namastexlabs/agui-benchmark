@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 25445.37696394, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "2a00d6fc-2ec2-4903-a01a-1ec818d1fb3a", "role": "assistant", "_timestamp": 25445.37796394, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2a00d6fc-2ec2-4903-a01a-1ec818d1fb3a", "delta": "I cannot use the 'nonexistent_tool' because it does not exist. I can use the following tools: 'get_current_time', 'calculator', and 'request_approval'.", "_timestamp": 25445.378963940002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "2a00d6fc-2ec2-4903-a01a-1ec818d1fb3a", "_timestamp": 25445.379963940002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 25445.380963940002, "_offset_ms": 4.0, "_index": 4}

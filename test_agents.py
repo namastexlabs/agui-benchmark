@@ -100,7 +100,7 @@ AGENTS = {
         "model_id": "gemini-2.5-flash",
     },
     "agno-cerebras": {
-        "url": "http://localhost:7771/agui/cerebras",
+        "url": "http://localhost:7771/agui/cerebras/agui",
         "port": 7771,
         "health": "http://localhost:7771/health",
         "type": "native",

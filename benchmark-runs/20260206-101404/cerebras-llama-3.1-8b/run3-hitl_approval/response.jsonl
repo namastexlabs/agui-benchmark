@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "model": "llama-3.1-8b", "_timestamp": 21769.946948593, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383767", "role": "assistant", "_timestamp": 21769.947948593, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "Before", "_timestamp": 21769.948948593, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " proceeding with deleting the data, I'd like to", "_timestamp": 21769.949948593, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " confirm that you want to proceed. \n\nCan you please confirm", "_timestamp": 21769.950948593, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " the following:\n\n1. You are the authorized person to", "_timestamp": 21769.951948593, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " delete this data.\n2. You have backups of the data", "_timestamp": 21769.952948593, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ", in case it's needed in the future.\n3", "_timestamp": 21769.953948593, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ". You understand that deleting the data is irreversible and cannot be", "_timestamp": 21769.954948593, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " recovered.\n\nIf you're sure, please type \"DELETE", "_timestamp": 21769.955948592997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "\" to confirm. If you have any doubts or want to", "_timestamp": 21769.956948592997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " cancel, type \"CANCEL\" instead.", "_timestamp": 21769.957948592997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383767", "_timestamp": 21769.958948592997, "_offset_ms": 12.0, "_index": 12}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 101, "total_tokens": 152, "model": "llama-3.1-8b", "_timestamp": 21769.959948592998, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "_timestamp": 21769.960948592998, "_offset_ms": 14.0, "_index": 14}

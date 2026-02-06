@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12792.694897998445,
+    "time_to_first_event_ms": 2590.1491820004594,
+    "time_to_first_content_ms": 12792.755244998261,
+    "time_to_complete_ms": 12792.694897998445
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 191,
+    "tokens_approx": 47,
+    "final_text": "I don\u2019t have access to the time tool in this session. Tell me which timezone or city you want the time for (or share your local offset, e.g., UTC\u221205:00), and I\u2019ll give the current time there."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5363.443040001584,
+    "time_to_first_event_ms": 4552.335636002681,
+    "time_to_first_content_ms": 5363.5700800005,
+    "time_to_complete_ms": 5363.443040001584
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 791,
+    "tokens_approx": 197,
+    "final_text": "To solve for x in the equation x + 5 = 12, I'll follow these steps:\n\n1. **Write down the equation**: x + 5 = 12\n2. **Identify the goal**: We need to isolate x, which means we want to get x by itself on one side of the equation.\n3. **Notice the constant term**: The constant term is 5, which is being added to x. To isolate x, we need to get rid of the 5.\n4. **Subtract 5 from both sides**: To get rid of the 5 on the left side, we'll subtract 5 from both sides of the equation. This will cancel out the 5 on the left side.\n\nx + 5 - 5 = 12 - 5\n\n5. **Simplify both sides**: Subtracting 5 from both sides will leave us with:\n\nx = 7\n\n6. **Check the solution**: Let's plug x = 7 back into the original equation to make sure it's true:\n\n7 + 5 = 12\n\nThis is indeed true, so our solution is correct."
+  },
+  "tokens": {
+    "input_tokens": 58,
+    "output_tokens": 235,
+    "total_tokens": 293
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 791,
+    "total_chunks": 46,
+    "duration_ms": 45.0,
+    "throughput_chars_per_sec": 17577.77777777778,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

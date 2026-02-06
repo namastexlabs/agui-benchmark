@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "model": "llama-3.3-70b", "_timestamp": 25445.492715302, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387609", "role": "assistant", "_timestamp": 25445.493715302, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": "There", "_timestamp": 25445.494715302, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " is no such thing as a \"", "_timestamp": 25445.495715302, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": "nonexistent_tool.\" It", "_timestamp": 25445.496715302, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " doesn't exist, and therefore", "_timestamp": 25445.497715302, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": ", it's", "_timestamp": 25445.498715302, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " not possible to use it to do something", "_timestamp": 25445.499715302, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": ".", "_timestamp": 25445.500715302, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " If you'd like to accomplish a specific task, I", "_timestamp": 25445.501715301998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": "'d be happy to help you find a real tool or method", "_timestamp": 25445.502715302, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " to achieve your goal. Please let me", "_timestamp": 25445.503715302, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " know what you're trying to do,", "_timestamp": 25445.504715302, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387609", "delta": " and I'll do my best to assist you!", "_timestamp": 25445.505715302, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387609", "_timestamp": 25445.506715302, "_offset_ms": 14.0, "_index": 14}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 81, "total_tokens": 127, "model": "llama-3.3-70b", "_timestamp": 25445.507715302, "_offset_ms": 15.0, "_index": 15}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "_timestamp": 25445.508715302, "_offset_ms": 16.0, "_index": 16}

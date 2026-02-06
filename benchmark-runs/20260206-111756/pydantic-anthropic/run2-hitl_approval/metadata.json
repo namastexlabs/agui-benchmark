@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3553.695106002124,
+    "time_to_first_event_ms": 202.2481109997898,
+    "time_to_first_content_ms": 3553.8895370009413,
+    "time_to_complete_ms": 3553.695106002124
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 16.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01KmMiCy12mbEwWtZ1GXvHAR",
+        "name": "request_approval",
+        "start_ms": 22.0,
+        "end_ms": 37.0,
+        "result_ms": 38.0,
+        "duration_ms": 16.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 686,
+    "tokens_approx": 171,
+    "final_text": "I appreciate you being transparent about this, but I actually need to flip this around! Since you're asking to delete important data, **I** need to request *your* approval before you proceed. Let me do that now:The system is now requesting approval for this action. Before we proceed, please confirm:\n\n1. **Are you sure you want to delete this important data?** This action may be irreversible.\n2. **Do you have backups?** It's wise to ensure you have copies before deletion.\n3. **Is this the correct data** you intend to delete?\n\nOnce you confirm these points, we can proceed with caution. What specific data are you looking to delete, and are you absolutely certain about this action?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 85,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 686,
+    "total_chunks": 62,
+    "duration_ms": 80.0,
+    "throughput_chars_per_sec": 8575.0,
+    "avg_gap_ms": 1.3114754098360655,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6016.327247001755,
+    "time_to_first_event_ms": 1627.6103650016012,
+    "time_to_first_content_ms": 6016.458583002532,
+    "time_to_complete_ms": 6016.327247001755
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 187,
+    "tokens_approx": 46,
+    "final_text": "Hello \u2014 I'm ChatGPT, an AI assistant here to help with questions, brainstorming, and tasks. I can explain things, draft or edit text, and help solve problems \u2014 how can I assist you today?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 46,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 187,
+    "total_chunks": 42,
+    "duration_ms": 41.0,
+    "throughput_chars_per_sec": 4560.975609756098,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

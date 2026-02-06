@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14341.141505999985,
+    "time_to_first_event_ms": 14340.074178999203,
+    "time_to_first_content_ms": 14341.441371001565,
+    "time_to_complete_ms": 14341.141505999985
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1013,
+    "tokens_approx": 253,
+    "final_text": "I appreciate you being cautious about important data! However, I should clarify what I can actually do:\n\n**I don't have the ability to delete files or data.** I can only:\n- Tell you the current date/time\n- Perform basic math calculations\n\nI don't have access to your files, databases, folders, or any storage systems. So even if you wanted me to proceed, I couldn't actually delete anything.\n\nIf you need to delete important data on your own system, here are some best practices:\n\n1. **Back it up first** - Create copies before deleting anything critical\n2. **Verify what you're deleting** - Double-check you have the right files/folders\n3. **Use trash/recycle bin** - Don't permanently delete right away; use your system's trash first so you can recover if needed\n4. **Consider archiving** - For important data you might need later, store it safely elsewhere instead of deleting\n\nIs there something specific I can help you with, like calculating storage space or finding the current time for scheduling a backup?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 235,
+    "total_tokens": 918
+  },
+  "events": {
+    "total_events": 94,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1013,
+    "total_chunks": 89,
+    "duration_ms": 88.0,
+    "throughput_chars_per_sec": 11511.363636363636,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

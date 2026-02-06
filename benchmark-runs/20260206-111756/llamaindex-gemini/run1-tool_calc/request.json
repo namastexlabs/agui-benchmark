@@ -1,0 +1,15 @@
+{
+  "thread_id": "test-thread-llamaindex-gemini",
+  "run_id": "test-run-llamaindex-gemini-tool_calc",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "Calculate 42 * 17 using the calculator tool and tell me the result."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

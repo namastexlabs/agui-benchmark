@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-tool_calc", "_timestamp": 21769.825903113, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-1", "toolCallName": "calculator", "_timestamp": 21769.826903113, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-1", "delta": "{\"expression\":\"42 * 17\"}", "_timestamp": 21769.827903113, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-1", "_timestamp": 21769.828903113, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-1", "result": "42 * 17 = 714", "_timestamp": 21769.829903113, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770383764254", "role": "assistant", "_timestamp": 21769.830903113, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": "42", "_timestamp": 21769.831903113, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": " *", "_timestamp": 21769.832903113, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": " ", "_timestamp": 21769.833903113, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": "17", "_timestamp": 21769.834903113, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": " =", "_timestamp": 21769.835903113, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": " ", "_timestamp": 21769.836903113, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770383764254", "delta": "714", "_timestamp": 21769.837903113, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770383764254", "_timestamp": 21769.838903113, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-tool_calc", "_timestamp": 21769.839903113, "_offset_ms": 14.0, "_index": 14}

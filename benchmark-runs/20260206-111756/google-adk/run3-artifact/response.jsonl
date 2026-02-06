@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact", "_timestamp": 25445.436620801, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "4de033ef-09b8-454b-854b-f7c5a2293624", "role": "assistant", "_timestamp": 25445.437620801, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4de033ef-09b8-454b-854b-f7c5a2293624", "delta": "```python\ndef add_two_numbers(a, b):\n  return a + b\n```", "_timestamp": 25445.438620801, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "4de033ef-09b8-454b-854b-f7c5a2293624", "_timestamp": 25445.439620801, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact", "_timestamp": 25445.440620801, "_offset_ms": 4.0, "_index": 4}

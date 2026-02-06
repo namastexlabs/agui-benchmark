@@ -1,0 +1,37 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1473.0003260010562,
+    "time_to_first_event_ms": 1363.01494700092,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 1473.0003260010562
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 2,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  },
+  "streaming": null
+}

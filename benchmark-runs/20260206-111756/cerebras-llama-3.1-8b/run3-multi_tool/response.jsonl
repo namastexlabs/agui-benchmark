@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b", "_timestamp": 25445.526859576, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387610", "role": "assistant", "_timestamp": 25445.527859576, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": "To", "_timestamp": 25445.528859576, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " get the current time and calculate 10 + 20, I'll", "_timestamp": 25445.529859576, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " use Python as an example programming language.\n\n```python\n#", "_timestamp": 25445.530859576, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " Get the current time\nimport datetime\ncurrent_time = datetime", "_timestamp": 25445.531859576, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": ".datetime.now()\nprint(\"Current Time:\", current_time)\n\n#", "_timestamp": 25445.532859576, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " Calculate 10 + 20\nresult = 10 + ", "_timestamp": 25445.533859576, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": "20\nprint(\"10 + 20 =\", result)\n```\n\n", "_timestamp": 25445.534859576, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": "When you run this code, you'll see the current time", "_timestamp": 25445.535859575997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " printed out, followed by the result of the calculation", "_timestamp": 25445.536859575997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": ". \n\nPlease note that you need to have Python installed on", "_timestamp": 25445.537859575998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " your system to run this code. If you're using a Python", "_timestamp": 25445.538859575998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " environment that doesn't support the datetime module (like some online", "_timestamp": 25445.539859575998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " code editors), you might get an error message saying that the datetime", "_timestamp": 25445.540859576, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387610", "delta": " module is not available.", "_timestamp": 25445.541859576, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387610", "_timestamp": 25445.542859576, "_offset_ms": 16.0, "_index": 16}
+{"type": "USAGE_METADATA", "input_tokens": 49, "output_tokens": 155, "total_tokens": 204, "model": "llama-3.1-8b", "_timestamp": 25445.543859576, "_offset_ms": 17.0, "_index": 17}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "_timestamp": 25445.544859576, "_offset_ms": 18.0, "_index": 18}

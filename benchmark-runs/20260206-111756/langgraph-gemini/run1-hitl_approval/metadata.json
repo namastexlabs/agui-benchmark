@@ -1,0 +1,45 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3661.532513000566,
+    "time_to_first_event_ms": 1839.6577079984127,
+    "time_to_first_content_ms": 3661.805399999139,
+    "time_to_complete_ms": 3661.532513000566
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 116,
+    "tokens_approx": 29,
+    "final_text": "To find the value of x in the equation x + 5 = 12, we need to isolate x.\n\n1. **Start with the equation:** x + 5 = 12"
+  },
+  "tokens": {
+    "input_tokens": 251,
+    "output_tokens": 219,
+    "total_tokens": 470
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

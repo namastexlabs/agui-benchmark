@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13910.513126000296,
+    "time_to_first_event_ms": 2503.1541180032946,
+    "time_to_first_content_ms": 13910.548745003325,
+    "time_to_complete_ms": 13910.513126000296
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 941,
+    "tokens_approx": 235,
+    "final_text": "Okay \u2014 I will not proceed until you explicitly approve. A few quick questions so I give the right, safe instructions:\n\n1. What exactly do you want deleted (files, folders, a database, cloud objects, backups, etc.)?\n2. Where is it located (local Windows/macOS/Linux machine, AWS/Azure/GCP, managed DB, external drive)?\n3. Do you want a reversible delete (move to Trash/Recycle Bin) or permanent/secure erase?\n4. Do you have a backup or snapshot you can restore from if needed?\n5. Any other constraints (retain logs, specific file patterns, size, user accounts)?\n\nWhen you\u2019re ready, explicitly confirm you want me to proceed by typing one of these exact phrases:\n- For reversible delete: CONFIRM MOVE TO TRASH\n- For permanent delete: CONFIRM PERMANENT DELETE\n- For secure wipe: CONFIRM SECURE WIPE\n\nOnce you confirm and answer the questions above, I\u2019ll provide step-by-step commands and a final safety checklist before any destructive actions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13971.419536999747,
+    "time_to_first_event_ms": 2579.959955000959,
+    "time_to_first_content_ms": 13971.453772999666,
+    "time_to_complete_ms": 13971.419536999747
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 735,
+    "tokens_approx": 183,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool.\" I can\u2019t call external tools that don\u2019t exist here, but I can help in other ways \u2014 pick one:\n\n- Tell me what \u201cdo something\u201d means (task, desired output, inputs) and I\u2019ll do it directly (generate text, analyze data you paste, write code, make a plan, etc.).\n- If you meant a different tool, tell me its real name and I\u2019ll try to use or describe it.\n- I can provide code or instructions to create/use a tool named \"nonexistent_tool\" (example implementation, API wrapper, or CLI).\n- I can simulate what that tool\u2019s output would look like if you give the expected inputs and behavior.\n\nWhich would you like? If you want me to proceed, give the task details (input and desired output)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

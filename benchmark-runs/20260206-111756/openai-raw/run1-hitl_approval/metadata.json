@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 35762.85620300041,
+    "time_to_first_event_ms": 35760.72475500041,
+    "time_to_first_content_ms": 35763.47083600194,
+    "time_to_complete_ms": 35762.85620300041
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1140,
+    "tokens_approx": 285,
+    "final_text": "Understood \u2014 I will not do anything until you explicitly approve. Before we proceed, I need a few quick details and your explicit confirmation.\n\n1) What exactly do you want deleted? (Give file paths, database names/tables, cloud buckets/objects, or system names.)\n2) Where is it stored? (Local PC, Linux server, Windows server, macOS, AWS/Azure/GCP, Dropbox, etc.)\n3) Do you have a verified backup or export of anything you might need later? (If not, I can show how to create one.)\n4) Are you authorized to delete this data? (I won\u2019t help with anything unlawful or unauthorized.)\n5) Do you want step-by-step instructions for you to run, or commands I should prepare for you to copy-paste?\n\nWarning: deletion may be irreversible. If you confirm, please explicitly type one of the following confirmation phrases exactly (pick one):\n- DELETE: [brief description of items] \nor\n- YES, PERMANENTLY DELETE: [brief description of items]\n\nOnce you supply the details above and type one of the confirmation phrases exactly, I\u2019ll proceed with clear, safe deletion steps (and reminders about backups and recovery options). Which data should we work on?"
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 647,
+    "total_tokens": 858
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1140,
+    "total_chunks": 254,
+    "duration_ms": 253.0,
+    "throughput_chars_per_sec": 4505.92885375494,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

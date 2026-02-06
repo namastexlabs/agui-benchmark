@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4891.394247002609,
+    "time_to_first_event_ms": 4501.463578002586,
+    "time_to_first_content_ms": 4891.4575220005645,
+    "time_to_complete_ms": 4891.394247002609
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 680,
+    "tokens_approx": 170,
+    "final_text": "To get the current time and calculate 10 + 20, I'll use Python as an example programming language.\n\n```python\n# Get the current time\nimport datetime\ncurrent_time = datetime.datetime.now()\nprint(\"Current Time:\", current_time)\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(\"10 + 20 =\", result)\n```\n\nWhen you run this code, you'll see the current time printed out, followed by the result of the calculation. \n\nPlease note that you need to have Python installed on your system to run this code. If you're using a Python environment that doesn't support the datetime module (like some online code editors), you might get an error message saying that the datetime module is not available."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 155,
+    "total_tokens": 204
+  },
+  "events": {
+    "total_events": 19,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 680,
+    "total_chunks": 14,
+    "duration_ms": 13.0,
+    "throughput_chars_per_sec": 52307.692307692305,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1990.6170989997918,
+    "time_to_first_event_ms": 306.72662800134276,
+    "time_to_first_content_ms": 1990.7082919999084,
+    "time_to_complete_ms": 1990.6170989997918
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 18.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_011PLhc6mMoX92HLo2v7HJUj",
+        "name": "get_current_time",
+        "start_ms": 7.0,
+        "end_ms": 9.0,
+        "result_ms": 17.0,
+        "duration_ms": 10.0,
+        "execution_time_ms": 8.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "toolu_01Ne7GUZzueLyjMcmPDPgwjm",
+        "name": "calculator",
+        "start_ms": 10.0,
+        "end_ms": 16.0,
+        "result_ms": 18.0,
+        "duration_ms": 8.0,
+        "execution_time_ms": 2.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 146,
+    "tokens_approx": 36,
+    "final_text": "I'll get the current time and calculate 10 + 20 for you.Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 11:17:57\n- **10 + 20 = 30**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 30,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 146,
+    "total_chunks": 12,
+    "duration_ms": 25.0,
+    "throughput_chars_per_sec": 5840.0,
+    "avg_gap_ms": 2.272727272727273,
+    "p95_gap_ms": 15.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

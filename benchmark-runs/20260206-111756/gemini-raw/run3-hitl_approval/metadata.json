@@ -1,0 +1,41 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11800.923115999467,
+    "time_to_first_event_ms": 11800.58288699729,
+    "time_to_first_content_ms": 11800.951271998201,
+    "time_to_complete_ms": 11800.923115999467
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 149,
+    "tokens_approx": 37,
+    "final_text": "I am sorry, but I cannot help with deleting data. My capabilities are limited to providing the current time and performing mathematical calculations."
+  },
+  "tokens": {
+    "input_tokens": 120,
+    "output_tokens": 26,
+    "total_tokens": 220
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": null
+}

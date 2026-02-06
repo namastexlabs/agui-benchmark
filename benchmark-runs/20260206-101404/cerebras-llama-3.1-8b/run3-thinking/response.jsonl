@@ -1,0 +1,51 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b", "_timestamp": 21769.943226138, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770383767", "role": "assistant", "_timestamp": 21769.944226138, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "To", "_timestamp": 21769.945226138, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " solve for x in the equation x + 5 = 12", "_timestamp": 21769.946226138, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ", I'll follow these steps:\n\n1. **Write", "_timestamp": 21769.947226138, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " down the equation**: x + 5 = 12\n", "_timestamp": 21769.948226138, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "2. **Identify the goal**: We need to", "_timestamp": 21769.949226138, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " isolate x, which means we want to get x by itself", "_timestamp": 21769.950226138, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " on one side of the equation.\n3. **Notice", "_timestamp": 21769.951226138, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " the constant term**: The constant term is ", "_timestamp": 21769.952226137997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "5, which is being added to x. To isolate x", "_timestamp": 21769.953226137997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ", we need to get rid of the 5.\n", "_timestamp": 21769.954226137997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "4. **Subtract 5 from both sides**: To", "_timestamp": 21769.955226137998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " get rid of the 5 on the left side", "_timestamp": 21769.956226137998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ", we'll subtract 5 from both", "_timestamp": 21769.957226137998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " sides of the equation. This will cancel out the 5 on", "_timestamp": 21769.958226138, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " the left side.\n\nx + 5 - 5", "_timestamp": 21769.959226138, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " = 12 - 5\n\n5. **Simplify", "_timestamp": 21769.960226138, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " both sides**: Subtracting 5 from both sides will", "_timestamp": 21769.961226138, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " leave us with:\n\nx = 7\n\n6. **", "_timestamp": 21769.962226138, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "Check the solution**: Let", "_timestamp": 21769.963226138, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "'s", "_timestamp": 21769.964226138, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " plug", "_timestamp": 21769.965226138, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " x", "_timestamp": 21769.966226138, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " =", "_timestamp": 21769.967226138, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " ", "_timestamp": 21769.968226138, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "7", "_timestamp": 21769.969226138, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " back", "_timestamp": 21769.970226137997, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " into", "_timestamp": 21769.971226137997, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " the", "_timestamp": 21769.972226137997, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " original", "_timestamp": 21769.973226137998, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " equation", "_timestamp": 21769.974226137998, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " to", "_timestamp": 21769.975226137998, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " make", "_timestamp": 21769.976226138, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " sure", "_timestamp": 21769.977226138, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " it", "_timestamp": 21769.978226138, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "'s", "_timestamp": 21769.979226138, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " true", "_timestamp": 21769.980226138, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": ":\n\n", "_timestamp": 21769.981226138, "_offset_ms": 38.0, "_index": 38}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "7", "_timestamp": 21769.982226138, "_offset_ms": 39.0, "_index": 39}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " +", "_timestamp": 21769.983226138, "_offset_ms": 40.0, "_index": 40}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " ", "_timestamp": 21769.984226138, "_offset_ms": 41.0, "_index": 41}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "5", "_timestamp": 21769.985226138, "_offset_ms": 42.0, "_index": 42}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " =", "_timestamp": 21769.986226138, "_offset_ms": 43.0, "_index": 43}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " ", "_timestamp": 21769.987226138, "_offset_ms": 44.0, "_index": 44}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "12", "_timestamp": 21769.988226137997, "_offset_ms": 45.0, "_index": 45}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": "\n\nThis is indeed true, so", "_timestamp": 21769.989226137997, "_offset_ms": 46.0, "_index": 46}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770383767", "delta": " our solution is correct.", "_timestamp": 21769.990226137998, "_offset_ms": 47.0, "_index": 47}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770383767", "_timestamp": 21769.991226137998, "_offset_ms": 48.0, "_index": 48}
+{"type": "USAGE_METADATA", "input_tokens": 58, "output_tokens": 235, "total_tokens": 293, "model": "llama-3.1-8b", "_timestamp": 21769.992226137998, "_offset_ms": 49.0, "_index": 49}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "_timestamp": 21769.993226137998, "_offset_ms": 50.0, "_index": 50}

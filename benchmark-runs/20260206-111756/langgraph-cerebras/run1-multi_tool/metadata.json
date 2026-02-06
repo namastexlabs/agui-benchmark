@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3344.3531330012775,
+    "time_to_first_event_ms": 2290.5763939997996,
+    "time_to_first_content_ms": 3344.9702610014356,
+    "time_to_complete_ms": 3344.3531330012775
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 696,
+    "tokens_approx": 174,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. The given equation is x + 5 = 12. \n\nFirst, we want to get x by itself, so we need to remove the 5 that is being added to x. We can do this by subtracting 5 from both sides of the equation. \n\nSo, x + 5 - 5 = 12 - 5. This simplifies to x = 7. \n\nTherefore, the value of x is 7.To find the value of x, we need to isolate x on one side of the equation. The given equation is x + 5 = 12. \n\nFirst, we want to get x by itself, so we need to remove the 5 that is being added to x. We can do this by subtracting 5 from both sides of the equation. \n\nSo, x + 5 - 5 = 12 - 5. This simplifies to x = 7. \n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 53,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 348,
+    "total_chunks": 15,
+    "duration_ms": 29.0,
+    "throughput_chars_per_sec": 12000.0,
+    "avg_gap_ms": 2.0714285714285716,
+    "p95_gap_ms": 3.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

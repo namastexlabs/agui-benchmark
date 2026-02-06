@@ -1,0 +1,20 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 25322.161242178, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "role": "assistant", "_timestamp": 25322.162242178, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": "Hello! ", "_timestamp": 25322.163242178, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": "\ud83d\udc4b I'm Claude, an AI", "_timestamp": 25322.164242178, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " assistant created by Anthropic. I", "_timestamp": 25322.165242178, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": "'m here to help you", "_timestamp": 25322.166242178002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " with a", "_timestamp": 25322.167242178002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " variety of tasks, including answering questions", "_timestamp": 25322.168242178002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": ", having", "_timestamp": 25322.169242178003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " conversations, and using", "_timestamp": 25322.170242178, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " tools", "_timestamp": 25322.171242178, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " like a", "_timestamp": 25322.172242178, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " calculator an", "_timestamp": 25322.173242178, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": "d current", "_timestamp": 25322.174242178, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " time lookup", "_timestamp": 25322.175242178, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": ". Feel", "_timestamp": 25322.176242178, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "delta": " free to ask me anything!", "_timestamp": 25322.177242178, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_END", "message_id": "012182f7-bb03-4178-8379-d4c178b9ea11", "_timestamp": 25322.178242178, "_offset_ms": 17.0, "_index": 17}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 60, "total_tokens": 740, "model": "claude-haiku-4-5-20251001", "_timestamp": 25322.179242178, "_offset_ms": 18.0, "_index": 18}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 25322.180242178, "_offset_ms": 19.0, "_index": 19}

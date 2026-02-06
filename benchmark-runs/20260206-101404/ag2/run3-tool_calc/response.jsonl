@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc", "_timestamp": 21769.848434483, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "f8e8223b-d6f8-4c7c-a52f-e5aea443e96b", "role": "assistant", "_timestamp": 21769.849434483, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f8e8223b-d6f8-4c7c-a52f-e5aea443e96b", "delta": "I calculated 42 \u00d7 17 = 714.", "_timestamp": 21769.850434483, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "f8e8223b-d6f8-4c7c-a52f-e5aea443e96b", "_timestamp": 21769.851434483, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc", "_timestamp": 21769.852434483, "_offset_ms": 4.0, "_index": 4}

@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4959.818568997434,
+    "time_to_first_event_ms": 4515.840873998968,
+    "time_to_first_content_ms": 4959.877999997843,
+    "time_to_complete_ms": 4959.818568997434
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 341,
+    "tokens_approx": 85,
+    "final_text": "I'm not capable of accessing real-time information or using external tools like a \"time tool.\" I can provide general information, answer questions, and engage in conversations, but I don't have the ability to display the current time. If you'd like to know the current time, I suggest checking a reliable online clock or your device's clock."
+  },
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 70,
+    "total_tokens": 118
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 341,
+    "total_chunks": 9,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 42625.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

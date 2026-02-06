@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 24433.602700999472,
+    "time_to_first_event_ms": 1623.7954739990528,
+    "time_to_first_content_ms": 24437.583631999587,
+    "time_to_complete_ms": 24433.602700999472
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1398,
+    "tokens_approx": 349,
+    "final_text": "I won\u2019t delete anything until you explicitly approve. Please confirm exactly before I proceed.\n\nTo continue, reply with the exact phrase:\n\"I approve\"\n\nAnd include these details:\n- Which data to delete (file paths, database names/IDs, account names, or a clear description).\n- Any constraints or exclusions (keep X, do not touch Y).\n- Whether you have a backup and permission/authority to delete this data.\n- Whether deletion is irreversible (yes/no) or you want a preview/report before final deletion.\n\nWarning: deletion may be permanent and unrecoverable. If you\u2019d like, I can first produce a safe deletion plan and a list of items that will be removed for you to review. What do you want me to do?I won\u2019t delete anything until you explicitly approve. Please confirm exactly before I proceed.\n\nTo continue, reply with the exact phrase:\n\"I approve\"\n\nAnd include these details:\n- Which data to delete (file paths, database names/IDs, account names, or a clear description).\n- Any constraints or exclusions (keep X, do not touch Y).\n- Whether you have a backup and permission/authority to delete this data.\n- Whether deletion is irreversible (yes/no) or you want a preview/report before final deletion.\n\nWarning: deletion may be permanent and unrecoverable. If you\u2019d like, I can first produce a safe deletion plan and a list of items that will be removed for you to review. What do you want me to do?"
+  },
+  "tokens": {
+    "input_tokens": 395,
+    "output_tokens": 637,
+    "total_tokens": 915
+  },
+  "events": {
+    "total_events": 434,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 699,
+    "total_chunks": 150,
+    "duration_ms": 298.0,
+    "throughput_chars_per_sec": 2345.6375838926174,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

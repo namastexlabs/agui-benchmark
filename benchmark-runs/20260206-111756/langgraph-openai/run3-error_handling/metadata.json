@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8693.90785900032,
+    "time_to_first_event_ms": 992.3869300000661,
+    "time_to_first_content_ms": 8697.908155001642,
+    "time_to_complete_ms": 8693.90785900032
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1382,
+    "tokens_approx": 345,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. Available tools I can use right now:\n- get_current_time (returns current date/time)\n- calculator (evaluate math expressions)\n- request_approval (ask for human approval for an action)\n- multi_tool_use.parallel (run multiple of the above in parallel)\n\nWhat would you like done? Options:\n- Tell me the specific action and I\u2019ll pick and run the appropriate available tool(s).\n- I can simulate what a call to a non-existing tool would do (describe inputs/outputs).\n- I can show how to add or implement the missing tool if you\u2019re integrating it.\n\nReply with which option you want or describe the task to perform.I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. Available tools I can use right now:\n- get_current_time (returns current date/time)\n- calculator (evaluate math expressions)\n- request_approval (ask for human approval for an action)\n- multi_tool_use.parallel (run multiple of the above in parallel)\n\nWhat would you like done? Options:\n- Tell me the specific action and I\u2019ll pick and run the appropriate available tool(s).\n- I can simulate what a call to a non-existing tool would do (describe inputs/outputs).\n- I can show how to add or implement the missing tool if you\u2019re integrating it.\n\nReply with which option you want or describe the task to perform."
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 351,
+    "total_tokens": 624
+  },
+  "events": {
+    "total_events": 324,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 691,
+    "total_chunks": 150,
+    "duration_ms": 299.0,
+    "throughput_chars_per_sec": 2311.0367892976587,
+    "avg_gap_ms": 2.0067114093959733,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

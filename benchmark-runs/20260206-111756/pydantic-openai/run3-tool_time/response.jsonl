@@ -1,0 +1,26 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time", "_timestamp": 25445.383103179, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "call_AINqbtGAOtJ5OSWtuDP1cOZj", "toolCallName": "get_current_time", "parentMessageId": "6a072547-7028-44e1-b702-475211c3342d", "_timestamp": 25445.384103179, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_AINqbtGAOtJ5OSWtuDP1cOZj", "delta": "{}", "_timestamp": 25445.385103179, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "call_AINqbtGAOtJ5OSWtuDP1cOZj", "_timestamp": 25445.386103179, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "messageId": "5ccef593-6e63-4e47-b943-6a28aabf2e52", "toolCallId": "call_AINqbtGAOtJ5OSWtuDP1cOZj", "content": "2026-02-06 11:20:07", "role": "tool", "_timestamp": 25445.387103179, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "role": "assistant", "_timestamp": 25445.388103179, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "The", "_timestamp": 25445.389103179, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": " current", "_timestamp": 25445.390103179, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": " time", "_timestamp": 25445.391103179, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": " is", "_timestamp": 25445.392103178998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": " ", "_timestamp": 25445.393103178998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "202", "_timestamp": 25445.394103179, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "6", "_timestamp": 25445.395103179, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "-", "_timestamp": 25445.396103179, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "02", "_timestamp": 25445.397103179, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "-", "_timestamp": 25445.398103179, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "06", "_timestamp": 25445.399103179, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": " ", "_timestamp": 25445.400103179, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "11", "_timestamp": 25445.401103179, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": ":", "_timestamp": 25445.402103179, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "20", "_timestamp": 25445.403103179, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": ":", "_timestamp": 25445.404103179, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": "07", "_timestamp": 25445.405103179, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "delta": ".", "_timestamp": 25445.406103179, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_END", "messageId": "c13cab50-a6d3-48f1-a159-38e29ca423e3", "_timestamp": 25445.407103179, "_offset_ms": 24.0, "_index": 24}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time", "_timestamp": 25445.408103179, "_offset_ms": 25.0, "_index": 25}

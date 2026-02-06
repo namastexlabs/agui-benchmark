@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4002.1759900009783,
+    "time_to_first_event_ms": 995.7486530001916,
+    "time_to_first_content_ms": 4004.1296560011688,
+    "time_to_complete_ms": 4002.1759900009783
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1454,
+    "tokens_approx": 363,
+    "final_text": "I'll solve this step-by-step using logical reasoning.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate the variable x**\nTo find x, I need to remove the \"+5\" from the left side. I'll do this by subtracting 5 from both sides of the equation (this maintains the equality):\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- x + 0 = 7\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning follows the principle that whatever operation you perform on one side of an equation, you must perform on the other side to keep it balanced. By subtracting 5 from both sides, we isolated x and found its value.I'll solve this step-by-step using logical reasoning.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate the variable x**\nTo find x, I need to remove the \"+5\" from the left side. I'll do this by subtracting 5 from both sides of the equation (this maintains the equality):\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- x + 0 = 7\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning follows the principle that whatever operation you perform on one side of an equation, you must perform on the other side to keep it balanced. By subtracting 5 from both sides, we isolated x and found its value."
+  },
+  "tokens": {
+    "input_tokens": 810,
+    "output_tokens": 242,
+    "total_tokens": 1052
+  },
+  "events": {
+    "total_events": 147,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 727,
+    "total_chunks": 61,
+    "duration_ms": 125.0,
+    "throughput_chars_per_sec": 5816.0,
+    "avg_gap_ms": 2.0833333333333335,
+    "p95_gap_ms": 3.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

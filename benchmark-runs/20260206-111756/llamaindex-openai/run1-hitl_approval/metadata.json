@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14212.871207997523,
+    "time_to_first_event_ms": 2647.7199229993857,
+    "time_to_first_content_ms": 14213.57461399748,
+    "time_to_complete_ms": 14212.871207997523
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1178,
+    "tokens_approx": 294,
+    "final_text": "I can help \u2014 but I\u2019ll ask for your explicit approval before I give any deletion steps or run any actions.\n\nBefore we proceed, two quick notes:\n- I cannot directly access or delete files on your devices or cloud accounts. I can only provide step-by-step instructions, commands, or scripts for you (or an authorized admin) to run.\n- Deleting important data can be irreversible. Please confirm you have authority to delete it and consider making a backup if you might need recovery.\n\nPlease answer the following and then give explicit approval:\n1. What exactly do you want deleted? (files, folders, a database, cloud storage objects, email, etc.)\n2. Where is it stored? (Windows, macOS, Linux, AWS S3, Google Drive, Dropbox, a database name, etc.)\n3. Do you need secure/irrecoverable deletion (secure erase/shredding) or a normal delete?\n4. Do you have a current backup, or should I include backup steps?\n5. Confirm you are authorized to delete these data and understand the risks.\n\nIf you want me to proceed after providing those details, please type a clear confirmation phrase such as: YES \u2014 Delete and provide the details above. I will not proceed until you explicitly approve."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

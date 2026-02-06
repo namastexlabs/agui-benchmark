@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15574.24896700104,
+    "time_to_first_event_ms": 2551.6059450019384,
+    "time_to_first_content_ms": 15574.281333003455,
+    "time_to_complete_ms": 15574.24896700104
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 973,
+    "tokens_approx": 243,
+    "final_text": "Understood \u2014 I will not take any destructive action without your explicit approval.\n\nBefore we proceed, quick questions so I give safe, correct steps:\n1. What exactly do you want to delete (files, folders, email, cloud storage objects, database records, user accounts, etc.)?\n2. Where is the data located (local PC \u2014 OS, external drive, server, cloud provider and bucket/folder, phone, database type)?\n3. Do you want a reversible delete (move to Trash/Recycle Bin) or permanent/secure erase (overwriting)?\n4. Do you have a backup or do you want instructions to create one first?\n5. Do you have access/permissions to perform the deletion (admin/owner)?\n6. Do you want step-by-step instructions, command-line commands, or high-level guidance?\n\nI will not give any deletion commands or steps until you explicitly confirm you want me to proceed. Please answer the questions above and then reply with \u201cYes \u2014 proceed to delete\u201d (or \u201cNo \u2014 don\u2019t delete\u201d) to indicate your approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

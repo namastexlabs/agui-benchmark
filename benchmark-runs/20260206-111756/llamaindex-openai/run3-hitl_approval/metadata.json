@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10543.177348998142,
+    "time_to_first_event_ms": 317.9581539989158,
+    "time_to_first_content_ms": 10543.796382000437,
+    "time_to_complete_ms": 10543.177348998142
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 969,
+    "tokens_approx": 242,
+    "final_text": "I can help \u2014 but I will not delete anything until you explicitly approve. Before we proceed I need a few details and an explicit confirmation from you.\n\n1) What exactly do you want deleted? (files, database records, cloud bucket, account, etc.) Include full paths or identifiers.  \n2) Where is the data located? (local machine, server hostname/IP, cloud provider and region, DB name and table, etc.)  \n3) Do you have a backup? Do you want me to create one first?  \n4) Are there any dependencies or people who must be notified?  \n5) When should the deletion occur (immediately, scheduled)?  \n6) Confirm you have authority to delete this data.\n\nIf you want me to proceed now, please type the exact confirmation phrase below (replace the bracketed text):\n\nI APPROVE DELETION OF [clear description of the data and location]\n\nI will not take any deletion steps until you send that exact confirmation. Would you like to provide the details above or give the confirmation now?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 215,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

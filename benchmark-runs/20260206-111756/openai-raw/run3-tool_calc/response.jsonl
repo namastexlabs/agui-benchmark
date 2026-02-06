@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-tool_calc", "_timestamp": 25445.445886782, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "toolCallName": "calculator", "_timestamp": 25445.446886782, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "{\"", "_timestamp": 25445.447886782, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "expression", "_timestamp": 25445.448886782, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "\":\"", "_timestamp": 25445.449886782, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "42", "_timestamp": 25445.450886782, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": " *", "_timestamp": 25445.451886782, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": " ", "_timestamp": 25445.452886782, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "17", "_timestamp": 25445.453886782, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "delta": "\"}", "_timestamp": 25445.454886781998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_END", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "_timestamp": 25445.455886781998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "bccf5c5c-c6c6-47d3-b3ff-e32c110e6238", "result": "42 * 17 = 714", "_timestamp": 25445.456886781998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_START", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "role": "assistant", "_timestamp": 25445.457886782, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": "42", "_timestamp": 25445.458886782, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": " *", "_timestamp": 25445.459886782, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": " ", "_timestamp": 25445.460886782, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": "17", "_timestamp": 25445.461886782, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": " =", "_timestamp": 25445.462886782, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": " ", "_timestamp": 25445.463886782, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "delta": "714", "_timestamp": 25445.464886782, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_END", "message_id": "76a95cf8-16c0-4a56-96e4-10b3a8c2972f", "_timestamp": 25445.465886782, "_offset_ms": 20.0, "_index": 20}
+{"type": "USAGE_METADATA", "input_tokens": 99, "output_tokens": 10, "total_tokens": 109, "model": "gpt-5-mini", "_timestamp": 25445.466886782, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-tool_calc", "_timestamp": 25445.467886782, "_offset_ms": 22.0, "_index": 22}

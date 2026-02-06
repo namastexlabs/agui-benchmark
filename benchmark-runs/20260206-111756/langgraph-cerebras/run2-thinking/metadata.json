@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2484.6737510015373,
+    "time_to_first_event_ms": 848.6526160013455,
+    "time_to_first_content_ms": 2485.1336589999846,
+    "time_to_complete_ms": 2484.6737510015373
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 692,
+    "tokens_approx": 173,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. The given equation is x + 5 = 12. \n\nFirst, we want to get rid of the +5 on the left side. We can do this by subtracting 5 from both sides of the equation. This keeps the equation balanced.\n\nSo, x + 5 - 5 = 12 - 5\n\nThis simplifies to x = 7.\n\nTherefore, the value of x is 7.To find the value of x, we need to isolate x on one side of the equation. The given equation is x + 5 = 12. \n\nFirst, we want to get rid of the +5 on the left side. We can do this by subtracting 5 from both sides of the equation. This keeps the equation balanced.\n\nSo, x + 5 - 5 = 12 - 5\n\nThis simplifies to x = 7.\n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 37,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 346,
+    "total_chunks": 8,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 24714.285714285714,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9152.119919999677,
+    "time_to_first_event_ms": 1785.7589069972164,
+    "time_to_first_content_ms": 9152.409852998971,
+    "time_to_complete_ms": 9152.119919999677
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 611,
+    "tokens_approx": 152,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in this environment.\n\nAvailable options I can use right now:\n- functions.get_current_time \u2014 returns the current date/time\n- functions.calculator \u2014 evaluates a math expression\n- multi_tool_use.parallel \u2014 runs the above functions in parallel\n\nTell me what you want done and I\u2019ll do it with one of those (for example, give a math expression to evaluate or ask for the current time). If you actually need a new tool added, I can tell you what to include so a developer can register it (name, input params, and behavior). Which would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 137,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 611,
+    "total_chunks": 133,
+    "duration_ms": 132.0,
+    "throughput_chars_per_sec": 4628.787878787879,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

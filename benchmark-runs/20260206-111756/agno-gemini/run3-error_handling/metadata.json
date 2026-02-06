@@ -1,0 +1,40 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3825.910733998171,
+    "time_to_first_event_ms": 268.1076099979691,
+    "time_to_first_content_ms": 3825.9304839994,
+    "time_to_complete_ms": 3825.910733998171
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 151,
+    "tokens_approx": 37,
+    "final_text": "I cannot use the 'nonexistent_tool' because it does not exist. I can use the following tools: 'get_current_time', 'calculator', and 'request_approval'."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

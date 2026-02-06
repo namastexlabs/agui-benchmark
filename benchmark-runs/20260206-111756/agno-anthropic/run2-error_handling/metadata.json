@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2207.0224179988145,
+    "time_to_first_event_ms": 243.53573500047787,
+    "time_to_first_content_ms": 2207.1098150008766,
+    "time_to_complete_ms": 2207.0224179988145
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 447,
+    "tokens_approx": 111,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. \n\nThe tools available to me are:\n- **get_current_time** - Get the current date and time\n- **calculator** - Evaluate mathematical expressions\n- **request_approval** - Request human approval for sensitive actions\n\nCould you let me know what you'd like to accomplish? I'd be happy to help using one of the available tools, or if you need something else, I can try to assist in a different way."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 33,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 447,
+    "total_chunks": 29,
+    "duration_ms": 28.0,
+    "throughput_chars_per_sec": 15964.285714285714,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

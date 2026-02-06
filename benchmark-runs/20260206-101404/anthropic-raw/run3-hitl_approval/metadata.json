@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12652.297460001137,
+    "time_to_first_event_ms": 12651.713709998148,
+    "time_to_first_content_ms": 12652.447895998193,
+    "time_to_complete_ms": 12652.297460001137
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 808,
+    "tokens_approx": 202,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** I'm a helpful assistant with access to very limited tools\u2014I can only:\n\n1. Tell you the current date and time\n2. Do basic math calculations\n\nI cannot access, modify, or delete files, databases, accounts, or any other data on your system or elsewhere.\n\nIf you're looking to delete important data, you should:\n- **Use your system's native tools** (file manager, database admin interface, etc.)\n- **Back up critical data first** before deleting anything\n- **Double-check what you're deleting** to avoid accidental loss\n- **Consider your organization's data retention policies** if applicable\n\nIs there something else I can help you with, like doing a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 186,
+    "total_tokens": 869
+  },
+  "events": {
+    "total_events": 67,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 808,
+    "total_chunks": 62,
+    "duration_ms": 61.0,
+    "throughput_chars_per_sec": 13245.901639344263,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

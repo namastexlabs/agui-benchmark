@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5053.543768000964,
+    "time_to_first_event_ms": 4644.121271001495,
+    "time_to_first_content_ms": 5053.597084002831,
+    "time_to_complete_ms": 5053.543768000964
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 562,
+    "tokens_approx": 140,
+    "final_text": "It seems like you're trying to use a non-existent tool, which is not possible. I'm a large language model, I don't have any information about a tool by that name, and it's likely that it doesn't exist.\n\nIf you meant to ask me to use a real tool, could you please specify what tool you're looking for? I'd be happy to help you with that.\n\nAlternatively, if you were making a joke or trying to be humorous, I'd love to play along! In that case, please go ahead and tell me what kind of ridiculous task you think the nonexistent \"nonexistent_tool\" could accomplish."
+  },
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 130,
+    "total_tokens": 176
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 562,
+    "total_chunks": 12,
+    "duration_ms": 11.0,
+    "throughput_chars_per_sec": 51090.909090909096,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "model": "llama-3.1-8b", "_timestamp": 25376.893492022, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387538", "role": "assistant", "_timestamp": 25376.894492022002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": "Before", "_timestamp": 25376.895492022002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " we proceed, I need to confirm that you would like to delete the data", "_timestamp": 25376.896492022002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": ". Please acknowledge that this action is irreversible and may", "_timestamp": 25376.897492022003, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " have consequences.\n\nTo confirm, you would like to delete the", "_timestamp": 25376.898492022003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " data, and you are aware of the potential risks involved.", "_timestamp": 25376.899492022003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " Please type \"confirm\" to proceed or \"cancel\" to stop", "_timestamp": 25376.900492022003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387538", "delta": " the deletion process.", "_timestamp": 25376.901492022003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387538", "_timestamp": 25376.902492022, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 68, "total_tokens": 119, "model": "llama-3.1-8b", "_timestamp": 25376.903492022, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "_timestamp": 25376.904492022, "_offset_ms": 11.0, "_index": 11}

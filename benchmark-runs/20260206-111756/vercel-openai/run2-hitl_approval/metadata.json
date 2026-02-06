@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14769.645120002679,
+    "time_to_first_event_ms": 1775.668279002275,
+    "time_to_first_content_ms": 14770.741610002005,
+    "time_to_complete_ms": 14769.645120002679
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1258,
+    "tokens_approx": 314,
+    "final_text": "I can help \u2014 but I will not delete anything until you explicitly approve. Before we proceed, please answer these quick questions so I know exactly what to do and can show you the precise steps/commands for you to approve:\n\n1. What exactly should be deleted? (files, folders, database rows, S3 bucket, VM, account, etc.)  \n2. Exact location/path and service (e.g., /home/user/docs/report.pdf, AWS S3 bucket my-bucket, Postgres DB mydb.table).  \n3. Do you have a backup or do you want me to make one first?  \n4. Do you want a normal delete (recoverable in some systems) or a secure irreversible wipe/overwrite?  \n5. When should the deletion occur? (now or scheduled)  \n6. Who else will be affected? Do you have authorization to delete this data?  \n7. Any retention or compliance requirements I should know about?\n\nWhen you\u2019re ready, type this exact confirmation phrase including a short description of the data to delete (I will do nothing until I receive it):\n\nI CONFIRM DELETE: [short description of the data and location] \u2014 PROCEED\n\nExample:\nI CONFIRM DELETE: /home/alex/old_financials.zip on server-01 \u2014 PROCEED\n\nAfter I receive that exact confirmation, I will show the exact commands/steps I will run and ask you to approve them before executing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 298,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1258,
+    "total_chunks": 294,
+    "duration_ms": 293.0,
+    "throughput_chars_per_sec": 4293.515358361775,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

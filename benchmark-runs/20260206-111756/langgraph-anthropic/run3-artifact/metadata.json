@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2628.855728002236,
+    "time_to_first_event_ms": 996.0843000008026,
+    "time_to_first_content_ms": 2630.5613520016777,
+    "time_to_complete_ms": 2628.855728002236
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1208,
+    "tokens_approx": 302,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add_two_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add_two_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Works with integers, floats, and other numeric types\n\nYou can call it like `add_two_numbers(10, 20)` and it will return `30`.Here's a simple Python function that adds two numbers:\n\n```python\ndef add_two_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add_two_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Works with integers, floats, and other numeric types\n\nYou can call it like `add_two_numbers(10, 20)` and it will return `30`."
+  },
+  "tokens": {
+    "input_tokens": 799,
+    "output_tokens": 186,
+    "total_tokens": 985
+  },
+  "events": {
+    "total_events": 92,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 604,
+    "total_chunks": 35,
+    "duration_ms": 70.0,
+    "throughput_chars_per_sec": 8628.571428571428,
+    "avg_gap_ms": 2.0588235294117645,
+    "p95_gap_ms": 2.5,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

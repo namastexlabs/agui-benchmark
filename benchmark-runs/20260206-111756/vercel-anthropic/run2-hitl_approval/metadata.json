@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4089.723552999203,
+    "time_to_first_event_ms": 1528.0399770017539,
+    "time_to_first_content_ms": 4089.901147999626,
+    "time_to_complete_ms": 4089.723552999203
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 964,
+    "tokens_approx": 241,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data**. \n\nI'm a helpful assistant with access to only two tools:\n- Getting the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts. Any data deletion would need to be done directly by you through your own applications, systems, or services.\n\nIf you're concerned about deleting important data, here are some general best practices:\n- **Back up first** - Create a backup before deleting anything critical\n- **Double-check** - Verify you're deleting the right files/data\n- **Use trash/recycle bin** - Most systems let you recover deleted items temporarily\n- **Test on copies** - If possible, test deletion procedures on non-critical data first\n\nIs there something specific I can help you with, like calculations or information about the current time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 83,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 964,
+    "total_chunks": 79,
+    "duration_ms": 78.0,
+    "throughput_chars_per_sec": 12358.97435897436,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

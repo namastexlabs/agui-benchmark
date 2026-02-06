@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4907.347324999137,
+    "time_to_first_event_ms": 4488.459796000825,
+    "time_to_first_content_ms": 4907.397020000644,
+    "time_to_complete_ms": 4907.347324999137
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 444,
+    "tokens_approx": 111,
+    "final_text": "There is no such tool as \"nonexistent_tool.\" It seems you've provided a fictional or non-existent tool name.\n\nIf you'd like to simulate a real-world scenario or ask about a hypothetical tool, I'd be happy to assist you. Alternatively, if you'd like to discuss a specific task or problem you're trying to solve, I can try to offer guidance or suggestions on how to approach it using existing tools and methods. Please let me know how I can help."
+  },
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 97,
+    "total_tokens": 143
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 444,
+    "total_chunks": 9,
+    "duration_ms": 8.0,
+    "throughput_chars_per_sec": 55500.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

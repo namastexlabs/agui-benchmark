@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 25322.156167624, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "c4681588-ef96-426e-8ea1-dc92eb162c73", "role": "assistant", "_timestamp": 25322.157167624002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4681588-ef96-426e-8ea1-dc92eb162c73", "delta": "I don\u2019t have access to an external \u201ctime tool\u201d from here. I can tell the current time if you tell me which timezone you want (UTC, your local zone, or a city). Which timezone would you like me to use?", "_timestamp": 25322.158167624002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "c4681588-ef96-426e-8ea1-dc92eb162c73", "_timestamp": 25322.159167624002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 25322.160167624002, "_offset_ms": 4.0, "_index": 4}

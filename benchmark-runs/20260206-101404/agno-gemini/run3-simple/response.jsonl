@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple", "_timestamp": 21769.802359441, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "55febb19-e2bf-40d6-8dfd-8e5b7ade80fd", "role": "assistant", "_timestamp": 21769.803359441, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "55febb19-e2bf-40d6-8dfd-8e5b7ade80fd", "delta": "Hello! I'", "_timestamp": 21769.804359441, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "55febb19-e2bf-40d6-8dfd-8e5b7ade80fd", "delta": "m an AI assistant running on the Agno framework. I can help you with tasks", "_timestamp": 21769.805359441, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "55febb19-e2bf-40d6-8dfd-8e5b7ade80fd", "delta": " like telling the time, doing calculations, and requesting approvals.", "_timestamp": 21769.806359441, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "55febb19-e2bf-40d6-8dfd-8e5b7ade80fd", "_timestamp": 21769.807359441, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple", "_timestamp": 21769.808359441, "_offset_ms": 6.0, "_index": 6}

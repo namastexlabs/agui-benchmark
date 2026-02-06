@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 25376.750858549, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "17779b7d-86b4-4a1c-93e5-334b518ee850", "role": "assistant", "_timestamp": 25376.751858549, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "17779b7d-86b4-4a1c-93e5-334b518ee850", "delta": "To find x, we need to isolate it in the equation x +", "_timestamp": 25376.752858549, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "17779b7d-86b4-4a1c-93e5-334b518ee850", "delta": " 5 = 12.\n\n1.  Start with the equation: x + 5 = 12\n2.  Subtract 5 from both sides of the equation:\n    x + 5 - 5 = 12", "_timestamp": 25376.753858549, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "17779b7d-86b4-4a1c-93e5-334b518ee850", "delta": " - 5\n3.  Simplify:\n    x = 7\n\nTherefore, x is 7.", "_timestamp": 25376.754858549, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "17779b7d-86b4-4a1c-93e5-334b518ee850", "_timestamp": 25376.755858549, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 25376.756858549, "_offset_ms": 6.0, "_index": 6}

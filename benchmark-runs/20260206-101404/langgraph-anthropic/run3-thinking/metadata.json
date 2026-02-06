@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3633.828453002934,
+    "time_to_first_event_ms": 331.7788950007525,
+    "time_to_first_content_ms": 3635.6728710015886,
+    "time_to_complete_ms": 3633.828453002934
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 856,
+    "tokens_approx": 214,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1:** Start with the equation\n- x + 5 = 12\n\n**Step 2:** Isolate x by subtracting 5 from both sides\n- x + 5 - 5 = 12 - 5\n- x = 7\n\n**Step 3:** Verify the answer\n- Substitute x = 7 back into the original equation: 7 + 5 = 12 \u2713\n\nLet me confirm with a calculation:Perfect! **The answer is x = 7**\n\nThe reasoning is straightforward: to isolate the variable x, we need to undo the addition of 5 by subtracting 5 from both sides of the equation. This maintains the equality while leaving x by itself on the left side.Perfect! **The answer is x = 7**\n\nThe reasoning is straightforward: to isolate the variable x, we need to undo the addition of 5 by subtracting 5 from both sides of the equation. This maintains the equality while leaving x by itself on the left side."
+  },
+  "tokens": {
+    "input_tokens": 1028,
+    "output_tokens": 67,
+    "total_tokens": 1095
+  },
+  "events": {
+    "total_events": 152,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 606,
+    "total_chunks": 49,
+    "duration_ms": 130.0,
+    "throughput_chars_per_sec": 4661.538461538462,
+    "avg_gap_ms": 2.7083333333333335,
+    "p95_gap_ms": 2.55,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

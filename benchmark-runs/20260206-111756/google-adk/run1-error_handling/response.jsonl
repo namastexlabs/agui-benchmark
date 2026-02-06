@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 25322.15909254, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "aad00225-4fc4-4c51-b4ca-a23476e9d8ff", "role": "assistant", "_timestamp": 25322.16009254, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aad00225-4fc4-4c51-b4ca-a23476e9d8ff", "delta": "I'm sorry, the tool 'nonexistent_tool' does not exist. I can tell you the current time or evaluate a mathematical expression.", "_timestamp": 25322.161092540002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "aad00225-4fc4-4c51-b4ca-a23476e9d8ff", "_timestamp": 25322.162092540002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 25322.163092540002, "_offset_ms": 4.0, "_index": 4}

@@ -1,0 +1,55 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3952.3795659988536,
+    "time_to_first_event_ms": 848.3601449988782,
+    "time_to_first_content_ms": 3955.363989000034,
+    "time_to_complete_ms": 3952.3795659988536
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 828,
+    "tokens_approx": 207,
+    "final_text": "I'll request approval for this action before proceeding.I've submitted a request for approval to delete important data. This action requires human authorization before it can proceed. \n\nBefore moving forward, could you provide more details such as:\n- What specific data needs to be deleted?\n- Why is this deletion necessary?\n- Are there any backups in place?\n\nThis will help ensure we're making the right decision about this important action.I've submitted a request for approval to delete important data. This action requires human authorization before it can proceed. \n\nBefore moving forward, could you provide more details such as:\n- What specific data needs to be deleted?\n- Why is this deletion necessary?\n- Are there any backups in place?\n\nThis will help ensure we're making the right decision about this important action."
+  },
+  "tokens": {
+    "input_tokens": 930,
+    "output_tokens": 83,
+    "total_tokens": 1013
+  },
+  "events": {
+    "total_events": 134,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_RESULT"
+    ]
+  },
+  "streaming": {
+    "total_chars": 442,
+    "total_chunks": 35,
+    "duration_ms": 112.0,
+    "throughput_chars_per_sec": 3946.4285714285716,
+    "avg_gap_ms": 3.2941176470588234,
+    "p95_gap_ms": 13.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

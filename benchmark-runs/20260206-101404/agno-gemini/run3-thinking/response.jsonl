@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 21769.802903602, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "d587863b-4035-4f8e-b0b3-b2519bed2d36", "role": "assistant", "_timestamp": 21769.803903602, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "d587863b-4035-4f8e-b0b3-b2519bed2d36", "_timestamp": 21769.804903602002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "4cfd50fc-5cf2-4908-a529-f863b5980d9b", "toolCallName": "calculator", "parentMessageId": "d587863b-4035-4f8e-b0b3-b2519bed2d36", "_timestamp": 21769.805903602002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "4cfd50fc-5cf2-4908-a529-f863b5980d9b", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 21769.806903602002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "4cfd50fc-5cf2-4908-a529-f863b5980d9b", "_timestamp": 21769.807903602003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "18ae1b5e-2a3c-4c3c-9f66-69adabb09bca", "toolCallId": "4cfd50fc-5cf2-4908-a529-f863b5980d9b", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 21769.808903602003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "e7a995dd-cdbf-4a0b-a584-a30b33b27603", "role": "assistant", "_timestamp": 21769.809903602003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e7a995dd-cdbf-4a0b-a584-a30b33b27603", "delta": "To find x, we need to isolate it in the equation x + 5 = ", "_timestamp": 21769.810903602003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e7a995dd-cdbf-4a0b-a584-a30b33b27603", "delta": "12.\nSubtract 5 from both sides of the equation:\nx = 12 - 5\nx = 7", "_timestamp": 21769.811903602, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_END", "messageId": "e7a995dd-cdbf-4a0b-a584-a30b33b27603", "_timestamp": 21769.812903602, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 21769.813903602, "_offset_ms": 11.0, "_index": 11}

@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 16118.457011998544,
+    "time_to_first_event_ms": 2756.4810549993126,
+    "time_to_first_content_ms": 16118.490060998738,
+    "time_to_complete_ms": 16118.457011998544
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1173,
+    "tokens_approx": 293,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it doesn\u2019t exist in this environment. I can, however, help in one of these ways \u2014 tell me which you prefer:\n\n- I can do the task you wanted directly here (e.g., search, summarize, generate code, compute, format data). Tell me what \u201cdo something\u201d means for you.\n- I can show code that would call such a tool (and how to handle it if it\u2019s missing).\n- I can provide a mock implementation or simulate the tool\u2019s output so you can continue development or testing.\n\nExamples you can copy:\n\n1) Python: safe import + fallback\n```python\ntry:\n    import nonexistent_tool\nexcept ImportError:\n    nonexistent_tool = None\n\ndef do_task(args):\n    if nonexistent_tool:\n        return nonexistent_tool.run(args)\n    # fallback implementation\n    return {\"status\": \"fallback\", \"result\": f\"Simulated result for {args}\"}\n\nprint(do_task(\"example\"))\n```\n\n2) Shell: check command exists\n```sh\nif command -v nonexistent_tool >/dev/null 2>&1; then\n  nonexistent_tool do-something\nelse\n  echo \"nonexistent_tool not found \u2014 running fallback\"\n  # fallback commands here\nfi\n```\n\nTell me which option you want or describe the task, and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

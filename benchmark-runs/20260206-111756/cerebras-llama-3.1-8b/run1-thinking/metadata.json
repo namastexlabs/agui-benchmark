@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4895.336823999969,
+    "time_to_first_event_ms": 4393.845550999686,
+    "time_to_first_content_ms": 4895.397143001901,
+    "time_to_complete_ms": 4895.336823999969
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 556,
+    "tokens_approx": 139,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation.  The equation given is x + 5 = 12. \n\nStep 1: Identify the operation that needs to be undone to isolate x. In this case, we need to subtract 5 from both sides of the equation.\n\nStep 2: Write down the equation with the operation to be undone. \nx + 5 = 12 \n\nStep 3: Apply the operation to both sides of the equation. Since we need to subtract 5, we'll subtract 5 from both sides.\nx + 5 - 5 = 12 - 5 \n\nStep 4: Simplify both sides of the equation.\nx = 7 \n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 58,
+    "output_tokens": 163,
+    "total_tokens": 221
+  },
+  "events": {
+    "total_events": 19,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 556,
+    "total_chunks": 14,
+    "duration_ms": 13.0,
+    "throughput_chars_per_sec": 42769.230769230766,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

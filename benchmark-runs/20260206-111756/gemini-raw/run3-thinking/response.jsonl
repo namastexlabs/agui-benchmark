@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 25445.473857211, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "role": "assistant", "_timestamp": 25445.474857211, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "delta": "To find the value of x in the equation x +", "_timestamp": 25445.475857211, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "delta": " 5 = 12, we need to isolate x.\n\nHere's the reasoning process:\n1.  **Start with the equation:** x + 5 = 12\n2.  **Subtract 5 from both", "_timestamp": 25445.476857211, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "delta": " sides of the equation** to maintain equality and get x by itself:\n    x + 5 - 5 = 12 - 5\n3.  **Perform the subtraction:**\n    x = 7\n\nTherefore,", "_timestamp": 25445.477857211, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "delta": " x = 7.", "_timestamp": 25445.478857211, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_END", "message_id": "cf5385bc-c4e9-47c4-9e78-22cc834854be", "_timestamp": 25445.479857211, "_offset_ms": 6.0, "_index": 6}
+{"type": "USAGE_METADATA", "input_tokens": 130, "output_tokens": 112, "total_tokens": 442, "model": "gemini-2.5-flash", "_timestamp": 25445.480857211, "_offset_ms": 7.0, "_index": 7}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 25445.481857211, "_offset_ms": 8.0, "_index": 8}

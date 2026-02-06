@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b", "_timestamp": 25322.169600037, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770387480", "role": "assistant", "_timestamp": 25322.170600037, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "I", "_timestamp": 25322.171600037, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " can't carry out that request. \n\nThe term \"nonexistent_tool", "_timestamp": 25322.172600037, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": "\" is a placeholder that implies something doesn't exist, including a", "_timestamp": 25322.173600037, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " tool. Therefore, using it to accomplish a task is impossible", "_timestamp": 25322.174600037, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": ". If you have any other questions or would like help with", "_timestamp": 25322.175600037, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770387480", "delta": " a different task, I'm here to assist you.", "_timestamp": 25322.176600037, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770387480", "_timestamp": 25322.177600037, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 64, "total_tokens": 110, "model": "llama-3.1-8b", "_timestamp": 25322.178600036998, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "_timestamp": 25322.179600036998, "_offset_ms": 10.0, "_index": 10}

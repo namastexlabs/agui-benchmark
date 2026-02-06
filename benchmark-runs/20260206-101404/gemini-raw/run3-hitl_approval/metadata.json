@@ -1,0 +1,41 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12376.037310001266,
+    "time_to_first_event_ms": 12375.796238000476,
+    "time_to_first_content_ms": 12376.061841001501,
+    "time_to_complete_ms": 12376.037310001266
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 181,
+    "tokens_approx": 45,
+    "final_text": "I cannot directly delete data for you as I am an AI assistant and do not have access to your personal files or system. I can't perform actions that would modify or delete your data."
+  },
+  "tokens": {
+    "input_tokens": 120,
+    "output_tokens": 39,
+    "total_tokens": 234
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": null
+}

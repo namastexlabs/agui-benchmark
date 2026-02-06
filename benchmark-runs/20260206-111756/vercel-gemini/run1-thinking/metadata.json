@@ -1,0 +1,65 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5376.932253999257,
+    "time_to_first_event_ms": 3653.5485589993186,
+    "time_to_first_content_ms": 5376.963067999895,
+    "time_to_complete_ms": 5376.932253999257
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "tc-1",
+        "name": "calculator",
+        "start_ms": 4.0,
+        "end_ms": 6.0,
+        "result_ms": 7.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "12 - 5 = 7"
+      }
+    ]
+  },
+  "response": {
+    "chars": 93,
+    "tokens_approx": 23,
+    "final_text": "To find x, we need to subtract 5 from both sides of the equation:\nx + 5 = 12\nx = 12 - 5\nx = 7"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 93,
+    "total_chunks": 3,
+    "duration_ms": 6.0,
+    "throughput_chars_per_sec": 15500.0,
+    "avg_gap_ms": 3.0,
+    "p95_gap_ms": 5.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3131.890385000588,
+    "time_to_first_event_ms": 218.9725179996458,
+    "time_to_first_content_ms": 3132.09854500019,
+    "time_to_complete_ms": 3131.890385000588
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 754,
+    "tokens_approx": 188,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\n**Step-by-step reasoning:**\n\n1. **Identify the equation:** x + 5 = 12\n\n2. **Goal:** Isolate x on one side of the equation\n\n3. **Strategy:** To isolate x, I need to remove the \"+5\" from the left side. I do this by subtracting 5 from both sides (whatever you do to one side, you must do to the other to maintain equality)\n\n4. **Apply the operation:**\n   - x + 5 - 5 = 12 - 5\n   - x = 7\n\n5. **Verification:** Let me check if x = 7 is correct by substituting it back into the original equation:\n   - 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning process follows the fundamental principle of algebra: to solve for an unknown, perform the same operation on both sides of the equation to isolate the variable."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 68,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 754,
+    "total_chunks": 64,
+    "duration_ms": 63.0,
+    "throughput_chars_per_sec": 11968.253968253968,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

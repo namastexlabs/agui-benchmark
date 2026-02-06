@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10127.296087001014,
+    "time_to_first_event_ms": 313.96739699994214,
+    "time_to_first_content_ms": 10127.89997100117,
+    "time_to_complete_ms": 10127.296087001014
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1081,
+    "tokens_approx": 270,
+    "final_text": "Okay \u2014 I will not do anything until you explicitly approve. A few quick questions so I can proceed safely and correctly:\n\n1. What exactly do you want to delete? (files, emails, database rows, cloud storage objects, an account, etc.)\n2. Where is the data stored? (local computer, external drive, Google Drive, AWS S3, a specific database, etc.)\n3. How much data / how many items? Is there a date range or specific identifiers?\n4. Are you the data owner or otherwise authorized to delete it?\n5. Do you want a backup or export before deletion? Deletions may be irreversible (or require special secure-erase steps).\n6. Any legal, compliance, or business constraints I should know about?\n\nIf you understand the consequences and want me to proceed after you answer the above, please confirm explicitly by typing one of these exact phrases:\n- \"I approve \u2014 delete now\"\nor\n- \"I approve \u2014 show deletion steps only\" (if you want instructions but will do the deletion yourself)\n\nI will not take any deletion action until you provide the requested details and one of those confirmation phrases."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 237,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

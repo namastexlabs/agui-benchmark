@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 49149.52142599941,
+    "time_to_first_event_ms": 49148.34193099887,
+    "time_to_first_content_ms": 49149.82393500031,
+    "time_to_complete_ms": 49149.52142599941
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 518,
+    "tokens_approx": 129,
+    "final_text": "I can\u2019t use a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in my toolset. Available tools I can use right now:\n\n- functions.get_current_time \u2014 returns the current date/time.\n- functions.calculator \u2014 evaluates mathematical expressions (e.g., \"2+2\", \"sqrt(2)*3\").\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel.\n\nTell me what you were hoping to do with \"nonexistent_tool\" and I\u2019ll either perform the equivalent action with one of the available tools or suggest another way to get it done."
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 255,
+    "total_tokens": 461
+  },
+  "events": {
+    "total_events": 123,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 518,
+    "total_chunks": 118,
+    "duration_ms": 117.0,
+    "throughput_chars_per_sec": 4427.350427350428,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7945.398796000518,
+    "time_to_first_event_ms": 293.30826200020965,
+    "time_to_first_content_ms": 7945.965877999697,
+    "time_to_complete_ms": 7945.398796000518
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 765,
+    "tokens_approx": 191,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because that tool isn\u2019t available here. I can, however, use the tools that are available to me or simulate the action if you tell me what you want done.\n\nAvailable tools I can use now:\n- get_current_time \u2014 return the current date/time.\n- calculator \u2014 evaluate a math expression (e.g., \"12/4 + 3*2\").\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel.\n\nWhat would you like to accomplish? Examples:\n- \u201cGive me the current time\u201d \u2014 I\u2019ll call get_current_time.\n- \u201cCompute 234 * 19.5\u201d \u2014 I\u2019ll run calculator with that expression.\n- \u201cSimulate what nonexistent_tool would do: it should X\u201d \u2014 tell me X and I\u2019ll produce the simulated result.\n\nTell me the task or which available tool to use, and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 191,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

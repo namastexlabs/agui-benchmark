@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4989.312665002217,
+    "time_to_first_event_ms": 4466.317524002079,
+    "time_to_first_content_ms": 4989.347615999577,
+    "time_to_complete_ms": 4989.312665002217
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 288,
+    "tokens_approx": 72,
+    "final_text": "I can't carry out that request. \n\nThe term \"nonexistent_tool\" is a placeholder that implies something doesn't exist, including a tool. Therefore, using it to accomplish a task is impossible. If you have any other questions or would like help with a different task, I'm here to assist you."
+  },
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 64,
+    "total_tokens": 110
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 288,
+    "total_chunks": 6,
+    "duration_ms": 5.0,
+    "throughput_chars_per_sec": 57600.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

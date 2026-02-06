@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11704.345999998623,
+    "time_to_first_event_ms": 1782.7062249998562,
+    "time_to_first_content_ms": 11704.770926000492,
+    "time_to_complete_ms": 11704.345999998623
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 881,
+    "tokens_approx": 220,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. A few quick questions so I can give safe, correct instructions:\n\n1. What exactly are you deleting (files, database rows, cloud buckets, user accounts, etc.)?\n2. Where is the data stored (Windows, macOS, Linux, AWS/GCP/Azure, Dropbox, MySQL/Postgres, etc.)?\n3. Do you want the data moved to Trash/Recycle Bin (recoverable) or permanently and irreversibly wiped?\n4. Do you have a current backup you can restore from if needed?\n5. Any constraints (must keep metadata, need secure erase, offline device, time window)?\n\nBefore I provide steps, confirm you understand the risk: permanent deletion can be irreversible. If you want me to proceed, reply with explicit approval, for example: \"I approve \u2014 proceed with permanent deletion\" (and include answers to the questions above). I will only continue after that confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 199,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 881,
+    "total_chunks": 195,
+    "duration_ms": 194.0,
+    "throughput_chars_per_sec": 4541.237113402061,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

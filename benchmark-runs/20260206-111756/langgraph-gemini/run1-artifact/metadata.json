@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3872.805461000098,
+    "time_to_first_event_ms": 1814.8124030012696,
+    "time_to_first_content_ms": 3873.617303001083,
+    "time_to_complete_ms": 3872.805461000098
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 369,
+    "tokens_approx": 92,
+    "final_text": "To find x, we need to isolate it in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx = 12 - 5\n\nTo find the value of x, we need to isolate x in the equation x + 5 = To find the value of x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7"
+  },
+  "tokens": {
+    "input_tokens": 288,
+    "output_tokens": 120,
+    "total_tokens": 371
+  },
+  "events": {
+    "total_events": 57,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 207,
+    "total_chunks": 4,
+    "duration_ms": 34.0,
+    "throughput_chars_per_sec": 6088.235294117647,
+    "avg_gap_ms": 11.333333333333334,
+    "p95_gap_ms": 30.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

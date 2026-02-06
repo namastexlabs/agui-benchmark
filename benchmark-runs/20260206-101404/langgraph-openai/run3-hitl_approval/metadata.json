@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7655.577716999687,
+    "time_to_first_event_ms": 931.1634520017833,
+    "time_to_first_content_ms": 7660.190293001506,
+    "time_to_complete_ms": 7655.577716999687
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1134,
+    "tokens_approx": 283,
+    "final_text": "I will not delete any important data without your explicit approval.\n\nBefore I proceed, please confirm:\n1) Exactly what data you want deleted (file names, folders, databases, services).\n2) Where that data is stored and how to access it (paths, servers, cloud providers).\n3) Whether you have a backup you want kept\u2014and if so, where.\n4) Any time constraints or scheduling preferences.\n5) Acknowledgement that deletion may be irreversible and any consequences you accept.\n\nReply with \"I approve\" and the details above to authorize deletion, or \"Do not delete\" to cancel.I will not delete any important data without your explicit approval.\n\nBefore I proceed, please confirm:\n1) Exactly what data you want deleted (file names, folders, databases, services).\n2) Where that data is stored and how to access it (paths, servers, cloud providers).\n3) Whether you have a backup you want kept\u2014and if so, where.\n4) Any time constraints or scheduling preferences.\n5) Acknowledgement that deletion may be irreversible and any consequences you accept.\n\nReply with \"I approve\" and the details above to authorize deletion, or \"Do not delete\" to cancel."
+  },
+  "tokens": {
+    "input_tokens": 402,
+    "output_tokens": 192,
+    "total_tokens": 526
+  },
+  "events": {
+    "total_events": 383,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 567,
+    "total_chunks": 121,
+    "duration_ms": 242.0,
+    "throughput_chars_per_sec": 2342.9752066115702,
+    "avg_gap_ms": 2.0166666666666666,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}
