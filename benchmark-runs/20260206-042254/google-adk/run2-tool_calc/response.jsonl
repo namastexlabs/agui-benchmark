@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc", "_timestamp": 1606.364282731, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "8c3ce753-5c42-46c0-b2a9-4a324c657230", "role": "assistant", "_timestamp": 1606.365282731, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8c3ce753-5c42-46c0-b2a9-4a324c657230", "delta": "The result of 42 * 17 is 714.", "_timestamp": 1606.366282731, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "8c3ce753-5c42-46c0-b2a9-4a324c657230", "_timestamp": 1606.367282731, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc", "_timestamp": 1606.368282731, "_offset_ms": 4.0, "_index": 4}

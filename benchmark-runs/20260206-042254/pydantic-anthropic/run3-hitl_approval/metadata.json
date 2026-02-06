@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2754.6305949999805,
+    "time_to_first_event_ms": 203.23371400013457,
+    "time_to_first_content_ms": 2754.8249589999614,
+    "time_to_complete_ms": 2754.6305949999805
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 15.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_015heuY71hGBTeiGrKzJcdKU",
+        "name": "request_approval",
+        "start_ms": 10.0,
+        "end_ms": 24.0,
+        "result_ms": 25.0,
+        "duration_ms": 15.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 503,
+    "tokens_approx": 125,
+    "final_text": "I'll request approval for this action right away.**Approval Requested** \u26a0\ufe0f\n\nI've submitted a request for human approval to delete important data. Before this action can proceed, a human administrator needs to review and approve it.\n\nTo help expedite the approval process, could you provide more details about:\n- What specific data needs to be deleted?\n- Why is this deletion necessary?\n- Are there any backups in place?\n\nA human reviewer will need to approve this action before any deletion takes place."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 503,
+    "total_chunks": 44,
+    "duration_ms": 61.0,
+    "throughput_chars_per_sec": 8245.901639344263,
+    "avg_gap_ms": 1.4186046511627908,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

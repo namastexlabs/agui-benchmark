@@ -1,0 +1,67 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10167.20764999991,
+    "time_to_first_event_ms": 278.843507999909,
+    "time_to_first_content_ms": 10167.270892000033,
+    "time_to_complete_ms": 10167.20764999991
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 6.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "ec239d59-9ff5-43c0-876c-c85b76b6d0c6",
+        "name": "get_current_time",
+        "start_ms": 3.0,
+        "end_ms": 5.0,
+        "result_ms": 6.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "ce37bbd9-8530-4272-8b3d-1b0173d758ca",
+        "name": "calculator",
+        "start_ms": 7.0,
+        "end_ms": 9.0,
+        "result_ms": 10.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 58,
+    "tokens_approx": 14,
+    "final_text": "The current time is 2026-02-06 04:24:38 and 10 + 20 = 30.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 15,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": null
+}

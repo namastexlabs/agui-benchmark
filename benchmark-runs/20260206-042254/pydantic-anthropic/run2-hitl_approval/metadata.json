@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2495.194594000168,
+    "time_to_first_event_ms": 214.80219099998976,
+    "time_to_first_content_ms": 2495.3416749999633,
+    "time_to_complete_ms": 2495.194594000168
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 17.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p",
+        "name": "request_approval",
+        "start_ms": 1.0,
+        "end_ms": 17.0,
+        "result_ms": 18.0,
+        "duration_ms": 17.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 454,
+    "tokens_approx": 113,
+    "final_text": "I've requested approval for deleting important data. This is a sensitive action, so I need your explicit confirmation before proceeding.\n\nCould you please confirm that you want to proceed with deleting this important data? It would also help if you could provide more details about:\n- What specific data you're deleting\n- Why it needs to be deleted\n- Whether you have a backup in case you need it later\n\nOnce you confirm, I can proceed with the deletion."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 58,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 454,
+    "total_chunks": 36,
+    "duration_ms": 35.0,
+    "throughput_chars_per_sec": 12971.42857142857,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

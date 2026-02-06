@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 2031.054451976, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "88103834-6eae-437d-aee5-8133e7a360ea", "role": "assistant", "_timestamp": 2031.055451976, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "88103834-6eae-437d-aee5-8133e7a360ea", "delta": "I cannot use a tool that does not exist. Please check the tool name and try again.", "_timestamp": 2031.056451976, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "88103834-6eae-437d-aee5-8133e7a360ea", "_timestamp": 2031.057451976, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 2031.058451976, "_offset_ms": 4.0, "_index": 4}

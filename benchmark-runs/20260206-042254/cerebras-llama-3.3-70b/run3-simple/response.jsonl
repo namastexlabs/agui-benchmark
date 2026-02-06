@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-simple", "model": "llama-3.3-70b", "_timestamp": 1656.386429014, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362680", "role": "assistant", "_timestamp": 1656.387429014, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": "Hello", "_timestamp": 1656.388429014, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": "! I'm an AI assistant, here to help answer your questions and provide information on a wide range of topics. I'm a large", "_timestamp": 1656.389429014, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": " language model, trained to generate human", "_timestamp": 1656.390429014, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": "-like responses and engage in conversation, and", "_timestamp": 1656.391429014, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": " I'm excited to chat with you and", "_timestamp": 1656.392429014, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": " see how I", "_timestamp": 1656.393429014, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362680", "delta": " can assist you today!", "_timestamp": 1656.394429014, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362680", "_timestamp": 1656.395429014, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 60, "total_tokens": 108, "model": "llama-3.3-70b", "_timestamp": 1656.396429014, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-simple", "_timestamp": 1656.397429014, "_offset_ms": 11.0, "_index": 11}

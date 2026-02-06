@@ -1,0 +1,58 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-hitl_approval", "_timestamp": 1606.312184448, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "toolCallName": "request_approval", "parentMessageId": "7e4e9ff4-31df-40b5-ba21-264e61e75973", "_timestamp": 1606.313184448, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "", "_timestamp": 1606.3141844479999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "{\"action\"", "_timestamp": 1606.3151844479999, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": ": \"dele", "_timestamp": 1606.3161844479998, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "te", "_timestamp": 1606.317184448, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": " import", "_timestamp": 1606.318184448, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "ant data", "_timestamp": 1606.319184448, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "\"", "_timestamp": 1606.320184448, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": ", \"r", "_timestamp": 1606.321184448, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "eas", "_timestamp": 1606.322184448, "_offset_ms": 10.0, "_index": 10}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "on\": \"Us", "_timestamp": 1606.323184448, "_offset_ms": 11.0, "_index": 11}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "er", "_timestamp": 1606.3241844479999, "_offset_ms": 12.0, "_index": 12}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": " has r", "_timestamp": 1606.3251844479998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "equested to", "_timestamp": 1606.3261844479998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": " delete impo", "_timestamp": 1606.327184448, "_offset_ms": 15.0, "_index": 15}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "delta": "rtant data\"}", "_timestamp": 1606.328184448, "_offset_ms": 16.0, "_index": 16}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "_timestamp": 1606.329184448, "_offset_ms": 17.0, "_index": 17}
+{"type": "TOOL_CALL_RESULT", "messageId": "fa4f652a-dc3f-4ffc-b946-f2c45a8f5d09", "toolCallId": "toolu_018VpyBVbe9pQT1BZ5ZdfY8p", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval (Reason: User has requested to delete important data)", "role": "tool", "_timestamp": 1606.330184448, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_START", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "role": "assistant", "_timestamp": 1606.331184448, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "I've", "_timestamp": 1606.332184448, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " requeste", "_timestamp": 1606.3331844479999, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "d approval", "_timestamp": 1606.3341844479999, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " for del", "_timestamp": 1606.3351844479998, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "eting important data.", "_timestamp": 1606.3361844479998, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " This", "_timestamp": 1606.337184448, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " is a sensitive action,", "_timestamp": 1606.338184448, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " so I need your", "_timestamp": 1606.339184448, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " explicit", "_timestamp": 1606.340184448, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " confirmation", "_timestamp": 1606.341184448, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " before proceeding.", "_timestamp": 1606.342184448, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "\n\nCoul", "_timestamp": 1606.3431844479999, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "d you please confirm that", "_timestamp": 1606.3441844479999, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " you want to proceed with del", "_timestamp": 1606.3451844479998, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "eting this", "_timestamp": 1606.346184448, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " important data? It", "_timestamp": 1606.347184448, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " woul", "_timestamp": 1606.348184448, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "d also", "_timestamp": 1606.349184448, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " help", "_timestamp": 1606.350184448, "_offset_ms": 38.0, "_index": 38}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " if you could provide more", "_timestamp": 1606.351184448, "_offset_ms": 39.0, "_index": 39}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " details about:", "_timestamp": 1606.352184448, "_offset_ms": 40.0, "_index": 40}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "\n- What specific", "_timestamp": 1606.3531844479999, "_offset_ms": 41.0, "_index": 41}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " data you", "_timestamp": 1606.3541844479998, "_offset_ms": 42.0, "_index": 42}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "'re deleting\n- Why", "_timestamp": 1606.3551844479998, "_offset_ms": 43.0, "_index": 43}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " it", "_timestamp": 1606.356184448, "_offset_ms": 44.0, "_index": 44}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " needs", "_timestamp": 1606.357184448, "_offset_ms": 45.0, "_index": 45}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " to be deleted\n- Whether", "_timestamp": 1606.358184448, "_offset_ms": 46.0, "_index": 46}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " you have", "_timestamp": 1606.359184448, "_offset_ms": 47.0, "_index": 47}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " a", "_timestamp": 1606.360184448, "_offset_ms": 48.0, "_index": 48}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " backup in", "_timestamp": 1606.361184448, "_offset_ms": 49.0, "_index": 49}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " case", "_timestamp": 1606.3621844479999, "_offset_ms": 50.0, "_index": 50}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " you need it", "_timestamp": 1606.3631844479999, "_offset_ms": 51.0, "_index": 51}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " later", "_timestamp": 1606.3641844479998, "_offset_ms": 52.0, "_index": 52}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": "\n\nOnce you", "_timestamp": 1606.365184448, "_offset_ms": 53.0, "_index": 53}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " confirm, I can", "_timestamp": 1606.366184448, "_offset_ms": 54.0, "_index": 54}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "delta": " proceed with the deletion.", "_timestamp": 1606.367184448, "_offset_ms": 55.0, "_index": 55}
+{"type": "TEXT_MESSAGE_END", "messageId": "ab3295e3-7130-446c-bca1-5b087df55b7b", "_timestamp": 1606.368184448, "_offset_ms": 56.0, "_index": 56}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-hitl_approval", "_timestamp": 1606.369184448, "_offset_ms": 57.0, "_index": 57}

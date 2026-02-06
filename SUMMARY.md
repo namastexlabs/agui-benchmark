@@ -217,9 +217,20 @@ Total changes: ~8,400 files (mostly benchmark data)
 - `EVENT-TRACKING-ANALYSIS.md` - Complete implementation guide
 - `EVENT-TRACKING-RESULTS.md` - Results & insights
 - `TOKEN-TRACKING-IMPLEMENTATION.md` - Token tracking roadmap
+- `AGUI-SPEC-COMPLIANCE.md` - ⭐ Corrected analysis based on actual AG-UI spec
+- `EVENT-COVERAGE-REPORT.md` - Updated with corrected event types
+- `FRAMEWORK-CAPABILITIES.md` - Updated with spec-compliant analysis
 - `SUMMARY.md` - This file!
 
 All documentation includes examples, insights, and next steps.
+
+**Latest Update (2026-02-06):** Reviewed actual AG-UI protocol spec and corrected all documentation to reflect reality:
+- ✅ Confirmed 26 events in spec (not 28+)
+- ❌ HITL events don't exist in spec (I incorrectly assumed they did)
+- ❌ ARTIFACT events don't exist in spec (I incorrectly assumed they did)
+- ✅ THINKING events DO exist in spec but 0% adoption
+- ✅ ACTIVITY events DO exist and could be used for artifacts
+- ✅ Actual coverage: 18/26 (69.2%)
 
 ---
 

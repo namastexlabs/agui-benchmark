@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b", "_timestamp": 1656.426924885, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362681", "role": "assistant", "_timestamp": 1656.427924885, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": "To", "_timestamp": 1656.428924885, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " solve for x in the equation x + 5 = 12", "_timestamp": 1656.429924885, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": ", I will follow these steps:\n\n1. **Identify the", "_timestamp": 1656.430924885, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " goal**: We need to isolate x, which means getting x", "_timestamp": 1656.4319248850002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " on one side of the equation by itself.\n\n2", "_timestamp": 1656.4329248850001, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": ". **Look for a constant on the same", "_timestamp": 1656.4339248850001, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " side as x**: In this equation, we have +5", "_timestamp": 1656.434924885, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " on the same side as x. Since we want to get x", "_timestamp": 1656.435924885, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " by itself, we need to get rid of the +5", "_timestamp": 1656.436924885, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": ".\n\n3. **Subtract 5 from both sides of", "_timestamp": 1656.437924885, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " the equation**: To get rid of the +5, we can", "_timestamp": 1656.438924885, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " subtract 5 from both sides of the equation. This will cancel", "_timestamp": 1656.439924885, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " out the +5 on the left side (leaving x", "_timestamp": 1656.440924885, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " on its own) and subtract 5 from 12 on the", "_timestamp": 1656.4419248850002, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " right side.\n\n   x + 5 - 5 =", "_timestamp": 1656.4429248850001, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " 12 - 5\n\n   Simplify the equation by", "_timestamp": 1656.4439248850001, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " combining like terms on both sides:\n   x = 7\n\n", "_timestamp": 1656.444924885, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": "   Therefore, the value of x is 7.", "_timestamp": 1656.445924885, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362681", "_timestamp": 1656.446924885, "_offset_ms": 20.0, "_index": 20}
+{"type": "USAGE_METADATA", "input_tokens": 58, "output_tokens": 207, "total_tokens": 265, "model": "llama-3.1-8b", "_timestamp": 1656.447924885, "_offset_ms": 21.0, "_index": 21}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "_timestamp": 1656.448924885, "_offset_ms": 22.0, "_index": 22}

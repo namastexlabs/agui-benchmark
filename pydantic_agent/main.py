@@ -49,14 +49,34 @@ def calculator(expression: str) -> str:
         return f"Error: {str(e)}"
 
 
+def request_approval(action: str, reason: str = "") -> str:
+    """
+    Request human approval before proceeding with an action.
+
+    Args:
+        action: The action that requires approval (e.g., "delete important data")
+        reason: Optional reason for the action
+
+    Returns:
+        Approval status and message
+    """
+    approval_message = f"APPROVAL_REQUESTED: Action '{action}' requires human approval"
+    if reason:
+        approval_message += f" (Reason: {reason})"
+    return approval_message
+
+
 # Shared tools and instructions for all agents
 TOOLS = [
     Tool(get_current_time, takes_ctx=False),
     Tool(calculator, takes_ctx=False),
+    Tool(request_approval, takes_ctx=False),
 ]
 
 INSTRUCTIONS = """You are a helpful assistant running on the PydanticAI framework.
-You can tell the current time and do basic math calculations.
+You can tell the current time, do basic math calculations, and request approval for sensitive actions.
+IMPORTANT: When a user asks to do something potentially dangerous or sensitive (like deleting data),
+you MUST use the request_approval tool first to ask for human approval before proceeding.
 Be concise and friendly in your responses."""
 
 

@@ -1,0 +1,33 @@
+{
+  "thread_id": "test-thread-cerebras-llama-3.1-8b",
+  "run_id": "test-run-cerebras-llama-3.1-8b-multi_turn_memory",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "multi",
+        "messages": [
+          {
+            "role": "user",
+            "content": "My favorite programming language is Python. Remember this."
+          },
+          {
+            "role": "user",
+            "content": "What is my favorite programming language?"
+          }
+        ],
+        "validates": [
+          "context_retention",
+          "MESSAGES_SNAPSHOT",
+          "STATE_SNAPSHOT"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {},
+  "model": "llama-3.1-8b"
+}

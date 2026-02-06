@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "model": "llama-3.1-8b", "_timestamp": 2031.065130751, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363074", "role": "assistant", "_timestamp": 2031.066130751, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": "I", "_timestamp": 2031.067130751, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " cannot proceed with deleting data. Is there anything else I can help with?", "_timestamp": 2031.068130751, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363074", "_timestamp": 2031.0691307509999, "_offset_ms": 4.0, "_index": 4}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 17, "total_tokens": 68, "model": "llama-3.1-8b", "_timestamp": 2031.070130751, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-hitl_approval", "_timestamp": 2031.071130751, "_offset_ms": 6.0, "_index": 6}

@@ -1,0 +1,50 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14208.05234500017,
+    "time_to_first_event_ms": 14207.812755000077,
+    "time_to_first_content_ms": 14208.080461999998,
+    "time_to_complete_ms": 14208.05234500017
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 297,
+    "tokens_approx": 74,
+    "final_text": "I cannot delete data. I am a language model and do not have the ability to perform such actions. I can answer questions, provide information, and engage in conversations.\n\nAlso, please be aware that I will always ask for your approval before performing any action if I had the capability to do so."
+  },
+  "tokens": {
+    "input_tokens": 120,
+    "output_tokens": 61,
+    "total_tokens": 249
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 297,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 297000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

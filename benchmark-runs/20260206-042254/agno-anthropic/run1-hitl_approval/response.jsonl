@@ -1,0 +1,37 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-hitl_approval", "_timestamp": 1558.322309883, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "b245412c-ea63-4848-8132-0f8366b45efa", "role": "assistant", "_timestamp": 1558.3233098829999, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "b245412c-ea63-4848-8132-0f8366b45efa", "_timestamp": 1558.3243098829998, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01K4cwFfUk4gd3xtF6B6KNoV", "toolCallName": "request_approval", "parentMessageId": "b245412c-ea63-4848-8132-0f8366b45efa", "_timestamp": 1558.3253098829998, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01K4cwFfUk4gd3xtF6B6KNoV", "delta": "{\"action\": \"delete important data\", \"reason\": \"User has requested to delete important data\"}", "_timestamp": 1558.3263098829998, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01K4cwFfUk4gd3xtF6B6KNoV", "_timestamp": 1558.327309883, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "f8c691b8-4141-4f6c-94c7-2c6e7e6dceac", "toolCallId": "toolu_01K4cwFfUk4gd3xtF6B6KNoV", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval (Reason: User has requested to delete important data)", "role": "tool", "_timestamp": 1558.328309883, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "role": "assistant", "_timestamp": 1558.329309883, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "I've", "_timestamp": 1558.330309883, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " requeste", "_timestamp": 1558.331309883, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "d approval", "_timestamp": 1558.3323098829999, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " for del", "_timestamp": 1558.3333098829999, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "eting important data. Before", "_timestamp": 1558.3343098829998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " this", "_timestamp": 1558.3353098829998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " action can procee", "_timestamp": 1558.3363098829998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "d, human", "_timestamp": 1558.337309883, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " approval is required. ", "_timestamp": 1558.338309883, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "\n\nCoul", "_timestamp": 1558.339309883, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "d you please provide confirmation", "_timestamp": 1558.340309883, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " that you want to procee", "_timestamp": 1558.341309883, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "d with del", "_timestamp": 1558.3423098829999, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "eting this", "_timestamp": 1558.3433098829998, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " data", "_timestamp": 1558.3443098829998, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "? For", "_timestamp": 1558.3453098829998, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " your", "_timestamp": 1558.3463098829998, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " security, it", "_timestamp": 1558.347309883, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": "'s important that we", "_timestamp": 1558.348309883, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " have", "_timestamp": 1558.349309883, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " explicit", "_timestamp": 1558.350309883, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " approval", "_timestamp": 1558.3513098829999, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " for", "_timestamp": 1558.3523098829999, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " sensitive", "_timestamp": 1558.3533098829998, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " operations", "_timestamp": 1558.3543098829998, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " like", "_timestamp": 1558.3553098829998, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "delta": " this.", "_timestamp": 1558.356309883, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_END", "messageId": "1d13984d-c311-4cf3-aff5-e6343e7a6dd6", "_timestamp": 1558.357309883, "_offset_ms": 35.0, "_index": 35}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-hitl_approval", "_timestamp": 1558.358309883, "_offset_ms": 36.0, "_index": 36}

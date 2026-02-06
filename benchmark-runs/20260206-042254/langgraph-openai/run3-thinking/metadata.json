@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6056.3609970001835,
+    "time_to_first_event_ms": 503.66706200020417,
+    "time_to_first_content_ms": 6058.190593000063,
+    "time_to_complete_ms": 6056.3609970001835
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 248,
+    "tokens_approx": 62,
+    "final_text": "Answer: x = 7.\n\nReason (concise): Subtract 5 from both sides of x + 5 = 12 to isolate x: x = 12 \u2212 5 = 7.\n\nCheck: 7 + 5 = 12.Answer: x = 7.\n\nReason (concise): Subtract 5 from both sides of x + 5 = 12 to isolate x: x = 12 \u2212 5 = 7.\n\nCheck: 7 + 5 = 12."
+  },
+  "tokens": {
+    "input_tokens": 285,
+    "output_tokens": 318,
+    "total_tokens": 603
+  },
+  "events": {
+    "total_events": 129,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 124,
+    "total_chunks": 53,
+    "duration_ms": 105.0,
+    "throughput_chars_per_sec": 1180.952380952381,
+    "avg_gap_ms": 2.019230769230769,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

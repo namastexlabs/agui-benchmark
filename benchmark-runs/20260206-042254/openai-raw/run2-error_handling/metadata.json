@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 44580.62030699989,
+    "time_to_first_event_ms": 44579.755545999884,
+    "time_to_first_content_ms": 44580.864710000016,
+    "time_to_complete_ms": 44580.62030699989
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 539,
+    "tokens_approx": 134,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool.\" I can only call the available tools: get_current_time (returns current date/time) and calculator (evaluate math expressions). \n\nWhat would you like done instead? Options:\n- I can run a math calculation now (give an expression). \n- I can tell you the current date/time. \n- Describe what \"nonexistent_tool\" would do and I can either simulate its behavior here or implement the task using the available tools and my own processing.\n\nTell me which you prefer or describe the task and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 317,
+    "total_tokens": 523
+  },
+  "events": {
+    "total_events": 121,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 539,
+    "total_chunks": 116,
+    "duration_ms": 115.0,
+    "throughput_chars_per_sec": 4686.95652173913,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

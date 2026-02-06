@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 1558.359365062, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "f790960b-8e6c-430c-89c7-27253f673f9b", "role": "assistant", "_timestamp": 1558.360365062, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f790960b-8e6c-430c-89c7-27253f673f9b", "delta": "I am sorry, but as a large language model, I cannot delete data or perform any actions that modify your data. I can only provide information and complete tasks using the tools I have, which are a calculator and a clock.", "_timestamp": 1558.361365062, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "message_id": "f790960b-8e6c-430c-89c7-27253f673f9b", "_timestamp": 1558.362365062, "_offset_ms": 3.0, "_index": 3}
+{"type": "USAGE_METADATA", "input_tokens": 120, "output_tokens": 46, "total_tokens": 235, "model": "gemini-2.5-flash", "_timestamp": 1558.363365062, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 1558.3643650620002, "_offset_ms": 5.0, "_index": 5}

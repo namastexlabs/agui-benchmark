@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-multi_tool", "_timestamp": 1558.360441548, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "a52966a6-42d2-4288-bc07-6c03a1d34de2", "toolCallName": "get_current_time", "_timestamp": 1558.361441548, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a52966a6-42d2-4288-bc07-6c03a1d34de2", "delta": "{}", "_timestamp": 1558.3624415479999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "a52966a6-42d2-4288-bc07-6c03a1d34de2", "_timestamp": 1558.3634415479999, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "a52966a6-42d2-4288-bc07-6c03a1d34de2", "result": "2026-02-06 04:23:05", "_timestamp": 1558.3644415479998, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_ERROR", "message": "Could not convert `part.function_call` to text.", "code": "GEMINI_ERROR", "_timestamp": 1558.365441548, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-multi_tool", "_timestamp": 1558.366441548, "_offset_ms": 6.0, "_index": 6}

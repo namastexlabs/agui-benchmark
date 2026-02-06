@@ -50,13 +50,33 @@ def calculator(expression: str) -> str:
         return f"Error: {str(e)}"
 
 
+@tool()
+def request_approval(action: str, reason: str = "") -> str:
+    """
+    Request human approval before proceeding with an action.
+
+    Args:
+        action: The action that requires approval (e.g., "delete important data")
+        reason: Optional reason for the action
+
+    Returns:
+        Approval status and message
+    """
+    approval_message = f"APPROVAL_REQUESTED: Action '{action}' requires human approval"
+    if reason:
+        approval_message += f" (Reason: {reason})"
+    return approval_message
+
+
 # Common instructions for all agents
 COMMON_INSTRUCTIONS = """You are a helpful assistant running on the Agno framework.
-    You can tell the current time and do basic math calculations.
+    You can tell the current time, do basic math calculations, and request approval for sensitive actions.
+    IMPORTANT: When a user asks to do something potentially dangerous or sensitive (like deleting data),
+    you MUST use the request_approval tool first to ask for human approval before proceeding.
     Be concise and friendly in your responses."""
 
 # Common tools for all agents
-COMMON_TOOLS = [get_current_time, calculator]
+COMMON_TOOLS = [get_current_time, calculator, request_approval]
 
 # Create the Anthropic agent (Claude)
 anthropic_agent = Agent(

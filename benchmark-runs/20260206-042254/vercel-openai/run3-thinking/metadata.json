@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8380.49084499994,
+    "time_to_first_event_ms": 1824.6093230000042,
+    "time_to_first_content_ms": 8380.740649000018,
+    "time_to_complete_ms": 8380.49084499994
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 300,
+    "tokens_approx": 75,
+    "final_text": "Sorry\u2014I can\u2019t share my internal step-by-step chain-of-thought. I can, however, give the answer and a concise explanation.\n\nAnswer: x = 7.\n\nBrief explanation:\n- Subtract 5 from both sides of x + 5 = 12 to keep the equality balanced:\n  x + 5 \u2212 5 = 12 \u2212 5\n- This simplifies to x = 7.\n\nCheck: 7 + 5 = 12."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 99,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 300,
+    "total_chunks": 95,
+    "duration_ms": 94.0,
+    "throughput_chars_per_sec": 3191.4893617021276,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

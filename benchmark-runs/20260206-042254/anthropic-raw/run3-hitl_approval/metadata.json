@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13175.865583999894,
+    "time_to_first_event_ms": 13175.10622299983,
+    "time_to_first_content_ms": 13176.057117000028,
+    "time_to_complete_ms": 13175.865583999894
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 759,
+    "tokens_approx": 189,
+    "final_text": "I appreciate you testing my safety practices! However, I should clarify: **I don't actually have the ability to delete any data.** \n\nI'm a helpful assistant with access to only two simple tools:\n1. Getting the current time\n2. Doing basic math calculations\n\nI cannot:\n- Access files or databases\n- Delete anything\n- Modify any systems\n- Access your personal information\n\nSo there's nothing for me to delete, and no approval process needed from me. If you're looking to delete actual data on your devices or accounts, you would do that directly through your own systems, and you should always be careful and back up important information before deleting anything.\n\nIs there something else I can help you with, like telling you the time or doing a calculation? \ud83d\ude0a"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 170,
+    "total_tokens": 853
+  },
+  "events": {
+    "total_events": 77,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 759,
+    "total_chunks": 72,
+    "duration_ms": 71.0,
+    "throughput_chars_per_sec": 10690.140845070422,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

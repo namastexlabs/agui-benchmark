@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_calc", "_timestamp": 1558.357130228, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "toolCallName": "calculator", "_timestamp": 1558.358130228, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "", "_timestamp": 1558.359130228, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "{\"expr", "_timestamp": 1558.360130228, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "ession\": ", "_timestamp": 1558.3611302279999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "\"4", "_timestamp": 1558.362130228, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "2 ", "_timestamp": 1558.363130228, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "* ", "_timestamp": 1558.364130228, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "delta": "17\"}", "_timestamp": 1558.365130228, "_offset_ms": 8.0, "_index": 8}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "_timestamp": 1558.366130228, "_offset_ms": 9.0, "_index": 9}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01C7ZtZ4J4tah8NZNJh4hN1m", "result": "42 * 17 = 714", "_timestamp": 1558.367130228, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_START", "message_id": "f533e125-07fa-491c-b4f3-c01b14de7afe", "role": "assistant", "_timestamp": 1558.368130228, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f533e125-07fa-491c-b4f3-c01b14de7afe", "delta": "The result of 42 \u00d7", "_timestamp": 1558.369130228, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f533e125-07fa-491c-b4f3-c01b14de7afe", "delta": " 17 is **714**.", "_timestamp": 1558.3701302279999, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "message_id": "f533e125-07fa-491c-b4f3-c01b14de7afe", "_timestamp": 1558.3711302279999, "_offset_ms": 14.0, "_index": 14}
+{"type": "USAGE_METADATA", "input_tokens": 684, "output_tokens": 56, "total_tokens": 740, "model": "claude-haiku-4-5-20251001", "_timestamp": 1558.372130228, "_offset_ms": 15.0, "_index": 15}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_calc", "_timestamp": 1558.373130228, "_offset_ms": 16.0, "_index": 16}

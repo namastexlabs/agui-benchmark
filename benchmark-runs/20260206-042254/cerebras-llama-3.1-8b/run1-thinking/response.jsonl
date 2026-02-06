@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b", "_timestamp": 1558.364616667, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362579", "role": "assistant", "_timestamp": 1558.365616667, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": "To", "_timestamp": 1558.366616667, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " solve for x in the equation x + 5 =", "_timestamp": 1558.367616667, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " 12, we need to isolate x on one side", "_timestamp": 1558.368616667, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " of the equation.\n\nHere's the step-by-step process:\n\n", "_timestamp": 1558.3696166670002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": "1. Start with the given equation: \n  ", "_timestamp": 1558.3706166670001, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " x + 5 = 12\n\n2. We need to", "_timestamp": 1558.3716166670001, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " get x by itself, so we'll get rid of the", "_timestamp": 1558.372616667, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " +5 on the left side. We can do", "_timestamp": 1558.373616667, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " this by performing the opposite operation of addition, which", "_timestamp": 1558.374616667, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " is subtraction. \n   To do this, we'll", "_timestamp": 1558.375616667, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " subtract 5 from both sides of the equation to keep the", "_timestamp": 1558.376616667, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " equation balanced. \n\n3. Subtract 5 from both", "_timestamp": 1558.377616667, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " sides:\n   x + 5 - 5 =", "_timestamp": 1558.378616667, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " 12 - 5\n\n4. Simplify both sides:\n", "_timestamp": 1558.3796166670002, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": "   x = 7\n\nSo, x is equal", "_timestamp": 1558.3806166670001, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362579", "delta": " to 7.", "_timestamp": 1558.3816166670001, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362579", "_timestamp": 1558.382616667, "_offset_ms": 18.0, "_index": 18}
+{"type": "USAGE_METADATA", "input_tokens": 58, "output_tokens": 164, "total_tokens": 222, "model": "llama-3.1-8b", "_timestamp": 1558.383616667, "_offset_ms": 19.0, "_index": 19}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "_timestamp": 1558.384616667, "_offset_ms": 20.0, "_index": 20}

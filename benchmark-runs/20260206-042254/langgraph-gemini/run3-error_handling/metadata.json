@@ -1,0 +1,45 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3222.479561,
+    "time_to_first_event_ms": 776.4687649998905,
+    "time_to_first_content_ms": 3222.7742049999506,
+    "time_to_complete_ms": 3222.479561
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 154,
+    "tokens_approx": 38,
+    "final_text": "I cannot use the `nonexistent_tool` as it is not an available tool. I can use the following tools: `get_current_time`, `calculator`, and `request_approval"
+  },
+  "tokens": {
+    "input_tokens": 237,
+    "output_tokens": 113,
+    "total_tokens": 350
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

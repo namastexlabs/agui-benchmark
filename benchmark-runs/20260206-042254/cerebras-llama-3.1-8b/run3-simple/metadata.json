@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4959.322732999908,
+    "time_to_first_event_ms": 4529.9592710000525,
+    "time_to_first_content_ms": 4959.365711999908,
+    "time_to_complete_ms": 4959.322732999908
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 340,
+    "tokens_approx": 85,
+    "final_text": "Hello, my name is AI Assistant, and I'm a large language model designed to provide information, answer questions, and assist with tasks to the best of my abilities. I'm here to help and support you with any questions or topics you'd like to discuss, and I'll do my best to provide accurate and helpful responses. How can I assist you today?"
+  },
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 74,
+    "total_tokens": 122
+  },
+  "events": {
+    "total_events": 12,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 340,
+    "total_chunks": 7,
+    "duration_ms": 6.0,
+    "throughput_chars_per_sec": 56666.666666666664,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5057.293223999977,
+    "time_to_first_event_ms": 505.37575599992124,
+    "time_to_first_content_ms": 5059.853686999986,
+    "time_to_complete_ms": 5057.293223999977
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 954,
+    "tokens_approx": 238,
+    "final_text": "I appreciate you wanting to be cautious, but I think there may be a small misunderstanding here! \n\n**You** are asking me to delete important data, and **I** need to ask **you** for approval before proceeding. Let me do that now:I've submitted a request for approval to proceed with deleting important data. Before this action is approved, can you confirm:\n\n1. **What specific data** do you want to delete?\n2. **Are you certain** this is what you want to do?\n3. **Do you have a backup** of this data in case you need it later?\n\nThese details will help ensure this is the right action to take!I've submitted a request for approval to proceed with deleting important data. Before this action is approved, can you confirm:\n\n1. **What specific data** do you want to delete?\n2. **Are you certain** this is what you want to do?\n3. **Do you have a backup** of this data in case you need it later?\n\nThese details will help ensure this is the right action to take!"
+  },
+  "tokens": {
+    "input_tokens": 976,
+    "output_tokens": 92,
+    "total_tokens": 1068
+  },
+  "events": {
+    "total_events": 193,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 591,
+    "total_chunks": 63,
+    "duration_ms": 171.0,
+    "throughput_chars_per_sec": 3456.140350877193,
+    "avg_gap_ms": 2.7580645161290325,
+    "p95_gap_ms": 2.85,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-thinking", "_timestamp": 1606.366609118, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "380f97fe-b2e4-46e1-9074-71f359a4f96f", "role": "assistant", "_timestamp": 1606.367609118, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "380f97fe-b2e4-46e1-9074-71f359a4f96f", "delta": "To find x, we can subtract 5 from both sides of the equation:\nx + 5 = 12\nx = 12 - 5", "_timestamp": 1606.368609118, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "380f97fe-b2e4-46e1-9074-71f359a4f96f", "delta": "So, x = 7.", "_timestamp": 1606.369609118, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "380f97fe-b2e4-46e1-9074-71f359a4f96f", "_timestamp": 1606.370609118, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-thinking", "_timestamp": 1606.3716091180002, "_offset_ms": 5.0, "_index": 5}

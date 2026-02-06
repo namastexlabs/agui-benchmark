@@ -1,0 +1,15 @@
+{
+  "thread_id": "test-thread-llamaindex-gemini",
+  "run_id": "test-run-llamaindex-gemini-multi_tool",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "First get the current time, then calculate 10 + 20."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

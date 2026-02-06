@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool", "_timestamp": 1558.339738334, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_abee815ba44f430aabe25abd614d174c", "toolCallName": "get_current_time", "parentMessageId": "3d213bc5-98f3-4480-8132-6dbf5d6090b7", "_timestamp": 1558.340738334, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_abee815ba44f430aabe25abd614d174c", "_timestamp": 1558.341738334, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_RESULT", "messageId": "3c782a6c-7b66-46f0-85a2-df2aedc91f09", "toolCallId": "pyd_ai_abee815ba44f430aabe25abd614d174c", "content": "2026-02-06 04:22:57", "role": "tool", "_timestamp": 1558.342738334, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_af7799806eff433ba10a2be97711cd18", "toolCallName": "calculator", "parentMessageId": "209c9b69-ab20-41b8-b7e5-1213d7a7bc22", "_timestamp": 1558.343738334, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_af7799806eff433ba10a2be97711cd18", "delta": "{\"expression\":\"10 + 20\"}", "_timestamp": 1558.344738334, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_af7799806eff433ba10a2be97711cd18", "_timestamp": 1558.345738334, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_RESULT", "messageId": "07efcdfb-8c0a-4981-b831-38b5b9528d53", "toolCallId": "pyd_ai_af7799806eff433ba10a2be97711cd18", "content": "10 + 20 = 30", "role": "tool", "_timestamp": 1558.346738334, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_START", "messageId": "cf23a671-d318-4808-84e3-2a7adf0ea977", "role": "assistant", "_timestamp": 1558.347738334, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cf23a671-d318-4808-84e3-2a7adf0ea977", "delta": "The current time is", "_timestamp": 1558.348738334, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cf23a671-d318-4808-84e3-2a7adf0ea977", "delta": " 2026-02-06 04:2", "_timestamp": 1558.349738334, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cf23a671-d318-4808-84e3-2a7adf0ea977", "delta": "2:57, and the result of 10 + 20 is 30.\n", "_timestamp": 1558.350738334, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "cf23a671-d318-4808-84e3-2a7adf0ea977", "_timestamp": 1558.351738334, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool", "_timestamp": 1558.352738334, "_offset_ms": 13.0, "_index": 13}

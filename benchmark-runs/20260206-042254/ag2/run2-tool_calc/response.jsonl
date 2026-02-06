@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc", "_timestamp": 1606.354194957, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "0edc14d2-8138-4030-917b-d523dd0e5e43", "role": "assistant", "_timestamp": 1606.3551949569999, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0edc14d2-8138-4030-917b-d523dd0e5e43", "delta": "42 \u00d7 17 = 714. \n(Quick check: 42\u00d710 = 420; 42\u00d77 = 294; total = 420 + 294 = 714.)", "_timestamp": 1606.3561949569998, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "0edc14d2-8138-4030-917b-d523dd0e5e43", "_timestamp": 1606.3571949569998, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc", "_timestamp": 1606.3581949569998, "_offset_ms": 4.0, "_index": 4}

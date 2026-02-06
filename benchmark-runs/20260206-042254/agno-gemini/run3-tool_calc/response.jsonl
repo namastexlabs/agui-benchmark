@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_calc", "_timestamp": 1656.277606565, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "9a671b86-8762-49d4-8b98-9c27bbb1ccc3", "role": "assistant", "_timestamp": 1656.278606565, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "9a671b86-8762-49d4-8b98-9c27bbb1ccc3", "_timestamp": 1656.279606565, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "472286f3-f9d4-43e6-858f-f575bc41baf2", "toolCallName": "calculator", "parentMessageId": "9a671b86-8762-49d4-8b98-9c27bbb1ccc3", "_timestamp": 1656.280606565, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "472286f3-f9d4-43e6-858f-f575bc41baf2", "delta": "{\"expression\": \"42 * 17\"}", "_timestamp": 1656.281606565, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "472286f3-f9d4-43e6-858f-f575bc41baf2", "_timestamp": 1656.2826065650002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "14e2267d-0158-4652-8dd5-00e823e1ddbe", "toolCallId": "472286f3-f9d4-43e6-858f-f575bc41baf2", "content": "42 * 17 = 714", "role": "tool", "_timestamp": 1656.2836065650001, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "f07b35be-df1b-4584-9847-b1f18eba706b", "role": "assistant", "_timestamp": 1656.284606565, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f07b35be-df1b-4584-9847-b1f18eba706b", "delta": "4", "_timestamp": 1656.285606565, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f07b35be-df1b-4584-9847-b1f18eba706b", "delta": "2 * 17 = 714.", "_timestamp": 1656.286606565, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_END", "messageId": "f07b35be-df1b-4584-9847-b1f18eba706b", "_timestamp": 1656.287606565, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_calc", "_timestamp": 1656.288606565, "_offset_ms": 11.0, "_index": 11}

@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3129.7664789999544,
+    "time_to_first_event_ms": 503.02189499984706,
+    "time_to_first_content_ms": 3130.9983940000166,
+    "time_to_complete_ms": 3129.7664789999544
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 26,
+    "tokens_approx": 6,
+    "final_text": "42 * 17 = 71442 * 17 = 714"
+  },
+  "tokens": {
+    "input_tokens": 315,
+    "output_tokens": 26,
+    "total_tokens": 325
+  },
+  "events": {
+    "total_events": 76,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 13,
+    "total_chunks": 7,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 1083.3333333333333,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

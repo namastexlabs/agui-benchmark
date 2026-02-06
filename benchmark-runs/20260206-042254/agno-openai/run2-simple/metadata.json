@@ -1,0 +1,49 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2417.8524809999544,
+    "time_to_first_event_ms": 273.24701099996673,
+    "time_to_first_content_ms": 2417.984954000076,
+    "time_to_complete_ms": 2417.8524809999544
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 193,
+    "tokens_approx": 48,
+    "final_text": "Hello \u2014 I\u2019m Agno, an AI assistant here to help with questions, tasks, and quick calculations. I can provide information, draft or edit text, and walk you through technical or everyday problems."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 45,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 193,
+    "total_chunks": 41,
+    "duration_ms": 40.0,
+    "throughput_chars_per_sec": 4825.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

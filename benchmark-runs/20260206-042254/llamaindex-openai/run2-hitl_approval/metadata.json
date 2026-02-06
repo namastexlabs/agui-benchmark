@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13650.100147000103,
+    "time_to_first_event_ms": 315.10967300005177,
+    "time_to_first_content_ms": 13650.753973000064,
+    "time_to_complete_ms": 13650.100147000103
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1135,
+    "tokens_approx": 283,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and an explicit confirmation from you.\n\nPlease provide:\n1. What exactly should be deleted? (file names / folders / databases / cloud buckets \u2014 be specific.)\n2. Where is it stored? (local machine, specific server, cloud provider and bucket/instance name, external drive, etc.)\n3. Do you have a backup or do you want me to create/describe a backup procedure first?\n4. Do you want a reversible delete (trash/soft delete) or permanent secure wipe (overwriting/unrecoverable)?\n5. How will the deletion be performed? (Do you want commands I can provide for you to run, or instructions for an admin/engineer to execute? I cannot access your systems directly.)\n\nWhen you\u2019re ready, confirm by typing one of these exact approval phrases (so I don\u2019t act on an accidental reply):\n- For reversible delete: I APPROVE REVERSIBLE DELETE for [describe items]\n- For permanent delete: I APPROVE PERMANENT DELETE for [describe items]\n\nI will wait for those details and the exact approval phrase before giving deletion steps or proceeding further."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 248,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,28 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time", "_timestamp": 1558.322916935, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "b4e30147-972e-40f0-a2f7-50e53a3109e6", "role": "assistant", "_timestamp": 1558.323916935, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "b4e30147-972e-40f0-a2f7-50e53a3109e6", "_timestamp": 1558.324916935, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "call_ciSsFL0jmkyQEry6TMVDBcem", "toolCallName": "get_current_time", "parentMessageId": "b4e30147-972e-40f0-a2f7-50e53a3109e6", "_timestamp": 1558.325916935, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_ciSsFL0jmkyQEry6TMVDBcem", "delta": "{}", "_timestamp": 1558.3269169349999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "call_ciSsFL0jmkyQEry6TMVDBcem", "_timestamp": 1558.327916935, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "56d4aadc-853f-4d17-a3e6-66bca5804e1f", "toolCallId": "call_ciSsFL0jmkyQEry6TMVDBcem", "content": "2026-02-06 04:22:55", "role": "tool", "_timestamp": 1558.328916935, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "role": "assistant", "_timestamp": 1558.329916935, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "The", "_timestamp": 1558.330916935, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": " current", "_timestamp": 1558.331916935, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": " time", "_timestamp": 1558.332916935, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": " is", "_timestamp": 1558.333916935, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": " ", "_timestamp": 1558.334916935, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "202", "_timestamp": 1558.335916935, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "6", "_timestamp": 1558.3369169349999, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "-", "_timestamp": 1558.337916935, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "02", "_timestamp": 1558.338916935, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "-", "_timestamp": 1558.339916935, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "06", "_timestamp": 1558.340916935, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": " ", "_timestamp": 1558.341916935, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "04", "_timestamp": 1558.342916935, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": ":", "_timestamp": 1558.343916935, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "22", "_timestamp": 1558.344916935, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": ":", "_timestamp": 1558.3459169349999, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": "55", "_timestamp": 1558.3469169349999, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "delta": ".", "_timestamp": 1558.347916935, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_END", "messageId": "cc8472e3-d0b4-4dd2-b675-ab4e4700b268", "_timestamp": 1558.348916935, "_offset_ms": 26.0, "_index": 26}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time", "_timestamp": 1558.349916935, "_offset_ms": 27.0, "_index": 27}

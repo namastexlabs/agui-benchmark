@@ -3,27 +3,28 @@
 **Benchmark:** 20260206-015725
 **Tests:** 609 across 26 agents
 **Test Types:** 9 (simple, tool_time, tool_calc, multi_tool, thinking, artifact, hitl_approval, error_handling, multi_turn_memory)
+**AG-UI Spec Version:** v0.1.10 (26 event types defined)
+**Scope:** Analysis focuses ONLY on the 26 events defined in AG-UI spec
 
 ---
 
 ## 🚨 CRITICAL FINDINGS
 
-### ❌ Missing Event Types (Expected but NEVER Captured)
+### ❌ Events Defined in Spec But NEVER Captured (8 events)
 
-| Event Type | Status | Impact |
-|------------|--------|--------|
-| **HITL_PROMPT** | ❌ NEVER emitted | No frameworks emit HITL events |
-| **HITL_RESPONSE** | ❌ NEVER emitted | Human-in-loop not observable |
-| **HITL_REQUEST** | ❌ NEVER emitted | Test runs but no events |
-| **HITL_RESULT** | ❌ NEVER emitted | |
-| **ARTIFACT_START** | ❌ NEVER emitted | No frameworks emit artifact events |
-| **ARTIFACT_CONTENT** | ❌ NEVER emitted | Artifacts not observable |
-| **ARTIFACT_END** | ❌ NEVER emitted | Test runs but no events |
-| **THINKING_START** | ❌ NEVER emitted | No frameworks emit thinking events |
-| **THINKING_CONTENT** | ❌ NEVER emitted | Reasoning not observable |
-| **THINKING_END** | ❌ NEVER emitted | Test runs but no events |
+| Event Type | Status | Purpose |
+|------------|--------|---------|
+| **THINKING_START** | ❌ 0% adoption | For Claude extended thinking, o1 reasoning |
+| **THINKING_END** | ❌ 0% adoption | Thinking step boundaries |
+| **THINKING_TEXT_MESSAGE_START** | ❌ 0% adoption | Expose reasoning process |
+| **THINKING_TEXT_MESSAGE_CONTENT** | ❌ 0% adoption | Stream reasoning deltas |
+| **THINKING_TEXT_MESSAGE_END** | ❌ 0% adoption | End of reasoning stream |
+| **STATE_DELTA** | ❌ 0% adoption | JSON Patch format for incremental state updates |
+| **ACTIVITY_SNAPSHOT** | ❌ 0% adoption | Rich content (diagrams, code, media) |
+| **ACTIVITY_DELTA** | ❌ 0% adoption | Incremental activity updates |
+| **CUSTOM** | ❌ 0% adoption | Framework-specific extensions |
 
-**Analysis:** We run `hitl_approval`, `artifact`, and `thinking` tests, but frameworks treat them as regular text responses without specialized AG-UI events!
+**Analysis:** AG-UI spec defines 26 events. We capture **18/26 (69.2%)**. The 8 unused events represent advanced capabilities that no frameworks have implemented yet.
 
 ---
 
@@ -54,7 +55,7 @@
 
 ## 📊 COMPREHENSIVE EVENT MATRIX
 
-### All Frameworks × All Event Types
+### All Frameworks × All AG-UI Spec Events (26 Total)
 
 | Event Type | ag2 | agno-anthropic | agno-cerebras | agno-gemini | agno-openai | anthropic-raw | cerebras-llama-3.1 | cerebras-llama-3.3 | crewai | gemini-raw | google-adk | langgraph-anthropic | langgraph-cerebras | langgraph-gemini | langgraph-openai | llamaindex-anthropic | llamaindex-gemini | llamaindex-openai | openai-raw | pydantic-anthropic | pydantic-gemini | pydantic-openai | vercel-anthropic | vercel-gemini | vercel-openai |
 |------------|-----|----------------|---------------|-------------|-------------|---------------|-------------------|-------------------|--------|------------|------------|---------------------|-------------------|------------------|------------------|---------------------|------------------|------------------|------------|-------------------|----------------|----------------|-----------------|--------------|--------------|
@@ -65,38 +66,48 @@
 | **TEXT_MESSAGE_CONTENT** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **TEXT_MESSAGE_END** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **TEXT_MESSAGE_CHUNK** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **THINKING_START** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **THINKING_END** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **THINKING_TEXT_MESSAGE_START** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **THINKING_TEXT_MESSAGE_CONTENT** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **THINKING_TEXT_MESSAGE_END** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **TOOL_CALL_START** | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **TOOL_CALL_ARGS** | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **TOOL_CALL_END** | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **TOOL_CALL_RESULT** | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **TOOL_CALL_CHUNK** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **TOOL_CALL_RESULT** | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **STATE_SNAPSHOT** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **STATE_DELTA** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **MESSAGES_SNAPSHOT** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **ACTIVITY_SNAPSHOT** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **ACTIVITY_DELTA** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **STEP_STARTED** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **STEP_FINISHED** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **RAW** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **USAGE_METADATA** | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **HITL_PROMPT** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **ARTIFACT_START** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **THINKING_START** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **CUSTOM** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **[USAGE_METADATA]** | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+**Note:** [USAGE_METADATA] is NOT in AG-UI spec but anthropic-raw added as custom event. HITL/ARTIFACT events don't exist in spec.
 
 ---
 
 ## 🧪 TEST TYPE × EVENT MATRIX
 
-Shows which events are captured during each test type:
+Shows which AG-UI spec events are captured during each test type:
 
-| Test Type | TEXT_MESSAGE | TOOL_CALL | STATE | HITL | ARTIFACT | THINKING | USAGE | Notes |
-|-----------|--------------|-----------|-------|------|----------|----------|-------|-------|
-| **simple** | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | Basic text generation |
-| **tool_time** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | Tools work correctly |
-| **tool_calc** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | Tools work correctly |
-| **multi_tool** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | Multiple tools work |
-| **thinking** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ⚠️ No THINKING events! |
-| **artifact** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ⚠️ No ARTIFACT events! |
-| **hitl_approval** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ⚠️ No HITL events! |
-| **error_handling** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | Standard error responses |
-| **multi_turn_memory** | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ Most tests fail! |
+| Test Type | TEXT_MESSAGE | TOOL_CALL | STATE | THINKING | ACTIVITY | Notes |
+|-----------|--------------|-----------|-------|----------|----------|-------|
+| **simple** | ✅ | ❌ | ✅ | ❌ | ❌ | Basic text generation |
+| **tool_time** | ✅ | ✅ | ✅ | ❌ | ❌ | Tools work correctly |
+| **tool_calc** | ✅ | ✅ | ✅ | ❌ | ❌ | Tools work correctly |
+| **multi_tool** | ✅ | ✅ | ✅ | ❌ | ❌ | Multiple tools work |
+| **thinking** | ✅ | ✅ | ✅ | ❌ | ❌ | No THINKING_* events emitted |
+| **artifact** | ✅ | ✅ | ✅ | ❌ | ❌ | No ACTIVITY_* events emitted |
+| **hitl_approval** | ✅ | ✅ | ✅ | ❌ | ❌ | Requires request_approval tool (Agno tested ✅) |
+| **error_handling** | ✅ | ✅ | ✅ | ❌ | ❌ | RUN_ERROR properly emitted |
+| **multi_turn_memory** | ❌ | ❌ | ❌ | ❌ | ❌ | Most tests fail |
+
+**Finding:** All tests use standard events (TEXT_MESSAGE, TOOL_CALL, STATE). Advanced spec events (THINKING, ACTIVITY) are never emitted by any framework.
 
 ---
 
@@ -154,13 +165,25 @@ Shows which events are captured during each test type:
 
 ---
 
-### Advanced Events (NEVER Captured)
-- ❌ **HITL_PROMPT/RESPONSE**: 0% coverage
-- ❌ **ARTIFACT_START/CONTENT/END**: 0% coverage
-- ❌ **THINKING_START/CONTENT/END**: 0% coverage
+### Thinking Events (In Spec, Never Captured)
+- ❌ **THINKING_START/END**: 0% coverage
+- ❌ **THINKING_TEXT_MESSAGE_START/CONTENT/END**: 0% coverage
 
-**Status:** ❌ NOT SUPPORTED - No frameworks emit these
-**Impact:** Cannot observe HITL, artifacts, or reasoning
+**Status:** ❌ NOT USED - Defined in spec but no frameworks emit
+**Impact:** Cannot observe Claude extended thinking, o1 reasoning, multi-step planning
+
+### Activity Events (In Spec, Never Captured)
+- ❌ **ACTIVITY_SNAPSHOT**: 0% coverage
+- ❌ **ACTIVITY_DELTA**: 0% coverage
+
+**Status:** ❌ NOT USED - Designed for rich content but no frameworks use
+**Impact:** Could be used for artifacts, diagrams, rich media
+
+### State Delta (In Spec, Never Captured)
+- ❌ **STATE_DELTA**: 0% coverage
+
+**Status:** ❌ NOT USED - Frameworks only use STATE_SNAPSHOT (full state)
+**Impact:** Inefficient for large state objects
 
 ---
 
@@ -219,26 +242,45 @@ Shows which events are captured during each test type:
 
 ---
 
-## 🎯 Recommendations
+## 🎯 Recommendations for Framework Authors
 
-### For AG-UI Spec Authors
-1. **Standardize HITL events** - No frameworks emit these
-2. **Standardize ARTIFACT events** - No frameworks emit these
-3. **Standardize THINKING events** - No frameworks emit these
-4. **Mandate USAGE_METADATA** - Only 1/26 agents emit this!
+### High Priority - Core Spec Events (0% adoption)
 
-### For Framework Authors
-1. **Add USAGE_METADATA** - Critical for cost tracking (only anthropic-raw has it)
-2. **Implement HITL events** - User approval flows not observable
-3. **Implement ARTIFACT events** - Code/diagram generation not observable
-4. **Add STATE_SNAPSHOT** - Only 3/12 frameworks expose state
-5. **Standardize on CONTENT vs CHUNK** - LlamaIndex uses non-standard pattern
+1. **Implement THINKING Events** (5 events)
+   - THINKING_START, THINKING_END for step boundaries
+   - THINKING_TEXT_MESSAGE_START/CONTENT/END for reasoning streams
+   - **Use case:** Claude extended thinking, o1 reasoning, multi-step planning
+   - **Impact:** Makes reasoning process observable
 
-### For Test Suite Improvements
-1. **Better HITL triggers** - Current prompts don't trigger actual HITL
-2. **Better ARTIFACT triggers** - Need prompts that force artifact creation
-3. **Better THINKING triggers** - Need prompts that expose reasoning
-4. **Multi-turn fixes** - 0% event capture in multi_turn_memory tests
+2. **Use ACTIVITY Events** (2 events)
+   - ACTIVITY_SNAPSHOT for rich content (code artifacts, diagrams, media)
+   - ACTIVITY_DELTA for incremental updates
+   - **Use case:** Code generation, visualizations, structured outputs
+   - **Impact:** Standardizes artifact/rich content patterns
+
+3. **Implement STATE_DELTA** (1 event)
+   - JSON Patch format (RFC 6902) for incremental state updates
+   - **Use case:** Large state objects, frequent updates
+   - **Impact:** More efficient than full STATE_SNAPSHOT
+
+4. **Use CUSTOM Events** (1 event)
+   - Framework-specific extensions while maintaining AG-UI compatibility
+   - **Use case:** Proprietary features, experimental capabilities
+   - **Impact:** Enables innovation without breaking protocol
+
+### Medium Priority - Improve Existing
+
+5. **Add STATE_SNAPSHOT** - Only 3/12 frameworks expose state
+6. **Standardize on START/CONTENT/END** - Some use CHUNK pattern instead
+
+---
+
+## 🎯 For Benchmark Improvements
+
+1. **Add THINKING triggers** - Need prompts that engage extended thinking/reasoning
+2. **Add ACTIVITY triggers** - Need prompts that generate rich content/artifacts
+3. **Fix multi_turn_memory** - 0% event capture, most tests fail
+4. **Test STATE_DELTA** - Need frameworks that implement incremental updates
 
 ---
 
@@ -303,20 +345,26 @@ RUN_FINISHED
 
 ## ✅ Summary
 
-| Category | Events Found | Events Missing | Coverage |
-|----------|-------------|----------------|----------|
-| **Core Lifecycle** | 3/3 | 0 | 100% ✅ |
-| **Text Streaming** | 4/4 | 0 | 100% ✅ |
-| **Tool Calling** | 5/5 | 0 | 100% ✅ |
-| **State Management** | 4/4 | 0 | 100% ✅ |
-| **HITL** | 0/4 | 4 | 0% ❌ |
-| **Artifacts** | 0/3 | 3 | 0% ❌ |
-| **Thinking** | 0/3 | 3 | 0% ❌ |
-| **Observability** | 2/2 | 0 | 100% ✅ |
+| Category | In Spec | Captured | Missing | Coverage |
+|----------|---------|----------|---------|----------|
+| **Core Lifecycle** | 3 | 3 | 0 | 100% ✅ |
+| **Text Streaming** | 4 | 4 | 0 | 100% ✅ |
+| **Thinking** | 5 | 0 | 5 | 0% ❌ |
+| **Tool Calling** | 5 | 5 | 0 | 100% ✅ |
+| **State Management** | 5 | 2 | 3 | 40% ⚠️ |
+| **Steps** | 2 | 2 | 0 | 100% ✅ |
+| **Framework** | 2 | 1 | 1 | 50% ⚠️ |
 
-**Overall:** 18/28 expected event types captured (64%)
+**Overall:** 18/26 AG-UI event types captured (69.2%)
 
-**Key Gap:** HITL, Artifacts, and Thinking events are completely missing from all frameworks!
+**Key Gaps:**
+- ❌ THINKING events (5) - In spec but 0% adoption
+- ❌ ACTIVITY events (2) - In spec but 0% adoption
+- ❌ STATE_DELTA (1) - In spec but 0% adoption
+
+**Not in Spec (and don't need to be):**
+- ℹ️ **HITL** - Can be implemented via TOOL_CALL events + approval tools (see HITL-IMPLEMENTATION-ANALYSIS.md)
+- ℹ️ **ARTIFACTS** - Can use ACTIVITY_SNAPSHOT events or CUSTOM events
 
 ---
 

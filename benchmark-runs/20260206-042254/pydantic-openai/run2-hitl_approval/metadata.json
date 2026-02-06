@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3742.983899999899,
+    "time_to_first_event_ms": 254.9433599999702,
+    "time_to_first_content_ms": 3743.1760160000067,
+    "time_to_complete_ms": 3742.983899999899
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 22.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "call_hTFWNIoufce8LwCe1FErmj5c",
+        "name": "request_approval",
+        "start_ms": 1.0,
+        "end_ms": 22.0,
+        "result_ms": 23.0,
+        "duration_ms": 22.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 199,
+    "tokens_approx": 49,
+    "final_text": "I have requested human approval to delete the important data. I cannot proceed until that approval is granted. Would you like me to provide a brief summary of what will be deleted so you can confirm?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 199,
+    "total_chunks": 39,
+    "duration_ms": 38.0,
+    "throughput_chars_per_sec": 5236.8421052631575,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

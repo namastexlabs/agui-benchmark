@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3847.4166339999556,
+    "time_to_first_event_ms": 1544.558563999999,
+    "time_to_first_content_ms": 3847.995940000146,
+    "time_to_complete_ms": 3847.4166339999556
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 82,
+    "tokens_approx": 20,
+    "final_text": "The current time is 04:22:57 on 2026-02The current time is 04:22:57 on 2026-02-06."
+  },
+  "tokens": {
+    "input_tokens": 335,
+    "output_tokens": 17,
+    "total_tokens": 339
+  },
+  "events": {
+    "total_events": 52,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 39,
+    "total_chunks": 2,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 19500.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

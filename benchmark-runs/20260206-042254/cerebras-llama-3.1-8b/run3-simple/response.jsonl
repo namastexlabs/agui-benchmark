@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "model": "llama-3.1-8b", "_timestamp": 1656.418765594, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362681", "role": "assistant", "_timestamp": 1656.419765594, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": "Hello", "_timestamp": 1656.420765594, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": ", my name is AI Assistant, and I'm a large language model designed to", "_timestamp": 1656.421765594, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " provide information, answer questions, and assist with tasks", "_timestamp": 1656.4227655939999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " to the best of my abilities. I'm here to help", "_timestamp": 1656.423765594, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " and support you with any questions or topics you'd like to discuss", "_timestamp": 1656.424765594, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": ", and I'll do my best to provide accurate and helpful", "_timestamp": 1656.425765594, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " responses. How can I assist you today?", "_timestamp": 1656.426765594, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362681", "_timestamp": 1656.427765594, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 74, "total_tokens": 122, "model": "llama-3.1-8b", "_timestamp": 1656.428765594, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "_timestamp": 1656.429765594, "_offset_ms": 11.0, "_index": 11}

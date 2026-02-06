@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1256.5263849999155,
+    "time_to_first_event_ms": 252.12413999997807,
+    "time_to_first_content_ms": 1257.393109999839,
+    "time_to_complete_ms": 1256.5263849999155
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 484,
+    "tokens_approx": 121,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant powered by LangGraph, and I'm here to help you with a variety of tasks. I can tell you the current time, perform math calculations, and assist with other questions you might have. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant powered by LangGraph, and I'm here to help you with a variety of tasks. I can tell you the current time, perform math calculations, and assist with other questions you might have. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 798,
+    "output_tokens": 61,
+    "total_tokens": 859
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 242,
+    "total_chunks": 15,
+    "duration_ms": 28.0,
+    "throughput_chars_per_sec": 8642.857142857143,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

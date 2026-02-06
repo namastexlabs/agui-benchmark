@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4885.13610300015,
+    "time_to_first_event_ms": 313.5863900001823,
+    "time_to_first_content_ms": 4885.569928999985,
+    "time_to_complete_ms": 4885.13610300015
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 637,
+    "tokens_approx": 159,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it doesn\u2019t exist in my environment. Available tools I can use right now are:\n- functions.get_current_time \u2014 returns the current date/time\n- functions.calculator \u2014 evaluates math expressions\n- multi_tool_use.parallel \u2014 to run the above tools in parallel\n\nTell me what you want done and I\u2019ll:\n- run one of the available tools (give a math expression or ask for the current time), or\n- mock/simulate what a \"nonexistent_tool\" would do (describe expected behavior and I\u2019ll produce a fake output), or\n- implement the task using the existing tools or plain reasoning.\n\nWhich would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 145,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

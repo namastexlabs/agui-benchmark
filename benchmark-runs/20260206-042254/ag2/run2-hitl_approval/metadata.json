@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10895.862166999905,
+    "time_to_first_event_ms": 2442.296594999789,
+    "time_to_first_content_ms": 10895.887947999881,
+    "time_to_complete_ms": 10895.862166999905
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 952,
+    "tokens_approx": 238,
+    "final_text": "I can do that. Before I take any action I need to confirm a few things and get your explicit approval.\n\nPlease tell me:\n1) Exactly what you want deleted (file/folder names, database/tables, account, etc.).  \n2) Where it is located (device, OS, cloud provider and account, path).  \n3) Whether you have a backup or want one created first.  \n4) Whether you want a normal delete (recycle/trash) or a secure/irreversible wipe.  \n5) When to perform the deletion (immediately or scheduled).\n\nWarning: secure deletion is usually irreversible and may prevent any data recovery. I will not run or suggest deletion commands until you explicitly approve.\n\nIf you want me to proceed now, confirm by replying with this exact phrase (so I know you approve):  \nYES \u2014 permanently delete the items listed above\n\nAfter you provide the details and that explicit confirmation phrase, I will give the exact steps/commands and a final short checklist before you execute them."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

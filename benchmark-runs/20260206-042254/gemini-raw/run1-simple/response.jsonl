@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-simple", "_timestamp": 1558.358310626, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "483a313b-fa7a-4617-b1fa-93e61b21971f", "role": "assistant", "_timestamp": 1558.359310626, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "483a313b-fa7a-4617-b1fa-93e61b21971f", "delta": "Hello! I'", "_timestamp": 1558.360310626, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "483a313b-fa7a-4617-b1fa-93e61b21971f", "delta": "m a helpful assistant powered by Google Gemini. I can tell you the current time", "_timestamp": 1558.361310626, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "483a313b-fa7a-4617-b1fa-93e61b21971f", "delta": " and evaluate mathematical expressions.", "_timestamp": 1558.362310626, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "message_id": "483a313b-fa7a-4617-b1fa-93e61b21971f", "_timestamp": 1558.3633106260002, "_offset_ms": 5.0, "_index": 5}
+{"type": "USAGE_METADATA", "input_tokens": 117, "output_tokens": 25, "total_tokens": 142, "model": "gemini-2.5-flash", "_timestamp": 1558.3643106260001, "_offset_ms": 6.0, "_index": 6}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-simple", "_timestamp": 1558.365310626, "_offset_ms": 7.0, "_index": 7}

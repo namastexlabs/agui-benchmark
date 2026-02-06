@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b", "_timestamp": 1606.462885695, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362628", "role": "assistant", "_timestamp": 1606.463885695, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": "To", "_timestamp": 1606.464885695, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " get the current time and calculate 10 + 20, I'll use", "_timestamp": 1606.465885695, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " a Python script. \n\n```python\n# Import the time module", "_timestamp": 1606.466885695, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": "\nimport time\n\n# Get the current time\ncurrent_time", "_timestamp": 1606.4678856950002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " = time.localtime()\nprint(f\"Current Time:", "_timestamp": 1606.4688856950002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " {time.strftime('%Y-%m-%d %H:%M", "_timestamp": 1606.4698856950001, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": ":%S', current_time)}\")\n\n# Calculate 10 +", "_timestamp": 1606.470885695, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " 20\nresult = 10 + 20\nprint(f", "_timestamp": 1606.471885695, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": "\"10 + 20 = {result}\")\n```\n\nWhen", "_timestamp": 1606.472885695, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " you run this script, it will print the current time and the", "_timestamp": 1606.473885695, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " result of the calculation. \n\nPlease note that you need to", "_timestamp": 1606.474885695, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362628", "delta": " have Python installed on your system to run this script.", "_timestamp": 1606.475885695, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362628", "_timestamp": 1606.476885695, "_offset_ms": 14.0, "_index": 14}
+{"type": "USAGE_METADATA", "input_tokens": 49, "output_tokens": 138, "total_tokens": 187, "model": "llama-3.1-8b", "_timestamp": 1606.4778856950002, "_offset_ms": 15.0, "_index": 15}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "_timestamp": 1606.4788856950001, "_offset_ms": 16.0, "_index": 16}

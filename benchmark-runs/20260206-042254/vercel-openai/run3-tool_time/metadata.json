@@ -1,0 +1,65 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6889.457474999972,
+    "time_to_first_event_ms": 1804.803867999908,
+    "time_to_first_content_ms": 6889.550163999957,
+    "time_to_complete_ms": 6889.457474999972
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "tc-1",
+        "name": "get_current_time",
+        "start_ms": 1.0,
+        "end_ms": 3.0,
+        "result_ms": 4.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "2026-02-06 07:24:40"
+      }
+    ]
+  },
+  "response": {
+    "chars": 61,
+    "tokens_approx": 15,
+    "final_text": "The current time (from the time tool) is 2026-02-06 07:24:40."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 32,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 61,
+    "total_chunks": 24,
+    "duration_ms": 23.0,
+    "throughput_chars_per_sec": 2652.173913043478,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-multi_tool", "_timestamp": 1656.345920395, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "ebb26c0c-c081-41aa-987b-37dc8377fb50", "role": "assistant", "_timestamp": 1656.3469203949999, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ebb26c0c-c081-41aa-987b-37dc8377fb50", "delta": "The current time is 04:24:42 on 2026-02-06. Also, 10 + 20 = 30.", "_timestamp": 1656.3479203949998, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "ebb26c0c-c081-41aa-987b-37dc8377fb50", "_timestamp": 1656.3489203949998, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-multi_tool", "_timestamp": 1656.3499203949998, "_offset_ms": 4.0, "_index": 4}

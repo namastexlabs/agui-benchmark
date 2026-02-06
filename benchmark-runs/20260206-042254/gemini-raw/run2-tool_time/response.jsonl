@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 1606.403259246, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "bcaf14f3-38dd-4621-bbd8-dbe1b7377224", "toolCallName": "get_current_time", "_timestamp": 1606.404259246, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "bcaf14f3-38dd-4621-bbd8-dbe1b7377224", "delta": "{}", "_timestamp": 1606.405259246, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "bcaf14f3-38dd-4621-bbd8-dbe1b7377224", "_timestamp": 1606.406259246, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "bcaf14f3-38dd-4621-bbd8-dbe1b7377224", "result": "2026-02-06 04:23:48", "_timestamp": 1606.407259246, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "6979ef3f-2c28-4cc9-9b6e-4add7247bad0", "role": "assistant", "_timestamp": 1606.4082592460002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6979ef3f-2c28-4cc9-9b6e-4add7247bad0", "delta": "The current time is", "_timestamp": 1606.4092592460001, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6979ef3f-2c28-4cc9-9b6e-4add7247bad0", "delta": " 04:23:48 on February 6, 202", "_timestamp": 1606.4102592460001, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6979ef3f-2c28-4cc9-9b6e-4add7247bad0", "delta": "6.", "_timestamp": 1606.411259246, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "message_id": "6979ef3f-2c28-4cc9-9b6e-4add7247bad0", "_timestamp": 1606.412259246, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 117, "output_tokens": 12, "total_tokens": 177, "model": "gemini-2.5-flash", "_timestamp": 1606.413259246, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 1606.414259246, "_offset_ms": 11.0, "_index": 11}

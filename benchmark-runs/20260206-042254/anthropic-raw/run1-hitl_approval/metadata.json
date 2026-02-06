@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11126.17795999995,
+    "time_to_first_event_ms": 11125.426976999961,
+    "time_to_first_content_ms": 11126.39493399979,
+    "time_to_complete_ms": 11126.17795999995
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 975,
+    "tokens_approx": 243,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nI'm a helpful assistant with access to very limited tools\u2014I can only:\n- Tell you the current time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, accounts, or any other data on your systems.\n\nIf you're looking to delete important data somewhere, you'll need to:\n1. **Do it yourself** directly on your device/service\n2. **Contact the appropriate service provider** (for cloud storage, email, etc.)\n3. **Use the proper deletion tools** provided by your software or platform\n\nBefore deleting important data, I'd recommend:\n- \u2705 Making a backup copy first\n- \u2705 Double-checking what you're deleting\n- \u2705 Confirming where the data will be deleted from\n- \u2705 Checking if there's a recovery option\n\nIs there something specific I can help you with, or do you need guidance on how to safely delete data from a particular service?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 244,
+    "total_tokens": 927
+  },
+  "events": {
+    "total_events": 90,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 975,
+    "total_chunks": 85,
+    "duration_ms": 84.0,
+    "throughput_chars_per_sec": 11607.142857142857,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

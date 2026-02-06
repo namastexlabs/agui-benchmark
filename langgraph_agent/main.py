@@ -54,8 +54,26 @@ def calculator(expression: str) -> str:
         return f"Error: {str(e)}"
 
 
+@tool
+def request_approval(action: str, reason: str = "") -> str:
+    """
+    Request human approval before proceeding with an action.
+
+    Args:
+        action: The action that requires approval (e.g., "delete important data")
+        reason: Optional reason for the action
+
+    Returns:
+        Approval status and message
+    """
+    approval_message = f"APPROVAL_REQUESTED: Action '{action}' requires human approval"
+    if reason:
+        approval_message += f" (Reason: {reason})"
+    return approval_message
+
+
 # Tools list (shared across all agents)
-tools = [get_current_time, calculator]
+tools = [get_current_time, calculator, request_approval]
 
 
 def create_graph(llm):

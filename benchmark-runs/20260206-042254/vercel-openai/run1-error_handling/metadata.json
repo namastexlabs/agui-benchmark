@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10176.917538999987,
+    "time_to_first_event_ms": 3607.618888999923,
+    "time_to_first_content_ms": 10177.23278199992,
+    "time_to_complete_ms": 10176.917538999987
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 555,
+    "tokens_approx": 138,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. I can, however, use these tools right now:\n\n- get_current_time \u2014 returns the current date/time.\n- calculator \u2014 evaluates a math expression (e.g., \"2+2\", \"10 * (3.5 + 1)\").\n- multi_tool_use.parallel \u2014 runs multiple of the above tools at once (useful if you want time + a calculation).\n\nTell me what you want done (e.g., \u201cwhat time is it?\u201d, or \u201ccalculate 12345 * 678\u201d), and I\u2019ll run the appropriate tool(s). If you describe a different task, I can try to do it without tools or suggest an alternative."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 148,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 555,
+    "total_chunks": 144,
+    "duration_ms": 143.0,
+    "throughput_chars_per_sec": 3881.1188811188813,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

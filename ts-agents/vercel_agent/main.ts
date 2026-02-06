@@ -53,11 +53,27 @@ const tools = {
       }
     },
   }),
+  request_approval: tool({
+    description: 'Request human approval before proceeding with a sensitive action',
+    parameters: z.object({
+      action: z.string().describe("The action that requires approval (e.g., 'delete important data')"),
+      reason: z.string().optional().describe('Optional reason for the action'),
+    }),
+    execute: async ({ action, reason }) => {
+      let approvalMessage = `APPROVAL_REQUESTED: Action '${action}' requires human approval`;
+      if (reason) {
+        approvalMessage += ` (Reason: ${reason})`;
+      }
+      return approvalMessage;
+    },
+  }),
 };
 
 // System prompt
 const systemPrompt = `You are a helpful assistant running on the Vercel AI SDK framework.
-You can tell the current time and do basic math calculations.
+You can tell the current time, do basic math calculations, and request approval for sensitive actions.
+IMPORTANT: When a user asks to do something potentially dangerous or sensitive (like deleting data),
+you MUST use the request_approval tool first to ask for human approval before proceeding.
 Be concise and friendly in your responses.`;
 
 // Helper to encode SSE

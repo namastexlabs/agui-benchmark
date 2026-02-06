@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 1606.305882969, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "626a0b26-d685-4e53-acd0-f2ad6e2eba28", "role": "assistant", "_timestamp": 1606.306882969, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "626a0b26-d685-4e53-acd0-f2ad6e2eba28", "_timestamp": 1606.307882969, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "943302c7-79fe-47fd-a1c7-3a1a15763a87", "toolCallName": "calculator", "parentMessageId": "626a0b26-d685-4e53-acd0-f2ad6e2eba28", "_timestamp": 1606.308882969, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "943302c7-79fe-47fd-a1c7-3a1a15763a87", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 1606.309882969, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "943302c7-79fe-47fd-a1c7-3a1a15763a87", "_timestamp": 1606.3108829690002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "597541ac-cc65-4c35-a3d2-d2d7f19fad83", "toolCallId": "943302c7-79fe-47fd-a1c7-3a1a15763a87", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 1606.3118829690002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "503681d2-a3f4-455b-b9eb-7adee27ebd80", "role": "assistant", "_timestamp": 1606.3128829690002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "503681d2-a3f4-455b-b9eb-7adee27ebd80", "delta": "To find", "_timestamp": 1606.3138829690001, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "503681d2-a3f4-455b-b9eb-7adee27ebd80", "delta": " x, we need to subtract 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7", "_timestamp": 1606.314882969, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_END", "messageId": "503681d2-a3f4-455b-b9eb-7adee27ebd80", "_timestamp": 1606.315882969, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 1606.316882969, "_offset_ms": 11.0, "_index": 11}

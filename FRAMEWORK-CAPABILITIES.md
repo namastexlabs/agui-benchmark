@@ -527,22 +527,28 @@
 
 ---
 
-## 🚨 What's Missing Everywhere
+## 🚨 AG-UI Spec Events Missing from ALL Frameworks
 
-### HITL (Human-in-the-Loop)
-- **0 frameworks** emit HITL_PROMPT/HITL_RESPONSE events
-- Test scenarios don't trigger human approval
-- Framework support unclear
+### THINKING Events (5 events, 0% adoption)
+- **THINKING_START**, **THINKING_END** - Step boundaries
+- **THINKING_TEXT_MESSAGE_START/CONTENT/END** - Reasoning streams
+- **Use case:** Claude extended thinking, o1 reasoning, multi-step planning
+- **Impact:** Reasoning process completely unobservable
 
-### Artifacts
-- **0 frameworks** emit ARTIFACT events
-- No code generation artifacts detected
-- Need better test prompts
+### ACTIVITY Events (2 events, 0% adoption)
+- **ACTIVITY_SNAPSHOT**, **ACTIVITY_DELTA** - Rich content
+- **Use case:** Code artifacts, diagrams, media, structured outputs
+- **Impact:** No standard way to handle rich/artifact content
 
-### Error Recovery
-- No frameworks emit retry/recovery events
-- Error handling not observable
-- Black box on failures
+### STATE_DELTA (1 event, 0% adoption)
+- **STATE_DELTA** - JSON Patch incremental updates
+- All frameworks use STATE_SNAPSHOT (full state) instead
+- **Impact:** Inefficient for large state objects
+
+### CUSTOM Events (1 event, 0% adoption)
+- **CUSTOM** - Framework-specific extensions
+- No frameworks use this despite it enabling innovation
+- **Impact:** Missing opportunity for protocol-compatible extensions
 
 ---
 

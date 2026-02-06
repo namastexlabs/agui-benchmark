@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4550.58418800013,
+    "time_to_first_event_ms": 309.9906560000818,
+    "time_to_first_content_ms": 4550.679687000184,
+    "time_to_complete_ms": 4550.58418800013
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 149,
+    "tokens_approx": 37,
+    "final_text": "Hello! I'm an AI assistant running on the LlamaIndex framework, here to help with questions, tasks, and quick explanations. Ask me anything you need."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

@@ -1,0 +1,65 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5932.878045000052,
+    "time_to_first_event_ms": 283.5777150000922,
+    "time_to_first_content_ms": 5933.195137999974,
+    "time_to_complete_ms": 5932.878045000052
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "call_azuwdyFuEXrjD2g3rSeZg8Pk",
+        "name": "request_approval",
+        "start_ms": 3.0,
+        "end_ms": 5.0,
+        "result_ms": 6.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 542,
+    "tokens_approx": 135,
+    "final_text": "I\u2019ve requested human approval to proceed with deleting important data. While we wait: please confirm these details so I can act correctly once approval is granted\u2014\n\n1) Exactly which data (files, folders, database, service) do you want deleted?  \n2) Where is it located (path, server, cloud provider, account)?  \n3) Do you have recent backups, and should I preserve or delete them too?  \n4) Do you want a permanent delete or a reversible one (trash/recycle bin)?  \n5) Any time constraints or deadlines?\n\nI\u2019ll proceed only after human approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 130,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 542,
+    "total_chunks": 120,
+    "duration_ms": 119.0,
+    "throughput_chars_per_sec": 4554.621848739495,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

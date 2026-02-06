@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 1606.314069861, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "28e19f8c-f85f-4a19-ae5b-6599067d84db", "role": "assistant", "_timestamp": 1606.315069861, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "28e19f8c-f85f-4a19-ae5b-6599067d84db", "delta": "To find x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of", "_timestamp": 1606.316069861, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "28e19f8c-f85f-4a19-ae5b-6599067d84db", "delta": " the equation:\nx = 12 - 5\n", "_timestamp": 1606.317069861, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "28e19f8c-f85f-4a19-ae5b-6599067d84db", "_timestamp": 1606.318069861, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_7d40daa38e2148a6a2c2717426a559a1", "toolCallName": "calculator", "parentMessageId": "28e19f8c-f85f-4a19-ae5b-6599067d84db", "_timestamp": 1606.3190698610001, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_7d40daa38e2148a6a2c2717426a559a1", "delta": "{\"expression\":\"12 - 5\"}", "_timestamp": 1606.320069861, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_7d40daa38e2148a6a2c2717426a559a1", "_timestamp": 1606.321069861, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "d9fc4ab6-4136-4bf5-a8d1-1d63ba942738", "toolCallId": "pyd_ai_7d40daa38e2148a6a2c2717426a559a1", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 1606.322069861, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_START", "messageId": "c169583c-bfe5-42ca-a60b-4a0a08b3ce7d", "role": "assistant", "_timestamp": 1606.323069861, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c169583c-bfe5-42ca-a60b-4a0a08b3ce7d", "delta": "So, x =", "_timestamp": 1606.324069861, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c169583c-bfe5-42ca-a60b-4a0a08b3ce7d", "delta": " 7.", "_timestamp": 1606.325069861, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "c169583c-bfe5-42ca-a60b-4a0a08b3ce7d", "_timestamp": 1606.326069861, "_offset_ms": 12.0, "_index": 12}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 1606.327069861, "_offset_ms": 13.0, "_index": 13}

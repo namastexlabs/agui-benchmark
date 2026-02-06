@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 1656.380387602, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "55b3ea17-b54d-46a8-85f2-8ea6de1d954d", "role": "assistant", "_timestamp": 1656.381387602, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "55b3ea17-b54d-46a8-85f2-8ea6de1d954d", "delta": "I cannot delete data. I am a language model and do not have the ability to perform such actions. I can answer questions, provide information, and engage in conversations.\n\nAlso, please be aware that I will always ask for your approval", "_timestamp": 1656.3823876019999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "55b3ea17-b54d-46a8-85f2-8ea6de1d954d", "delta": " before performing any action if I had the capability to do so.", "_timestamp": 1656.3833876019999, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "message_id": "55b3ea17-b54d-46a8-85f2-8ea6de1d954d", "_timestamp": 1656.3843876019998, "_offset_ms": 4.0, "_index": 4}
+{"type": "USAGE_METADATA", "input_tokens": 120, "output_tokens": 61, "total_tokens": 249, "model": "gemini-2.5-flash", "_timestamp": 1656.385387602, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 1656.386387602, "_offset_ms": 6.0, "_index": 6}

@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b", "_timestamp": 2031.065337485, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770363074", "role": "assistant", "_timestamp": 2031.066337485, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": "There", "_timestamp": 2031.067337485, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " is no such tool as \"nonexistent_tool\". It", "_timestamp": 2031.068337485, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " seems you've mentioned a fictional tool. If you meant to", "_timestamp": 2031.069337485, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " ask about a specific tool or task, I'd be happy to", "_timestamp": 2031.0703374850002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " help you with that. Could you please provide more context or", "_timestamp": 2031.0713374850002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770363074", "delta": " clarify what you're trying to accomplish?", "_timestamp": 2031.0723374850002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770363074", "_timestamp": 2031.0733374850001, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 46, "output_tokens": 58, "total_tokens": 104, "model": "llama-3.1-8b", "_timestamp": 2031.0743374850001, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "_timestamp": 2031.075337485, "_offset_ms": 10.0, "_index": 10}

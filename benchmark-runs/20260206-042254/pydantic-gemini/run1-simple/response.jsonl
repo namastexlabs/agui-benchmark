@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple", "_timestamp": 1558.337546791, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "0787c20a-87da-4f01-b845-365b4c9acfa0", "role": "assistant", "_timestamp": 1558.338546791, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0787c20a-87da-4f01-b845-365b4c9acfa0", "delta": "Hello! I'", "_timestamp": 1558.339546791, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0787c20a-87da-4f01-b845-365b4c9acfa0", "delta": "m a helpful assistant running on the PydanticAI framework. I can tell you", "_timestamp": 1558.340546791, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0787c20a-87da-4f01-b845-365b4c9acfa0", "delta": " the current time, do basic math calculations, and request approval for sensitive actions. I'm here to help you out!", "_timestamp": 1558.341546791, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "0787c20a-87da-4f01-b845-365b4c9acfa0", "_timestamp": 1558.3425467910001, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple", "_timestamp": 1558.343546791, "_offset_ms": 6.0, "_index": 6}

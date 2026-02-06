@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 33131.04352699997,
+    "time_to_first_event_ms": 33129.66286400001,
+    "time_to_first_content_ms": 33131.47864799998,
+    "time_to_complete_ms": 33131.04352699997
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 765,
+    "tokens_approx": 191,
+    "final_text": "I can help \u2014 but I will not proceed without your explicit approval.\n\nBefore I give deletion steps, please answer these (short replies are fine):\n1. What exactly do you want to delete (files, emails, accounts, databases)?  \n2. Where is it stored (local PC, external drive, Google Drive, Dropbox, AWS, etc.)?  \n3. Do you have a backup or want me to include backup steps first?  \n4. Do you want the data permanently erased (irreversible) or just moved to trash/recoverable?\n\nWhen you\u2019re ready to proceed, type one of these exact confirmations so I know you approve:\n- \"DELETE \u2014 permanent, I understand this is irreversible\"\nor\n- \"DELETE \u2014 recoverable, move to trash\"\n\nI will wait for your answers and that exact confirmation before providing any deletion instructions."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 500,
+    "total_tokens": 711
+  },
+  "events": {
+    "total_events": 176,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 765,
+    "total_chunks": 171,
+    "duration_ms": 170.0,
+    "throughput_chars_per_sec": 4500.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

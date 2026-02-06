@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8271.013437999954,
+    "time_to_first_event_ms": 2479.5815359998414,
+    "time_to_first_content_ms": 8271.047069999895,
+    "time_to_complete_ms": 8271.013437999954
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 312,
+    "tokens_approx": 78,
+    "final_text": "To solve for x in the equation x + 5 = 12, you need to isolate x.\n\nHere's the reasoning process:\n1. Start with the given equation:\n   x + 5 = 12\n\n2. To get x by itself on one side of the equation, subtract 5 from both sides:\n   x + 5 - 5 = 12 - 5\n\n3. This simplifies the equation to:\n   x = 7\n\nTherefore, x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 312,
+    "total_chunks": 3,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 156000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

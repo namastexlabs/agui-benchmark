@@ -1,0 +1,65 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3991.920076000042,
+    "time_to_first_event_ms": 267.1341850000317,
+    "time_to_first_content_ms": 3992.0724549999704,
+    "time_to_complete_ms": 3991.920076000042
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01AGHEi71Sx7t6sbSVAQHdGp",
+        "name": "calculator",
+        "start_ms": 52.0,
+        "end_ms": 54.0,
+        "result_ms": 55.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 516,
+    "tokens_approx": 129,
+    "final_text": "I'll solve this step-by-step.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, I need to remove the +5 from the left side. I'll do this by subtracting 5 from both sides of the equation:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check: 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nLet me also use the calculator to confirm the arithmetic:Perfect! The calculation confirms that **x = 7**."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 516,
+    "total_chunks": 52,
+    "duration_ms": 57.0,
+    "throughput_chars_per_sec": 9052.631578947368,
+    "avg_gap_ms": 1.1176470588235294,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

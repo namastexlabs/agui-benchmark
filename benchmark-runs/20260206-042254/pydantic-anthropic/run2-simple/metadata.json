@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1771.2446000000455,
+    "time_to_first_event_ms": 203.58050000004368,
+    "time_to_first_content_ms": 1771.3381270000355,
+    "time_to_complete_ms": 1771.2446000000455
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 245,
+    "tokens_approx": 61,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful AI assistant running on the PydanticAI framework. I can help you with things like telling you the current date and time, doing math calculations, and requesting approval for sensitive actions. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 245,
+    "total_chunks": 13,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 20416.666666666668,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

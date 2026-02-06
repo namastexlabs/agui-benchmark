@@ -1,0 +1,147 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-error_handling", "_timestamp": 1606.334347996, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770362625511", "role": "assistant", "_timestamp": 1606.3353479959999, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "I", "_timestamp": 1606.3363479959999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " don", "_timestamp": 1606.3373479959998, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\u2019t", "_timestamp": 1606.3383479959998, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " have", "_timestamp": 1606.339347996, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " a", "_timestamp": 1606.340347996, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tool", "_timestamp": 1606.341347996, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " named", "_timestamp": 1606.342347996, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " \"", "_timestamp": 1606.343347996, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "non", "_timestamp": 1606.344347996, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "existent", "_timestamp": 1606.3453479959999, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_tool", "_timestamp": 1606.3463479959998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\"", "_timestamp": 1606.3473479959998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " available", "_timestamp": 1606.3483479959998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " to", "_timestamp": 1606.349347996, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " call", "_timestamp": 1606.350347996, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".", "_timestamp": 1606.351347996, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " The", "_timestamp": 1606.352347996, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " system", "_timestamp": 1606.353347996, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " exposes", "_timestamp": 1606.354347996, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " only", "_timestamp": 1606.3553479959999, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " these", "_timestamp": 1606.3563479959998, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tools", "_timestamp": 1606.3573479959998, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " now", "_timestamp": 1606.3583479959998, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ":\n\n", "_timestamp": 1606.359347996, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "-", "_timestamp": 1606.360347996, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " functions", "_timestamp": 1606.361347996, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".get", "_timestamp": 1606.362347996, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_current", "_timestamp": 1606.363347996, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_time", "_timestamp": 1606.3643479959999, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " \u2014", "_timestamp": 1606.3653479959999, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " returns", "_timestamp": 1606.3663479959998, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.3673479959998, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " current", "_timestamp": 1606.368347996, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " date", "_timestamp": 1606.369347996, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "/time", "_timestamp": 1606.370347996, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\n", "_timestamp": 1606.371347996, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "-", "_timestamp": 1606.372347996, "_offset_ms": 38.0, "_index": 38}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " functions", "_timestamp": 1606.373347996, "_offset_ms": 39.0, "_index": 39}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".cal", "_timestamp": 1606.3743479959999, "_offset_ms": 40.0, "_index": 40}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "culator", "_timestamp": 1606.3753479959998, "_offset_ms": 41.0, "_index": 41}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " \u2014", "_timestamp": 1606.3763479959998, "_offset_ms": 42.0, "_index": 42}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " evaluates", "_timestamp": 1606.3773479959998, "_offset_ms": 43.0, "_index": 43}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " math", "_timestamp": 1606.378347996, "_offset_ms": 44.0, "_index": 44}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " expressions", "_timestamp": 1606.379347996, "_offset_ms": 45.0, "_index": 45}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\n", "_timestamp": 1606.380347996, "_offset_ms": 46.0, "_index": 46}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "-", "_timestamp": 1606.381347996, "_offset_ms": 47.0, "_index": 47}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " multi", "_timestamp": 1606.382347996, "_offset_ms": 48.0, "_index": 48}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_tool", "_timestamp": 1606.3833479959999, "_offset_ms": 49.0, "_index": 49}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_use", "_timestamp": 1606.3843479959999, "_offset_ms": 50.0, "_index": 50}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".parallel", "_timestamp": 1606.3853479959998, "_offset_ms": 51.0, "_index": 51}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " \u2014", "_timestamp": 1606.3863479959998, "_offset_ms": 52.0, "_index": 52}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " runs", "_timestamp": 1606.387347996, "_offset_ms": 53.0, "_index": 53}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " any", "_timestamp": 1606.388347996, "_offset_ms": 54.0, "_index": 54}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " of", "_timestamp": 1606.389347996, "_offset_ms": 55.0, "_index": 55}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.390347996, "_offset_ms": 56.0, "_index": 56}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " above", "_timestamp": 1606.391347996, "_offset_ms": 57.0, "_index": 57}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tools", "_timestamp": 1606.392347996, "_offset_ms": 58.0, "_index": 58}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " in", "_timestamp": 1606.3933479959999, "_offset_ms": 59.0, "_index": 59}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " parallel", "_timestamp": 1606.3943479959999, "_offset_ms": 60.0, "_index": 60}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\n\n", "_timestamp": 1606.3953479959998, "_offset_ms": 61.0, "_index": 61}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "If", "_timestamp": 1606.3963479959998, "_offset_ms": 62.0, "_index": 62}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " you", "_timestamp": 1606.397347996, "_offset_ms": 63.0, "_index": 63}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tell", "_timestamp": 1606.398347996, "_offset_ms": 64.0, "_index": 64}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " me", "_timestamp": 1606.399347996, "_offset_ms": 65.0, "_index": 65}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " what", "_timestamp": 1606.400347996, "_offset_ms": 66.0, "_index": 66}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " you", "_timestamp": 1606.401347996, "_offset_ms": 67.0, "_index": 67}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " wanted", "_timestamp": 1606.402347996, "_offset_ms": 68.0, "_index": 68}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " \"", "_timestamp": 1606.4033479959999, "_offset_ms": 69.0, "_index": 69}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "non", "_timestamp": 1606.4043479959998, "_offset_ms": 70.0, "_index": 70}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "existent", "_timestamp": 1606.4053479959998, "_offset_ms": 71.0, "_index": 71}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "_tool", "_timestamp": 1606.4063479959998, "_offset_ms": 72.0, "_index": 72}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\"", "_timestamp": 1606.407347996, "_offset_ms": 73.0, "_index": 73}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " to", "_timestamp": 1606.408347996, "_offset_ms": 74.0, "_index": 74}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " do", "_timestamp": 1606.409347996, "_offset_ms": 75.0, "_index": 75}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ",", "_timestamp": 1606.410347996, "_offset_ms": 76.0, "_index": 76}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " I", "_timestamp": 1606.411347996, "_offset_ms": 77.0, "_index": 77}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " can", "_timestamp": 1606.4123479959999, "_offset_ms": 78.0, "_index": 78}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ":\n", "_timestamp": 1606.4133479959999, "_offset_ms": 79.0, "_index": 79}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "-", "_timestamp": 1606.4143479959998, "_offset_ms": 80.0, "_index": 80}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " run", "_timestamp": 1606.4153479959998, "_offset_ms": 81.0, "_index": 81}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " one", "_timestamp": 1606.416347996, "_offset_ms": 82.0, "_index": 82}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " of", "_timestamp": 1606.417347996, "_offset_ms": 83.0, "_index": 83}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.418347996, "_offset_ms": 84.0, "_index": 84}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " available", "_timestamp": 1606.419347996, "_offset_ms": 85.0, "_index": 85}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tools", "_timestamp": 1606.420347996, "_offset_ms": 86.0, "_index": 86}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " instead", "_timestamp": 1606.421347996, "_offset_ms": 87.0, "_index": 87}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " (", "_timestamp": 1606.4223479959999, "_offset_ms": 88.0, "_index": 88}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "get", "_timestamp": 1606.4233479959998, "_offset_ms": 89.0, "_index": 89}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.4243479959998, "_offset_ms": 90.0, "_index": 90}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " current", "_timestamp": 1606.4253479959998, "_offset_ms": 91.0, "_index": 91}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " time", "_timestamp": 1606.426347996, "_offset_ms": 92.0, "_index": 92}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ",", "_timestamp": 1606.427347996, "_offset_ms": 93.0, "_index": 93}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " evaluate", "_timestamp": 1606.428347996, "_offset_ms": 94.0, "_index": 94}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " a", "_timestamp": 1606.429347996, "_offset_ms": 95.0, "_index": 95}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " math", "_timestamp": 1606.430347996, "_offset_ms": 96.0, "_index": 96}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " expression", "_timestamp": 1606.4313479959999, "_offset_ms": 97.0, "_index": 97}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ",", "_timestamp": 1606.4323479959999, "_offset_ms": 98.0, "_index": 98}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " or", "_timestamp": 1606.4333479959998, "_offset_ms": 99.0, "_index": 99}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " both", "_timestamp": 1606.4343479959998, "_offset_ms": 100.0, "_index": 100}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "),", "_timestamp": 1606.435347996, "_offset_ms": 101.0, "_index": 101}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " or", "_timestamp": 1606.436347996, "_offset_ms": 102.0, "_index": 102}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "\n", "_timestamp": 1606.437347996, "_offset_ms": 103.0, "_index": 103}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "-", "_timestamp": 1606.438347996, "_offset_ms": 104.0, "_index": 104}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " simulate", "_timestamp": 1606.439347996, "_offset_ms": 105.0, "_index": 105}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.440347996, "_offset_ms": 106.0, "_index": 106}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " behavior", "_timestamp": 1606.4413479959999, "_offset_ms": 107.0, "_index": 107}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " and", "_timestamp": 1606.4423479959999, "_offset_ms": 108.0, "_index": 108}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " show", "_timestamp": 1606.4433479959998, "_offset_ms": 109.0, "_index": 109}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " how", "_timestamp": 1606.4443479959998, "_offset_ms": 110.0, "_index": 110}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " you", "_timestamp": 1606.445347996, "_offset_ms": 111.0, "_index": 111}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " could", "_timestamp": 1606.446347996, "_offset_ms": 112.0, "_index": 112}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " implement", "_timestamp": 1606.447347996, "_offset_ms": 113.0, "_index": 113}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " it", "_timestamp": 1606.448347996, "_offset_ms": 114.0, "_index": 114}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".\n\n", "_timestamp": 1606.449347996, "_offset_ms": 115.0, "_index": 115}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "Which", "_timestamp": 1606.450347996, "_offset_ms": 116.0, "_index": 116}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " would", "_timestamp": 1606.4513479959999, "_offset_ms": 117.0, "_index": 117}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " you", "_timestamp": 1606.4523479959998, "_offset_ms": 118.0, "_index": 118}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " like", "_timestamp": 1606.4533479959998, "_offset_ms": 119.0, "_index": 119}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " me", "_timestamp": 1606.4543479959998, "_offset_ms": 120.0, "_index": 120}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " to", "_timestamp": 1606.455347996, "_offset_ms": 121.0, "_index": 121}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " do", "_timestamp": 1606.456347996, "_offset_ms": 122.0, "_index": 122}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ",", "_timestamp": 1606.457347996, "_offset_ms": 123.0, "_index": 123}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " and", "_timestamp": 1606.458347996, "_offset_ms": 124.0, "_index": 124}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " what", "_timestamp": 1606.459347996, "_offset_ms": 125.0, "_index": 125}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " should", "_timestamp": 1606.4603479959999, "_offset_ms": 126.0, "_index": 126}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " the", "_timestamp": 1606.4613479959999, "_offset_ms": 127.0, "_index": 127}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " tool", "_timestamp": 1606.4623479959998, "_offset_ms": 128.0, "_index": 128}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " do", "_timestamp": 1606.4633479959998, "_offset_ms": 129.0, "_index": 129}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " (", "_timestamp": 1606.464347996, "_offset_ms": 130.0, "_index": 130}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": "e", "_timestamp": 1606.465347996, "_offset_ms": 131.0, "_index": 131}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".g", "_timestamp": 1606.466347996, "_offset_ms": 132.0, "_index": 132}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ".,", "_timestamp": 1606.467347996, "_offset_ms": 133.0, "_index": 133}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " a", "_timestamp": 1606.468347996, "_offset_ms": 134.0, "_index": 134}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " math", "_timestamp": 1606.469347996, "_offset_ms": 135.0, "_index": 135}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " expression", "_timestamp": 1606.4703479959999, "_offset_ms": 136.0, "_index": 136}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " to", "_timestamp": 1606.4713479959998, "_offset_ms": 137.0, "_index": 137}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " evaluate", "_timestamp": 1606.4723479959998, "_offset_ms": 138.0, "_index": 138}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " or", "_timestamp": 1606.4733479959998, "_offset_ms": 139.0, "_index": 139}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " a", "_timestamp": 1606.474347996, "_offset_ms": 140.0, "_index": 140}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " specific", "_timestamp": 1606.475347996, "_offset_ms": 141.0, "_index": 141}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " time", "_timestamp": 1606.476347996, "_offset_ms": 142.0, "_index": 142}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": " query", "_timestamp": 1606.477347996, "_offset_ms": 143.0, "_index": 143}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770362625511", "delta": ")?", "_timestamp": 1606.478347996, "_offset_ms": 144.0, "_index": 144}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770362625511", "_timestamp": 1606.479347996, "_offset_ms": 145.0, "_index": 145}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-error_handling", "_timestamp": 1606.4803479959999, "_offset_ms": 146.0, "_index": 146}

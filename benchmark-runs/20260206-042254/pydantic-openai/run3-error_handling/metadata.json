@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5682.867130999966,
+    "time_to_first_event_ms": 212.98352899998463,
+    "time_to_first_content_ms": 5683.344985000076,
+    "time_to_complete_ms": 5682.867130999966
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 666,
+    "tokens_approx": 166,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool.\" Available tools I can use right now are:\n- get_current_time \u2014 return the current date/time\n- calculator \u2014 evaluate math expressions\n- request_approval \u2014 ask a human for approval before a sensitive action\n- multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n\nTell me what you want to accomplish and I\u2019ll pick the right tool. Examples:\n- \u201cWhat time is it?\u201d (I\u2019ll use get_current_time)\n- \u201cCalculate 12345 * 6789\u201d (I\u2019ll use calculator)\n- \u201cAsk for approval to delete dataset X\u201d (I\u2019ll use request_approval)\n- \u201cRun time and 2+2 in parallel\u201d (I\u2019ll use multi_tool_use.parallel)\n\nWhich would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 169,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 666,
+    "total_chunks": 165,
+    "duration_ms": 164.0,
+    "throughput_chars_per_sec": 4060.975609756097,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

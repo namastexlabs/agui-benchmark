@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11667.90183299986,
+    "time_to_first_event_ms": 2441.5363049999996,
+    "time_to_first_content_ms": 11667.941294999991,
+    "time_to_complete_ms": 11667.90183299986
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1078,
+    "tokens_approx": 269,
+    "final_text": "I don\u2019t have access to any tool named \"nonexistent_tool\". I can\u2019t call something that doesn\u2019t exist in my environment. Tell me which of these you want and I\u2019ll proceed:\n\n- Tell me the task and I\u2019ll do it directly here (analysis, code, data processing, instructions, etc.).\n- Describe what the nonexistent_tool is supposed to do and I\u2019ll simulate its output.\n- I can give a short code stub you can use to implement such a tool locally (Python example) and show how to call it.\n\nExample Python stub you can use to implement a real tool:\n\ndef nonexistent_tool(input_data):\n    \"\"\"\n    Replace this stub with actual implementation.\n    input_data: dict or string describing the request\n    Returns: dict with results\n    \"\"\"\n    # TODO: implement real behavior (API call, computation, file ops, etc.)\n    return {\"status\": \"error\", \"message\": \"not implemented\", \"input\": input_data}\n\n# Example call\nresult = nonexistent_tool({\"action\": \"do_something\", \"params\": {}})\nprint(result)\n\nWhich option do you want? If you want me to do the task directly, tell me what \"do something\" means."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

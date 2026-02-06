@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 1558.352356339, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "50b3d388-2341-4218-9f6c-59a5d1ebcf2e", "role": "assistant", "_timestamp": 1558.353356339, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "50b3d388-2341-4218-9f6c-59a5d1ebcf2e", "delta": "```python\ndef add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n```", "_timestamp": 1558.3543563389999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "50b3d388-2341-4218-9f6c-59a5d1ebcf2e", "_timestamp": 1558.3553563389999, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-artifact", "_timestamp": 1558.3563563389998, "_offset_ms": 4.0, "_index": 4}

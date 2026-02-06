@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2738.5152530000596,
+    "time_to_first_event_ms": 335.26629099992533,
+    "time_to_first_content_ms": 2738.678684999968,
+    "time_to_complete_ms": 2738.5152530000596
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 15.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_015Mtn7UwvEo7p3BknABS4RT",
+        "name": "request_approval",
+        "start_ms": 10.0,
+        "end_ms": 24.0,
+        "result_ms": 25.0,
+        "duration_ms": 15.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 450,
+    "tokens_approx": 112,
+    "final_text": "I'll request approval for this action right away.I've submitted a request for approval to delete important data. This requires human verification before proceeding. \n\nOnce approval is granted, I can help you proceed with the deletion. Could you provide more details about:\n- What specific data needs to be deleted?\n- Where is it located?\n- Is there a backup in case you need it later?\n\nThis will help ensure the deletion is done safely and correctly."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 59,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 450,
+    "total_chunks": 37,
+    "duration_ms": 54.0,
+    "throughput_chars_per_sec": 8333.333333333334,
+    "avg_gap_ms": 1.5,
+    "p95_gap_ms": 3.7,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

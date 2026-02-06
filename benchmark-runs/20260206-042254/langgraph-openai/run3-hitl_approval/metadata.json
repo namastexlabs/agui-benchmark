@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12063.59396400012,
+    "time_to_first_event_ms": 503.976590000093,
+    "time_to_first_content_ms": 12068.374317000007,
+    "time_to_complete_ms": 12063.59396400012
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1312,
+    "tokens_approx": 328,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve.\n\nBefore I proceed I need two things from you:\n1) Exactly what data should be deleted (file paths, account names, database/table names, or other scope).  \n2) An explicit confirmation phrase. Please reply with both the data scope and the exact phrase below to authorize deletion:\n\nCONFIRM DELETE \u2014 I acknowledge this action is irreversible and I want the specified data removed now.\n\nImportant: deletion may be permanent and unrecoverable. Please make sure you have backups and understand the consequences. Once you send the exact confirmation phrase and specify the data, I will proceed.Understood \u2014 I will not delete anything until you explicitly approve.\n\nBefore I proceed I need two things from you:\n1) Exactly what data should be deleted (file paths, account names, database/table names, or other scope).  \n2) An explicit confirmation phrase. Please reply with both the data scope and the exact phrase below to authorize deletion:\n\nCONFIRM DELETE \u2014 I acknowledge this action is irreversible and I want the specified data removed now.\n\nImportant: deletion may be permanent and unrecoverable. Please make sure you have backups and understand the consequences. Once you send the exact confirmation phrase and specify the data, I will proceed."
+  },
+  "tokens": {
+    "input_tokens": 357,
+    "output_tokens": 712,
+    "total_tokens": 1069
+  },
+  "events": {
+    "total_events": 351,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 656,
+    "total_chunks": 127,
+    "duration_ms": 252.0,
+    "throughput_chars_per_sec": 2603.1746031746034,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 1656.328365124, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "2e227e32-2ede-47d2-aa7a-94d44a015ab3", "role": "assistant", "_timestamp": 1656.3293651239999, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2e227e32-2ede-47d2-aa7a-94d44a015ab3", "delta": "Sorry \u2014 I don't have access to the \"time\" tool in this session, so I can't automatically read the current clock. Tell me which timezone or city you want the time for (or give me your UTC offset), and I'll compute the current local time for you.", "_timestamp": 1656.3303651239999, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "2e227e32-2ede-47d2-aa7a-94d44a015ab3", "_timestamp": 1656.3313651239998, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time", "_timestamp": 1656.3323651239998, "_offset_ms": 4.0, "_index": 4}

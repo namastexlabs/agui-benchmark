@@ -1,0 +1,66 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9058.716110999967,
+    "time_to_first_event_ms": 9058.318914999973,
+    "time_to_first_content_ms": 9058.754821999855,
+    "time_to_complete_ms": 9058.716110999967
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "71634566-514c-478f-a5e3-ab62d0e70f0e",
+        "name": "calculator",
+        "start_ms": 5.0,
+        "end_ms": 7.0,
+        "result_ms": 8.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": "12 - 5 = 7"
+      }
+    ]
+  },
+  "response": {
+    "chars": 261,
+    "tokens_approx": 65,
+    "final_text": "To find the value of x in the equation x + 5 = 12, we need to isolate x.\n\n1.  **Start with the equation:** x + 5 = 12\n2.  **Subtract 5 from both sides of the equation** to maintain equality:\n    x + 5 - 5 = 12 - 5\n3.  **Simplify:**\n    x = 7\n\nTherefore, x = 7.\n"
+  },
+  "tokens": {
+    "input_tokens": 130,
+    "output_tokens": 113,
+    "total_tokens": 325
+  },
+  "events": {
+    "total_events": 12,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 261,
+    "total_chunks": 3,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 130500.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

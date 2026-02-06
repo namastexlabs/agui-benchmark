@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13333.69073699987,
+    "time_to_first_event_ms": 2533.4525700000086,
+    "time_to_first_content_ms": 13333.724287999985,
+    "time_to_complete_ms": 13333.69073699987
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1236,
+    "tokens_approx": 309,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before taking any deletion steps.\n\nBefore we proceed, I need some details so I can give safe, correct instructions (or a command script):\n\n1. What exactly do you want deleted? (file names, folders, database, cloud bucket, emails, etc.)\n2. Where is it stored? (local computer \u2014 Windows/macOS/Linux, external drive, NAS, Google Drive, AWS S3, Azure, etc.)\n3. Scope: single item, entire folder, whole disk, or all data for an account?\n4. Do you have a backup? Do you want me to create/export a backup first?\n5. Do you want a normal delete (recycle/trash) or permanent/secure erase (overwrite)?\n6. Any time sensitivity or business/legal constraints (logs, retention policy, compliance)?\n\nWarning: Permanent deletes may be irreversible. If you want me to proceed after I give instructions, please confirm explicitly by typing the exact phrase:\n    I CONFIRM: DELETE [brief description]\n(e.g., I CONFIRM: DELETE folder /home/alice/old_projects)\n\nI cannot directly access your device or cloud account \u2014 I will provide the commands/steps to run. Once you supply the details above and then type the confirmation phrase, I will provide the exact deletion steps (and a backup option if you want)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

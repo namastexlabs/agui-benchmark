@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "model": "llama-3.1-8b", "_timestamp": 1558.363908889, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362578", "role": "assistant", "_timestamp": 1558.364908889, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": "Hello", "_timestamp": 1558.365908889, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": ", I'm an artificial intelligence model designed to assist and communicate with", "_timestamp": 1558.366908889, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": " users in a helpful and informative way. I don't have", "_timestamp": 1558.3679088889999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": " a personal identity, but I'm here to provide information, answer", "_timestamp": 1558.368908889, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": " questions, and engage in conversation to the best of my abilities.", "_timestamp": 1558.369908889, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": " I'm constantly learning and improving to provide the most accurate and", "_timestamp": 1558.370908889, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362578", "delta": " up-to-date information possible.", "_timestamp": 1558.371908889, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362578", "_timestamp": 1558.372908889, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 48, "output_tokens": 71, "total_tokens": 119, "model": "llama-3.1-8b", "_timestamp": 1558.373908889, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-simple", "_timestamp": 1558.374908889, "_offset_ms": 11.0, "_index": 11}

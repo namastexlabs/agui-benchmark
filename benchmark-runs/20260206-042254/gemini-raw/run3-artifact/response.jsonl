@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 1656.378866072, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "54389d0a-ee9f-4acf-abe8-33a5c1bfa318", "toolCallName": "run_code", "_timestamp": 1656.379866072, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "54389d0a-ee9f-4acf-abe8-33a5c1bfa318", "delta": "{\"code\": \"\\ndef add_numbers(a, b):\\n    return a + b\\n\"}", "_timestamp": 1656.380866072, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "54389d0a-ee9f-4acf-abe8-33a5c1bfa318", "_timestamp": 1656.3818660719999, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "54389d0a-ee9f-4acf-abe8-33a5c1bfa318", "result": "Unknown function", "_timestamp": 1656.3828660719998, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "24dcf0f3-100d-40c4-bc69-28d3d62f2772", "role": "assistant", "_timestamp": 1656.383866072, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "24dcf0f3-100d-40c4-bc69-28d3d62f2772", "delta": "```python\ndef add_numbers(a, b):\n    return a + b\n```", "_timestamp": 1656.384866072, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_END", "message_id": "24dcf0f3-100d-40c4-bc69-28d3d62f2772", "_timestamp": 1656.385866072, "_offset_ms": 7.0, "_index": 7}
+{"type": "USAGE_METADATA", "input_tokens": 119, "output_tokens": 31, "total_tokens": 210, "model": "gemini-2.5-flash", "_timestamp": 1656.386866072, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-artifact", "_timestamp": 1656.387866072, "_offset_ms": 9.0, "_index": 9}

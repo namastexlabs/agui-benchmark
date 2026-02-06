@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7340.839194000182,
+    "time_to_first_event_ms": 310.48425400013,
+    "time_to_first_content_ms": 7341.440867000074,
+    "time_to_complete_ms": 7340.839194000182
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1005,
+    "tokens_approx": 251,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything. Before we proceed, please provide the following so I can be safe and precise:\n\n1. What exactly will be deleted? (files, folders, database rows, cloud objects, etc.) Include paths, database/table names, or services.\n2. Where is it stored? (local machine, server, AWS/Azure/GCP, Dropbox, etc.)\n3. Is this deletion irreversible? Do you want a permanent delete or move to trash/quarantine first?\n4. Do you have a backup or want me to create one first? If so, where should the backup be stored?\n5. When should the deletion occur (immediately or scheduled)?\n6. Any users, services, or dependencies that may be affected?\n\nIf you understand the risks and want me to proceed, please give explicit written approval. For example, reply with:\n\nI approve permanent deletion of [brief description of data and location].\n\nI will not take any deletion actions until you send that explicit approval. Would you like to provide the details above now?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 221,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

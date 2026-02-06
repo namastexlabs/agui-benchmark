@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5256.934551999848,
+    "time_to_first_event_ms": 4887.194852999983,
+    "time_to_first_content_ms": 5256.99667899994,
+    "time_to_complete_ms": 5256.934551999848
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 670,
+    "tokens_approx": 167,
+    "final_text": "I'm not capable of displaying the current time. However, I can show you how to get the current time in most programming languages. \n\nHere's a simple example in Python:\n\n```python\nimport datetime\n\n# Get the current time\ncurrent_time = datetime.datetime.now()\nprint(\"Current Time:\", current_time)\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(\"Result of 10 + 20:\", result)\n```\n\nIn this code:\n\n- The `datetime` module is imported to get the current time.\n- `datetime.datetime.now()` is used to get the current time.\n- The result of the calculation `10 + 20` is stored in the `result` variable.\n\nYou can run this code to get the current time and the result of the calculation."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 164,
+    "total_tokens": 213
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 670,
+    "total_chunks": 15,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 47857.142857142855,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

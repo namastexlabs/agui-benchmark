@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5541.233053000042,
+    "time_to_first_event_ms": 5540.408492000097,
+    "time_to_first_content_ms": 5541.395549000072,
+    "time_to_complete_ms": 5541.233053000042
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 716,
+    "tokens_approx": 179,
+    "final_text": "I'll solve this step-by-step using logical reasoning.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x that makes this equation true.\n\n**Step 2: Isolate the variable**\nTo get x by itself, we need to remove the \"+5\" from the left side. We do this by subtracting 5 from both sides of the equation:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x + 0 = 7\n- x = 7\n\n**Step 4: Verify the answer**\nLet's check: if x = 7, then 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning is based on the principle that if we perform the same operation (subtracting 5) on both sides of an equation, it remains balanced and true. This is how we isolate the variable to find its value."
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 245,
+    "total_tokens": 937
+  },
+  "events": {
+    "total_events": 65,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 716,
+    "total_chunks": 60,
+    "duration_ms": 59.0,
+    "throughput_chars_per_sec": 12135.593220338982,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

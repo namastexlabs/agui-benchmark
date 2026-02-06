@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6217.1836929999245,
+    "time_to_first_event_ms": 1929.8995569999988,
+    "time_to_first_content_ms": 6217.278636999936,
+    "time_to_complete_ms": 6217.1836929999245
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 10.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "call_36hd9Agdpe0v79wF9sC3ep1g",
+        "name": "calculator",
+        "start_ms": 1.0,
+        "end_ms": 10.0,
+        "result_ms": 11.0,
+        "duration_ms": 10.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 43,
+    "tokens_approx": 10,
+    "final_text": "I used the calculator tool \u2014 42 \u00d7 17 = 714."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 30,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 43,
+    "total_chunks": 15,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 3071.4285714285716,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

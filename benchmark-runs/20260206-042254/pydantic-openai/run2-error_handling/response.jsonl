@@ -1,0 +1,114 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-error_handling", "_timestamp": 1606.313295423, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "role": "assistant", "_timestamp": 1606.314295423, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "I", "_timestamp": 1606.315295423, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " don", "_timestamp": 1606.316295423, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\u2019t", "_timestamp": 1606.317295423, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " have", "_timestamp": 1606.318295423, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " a", "_timestamp": 1606.319295423, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " tool", "_timestamp": 1606.320295423, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " named", "_timestamp": 1606.321295423, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \"", "_timestamp": 1606.322295423, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "non", "_timestamp": 1606.323295423, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "existent", "_timestamp": 1606.324295423, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_tool", "_timestamp": 1606.325295423, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\".", "_timestamp": 1606.326295423, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " Available", "_timestamp": 1606.327295423, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " tools", "_timestamp": 1606.328295423, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " I", "_timestamp": 1606.329295423, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " can", "_timestamp": 1606.330295423, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " use", "_timestamp": 1606.331295423, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " here", "_timestamp": 1606.332295423, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " are", "_timestamp": 1606.333295423, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ":\n", "_timestamp": 1606.334295423, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "-", "_timestamp": 1606.335295423, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " get", "_timestamp": 1606.336295423, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_current", "_timestamp": 1606.337295423, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_time", "_timestamp": 1606.338295423, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u2014", "_timestamp": 1606.339295423, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " return", "_timestamp": 1606.340295423, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " the", "_timestamp": 1606.341295423, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " current", "_timestamp": 1606.342295423, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " date", "_timestamp": 1606.343295423, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "/time", "_timestamp": 1606.344295423, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\n", "_timestamp": 1606.345295423, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "-", "_timestamp": 1606.346295423, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " calculator", "_timestamp": 1606.347295423, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u2014", "_timestamp": 1606.348295423, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " evaluate", "_timestamp": 1606.349295423, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " a", "_timestamp": 1606.350295423, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " math", "_timestamp": 1606.351295423, "_offset_ms": 38.0, "_index": 38}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " expression", "_timestamp": 1606.352295423, "_offset_ms": 39.0, "_index": 39}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\n", "_timestamp": 1606.353295423, "_offset_ms": 40.0, "_index": 40}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "-", "_timestamp": 1606.354295423, "_offset_ms": 41.0, "_index": 41}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " request", "_timestamp": 1606.355295423, "_offset_ms": 42.0, "_index": 42}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_", "_timestamp": 1606.356295423, "_offset_ms": 43.0, "_index": 43}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "approval", "_timestamp": 1606.357295423, "_offset_ms": 44.0, "_index": 44}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u2014", "_timestamp": 1606.358295423, "_offset_ms": 45.0, "_index": 45}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " ask", "_timestamp": 1606.359295423, "_offset_ms": 46.0, "_index": 46}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " a", "_timestamp": 1606.360295423, "_offset_ms": 47.0, "_index": 47}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " human", "_timestamp": 1606.361295423, "_offset_ms": 48.0, "_index": 48}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " for", "_timestamp": 1606.362295423, "_offset_ms": 49.0, "_index": 49}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " approval", "_timestamp": 1606.363295423, "_offset_ms": 50.0, "_index": 50}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " before", "_timestamp": 1606.364295423, "_offset_ms": 51.0, "_index": 51}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " a", "_timestamp": 1606.365295423, "_offset_ms": 52.0, "_index": 52}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " sensitive", "_timestamp": 1606.366295423, "_offset_ms": 53.0, "_index": 53}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " action", "_timestamp": 1606.367295423, "_offset_ms": 54.0, "_index": 54}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\n", "_timestamp": 1606.368295423, "_offset_ms": 55.0, "_index": 55}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "-", "_timestamp": 1606.369295423, "_offset_ms": 56.0, "_index": 56}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " multi", "_timestamp": 1606.370295423, "_offset_ms": 57.0, "_index": 57}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_tool", "_timestamp": 1606.371295423, "_offset_ms": 58.0, "_index": 58}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "_use", "_timestamp": 1606.372295423, "_offset_ms": 59.0, "_index": 59}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ".parallel", "_timestamp": 1606.373295423, "_offset_ms": 60.0, "_index": 60}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u2014", "_timestamp": 1606.374295423, "_offset_ms": 61.0, "_index": 61}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " run", "_timestamp": 1606.375295423, "_offset_ms": 62.0, "_index": 62}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " multiple", "_timestamp": 1606.376295423, "_offset_ms": 63.0, "_index": 63}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " of", "_timestamp": 1606.377295423, "_offset_ms": 64.0, "_index": 64}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " the", "_timestamp": 1606.378295423, "_offset_ms": 65.0, "_index": 65}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " above", "_timestamp": 1606.379295423, "_offset_ms": 66.0, "_index": 66}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " tools", "_timestamp": 1606.380295423, "_offset_ms": 67.0, "_index": 67}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " in", "_timestamp": 1606.381295423, "_offset_ms": 68.0, "_index": 68}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " parallel", "_timestamp": 1606.382295423, "_offset_ms": 69.0, "_index": 69}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\n\n", "_timestamp": 1606.383295423, "_offset_ms": 70.0, "_index": 70}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "Tell", "_timestamp": 1606.384295423, "_offset_ms": 71.0, "_index": 71}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " me", "_timestamp": 1606.385295423, "_offset_ms": 72.0, "_index": 72}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " what", "_timestamp": 1606.386295423, "_offset_ms": 73.0, "_index": 73}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " you", "_timestamp": 1606.387295423, "_offset_ms": 74.0, "_index": 74}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " want", "_timestamp": 1606.388295423, "_offset_ms": 75.0, "_index": 75}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " to", "_timestamp": 1606.389295423, "_offset_ms": 76.0, "_index": 76}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " accomplish", "_timestamp": 1606.390295423, "_offset_ms": 77.0, "_index": 77}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " (", "_timestamp": 1606.391295423, "_offset_ms": 78.0, "_index": 78}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "e", "_timestamp": 1606.392295423, "_offset_ms": 79.0, "_index": 79}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ".g", "_timestamp": 1606.393295423, "_offset_ms": 80.0, "_index": 80}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ".,", "_timestamp": 1606.394295423, "_offset_ms": 81.0, "_index": 81}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u201c", "_timestamp": 1606.395295423, "_offset_ms": 82.0, "_index": 82}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "get", "_timestamp": 1606.396295423, "_offset_ms": 83.0, "_index": 83}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " the", "_timestamp": 1606.397295423, "_offset_ms": 84.0, "_index": 84}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " current", "_timestamp": 1606.398295423, "_offset_ms": 85.0, "_index": 85}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " time", "_timestamp": 1606.399295423, "_offset_ms": 86.0, "_index": 86}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ",\u201d", "_timestamp": 1606.400295423, "_offset_ms": 87.0, "_index": 87}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u201c", "_timestamp": 1606.401295423, "_offset_ms": 88.0, "_index": 88}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "calculate", "_timestamp": 1606.402295423, "_offset_ms": 89.0, "_index": 89}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " ", "_timestamp": 1606.403295423, "_offset_ms": 90.0, "_index": 90}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "123", "_timestamp": 1606.404295423, "_offset_ms": 91.0, "_index": 91}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "*", "_timestamp": 1606.405295423, "_offset_ms": 92.0, "_index": 92}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "45", "_timestamp": 1606.406295423, "_offset_ms": 93.0, "_index": 93}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ",\u201d", "_timestamp": 1606.407295423, "_offset_ms": 94.0, "_index": 94}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " or", "_timestamp": 1606.408295423, "_offset_ms": 95.0, "_index": 95}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " \u201c", "_timestamp": 1606.409295423, "_offset_ms": 96.0, "_index": 96}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "request", "_timestamp": 1606.410295423, "_offset_ms": 97.0, "_index": 97}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " approval", "_timestamp": 1606.411295423, "_offset_ms": 98.0, "_index": 98}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " to", "_timestamp": 1606.412295423, "_offset_ms": 99.0, "_index": 99}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " delete", "_timestamp": 1606.413295423, "_offset_ms": 100.0, "_index": 100}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " X", "_timestamp": 1606.414295423, "_offset_ms": 101.0, "_index": 101}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\u201d),", "_timestamp": 1606.415295423, "_offset_ms": 102.0, "_index": 102}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " and", "_timestamp": 1606.416295423, "_offset_ms": 103.0, "_index": 103}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " I", "_timestamp": 1606.417295423, "_offset_ms": 104.0, "_index": 104}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "\u2019ll", "_timestamp": 1606.418295423, "_offset_ms": 105.0, "_index": 105}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " call", "_timestamp": 1606.419295423, "_offset_ms": 106.0, "_index": 106}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " the", "_timestamp": 1606.420295423, "_offset_ms": 107.0, "_index": 107}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " appropriate", "_timestamp": 1606.421295423, "_offset_ms": 108.0, "_index": 108}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": " tool", "_timestamp": 1606.422295423, "_offset_ms": 109.0, "_index": 109}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": "(s", "_timestamp": 1606.423295423, "_offset_ms": 110.0, "_index": 110}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "delta": ").", "_timestamp": 1606.424295423, "_offset_ms": 111.0, "_index": 111}
+{"type": "TEXT_MESSAGE_END", "messageId": "1a763405-279d-4a2c-b9ea-a0e301027885", "_timestamp": 1606.425295423, "_offset_ms": 112.0, "_index": 112}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-error_handling", "_timestamp": 1606.426295423, "_offset_ms": 113.0, "_index": 113}

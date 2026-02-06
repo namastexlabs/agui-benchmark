@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5269.6253189999425,
+    "time_to_first_event_ms": 4887.186273999987,
+    "time_to_first_content_ms": 5269.678523000039,
+    "time_to_complete_ms": 5269.6253189999425
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 539,
+    "tokens_approx": 134,
+    "final_text": "Before proceeding with deleting any data, I need to confirm that you want me to do so.\n\nTo ensure that I have your explicit approval, I'll ask you a few questions:\n\n1. What type of data do you want to delete (e.g., text, files, chat history)?\n2. Are you sure you want to delete the data permanently, and there's no chance you'll need it later?\n3. If you're deleting data, are you aware that this action is irreversible?\n\nPlease respond with a simple \"yes\" or \"no\" to each question, and I'll proceed with caution.\n\nPlease confirm: Yes or No"
+  },
+  "tokens": {
+    "input_tokens": 51,
+    "output_tokens": 129,
+    "total_tokens": 180
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 539,
+    "total_chunks": 12,
+    "duration_ms": 11.0,
+    "throughput_chars_per_sec": 49000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

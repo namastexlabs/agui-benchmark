@@ -1,0 +1,65 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3291.703944999881,
+    "time_to_first_event_ms": 254.87285100007284,
+    "time_to_first_content_ms": 3291.744405999907,
+    "time_to_complete_ms": 3291.703944999881
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "pyd_ai_7d40daa38e2148a6a2c2717426a559a1",
+        "name": "calculator",
+        "start_ms": 5.0,
+        "end_ms": 7.0,
+        "result_ms": 8.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 146,
+    "tokens_approx": 36,
+    "final_text": "To find x, we need to isolate x in the equation x + 5 = 12.\nWe can do this by subtracting 5 from both sides of the equation:\nx = 12 - 5\nSo, x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 146,
+    "total_chunks": 4,
+    "duration_ms": 9.0,
+    "throughput_chars_per_sec": 16222.22222222222,
+    "avg_gap_ms": 3.0,
+    "p95_gap_ms": 7.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

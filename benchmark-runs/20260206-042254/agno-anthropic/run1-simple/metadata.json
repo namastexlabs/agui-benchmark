@@ -1,0 +1,49 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1648.2144689998677,
+    "time_to_first_event_ms": 62.22238899999866,
+    "time_to_first_content_ms": 1648.2707029999801,
+    "time_to_complete_ms": 1648.2144689998677
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 277,
+    "tokens_approx": 69,
+    "final_text": "Hello! \ud83d\udc4b I'm an AI assistant running on the Agno framework, and I'm here to help you with a variety of tasks. I can tell you the current time, perform mathematical calculations, and help manage sensitive actions by requesting approval when needed. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 277,
+    "total_chunks": 18,
+    "duration_ms": 17.0,
+    "throughput_chars_per_sec": 16294.117647058822,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

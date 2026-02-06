@@ -1,0 +1,49 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6361.495550999962,
+    "time_to_first_event_ms": 853.3551939999597,
+    "time_to_first_content_ms": 6361.522656000034,
+    "time_to_complete_ms": 6361.495550999962
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 148,
+    "tokens_approx": 37,
+    "final_text": "I'm sorry, the tool 'nonexistent_tool' does not exist. I can only use the following tools: `get_current_time`, `calculator`, and `request_approval`."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 148,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 148000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

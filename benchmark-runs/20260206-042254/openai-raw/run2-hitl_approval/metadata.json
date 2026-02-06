@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 40161.36985399999,
+    "time_to_first_event_ms": 40159.529309999925,
+    "time_to_first_content_ms": 40161.83494199981,
+    "time_to_complete_ms": 40161.36985399999
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1063,
+    "tokens_approx": 265,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. Before I do anything, I need a few details so I can prepare safe, accurate steps and confirm the consequences.\n\nPlease tell me:\n- Exactly what you want deleted (files, folders, database rows, cloud objects, etc.) \u2014 list paths or identifiers.\n- Where the data is located (local machine + OS, external drive, server, AWS/GCP/Azure/S3, Dropbox, database type and connection).\n- Whether you want a permanent/secure wipe or a soft/trash-style delete.\n- Whether you have a backup or want me to include backup instructions first.\n\nSafety step / required confirmation:\n- I will not give deletion commands or instructions until you explicitly approve. To approve, reply with BOTH:\n  1) The exact list/description of items to delete (copy/paste from your message), and\n  2) This confirmation phrase exactly: I APPROVE PERMANENT DELETE\n\nIf you prefer a soft delete or a dry-run first, say so instead of the phrase above (e.g., \u201cPlease do a dry-run first\u201d).\n\nTell me the details above and how you want to proceed."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 695,
+    "total_tokens": 906
+  },
+  "events": {
+    "total_events": 243,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1063,
+    "total_chunks": 238,
+    "duration_ms": 237.0,
+    "throughput_chars_per_sec": 4485.232067510548,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

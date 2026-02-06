@@ -1,0 +1,24 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling", "_timestamp": 2031.023708063, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "role": "assistant", "_timestamp": 2031.024708063, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "I don", "_timestamp": 2031.025708063, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "'t have access", "_timestamp": 2031.026708063, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " to a tool", "_timestamp": 2031.0277080629999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " called ", "_timestamp": 2031.028708063, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "'nonexistent_tool'. ", "_timestamp": 2031.029708063, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "\n\nThe tools available to me are:", "_timestamp": 2031.030708063, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "\n1", "_timestamp": 2031.031708063, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": ". **", "_timestamp": 2031.032708063, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "get_current_time** - Get", "_timestamp": 2031.033708063, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " the current date and time\n2.", "_timestamp": 2031.034708063, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " **calculator** - Evaluate mathematical expressions", "_timestamp": 2031.035708063, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "\n3. **request_approval** -", "_timestamp": 2031.0367080629999, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " Request human approval before proceeding with sensitive", "_timestamp": 2031.0377080629999, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " actions\n\nCoul", "_timestamp": 2031.038708063, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "d you let", "_timestamp": 2031.039708063, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " me know what you'd like to", "_timestamp": 2031.040708063, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " do? I'", "_timestamp": 2031.041708063, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": "d be happy to help using", "_timestamp": 2031.042708063, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " one of the", "_timestamp": 2031.043708063, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "delta": " available tools!", "_timestamp": 2031.044708063, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_END", "messageId": "5e6dc82b-aed0-459f-9717-287f4ba220b7", "_timestamp": 2031.045708063, "_offset_ms": 22.0, "_index": 22}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling", "_timestamp": 2031.0467080629999, "_offset_ms": 23.0, "_index": 23}

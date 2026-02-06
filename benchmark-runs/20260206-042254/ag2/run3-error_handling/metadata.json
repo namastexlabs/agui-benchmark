@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14556.894306999993,
+    "time_to_first_event_ms": 2575.273401000004,
+    "time_to_first_content_ms": 14556.927494000092,
+    "time_to_complete_ms": 14556.894306999993
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1048,
+    "tokens_approx": 262,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. I can\u2019t call tools that don\u2019t exist, but I can help in several other ways \u2014 pick one:\n\n1) Tell me exactly what you want done and I\u2019ll do it directly here (I can process text, compute, generate code, etc.).  \n2) I can simulate what \"nonexistent_tool\" would return for a given input (give an example input and I\u2019ll produce a plausible output).  \n3) I can provide code to implement that tool (examples in Python or JavaScript) so you can run it locally or register it in your framework.\n\nIf you want option 3, here are quick stubs:\n\nPython stub:\ndef nonexistent_tool(payload):\n    \"\"\"\n    Replace this with the real implementation.\n    Example: payload could be a dict with keys: 'action', 'data'\n    \"\"\"\n    # TODO: implement actual logic\n    return {\"status\": \"simulated\", \"input\": payload}\n\nJavaScript stub (Node):\nfunction nonexistentTool(payload) {\n  // TODO: implement actual logic\n  return { status: \"simulated\", input: payload };\n}\n\nWhich option do you want, and what should the tool do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

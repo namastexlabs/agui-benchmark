@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4857.231760999866,
+    "time_to_first_event_ms": 4168.140067999957,
+    "time_to_first_content_ms": 4857.302640999933,
+    "time_to_complete_ms": 4857.231760999866
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 434,
+    "tokens_approx": 108,
+    "final_text": "```python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    Adds two numbers together.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of the two numbers.\n    \"\"\"\n    return a + b\n\n# Example usage:\nif __name__ == \"__main__\":\n    num1 = 5.0\n    num2 = 7.0\n    result = add_numbers(num1, num2)\n    print(f\"The sum of {num1} and {num2} is: {result}\")\n```"
+  },
+  "tokens": {
+    "input_tokens": 50,
+    "output_tokens": 130,
+    "total_tokens": 180
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 434,
+    "total_chunks": 17,
+    "duration_ms": 16.0,
+    "throughput_chars_per_sec": 27125.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

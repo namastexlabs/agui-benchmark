@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "model": "llama-3.1-8b", "_timestamp": 1656.422569449, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770362681", "role": "assistant", "_timestamp": 1656.423569449, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": "To", "_timestamp": 1656.424569449, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": " calculate 42 * 17, I'll use the calculator tool.\n\n", "_timestamp": 1656.425569449, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770362681", "delta": "42 * 17 = 714", "_timestamp": 1656.426569449, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770362681", "_timestamp": 1656.4275694490002, "_offset_ms": 5.0, "_index": 5}
+{"type": "USAGE_METADATA", "input_tokens": 51, "output_tokens": 23, "total_tokens": 74, "model": "llama-3.1-8b", "_timestamp": 1656.4285694490002, "_offset_ms": 6.0, "_index": 6}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "_timestamp": 1656.4295694490002, "_offset_ms": 7.0, "_index": 7}

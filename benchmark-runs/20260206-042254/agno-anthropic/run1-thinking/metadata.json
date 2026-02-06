@@ -1,0 +1,76 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4285.700199999837,
+    "time_to_first_event_ms": 257.0373409998865,
+    "time_to_first_content_ms": 4285.879084999806,
+    "time_to_complete_ms": 4285.700199999837
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 6.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_019wEda71jZncY9s9cPzx2tr",
+        "name": "calculator",
+        "start_ms": 33.0,
+        "end_ms": 35.0,
+        "result_ms": 36.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      },
+      {
+        "tool_call_id": "toolu_01V4918C714u62fDKitDwbYt",
+        "name": "calculator",
+        "start_ms": 47.0,
+        "end_ms": 49.0,
+        "result_ms": 50.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 460,
+    "tokens_approx": 115,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate the variable x**\nTo solve for x, I need to get x by itself on one side of the equation. Since 5 is being added to x, I'll subtract 5 from both sides:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\nLet me calculate the right side:**Step 4: Solution**\nx = 7\n\n**Verification:**\nLet me check: x + 5 = 7 + 5 should equal 12\u2713 Correct! **The answer is x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 60,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 460,
+    "total_chunks": 44,
+    "duration_ms": 55.0,
+    "throughput_chars_per_sec": 8363.636363636364,
+    "avg_gap_ms": 1.2790697674418605,
+    "p95_gap_ms": 5.8,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

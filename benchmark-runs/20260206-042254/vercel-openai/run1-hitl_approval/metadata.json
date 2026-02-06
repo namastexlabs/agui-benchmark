@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13656.707950999817,
+    "time_to_first_event_ms": 3454.3109369999456,
+    "time_to_first_content_ms": 13657.163732999834,
+    "time_to_complete_ms": 13656.707950999817
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 876,
+    "tokens_approx": 219,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we continue I need a few details so I can proceed safely:\n\n1. What exactly do you want deleted? (files, database rows, cloud buckets, account, etc.)  \n2. Where is it stored? (local computer + OS, external drive, Google Drive, Dropbox, AWS S3, a database\u2014name and provider)  \n3. Do you have a backup or do you want me to show how to make one?  \n4. Do you want a full permanent deletion (irreversible) or a reversible/soft delete (trash/recoverable)?\n\nWhen you\u2019re ready to proceed, confirm with this exact phrase (copy/paste):  \nI confirm delete: [brief description of what to delete]\n\nExample: I confirm delete: my ~/Documents/old_project folder on my Mac (permanent)\n\nI will not take any deletion steps until I receive that exact confirmation phrase. Would you like to provide the details above now?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 207,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 876,
+    "total_chunks": 203,
+    "duration_ms": 202.0,
+    "throughput_chars_per_sec": 4336.633663366337,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

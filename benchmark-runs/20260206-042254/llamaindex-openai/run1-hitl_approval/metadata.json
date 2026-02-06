@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15480.960241000048,
+    "time_to_first_event_ms": 2825.7470399998965,
+    "time_to_first_content_ms": 15481.64129199995,
+    "time_to_complete_ms": 15480.960241000048
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1231,
+    "tokens_approx": 307,
+    "final_text": "Understood \u2014 I will not proceed until you explicitly approve. Before I provide deletion steps, please confirm a few details so I can be safe and accurate:\n\n1. Where is the data stored? (e.g., local PC \u2014 Windows/macOS/Linux, external drive, cloud service like Google Drive/Dropbox/AWS, a database, etc.)\n2. Exactly which files/records/folders or database tables do you want deleted (paths, names, or a description)?  \n3. Do you want permanent, irrecoverable deletion (secure overwrite), or just move to trash/recycle bin?  \n4. Do you have a backup, or do you want instructions to create one first?  \n5. Are you authorized to delete this data (legal/organizational permission)?\n\nImportant notes:\n- I cannot delete files myself. I can provide precise commands, scripts, or a step-by-step procedure and will only give them after you explicitly approve.\n- Deletion can be irreversible and may have legal/regulatory consequences. I recommend a backup or a dry run listing what will be removed.\n\nIf you want me to proceed, reply with the exact confirmation phrase:\nI AUTHORIZE DELETE\n\nAlso include your answers to questions 1\u20135 above. Once I receive that confirmation and the details, I will provide the deletion instructions you request."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 270,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

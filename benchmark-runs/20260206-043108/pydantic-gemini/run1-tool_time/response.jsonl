@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_time", "_timestamp": 2031.038105936, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_7f4fb5da1d7a442880e5f8601a7b26a8", "toolCallName": "get_current_time", "parentMessageId": "17ce9467-e71e-4505-ae22-1497ebeb4fe7", "_timestamp": 2031.039105936, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_7f4fb5da1d7a442880e5f8601a7b26a8", "_timestamp": 2031.040105936, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_RESULT", "messageId": "63b545a9-e390-424d-b102-b1ecc77e2cf3", "toolCallId": "pyd_ai_7f4fb5da1d7a442880e5f8601a7b26a8", "content": "2026-02-06 04:31:13", "role": "tool", "_timestamp": 2031.041105936, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_START", "messageId": "96782656-0d96-445c-91b1-adec21783c9f", "role": "assistant", "_timestamp": 2031.0421059359999, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "96782656-0d96-445c-91b1-adec21783c9f", "delta": "The current time is", "_timestamp": 2031.043105936, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "96782656-0d96-445c-91b1-adec21783c9f", "delta": " 04:31:13 on 2026-02", "_timestamp": 2031.044105936, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "96782656-0d96-445c-91b1-adec21783c9f", "delta": "-06.", "_timestamp": 2031.045105936, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "messageId": "96782656-0d96-445c-91b1-adec21783c9f", "_timestamp": 2031.046105936, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_time", "_timestamp": 2031.047105936, "_offset_ms": 9.0, "_index": 9}

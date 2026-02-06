@@ -1,0 +1,41 @@
+{
+  "agent": "llamaindex-anthropic",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1455.1018019999447,
+    "time_to_first_event_ms": 188.78255999993598,
+    "time_to_first_content_ms": 1455.1561279999987,
+    "time_to_complete_ms": 1455.1018019999447
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 55,
+    "tokens_approx": 13,
+    "final_text": "The current time is **February 6, 2026 at 4:22:54 AM**."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 13,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  },
+  "streaming": null
+}
