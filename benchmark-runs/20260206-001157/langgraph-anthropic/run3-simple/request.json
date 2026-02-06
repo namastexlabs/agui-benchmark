@@ -1,0 +1,23 @@
+{
+  "thread_id": "test-thread-langgraph-anthropic",
+  "run_id": "test-run-langgraph-anthropic-simple",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+        "validates": [
+          "TEXT_MESSAGE_CONTENT",
+          "RUN_STARTED",
+          "RUN_FINISHED"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

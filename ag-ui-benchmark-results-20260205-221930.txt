@@ -1,0 +1,372 @@
+🧪 AG-UI Multi-Framework Multi-Model Test Suite
+========================================================================================================================
+Testing 21 agent configurations across 3 models
+
+📡 Checking agent health...
+  ✅ agno-anthropic: healthy
+  ✅ agno-openai: healthy (port 7771)
+  ✅ agno-gemini: healthy (port 7771)
+  ✅ langgraph-anthropic: healthy
+  ✅ langgraph-openai: healthy (port 7772)
+  ✅ langgraph-gemini: healthy (port 7772)
+  ✅ pydantic-anthropic: healthy
+  ✅ pydantic-openai: healthy (port 7774)
+  ✅ pydantic-gemini: healthy (port 7774)
+  ✅ llamaindex-anthropic: healthy
+  ✅ llamaindex-openai: healthy (port 7780)
+  ✅ llamaindex-gemini: healthy (port 7780)
+  ✅ vercel-anthropic: healthy
+  ✅ vercel-openai: healthy (port 7779)
+  ✅ vercel-gemini: healthy (port 7779)
+  ✅ crewai: healthy
+  ✅ ag2: healthy
+  ✅ google-adk: healthy
+  ✅ openai-raw: healthy
+  ✅ anthropic-raw: healthy
+  ✅ gemini-raw: healthy
+
+✅ 21/21 agents healthy
+
+🧪 Running AG-UI protocol tests (3 runs each, 189 total)...
+
+  === Run 1/3 ===
+
+  [CLAUDE]
+    ✅ agno-anthropic: 3/3 (1944ms, 2156ms, 2071ms)
+    ⚠️ langgraph-anthropic: 2/3 (76ms, 1551ms, 1924ms)
+    ✅ pydantic-anthropic: 3/3 (2563ms, 1470ms, 2138ms)
+    ✅ llamaindex-anthropic: 3/3 (1091ms, 1764ms, 1416ms)
+    ✅ vercel-anthropic: 3/3 (1104ms, 1515ms, 1265ms)
+    ✅ crewai: 3/3 (1819ms, 5244ms, 5244ms)
+    ✅ anthropic-raw: 3/3 (1105ms, 2365ms, 3630ms)
+
+  [OPENAI]
+    ✅ agno-openai: 3/3 (5174ms, 5625ms, 4358ms)
+    ⚠️ langgraph-openai: 2/3 (254ms, 3956ms, 3002ms)
+    ✅ pydantic-openai: 3/3 (1870ms, 4860ms, 2739ms)
+    ✅ llamaindex-openai: 3/3 (2501ms, 4131ms, 2528ms)
+    ✅ vercel-openai: 3/3 (1541ms, 4880ms, 1992ms)
+    ✅ ag2: 3/3 (4232ms, 8749ms, 2740ms)
+    ✅ openai-raw: 3/3 (3521ms, 7997ms, 10387ms)
+
+  [GEMINI]
+    ✅ agno-gemini: 3/3 (2414ms, 7044ms, 9925ms)
+    ⚠️ langgraph-gemini: 2/3 (254ms, 1732ms, 1893ms)
+    ✅ pydantic-gemini: 3/3 (876ms, 2301ms, 1859ms)
+    ✅ llamaindex-gemini: 3/3 (1716ms, 2233ms, 4431ms)
+    ✅ vercel-gemini: 3/3 (930ms, 1614ms, 1855ms)
+    ✅ google-adk: 3/3 (1788ms, 1763ms, 1942ms)
+    ✅ gemini-raw: 3/3 (657ms, 3189ms, 5132ms)
+
+  === Run 2/3 ===
+
+  [CLAUDE]
+    ✅ agno-anthropic: 3/3 (1757ms, 2193ms, 2533ms)
+    ⚠️ langgraph-anthropic: 2/3 (437ms, 1727ms, 1831ms)
+    ✅ pydantic-anthropic: 3/3 (1488ms, 1690ms, 1584ms)
+    ✅ llamaindex-anthropic: 3/3 (1211ms, 1431ms, 1429ms)
+    ✅ vercel-anthropic: 3/3 (1086ms, 1456ms, 1663ms)
+    ✅ crewai: 3/3 (5142ms, 5142ms, 5142ms)
+    ✅ anthropic-raw: 3/3 (3547ms, 1444ms, 3547ms)
+
+  [OPENAI]
+    ✅ agno-openai: 3/3 (4139ms, 5246ms, 4165ms)
+    ⚠️ langgraph-openai: 2/3 (3305ms, 440ms, 3949ms)
+    ✅ pydantic-openai: 3/3 (3256ms, 5343ms, 1980ms)
+    ✅ llamaindex-openai: 3/3 (2374ms, 3882ms, 4225ms)
+    ✅ vercel-openai: 3/3 (2013ms, 9323ms, 1878ms)
+    ✅ ag2: 3/3 (4754ms, 9874ms, 4734ms)
+    ✅ openai-raw: 3/3 (1940ms, 10407ms, 4123ms)
+
+  [GEMINI]
+    ⚠️ agno-gemini: 2/3 (1398ms, 130603ms, 11142ms)
+    ⚠️ langgraph-gemini: 2/3 (439ms, 1746ms, 2198ms)
+    ✅ pydantic-gemini: 3/3 (1126ms, 1589ms, 2669ms)
+    ✅ llamaindex-gemini: 3/3 (1239ms, 2211ms, 3123ms)
+    ✅ vercel-gemini: 3/3 (848ms, 1377ms, 1805ms)
+    ✅ google-adk: 3/3 (929ms, 1722ms, 3703ms)
+    ✅ gemini-raw: 3/3 (3889ms, 1267ms, 3233ms)
+
+  === Run 3/3 ===
+
+  [CLAUDE]
+    ✅ agno-anthropic: 3/3 (1949ms, 2162ms, 2158ms)
+    ⚠️ langgraph-anthropic: 2/3 (1246ms, 264ms, 1766ms)
+    ✅ pydantic-anthropic: 3/3 (1263ms, 1767ms, 1330ms)
+    ✅ llamaindex-anthropic: 3/3 (1215ms, 1746ms, 1796ms)
+    ✅ vercel-anthropic: 3/3 (1390ms, 1693ms, 1693ms)
+    ✅ crewai: 3/3 (4770ms, 4770ms, 4770ms)
+    ✅ anthropic-raw: 3/3 (905ms, 3387ms, 2081ms)
+
+  [OPENAI]
+    ✅ agno-openai: 3/3 (2869ms, 6200ms, 2840ms)
+    ⚠️ langgraph-openai: 2/3 (2683ms, 6868ms, 267ms)
+    ✅ pydantic-openai: 3/3 (2834ms, 4968ms, 2706ms)
+    ✅ llamaindex-openai: 3/3 (2034ms, 5563ms, 1860ms)
+    ✅ vercel-openai: 3/3 (2651ms, 5652ms, 2534ms)
+    ✅ ag2: 3/3 (2974ms, 8390ms, 3344ms)
+    ✅ openai-raw: 3/3 (2125ms, 9837ms, 9837ms)
+
+  [GEMINI]
+    ✅ agno-gemini: 3/3 (1378ms, 6776ms, 9547ms)
+    ⚠️ langgraph-gemini: 2/3 (2039ms, 2241ms, 266ms)
+    ✅ pydantic-gemini: 3/3 (956ms, 1641ms, 1753ms)
+    ✅ llamaindex-gemini: 3/3 (1875ms, 2913ms, 2437ms)
+    ✅ vercel-gemini: 3/3 (1372ms, 1728ms, 2595ms)
+    ✅ google-adk: 3/3 (2003ms, 2510ms, 2003ms)
+    ✅ gemini-raw: 3/3 (1979ms, 4960ms, 4960ms)
+
+========================================================================================================================
+AG-UI MULTI-FRAMEWORK MULTI-MODEL TEST REPORT
+========================================================================================================================
+
+Total Tests: 189
+Passed: 179
+Failed: 10
+
+========================================================================================================================
+COMPARISON BY MODEL (Same model, different frameworks)
+========================================================================================================================
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+🔷 CLAUDE MODEL (claude-haiku-4-5-20251001)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Framework            Type       Median     TTFB       TTFC       Tests   
+  ------------------------------------------------------------------------------
+  llamaindex           native       1429ms      73ms    1429ms     9
+  vercel-ai-sdk        wrapped      1456ms      51ms    1456ms     9
+  pydantic-ai          native       1584ms      72ms    1584ms     9
+  langgraph            native       1747ms     235ms    1747ms     6
+  agno                 native       2156ms      75ms    2156ms     9
+  anthropic-raw        raw          2365ms    2365ms    2365ms     9
+  crewai               native       5142ms    3648ms       0ms     9
+
+  🏆 Fastest claude: llamaindex (1429ms)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+🔷 OPENAI MODEL (gpt-5-mini)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Framework            Type       Median     TTFB       TTFC       Tests   
+  ------------------------------------------------------------------------------
+  llamaindex           native       2528ms      59ms    2528ms     9
+  vercel-ai-sdk        wrapped      2534ms      52ms    2534ms     9
+  pydantic-ai          native       2834ms      78ms    2834ms     9
+  langgraph            native       3627ms     239ms    3628ms     6
+  agno                 native       4358ms      87ms    4358ms     9
+  ag2                  wrapped      4734ms      53ms    4734ms     9
+  openai-raw           raw          7997ms    7997ms    7998ms     9
+
+  🏆 Fastest openai: llamaindex (2528ms)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+🔷 GEMINI MODEL (gemini-2.5-flash)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Framework            Type       Median     TTFB       TTFC       Tests   
+  ------------------------------------------------------------------------------
+  vercel-ai-sdk        wrapped      1614ms      60ms    1614ms     9
+  pydantic-ai          native       1641ms      80ms    1641ms     9
+  google-adk           native       1942ms     150ms    1942ms     9
+  langgraph            native       1966ms     239ms    1967ms     6
+  llamaindex           native       2233ms      56ms    2233ms     9
+  gemini-raw           raw          3233ms    3233ms    3233ms     9
+  agno                 native       6910ms      94ms    6910ms     8
+
+  🏆 Fastest gemini: vercel-ai-sdk (1614ms)
+
+========================================================================================================================
+COMPARISON BY FRAMEWORK (Same framework, different models)
+========================================================================================================================
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📦 AGNO
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Model      Model ID                       Median     TTFB       Resp Len  
+  --------------------------------------------------------------------------------
+  claude     claude-haiku-4-5-20251001        2156ms      75ms      85
+  openai     gpt-5-mini                       4358ms      87ms     118
+  gemini     gemini-2.5-flash                 6910ms      94ms      46
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📦 LANGGRAPH
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Model      Model ID                       Median     TTFB       Resp Len  
+  --------------------------------------------------------------------------------
+  claude     claude-haiku-4-5-20251001        1747ms     235ms     128
+  gemini     gemini-2.5-flash                 1966ms     239ms      82
+  openai     gpt-5-mini                       3627ms     239ms     273
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📦 LLAMAINDEX
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Model      Model ID                       Median     TTFB       Resp Len  
+  --------------------------------------------------------------------------------
+  claude     claude-haiku-4-5-20251001        1429ms      73ms      85
+  gemini     gemini-2.5-flash                 2233ms      56ms      49
+  openai     gpt-5-mini                       2528ms      59ms     137
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📦 PYDANTIC-AI
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Model      Model ID                       Median     TTFB       Resp Len  
+  --------------------------------------------------------------------------------
+  claude     claude-haiku-4-5-20251001        1584ms      72ms      67
+  gemini     gemini-2.5-flash                 1641ms      80ms      49
+  openai     gpt-5-mini                       2834ms      78ms     117
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📦 VERCEL-AI-SDK
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Model      Model ID                       Median     TTFB       Resp Len  
+  --------------------------------------------------------------------------------
+  claude     claude-haiku-4-5-20251001        1456ms      51ms      91
+  gemini     gemini-2.5-flash                 1614ms      60ms      49
+  openai     gpt-5-mini                       2534ms      52ms     128
+
+========================================================================================================================
+OVERALL RANKING (All framework+model combinations)
+========================================================================================================================
+
+Rank   Agent                     Framework       Model      Median     TTFB       Tests   
+----------------------------------------------------------------------------------------------------
+1      llamaindex-anthropic      llamaindex      claude       1429ms      73ms  9/9
+2      vercel-anthropic          vercel-ai-sdk   claude       1456ms      51ms  9/9
+3      pydantic-anthropic        pydantic-ai     claude       1584ms      72ms  9/9
+4      vercel-gemini             vercel-ai-sdk   gemini       1614ms      60ms  9/9
+5      pydantic-gemini           pydantic-ai     gemini       1641ms      80ms  9/9
+6      langgraph-anthropic       langgraph       claude       1747ms     235ms  6/9
+7      google-adk                google-adk      gemini       1942ms     150ms  9/9
+8      langgraph-gemini          langgraph       gemini       1966ms     239ms  6/9
+9      agno-anthropic            agno            claude       2156ms      75ms  9/9
+10     llamaindex-gemini         llamaindex      gemini       2233ms      56ms  9/9
+11     anthropic-raw             anthropic-raw   claude       2365ms    2365ms  9/9
+12     llamaindex-openai         llamaindex      openai       2528ms      59ms  9/9
+13     vercel-openai             vercel-ai-sdk   openai       2534ms      52ms  9/9
+14     pydantic-openai           pydantic-ai     openai       2834ms      78ms  9/9
+15     gemini-raw                gemini-raw      gemini       3233ms    3233ms  9/9
+16     langgraph-openai          langgraph       openai       3627ms     239ms  6/9
+17     agno-openai               agno            openai       4358ms      87ms  9/9
+18     ag2                       ag2             openai       4734ms      53ms  9/9
+19     crewai                    crewai          claude       5142ms    3648ms  9/9
+20     agno-gemini               agno            gemini       6910ms      94ms  8/9
+21     openai-raw                openai-raw      openai       7997ms    7997ms  9/9
+
+------------------------------------------------------------------------------------------------------------------------
+DETAILED BREAKDOWN BY TEST TYPE (Median of 3 runs)
+------------------------------------------------------------------------------------------------------------------------
+
+📊 SIMPLE TEST
+Agent                     Framework       Model      Median     Tools    Status  
+------------------------------------------------------------------------------------------
+vercel-gemini             vercel-ai-sdk   gemini        930ms    -        ✅
+pydantic-gemini           pydantic-ai     gemini        956ms    -        ✅
+vercel-anthropic          vercel-ai-sdk   claude       1104ms    -        ✅
+anthropic-raw             anthropic-raw   claude       1105ms    -        ✅
+llamaindex-anthropic      llamaindex      claude       1211ms    -        ✅
+langgraph-anthropic       langgraph       claude       1246ms    -        ✅
+agno-gemini               agno            gemini       1398ms    -        ✅
+pydantic-anthropic        pydantic-ai     claude       1488ms    -        ✅
+llamaindex-gemini         llamaindex      gemini       1716ms    -        ✅
+google-adk                google-adk      gemini       1788ms    -        ✅
+agno-anthropic            agno            claude       1944ms    -        ✅
+gemini-raw                gemini-raw      gemini       1979ms    -        ✅
+vercel-openai             vercel-ai-sdk   openai       2013ms    -        ✅
+langgraph-gemini          langgraph       gemini       2039ms    -        ✅
+openai-raw                openai-raw      openai       2125ms    -        ✅
+llamaindex-openai         llamaindex      openai       2374ms    -        ✅
+pydantic-openai           pydantic-ai     openai       2834ms    -        ✅
+langgraph-openai          langgraph       openai       2994ms    -        ✅
+agno-openai               agno            openai       4139ms    -        ✅
+ag2                       ag2             openai       4232ms    -        ✅
+crewai                    crewai          claude       4770ms    -        ✅
+
+📊 TOOL_TIME TEST
+Agent                     Framework       Model      Median     Tools    Status  
+------------------------------------------------------------------------------------------
+vercel-anthropic          vercel-ai-sdk   claude       1515ms    1        ✅
+vercel-gemini             vercel-ai-sdk   gemini       1614ms    1        ✅
+langgraph-anthropic       langgraph       claude       1639ms    1        ✅
+pydantic-gemini           pydantic-ai     gemini       1641ms    1        ✅
+pydantic-anthropic        pydantic-ai     claude       1690ms    1        ✅
+llamaindex-anthropic      llamaindex      claude       1746ms    -        ✅
+langgraph-gemini          langgraph       gemini       1746ms    1        ✅
+google-adk                google-adk      gemini       1763ms    -        ✅
+agno-anthropic            agno            claude       2162ms    1        ✅
+llamaindex-gemini         llamaindex      gemini       2233ms    -        ✅
+anthropic-raw             anthropic-raw   claude       2365ms    1        ✅
+gemini-raw                gemini-raw      gemini       3189ms    1        ✅
+llamaindex-openai         llamaindex      openai       4131ms    -        ✅
+pydantic-openai           pydantic-ai     openai       4968ms    1        ✅
+crewai                    crewai          claude       5142ms    -        ✅
+langgraph-openai          langgraph       openai       5412ms    1        ✅
+agno-openai               agno            openai       5625ms    1        ✅
+vercel-openai             vercel-ai-sdk   openai       5652ms    1        ✅
+agno-gemini               agno            gemini       6910ms    1        ✅
+ag2                       ag2             openai       8749ms    -        ✅
+openai-raw                openai-raw      openai       9837ms    1        ✅
+
+📊 TOOL_CALC TEST
+Agent                     Framework       Model      Median     Tools    Status  
+------------------------------------------------------------------------------------------
+llamaindex-anthropic      llamaindex      claude       1429ms    -        ✅
+pydantic-anthropic        pydantic-ai     claude       1584ms    1        ✅
+vercel-anthropic          vercel-ai-sdk   claude       1663ms    1        ✅
+langgraph-anthropic       langgraph       claude       1831ms    1        ✅
+vercel-gemini             vercel-ai-sdk   gemini       1855ms    1        ✅
+pydantic-gemini           pydantic-ai     gemini       1859ms    1        ✅
+vercel-openai             vercel-ai-sdk   openai       1992ms    1        ✅
+google-adk                google-adk      gemini       2003ms    -        ✅
+langgraph-gemini          langgraph       gemini       2045ms    1        ✅
+agno-anthropic            agno            claude       2158ms    1        ✅
+llamaindex-openai         llamaindex      openai       2528ms    -        ✅
+pydantic-openai           pydantic-ai     openai       2706ms    1        ✅
+llamaindex-gemini         llamaindex      gemini       3123ms    -        ✅
+ag2                       ag2             openai       3344ms    -        ✅
+langgraph-openai          langgraph       openai       3475ms    1        ✅
+anthropic-raw             anthropic-raw   claude       3547ms    1        ✅
+agno-openai               agno            openai       4165ms    1        ✅
+gemini-raw                gemini-raw      gemini       4960ms    1        ✅
+crewai                    crewai          claude       5142ms    -        ✅
+openai-raw                openai-raw      openai       9837ms    1        ✅
+agno-gemini               agno            gemini       9925ms    1        ✅
+
+----------------------------------------------------------------------------------------------------
+STARTUP TIMES (Cold Start)
+----------------------------------------------------------------------------------------------------
+
+Framework            Startup Time    Status    
+--------------------------------------------------
+anthropic-raw            6927 ms      ✅
+langgraph                6957 ms      ✅
+pydantic-ai              6972 ms      ✅
+crewai                   6993 ms      ✅
+llamaindex               6999 ms      ✅
+google-adk               7005 ms      ✅
+vercel-ai-sdk            7007 ms      ✅
+agno                     7057 ms      ✅
+gemini-raw               8078 ms      ✅
+openai-raw                N/A         ❌ failed
+ag2                       N/A         ❌ failed
+
+  🚀 Fastest startup: anthropic-raw (6927 ms)
+  🐢 Slowest startup: gemini-raw (8078 ms)
+  📊 Average startup: 7111 ms
+
+========================================================================================================================
+VERDICT
+========================================================================================================================
+
+🏆 FASTEST BY MODEL:
+  CLAUDE: llamaindex (1429ms)
+  OPENAI: llamaindex (2528ms)
+  GEMINI: vercel-ai-sdk (1614ms)
+
+🥇 Overall Fastest: llamaindex-anthropic (1429ms) - llamaindex + claude
+🐢 Overall Slowest: openai-raw (7997ms) - openai-raw + openai

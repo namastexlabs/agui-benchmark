@@ -1,0 +1,320 @@
+{
+  "timestamp": "20260206-001205",
+  "end_time": "2026-02-06T00:12:09.558544",
+  "analysis": {
+    "total_tests": 675,
+    "successful": 675,
+    "failed": 0
+  },
+  "fastest_by_model": {
+    "claude": {
+      "name": "langgraph-anthropic",
+      "framework": "langgraph",
+      "time_ms": 351.78113798610866
+    },
+    "openai": {
+      "name": "pydantic-openai",
+      "framework": "pydantic-ai",
+      "time_ms": 388.0627619801089
+    },
+    "gemini": {
+      "name": "langgraph-gemini",
+      "framework": "langgraph",
+      "time_ms": 398.4673699596897
+    },
+    "cerebras": {
+      "name": "agno-cerebras",
+      "framework": "agno",
+      "time_ms": 365.93388207256794
+    }
+  },
+  "overall_fastest": {
+    "name": "langgraph-anthropic",
+    "time_ms": 351.78113798610866,
+    "framework": "langgraph",
+    "model": "claude"
+  },
+  "overall_slowest": {
+    "name": "cerebras-llama-3.1-70b",
+    "time_ms": 1077.9979940271005,
+    "framework": "cerebras-raw",
+    "model": "cerebras"
+  },
+  "all_results": {
+    "agno-anthropic": {
+      "framework": "agno",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 443.0821459973231,
+      "median_ttfb_ms": 394.7237660177052,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-openai": {
+      "framework": "agno",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 453.0049980385229,
+      "median_ttfb_ms": 425.2411019988358,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-gemini": {
+      "framework": "agno",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 446.0480419220403,
+      "median_ttfb_ms": 413.799423025921,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-cerebras": {
+      "framework": "agno",
+      "model": "cerebras",
+      "model_id": "llama-3.3-70b",
+      "type": "native",
+      "median_time_ms": 365.93388207256794,
+      "median_ttfb_ms": 230.29671399854124,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "langgraph-anthropic": {
+      "framework": "langgraph",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 351.78113798610866,
+      "median_ttfb_ms": 237.36275895498693,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "langgraph-openai": {
+      "framework": "langgraph",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 396.76245604641736,
+      "median_ttfb_ms": 240.03198300488293,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "langgraph-gemini": {
+      "framework": "langgraph",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 398.4673699596897,
+      "median_ttfb_ms": 240.43964489828795,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "pydantic-anthropic": {
+      "framework": "pydantic-ai",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 370.9516240051016,
+      "median_ttfb_ms": 235.9605369856581,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "pydantic-openai": {
+      "framework": "pydantic-ai",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 388.0627619801089,
+      "median_ttfb_ms": 238.14781301189214,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "pydantic-gemini": {
+      "framework": "pydantic-ai",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 398.73662404716015,
+      "median_ttfb_ms": 319.18363692238927,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "llamaindex-anthropic": {
+      "framework": "llamaindex",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 399.73461104091257,
+      "median_ttfb_ms": 283.4715589415282,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "llamaindex-openai": {
+      "framework": "llamaindex",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 503.80927498918027,
+      "median_ttfb_ms": 480.66908109467477,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "llamaindex-gemini": {
+      "framework": "llamaindex",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 527.5420689722523,
+      "median_ttfb_ms": 495.36962900310755,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "vercel-anthropic": {
+      "framework": "vercel-ai-sdk",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "wrapped",
+      "median_time_ms": 527.2544920444489,
+      "median_ttfb_ms": 488.62555099185556,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "vercel-openai": {
+      "framework": "vercel-ai-sdk",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "wrapped",
+      "median_time_ms": 542.7927090786397,
+      "median_ttfb_ms": 505.4704090580344,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "vercel-gemini": {
+      "framework": "vercel-ai-sdk",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "wrapped",
+      "median_time_ms": 559.9354980513453,
+      "median_ttfb_ms": 510.84590004757047,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "crewai": {
+      "framework": "crewai",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 514.3487580353394,
+      "median_ttfb_ms": 472.33729099389166,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "ag2": {
+      "framework": "ag2",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "wrapped",
+      "median_time_ms": 512.9548619734123,
+      "median_ttfb_ms": 464.1619509784505,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "google-adk": {
+      "framework": "google-adk",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 521.4037770638242,
+      "median_ttfb_ms": 467.18336106278,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "openai-raw": {
+      "framework": "openai-raw",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "raw",
+      "median_time_ms": 488.056147005409,
+      "median_ttfb_ms": 440.9968260442838,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "anthropic-raw": {
+      "framework": "anthropic-raw",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "raw",
+      "median_time_ms": 515.8839690266177,
+      "median_ttfb_ms": 503.73680295888335,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "gemini-raw": {
+      "framework": "gemini-raw",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "raw",
+      "median_time_ms": 508.9622560190037,
+      "median_ttfb_ms": 495.9974359953776,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.3-70b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.3-70b",
+      "type": "raw",
+      "median_time_ms": 1054.5716780470684,
+      "median_ttfb_ms": 692.2892419388518,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.1-70b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.1-70b",
+      "type": "raw",
+      "median_time_ms": 1077.9979940271005,
+      "median_ttfb_ms": 683.2067869836465,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.1-8b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.1-8b",
+      "type": "raw",
+      "median_time_ms": 1067.312858067453,
+      "median_ttfb_ms": 739.1147429589182,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    }
+  }
+}

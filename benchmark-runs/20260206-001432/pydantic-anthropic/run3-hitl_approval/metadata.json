@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2822.293210076168,
+    "time_to_first_event_ms": 253.91604600008577,
+    "time_to_first_content_ms": 2822.470498038456,
+    "time_to_complete_ms": 2822.293210076168
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 857,
+    "tokens_approx": 214,
+    "final_text": "I appreciate you thinking about safety, but I should clarify: **I don't actually have the ability to delete any data**. \n\nI'm a helpful assistant running on PydanticAI with access to only two tools:\n1. **Calculator** - for math expressions\n2. **Current time** - to tell you the time\n\nI can't access, modify, or delete any files, databases, or information on your system. To delete important data, you would need to do that directly through your own system, applications, or services.\n\n**If you're looking to delete data**, here's my recommendation:\n- Make sure you have **backups** first\n- Double-check you're deleting the right thing\n- Consider moving it to a backup/archive location instead of permanently deleting it\n- Only proceed when you're absolutely certain\n\nIs there something else I can help you with, like doing calculations or checking the time?"
+  },
+  "events": {
+    "total_events": 85,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

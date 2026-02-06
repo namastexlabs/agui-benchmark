@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "6f1e83d2-912a-462a-8669-bdcbd1841b08", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "6f1e83d2-912a-462a-8669-bdcbd1841b08", "delta": "x = 7.\n\nReason: subtract 5 from both sides: x + 5 \u2212 5 = 12 \u2212 5, so x = 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "6f1e83d2-912a-462a-8669-bdcbd1841b08"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}

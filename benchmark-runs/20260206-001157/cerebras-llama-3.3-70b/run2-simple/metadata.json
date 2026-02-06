@@ -1,0 +1,40 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": {
+    "type": "single",
+    "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+    "validates": [
+      "TEXT_MESSAGE_CONTENT",
+      "RUN_STARTED",
+      "RUN_FINISHED"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 747.1715530846268,
+    "time_to_first_event_ms": 499.2705420590937,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 747.1715530846268
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 4,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

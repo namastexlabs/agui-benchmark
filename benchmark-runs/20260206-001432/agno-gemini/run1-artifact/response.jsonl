@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "d2a5da24-bc7a-4dc6-821b-af7d18719c97", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2a5da24-bc7a-4dc6-821b-af7d18719c97", "delta": "```python\ndef add(a, b):\n  return a + b\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "d2a5da24-bc7a-4dc6-821b-af7d18719c97"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-artifact"}

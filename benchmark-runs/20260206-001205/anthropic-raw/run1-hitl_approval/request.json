@@ -1,0 +1,26 @@
+{
+  "thread_id": "test-thread-anthropic-raw",
+  "run_id": "test-run-anthropic-raw-hitl_approval",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "hitl",
+        "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+        "hitl_response": {
+          "approved": true,
+          "message": "Yes, you may proceed"
+        },
+        "validates": [
+          "HUMAN_INPUT_REQUESTED",
+          "HUMAN_INPUT_RECEIVED"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

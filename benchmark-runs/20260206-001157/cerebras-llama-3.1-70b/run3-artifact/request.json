@@ -1,0 +1,24 @@
+{
+  "thread_id": "test-thread-cerebras-llama-3.1-70b",
+  "run_id": "test-run-cerebras-llama-3.1-70b-artifact",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+        "validates": [
+          "ARTIFACT_START",
+          "ARTIFACT_CONTENT",
+          "ARTIFACT_END"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {},
+  "model": "llama-3.1-70b"
+}

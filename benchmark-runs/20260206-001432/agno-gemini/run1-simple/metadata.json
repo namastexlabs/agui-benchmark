@@ -1,0 +1,33 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2149.209758033976,
+    "time_to_first_event_ms": 684.3110810732469,
+    "time_to_first_content_ms": 2149.2354420479387,
+    "time_to_complete_ms": 2149.209758033976
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 130,
+    "tokens_approx": 32,
+    "final_text": "Hello! I'm a helpful assistant running on the Agno framework. I can tell you the current time and perform basic math calculations."
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

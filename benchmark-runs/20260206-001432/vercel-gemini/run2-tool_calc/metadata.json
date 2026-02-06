@@ -1,0 +1,37 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3990.354722016491,
+    "time_to_first_event_ms": 1669.3476510699838,
+    "time_to_first_content_ms": 3990.4302899958566,
+    "time_to_complete_ms": 3990.354722016491
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0008869683369994164
+  },
+  "response": {
+    "chars": 30,
+    "tokens_approx": 7,
+    "final_text": "The result of 42 * 17 is 714.\n"
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

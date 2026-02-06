@@ -1,0 +1,33 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2695.9966180147603,
+    "time_to_first_event_ms": 319.58000396844,
+    "time_to_first_content_ms": 2696.152328979224,
+    "time_to_complete_ms": 2695.9966180147603
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 787,
+    "tokens_approx": 196,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** I'm a helpful assistant running on the Agno framework with access to limited tools\u2014I can only tell you the current time and perform basic math calculations.\n\nI cannot:\n- Access, modify, or delete files or databases\n- Connect to systems or applications\n- Perform any data operations\n\nIf you need to delete important data, you'll need to:\n1. Use the appropriate application or system directly\n2. Follow your organization's data deletion procedures\n3. Get proper approval through your normal channels\n4. Ensure you have proper backups before deleting anything critical\n\nIs there something else I can help you with, like calculations or checking the current time?"
+  },
+  "events": {
+    "total_events": 59,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

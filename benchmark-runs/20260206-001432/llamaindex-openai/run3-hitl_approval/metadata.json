@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10942.926196963526,
+    "time_to_first_event_ms": 298.8286589970812,
+    "time_to_first_content_ms": 10943.889388930984,
+    "time_to_complete_ms": 10942.926196963526
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1518,
+    "tokens_approx": 379,
+    "final_text": "Okay \u2014 I can help, but I won\u2019t do anything until you explicitly approve. Before I proceed, I need a few details and your clear confirmation.\n\nPlease answer these quickly:\n1. What exactly do you want deleted? (files, folders, a database/table/rows, cloud bucket objects, user account, VM, etc.)\n2. Where is it located? (full path, hostname, cloud provider + bucket/region, database name/table)\n3. How much data (approx. number of files or size)?\n4. Do you have a recent backup or snapshot? If not, do you want instructions to create one first?\n5. Are there other services or users that depend on this data?\n6. Are you authorized to delete this data? (You must be the owner or have explicit permission.)\n7. Do you want a permanent deletion (irreversible) or a soft delete (move to trash/archive)?\n\nWarnings and recommendations (please read):\n- Permanent deletion can be irreversible. I strongly recommend making a backup or snapshot first.\n- If this is production data, consider taking a downtime window or notifying stakeholders.\n- I can provide exact commands or a step-by-step procedure for your environment \u2014 I cannot perform deletion directly unless you run the commands.\n\nIf you understand and still want me to proceed, reply with this exact confirmation phrase (replace [scope] with a short description, e.g., \u201c/home/user/docs\u201d or \u201corders DB rows\u201d):\n\nCONFIRM DELETE: YES, DELETE [scope] NOW\n\nI will not proceed until I receive that exact phrase. Which items above apply \u2014 and what is the [scope] you want deleted?"
+  },
+  "events": {
+    "total_events": 337,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

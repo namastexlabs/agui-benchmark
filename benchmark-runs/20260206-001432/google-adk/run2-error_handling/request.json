@@ -1,0 +1,15 @@
+{
+  "thread_id": "test-thread-google-adk",
+  "run_id": "test-run-google-adk-error_handling",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": "Use the 'nonexistent_tool' to do something."
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

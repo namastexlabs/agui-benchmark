@@ -1,0 +1,42 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": {
+    "type": "hitl",
+    "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+    "hitl_response": {
+      "approved": true,
+      "message": "Yes, you may proceed"
+    },
+    "validates": [
+      "HUMAN_INPUT_REQUESTED",
+      "HUMAN_INPUT_RECEIVED"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 549.0298990625888,
+    "time_to_first_event_ms": 529.9743580399081,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 549.0298990625888
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 3,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  }
+}

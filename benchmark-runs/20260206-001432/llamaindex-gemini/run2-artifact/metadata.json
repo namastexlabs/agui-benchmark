@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1717.2919639851898,
+    "time_to_first_event_ms": 291.6185879148543,
+    "time_to_first_content_ms": 1717.3244570149109,
+    "time_to_complete_ms": 1717.2919639851898
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 55,
+    "tokens_approx": 13,
+    "final_text": "```python\ndef add_two_numbers(a, b):\n  return a + b\n```"
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

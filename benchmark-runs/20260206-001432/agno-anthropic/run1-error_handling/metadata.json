@@ -1,0 +1,33 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1925.5832090275362,
+    "time_to_first_event_ms": 337.0650779688731,
+    "time_to_first_content_ms": 1925.654113991186,
+    "time_to_complete_ms": 1925.5832090275362
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 346,
+    "tokens_approx": 86,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can tell you what time it is or perform math calculations for you."
+  },
+  "events": {
+    "total_events": 27,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770347772", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " can't perform the requested action. The 'nonexistent_tool' is not"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " a real tool, and it's not something that"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " I can use. If you'd like to know more about"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " a specific task or how to accomplish something, I'd be"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " happy to help you with that. Could you provide more information about"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347772", "delta": " what you're trying to do?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770347772"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling"}

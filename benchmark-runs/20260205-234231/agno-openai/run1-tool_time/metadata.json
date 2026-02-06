@@ -1,0 +1,37 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5053.823129972443,
+    "time_to_first_event_ms": 107.48057707678527,
+    "time_to_first_content_ms": 5053.915012977086,
+    "time_to_complete_ms": 5053.823129972443
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0005379552021622658
+  },
+  "response": {
+    "chars": 120,
+    "tokens_approx": 30,
+    "final_text": "Current time (from the time tool): 2026-02-05 23:42:32.\n\nWould you like that converted to a specific timezone or format?"
+  },
+  "events": {
+    "total_events": 44,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

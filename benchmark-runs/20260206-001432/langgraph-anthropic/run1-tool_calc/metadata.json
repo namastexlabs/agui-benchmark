@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1766.4837959455326,
+    "time_to_first_event_ms": 276.0621749330312,
+    "time_to_first_content_ms": 1767.3359719337896,
+    "time_to_complete_ms": 1766.4837959455326
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 573,
+    "tokens_approx": 143,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful AI assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current date and time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, here to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything you'd like help with!"
+  },
+  "events": {
+    "total_events": 63,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

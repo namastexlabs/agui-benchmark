@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9632.010170025751,
+    "time_to_first_event_ms": 187.95704701915383,
+    "time_to_first_content_ms": 9632.517109974287,
+    "time_to_complete_ms": 9632.010170025751
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1090,
+    "tokens_approx": 272,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before I prepare deletion steps or commands, I need a few details so I can do this safely:\n\n1. Where is the data stored? (local PC \u2014 Windows/macOS/Linux, external drive, or cloud service: Google Drive, Dropbox, AWS S3, etc.)\n2. Exactly what should be deleted? (file paths, folder names, bucket/object names, or a description so I can help identify them)\n3. Do you have a backup or want me to include backup steps first?\n4. Do you want a soft delete (move to Trash/Recycle Bin) or permanent/secure erase (overwriting)?\n5. Do you want a dry-run first (list what would be deleted) before actual deletion?\n6. Who will perform the deletion \u2014 you following my commands, or do you want scripts/commands I can produce for you to run? (I can\u2019t directly access your systems.)\n\nWhen you\u2019re ready, tell me the answers and confirm how you want me to proceed. I will only provide destructive commands or proceed after you type this explicit confirmation phrase: YES, DELETE. If you prefer a different confirmation phrase, tell me which one."
+  },
+  "events": {
+    "total_events": 249,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

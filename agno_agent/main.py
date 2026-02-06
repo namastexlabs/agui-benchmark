@@ -5,6 +5,7 @@ Endpoints:
   - POST /agui/anthropic (Claude)
   - POST /agui/openai (GPT-4o-mini)
   - POST /agui/gemini (Gemini 2.0 Flash)
+  - POST /agui/cerebras (Cerebras Llama 3.3 70B via OpenAI-compatible API)
 
 Agno has native AG-UI support via the AGUI() interface.
 """
@@ -84,13 +85,27 @@ gemini_agent = Agent(
     description="Agno agent with Gemini 2.0 Flash (Google)",
 )
 
+# Create the Cerebras agent (Llama 3.3 70B via OpenAI-compatible API)
+cerebras_agent = Agent(
+    model=OpenAIChat(
+        id="llama-3.3-70b",
+        api_key=os.getenv("CEREBRAS_API_KEY"),
+        base_url="https://api.cerebras.ai/v1"
+    ),
+    tools=COMMON_TOOLS,
+    instructions=COMMON_INSTRUCTIONS,
+    name="agno-cerebras",
+    description="Agno agent with Cerebras Llama 3.3 70B (OpenAI-compatible)",
+)
+
 # Create AgentOS with multiple AGUI interfaces at different prefixes
 agent_os = AgentOS(
-    agents=[anthropic_agent, openai_agent, gemini_agent],
+    agents=[anthropic_agent, openai_agent, gemini_agent, cerebras_agent],
     interfaces=[
         AGUI(agent=anthropic_agent, prefix="/agui/anthropic"),
         AGUI(agent=openai_agent, prefix="/agui/openai"),
         AGUI(agent=gemini_agent, prefix="/agui/gemini"),
+        AGUI(agent=cerebras_agent, prefix="/agui/cerebras"),
     ]
 )
 
@@ -105,16 +120,18 @@ async def health():
         "status": "healthy",
         "framework": "agno",
         "port": 7771,
-        "providers": ["anthropic", "openai", "gemini"],
+        "providers": ["anthropic", "openai", "gemini", "cerebras"],
         "agui_endpoints": {
             "anthropic": "/agui/anthropic",
             "openai": "/agui/openai",
             "gemini": "/agui/gemini",
+            "cerebras": "/agui/cerebras",
         },
         "models": {
             "anthropic": "claude-haiku-4-5-20251001",
             "openai": "gpt-5-mini",
             "gemini": "gemini-2.5-flash",
+            "cerebras": "llama-3.3-70b",
         }
     }
 
@@ -124,11 +141,12 @@ async def root():
     return {
         "name": "Agno AG-UI Test Agent",
         "framework": "agno",
-        "providers": ["anthropic", "openai", "gemini"],
+        "providers": ["anthropic", "openai", "gemini", "cerebras"],
         "agui_endpoints": {
             "anthropic": "POST /agui/anthropic",
             "openai": "POST /agui/openai",
             "gemini": "POST /agui/gemini",
+            "cerebras": "POST /agui/cerebras",
         },
         "health_endpoint": "GET /health"
     }
@@ -140,4 +158,5 @@ if __name__ == "__main__":
     print("  - POST http://localhost:7771/agui/anthropic (Claude)")
     print("  - POST http://localhost:7771/agui/openai (GPT-4o-mini)")
     print("  - POST http://localhost:7771/agui/gemini (Gemini 2.0 Flash)")
+    print("  - POST http://localhost:7771/agui/cerebras (Cerebras Llama 3.3 70B)")
     agent_os.serve(app="main:app", host="0.0.0.0", port=7771, reload=False)

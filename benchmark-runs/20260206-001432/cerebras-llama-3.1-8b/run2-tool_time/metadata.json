@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4648.043976048939,
+    "time_to_first_event_ms": 4094.3214740836993,
+    "time_to_first_content_ms": 4648.08004302904,
+    "time_to_complete_ms": 4648.043976048939
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 474,
+    "tokens_approx": 118,
+    "final_text": "I'm not capable of directly accessing the internet or using tools. However, I can suggest ways for you to find the current time.\n\nYou can use various methods to check the current time, such as:\n\n1. Checking your phone or computer's clock.\n2. Searching for \"current time\" on a search engine like Google.\n3. Using a world clock website or app.\n4. Asking a voice assistant like Siri, Google Assistant, or Alexa.\n\nPlease let me know if there's anything else I can help you with."
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

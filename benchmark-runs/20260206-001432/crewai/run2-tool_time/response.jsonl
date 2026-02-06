@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-tool_time"}
+{"type": "STEP_STARTED", "stepName": "handle_message"}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "What is the current time? Use the time tool to check."}]}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "What is the current time? Use the time tool to check.", "name": null}], "copilotkit": {"actions": []}}}
+{"type": "STEP_FINISHED", "stepName": "handle_message"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-tool_time"}

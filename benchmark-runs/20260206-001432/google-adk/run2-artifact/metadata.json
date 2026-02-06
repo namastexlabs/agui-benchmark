@@ -1,0 +1,33 @@
+{
+  "agent": "google-adk",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4470.542350085452,
+    "time_to_first_event_ms": 2501.5117450384423,
+    "time_to_first_content_ms": 4470.5623590853065,
+    "time_to_complete_ms": 4470.542350085452
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 55,
+    "tokens_approx": 13,
+    "final_text": "```python\ndef add_two_numbers(a, b):\n  return a + b\n```"
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

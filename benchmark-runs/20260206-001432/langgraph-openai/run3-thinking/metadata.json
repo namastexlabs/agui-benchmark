@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5268.758250982501,
+    "time_to_first_event_ms": 682.5109489727765,
+    "time_to_first_content_ms": 5270.2935909619555,
+    "time_to_complete_ms": 5268.758250982501
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 242,
+    "tokens_approx": 60,
+    "final_text": "We solve by isolating x. Subtract 5 from both sides:\nx + 5 = 12\nx = 12 \u2212 5\nx = 7\n\nCheck: 7 + 5 = 12, so x = 7 is correct.We solve by isolating x. Subtract 5 from both sides:\nx + 5 = 12\nx = 12 \u2212 5\nx = 7\n\nCheck: 7 + 5 = 12, so x = 7 is correct."
+  },
+  "events": {
+    "total_events": 133,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

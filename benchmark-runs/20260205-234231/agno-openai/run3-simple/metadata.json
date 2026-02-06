@@ -1,0 +1,33 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2608.955543022603,
+    "time_to_first_event_ms": 63.822817988693714,
+    "time_to_first_content_ms": 2609.042742056772,
+    "time_to_complete_ms": 2608.955543022603
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 160,
+    "tokens_approx": 40,
+    "final_text": "Hello \u2014 I\u2019m an AI assistant powered by GPT-4o-mini on the Agno framework. I can help with questions, writing, calculations, and more\u2014how can I assist you today?"
+  },
+  "events": {
+    "total_events": 44,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "1250ce5b-f75c-45aa-8aff-6568a3869fce", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1250ce5b-f75c-45aa-8aff-6568a3869fce", "delta": "I used the calculator tool. The result of 42 \u00d7 17 is 714."}
+{"type": "TEXT_MESSAGE_END", "messageId": "1250ce5b-f75c-45aa-8aff-6568a3869fce"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_calc"}

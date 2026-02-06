@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9622.177774901502,
+    "time_to_first_event_ms": 630.771605996415,
+    "time_to_first_content_ms": 9626.976549974643,
+    "time_to_complete_ms": 9622.177774901502
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1752,
+    "tokens_approx": 438,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve.\n\nBefore we proceed, please tell me:\n1. Exactly what data you want deleted (files, folders, accounts, databases, devices) and where it is stored.\n2. Whether deletion should be permanent/irreversible or just moved to trash/archive.\n3. Whether you have a backup or want me to create one first.\n4. Any time constraints or dependencies (other systems or users affected).\n\nIf you want me to proceed right now, type one of these exact confirmations:\n- For permanent deletion: CONFIRM DELETE PERMANENT: [brief description]\n- For reversible deletion/trash: CONFIRM DELETE TRASH: [brief description]\n\nExample: CONFIRM DELETE PERMANENT: projectX folder on Drive\n\nI\u2019ll wait for your answers and your explicit confirmation before doing anything. I can also walk you through safe backup and deletion steps if you prefer.Understood \u2014 I will not delete anything until you explicitly approve.\n\nBefore we proceed, please tell me:\n1. Exactly what data you want deleted (files, folders, accounts, databases, devices) and where it is stored.\n2. Whether deletion should be permanent/irreversible or just moved to trash/archive.\n3. Whether you have a backup or want me to create one first.\n4. Any time constraints or dependencies (other systems or users affected).\n\nIf you want me to proceed right now, type one of these exact confirmations:\n- For permanent deletion: CONFIRM DELETE PERMANENT: [brief description]\n- For reversible deletion/trash: CONFIRM DELETE TRASH: [brief description]\n\nExample: CONFIRM DELETE PERMANENT: projectX folder on Drive\n\nI\u2019ll wait for your answers and your explicit confirmation before doing anything. I can also walk you through safe backup and deletion steps if you prefer."
+  },
+  "events": {
+    "total_events": 393,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

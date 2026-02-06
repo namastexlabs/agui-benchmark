@@ -1,0 +1,33 @@
+{
+  "agent": "google-adk",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2198.1806580442935,
+    "time_to_first_event_ms": 127.56226700730622,
+    "time_to_first_content_ms": 2198.199711041525,
+    "time_to_complete_ms": 2198.1806580442935
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 49,
+    "tokens_approx": 12,
+    "final_text": "The current time is 11:42 PM on February 5, 2026."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

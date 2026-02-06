@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5765.768948942423,
+    "time_to_first_event_ms": 82.26153790019453,
+    "time_to_first_content_ms": 5765.792591962963,
+    "time_to_complete_ms": 5765.768948942423
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 249,
+    "tokens_approx": 62,
+    "final_text": "I don\u2019t have access to the \u201ctime\u201d tool from this interface. I can tell the date I see (2026-02-06), but I need a timezone or city to give the current clock time. Which timezone or city should I use? If you prefer, I can give the current time in UTC."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

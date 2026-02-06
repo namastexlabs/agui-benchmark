@@ -1,0 +1,33 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12036.38193802908,
+    "time_to_first_event_ms": 12035.543953999877,
+    "time_to_first_content_ms": 12036.541842040606,
+    "time_to_complete_ms": 12036.38193802908
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 856,
+    "tokens_approx": 214,
+    "final_text": "I appreciate you being cautious about important data! However, I should clarify what I can actually help with.\n\nLooking at my available tools, I can:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI **don't have access to any file systems, databases, or data deletion tools**. So I couldn't delete data even if you asked me to.\n\nIf you're looking to delete important data on your own system, here are some things to keep in mind:\n\n1. **Back up first** - Always create a backup before deleting anything important\n2. **Double-check** - Verify exactly what you're deleting\n3. **Use trash/recycle** - Delete to trash first rather than permanent deletion, if possible\n4. **Consider recovery** - Be aware of whether deleted files can be recovered\n\nIs there something else I can help you with, like calculations or time-related questions?"
+  },
+  "events": {
+    "total_events": 82,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

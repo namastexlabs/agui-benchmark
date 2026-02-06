@@ -1,0 +1,37 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10699.650662019849,
+    "time_to_first_event_ms": 10699.374604970217,
+    "time_to_first_content_ms": 10699.680684949271,
+    "time_to_complete_ms": 10699.650662019849
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0004909234121441841
+  },
+  "response": {
+    "chars": 53,
+    "tokens_approx": 13,
+    "final_text": "```python\ndef add_numbers(a, b):\n    return a + b\n```"
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

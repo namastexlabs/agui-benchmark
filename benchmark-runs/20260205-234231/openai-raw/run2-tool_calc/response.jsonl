@@ -1,0 +1,22 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "{\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "expression"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "\":\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "42"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": " *"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": " "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "17"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "delta": "\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "a207d72b-c9d8-42e1-ba7d-9e70992b6bca", "result": "42 * 17 = 714"}
+{"type": "TEXT_MESSAGE_START", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": "42"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": " *"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": "17"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba", "delta": "714"}
+{"type": "TEXT_MESSAGE_END", "message_id": "a98744b0-d377-4b18-ad63-9681ded38cba"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-tool_calc"}

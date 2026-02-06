@@ -1,0 +1,24 @@
+{
+  "thread_id": "test-thread-llamaindex-openai",
+  "run_id": "test-run-llamaindex-openai-tool_time",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "What is the current time? Use the time tool to check.",
+        "validates": [
+          "TOOL_CALL_START",
+          "TOOL_CALL_ARGS",
+          "TOOL_CALL_END",
+          "TOOL_CALL_RESULT"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4091.8804799439386,
+    "time_to_first_event_ms": 2415.6041550450027,
+    "time_to_first_content_ms": 4091.925382032059,
+    "time_to_complete_ms": 4091.8804799439386
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 138,
+    "tokens_approx": 34,
+    "final_text": "Hello! I'm an AI assistant running on the LlamaIndex framework. I can help you with basic math calculations and tell you the current time."
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

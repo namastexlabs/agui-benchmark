@@ -1,0 +1,20 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-1", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-1", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-1"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-1", "result": "2026-02-06 03:14:33"}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770347672620", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": "2026-02-06 03"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": ":14:33**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": " (3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": ":14 "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": "AM"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": " an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": "d 33"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": " seconds on"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": " February 6th"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770347672620", "delta": " 2026)."}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770347672620"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-tool_time"}

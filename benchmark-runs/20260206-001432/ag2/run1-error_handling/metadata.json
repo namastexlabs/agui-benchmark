@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5091.801128000952,
+    "time_to_first_event_ms": 306.11866794060916,
+    "time_to_first_content_ms": 5091.831260011531,
+    "time_to_complete_ms": 5091.801128000952
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1147,
+    "tokens_approx": 286,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool.\" I can\u2019t call or fabricate an unavailable tool, but I can help in one of these ways \u2014 which would you prefer?\n\n1) Do the task directly here \u2014 tell me what you want done and I\u2019ll do it with my built-in capabilities.  \n2) Show how to implement a \"nonexistent_tool\" (example code/stub) you can run locally or integrate into your system.  \n3) Simulate what calling that tool would look like (example input/output) so you can see expected behavior.\n\nIf you want option 2, here are two brief examples you can adapt:\n\n- Python function stub\n```\ndef nonexistent_tool(input_data):\n    # TODO: implement the actual behavior\n    # Example: transform input to uppercase and return a result dict\n    result = input_data.upper()\n    return {\"success\": True, \"result\": result}\n```\n\n- Example AutoGen/agent-style tool signature (pseudo)\n```\nTool(name=\"nonexistent_tool\",\n     description=\"Performs X on provided input and returns JSON.\",\n     function=lambda args: {\"success\": True, \"output\": do_x(args[\"input\"])})\n```\n\nTell me which option you want and/or what specific task you wanted the tool to perform."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

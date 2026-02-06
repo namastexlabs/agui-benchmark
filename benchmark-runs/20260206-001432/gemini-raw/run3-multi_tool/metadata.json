@@ -1,0 +1,35 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14558.58337902464,
+    "time_to_first_event_ms": 14558.1251650583,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 14558.58337902464
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0009319046512246132
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

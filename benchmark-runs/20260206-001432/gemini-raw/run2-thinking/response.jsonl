@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}
+{"type": "TEXT_MESSAGE_START", "message_id": "8cc00c5c-291f-42ad-8043-49f066537ff0", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cc00c5c-291f-42ad-8043-49f066537ff0", "delta": "To solve for x in the equation x + 5 = 12, we need to isolate x on one side of the equation.\n\nHere's the reasoning process:\n\n1.  **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cc00c5c-291f-42ad-8043-49f066537ff0", "delta": "Start with the equation:** x + 5 = 12\n2.  **Subtract 5 from both sides** of the equation to maintain balance and isolate x:\n    x + 5 - 5 = 12 -"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cc00c5c-291f-42ad-8043-49f066537ff0", "delta": " 5\n3.  **Simplify both sides:**\n    x = 7\n\nTherefore, x = 7.\n\nLet's confirm the calculation:\n"}
+{"type": "TOOL_CALL_START", "toolCallId": "9354bb53-dc01-4a93-8005-453d134c11cc", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "9354bb53-dc01-4a93-8005-453d134c11cc", "delta": "{\"expression\": \"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "9354bb53-dc01-4a93-8005-453d134c11cc"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "9354bb53-dc01-4a93-8005-453d134c11cc", "result": "12 - 5 = 7"}
+{"type": "TEXT_MESSAGE_END", "message_id": "8cc00c5c-291f-42ad-8043-49f066537ff0"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}

@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4567.984033958055,
+    "time_to_first_event_ms": 4215.601850999519,
+    "time_to_first_content_ms": 4568.020873004571,
+    "time_to_complete_ms": 4567.984033958055
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 249,
+    "tokens_approx": 62,
+    "final_text": "I'm not able to display the current time in real-time. However, you can use an online time tool or check your device to find out the current time. If you would like, I can also tell you how to find the current time in a specific region or time zone."
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

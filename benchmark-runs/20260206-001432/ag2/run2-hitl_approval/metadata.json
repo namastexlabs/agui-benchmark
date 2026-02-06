@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 17831.877900986,
+    "time_to_first_event_ms": 2172.9160860413685,
+    "time_to_first_content_ms": 17831.905739963986,
+    "time_to_complete_ms": 17831.877900986
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 436,
+    "tokens_approx": 109,
+    "final_text": "I can help. I will ask for your explicit approval before taking any destructive steps.\n\nBefore I do anything: do you approve that I proceed to help you delete this important data (I will ask again for confirmation before giving or suggesting any irreversible commands)? Reply with:\n- YES \u2014 proceed, or\n- NO \u2014 do not proceed.\n\nIf YES, also tell me: what data (type), where it is (device/OS/cloud/provider), and whether you have a backup."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

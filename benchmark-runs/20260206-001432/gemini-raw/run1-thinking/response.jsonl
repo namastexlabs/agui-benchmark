@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}
+{"type": "TEXT_MESSAGE_START", "message_id": "31adc95f-3b9b-45cb-aa28-b6cf93d245b2", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "31adc95f-3b9b-45cb-aa28-b6cf93d245b2", "delta": "To solve for x, we need to isolate x on one side of the equation.\n\nGiven the equation:\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "31adc95f-3b9b-45cb-aa28-b6cf93d245b2", "delta": "x + 5 = 12\n\nSubtract 5 from both sides of the equation:\nx = 12 - 5\n\n"}
+{"type": "TOOL_CALL_START", "toolCallId": "dc18eda5-278d-4b0a-9c21-1fc03cd8cd6d", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "dc18eda5-278d-4b0a-9c21-1fc03cd8cd6d", "delta": "{\"expression\": \"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "dc18eda5-278d-4b0a-9c21-1fc03cd8cd6d"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "dc18eda5-278d-4b0a-9c21-1fc03cd8cd6d", "result": "12 - 5 = 7"}
+{"type": "TEXT_MESSAGE_END", "message_id": "31adc95f-3b9b-45cb-aa28-b6cf93d245b2"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking"}

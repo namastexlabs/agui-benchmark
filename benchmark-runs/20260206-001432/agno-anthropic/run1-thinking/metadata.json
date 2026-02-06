@@ -1,0 +1,37 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3595.085181063041,
+    "time_to_first_event_ms": 280.56847502011806,
+    "time_to_first_content_ms": 3595.2261210186407,
+    "time_to_complete_ms": 3595.085181063041
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0005220063030719757
+  },
+  "response": {
+    "chars": 621,
+    "tokens_approx": 155,
+    "final_text": "I need to solve for x in the equation x + 5 = 12.\n\nLet me work through this step-by-step:\n\n**Step 1: Identify the equation**\n- x + 5 = 12\n\n**Step 2: Isolate x by removing the constant on the left side**\n- To isolate x, I need to subtract 5 from both sides of the equation\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- x = 12 - 5\n\n**Step 4: Calculate the result****Answer: x = 7**\n\n**Verification:** Let me check: 7 + 5 = 12 \u2713\n\nThe reasoning is straightforward: to solve for x when it has a constant added to it, we use the inverse operation (subtraction) to remove that constant from both sides of the equation."
+  },
+  "events": {
+    "total_events": 69,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

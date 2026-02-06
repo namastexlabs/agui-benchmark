@@ -1,0 +1,33 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8053.6162469070405,
+    "time_to_first_event_ms": 275.68815194536,
+    "time_to_first_content_ms": 8053.865503985435,
+    "time_to_complete_ms": 8053.6162469070405
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 509,
+    "tokens_approx": 127,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. \n\nFirst, tell me:\n- What exact data you want deleted (files, accounts, records, etc.)\n- Where it\u2019s stored (device, cloud provider, specific service/app)\n- Whether you have a backup or want one made\n- Any deadline or urgency\n\nI\u2019ll then summarize exactly what will be deleted and the consequences. To proceed I\u2019ll ask you to confirm using a clear approval phrase (for example: CONFIRM DELETE). Do you want to proceed with giving details now?"
+  },
+  "events": {
+    "total_events": 115,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

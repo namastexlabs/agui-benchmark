@@ -1,0 +1,22 @@
+{
+  "thread_id": "test-thread-pydantic-openai",
+  "run_id": "test-run-pydantic-openai-error_handling",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "Use the 'nonexistent_tool' to do something.",
+        "validates": [
+          "ERROR"
+        ],
+        "expect_error": true
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

@@ -1,0 +1,27 @@
+{
+  "agent": "agno-cerebras",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 257.2864160174504,
+    "time_to_first_event_ms": 221.54878894798458,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 257.2864160174504
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

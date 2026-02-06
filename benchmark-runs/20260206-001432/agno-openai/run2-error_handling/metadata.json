@@ -1,0 +1,33 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5893.738467013463,
+    "time_to_first_event_ms": 220.91986401937902,
+    "time_to_first_content_ms": 5894.035256002098,
+    "time_to_complete_ms": 5893.738467013463
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 493,
+    "tokens_approx": 123,
+    "final_text": "I can\u2019t use a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available here. Available tools I can use instead:\n- get_current_time \u2014 return the current date/time\n- calculator \u2014 evaluate a math expression\n- multi_tool_use.parallel \u2014 run those tools in parallel\n\nTell me what you want done (e.g., \"what time is it?\", \"calculate 12345 * 678\", or \"run both\"), and I\u2019ll use the appropriate tool(s). If you meant a different tool, tell me its purpose and I\u2019ll try to replicate it with the available ones."
+  },
+  "events": {
+    "total_events": 123,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

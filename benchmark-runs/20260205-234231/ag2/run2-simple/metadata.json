@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1858.7464640149847,
+    "time_to_first_event_ms": 88.86366395745426,
+    "time_to_first_content_ms": 1858.770165941678,
+    "time_to_complete_ms": 1858.7464640149847
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 169,
+    "tokens_approx": 42,
+    "final_text": "Hello \u2014 I'm ChatGPT, an AI language model here to help with information, writing, and problem-solving. Ask me anything and I'll do my best to give clear, useful answers."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

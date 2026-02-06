@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5422.1272190334275,
+    "time_to_first_event_ms": 1271.2788509670645,
+    "time_to_first_content_ms": 5422.290647984482,
+    "time_to_complete_ms": 5422.1272190334275
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 153,
+    "tokens_approx": 38,
+    "final_text": "We want to isolate x.\n\n1. Start with x + 5 = 12.  \n2. Subtract 5 from both sides: x + 5 \u2212 5 = 12 \u2212 5.  \n3. Simplify: x = 7.\n\nCheck: 7 + 5 = 12, so x = 7."
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

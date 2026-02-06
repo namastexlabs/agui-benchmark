@@ -1,0 +1,23 @@
+{
+  "thread_id": "test-thread-langgraph-openai",
+  "run_id": "test-run-langgraph-openai-multi_tool",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "First get the current time, then calculate 10 + 20.",
+        "validates": [
+          "TOOL_CALL_START",
+          "TOOL_CALL_END"
+        ],
+        "expect_tools": 2
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

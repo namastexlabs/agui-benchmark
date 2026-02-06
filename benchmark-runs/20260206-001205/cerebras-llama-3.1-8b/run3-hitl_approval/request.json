@@ -1,0 +1,27 @@
+{
+  "thread_id": "test-thread-cerebras-llama-3.1-8b",
+  "run_id": "test-run-cerebras-llama-3.1-8b-hitl_approval",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "hitl",
+        "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+        "hitl_response": {
+          "approved": true,
+          "message": "Yes, you may proceed"
+        },
+        "validates": [
+          "HUMAN_INPUT_REQUESTED",
+          "HUMAN_INPUT_RECEIVED"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {},
+  "model": "llama-3.1-8b"
+}

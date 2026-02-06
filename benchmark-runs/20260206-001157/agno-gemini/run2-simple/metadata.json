@@ -1,0 +1,35 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": {
+    "type": "single",
+    "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+    "validates": [
+      "TEXT_MESSAGE_CONTENT",
+      "RUN_STARTED",
+      "RUN_FINISHED"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 437.36306100618094,
+    "time_to_first_event_ms": 399.8022590531036,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 437.36306100618094
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

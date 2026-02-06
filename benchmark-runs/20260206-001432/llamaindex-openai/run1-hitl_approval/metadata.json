@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10359.940940048546,
+    "time_to_first_event_ms": 2297.4730010610074,
+    "time_to_first_content_ms": 10360.557837993838,
+    "time_to_complete_ms": 10359.940940048546
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 990,
+    "tokens_approx": 247,
+    "final_text": "Understood \u2014 I will not perform any deletion unless you explicitly approve it first.\n\nBefore we proceed, please tell me:\n1. Exactly what data you want deleted (names/paths/IDs) and where it\u2019s stored (device, cloud provider, database, etc.).  \n2. Whether you want permanent deletion or to move it to a recycle/trash/archive first.  \n3. Any backups or legal/regulatory constraints I should know about.  \n4. How you\u2019d like to confirm approval (typing a specific phrase, replying \u201cYES\u201d, etc.).\n\nSuggested approval method (pick one or tell me another):\n- I will present a final summary of the exact items to be deleted and the consequences. To authorize deletion you must reply with this exact phrase: DELETE [exact-data-name] NOW\n(Replace [exact-data-name] with the name shown in the summary.)\n\nIf that works, provide the details in (1\u20133) above and tell me which confirmation method you prefer. I will then prepare the deletion summary and wait for your explicit approval before doing anything."
+  },
+  "events": {
+    "total_events": 218,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

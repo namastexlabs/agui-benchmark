@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5522.804036969319,
+    "time_to_first_event_ms": 633.6775888921693,
+    "time_to_first_content_ms": 5526.993365958333,
+    "time_to_complete_ms": 5522.804036969319
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1048,
+    "tokens_approx": 262,
+    "final_text": "I can\u2019t use a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. \n\nAvailable tools I can use right now:\n- functions.get_current_time \u2014 return the current date/time\n- functions.calculator \u2014 evaluate a math expression (e.g., \"2 + 2\")\n- multi_tool_use.parallel \u2014 run multiple of the above in parallel\n\nTell me what you want done and I\u2019ll use the appropriate tool(s). Examples:\n- \"Get the current time.\"\n- \"Calculate 12345 * 6789.\"\n- \"Get the current time and compute 2+2 in parallel.\"\n\nWhich would you like?I can\u2019t use a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. \n\nAvailable tools I can use right now:\n- functions.get_current_time \u2014 return the current date/time\n- functions.calculator \u2014 evaluate a math expression (e.g., \"2 + 2\")\n- multi_tool_use.parallel \u2014 run multiple of the above in parallel\n\nTell me what you want done and I\u2019ll use the appropriate tool(s). Examples:\n- \"Get the current time.\"\n- \"Calculate 12345 * 6789.\"\n- \"Get the current time and compute 2+2 in parallel.\"\n\nWhich would you like?"
+  },
+  "events": {
+    "total_events": 286,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

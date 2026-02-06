@@ -1,0 +1,33 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11662.217046017759,
+    "time_to_first_event_ms": 11661.933697061613,
+    "time_to_first_content_ms": 11662.238871096633,
+    "time_to_complete_ms": 11662.217046017759
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 231,
+    "tokens_approx": 57,
+    "final_text": "I understand you want to delete important data, but I cannot directly assist with data deletion as I don't have that functionality. I'm a language model and don't have access to your personal data or the ability to delete anything."
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2896.5166698908433,
+    "time_to_first_event_ms": 223.33776496816427,
+    "time_to_first_content_ms": 2896.672091912478,
+    "time_to_complete_ms": 2896.5166698908433
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 677,
+    "tokens_approx": 169,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data.** I'm a helpful assistant that can tell you the current time and do basic math calculations. That's it!\n\nI don't have access to:\n- Your files or documents\n- Your databases\n- Your accounts or systems\n- Any deletion or modification tools\n\nIf you're looking to delete important data from your own systems, that's entirely within your control. Just make sure to:\n1. **Back up** anything you might need\n2. **Double-check** what you're deleting\n3. **Verify** the deletion was successful\n\nIs there something else I can help you with, like doing a calculation or checking the time?"
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

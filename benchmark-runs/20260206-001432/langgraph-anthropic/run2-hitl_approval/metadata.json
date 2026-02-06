@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4056.9346509873867,
+    "time_to_first_event_ms": 632.6779620721936,
+    "time_to_first_content_ms": 4059.635755023919,
+    "time_to_complete_ms": 4056.9346509873867
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1562,
+    "tokens_approx": 390,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nMy available tools are very limited\u2014I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, emails, or any other data on your system or accounts.\n\nIf you're looking to delete important data elsewhere, please make sure you:\n1. **Have a backup** of anything critical before deletion\n2. **Double-check** what you're about to delete\n3. **Use your system's built-in tools** (file manager, app settings, etc.) with caution\n4. **Verify the source** if someone is asking you to delete something\n\nIs there something else I can help you with, like doing a calculation or checking the time?I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nMy available tools are very limited\u2014I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, emails, or any other data on your system or accounts.\n\nIf you're looking to delete important data elsewhere, please make sure you:\n1. **Have a backup** of anything critical before deletion\n2. **Double-check** what you're about to delete\n3. **Use your system's built-in tools** (file manager, app settings, etc.) with caution\n4. **Verify the source** if someone is asking you to delete something\n\nIs there something else I can help you with, like doing a calculation or checking the time?"
+  },
+  "events": {
+    "total_events": 172,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

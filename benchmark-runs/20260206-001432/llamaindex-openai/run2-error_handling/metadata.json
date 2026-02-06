@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6714.966868981719,
+    "time_to_first_event_ms": 293.0916949408129,
+    "time_to_first_content_ms": 6715.387715958059,
+    "time_to_complete_ms": 6714.966868981719
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 671,
+    "tokens_approx": 167,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment. Available tools here are:\n- get_current_time\n- calculator\n- multi_tool_use.parallel (to run the above in parallel)\n\nTell me what you want to \u201cdo\u201d and I\u2019ll either:\n- Use one of the available tools (e.g., run a calculation, get the current time, or run both), or\n- Simulate/perform the task directly here.\n\nExamples you can ask now:\n- \"Calculate 12345 * 6789\"\n- \"What\u2019s the current time?\"\n- \"Run both: get time and compute 2^20\"\n\nOr describe the action you expected from nonexistent_tool and I\u2019ll match it with an available option or explain how to add a new tool. Which would you like?"
+  },
+  "events": {
+    "total_events": 172,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

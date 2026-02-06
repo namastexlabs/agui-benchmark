@@ -1,0 +1,39 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": {
+    "type": "single",
+    "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+    "validates": [
+      "ARTIFACT_START",
+      "ARTIFACT_CONTENT",
+      "ARTIFACT_END"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 561.0574129968882,
+    "time_to_first_event_ms": 511.82052306830883,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 561.0574129968882
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 3,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  }
+}

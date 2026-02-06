@@ -1,0 +1,37 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3892.7325709955767,
+    "time_to_first_event_ms": 222.52861794549972,
+    "time_to_first_content_ms": 3892.7822440164164,
+    "time_to_complete_ms": 3892.7325709955767
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0005239853635430336
+  },
+  "response": {
+    "chars": 13,
+    "tokens_approx": 3,
+    "final_text": "42 \u00d7 17 = 714"
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

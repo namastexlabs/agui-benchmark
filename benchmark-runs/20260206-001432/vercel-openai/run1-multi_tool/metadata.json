@@ -1,0 +1,37 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7819.077725987881,
+    "time_to_first_event_ms": 3161.2382780294865,
+    "time_to_first_content_ms": 7819.156836019829,
+    "time_to_complete_ms": 7819.077725987881
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0008920906111598015
+  },
+  "response": {
+    "chars": 46,
+    "tokens_approx": 11,
+    "final_text": "Current time: 2026-02-06 03:14:40\n10 + 20 = 30"
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4144.745878991671,
+    "time_to_first_event_ms": 3685.001050005667,
+    "time_to_first_content_ms": 4144.791338942014,
+    "time_to_complete_ms": 4144.745878991671
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 393,
+    "tokens_approx": 98,
+    "final_text": "```python\ndef add_numbers(a, b):\n    \"\"\"\n    Adds two numbers together.\n\n    Args:\n        a (int): The first number.\n        b (int): The second number.\n\n    Returns:\n        int: The sum of a and b.\n    \"\"\"\n    return a + b\n\n# Example usage:\nif __name__ == \"__main__\":\n    num1 = 5\n    num2 = 7\n    result = add_numbers(num1, num2)\n    print(f\"The sum of {num1} and {num2} is: {result}\")\n```"
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

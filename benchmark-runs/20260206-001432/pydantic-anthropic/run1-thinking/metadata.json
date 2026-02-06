@@ -1,0 +1,37 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2809.018261032179,
+    "time_to_first_event_ms": 268.0898839607835,
+    "time_to_first_content_ms": 2809.138727025129,
+    "time_to_complete_ms": 2809.018261032179
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0006770715117454529
+  },
+  "response": {
+    "chars": 448,
+    "tokens_approx": 112,
+    "final_text": "I'll solve this step-by-step using algebra.\n\n**Given equation:** x + 5 = 12\n\n**Reasoning process:**\n1. We need to isolate x (get x by itself on one side)\n2. Currently, x has 5 added to it\n3. To undo addition, we subtract the same number from both sides\n4. So we subtract 5 from both sides: x + 5 - 5 = 12 - 5\n\nLet me calculate the right side:**Solution:**\n- x + 5 - 5 = 12 - 5\n- x = **7**\n\n**Verification:** Let me check: 7 + 5 = 12 \u2713\n\nSo **x = 7**"
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

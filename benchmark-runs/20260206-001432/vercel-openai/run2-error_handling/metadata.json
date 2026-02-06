@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7099.780185031705,
+    "time_to_first_event_ms": 1502.7229730039835,
+    "time_to_first_content_ms": 7100.033072987571,
+    "time_to_complete_ms": 7099.780185031705
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 476,
+    "tokens_approx": 119,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool\" available. The tools I can use are:\n\n- functions.get_current_time \u2014 get the current date/time  \n- functions.calculator \u2014 evaluate a math expression  \n- multi_tool_use.parallel \u2014 run multiple of the above in parallel\n\nTell me what you want done and I\u2019ll use the appropriate tool(s). Examples:\n- \u201cCalculate 12345 * 6789\u201d\n- \u201cWhat\u2019s the current time?\u201d\n- \u201cRun both: calculate 2^10 and tell me the current time\u201d\n\nWhich one should I run?"
+  },
+  "events": {
+    "total_events": 120,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

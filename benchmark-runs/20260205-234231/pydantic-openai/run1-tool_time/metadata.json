@@ -1,0 +1,37 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4517.905301996507,
+    "time_to_first_event_ms": 95.24434700142592,
+    "time_to_first_content_ms": 4517.9931949824095,
+    "time_to_complete_ms": 4517.905301996507
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0004949979484081268
+  },
+  "response": {
+    "chars": 119,
+    "tokens_approx": 29,
+    "final_text": "The current system time is 2026-02-05 23:42:32. If you\u2019d like it shown in a specific timezone or format, tell me which."
+  },
+  "events": {
+    "total_events": 44,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4942.680116044357,
+    "time_to_first_event_ms": 99.99182901810855,
+    "time_to_first_content_ms": 4942.865468095988,
+    "time_to_complete_ms": 4942.680116044357
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 143,
+    "tokens_approx": 35,
+    "final_text": "The time tool reports: 2026-02-05 23:42:47. \n\n(That's the system time returned \u2014 would you like it converted to a specific timezone or format?)"
+  },
+  "events": {
+    "total_events": 47,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  }
+}

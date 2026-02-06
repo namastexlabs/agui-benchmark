@@ -1,0 +1,44 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "multi_turn_memory",
+  "prompt": {
+    "type": "multi",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My favorite programming language is Python. Remember this."
+      },
+      {
+        "role": "user",
+        "content": "What is my favorite programming language?"
+      }
+    ],
+    "validates": [
+      "context_retention",
+      "MESSAGES_SNAPSHOT",
+      "STATE_SNAPSHOT"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 393.7774710357189,
+    "time_to_first_event_ms": 318.57720704283565,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 393.7774710357189
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

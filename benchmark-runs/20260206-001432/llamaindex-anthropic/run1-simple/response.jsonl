@@ -1,0 +1,29 @@
+{"type": "RUN_STARTED", "timestamp": 1770347672, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-simple"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": "Hello! "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": "\ud83d\udc4b I'm a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " helpful assistant"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " running on the LlamaIndex framework"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": ","}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " designe"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": "d to assist"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " you"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " with a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " variety"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " of tasks."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " I can"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " you the current time,"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " perform"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " basic math calculations, and answer"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " your"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " questions in"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " a friendly an"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": "d concise manner"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": "."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " Feel"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " free to ask me anything you'd like"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " help"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347673, "messageId": "6da90510-fdaa-4e54-9653-faac0829b7e4", "role": "assistant", "delta": " with!"}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770347673, "messages": [{"id": "5020a669-c679-47c1-b350-89c9f53d20a7", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "Say hello and introduce yourself briefly in 2-3 sentences."}, {"id": "c3cc4c6b-4631-41f8-a197-83a3d9734ec4", "role": "assistant", "content": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LlamaIndex framework, designed to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything you'd like help with!"}]}
+{"type": "RUN_FINISHED", "timestamp": 1770347673, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-simple"}

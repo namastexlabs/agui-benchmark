@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1532.4777929345146,
+    "time_to_first_event_ms": 271.4521769667044,
+    "time_to_first_content_ms": 1532.4955609394237,
+    "time_to_complete_ms": 1532.4777929345146
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 161,
+    "tokens_approx": 40,
+    "final_text": "I cannot delete any data as I don't have access to your information or any data storage capabilities. I am a language model and can only respond to your queries."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "48f9e49c-5f15-4098-bf51-6e801b6b6d57", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "48f9e49c-5f15-4098-bf51-6e801b6b6d57", "delta": "{\"expression\": \"42 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "48f9e49c-5f15-4098-bf51-6e801b6b6d57"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "48f9e49c-5f15-4098-bf51-6e801b6b6d57", "result": "42 * 17 = 714"}
+{"type": "TEXT_MESSAGE_START", "message_id": "4f8998bb-a40a-4551-81b1-6f783388fa49", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4f8998bb-a40a-4551-81b1-6f783388fa49", "delta": "The result of 42 * 17 is 714."}
+{"type": "TEXT_MESSAGE_END", "message_id": "4f8998bb-a40a-4551-81b1-6f783388fa49"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_calc"}

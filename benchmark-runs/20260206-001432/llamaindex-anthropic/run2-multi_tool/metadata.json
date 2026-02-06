@@ -1,0 +1,34 @@
+{
+  "agent": "llamaindex-anthropic",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1678.758742986247,
+    "time_to_first_event_ms": 201.72506803646684,
+    "time_to_first_content_ms": 1678.9077109424397,
+    "time_to_complete_ms": 1678.758742986247
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 90,
+    "tokens_approx": 22,
+    "final_text": "Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 00:15:20\n- **10 + 20 = 30**"
+  },
+  "events": {
+    "total_events": 17,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  }
+}

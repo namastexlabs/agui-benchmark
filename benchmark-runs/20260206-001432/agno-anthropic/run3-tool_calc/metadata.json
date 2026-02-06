@@ -1,0 +1,37 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2357.252554036677,
+    "time_to_first_event_ms": 276.7149619758129,
+    "time_to_first_content_ms": 2357.30000003241,
+    "time_to_complete_ms": 2357.252554036677
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0005770707502961159
+  },
+  "response": {
+    "chars": 33,
+    "tokens_approx": 8,
+    "final_text": "The result of 42 * 17 is **714**."
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

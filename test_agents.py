@@ -17,16 +17,22 @@ import statistics
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, field
+from datetime import datetime
 
 
 # Number of runs per test for statistical significance
 NUM_RUNS = 3
+
+# Create benchmark-runs directory
+BENCHMARK_RUNS_DIR = Path(__file__).parent / "benchmark-runs"
+BENCHMARK_RUNS_DIR.mkdir(exist_ok=True)
 
 # Model identifiers for grouping
 MODELS = {
     "claude": "claude-haiku-4-5-20251001",
     "openai": "gpt-5-mini",
     "gemini": "gemini-2.5-flash",
+    "cerebras": "llama-3.3-70b",  # Cerebras: fastest LLM inference
 }
 
 # Agent configurations organized by framework and model
@@ -64,6 +70,16 @@ AGENTS = {
         "model": "gemini",
         "model_id": "gemini-2.5-flash",
     },
+    "agno-cerebras": {
+        "url": "http://localhost:7771/agui/cerebras",
+        "port": 7771,
+        "health": "http://localhost:7771/health",
+        "type": "native",
+        "language": "Python",
+        "framework": "agno",
+        "model": "cerebras",
+        "model_id": "llama-3.3-70b",
+    },
 
     # === LANGGRAPH (Multi-model) ===
     "langgraph-anthropic": {
@@ -95,6 +111,16 @@ AGENTS = {
         "framework": "langgraph",
         "model": "gemini",
         "model_id": "gemini-2.5-flash",
+    },
+    "langgraph-cerebras": {
+        "url": "http://localhost:7772/agent/cerebras",
+        "port": 7772,
+        "health": "http://localhost:7772/health",
+        "type": "native",
+        "language": "Python",
+        "framework": "langgraph",
+        "model": "cerebras",
+        "model_id": "llama-3.3-70b",
     },
 
     # === PYDANTIC-AI (Multi-model) ===
@@ -262,11 +288,118 @@ AGENTS = {
         "model": "gemini",
         "model_id": "gemini-2.5-flash",
     },
+
+    # === CEREBRAS (Ultra-fast inference) ===
+    # Testing multiple Cerebras models for speed comparison
+    "cerebras-llama-3.3-70b": {
+        "url": "http://localhost:7778/agent",
+        "port": 7778,
+        "health": "http://localhost:7778/health",
+        "type": "raw",
+        "language": "Python",
+        "framework": "cerebras-raw",
+        "model": "cerebras",
+        "model_id": "llama-3.3-70b",
+        "model_override": "llama-3.3-70b",  # Send in request
+    },
+    "cerebras-llama-3.1-70b": {
+        "url": "http://localhost:7778/agent",
+        "port": 7778,
+        "health": "http://localhost:7778/health",
+        "type": "raw",
+        "language": "Python",
+        "framework": "cerebras-raw",
+        "model": "cerebras",
+        "model_id": "llama-3.1-70b",
+        "model_override": "llama-3.1-70b",
+    },
+    "cerebras-llama-3.1-8b": {
+        "url": "http://localhost:7778/agent",
+        "port": 7778,
+        "health": "http://localhost:7778/health",
+        "type": "raw",
+        "language": "Python",
+        "framework": "cerebras-raw",
+        "model": "cerebras",
+        "model_id": "llama-3.1-8b",
+        "model_override": "llama-3.1-8b",
+    },
 }
 
 
 # Unified test prompts - objective tasks that don't bias toward any framework
+# Each test validates specific AG-UI features
 TEST_PROMPTS = {
+    # === BASIC TESTS ===
+    "simple": {
+        "type": "single",
+        "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+        "validates": ["TEXT_MESSAGE_CONTENT", "RUN_STARTED", "RUN_FINISHED"],
+    },
+
+    # === TOOL CALLING TESTS ===
+    "tool_time": {
+        "type": "single",
+        "prompt": "What is the current time? Use the time tool to check.",
+        "validates": ["TOOL_CALL_START", "TOOL_CALL_ARGS", "TOOL_CALL_END", "TOOL_CALL_RESULT"],
+    },
+    "tool_calc": {
+        "type": "single",
+        "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+        "validates": ["TOOL_CALL_START", "TOOL_CALL_ARGS", "TOOL_CALL_END", "TOOL_CALL_RESULT"],
+    },
+
+    # === MULTI-TURN CONVERSATION ===
+    "multi_turn_memory": {
+        "type": "multi",
+        "messages": [
+            {"role": "user", "content": "My favorite programming language is Python. Remember this."},
+            {"role": "user", "content": "What is my favorite programming language?"},
+        ],
+        "validates": ["context_retention", "MESSAGES_SNAPSHOT", "STATE_SNAPSHOT"],
+    },
+
+    # === THINKING/REASONING ===
+    "thinking": {
+        "type": "single",
+        "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+        "validates": ["THINKING_START", "THINKING_CONTENT", "THINKING_END"],
+    },
+
+    # === ARTIFACT GENERATION ===
+    "artifact": {
+        "type": "single",
+        "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+        "validates": ["ARTIFACT_START", "ARTIFACT_CONTENT", "ARTIFACT_END"],
+    },
+
+    # === HUMAN-IN-THE-LOOP (HITL) ===
+    "hitl_approval": {
+        "type": "hitl",
+        "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+        "hitl_response": {"approved": True, "message": "Yes, you may proceed"},
+        "validates": ["HUMAN_INPUT_REQUESTED", "HUMAN_INPUT_RECEIVED"],
+    },
+
+    # === ERROR HANDLING ===
+    "error_handling": {
+        "type": "single",
+        "prompt": "Use the 'nonexistent_tool' to do something.",
+        "validates": ["ERROR"],
+        "expect_error": True,
+    },
+
+    # === COMPLEX MULTI-TOOL ===
+    "multi_tool": {
+        "type": "single",
+        "prompt": "First get the current time, then calculate 10 + 20.",
+        "validates": ["TOOL_CALL_START", "TOOL_CALL_END"],
+        "expect_tools": 2,
+    },
+}
+
+# Legacy compatibility - extract simple prompt strings
+SIMPLE_TEST_PROMPTS = {
     "simple": "Say hello and introduce yourself briefly in 2-3 sentences.",
     "tool_time": "What is the current time? Use the time tool to check.",
     "tool_calc": "Calculate 42 * 17 using the calculator tool and tell me the result.",
@@ -303,6 +436,48 @@ class TestMetrics:
     # The actual response
     final_response: str = ""
 
+    # === NEW: Feature detection ===
+    has_thinking: bool = False
+    has_artifacts: bool = False
+    has_hitl: bool = False
+    has_state_snapshot: bool = False
+    has_error_events: bool = False
+    thinking_time_ms: float = 0
+    hitl_response_time_ms: float = 0
+
+    # Multi-turn tracking
+    is_multi_turn: bool = False
+    turn_count: int = 1
+    context_retained: bool = False
+
+
+class HITLMockHandler:
+    """Handles Human-in-the-Loop emulation for testing."""
+
+    def __init__(self, test_config: dict):
+        self.config = test_config
+        self.response_delay_ms = 500  # Simulate human response time
+
+    def should_respond(self, event: dict) -> bool:
+        """Check if we should respond to this HITL event."""
+        return event.get("type") == "HUMAN_INPUT_REQUESTED"
+
+    def get_response(self, event: dict) -> dict:
+        """Generate appropriate HITL response based on the request."""
+        if "hitl_response" in self.config:
+            return self.config["hitl_response"]
+
+        # Default responses based on question content
+        question = event.get("question", "").lower()
+        if "approval" in question or "approve" in question:
+            return {"approved": True, "message": "Yes, proceed"}
+        elif "color" in question:
+            return {"input": "blue"}
+        elif "name" in question:
+            return {"input": "Alice"}
+        else:
+            return {"input": "I don't know"}
+
 
 def parse_sse_events(text: str) -> List[Dict[str, Any]]:
     """Parse SSE formatted text into list of events."""
@@ -328,8 +503,63 @@ async def check_health(client: httpx.AsyncClient, name: str, config: dict) -> bo
         return False
 
 
+def save_test_data(run_dir: Path, agent_name: str, run_num: int,
+                   prompt_type: str, request_body: dict,
+                   events: List[Dict[str, Any]], metrics: TestMetrics):
+    """Save test request, streaming response, and metadata to disk."""
+    # Create agent directory
+    agent_dir = run_dir / agent_name
+    agent_dir.mkdir(exist_ok=True)
+
+    # Create test directory
+    test_dir = agent_dir / f"run{run_num}-{prompt_type}"
+    test_dir.mkdir(exist_ok=True)
+
+    # Save request payload
+    with open(test_dir / "request.json", "w") as f:
+        json.dump(request_body, f, indent=2)
+
+    # Save streaming events as JSONL (JSON Lines - one event per line)
+    with open(test_dir / "response.jsonl", "w") as f:
+        for event in events:
+            f.write(json.dumps(event) + "\n")
+
+    # Save test metadata
+    metadata = {
+        "agent": agent_name,
+        "run_number": run_num,
+        "prompt_type": prompt_type,
+        "prompt": metrics.prompt,
+        "success": metrics.success,
+        "error": metrics.error,
+        "timing": {
+            "total_time_ms": metrics.total_time_ms,
+            "time_to_first_event_ms": metrics.time_to_first_event_ms,
+            "time_to_first_content_ms": metrics.time_to_first_content_ms,
+            "time_to_complete_ms": metrics.time_to_complete_ms,
+        },
+        "tools": {
+            "tool_calls": metrics.tool_calls,
+            "tool_call_time_ms": metrics.tool_call_time_ms,
+        },
+        "response": {
+            "chars": metrics.response_chars,
+            "tokens_approx": metrics.response_tokens_approx,
+            "final_text": metrics.final_response,
+        },
+        "events": {
+            "total_events": metrics.total_events,
+            "event_types": sorted(list(metrics.event_types)),
+        }
+    }
+
+    with open(test_dir / "metadata.json", "w") as f:
+        json.dump(metadata, f, indent=2)
+
+
 async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
-                     prompt_type: str, prompt: str) -> TestMetrics:
+                     prompt_type: str, prompt: str, run_dir: Path = None,
+                     run_num: int = 1) -> TestMetrics:
     """Test an agent with a prompt and collect detailed metrics."""
     metrics = TestMetrics(name=name, prompt_type=prompt_type, prompt=prompt)
 
@@ -347,10 +577,15 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
         "forwardedProps": {}
     }
 
+    # Add model override if specified (for Cerebras multi-model testing)
+    if "model_override" in config:
+        request_body["model"] = config["model_override"]
+
     start_time = time.perf_counter()
     first_event_time = None
     first_content_time = None
     tool_start_time = None
+    events = []  # Store all events for saving
 
     try:
         async with client.stream(
@@ -420,6 +655,10 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
     except Exception as e:
         metrics.error = str(e)
         metrics.total_time_ms = (time.perf_counter() - start_time) * 1000
+
+    # Save test data if run_dir is provided
+    if run_dir and run_num:
+        save_test_data(run_dir, name, run_num, prompt_type, request_body, events, metrics)
 
     return metrics
 
@@ -718,6 +957,24 @@ async def main():
     print("=" * 120)
     print(f"Testing {len(AGENTS)} agent configurations across {len(MODELS)} models")
 
+    # Create timestamped run directory
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    run_dir = BENCHMARK_RUNS_DIR / timestamp
+    run_dir.mkdir(parents=True, exist_ok=True)
+    print(f"\n📁 Saving detailed logs to: {run_dir}")
+
+    # Save run metadata
+    run_metadata = {
+        "timestamp": timestamp,
+        "start_time": datetime.now().isoformat(),
+        "num_runs": NUM_RUNS,
+        "models": MODELS,
+        "test_prompts": TEST_PROMPTS,
+        "total_agents": len(AGENTS),
+    }
+    with open(run_dir / "run-metadata.json", "w") as f:
+        json.dump(run_metadata, f, indent=2)
+
     async with httpx.AsyncClient() as client:
         # Step 1: Health checks (group by port to avoid duplicate checks)
         print("\n📡 Checking agent health...")
@@ -763,8 +1020,14 @@ async def main():
             task_info = []  # Track (name, prompt_type) for each task
 
             for name, config in healthy_agents.items():
-                for prompt_type, prompt in TEST_PROMPTS.items():
-                    tasks.append(test_agent(client, name, config, prompt_type, prompt))
+                for prompt_type, test_config in TEST_PROMPTS.items():
+                    # Extract actual prompt string from test config
+                    if isinstance(test_config, dict) and "prompt" in test_config:
+                        prompt = test_config["prompt"]
+                    else:
+                        prompt = test_config  # Fallback for simple string prompts
+
+                    tasks.append(test_agent(client, name, config, prompt_type, prompt, run_dir, run + 1))
                     task_info.append((name, prompt_type))
 
             # Run all tests in parallel
@@ -776,7 +1039,10 @@ async def main():
             for i, result in enumerate(results):
                 name, prompt_type = task_info[i]
                 if isinstance(result, Exception):
-                    metrics = TestMetrics(name=name, prompt_type=prompt_type, prompt=TEST_PROMPTS[prompt_type])
+                    # Extract prompt string from test config
+                    test_config = TEST_PROMPTS[prompt_type]
+                    prompt_str = test_config["prompt"] if isinstance(test_config, dict) and "prompt" in test_config else test_config
+                    metrics = TestMetrics(name=name, prompt_type=prompt_type, prompt=prompt_str)
                     metrics.error = str(result)
                     agent_results[name].append(metrics)
                     all_metrics[name].append(metrics)
@@ -854,6 +1120,79 @@ async def main():
             slowest_config = AGENTS.get(slowest[0], {})
             print(f"\n🥇 Overall Fastest: {fastest[0]} ({fastest[1]:.0f}ms) - {fastest_config.get('framework')} + {fastest_config.get('model')}")
             print(f"🐢 Overall Slowest: {slowest[0]} ({slowest[1]:.0f}ms) - {slowest_config.get('framework')} + {slowest_config.get('model')}")
+
+        # Save summary to run directory
+        summary = {
+            "timestamp": timestamp,
+            "end_time": datetime.now().isoformat(),
+            "analysis": {
+                "total_tests": analysis["total_tests"],
+                "successful": analysis["successful"],
+                "failed": analysis["failed"],
+            },
+            "fastest_by_model": {},
+            "overall_fastest": {
+                "name": fastest[0] if all_times else None,
+                "time_ms": fastest[1] if all_times else None,
+                "framework": fastest_config.get("framework") if all_times else None,
+                "model": fastest_config.get("model") if all_times else None,
+            },
+            "overall_slowest": {
+                "name": slowest[0] if all_times else None,
+                "time_ms": slowest[1] if all_times else None,
+                "framework": slowest_config.get("framework") if all_times else None,
+                "model": slowest_config.get("model") if all_times else None,
+            },
+            "all_results": {}
+        }
+
+        # Add fastest by model
+        for model_key in MODELS.keys():
+            model_agents = {n: all_metrics[n] for n in all_metrics
+                          if AGENTS.get(n, {}).get("model") == model_key}
+            if model_agents:
+                best = None
+                best_time = float('inf')
+                for name, metrics_list in model_agents.items():
+                    successful = [m for m in metrics_list if m.success]
+                    if successful:
+                        med = median([m.total_time_ms for m in successful])
+                        if med < best_time:
+                            best_time = med
+                            best = name
+                if best:
+                    framework = AGENTS.get(best, {}).get("framework", best)
+                    summary["fastest_by_model"][model_key] = {
+                        "name": best,
+                        "framework": framework,
+                        "time_ms": best_time
+                    }
+
+        # Add all agent results
+        for name, metrics_list in all_metrics.items():
+            successful = [m for m in metrics_list if m.success]
+            if successful:
+                config = AGENTS.get(name, {})
+                summary["all_results"][name] = {
+                    "framework": config.get("framework", name),
+                    "model": config.get("model", "unknown"),
+                    "model_id": config.get("model_id", "unknown"),
+                    "type": config.get("type", "unknown"),
+                    "median_time_ms": median([m.total_time_ms for m in successful]),
+                    "median_ttfb_ms": median([m.time_to_first_event_ms for m in successful]),
+                    "median_ttfc_ms": median([m.time_to_first_content_ms for m in successful]),
+                    "tests_passed": len(successful),
+                    "tests_total": len(metrics_list),
+                }
+
+        with open(run_dir / "summary.json", "w") as f:
+            json.dump(summary, f, indent=2)
+
+        print(f"\n📁 Full benchmark data saved to: {run_dir}")
+        print(f"   - Individual test requests: */request.json")
+        print(f"   - Streaming responses (JSONL): */response.jsonl")
+        print(f"   - Test metadata: */metadata.json")
+        print(f"   - Run summary: summary.json")
 
 
 if __name__ == "__main__":

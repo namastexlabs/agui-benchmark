@@ -1,0 +1,2 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact"}
+{"type": "RUN_ERROR", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact", "error": "1 validation error for Part\ntext\n  Input should be a valid string [type=string_type, input_value={'type': 'single', 'promp...NTENT', 'ARTIFACT_END']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"}

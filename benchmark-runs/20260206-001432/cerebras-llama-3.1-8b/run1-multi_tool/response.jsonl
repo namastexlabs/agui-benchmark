@@ -1,0 +1,24 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770347678", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "'ll get the current time and calculate 10 + 20 for you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ".\n\n**Current Time:**\n```python\nimport datetime\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "current_time = datetime.datetime.now()\nprint(\"Current Time: \","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " current_time)\n```\n\n**Calculating 10 + "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "20:**\n```python\nresult = 10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " + 20\nprint(\"10 + 20 =\", result)\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "```\n\nHowever, if you want to execute these codes at"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " the same time, you can combine them into a single code block"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ":\n\n```python\nimport datetime\n\n# Get the current time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "\ncurrent_time = datetime.datetime.now()\nprint(\"Current Time:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " \", current_time)\n\n# Calculate 10 + 20\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "result = 10 + 20\nprint(\"10 + "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "20 =\", result)\n```\n\nWhen you run this code,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " it will print the current time and the result of the calculation."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " \n\nHowever, the output will look something like this:\n``"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "`\n2024-02-06 10:25:49"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ".219129\n10 + 20 = 30\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "```\n\nNote: The exact output may vary depending on your system"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "'s time and local settings."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770347678"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool"}

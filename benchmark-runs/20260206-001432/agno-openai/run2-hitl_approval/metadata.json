@@ -1,0 +1,33 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8807.184218079783,
+    "time_to_first_event_ms": 220.74378898832947,
+    "time_to_first_content_ms": 8807.599035091698,
+    "time_to_complete_ms": 8807.184218079783
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 985,
+    "tokens_approx": 246,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and an explicit confirmation from you.\n\nPlease provide:\n1. Exactly what to delete (file names, folders, database/table names, cloud bucket paths, etc.).\n2. Where it\u2019s stored (local path, machine name, cloud provider and bucket, database host, etc.).\n3. Whether you have a backup or want me to create one first.\n4. Whether this is permanent (irreversible) deletion or move-to-trash/recoverable.\n5. Any timing constraints (do it now or schedule).\n\nWhen you\u2019re ready to proceed, reply with one of these exact approval phrases (copy/paste exactly) so I can treat it as an explicit authorized confirmation:\n- \u201cI APPROVE PERMANENT DELETE \u2014 PROCEED\u201d\nor\n- \u201cI APPROVE MOVE TO TRASH \u2014 PROCEED\u201d\n\nIf you want, tell me the details now and I\u2019ll prepare a safe deletion plan (including backup steps and a final confirmation) before taking any action. Which files/locations should we target?"
+  },
+  "events": {
+    "total_events": 228,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

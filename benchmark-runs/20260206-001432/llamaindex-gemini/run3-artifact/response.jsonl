@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "timestamp": 1770347768, "threadId": "test-thread-llamaindex-gemini", "runId": "test-run-llamaindex-gemini-artifact"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347770, "messageId": "780475b5-3340-4705-b207-8b05da12a3b8", "role": "assistant", "delta": "```python\ndef add_two_numbers(a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347770, "messageId": "780475b5-3340-4705-b207-8b05da12a3b8", "role": "assistant", "delta": ", b):\n  return a + b\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770347770, "messageId": "780475b5-3340-4705-b207-8b05da12a3b8", "role": "assistant", "delta": "```"}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770347770, "messages": [{"id": "99ac30b2-5d60-4a35-bcb8-4641fc1a5f01", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses.\nCreate a simple Python function that adds two numbers. Return it as code."}, {"id": "msg-1", "role": "user", "content": "Create a simple Python function that adds two numbers. Return it as code."}, {"id": "8df4269b-d9b4-4490-beb2-90535c8c91db", "role": "assistant", "content": "```python\ndef add_two_numbers(a, b):\n  return a + b\n```"}]}
+{"type": "RUN_FINISHED", "timestamp": 1770347770, "threadId": "test-thread-llamaindex-gemini", "runId": "test-run-llamaindex-gemini-artifact"}

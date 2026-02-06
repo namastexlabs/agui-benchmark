@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3450.3396180225536,
+    "time_to_first_event_ms": 1494.2202039528638,
+    "time_to_first_content_ms": 3451.3373359804973,
+    "time_to_complete_ms": 3450.3396180225536
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0021849991753697395
+  },
+  "response": {
+    "chars": 26,
+    "tokens_approx": 6,
+    "final_text": "42 * 17 = 71442 * 17 = 714"
+  },
+  "events": {
+    "total_events": 81,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

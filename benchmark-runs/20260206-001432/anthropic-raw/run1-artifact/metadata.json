@@ -1,0 +1,33 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7475.260965991765,
+    "time_to_first_event_ms": 7474.697816069238,
+    "time_to_first_content_ms": 7475.344500038773,
+    "time_to_complete_ms": 7475.260965991765
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 677,
+    "tokens_approx": 169,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nYou can also create a more concise version:\n\n```python\ndef add(a, b):\n    return a + b\n```\n\nOr as a lambda function if you prefer:\n\n```python\nadd = lambda a, b: a + b\n```\n\nAll three versions do the same thing\u2014they take two numbers and return their sum. The first example is more verbose with documentation, while the others are more concise."
+  },
+  "events": {
+    "total_events": 39,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

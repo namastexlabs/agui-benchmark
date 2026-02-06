@@ -1,0 +1,33 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12464.33760796208,
+    "time_to_first_event_ms": 12463.543090038002,
+    "time_to_first_content_ms": 12464.474068954587,
+    "time_to_complete_ms": 12464.33760796208
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 822,
+    "tokens_approx": 205,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't actually have the ability to delete any data** from your system or accounts. \n\nI'm a helpful assistant with access to only two basic tools:\n- Telling you the current time\n- Performing math calculations\n\nI cannot:\n- Access, modify, or delete files on your computer\n- Access your accounts, databases, or cloud storage\n- Perform any system-level operations\n\n**If you need to delete important data**, you'll need to:\n1. Do it directly through the appropriate application or service yourself\n2. Make sure you have backups before deleting anything critical\n3. Follow your organization's data management policies if applicable\n\nIs there something specific you're trying to accomplish that I can help with, or do you need advice on data management best practices?"
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

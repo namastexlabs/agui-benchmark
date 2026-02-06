@@ -1,0 +1,33 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 39995.86940498557,
+    "time_to_first_event_ms": 39994.581479928456,
+    "time_to_first_content_ms": 39996.13421096001,
+    "time_to_complete_ms": 39995.86940498557
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 573,
+    "tokens_approx": 143,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 only the tools that exist can be used. Available tools here are:\n- functions.get_current_time (returns the current date/time)\n- functions.calculator (evaluates a math expression)\n- multi_tool_use.parallel (runs multiple of the above in parallel)\n\nTell me what you want to accomplish and I\u2019ll use the appropriate tool(s). Examples:\n- \u201cWhat time is it?\u201d \u2192 I\u2019ll call get_current_time.\n- \u201cCalculate 12345 * 678\u201d \u2192 I\u2019ll call calculator.\n- \u201cGet the time and compute 2+2\u201d \u2192 I can run both in parallel.\n\nWhich would you like me to do?"
+  },
+  "events": {
+    "total_events": 145,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

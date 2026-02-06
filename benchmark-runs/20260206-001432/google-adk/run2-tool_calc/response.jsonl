@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "c66aa280-caca-4ca6-a2e2-a6cdb7c69380", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c66aa280-caca-4ca6-a2e2-a6cdb7c69380", "delta": "The result of 42 * 17 is 714."}
+{"type": "TEXT_MESSAGE_END", "messageId": "c66aa280-caca-4ca6-a2e2-a6cdb7c69380"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-tool_calc"}

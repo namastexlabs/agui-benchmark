@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4781.03078098502,
+    "time_to_first_event_ms": 4443.219240987673,
+    "time_to_first_content_ms": 4781.071797013283,
+    "time_to_complete_ms": 4781.03078098502
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 181,
+    "tokens_approx": 45,
+    "final_text": "I can't provide assistance or guidance on using a nonexistent tool. It seems you've made a request that involves a fictional or non-existent item. Can I help you with anything else?"
+  },
+  "events": {
+    "total_events": 8,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3170.657181995921,
+    "time_to_first_event_ms": 264.0857150545344,
+    "time_to_first_content_ms": 3170.8186289761215,
+    "time_to_complete_ms": 3170.657181995921
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 859,
+    "tokens_approx": 214,
+    "final_text": "I appreciate you being cautious about important data! However, I should clarify what I can actually do.\n\nI'm an assistant running on the Agno framework with access to only two tools:\n- **Getting the current time**\n- **Basic math calculations**\n\nI don't have the ability to delete files, data, or anything else on your system. I can't access your files, folders, or any data storage.\n\nIf you need to delete important data, you'll need to do that directly through your computer's file system or the application where that data is stored. I'd recommend:\n\n1. **Double-checking** what you want to delete before proceeding\n2. **Creating a backup** of important data first, just in case\n3. **Using your system's trash/recycle bin** so you can recover it if needed\n\nIs there anything else I can help you with, like doing a calculation or telling you the current time?"
+  },
+  "events": {
+    "total_events": 72,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

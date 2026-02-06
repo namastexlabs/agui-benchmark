@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8299.04469801113,
+    "time_to_first_event_ms": 294.2979430081323,
+    "time_to_first_content_ms": 8299.693768029101,
+    "time_to_complete_ms": 8299.04469801113
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1182,
+    "tokens_approx": 295,
+    "final_text": "I can help \u2014 but first I\u2019ll need details and your explicit approval before doing anything. Please answer the short checklist below and then give a clear approval phrase (examples below) before I provide deletion steps or commands.\n\n1) What exactly do you want deleted? (files, database rows, account, cloud bucket, etc.; include names/paths)\n2) Where is it stored? (local machine, specific server, cloud provider and bucket/container, database type)\n3) Scope and time window: delete everything now, or only items older than X, or a subset?\n4) Backup: do you have a verified backup you can restore from? (Yes / No)\n5) Permanence: soft-delete (recoverable) or permanent secure-wipe?\n6) Any legal, compliance, or other stakeholders who must be notified?\n7) Do you want me to (A) provide step-by-step commands/scripts to run, or (B) walk you through interactively?\n\nWhen you\u2019re ready, type one of these explicit confirmation phrases (or a similar unmistakable approval):\n- \u201cI approve permanent deletion of [brief description].\u201d\n- \u201cCONFIRM DELETE: [description].\u201d\n- Or simply reply \u201cYES \u2014 delete [description] permanently.\u201d\n\nI will not proceed until I receive one of those confirmations."
+  },
+  "events": {
+    "total_events": 267,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

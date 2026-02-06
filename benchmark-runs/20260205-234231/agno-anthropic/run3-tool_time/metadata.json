@@ -1,0 +1,37 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1966.9229970313609,
+    "time_to_first_event_ms": 53.90798603184521,
+    "time_to_first_content_ms": 1966.9637120096013,
+    "time_to_complete_ms": 1966.9229970313609
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.00047695357352495193
+  },
+  "response": {
+    "chars": 64,
+    "tokens_approx": 16,
+    "final_text": "The current time is **February 5, 2026 at 11:43 PM** (23:43:01)."
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

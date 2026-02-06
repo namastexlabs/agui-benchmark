@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3556.5513980109245,
+    "time_to_first_event_ms": 680.9619470732287,
+    "time_to_first_content_ms": 3558.300986071117,
+    "time_to_complete_ms": 3556.5513980109245
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1362,
+    "tokens_approx": 340,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Get the current date and time\n- Perform basic math calculations\n\nI have no access to files, databases, folders, or any data storage systems. So there's nothing for me to delete, and no approval process would change that.\n\nIf you're looking to delete data from your own system, you'll need to:\n1. Use your operating system's file manager, or\n2. Access the relevant application or service directly, or\n3. Contact your IT administrator if it involves work systems\n\nIs there something else I can help you with?I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Get the current date and time\n- Perform basic math calculations\n\nI have no access to files, databases, folders, or any data storage systems. So there's nothing for me to delete, and no approval process would change that.\n\nIf you're looking to delete data from your own system, you'll need to:\n1. Use your operating system's file manager, or\n2. Access the relevant application or service directly, or\n3. Contact your IT administrator if it involves work systems\n\nIs there something else I can help you with?"
+  },
+  "events": {
+    "total_events": 138,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

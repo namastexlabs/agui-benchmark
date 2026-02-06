@@ -1,0 +1,37 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1727.2485040593892,
+    "time_to_first_event_ms": 83.65832199342549,
+    "time_to_first_content_ms": 1727.285028086044,
+    "time_to_complete_ms": 1727.2485040593892
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.000517931766808033
+  },
+  "response": {
+    "chars": 85,
+    "tokens_approx": 21,
+    "final_text": "The current time is **February 5, 2026 at 11:42:46 PM** (23:42:46 in 24-hour format)."
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

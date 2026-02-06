@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4173.025900963694,
+    "time_to_first_event_ms": 252.27520696353167,
+    "time_to_first_content_ms": 4173.13095589634,
+    "time_to_complete_ms": 4173.025900963694
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 95,
+    "tokens_approx": 23,
+    "final_text": "def add(a: float, b: float) -> float:\n    \"\"\"Return the sum of two numbers.\"\"\"\n    return a + b"
+  },
+  "events": {
+    "total_events": 31,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

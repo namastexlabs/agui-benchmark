@@ -1,0 +1,39 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": {
+    "type": "single",
+    "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+    "validates": [
+      "TOOL_CALL_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 498.3934499323368,
+    "time_to_first_event_ms": 451.32965000811964,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 498.3934499323368
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 2,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_STARTED"
+    ]
+  }
+}

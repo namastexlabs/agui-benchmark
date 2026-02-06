@@ -1,0 +1,40 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": {
+    "type": "single",
+    "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+    "validates": [
+      "THINKING_START",
+      "THINKING_CONTENT",
+      "THINKING_END"
+    ]
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1086.5850079571828,
+    "time_to_first_event_ms": 761.3812530180439,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 1086.5850079571828
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 4,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

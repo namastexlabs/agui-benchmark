@@ -1,0 +1,27 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": false,
+  "error": "peer closed connection without sending complete message body (incomplete chunked read)",
+  "timing": {
+    "total_time_ms": 770.8261269144714,
+    "time_to_first_event_ms": 0,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 0
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

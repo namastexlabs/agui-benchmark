@@ -1,0 +1,37 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1756.1113060219213,
+    "time_to_first_event_ms": 359.53515605069697,
+    "time_to_first_content_ms": 1757.0595210418105,
+    "time_to_complete_ms": 1756.1113060219213
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 503,
+    "tokens_approx": 125,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework. I'm here to help you with tasks like telling you the current date and time, and performing basic math calculations. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, here to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything you'd like help with!"
+  },
+  "events": {
+    "total_events": 48,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

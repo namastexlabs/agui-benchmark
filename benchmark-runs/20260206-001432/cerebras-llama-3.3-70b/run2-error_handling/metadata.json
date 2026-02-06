@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4351.526326034218,
+    "time_to_first_event_ms": 3689.912630012259,
+    "time_to_first_content_ms": 4351.617285050452,
+    "time_to_complete_ms": 4351.526326034218
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 470,
+    "tokens_approx": 117,
+    "final_text": "As a conversational AI, I don't have have access to a \"nonexistent_tool\" since it doesn't exist. I can provide information, answer questions, and assist with tasks using my training data, but I'm not capable of using fictional or non-existent tools.\n\nIf you'd like to accomplish a specific task or discuss a particular topic, I'd be happy to try and help you find an alternative solution or provide more information on the subject. Just let me know how I can assist you!"
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8499.701566062868,
+    "time_to_first_event_ms": 289.33047608006746,
+    "time_to_first_content_ms": 8499.727974063717,
+    "time_to_complete_ms": 8499.701566062868
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1112,
+    "tokens_approx": 278,
+    "final_text": "Understood \u2014 I will not proceed with any deletion until you explicitly approve. Before I prepare deletion steps, I need a few details so I can give safe, correct instructions:\n\n1. What exactly do you want to delete? (file paths, database/table names, buckets, etc.)\n2. Where is it stored? (local Windows/macOS/Linux machine, network drive, cloud service like S3/GCP/Azure, database, email, etc.)\n3. Do you require secure/irreversible deletion (overwrite/wipe) or just move-to-trash/soft-delete?\n4. Do you have a verified backup or snapshot elsewhere? If not, do you want me to include backup steps first?\n5. Are there legal, compliance, or organizational retention rules I should consider?\n6. Do you want CLI commands, GUI steps, or a high-level checklist?\n\nI cannot access or delete your data directly \u2014 I will only provide instructions. Once you answer the questions above, I will prepare a deletion plan and then ask you one more time for explicit approval before giving commands or steps that would delete data.\n\nWhen you\u2019re ready for me to proceed after answering, reply with: APPROVE \u2014 and I will continue."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

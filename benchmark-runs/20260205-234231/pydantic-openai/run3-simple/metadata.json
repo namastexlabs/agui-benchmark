@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2483.620004961267,
+    "time_to_first_event_ms": 39.13614992052317,
+    "time_to_first_content_ms": 2483.688412932679,
+    "time_to_complete_ms": 2483.620004961267
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 153,
+    "tokens_approx": 38,
+    "final_text": "Hello! I'm an AI assistant here to help with questions, writing, and basic calculations. Ask me anything and I'll do my best to help quickly and clearly."
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

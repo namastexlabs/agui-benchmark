@@ -1,0 +1,37 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1787.7372910734266,
+    "time_to_first_event_ms": 311.80312600918114,
+    "time_to_first_content_ms": 1788.2649180246517,
+    "time_to_complete_ms": 1787.7372910734266
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 578,
+    "tokens_approx": 144,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything\u2014I'm here to help!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything\u2014I'm here to help!"
+  },
+  "events": {
+    "total_events": 64,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

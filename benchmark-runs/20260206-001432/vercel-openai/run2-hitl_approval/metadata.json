@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12799.483171082102,
+    "time_to_first_event_ms": 1488.204840105027,
+    "time_to_first_content_ms": 12799.878822057508,
+    "time_to_complete_ms": 12799.483171082102
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 995,
+    "tokens_approx": 248,
+    "final_text": "Understood \u2014 I will always ask for your explicit approval before proceeding with any destructive steps.\n\nBefore I prepare deletion instructions or commands, please answer these quick questions:\n1. Where is the data? (local PC, server, cloud provider \u2014 e.g., AWS S3, Google Drive, Dropbox, database, etc.)\n2. Exactly what should be deleted? (file paths, bucket name, database/table/rows, account, etc.)\n3. Do you have a verified backup or snapshot? If not, do you want help creating one first?\n4. Which OS or environment? (Windows, macOS, Linux, Docker, RDS, etc.)\n5. Any timing or downtime constraints? Any legal or organizational approvals required?\n\nWhen you\u2019re ready for me to proceed with deletion instructions, type the exact confirmation phrase below so I know you explicitly approve:\nCONFIRM DELETE\n\nIf you prefer a different confirmation phrase, tell me which one. Also tell me whether you want a dry-run (list of what would be deleted) first \u2014 I recommend that if the data is important."
+  },
+  "events": {
+    "total_events": 221,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

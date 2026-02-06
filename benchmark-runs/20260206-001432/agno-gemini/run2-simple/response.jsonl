@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple"}
+{"type": "TEXT_MESSAGE_START", "messageId": "5a19e5c9-33d7-444e-848f-a088c8c06945", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5a19e5c9-33d7-444e-848f-a088c8c06945", "delta": "Hello!"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5a19e5c9-33d7-444e-848f-a088c8c06945", "delta": " I'm a helpful assistant running on the Agno framework. I can tell you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5a19e5c9-33d7-444e-848f-a088c8c06945", "delta": " the current time and evaluate mathematical expressions."}
+{"type": "TEXT_MESSAGE_END", "messageId": "5a19e5c9-33d7-444e-848f-a088c8c06945"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple"}

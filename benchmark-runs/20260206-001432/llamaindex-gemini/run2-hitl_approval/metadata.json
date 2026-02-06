@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2496.0165079683065,
+    "time_to_first_event_ms": 292.3771160421893,
+    "time_to_first_content_ms": 2496.053757960908,
+    "time_to_complete_ms": 2496.0165079683065
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 133,
+    "tokens_approx": 33,
+    "final_text": "I am sorry, but I cannot delete data. My capabilities are limited to telling the current time and performing basic math calculations."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

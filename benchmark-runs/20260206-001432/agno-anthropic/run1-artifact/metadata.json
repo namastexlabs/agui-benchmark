@@ -1,0 +1,33 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2494.353546993807,
+    "time_to_first_event_ms": 302.0125130424276,
+    "time_to_first_content_ms": 2494.4211459951475,
+    "time_to_complete_ms": 2494.353546993807
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 488,
+    "tokens_approx": 122,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: The first number\n        b: The second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage\nresult = add_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function takes two parameters `a` and `b`, adds them together, and returns the result. You can call it with any two numbers!"
+  },
+  "events": {
+    "total_events": 28,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

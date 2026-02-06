@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": {
+    "type": "single",
+    "prompt": "Use the 'nonexistent_tool' to do something.",
+    "validates": [
+      "ERROR"
+    ],
+    "expect_error": true
+  },
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 544.5750419748947,
+    "time_to_first_event_ms": 489.39514998346567,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 544.5750419748947
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "events": {
+    "total_events": 3,
+    "event_types": [
+      "RUN_ERROR",
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7224.42956501618,
+    "time_to_first_event_ms": 1213.4326349478215,
+    "time_to_first_content_ms": 7224.5625460054725,
+    "time_to_complete_ms": 7224.42956501618
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0008760252967476845
+  },
+  "response": {
+    "chars": 120,
+    "tokens_approx": 30,
+    "final_text": "Current time (from the time tool): 2026-02-06 03:16:10.\n\nWould you like this converted to a specific timezone or format?"
+  },
+  "events": {
+    "total_events": 42,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

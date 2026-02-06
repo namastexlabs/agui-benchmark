@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770347678", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "Adding Two Numbers in Python**\n\nHere's a simple Python function"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " that adds two numbers:\n\n```python\ndef add_numbers(a,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " b):\n    \"\"\"\n    Adds two numbers together.\n\n    Args"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ":\n        a (float): The first number to add.\n       "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " b (float): The second number to add.\n\n    Returns"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ":\n        float: The sum of a and b.\n    \"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "    return a + b\n```\n\n**Example Use Case"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": ":**\n\n```python\nresult = add_numbers(5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "7)\nprint(result)  # Output: 12\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "```\n\nThis function takes two arguments `a` and `b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": "`, which can be any type of number. It returns their"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " sum, which is also a number. You can call this function"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347678", "delta": " with any two numbers to get their sum."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770347678"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

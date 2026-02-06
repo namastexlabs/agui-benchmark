@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-hitl_approval"}
+{"type": "TEXT_MESSAGE_START", "messageId": "ec756789-bde0-46a2-a585-54898141b625", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ec756789-bde0-46a2-a585-54898141b625", "delta": "I can help. I will ask for your explicit approval before taking any destructive steps.\n\nBefore I do anything: do you approve that I proceed to help you delete this important data (I will ask again for confirmation before giving or suggesting any irreversible commands)? Reply with:\n- YES \u2014 proceed, or\n- NO \u2014 do not proceed.\n\nIf YES, also tell me: what data (type), where it is (device/OS/cloud/provider), and whether you have a backup."}
+{"type": "TEXT_MESSAGE_END", "messageId": "ec756789-bde0-46a2-a585-54898141b625"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-hitl_approval"}

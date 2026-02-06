@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6341.339242062531,
+    "time_to_first_event_ms": 3133.692002040334,
+    "time_to_first_content_ms": 6341.649165027775,
+    "time_to_complete_ms": 6341.339242062531
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 455,
+    "tokens_approx": 113,
+    "final_text": "I can\u2019t use a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist. I can, however, use the tools I do have: I can give the current date/time or evaluate math expressions.\n\nTell me which of these you want, or describe what you want the nonexistent tool to do and I\u2019ll use an available method to achieve it. Examples:\n- \u201cGet the current time\u201d\n- \u201cCalculate 12345 * 678\u201d\n- \u201cHelp automate a task \u2014 find an alternative approach\u201d\n\nWhich would you like me to do now?"
+  },
+  "events": {
+    "total_events": 115,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

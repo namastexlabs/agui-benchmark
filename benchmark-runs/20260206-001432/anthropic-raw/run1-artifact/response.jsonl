@@ -1,0 +1,39 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "a, b):\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "Args:\n        a: First number"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n        b: Second number\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n    Returns:\n        The sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " of a and b\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\nresult = add(5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "3)\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n```\n\nYou can also create a more"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " concise version:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "\n\n```python\ndef add(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": ", b):\n    return a +"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " b\n```\n\nOr as"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " a lambda"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " function if"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " you prefer:\n\n```python\nad"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "d = lambda a, b: a +"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " b\n```\n\nAll"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " three versions "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "do the same thing\u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": "they take"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " two numbers and return their sum. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " first example"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " is more verbose with"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " documentation"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": ", while the others"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e", "delta": " are more concise."}
+{"type": "TEXT_MESSAGE_END", "message_id": "8967c9f9-b995-4178-a656-cf06bcd8684e"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}

@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2834.192081936635,
+    "time_to_first_event_ms": 307.0056450087577,
+    "time_to_first_content_ms": 2834.348585922271,
+    "time_to_complete_ms": 2834.192081936635
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 966,
+    "tokens_approx": 241,
+    "final_text": "I appreciate you bringing this up, but I need to clarify something important: **I don't actually have the ability to delete any data.** \n\nI can only:\n- Tell you the current date and time\n- Do basic math calculations\n\nI don't have access to files, databases, folders, or any storage systems. I can't delete, modify, or remove anything from your computer or accounts.\n\nIf you're looking to delete data from your own system, you would need to do that directly through:\n- Your file manager (for files/folders)\n- Your application settings (for app data)\n- Your account settings (for cloud services)\n- Your database management tools (for databases)\n\n**If you're concerned about data safety before deletion, I'd recommend:**\n1. Making a backup first\n2. Double-checking what you're about to delete\n3. Testing the deletion on a small sample if possible\n\nIs there something else I can help you with, or do you need guidance on how to safely delete data from a specific system?"
+  },
+  "events": {
+    "total_events": 82,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

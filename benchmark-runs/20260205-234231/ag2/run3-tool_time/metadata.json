@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5580.309951910749,
+    "time_to_first_event_ms": 37.188267917372286,
+    "time_to_first_content_ms": 5580.333488993347,
+    "time_to_complete_ms": 5580.309951910749
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 212,
+    "tokens_approx": 53,
+    "final_text": "I don't have access to a separate \"time tool\" in this chat. I can give the current time from my system clock if you tell me which time zone (or your city) to use \u2014 or I can report it in UTC. Which would you like?"
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

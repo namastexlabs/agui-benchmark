@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11166.74877598416,
+    "time_to_first_event_ms": 2004.310757969506,
+    "time_to_first_content_ms": 11166.777770966291,
+    "time_to_complete_ms": 11166.74877598416
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 897,
+    "tokens_approx": 224,
+    "final_text": "I can help \u2014 but I will not do anything until you explicitly confirm. Before we proceed, please provide:\n\n1. Exactly what to delete (file paths, folder names, database/table names, cloud account, etc.).  \n2. Where it is located (local machine, server name/IP, cloud provider and bucket, database host).  \n3. Whether deletion should be permanent (irreversible) or moved to trash/archived first.  \n4. Whether you have a backup and authorization to delete this data.  \n5. Any time window or downtime constraints.\n\nDeletion can be irreversible and may cause data loss or service disruption. To continue, type one of these exact confirmation phrases (include the data description from #1 in your reply):\n\n- YES, PERMANENTLY DELETE [your data description]  \nor  \n- YES, MOVE TO TRASH [your data description]\n\nI will not perform or describe deletion steps until you send one of those exact confirmations."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

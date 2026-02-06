@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4742.867142893374,
+    "time_to_first_event_ms": 4245.559946983121,
+    "time_to_first_content_ms": 4742.909204913303,
+    "time_to_complete_ms": 4742.867142893374
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 454,
+    "tokens_approx": 113,
+    "final_text": "```python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    This function adds two numbers together.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\nThis function uses type hints to specify that it expects two float arguments and returns a float. You can use it like this:\n\n```python\nprint(add_numbers(5, 7))  # Outputs: 12.0\n```"
+  },
+  "events": {
+    "total_events": 15,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

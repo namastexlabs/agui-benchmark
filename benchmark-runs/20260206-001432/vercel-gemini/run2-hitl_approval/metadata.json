@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3384.5013809623197,
+    "time_to_first_event_ms": 1710.1216959999874,
+    "time_to_first_content_ms": 3384.524298948236,
+    "time_to_complete_ms": 3384.5013809623197
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 151,
+    "tokens_approx": 37,
+    "final_text": "I am sorry, but I cannot delete data. I am a language model and do not have access to your personal information or the ability to perform such actions."
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

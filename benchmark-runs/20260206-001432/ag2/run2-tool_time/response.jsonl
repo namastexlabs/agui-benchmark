@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e325c41a-07d7-4bb2-a22c-c4d3db0d3535", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e325c41a-07d7-4bb2-a22c-c4d3db0d3535", "delta": "Sorry \u2014 I don\u2019t have access to the time tool in this chat, so I can\u2019t read the current clock directly. (I do see the current date: 2026-02-06.)\n\nIf you want, pick one of these and I\u2019ll respond:\n- Tell me your timezone or city (e.g., \"Europe/Berlin\" or \"New York\") and I\u2019ll give the current local time there.\n- Tell me your offset from UTC (e.g., \"UTC+2\") and I\u2019ll compute the time.\n- Allow access to a time tool (if you have one) and I\u2019ll use it.\n\nWhich would you prefer?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "e325c41a-07d7-4bb2-a22c-c4d3db0d3535"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

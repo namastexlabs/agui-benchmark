@@ -5,6 +5,7 @@ Endpoints:
   - POST /agent/anthropic (Claude)
   - POST /agent/openai (GPT)
   - POST /agent/gemini (Gemini)
+  - POST /agent/cerebras (Cerebras Llama via OpenAI-compatible API)
 
 Uses ag-ui-langgraph package for native AG-UI integration.
 Supports multiple LLM providers via separate endpoints.
@@ -107,11 +108,17 @@ def create_graph(llm):
 llm_anthropic = ChatAnthropic(model="claude-haiku-4-5-20251001")
 llm_openai = ChatOpenAI(model="gpt-5-mini")
 llm_gemini = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
+llm_cerebras = ChatOpenAI(
+    model="llama-3.3-70b",
+    api_key=os.getenv("CEREBRAS_API_KEY"),
+    base_url="https://api.cerebras.ai/v1"
+)
 
 # Create compiled graphs for each LLM
 graph_anthropic = create_graph(llm_anthropic)
 graph_openai = create_graph(llm_openai)
 graph_gemini = create_graph(llm_gemini)
+graph_cerebras = create_graph(llm_cerebras)
 
 # Create LangGraphAgent instances for each provider
 agent_anthropic = LangGraphAgent(
@@ -132,6 +139,12 @@ agent_gemini = LangGraphAgent(
     description="LangGraph agent with Gemini (Google)"
 )
 
+agent_cerebras = LangGraphAgent(
+    name="langgraph-cerebras",
+    graph=graph_cerebras,
+    description="LangGraph agent with Cerebras Llama (OpenAI-compatible)"
+)
+
 # Create FastAPI app
 app = FastAPI(
     title="LangGraph AG-UI Test Agent",
@@ -142,6 +155,7 @@ app = FastAPI(
 add_langgraph_fastapi_endpoint(app, agent_anthropic, "/agent/anthropic")
 add_langgraph_fastapi_endpoint(app, agent_openai, "/agent/openai")
 add_langgraph_fastapi_endpoint(app, agent_gemini, "/agent/gemini")
+add_langgraph_fastapi_endpoint(app, agent_cerebras, "/agent/cerebras")
 
 
 @app.get("/health")
@@ -162,6 +176,10 @@ async def health():
             "gemini": {
                 "endpoint": "/agent/gemini",
                 "model": "gemini-2.5-flash"
+            },
+            "cerebras": {
+                "endpoint": "/agent/cerebras",
+                "model": "llama-3.3-70b"
             }
         },
         "native_agui": True
@@ -176,7 +194,8 @@ async def root():
         "agui_endpoints": {
             "anthropic": "POST /agent/anthropic",
             "openai": "POST /agent/openai",
-            "gemini": "POST /agent/gemini"
+            "gemini": "POST /agent/gemini",
+            "cerebras": "POST /agent/cerebras"
         },
         "health_endpoint": "GET /health",
         "native_agui": True
@@ -188,6 +207,9 @@ if __name__ == "__main__":
     print("Starting LangGraph Agent on port 7772...")
     print("AG-UI Endpoints:")
     print("  - POST http://localhost:7772/agent/anthropic (Claude)")
+    print("  - POST http://localhost:7772/agent/openai (GPT)")
+    print("  - POST http://localhost:7772/agent/gemini (Gemini)")
+    print("  - POST http://localhost:7772/agent/cerebras (Cerebras Llama 3.3 70B)")
     print("  - POST http://localhost:7772/agent/openai (GPT)")
     print("  - POST http://localhost:7772/agent/gemini (Gemini)")
     print("Using NATIVE ag-ui-langgraph package")

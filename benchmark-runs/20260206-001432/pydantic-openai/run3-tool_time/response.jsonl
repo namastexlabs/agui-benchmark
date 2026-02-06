@@ -1,0 +1,49 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_0zWNJo5Zx7tDXevdjeKAghPk", "toolCallName": "get_current_time", "parentMessageId": "185265ef-c0d7-4987-be78-8c8e621ee1a7"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_0zWNJo5Zx7tDXevdjeKAghPk", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_0zWNJo5Zx7tDXevdjeKAghPk"}
+{"type": "TOOL_CALL_RESULT", "messageId": "5b541062-c0e0-4225-a8c3-1a1d6d893eb6", "toolCallId": "call_0zWNJo5Zx7tDXevdjeKAghPk", "content": "2026-02-06 00:16:11", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "00"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "16"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "11"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " \n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "If"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " want"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " it"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " shown"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " in"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " specific"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " timezone"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " format"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " which"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "\u2019ll"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " convert"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": " it"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "messageId": "14c4b4af-cee2-477f-af57-535d1015297d"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}

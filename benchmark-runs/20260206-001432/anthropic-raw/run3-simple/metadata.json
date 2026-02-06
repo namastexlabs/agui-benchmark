@@ -1,0 +1,33 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3654.2348520597443,
+    "time_to_first_event_ms": 3651.7829339718446,
+    "time_to_first_content_ms": 3654.355477076024,
+    "time_to_complete_ms": 3654.2348520597443
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 243,
+    "tokens_approx": 60,
+    "final_text": "Hello! \ud83d\udc4b I'm Claude, an AI assistant created by Anthropic. I'm here to help you with a variety of tasks, including answering questions, having conversations, doing math calculations, and checking the current time. Feel free to ask me anything!"
+  },
+  "events": {
+    "total_events": 19,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

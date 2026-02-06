@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6879.420746001415,
+    "time_to_first_event_ms": 1310.5206270702183,
+    "time_to_first_content_ms": 6880.822436069138,
+    "time_to_complete_ms": 6879.420746001415
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0014971010386943817
+  },
+  "response": {
+    "chars": 220,
+    "tokens_approx": 55,
+    "final_text": "The current system time is 2026-02-06 00:14:35. Would you like it converted to a different timezone or format?The current system time is 2026-02-06 00:14:35. Would you like it converted to a different timezone or format?"
+  },
+  "events": {
+    "total_events": 115,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

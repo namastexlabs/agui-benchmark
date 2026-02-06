@@ -1,0 +1,37 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 47037.2674750397,
+    "time_to_first_event_ms": 47036.76018898841,
+    "time_to_first_content_ms": 47037.34854597133,
+    "time_to_complete_ms": 47037.2674750397
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0008940696716308594
+  },
+  "response": {
+    "chars": 47,
+    "tokens_approx": 11,
+    "final_text": "Current time: 2026-02-06 00:16:05\n\n10 + 20 = 30"
+  },
+  "events": {
+    "total_events": 41,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

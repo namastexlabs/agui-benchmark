@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2348.4835820272565,
+    "time_to_first_event_ms": 631.373394979164,
+    "time_to_first_content_ms": 2349.6146510588005,
+    "time_to_complete_ms": 2348.4835820272565
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 986,
+    "tokens_approx": 246,
+    "final_text": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function is straightforward and works with any numeric types (integers, floats, etc.). You can call it with any two numbers and it will return their sum!Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function is straightforward and works with any numeric types (integers, floats, etc.). You can call it with any two numbers and it will return their sum!"
+  },
+  "events": {
+    "total_events": 77,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

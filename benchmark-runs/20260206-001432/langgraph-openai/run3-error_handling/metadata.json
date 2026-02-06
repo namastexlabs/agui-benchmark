@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5385.7640229398385,
+    "time_to_first_event_ms": 681.5899530192837,
+    "time_to_first_content_ms": 5388.891528942622,
+    "time_to_complete_ms": 5385.7640229398385
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1050,
+    "tokens_approx": 262,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available. I can, however, use the available tools: get the current time or evaluate math expressions (and run those in parallel if needed).\n\nTell me what you wanted \"nonexistent_tool\" to do, and I\u2019ll:\n- use the current time tool if you need the time, or\n- use the calculator for math, or\n- run both together.\n\nExamples you can ask now:\n- \"What time is it?\"\n- \"Calculate 12345 * 6789\"\n- \"Give me the current time and compute 2^20\"\n\nWhich would you like me to do?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available. I can, however, use the available tools: get the current time or evaluate math expressions (and run those in parallel if needed).\n\nTell me what you wanted \"nonexistent_tool\" to do, and I\u2019ll:\n- use the current time tool if you need the time, or\n- use the calculator for math, or\n- run both together.\n\nExamples you can ask now:\n- \"What time is it?\"\n- \"Calculate 12345 * 6789\"\n- \"Give me the current time and compute 2^20\"\n\nWhich would you like me to do?"
+  },
+  "events": {
+    "total_events": 298,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

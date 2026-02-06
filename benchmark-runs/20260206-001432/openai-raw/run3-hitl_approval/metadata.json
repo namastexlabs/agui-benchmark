@@ -1,0 +1,33 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 30729.15281110909,
+    "time_to_first_event_ms": 30726.591293001547,
+    "time_to_first_content_ms": 30729.799162014388,
+    "time_to_complete_ms": 30729.15281110909
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1251,
+    "tokens_approx": 312,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I ask for that approval, please answer a few quick questions so I can be sure what will happen and what to include in the approval prompt:\n\n1. What exactly should be deleted? (file/folder names, database/table names, account IDs, cloud bucket path, etc.)\n2. Where is it stored? (machine name, server, cloud provider + region, full path)\n3. Do you have a verified backup or snapshot? (yes/no \u2014 if no, do you want help making one?)\n4. Are there any dependencies or other owners who must be notified first?\n5. Is deletion irreversible, or should I soft-delete/retain for X days?\n6. When should this happen? (now / scheduled time)\n\nWhen you provide those details I will prepare a short deletion plan and then ask for your explicit, unambiguous approval before taking any action. If you\u2019re ready to proceed now, reply with the exact confirmation phrase below (type it exactly) after filling in the details above:\n\n\u201cI APPROVE permanent deletion of [what] at [where]. I confirm I have backups: [yes/no]. I understand this is irreversible.\u201d\n\nI will not proceed until you send that exact confirmation phrase. Would you like help creating a backup or drafting the deletion plan first?"
+  },
+  "events": {
+    "total_events": 275,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

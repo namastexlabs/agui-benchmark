@@ -1,0 +1,33 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9483.651861082762,
+    "time_to_first_event_ms": 9482.8925851034,
+    "time_to_first_content_ms": 9483.789921039715,
+    "time_to_complete_ms": 9483.651861082762
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 795,
+    "tokens_approx": 198,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data** on your system or accounts. \n\nI'm a helpful assistant with limited capabilities - I can only:\n- Tell you the current date and time\n- Do basic math calculations\n\nI don't have access to files, databases, cloud storage, email accounts, or any other systems where data might be stored.\n\nIf you need to delete important data:\n1. **Proceed with caution** - consider backing up first\n2. **Use the appropriate tools** for your specific situation (file explorer, cloud storage interface, database management tools, etc.)\n3. **Double-check before confirming deletion**, especially for truly important data\n\nIs there something else I can help you with, like calculating something or checking the time?"
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

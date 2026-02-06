@@ -1,0 +1,30 @@
+{"type": "RUN_STARTED", "timestamp": 1770345751, "threadId": "test-thread-llamaindex-openai", "runId": "test-run-llamaindex-openai-tool_time"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TOOL_CALL_CHUNK", "toolCallId": "call_S5cRL5zBjKcnrZG7VarHgiiL", "toolCallName": "get_current_time", "delta": "{}"}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770345752, "messages": [{"id": "35a627e5-b7b0-44b6-9d71-985f6476eafa", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "What is the current time? Use the time tool to check."}, {"id": "d5d908ef-fd19-4caa-8021-d991293350c3", "role": "assistant", "toolCalls": [{"id": "call_S5cRL5zBjKcnrZG7VarHgiiL", "type": "function", "function": {"name": "get_current_time", "arguments": "{}"}}]}]}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770345752, "messages": [{"id": "218f027e-d8d8-4dee-a206-abcd76ff5f04", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "What is the current time? Use the time tool to check."}, {"id": "d4c79a26-9c35-41c1-b05e-2ef4399b1194", "role": "assistant", "toolCalls": [{"id": "call_S5cRL5zBjKcnrZG7VarHgiiL", "type": "function", "function": {"name": "get_current_time", "arguments": "{}"}}]}, {"id": "58846216-0102-4150-ad4d-a9d213f3e424", "role": "tool", "content": "2026-02-05 23:42:32", "toolCallId": "call_S5cRL5zBjKcnrZG7VarHgiiL"}]}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "The"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " current"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " time"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " is"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "202"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "6"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "-"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "02"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "-"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "05"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "23"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": ":"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "42"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": ":"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "32"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " ("}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "server"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": "/system"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": " time"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770345754, "messageId": "a3ec084f-3e99-4f43-af0b-c0bec30ebda9", "role": "assistant", "delta": ")."}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770345754, "messages": [{"id": "a435507a-5dd7-4544-bfae-ffb0d2d35039", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "What is the current time? Use the time tool to check."}, {"id": "b92149f4-3243-48de-b48b-49ca7b78c35b", "role": "assistant", "toolCalls": [{"id": "call_S5cRL5zBjKcnrZG7VarHgiiL", "type": "function", "function": {"name": "get_current_time", "arguments": "{}"}}]}, {"id": "49fdc1d6-de07-4197-89cf-4594c9feab4d", "role": "tool", "content": "2026-02-05 23:42:32", "toolCallId": "call_S5cRL5zBjKcnrZG7VarHgiiL"}, {"id": "7d66cc48-1424-4571-8070-f2601894ac4b", "role": "assistant", "content": "The current time is 2026-02-05 23:42:32 (server/system time)."}]}
+{"type": "RUN_FINISHED", "timestamp": 1770345754, "threadId": "test-thread-llamaindex-openai", "runId": "test-run-llamaindex-openai-tool_time"}

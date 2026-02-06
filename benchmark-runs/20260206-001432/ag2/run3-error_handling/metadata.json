@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12153.161492897198,
+    "time_to_first_event_ms": 2043.1867470033467,
+    "time_to_first_content_ms": 12153.19236193318,
+    "time_to_complete_ms": 12153.161492897198
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1519,
+    "tokens_approx": 379,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool\" and can\u2019t run external programs from here. I can\u2019t call it directly \u2014 but I can help in several ways. Which would you like?\n\nOptions\n- Tell me what you want the tool to do and I\u2019ll do the task here (analysis, generation, transformations, code, etc.).\n- I can simulate (mock) the tool\u2019s output so you can see what to expect.\n- I can give you ready-to-run code to install and call the tool locally (or to check for it), with error handling.\n- I can show how to create a small local stub (mock implementation) named nonexistent_tool for testing.\n\nExample code snippets (pick one):\n1) Call from Python with error handling\n```\nimport subprocess\n\ntry:\n    result = subprocess.run(['nonexistent_tool', '--help'], check=True, capture_output=True, text=True)\n    print(result.stdout)\nexcept FileNotFoundError:\n    print(\"nonexistent_tool not found. Install it or check the name.\")\nexcept subprocess.CalledProcessError as e:\n    print(\"Tool returned non-zero exit status:\", e.returncode, e.output)\n```\n\n2) Install (if it\u2019s a pip package)\n```\n# run in your shell\npip install nonexistent_tool\n```\n\n3) Simple Python stub (mock) you can use in tests\n```\n# save as nonexistent_tool.py and call from your scripts/tests\ndef run(args):\n    return {\"status\": \"mocked\", \"args\": args, \"output\": \"This is a mocked response.\"}\n\nif __name__ == \"__main__\":\n    import sys\n    print(run(sys.argv[1:]))\n```\n\nTell me what you want the tool to do (or which option you prefer) and I\u2019ll proceed."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

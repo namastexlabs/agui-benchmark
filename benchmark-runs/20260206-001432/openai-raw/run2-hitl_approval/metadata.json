@@ -1,0 +1,33 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 30590.698596904986,
+    "time_to_first_event_ms": 30588.829961954616,
+    "time_to_first_content_ms": 30591.07395191677,
+    "time_to_complete_ms": 30590.698596904986
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 877,
+    "tokens_approx": 219,
+    "final_text": "Okay \u2014 I will not do anything until you explicitly approve. Before I proceed I need you to confirm a few things and give permission.\n\nPlease answer these:\n\n1. What exactly do you want deleted? (files/folders, database records, cloud storage, device/drive, account, etc.) Include platform/service and paths or names if you can.  \n2. Do you want permanent deletion (irreversible) or move to trash/archive (recoverable)?  \n3. Do you have a backup or are you sure you do not want one?  \n4. Any legal or compliance constraints I should be aware of?  \n5. Type one of these exact confirmation phrases to proceed:  \n   - \"YES, PERMANENTLY DELETE\" (proceed with irreversible deletion)  \n   - \"YES, MOVE TO TRASH\" (proceed with recoverable deletion)  \n   - \"CANCEL\" (do not delete)\n\nI will wait for your explicit confirmation phrase before giving deletion steps or taking further action."
+  },
+  "events": {
+    "total_events": 207,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

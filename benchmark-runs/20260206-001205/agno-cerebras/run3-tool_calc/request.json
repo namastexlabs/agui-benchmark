@@ -1,0 +1,24 @@
+{
+  "thread_id": "test-thread-agno-cerebras",
+  "run_id": "test-run-agno-cerebras-tool_calc",
+  "messages": [
+    {
+      "id": "msg-1",
+      "role": "user",
+      "content": {
+        "type": "single",
+        "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+        "validates": [
+          "TOOL_CALL_START",
+          "TOOL_CALL_ARGS",
+          "TOOL_CALL_END",
+          "TOOL_CALL_RESULT"
+        ]
+      }
+    }
+  ],
+  "state": {},
+  "tools": [],
+  "context": [],
+  "forwardedProps": {}
+}

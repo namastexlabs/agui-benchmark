@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "toolCallName": "calculator", "parentMessageId": "f5c19df9-d5ea-4df5-b5cf-2669f9ba1d13"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "delta": ""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "delta": "{\"ex"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "delta": "pre"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "delta": "ssion\": \"4"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "delta": "2 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH"}
+{"type": "TOOL_CALL_RESULT", "messageId": "623e2a8c-ae7c-4487-8a1d-24c75c60c015", "toolCallId": "toolu_01HeU9RWgmDdQWt2HCNSnzhH", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "22c6d706-a310-4130-b1fb-4526101b8b2e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "22c6d706-a310-4130-b1fb-4526101b8b2e", "delta": "The result of 42 * "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "22c6d706-a310-4130-b1fb-4526101b8b2e", "delta": "17 is **714**."}
+{"type": "TEXT_MESSAGE_END", "messageId": "22c6d706-a310-4130-b1fb-4526101b8b2e"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc"}

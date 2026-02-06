@@ -1,0 +1,37 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1885.561853996478,
+    "time_to_first_event_ms": 395.80835693050176,
+    "time_to_first_content_ms": 1885.8956469921395,
+    "time_to_complete_ms": 1885.561853996478
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 263,
+    "tokens_approx": 65,
+    "final_text": "Hello! I'm a helpful assistant running on the LangGraph framework. I can tell you the current time andHello! I'm a helpful assistant running on the LangGraph framework. I can tell you the current time and perform basic math calculations. How can I help you today?"
+  },
+  "events": {
+    "total_events": 24,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2714.2892390256748,
+    "time_to_first_event_ms": 301.8893620464951,
+    "time_to_first_content_ms": 2714.326379005797,
+    "time_to_complete_ms": 2714.2892390256748
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 219,
+    "tokens_approx": 54,
+    "final_text": "To solve for x in the equation x + 5 = 12, we need to isolate x.\n\n1.  Start with the equation: x + 5 = 12\n2.  Subtract 5 from both sides of the equation:\n    x + 5 - 5 = 12 - 5\n3.  This simplifies to: x = 7\n\nSo, x is 7!"
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

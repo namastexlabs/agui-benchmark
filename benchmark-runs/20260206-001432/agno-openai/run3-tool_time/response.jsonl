@@ -1,0 +1,43 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "3aca5a36-2977-4684-8156-8dae35b1d37a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "3aca5a36-2977-4684-8156-8dae35b1d37a"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_aNpBhWAoR40OiYmd6a8LzQTp", "toolCallName": "get_current_time", "parentMessageId": "3aca5a36-2977-4684-8156-8dae35b1d37a"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_aNpBhWAoR40OiYmd6a8LzQTp", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_aNpBhWAoR40OiYmd6a8LzQTp"}
+{"type": "TOOL_CALL_RESULT", "messageId": "922cf7e8-8e3f-49f4-8671-eb379ee4b050", "toolCallId": "call_aNpBhWAoR40OiYmd6a8LzQTp", "content": "2026-02-06 00:16:10", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "server"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "00"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "16"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " Would"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " like"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " converted"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " specific"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " timezone"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": " format"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013", "delta": "?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "95412ecf-f164-4a1b-9858-6fdbaaceb013"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time"}

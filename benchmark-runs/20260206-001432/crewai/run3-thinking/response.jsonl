@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-thinking"}
+{"type": "STEP_STARTED", "stepName": "handle_message"}
+{"type": "MESSAGES_SNAPSHOT", "messages": [{"id": "msg-1", "role": "user", "content": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process."}]}
+{"type": "STATE_SNAPSHOT", "snapshot": {"id": "test-thread-crewai", "messages": [{"id": "msg-1", "role": "user", "content": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.", "name": null}], "copilotkit": {"actions": []}}}
+{"type": "STEP_FINISHED", "stepName": "handle_message"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-crewai", "runId": "test-run-crewai-thinking"}

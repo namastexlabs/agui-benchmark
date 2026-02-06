@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11286.217255983502,
+    "time_to_first_event_ms": 2172.148863086477,
+    "time_to_first_content_ms": 11286.25029604882,
+    "time_to_complete_ms": 11286.217255983502
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 894,
+    "tokens_approx": 223,
+    "final_text": "I can\u2019t actually call a tool named \"nonexistent_tool\" because it isn\u2019t available here. I can, however, help in several ways \u2014 pick what you want:\n\n- I can simulate what the tool would do and produce example output.\n- I can write code that would call the tool (so you can run it where the tool exists).\n- I can implement the requested functionality directly here (in Python or pseudo-code).\n- I can show how to mock the tool for tests.\n\nGive me the task you intended that tool to perform (e.g., fetch a URL, run a shell command, query a database, transform data, call an API), and I\u2019ll do one of the options above. \n\nQuick example \u2014 mocking the tool in Python so you can run tests locally:\n\nfrom unittest.mock import Mock\nnonexistent_tool = Mock(return_value=\"mocked result\")\nprint(nonexistent_tool())  # prints: mocked result\n\nTell me what you wanted the tool to do and which option you prefer."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

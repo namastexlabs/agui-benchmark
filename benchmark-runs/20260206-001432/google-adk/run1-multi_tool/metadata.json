@@ -1,0 +1,33 @@
+{
+  "agent": "google-adk",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6730.863130069338,
+    "time_to_first_event_ms": 3705.775287002325,
+    "time_to_first_content_ms": 6730.885987984948,
+    "time_to_complete_ms": 6730.863130069338
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 57,
+    "tokens_approx": 14,
+    "final_text": "The current time is 2026-02-06 00:14:38 and 10 + 20 = 30."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

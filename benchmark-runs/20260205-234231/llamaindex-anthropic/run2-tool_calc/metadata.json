@@ -1,0 +1,34 @@
+{
+  "agent": "llamaindex-anthropic",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2307.112721959129,
+    "time_to_first_event_ms": 101.92602104507387,
+    "time_to_first_content_ms": 2307.17188003473,
+    "time_to_complete_ms": 2307.112721959129
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 33,
+    "tokens_approx": 8,
+    "final_text": "The result of 42 * 17 is **714**."
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  }
+}

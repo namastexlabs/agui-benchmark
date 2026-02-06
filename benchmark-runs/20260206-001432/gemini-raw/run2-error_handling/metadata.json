@@ -1,0 +1,33 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14573.985305964015,
+    "time_to_first_event_ms": 14573.763267952017,
+    "time_to_first_content_ms": 14574.002865003422,
+    "time_to_complete_ms": 14573.985305964015
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 141,
+    "tokens_approx": 35,
+    "final_text": "I am sorry, but I do not have a tool called `nonexistent_tool`. I can tell you the current time or evaluate mathematical expressions for you."
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

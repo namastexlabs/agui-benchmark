@@ -1,0 +1,3 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-multi_tool"}
+{"type": "RUN_ERROR", "message": "AI_InvalidPromptError: Invalid prompt: messages must be an array of CoreMessage or UIMessage\nReceived message of type: \"other\" at index 0\nmessages[0]: {\"role\":\"user\",\"content\":{\"type\":\"single\",\"prompt\":\"First get the current time, then calculate 10 + 20.\",\"validates\":[\"TOOL_CALL_START\",\"TOOL_CALL_END\"],\"expect_tools\":2}}", "code": "VERCEL_AI_ERROR"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-multi_tool"}

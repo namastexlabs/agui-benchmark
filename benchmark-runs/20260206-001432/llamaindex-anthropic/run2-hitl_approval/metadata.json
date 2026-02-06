@@ -1,0 +1,33 @@
+{
+  "agent": "llamaindex-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2145.7344730151817,
+    "time_to_first_event_ms": 202.17072998639196,
+    "time_to_first_content_ms": 2145.8975470159203,
+    "time_to_complete_ms": 2145.7344730151817
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 674,
+    "tokens_approx": 168,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nI'm a helpful assistant with access to only two tools:\n- Getting the current time\n- Performing basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts.\n\nIf you need to delete important data, you'll need to:\n1. **Do it directly** through the appropriate application or system\n2. **Back up your data first** before any deletion\n3. **Verify the deletion** carefully, especially for important information\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "events": {
+    "total_events": 59,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

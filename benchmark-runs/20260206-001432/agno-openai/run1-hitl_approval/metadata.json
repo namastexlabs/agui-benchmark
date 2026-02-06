@@ -1,0 +1,33 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8411.844779038802,
+    "time_to_first_event_ms": 563.073372002691,
+    "time_to_first_content_ms": 8412.364104064181,
+    "time_to_complete_ms": 8411.844779038802
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1205,
+    "tokens_approx": 301,
+    "final_text": "I won\u2019t delete anything until you explicitly approve. Before we proceed, I need a few quick details and an explicit confirmation from you.\n\nPlease answer these:\n1. What exact data/files (paths, buckets, DB tables, etc.) do you want deleted?\n2. Where is it stored? (local Windows/macOS/Linux, AWS S3, GCP, Azure, database type, etc.)\n3. Do you have a backup or snapshot? If not, do you want me to show how to create one first?\n4. Should this be permanent (irrecoverable) delete, or move to Trash/Quarantine first?\n5. Any time constraint or scheduled window?\n6. Are you the authorized owner of this data?\n\nRecommended safeguards (strongly suggested):\n- Create a backup or snapshot before deleting.\n- Run a dry-run or list the files first so you can confirm exactly what will be removed.\n- For sensitive data, consider secure overwrite methods if you need irrecoverability.\n\nIf you understand the risks and want me to proceed, type one of these exact confirmation phrases:\n- \"CONFIRM DELETE \u2014 permanent\"\nor\n- \"CONFIRM DELETE \u2014 move to trash\"\n\nAfter you confirm and provide the details above, I\u2019ll (a) show the exact commands/steps I will run, and (b) ask you to approve that final plan before doing anything."
+  },
+  "events": {
+    "total_events": 281,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

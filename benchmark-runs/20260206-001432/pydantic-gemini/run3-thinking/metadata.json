@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1397.455699974671,
+    "time_to_first_event_ms": 271.02463599294424,
+    "time_to_first_content_ms": 1397.4786259932443,
+    "time_to_complete_ms": 1397.455699974671
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 168,
+    "tokens_approx": 42,
+    "final_text": "To solve for x in the equation x + 5 = 12, we need to isolate x.\nWe can do this by subtracting 5 from both sides of the equation:\n\nx + 5 - 5 = 12 - 5\nx = 7\n\nSo, x is 7."
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

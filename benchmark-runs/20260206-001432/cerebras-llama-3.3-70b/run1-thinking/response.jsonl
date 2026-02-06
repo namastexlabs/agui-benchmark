@@ -1,0 +1,22 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770347672", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " solve for x, I will follow these steps"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": ":\n\n1. **Write down the equation**:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " x + 5 = 12\n2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": ". **Identify the goal**: I want"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " to isolate x, which means I want to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " get x by itself on one side of the equation.\n3. **Look"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " for the operation that"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " is being applied to x**: In this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " case, 5 is being added to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " x.\n4. **To isolate x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": ", I need to undo the operation**:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " Since 5 is being added to x, I need to subtract 5 from"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " both sides of the equation to get rid of the +5.\n5. **Perform the operation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": "**: Subtract 5 from both sides of the equation:\n\nx"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " + 5 - 5 = 12 - 5\n\nThis"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " simplifies to:\n\nx = 7\n\nTherefore, the value of x is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770347672", "delta": " 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770347672"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking"}

@@ -1,0 +1,33 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12469.124757917598,
+    "time_to_first_event_ms": 3577.52539194189,
+    "time_to_first_content_ms": 12469.146186020225,
+    "time_to_complete_ms": 12469.124757917598
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 108,
+    "tokens_approx": 27,
+    "final_text": "Which timezone would you like the current time in (UTC or your local timezone)? \n\n(Meanwhile, 10 + 20 = 30.)"
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

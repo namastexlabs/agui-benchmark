@@ -1,0 +1,40 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_deLNai8TDJOGDHER7gDrbLoW", "toolCallName": "get_current_time", "parentMessageId": "caf1eee2-71a3-4a78-9c5b-1d89aa87b37a"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_deLNai8TDJOGDHER7gDrbLoW", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_deLNai8TDJOGDHER7gDrbLoW"}
+{"type": "TOOL_CALL_RESULT", "messageId": "628be528-4296-4601-89ef-3d159e0b5a13", "toolCallId": "call_deLNai8TDJOGDHER7gDrbLoW", "content": "2026-02-05 23:43:02", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "05"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "23"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "43"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "server"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "/system"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": ")."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " Want"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " converted"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " specific"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " timezone"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": " format"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0", "delta": "?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "20aef411-8d0a-4ed7-9595-8ddfe10f20a0"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}

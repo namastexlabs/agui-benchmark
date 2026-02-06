@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12000.053134048358,
+    "time_to_first_event_ms": 1794.9061259860173,
+    "time_to_first_content_ms": 12000.550876953639,
+    "time_to_complete_ms": 12000.053134048358
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1264,
+    "tokens_approx": 316,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details so I can prepare a safe plan and an explicit confirmation step.\n\n1) What exactly do you want deleted? (file names or paths, folders, databases, accounts, cloud buckets, etc.)\n2) Where is it stored? (local machine \u2014 OS, remote server \u2014 SSH/SFTP, cloud provider and region, database type and host, etc.)\n3) Do you have a backup or snapshot? If not, do you want me to walk you through making one first?\n4) Are you authorized to delete this data (company policy, legal/regulatory concerns)?\n5) Do you want permanent secure deletion (wiping) or a normal delete/soft-delete?\n\nProposed safe workflow\n- I will prepare a deletion plan and show you exactly what will be removed and any commands I propose to run.\n- I will show a preview/list of items that will be deleted.\n- You must then confirm using an explicit, non-ambiguous phrase before I proceed. Example confirmation phrasing:\n  - I confirm delete: [exact description of data]\n  (replace [exact description of data] with the items you reviewed)\n- I will only proceed after you send that exact confirmation phrase.\n\nDo you want me to prepare the deletion plan now? If yes, provide answers to questions 1\u20135."
+  },
+  "events": {
+    "total_events": 288,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

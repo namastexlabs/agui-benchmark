@@ -1,0 +1,33 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 33065.43109402992,
+    "time_to_first_event_ms": 33062.45696602855,
+    "time_to_first_content_ms": 33066.04553805664,
+    "time_to_complete_ms": 33065.43109402992
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1519,
+    "tokens_approx": 379,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I do anything, please confirm a few details so I can act safely and precisely:\n\n1. What exactly should be deleted?\n   - File paths, folder names, database/table names, cloud bucket, account, etc.\n2. Where is the data located?\n   - Local machine (OS), server, cloud provider (AWS/GCP/Azure), SaaS app (Dropbox, Google Drive), database type, etc.\n3. Scope and timing\n   - Single item or bulk? Immediate or scheduled? Any required maintenance window?\n4. Deletion type\n   - Soft delete (move to trash/retention) or permanent wipe (irreversible)?\n5. Backups & recovery\n   - Do you have a verified backup? Should I create one before deleting?\n6. Authorization & compliance\n   - Do you have authority to delete this data? Any legal/retention policies to consider?\n7. Anything else to preserve (logs, metadata, related records)?\n\nRecommended precautions (strongly consider):\n- Create and verify a backup before deletion.\n- If possible, perform a test deletion on a small sample first.\n- Use a retention period or soft-delete if recovery may be needed.\n\nHow to approve\n- Reply with an explicit confirmation that includes the data description, e.g.:\n  \"I approve deletion of [exact data description] and confirm I have backups and authority.\"\n- Or reply with: \"CONFIRM DELETE [data description]\" to proceed.\n\nI will wait for your detailed info and explicit approval before taking any action. Do you want to provide the details now and approve deletion?"
+  },
+  "events": {
+    "total_events": 338,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

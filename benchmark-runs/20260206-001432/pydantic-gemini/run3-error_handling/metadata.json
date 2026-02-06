@@ -1,0 +1,33 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1288.6681619565934,
+    "time_to_first_event_ms": 271.1189129622653,
+    "time_to_first_content_ms": 1288.6974069988355,
+    "time_to_complete_ms": 1288.6681619565934
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 104,
+    "tokens_approx": 26,
+    "final_text": "I cannot use a tool that does not exist. I can tell you the current time or do a basic math calculation."
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

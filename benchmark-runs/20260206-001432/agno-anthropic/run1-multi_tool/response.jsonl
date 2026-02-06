@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a4e88ed3-545b-40fc-86a0-12b68cbfb6a3", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "a4e88ed3-545b-40fc-86a0-12b68cbfb6a3"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01T19poo6iiRqDd6N4Ue24f4", "toolCallName": "get_current_time", "parentMessageId": "a4e88ed3-545b-40fc-86a0-12b68cbfb6a3"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01T19poo6iiRqDd6N4Ue24f4", "delta": "{}"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01UGdrn8ZTrpNALEzd9bcLTz", "toolCallName": "calculator", "parentMessageId": "a4e88ed3-545b-40fc-86a0-12b68cbfb6a3"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01UGdrn8ZTrpNALEzd9bcLTz", "delta": "{\"expression\": \"10 + 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01T19poo6iiRqDd6N4Ue24f4"}
+{"type": "TOOL_CALL_RESULT", "messageId": "158d778c-1c12-4404-993e-d0604f8456c0", "toolCallId": "toolu_01T19poo6iiRqDd6N4Ue24f4", "content": "2026-02-06 00:14:33", "role": "tool"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01UGdrn8ZTrpNALEzd9bcLTz"}
+{"type": "TOOL_CALL_RESULT", "messageId": "6fc51d8d-7986-4aff-86a2-45353fc06679", "toolCallId": "toolu_01UGdrn8ZTrpNALEzd9bcLTz", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": "The current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": " time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": "2026-02-06 00"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": ":14:33**,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": " and 10 + 20 "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": "= **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34", "delta": "30**."}
+{"type": "TEXT_MESSAGE_END", "messageId": "e39d8357-857a-4bb9-b22d-c9595fa16d34"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool"}

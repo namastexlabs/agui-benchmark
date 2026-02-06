@@ -1,0 +1,38 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11681.789889931679,
+    "time_to_first_event_ms": 680.1375709474087,
+    "time_to_first_content_ms": 11687.291349982843,
+    "time_to_complete_ms": 11681.789889931679
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2236,
+    "tokens_approx": 559,
+    "final_text": "Understood \u2014 I will not proceed until you give explicit approval.\n\nBefore I prepare deletion steps, please tell me:\n1. Exactly what you want deleted (file paths, database/tables, account names, buckets, etc.).  \n2. Where it\u2019s stored (local OS and machine, cloud provider and region, service name).  \n3. Whether deletion should be permanent (irreversible) or moved to trash/retention for recovery.  \n4. Do you have backups or want instructions to create one first?  \n5. Preferred method (GUI, command line, SQL statements, cloud console, API).  \n6. Any time constraints or compliance/legal requirements I should know about.\n\nSafety step: I will only provide the deletion commands or steps after you give an explicit confirmation phrase. If you want permanent deletion, reply with the exact confirmation phrase:\nI approve permanent deletion of: [brief description]\n\nExample final confirmation you would send:\nI approve permanent deletion of: \"folder /home/me/old_project on Ubuntu 22.04\"\n\nIf you prefer a different confirmation phrase (or a dry-run first), tell me which and I\u2019ll follow that. What are the details above?Understood \u2014 I will not proceed until you give explicit approval.\n\nBefore I prepare deletion steps, please tell me:\n1. Exactly what you want deleted (file paths, database/tables, account names, buckets, etc.).  \n2. Where it\u2019s stored (local OS and machine, cloud provider and region, service name).  \n3. Whether deletion should be permanent (irreversible) or moved to trash/retention for recovery.  \n4. Do you have backups or want instructions to create one first?  \n5. Preferred method (GUI, command line, SQL statements, cloud console, API).  \n6. Any time constraints or compliance/legal requirements I should know about.\n\nSafety step: I will only provide the deletion commands or steps after you give an explicit confirmation phrase. If you want permanent deletion, reply with the exact confirmation phrase:\nI approve permanent deletion of: [brief description]\n\nExample final confirmation you would send:\nI approve permanent deletion of: \"folder /home/me/old_project on Ubuntu 22.04\"\n\nIf you prefer a different confirmation phrase (or a dry-run first), tell me which and I\u2019ll follow that. What are the details above?"
+  },
+  "events": {
+    "total_events": 497,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

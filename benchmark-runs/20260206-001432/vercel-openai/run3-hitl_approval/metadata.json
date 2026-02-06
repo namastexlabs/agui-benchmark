@@ -1,0 +1,33 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10512.583391042426,
+    "time_to_first_event_ms": 1395.006214035675,
+    "time_to_first_content_ms": 10513.073637965135,
+    "time_to_complete_ms": 10512.583391042426
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1133,
+    "tokens_approx": 283,
+    "final_text": "I can do that \u2014 I will not delete anything until you explicitly approve. Before I proceed, please provide these details:\n\n1. What exactly should be deleted? (files, folders, database rows/tables, user accounts, cloud buckets, etc.)  \n2. Where is it located? (paths, server name/IP, DB name, cloud service and region)  \n3. Scope and count \u2014 single item, a folder, entire dataset, number of records, approximate size.  \n4. Do you have a current backup or snapshot? If not, do you want me to create one or give backup steps?  \n5. Are there any dependencies or users affected? Is downtime acceptable?  \n6. Desired timing (now, scheduled window) and whether this is irreversible.  \n7. Confirm you are authorized to request this deletion.\n\nWhen you\u2019re ready, please give explicit approval by replying with this exact confirmation phrase (case-sensitive):\n\nCONFIRM DELETE \u2014 proceed with the items I listed above\n\nOnce I receive that exact phrase and the details above, I\u2019ll (a) show a final summary of what will be deleted and any recovery options, and (b) provide the exact deletion steps/commands or proceed if you ask me to perform them."
+  },
+  "events": {
+    "total_events": 254,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

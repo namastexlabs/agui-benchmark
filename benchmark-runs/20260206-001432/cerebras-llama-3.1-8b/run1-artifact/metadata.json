@@ -1,0 +1,33 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4864.7886289982125,
+    "time_to_first_event_ms": 4372.3061960190535,
+    "time_to_first_content_ms": 4864.838383975439,
+    "time_to_complete_ms": 4864.7886289982125
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 625,
+    "tokens_approx": 156,
+    "final_text": "**Adding Two Numbers in Python**\n\nHere's a simple Python function that adds two numbers:\n\n```python\ndef add_numbers(a, b):\n    \"\"\"\n    Adds two numbers together.\n\n    Args:\n        a (float): The first number to add.\n        b (float): The second number to add.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\n**Example Use Case:**\n\n```python\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12\n```\n\nThis function takes two arguments `a` and `b`, which can be any type of number. It returns their sum, which is also a number. You can call this function with any two numbers to get their sum."
+  },
+  "events": {
+    "total_events": 18,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

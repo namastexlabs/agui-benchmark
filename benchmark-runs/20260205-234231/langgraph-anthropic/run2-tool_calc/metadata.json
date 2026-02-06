@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1924.0157559979707,
+    "time_to_first_event_ms": 398.90689100138843,
+    "time_to_first_content_ms": 1924.8386269900948,
+    "time_to_complete_ms": 1924.0157559979707
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0018760329112410545
+  },
+  "response": {
+    "chars": 66,
+    "tokens_approx": 16,
+    "final_text": "The result of 42 * 17 is **714**.The result of 42 * 17 is **714**."
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

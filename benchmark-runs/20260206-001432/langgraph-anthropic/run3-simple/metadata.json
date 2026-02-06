@@ -1,0 +1,37 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1725.7785300025716,
+    "time_to_first_event_ms": 315.30888797715306,
+    "time_to_first_content_ms": 1727.0455079851672,
+    "time_to_complete_ms": 1725.7785300025716
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 462,
+    "tokens_approx": 115,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time and perform basic math calculations to help you out. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time and perform basic math calculations to help you out. Feel free to ask me anything!"
+  },
+  "events": {
+    "total_events": 54,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

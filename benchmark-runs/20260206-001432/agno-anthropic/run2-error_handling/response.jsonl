@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": "'t have access to a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " tool called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " tools available to me are:\n\n1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": ". **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " **calculator** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " expressions\n\nWoul"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": "d you like me to help"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " you with something using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " of these available"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c", "delta": " tools instead?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "2be6fea8-9c61-42f2-b968-5dcfdef1353c"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}
