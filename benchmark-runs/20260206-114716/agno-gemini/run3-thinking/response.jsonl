@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 27112.66196726, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "2ba4380a-006e-437c-9465-15a7ea78fec7", "role": "assistant", "_timestamp": 27112.66296726, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "2ba4380a-006e-437c-9465-15a7ea78fec7", "_timestamp": 27112.66396726, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "f4b2b2f2-1212-4b74-b8d0-9863fbc1e600", "toolCallName": "calculator", "parentMessageId": "2ba4380a-006e-437c-9465-15a7ea78fec7", "_timestamp": 27112.66496726, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "f4b2b2f2-1212-4b74-b8d0-9863fbc1e600", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 27112.66596726, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "f4b2b2f2-1212-4b74-b8d0-9863fbc1e600", "_timestamp": 27112.66696726, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "dc929a0b-8401-474e-89ad-c48dd3a0b0b3", "toolCallId": "f4b2b2f2-1212-4b74-b8d0-9863fbc1e600", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 27112.66796726, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "f309b149-2753-4183-949d-99897bf1f8e1", "role": "assistant", "_timestamp": 27112.66896726, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f309b149-2753-4183-949d-99897bf1f8e1", "delta": "To find x, we need to subtract 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7", "_timestamp": 27112.66996726, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "f309b149-2753-4183-949d-99897bf1f8e1", "_timestamp": 27112.670967259997, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking", "_timestamp": 27112.671967259997, "_offset_ms": 10.0, "_index": 10}

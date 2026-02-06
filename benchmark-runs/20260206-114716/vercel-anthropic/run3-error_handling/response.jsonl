@@ -1,0 +1,29 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-error_handling", "_timestamp": 27112.68165943, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770389364775", "role": "assistant", "_timestamp": 27112.68265943, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "I don", "_timestamp": 27112.68365943, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "'t have access to a tool", "_timestamp": 27112.68465943, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " called ", "_timestamp": 27112.68565943, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "'nonexistent_tool'. The", "_timestamp": 27112.68665943, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " tools available to me are:\n\n1", "_timestamp": 27112.68765943, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": ". **", "_timestamp": 27112.68865943, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "get_current_time** - Get", "_timestamp": 27112.68965943, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " the current date and time\n2.", "_timestamp": 27112.690659429998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " **calculator** - Evaluate mathematical", "_timestamp": 27112.69165943, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " expressions\n\nIs", "_timestamp": 27112.69265943, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " there something I", "_timestamp": 27112.69365943, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " can help you with using", "_timestamp": 27112.69465943, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " one", "_timestamp": 27112.69565943, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " of these tools?", "_timestamp": 27112.69665943, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " For example, I can", "_timestamp": 27112.69765943, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": ":\n- Tell", "_timestamp": 27112.69865943, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " you what", "_timestamp": 27112.69965943, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " time it is right", "_timestamp": 27112.70065943, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " now\n- Calculate math", "_timestamp": 27112.70165943, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " problems", "_timestamp": 27112.70265943, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " for", "_timestamp": 27112.70365943, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " you", "_timestamp": 27112.70465943, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "\n\nLet", "_timestamp": 27112.70565943, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": " me know what you'd like to ", "_timestamp": 27112.70665943, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364775", "delta": "do!", "_timestamp": 27112.70765943, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770389364775", "_timestamp": 27112.708659429998, "_offset_ms": 27.0, "_index": 27}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-error_handling", "_timestamp": 27112.70965943, "_offset_ms": 28.0, "_index": 28}

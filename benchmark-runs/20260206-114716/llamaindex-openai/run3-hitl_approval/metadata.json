@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 17134.046245002537,
+    "time_to_first_event_ms": 658.4323770002811,
+    "time_to_first_content_ms": 17134.664897999755,
+    "time_to_complete_ms": 17134.046245002537
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 832,
+    "tokens_approx": 208,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, please provide these details and then give a clear, explicit confirmation:\n\n1. What exactly should be deleted? (file names, folders, databases, or descriptions)\n2. Where is the data located? (device, server, cloud provider, account/email, path)\n3. Why are you deleting it and how urgent is this?\n4. Do you have a backup or do you want me to advise on creating one first?\n5. Do you have authorization to delete this data? (Who else needs to approve, if anyone)\n\nWhen you\u2019re ready, confirm with an explicit approval message that includes the deletion target, for example:\n\"I confirm: delete [exact data description] from [location]. I am authorized.\"\n\nI will wait for that exact approval before taking any action or giving deletion instructions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 180,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

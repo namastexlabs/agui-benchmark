@@ -1,0 +1,50 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11072.88280099965,
+    "time_to_first_event_ms": 11072.457509999367,
+    "time_to_first_content_ms": 11072.956186999363,
+    "time_to_complete_ms": 11072.88280099965
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 454,
+    "tokens_approx": 113,
+    "final_text": "```python\ndef add_two_numbers(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: The first number\n        b: The second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add_two_numbers(5, 3)\nprint(result)  # Output: 8\n```\n\nThis is a simple function that takes two parameters and returns their sum. You can call it with any two numbers and it will add them together!"
+  },
+  "tokens": {
+    "input_tokens": 681,
+    "output_tokens": 135,
+    "total_tokens": 816
+  },
+  "events": {
+    "total_events": 29,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 454,
+    "total_chunks": 24,
+    "duration_ms": 23.0,
+    "throughput_chars_per_sec": 19739.130434782608,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

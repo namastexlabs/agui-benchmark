@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time", "_timestamp": 27052.374284438, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_017m2ATpgGfeFYkjxNNGTW3t", "toolCallName": "get_current_time", "parentMessageId": "50ae32e8-8566-4eeb-8ce9-50a38cb3ba9d", "_timestamp": 27052.375284438, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_017m2ATpgGfeFYkjxNNGTW3t", "delta": "", "_timestamp": 27052.376284438, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_017m2ATpgGfeFYkjxNNGTW3t", "_timestamp": 27052.377284438, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "messageId": "4293d418-8568-477d-88e6-356169cb42b3", "toolCallId": "toolu_017m2ATpgGfeFYkjxNNGTW3t", "content": "2026-02-06 11:48:20", "role": "tool", "_timestamp": 27052.378284438, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "role": "assistant", "_timestamp": 27052.379284438, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "delta": "The current time is **", "_timestamp": 27052.380284438, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "delta": "February", "_timestamp": 27052.381284438, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "delta": " 6, 2026 at", "_timestamp": 27052.382284438, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "delta": " 11:48:20 ", "_timestamp": 27052.383284437998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "delta": "AM**.", "_timestamp": 27052.384284437998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "823d6083-4b9f-49c9-8221-3f4dfd089b14", "_timestamp": 27052.385284437998, "_offset_ms": 11.0, "_index": 11}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time", "_timestamp": 27052.386284438, "_offset_ms": 12.0, "_index": 12}

@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2775.126791999355,
+    "time_to_first_event_ms": 1511.508393999975,
+    "time_to_first_content_ms": 2775.388672002009,
+    "time_to_complete_ms": 2775.126791999355
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 99,
+    "tokens_approx": 24,
+    "final_text": "Hello! I'm a helpful assistant powered by the LangGraph framework. I can tell you the current time,"
+  },
+  "tokens": {
+    "input_tokens": 238,
+    "output_tokens": 19,
+    "total_tokens": 242
+  },
+  "events": {
+    "total_events": 25,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 99,
+    "total_chunks": 2,
+    "duration_ms": 2.0,
+    "throughput_chars_per_sec": 49500.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

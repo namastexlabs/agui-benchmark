@@ -1,0 +1,24 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 27052.442584113, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "role": "assistant", "_timestamp": 27052.443584113, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": "Hello! I'm Claude, an AI", "_timestamp": 27052.444584113, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " assistant here", "_timestamp": 27052.445584113, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " to help you with a", "_timestamp": 27052.446584113, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " variety of tasks. I can", "_timestamp": 27052.447584113, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " tell", "_timestamp": 27052.448584113, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " you the", "_timestamp": 27052.449584113, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " current time,", "_timestamp": 27052.450584113, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " perform", "_timestamp": 27052.451584112998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " mathematical", "_timestamp": 27052.452584112998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " calculations, and have", "_timestamp": 27052.453584113, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " conversations to", "_timestamp": 27052.454584113, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " help answer", "_timestamp": 27052.455584113, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " your", "_timestamp": 27052.456584113, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " questions or", "_timestamp": 27052.457584113, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " assist", "_timestamp": 27052.458584113, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " with whatever", "_timestamp": 27052.459584113, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " you need.", "_timestamp": 27052.460584113, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " Feel", "_timestamp": 27052.461584113, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "delta": " free to ask me anything!", "_timestamp": 27052.462584113, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_END", "message_id": "88be2428-2d75-4a5e-b82a-5e73edefdcf2", "_timestamp": 27052.463584113, "_offset_ms": 21.0, "_index": 21}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 56, "total_tokens": 736, "model": "claude-haiku-4-5-20251001", "_timestamp": 27052.464584113, "_offset_ms": 22.0, "_index": 22}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 27052.465584113, "_offset_ms": 23.0, "_index": 23}

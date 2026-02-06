@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4673.974124001688,
+    "time_to_first_event_ms": 4206.43659200141,
+    "time_to_first_content_ms": 4674.009884001862,
+    "time_to_complete_ms": 4673.974124001688
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 232,
+    "tokens_approx": 58,
+    "final_text": "Hello, my name is AI Assistant, but you can call me Ava. I'm a conversational AI designed to provide information and answer questions to the best of my abilities. I'm here to help and learn with you, so feel free to ask me anything."
+  },
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 54,
+    "total_tokens": 102
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 232,
+    "total_chunks": 6,
+    "duration_ms": 5.0,
+    "throughput_chars_per_sec": 46400.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10448.992901001475,
+    "time_to_first_event_ms": 608.9073379989713,
+    "time_to_first_content_ms": 10449.707757001306,
+    "time_to_complete_ms": 10448.992901001475
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 694,
+    "tokens_approx": 173,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, please provide these details and then give a clear approval command:\n\n1. What exactly is the data to delete? (files, database rows, account, etc.)  \n2. Where is it located? (device, cloud provider, path, database name/table)  \n3. Do you have a backup or snapshot? If not, do you want help making one?  \n4. Do you want permanent deletion (irreversible) or a soft/trash-style delete?  \n5. Any time constraint or other conditions?\n\nWhen you\u2019re ready, confirm with an explicit approval phrase such as: I APPROVE \u2014 DELETE NOW\n\nI will wait for those details and your exact approval phrase before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 160,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

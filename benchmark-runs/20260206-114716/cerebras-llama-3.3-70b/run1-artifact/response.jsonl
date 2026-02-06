@@ -1,0 +1,20 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "model": "llama-3.3-70b", "_timestamp": 26993.685916006, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770389237", "role": "assistant", "_timestamp": 26993.686916006, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": "```", "_timestamp": 26993.687916006, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": "python\ndef add_numbers(a, b", "_timestamp": 26993.688916006, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": "):\n    \"\"\"\n    Returns the sum of two numbers.\n\n   ", "_timestamp": 26993.689916006002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " Args:\n        a (int or float", "_timestamp": 26993.690916006002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": "):", "_timestamp": 26993.691916006002, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " The", "_timestamp": 26993.692916006003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " first", "_timestamp": 26993.693916006003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " number", "_timestamp": 26993.694916006, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": ".\n", "_timestamp": 26993.695916006, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": "        b (int or", "_timestamp": 26993.696916006, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " float): The second number", "_timestamp": 26993.697916006, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": ".\n\n    Returns:\n        int or float: The sum of a and b", "_timestamp": 26993.698916006, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": ".\n    \"\"\"\n    return a + b\n\n# Example usage:\nif __name__ == \"__main__\":\n    num1 = 5\n    num2 = 7\n    result = add_numbers(num1", "_timestamp": 26993.699916006, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": ", num2)\n    print(f\"The sum of {num1} and", "_timestamp": 26993.700916006, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389237", "delta": " {num2} is {result}\")\n```", "_timestamp": 26993.701916006, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770389237", "_timestamp": 26993.702916006, "_offset_ms": 17.0, "_index": 17}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 126, "total_tokens": 176, "model": "llama-3.3-70b", "_timestamp": 26993.703916006, "_offset_ms": 18.0, "_index": 18}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "_timestamp": 26993.704916006, "_offset_ms": 19.0, "_index": 19}

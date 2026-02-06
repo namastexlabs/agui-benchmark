@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15587.121569998999,
+    "time_to_first_event_ms": 729.3297039977915,
+    "time_to_first_content_ms": 15612.285211998824,
+    "time_to_complete_ms": 15587.121569998999
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1034,
+    "tokens_approx": 258,
+    "final_text": "I will not delete anything until you explicitly approve. Please confirm these three things before I proceed:\n\n1. Describe exactly what data you want deleted (files, folders, databases, paths, account, etc.).  \n2. Confirm you have a backup or accept that deletion may be irreversible.  \n3. Give explicit approval by replying with this exact phrase (replace the bracketed text):  \n   I approve deletion of [exact description of the data to be deleted].\n\nI will wait for that exact confirmation before taking any action.I will not delete anything until you explicitly approve. Please confirm these three things before I proceed:\n\n1. Describe exactly what data you want deleted (files, folders, databases, paths, account, etc.).  \n2. Confirm you have a backup or accept that deletion may be irreversible.  \n3. Give explicit approval by replying with this exact phrase (replace the bracketed text):  \n   I approve deletion of [exact description of the data to be deleted].\n\nI will wait for that exact confirmation before taking any action."
+  },
+  "tokens": {
+    "input_tokens": 359,
+    "output_tokens": 433,
+    "total_tokens": 792
+  },
+  "events": {
+    "total_events": 306,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 517,
+    "total_chunks": 104,
+    "duration_ms": 207.0,
+    "throughput_chars_per_sec": 2497.584541062802,
+    "avg_gap_ms": 2.0097087378640777,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9803.375186002086,
+    "time_to_first_event_ms": 789.3159680024837,
+    "time_to_first_content_ms": 9805.408004001947,
+    "time_to_complete_ms": 9803.375186002086
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 92,
+    "tokens_approx": 23,
+    "final_text": "Current time: 2026-02-06 11:49:31\n10 + 20 = 30Current time: 2026-02-06 11:49:31\n10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 360,
+    "output_tokens": 310,
+    "total_tokens": 586
+  },
+  "events": {
+    "total_events": 116,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 46,
+    "total_chunks": 24,
+    "duration_ms": 46.0,
+    "throughput_chars_per_sec": 1000.0,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time", "_timestamp": 27052.443934868, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01Vb9WfMFPbh9cTtzwWxRc3G", "toolCallName": "get_current_time", "_timestamp": 27052.444934868, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Vb9WfMFPbh9cTtzwWxRc3G", "delta": "", "_timestamp": 27052.445934868, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01Vb9WfMFPbh9cTtzwWxRc3G", "_timestamp": 27052.446934868, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01Vb9WfMFPbh9cTtzwWxRc3G", "result": "2026-02-06 11:48:23", "_timestamp": 27052.447934868, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "role": "assistant", "_timestamp": 27052.448934868, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": "The current time is **", "_timestamp": 27052.449934868, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": "11", "_timestamp": 27052.450934868, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": ":48:23 ", "_timestamp": 27052.451934868, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": "AM", "_timestamp": 27052.452934867997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": " on", "_timestamp": 27052.453934867997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": " February 6, 2026**", "_timestamp": 27052.454934867998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": " (UTC", "_timestamp": 27052.455934867998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "delta": ").", "_timestamp": 27052.456934867998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_END", "message_id": "2cc2e76b-c440-47f8-8484-254e3e602ff1", "_timestamp": 27052.457934867998, "_offset_ms": 14.0, "_index": 14}
+{"type": "USAGE_METADATA", "input_tokens": 679, "output_tokens": 39, "total_tokens": 718, "model": "claude-haiku-4-5-20251001", "_timestamp": 27052.458934868, "_offset_ms": 15.0, "_index": 15}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time", "_timestamp": 27052.459934868, "_offset_ms": 16.0, "_index": 16}

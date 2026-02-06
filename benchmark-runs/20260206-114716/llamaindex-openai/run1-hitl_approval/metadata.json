@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12754.46174100216,
+    "time_to_first_event_ms": 2769.399566001084,
+    "time_to_first_content_ms": 12754.799311998795,
+    "time_to_complete_ms": 12754.46174100216
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 607,
+    "tokens_approx": 151,
+    "final_text": "I will not delete anything until you explicitly approve. Before we proceed, please tell me:\n\n1. Exactly which data you want deleted (files, database rows, account, etc.) and where it is located.\n2. Whether you want a backup made first (strongly recommended).\n3. Any time window or constraints (when to delete).\n4. The exact confirmation phrase you want me to require (suggestion: type DELETE or I CONFIRM DELETE).\n\nIf you\u2019re fine with my suggested confirmation, reply with the single line:\nDELETE\n\nOnce you provide the data details and reply with the confirmation phrase, I will proceed with the next steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 133,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

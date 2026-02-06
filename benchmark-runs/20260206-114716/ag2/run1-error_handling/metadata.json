@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11158.138883001811,
+    "time_to_first_event_ms": 261.16953100063256,
+    "time_to_first_content_ms": 11158.174074000272,
+    "time_to_complete_ms": 11158.138883001811
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1400,
+    "tokens_approx": 350,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool\", so I can\u2019t call it directly. I can, however, help in one of these ways \u2014 tell me which you want:\n\n1. Describe what you want the tool to do, and I\u2019ll:\n   - perform the action myself if it\u2019s within my capabilities, or\n   - simulate the tool\u2019s output for testing or demonstration.\n\n2. If you want a real tool, I can:\n   - provide code (Python/JS/etc.) that implements the tool,\n   - show how to wrap it as a CLI or API, and\n   - give instructions to integrate it with your environment.\n\n3. If you expected me to call an external tool, tell me how that tool is invoked (API endpoint, CLI command, or library) and I\u2019ll show the exact call/example and how to handle its output.\n\nQuick example \u2014 if \u201cnonexistent_tool\u201d should accept text and return sentiment, here\u2019s a minimal Python implementation you can run locally:\n\n# Python example (sentiment)\ndef nonexistent_tool(text):\n    # simple rule-based sentiment\n    positive = sum(word in text.lower() for word in [\"good\",\"great\",\"happy\",\"love\",\"excellent\"])\n    negative = sum(word in text.lower() for word in [\"bad\",\"sad\",\"terrible\",\"hate\",\"awful\"])\n    return \"positive\" if positive > negative else \"negative\" if negative > positive else \"neutral\"\n\nprint(nonexistent_tool(\"I love this product, it is excellent!\"))\n\nTell me which option you prefer or describe the task you want done and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

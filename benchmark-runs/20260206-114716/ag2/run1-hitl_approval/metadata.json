@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15550.611792001291,
+    "time_to_first_event_ms": 245.71567100065295,
+    "time_to_first_content_ms": 15550.641588000872,
+    "time_to_complete_ms": 15550.611792001291
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 973,
+    "tokens_approx": 243,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything.\n\nFirst a few quick clarifying points (I cannot delete files myself; I can only give you precise instructions or commands to run):\n\n1) What exactly do you want to delete? (file paths, folder, database table(s), cloud bucket, device, etc.)  \n2) Which environment? (Windows, macOS, Linux, AWS S3, Azure Blob, MySQL/Postgres, etc.)  \n3) Should deletion be reversible (move to Trash/Recycle Bin) or permanent/secure (shredding, overwrite, irreversible)?  \n4) Do you have backups and the authority to delete this data? Any dependencies or services that will be affected?\n\nIf you\u2019re sure and have the authority, type the exact confirmation below (replace the bracketed text):\n\nI APPROVE PERMANENT DELETE of [describe data and environment]\n\nI will not provide deletion commands or steps until you send that exact confirmation line. If you prefer reversible deletion or want a backup checklist first, say so."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

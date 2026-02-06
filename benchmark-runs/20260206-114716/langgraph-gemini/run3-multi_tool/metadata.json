@@ -1,0 +1,49 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4831.000295002013,
+    "time_to_first_event_ms": 791.3697630028764,
+    "time_to_first_content_ms": 4831.867138000234,
+    "time_to_complete_ms": 4831.000295002013
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 32,
+    "tokens_approx": 8,
+    "final_text": "The current time is 2026-02-06 1"
+  },
+  "tokens": {
+    "input_tokens": 433,
+    "output_tokens": 64,
+    "total_tokens": 497
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": null
+}

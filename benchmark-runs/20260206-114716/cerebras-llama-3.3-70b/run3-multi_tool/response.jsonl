@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-multi_tool", "model": "llama-3.3-70b", "_timestamp": 27112.773592391, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770389367", "role": "assistant", "_timestamp": 27112.774592391, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": "The", "_timestamp": 27112.775592391, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": " current time is: 06 Feb ", "_timestamp": 27112.776592391, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": "2024 00:", "_timestamp": 27112.777592391, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": "00 (Please note", "_timestamp": 27112.778592391, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": " that I'm a large language model,", "_timestamp": 27112.779592391, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": " I don't have real-time access to the current time. The time I provided", "_timestamp": 27112.780592391002, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": " is an approximation.)\n\n", "_timestamp": 27112.781592391002, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": "Now, let's calculate 10 +", "_timestamp": 27112.782592391, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": " 20:\n10 + 20 = 30\n\nThe result is ", "_timestamp": 27112.783592391, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389367", "delta": "30.", "_timestamp": 27112.784592391, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770389367", "_timestamp": 27112.785592391, "_offset_ms": 12.0, "_index": 12}
+{"type": "USAGE_METADATA", "input_tokens": 49, "output_tokens": 72, "total_tokens": 121, "model": "llama-3.3-70b", "_timestamp": 27112.786592391, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-multi_tool", "_timestamp": 27112.787592391, "_offset_ms": 14.0, "_index": 14}

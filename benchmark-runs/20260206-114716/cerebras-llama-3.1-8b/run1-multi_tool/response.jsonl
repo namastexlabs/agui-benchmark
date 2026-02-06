@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b", "_timestamp": 26993.689602925, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770389241", "role": "assistant", "_timestamp": 26993.690602925, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "Here", "_timestamp": 26993.691602925, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "'s how you can do it in Python:\n\n```python\n#", "_timestamp": 26993.692602925, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " Get the current time\nfrom datetime import datetime\ncurrent", "_timestamp": 26993.693602925, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "_time = datetime.now().strftime(\"%H:%M:%", "_timestamp": 26993.694602925, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "S\")\nprint(f\"Current Time: {", "_timestamp": 26993.695602925, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "current_time}\")\n\n# Calculate 10 + 20\n", "_timestamp": 26993.696602925, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "result = 10 + 20\nprint(f", "_timestamp": 26993.697602925, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "\"10 + 20 = {result}\")\n``", "_timestamp": 26993.698602924997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "`\n\nWhen you run this code, it will print the current time", "_timestamp": 26993.699602924997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " and the result of the calculation `10 + 20", "_timestamp": 26993.700602924997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "`.", "_timestamp": 26993.701602924997, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770389241", "_timestamp": 26993.702602924997, "_offset_ms": 13.0, "_index": 13}
+{"type": "USAGE_METADATA", "input_tokens": 49, "output_tokens": 102, "total_tokens": 151, "model": "llama-3.1-8b", "_timestamp": 26993.703602924998, "_offset_ms": 14.0, "_index": 14}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "_timestamp": 26993.704602924998, "_offset_ms": 15.0, "_index": 15}

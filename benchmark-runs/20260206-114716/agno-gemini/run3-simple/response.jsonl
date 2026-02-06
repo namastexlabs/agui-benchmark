@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple", "_timestamp": 27112.661433842, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "4a8d1dbb-64e0-4072-9fad-bce6bf09f210", "role": "assistant", "_timestamp": 27112.662433842, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4a8d1dbb-64e0-4072-9fad-bce6bf09f210", "delta": "Hello! I'", "_timestamp": 27112.663433842, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4a8d1dbb-64e0-4072-9fad-bce6bf09f210", "delta": "m an Agno agent powered by Google's Gemini 2.0 Flash model", "_timestamp": 27112.664433842, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4a8d1dbb-64e0-4072-9fad-bce6bf09f210", "delta": ". I can help you with tasks like telling the current time, doing math calculations, and requesting approval for sensitive actions. I'm here to assist you, so feel free to ask me anything!", "_timestamp": 27112.665433842, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_END", "messageId": "4a8d1dbb-64e0-4072-9fad-bce6bf09f210", "_timestamp": 27112.666433842, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-simple", "_timestamp": 27112.667433842, "_offset_ms": 6.0, "_index": 6}

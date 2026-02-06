@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 27112.756317378, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "eb789786-8edd-487f-94c2-68ed04b50bdd", "role": "assistant", "_timestamp": 27112.757317378, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "eb789786-8edd-487f-94c2-68ed04b50bdd", "delta": "I cannot delete data. I am a large language model, not a data management tool. I can provide information and perform calculations, but I don", "_timestamp": 27112.758317378, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "eb789786-8edd-487f-94c2-68ed04b50bdd", "delta": "'t have access to your personal data or the ability to delete anything.", "_timestamp": 27112.759317378, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "message_id": "eb789786-8edd-487f-94c2-68ed04b50bdd", "_timestamp": 27112.760317378, "_offset_ms": 4.0, "_index": 4}
+{"type": "USAGE_METADATA", "input_tokens": 120, "output_tokens": 44, "total_tokens": 250, "model": "gemini-2.5-flash", "_timestamp": 27112.761317378, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 27112.762317378, "_offset_ms": 6.0, "_index": 6}

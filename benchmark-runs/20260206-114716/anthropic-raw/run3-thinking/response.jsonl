@@ -1,0 +1,60 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-thinking", "_timestamp": 27112.740636907, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "role": "assistant", "_timestamp": 27112.741636907, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "I'll", "_timestamp": 27112.742636907, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " solve this step-by-step for", "_timestamp": 27112.743636907002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " you.\n\n**", "_timestamp": 27112.744636907002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "Problem", "_timestamp": 27112.745636907002, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": ":**", "_timestamp": 27112.746636907003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " If", "_timestamp": 27112.747636907003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " x + 5 = 12", "_timestamp": 27112.748636907003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": ", what is x?\n\n**", "_timestamp": 27112.749636907, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "Reasoning", "_timestamp": 27112.750636907, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " Process:**\n\n1. **", "_timestamp": 27112.751636907, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "Start", "_timestamp": 27112.752636907, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " with the equation:** x + 5", "_timestamp": 27112.753636907, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " = 12\n\n2. **", "_timestamp": 27112.754636907, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "Isol", "_timestamp": 27112.755636907, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "ate x:** To", "_timestamp": 27112.756636907, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " get", "_timestamp": 27112.757636907, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " x by itself, I need to remove", "_timestamp": 27112.758636907, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " the +", "_timestamp": 27112.759636907, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "5 from", "_timestamp": 27112.760636907, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " the", "_timestamp": 27112.761636907002, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " left", "_timestamp": 27112.762636907002, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " side.", "_timestamp": 27112.763636907002, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " I", "_timestamp": 27112.764636907003, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " ", "_timestamp": 27112.765636907003, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "do this by subtracting 5 ", "_timestamp": 27112.766636907003, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "from both sides of", "_timestamp": 27112.767636907, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " the equation.", "_timestamp": 27112.768636907, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "\n   -", "_timestamp": 27112.769636907, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " x + 5 - 5", "_timestamp": 27112.770636907, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " = 12 - 5", "_timestamp": 27112.771636907, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "\n\n3. **Simplify:** ", "_timestamp": 27112.772636907, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "\n   - x =", "_timestamp": 27112.773636907, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " 12 - 5", "_timestamp": 27112.774636907, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "\n\n4. **Calculate", "_timestamp": 27112.775636907, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " the", "_timestamp": 27112.776636907, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " result:**", "_timestamp": 27112.777636907, "_offset_ms": 37.0, "_index": 37}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "toolCallName": "calculator", "_timestamp": 27112.778636907, "_offset_ms": 38.0, "_index": 38}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "delta": "", "_timestamp": 27112.779636907002, "_offset_ms": 39.0, "_index": 39}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "delta": "{\"expressio", "_timestamp": 27112.780636907002, "_offset_ms": 40.0, "_index": 40}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "delta": "n\": \"12 - 5\"}", "_timestamp": 27112.781636907002, "_offset_ms": 41.0, "_index": 41}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "_timestamp": 27112.782636907003, "_offset_ms": 42.0, "_index": 42}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01888thcpFwmFC1dz6K8WKLE", "result": "12 - 5 = 7", "_timestamp": 27112.783636907003, "_offset_ms": 43.0, "_index": 43}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "**", "_timestamp": 27112.784636907003, "_offset_ms": 44.0, "_index": 44}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "Answer: x = 7**", "_timestamp": 27112.785636907, "_offset_ms": 45.0, "_index": 45}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "\n\n**Check", "_timestamp": 27112.786636907, "_offset_ms": 46.0, "_index": 46}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": ":**", "_timestamp": 27112.787636907, "_offset_ms": 47.0, "_index": 47}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " To", "_timestamp": 27112.788636907, "_offset_ms": 48.0, "_index": 48}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " verify,", "_timestamp": 27112.789636907, "_offset_ms": 49.0, "_index": 49}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " substitute", "_timestamp": 27112.790636907, "_offset_ms": 50.0, "_index": 50}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " x = 7 back into the", "_timestamp": 27112.791636907, "_offset_ms": 51.0, "_index": 51}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " original equation:\n- ", "_timestamp": 27112.792636907, "_offset_ms": 52.0, "_index": 52}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "7 + 5 = ", "_timestamp": 27112.793636907, "_offset_ms": 53.0, "_index": 53}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": "12 \u2713", "_timestamp": 27112.794636907, "_offset_ms": 54.0, "_index": 54}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " (This is", "_timestamp": 27112.795636907, "_offset_ms": 55.0, "_index": 55}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "delta": " correct!)", "_timestamp": 27112.796636907, "_offset_ms": 56.0, "_index": 56}
+{"type": "TEXT_MESSAGE_END", "message_id": "92483fc2-470b-46cd-98ef-b4200bb88b9e", "_timestamp": 27112.797636907002, "_offset_ms": 57.0, "_index": 57}
+{"type": "USAGE_METADATA", "input_tokens": 692, "output_tokens": 201, "total_tokens": 893, "model": "claude-haiku-4-5-20251001", "_timestamp": 27112.798636907002, "_offset_ms": 58.0, "_index": 58}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-thinking", "_timestamp": 27112.799636907002, "_offset_ms": 59.0, "_index": 59}

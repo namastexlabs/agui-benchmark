@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5786.547072002577,
+    "time_to_first_event_ms": 5028.310952002357,
+    "time_to_first_content_ms": 5786.60543800288,
+    "time_to_complete_ms": 5786.547072002577
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 361,
+    "tokens_approx": 90,
+    "final_text": "Here's how you can do it in Python:\n\n```python\n# Get the current time\nfrom datetime import datetime\ncurrent_time = datetime.now().strftime(\"%H:%M:%S\")\nprint(f\"Current Time: {current_time}\")\n\n# Calculate 10 + 20\nresult = 10 + 20\nprint(f\"10 + 20 = {result}\")\n```\n\nWhen you run this code, it will print the current time and the result of the calculation `10 + 20`."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 102,
+    "total_tokens": 151
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 361,
+    "total_chunks": 11,
+    "duration_ms": 10.0,
+    "throughput_chars_per_sec": 36100.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

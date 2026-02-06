@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-artifact", "_timestamp": 27112.662074143, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "39c2e9fd-6ced-42e4-9765-9e9ffd083413", "role": "assistant", "_timestamp": 27112.663074143, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "39c2e9fd-6ced-42e4-9765-9e9ffd083413", "delta": "```python\ndef add_numbers(a, b):\n    return a + b\n```", "_timestamp": 27112.664074143002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "39c2e9fd-6ced-42e4-9765-9e9ffd083413", "_timestamp": 27112.665074143002, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-artifact", "_timestamp": 27112.666074143002, "_offset_ms": 4.0, "_index": 4}

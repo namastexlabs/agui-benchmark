@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 21189.004929001385,
+    "time_to_first_event_ms": 2576.452758999949,
+    "time_to_first_content_ms": 21189.03381600103,
+    "time_to_complete_ms": 21189.004929001385
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 174,
+    "tokens_approx": 43,
+    "final_text": "Today's date is 2026-02-06. I don't have access to a live clock in this interface \u2014 tell me your timezone (or say \u201cUTC\u201d) and I\u2019ll give the exact current time. \n\n10 + 20 = 30."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

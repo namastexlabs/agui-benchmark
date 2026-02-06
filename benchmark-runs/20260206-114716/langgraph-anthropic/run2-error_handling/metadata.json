@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2295.427226999891,
+    "time_to_first_event_ms": 728.3845429992652,
+    "time_to_first_content_ms": 2296.488412001054,
+    "time_to_complete_ms": 2295.427226999891
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 678,
+    "tokens_approx": 169,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n3. **request_approval** - Request human approval before proceeding with an action\n\nIs there something I can help you with using one of these available tools? For example, I can tell you the current time, perform calculations, or request approval for an action.I'd be happy to help, but I think there might be a misunderstanding! You're asking me to request approval, but actually, **you** need to approve this action since it's your important data.\n\nLet me request your approval:"
+  },
+  "tokens": {
+    "input_tokens": 798,
+    "output_tokens": 110,
+    "total_tokens": 908
+  },
+  "events": {
+    "total_events": 70,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 459,
+    "total_chunks": 25,
+    "duration_ms": 48.0,
+    "throughput_chars_per_sec": 9562.5,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

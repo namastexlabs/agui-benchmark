@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 49674.85023300105,
+    "time_to_first_event_ms": 49673.37889600094,
+    "time_to_first_content_ms": 49675.217353000335,
+    "time_to_complete_ms": 49674.85023300105
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 599,
+    "tokens_approx": 149,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available here. I can, however, use the tools that are available:\n\n- get_current_time \u2014 returns the current date/time.\n- calculator \u2014 evaluates math expressions (e.g., \"2+2\", \"sqrt(2)*5\").\n- multi_tool_use.parallel \u2014 run the above tools in parallel when appropriate.\n\nTell me what you want to accomplish and I\u2019ll pick the right available tool(s). Examples:\n- \"What time is it now?\" (I\u2019ll use get_current_time)\n- \"Calculate 12345 * 678\" (I\u2019ll use calculator)\n- \"Get the time and compute 2^50 in parallel.\"\n\nWhich would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 354,
+    "total_tokens": 560
+  },
+  "events": {
+    "total_events": 158,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 599,
+    "total_chunks": 153,
+    "duration_ms": 152.0,
+    "throughput_chars_per_sec": 3940.7894736842104,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,25 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 26993.681570682, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "role": "assistant", "_timestamp": 26993.682570682002, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": "Hello! I'm Claude, an AI", "_timestamp": 26993.683570682002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " assistant made", "_timestamp": 26993.684570682002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " by Anthropic. I'm here", "_timestamp": 26993.685570682002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " to help you", "_timestamp": 26993.686570682003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " with a", "_timestamp": 26993.687570682003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " variety", "_timestamp": 26993.688570682003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " of tasks, including", "_timestamp": 26993.689570682003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " answering questions, having", "_timestamp": 26993.690570682, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " conversations, an", "_timestamp": 26993.691570682, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": "d performing practical", "_timestamp": 26993.692570682, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " functions", "_timestamp": 26993.693570682, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " like telling", "_timestamp": 26993.694570682, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " you", "_timestamp": 26993.695570682, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " the current time or", "_timestamp": 26993.696570682, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " doing math", "_timestamp": 26993.697570682, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " calculations. Feel", "_timestamp": 26993.698570682, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " free to ask me anything\u2014", "_timestamp": 26993.699570682, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": "I", "_timestamp": 26993.700570682002, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": "'ll", "_timestamp": 26993.701570682002, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "delta": " do my best to help!", "_timestamp": 26993.702570682002, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_END", "message_id": "c8d65687-db84-48e0-bdb6-5b8622b5fc1d", "_timestamp": 26993.703570682002, "_offset_ms": 22.0, "_index": 22}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 68, "total_tokens": 748, "model": "claude-haiku-4-5-20251001", "_timestamp": 26993.704570682003, "_offset_ms": 23.0, "_index": 23}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-simple", "_timestamp": 26993.705570682003, "_offset_ms": 24.0, "_index": 24}

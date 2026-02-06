@@ -1,0 +1,34 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact", "_timestamp": 27052.366889916, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "role": "assistant", "_timestamp": 27052.367889916, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "Here", "_timestamp": 27052.368889916, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "'s a simple Python function that adds two", "_timestamp": 27052.369889916, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " numbers:\n\n```", "_timestamp": 27052.370889916, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "python\ndef add_numbers(a", "_timestamp": 27052.371889916, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": ", b):\n    \"\"\"\n    ", "_timestamp": 27052.372889916, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "Add two numbers an", "_timestamp": 27052.373889916, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "d return the result.", "_timestamp": 27052.374889916002, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "\n    \n    Args:\n        ", "_timestamp": 27052.375889916, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "a: The first number\n        b", "_timestamp": 27052.376889916, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": ": The second number\n    \n    ", "_timestamp": 27052.377889916, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "Returns:\n        The sum of a", "_timestamp": 27052.378889916, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " and b\n    \"\"\"\n    return", "_timestamp": 27052.379889916, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " a + b", "_timestamp": 27052.380889916, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "\n\n\n# Example usage:\nresult = ad", "_timestamp": 27052.381889916, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "d_numbers(5, 3)", "_timestamp": 27052.382889916, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "\nprint(result", "_timestamp": 27052.383889916, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": ")  # Output: 8", "_timestamp": 27052.384889916, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "\n```\n\nYou can use", "_timestamp": 27052.385889916, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " this function by calling `", "_timestamp": 27052.386889916, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": "add_numbers(x", "_timestamp": 27052.387889916, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": ", y)` where `x`", "_timestamp": 27052.388889916, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " and `y` are the", "_timestamp": 27052.389889916, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " numbers", "_timestamp": 27052.390889916, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " you want to add. It", "_timestamp": 27052.391889916, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " works", "_timestamp": 27052.392889916002, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " with integers", "_timestamp": 27052.393889916, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": ", floats, and other", "_timestamp": 27052.394889916, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " numeric types that", "_timestamp": 27052.395889916, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " support the", "_timestamp": 27052.396889916, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "delta": " `+` operator.", "_timestamp": 27052.397889916, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_END", "messageId": "d2d13959-641d-4e85-a186-bed84dbf976e", "_timestamp": 27052.398889916, "_offset_ms": 32.0, "_index": 32}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact", "_timestamp": 27052.399889916, "_offset_ms": 33.0, "_index": 33}

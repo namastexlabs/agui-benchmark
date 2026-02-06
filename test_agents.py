@@ -771,6 +771,12 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
             headers={"Accept": "text/event-stream"},
             timeout=120.0
         ) as response:
+            # Check HTTP status code
+            if response.status_code != 200:
+                metrics.error = f"HTTP {response.status_code}: {response.reason_phrase}"
+                metrics.total_time_ms = (time.perf_counter() - start_time) * 1000
+                return metrics
+
             full_text = ""
             async for chunk in response.aiter_text():
                 current_time = time.perf_counter()
@@ -903,7 +909,13 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
                 metrics.time_to_first_content_ms = (first_content_time - start_time) * 1000
             metrics.time_to_complete_ms = metrics.total_time_ms
 
-            metrics.success = True
+            # Validate we got meaningful events
+            if metrics.total_events == 0:
+                metrics.error = "No AG-UI events received"
+            elif not metrics.event_types or "RUN_STARTED" not in metrics.event_types:
+                metrics.error = "Missing required RUN_STARTED event"
+            else:
+                metrics.success = True
 
     except Exception as e:
         metrics.error = str(e)

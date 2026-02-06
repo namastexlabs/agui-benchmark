@@ -1,0 +1,56 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11974.335109000094,
+    "time_to_first_event_ms": 213.04142900044098,
+    "time_to_first_content_ms": 11974.384589000692,
+    "time_to_complete_ms": 11974.335109000094
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "aa3f11ea-ca68-4cd8-8cbf-47abd721e4da",
+        "name": "request_approval",
+        "start_ms": 3.0,
+        "end_ms": 5.0,
+        "result_ms": 6.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 58,
+    "tokens_approx": 14,
+    "final_text": "Your approval has been requested to delete important data."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": null
+}

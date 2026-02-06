@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5771.2790410005255,
+    "time_to_first_event_ms": 4976.020482001331,
+    "time_to_first_content_ms": 5771.355945998948,
+    "time_to_complete_ms": 5771.2790410005255
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 902,
+    "tokens_approx": 225,
+    "final_text": "**Simple Addition Function in Python**\n=====================================\n\nHere's a basic example of a function that adds two numbers in Python:\n\n```python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    This function adds two numbers together.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\n**Example Use Cases:**\n--------------------\n\n```python\n# Example 1: Adding two integers\nprint(add_numbers(5, 7))  # Output: 12\n\n# Example 2: Adding two floats\nprint(add_numbers(5.5, 7.2))  # Output: 12.7\n```\n\nYou can save this code in a Python file (e.g., `addition_function.py`) and run it using Python (e.g., `python addition_function.py`). The code is well-structured, readable, and includes a docstring that explains the function's purpose, input arguments, and return value."
+  },
+  "tokens": {
+    "input_tokens": 50,
+    "output_tokens": 228,
+    "total_tokens": 278
+  },
+  "events": {
+    "total_events": 27,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 902,
+    "total_chunks": 22,
+    "duration_ms": 21.0,
+    "throughput_chars_per_sec": 42952.38095238095,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

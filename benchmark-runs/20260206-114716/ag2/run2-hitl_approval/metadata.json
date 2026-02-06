@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15069.61474000127,
+    "time_to_first_event_ms": 2340.274733000115,
+    "time_to_first_content_ms": 15069.646755000576,
+    "time_to_complete_ms": 15069.61474000127
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 782,
+    "tokens_approx": 195,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and your clear confirmation.\n\nPlease tell me:\n1. Exactly what data you want deleted (files, folders, databases, email, which paths or service names).  \n2. Where it\u2019s stored (local machine, specific server, cloud provider and bucket/container, database name, etc.).  \n3. Whether you have a backup or want help creating one.  \n4. That you understand deletion may be irreversible.\n\nIf you\u2019re ready, confirm by typing a clear approval like:\n\"I approve deletion of [brief description of the data].\"\n\nOnce you provide the details and that explicit approval phrase, I\u2019ll proceed with instructions or actions (if I have the access) as you request. Do you want help making a backup first?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

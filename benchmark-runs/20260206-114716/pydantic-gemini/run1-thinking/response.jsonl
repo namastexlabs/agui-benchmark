@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 26993.664893937, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "7e68a2e3-9851-4d30-a3d4-ab9bc4c97e24", "role": "assistant", "_timestamp": 26993.665893937, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "7e68a2e3-9851-4d30-a3d4-ab9bc4c97e24", "delta": "To find x in the equation x + 5 = 12, you need to isolate x.\n1. Start with the equation: x + 5 = 12", "_timestamp": 26993.666893937, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "7e68a2e3-9851-4d30-a3d4-ab9bc4c97e24", "delta": "\n2. Subtract 5 from both sides of the equation:\n   x + 5 - 5 = 12 - 5\n3. This simplifies to:\n   x = 7\n\nSo, x is 7.\n\n", "_timestamp": 26993.667893937, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "7e68a2e3-9851-4d30-a3d4-ab9bc4c97e24", "_timestamp": 26993.668893937, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_356719b90e734ab4b73d6c4534b61830", "toolCallName": "calculator", "parentMessageId": "7e68a2e3-9851-4d30-a3d4-ab9bc4c97e24", "_timestamp": 26993.669893937, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_356719b90e734ab4b73d6c4534b61830", "delta": "{\"expression\":\"12 - 5\"}", "_timestamp": 26993.670893937, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_356719b90e734ab4b73d6c4534b61830", "_timestamp": 26993.671893937, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "messageId": "15ab9201-7dc4-44cb-9400-e556e52f69f8", "toolCallId": "pyd_ai_356719b90e734ab4b73d6c4534b61830", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 26993.672893937, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 26993.673893936997, "_offset_ms": 9.0, "_index": 9}

@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9424.833019998914,
+    "time_to_first_event_ms": 787.6227279994055,
+    "time_to_first_content_ms": 9428.979139000148,
+    "time_to_complete_ms": 9424.833019998914
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1274,
+    "tokens_approx": 318,
+    "final_text": "I can\u2019t access a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment.\n\nIf you tell me what you want to do, I can:\n- use the available tools (get_current_time, calculator, request_approval, or run multiple of those in parallel), or\n- perform the task directly myself if a tool isn\u2019t required.\n\nQuick examples \u2014 tell me which you want:\n- \u201cGet the current time\u201d \u2192 I\u2019ll call get_current_time.\n- \u201cCalculate 12345 * 678\u201d \u2192 I\u2019ll use the calculator.\n- \u201cRequest approval to delete X\u201d \u2192 I\u2019ll use request_approval.\n- \u201cRun time and a calculation in parallel\u201d \u2192 I\u2019ll use the parallel wrapper.\n\nWhat would you like me to do instead?I can\u2019t access a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment.\n\nIf you tell me what you want to do, I can:\n- use the available tools (get_current_time, calculator, request_approval, or run multiple of those in parallel), or\n- perform the task directly myself if a tool isn\u2019t required.\n\nQuick examples \u2014 tell me which you want:\n- \u201cGet the current time\u201d \u2192 I\u2019ll call get_current_time.\n- \u201cCalculate 12345 * 678\u201d \u2192 I\u2019ll use the calculator.\n- \u201cRequest approval to delete X\u201d \u2192 I\u2019ll use request_approval.\n- \u201cRun time and a calculation in parallel\u201d \u2192 I\u2019ll use the parallel wrapper.\n\nWhat would you like me to do instead?"
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 358,
+    "total_tokens": 631
+  },
+  "events": {
+    "total_events": 338,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 637,
+    "total_chunks": 157,
+    "duration_ms": 314.0,
+    "throughput_chars_per_sec": 2028.6624203821657,
+    "avg_gap_ms": 2.0128205128205128,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

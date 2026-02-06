@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 27112.662256306, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "51bfa6f7-2b42-4d52-9a41-58b72ea21ca4", "role": "assistant", "_timestamp": 27112.663256306, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "51bfa6f7-2b42-4d52-9a41-58b72ea21ca4", "delta": "I can't use a", "_timestamp": 27112.664256306, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "51bfa6f7-2b42-4d52-9a41-58b72ea21ca4", "delta": " tool called `nonexistent_tool` because it doesn't exist. I can only use the tools I have been provided with.", "_timestamp": 27112.665256306, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "messageId": "51bfa6f7-2b42-4d52-9a41-58b72ea21ca4", "_timestamp": 27112.666256306, "_offset_ms": 4.0, "_index": 4}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 27112.667256306002, "_offset_ms": 5.0, "_index": 5}

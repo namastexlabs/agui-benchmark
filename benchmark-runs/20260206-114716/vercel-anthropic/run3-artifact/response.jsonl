@@ -1,0 +1,38 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-artifact", "_timestamp": 27112.680585707, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770389364656", "role": "assistant", "_timestamp": 27112.681585707, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "Here's a simple Python function that adds", "_timestamp": 27112.682585707, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " two numbers:\n\n```python\ndef", "_timestamp": 27112.683585707, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " add_two", "_timestamp": 27112.684585707, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "_numbers(a, b):", "_timestamp": 27112.685585707, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n    \"\"\"", "_timestamp": 27112.686585707, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n    Add two numbers an", "_timestamp": 27112.687585707, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "d return the result.", "_timestamp": 27112.688585707, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n    \n    Args:\n        ", "_timestamp": 27112.689585706998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "a: The first number\n        b", "_timestamp": 27112.690585706998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": ": The second number\n    \n    ", "_timestamp": 27112.691585706998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "Returns:\n        The sum of a", "_timestamp": 27112.692585707, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " and b\n    \"\"\"\n    return", "_timestamp": 27112.693585707, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " a + b", "_timestamp": 27112.694585707, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n\n\n# Example usage:", "_timestamp": 27112.695585707, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\nresult = add_two_numbers", "_timestamp": 27112.696585707, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "(5, 3)\nprint", "_timestamp": 27112.697585707, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "(result", "_timestamp": 27112.698585707, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": ")  # Output: 8", "_timestamp": 27112.699585707, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n```\n\nThis function:\n- Takes", "_timestamp": 27112.700585707, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " two parameters `a` and `b", "_timestamp": 27112.701585707, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "`", "_timestamp": 27112.702585707, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "\n- Returns their sum\n-", "_timestamp": 27112.703585707, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " Includes", "_timestamp": 27112.704585707, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " a docstring explaining what it", "_timestamp": 27112.705585707, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " does\n- Works", "_timestamp": 27112.706585707, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " with integers", "_timestamp": 27112.707585706998, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": ", floats, and other", "_timestamp": 27112.708585706998, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " numeric", "_timestamp": 27112.709585706998, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " types\n\nYou", "_timestamp": 27112.710585707, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " can call", "_timestamp": 27112.711585707, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": " it like `", "_timestamp": 27112.712585707, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "add_two_numbers(10", "_timestamp": 27112.713585707, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": ", 20)` an", "_timestamp": 27112.714585707, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389364656", "delta": "d it will return `30`.", "_timestamp": 27112.715585707, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770389364656", "_timestamp": 27112.716585707, "_offset_ms": 36.0, "_index": 36}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-artifact", "_timestamp": 27112.717585707, "_offset_ms": 37.0, "_index": 37}

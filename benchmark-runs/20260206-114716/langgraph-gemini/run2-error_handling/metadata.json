@@ -1,0 +1,44 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1924.3589420002536,
+    "time_to_first_event_ms": 728.3946850002394,
+    "time_to_first_content_ms": 1925.1717730003293,
+    "time_to_complete_ms": 1924.3589420002536
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 16,
+    "tokens_approx": 4,
+    "final_text": "I cannot use the"
+  },
+  "tokens": {
+    "input_tokens": 237,
+    "output_tokens": 67,
+    "total_tokens": 304
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

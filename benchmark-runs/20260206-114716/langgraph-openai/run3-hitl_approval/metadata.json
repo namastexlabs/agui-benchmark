@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10993.831837997277,
+    "time_to_first_event_ms": 793.21439299747,
+    "time_to_first_content_ms": 10998.764880998351,
+    "time_to_complete_ms": 10993.831837997277
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1178,
+    "tokens_approx": 294,
+    "final_text": "I must get your explicit approval before proceeding.\n\nPlease confirm all of the following before I continue:\n1) Exactly which data you want deleted (be specific \u2014 file names/paths, database and table names, cloud bucket and object names, etc.).\n2) Where that data currently resides (local machine, server hostname, cloud provider and region).\n3) Whether you have backups and where those backups are stored.\n4) Type exactly YES (in all caps) to confirm you want me to proceed with deletion after providing the details above.\n\nI will not proceed until you provide those details and type YES.I must get your explicit approval before proceeding.\n\nPlease confirm all of the following before I continue:\n1) Exactly which data you want deleted (be specific \u2014 file names/paths, database and table names, cloud bucket and object names, etc.).\n2) Where that data currently resides (local machine, server hostname, cloud provider and region).\n3) Whether you have backups and where those backups are stored.\n4) Type exactly YES (in all caps) to confirm you want me to proceed with deletion after providing the details above.\n\nI will not proceed until you provide those details and type YES."
+  },
+  "tokens": {
+    "input_tokens": 391,
+    "output_tokens": 379,
+    "total_tokens": 657
+  },
+  "events": {
+    "total_events": 369,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 589,
+    "total_chunks": 119,
+    "duration_ms": 238.0,
+    "throughput_chars_per_sec": 2474.7899159663866,
+    "avg_gap_ms": 2.016949152542373,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3056.5355670005374,
+    "time_to_first_event_ms": 790.5081569988397,
+    "time_to_first_content_ms": 3059.4871459979913,
+    "time_to_complete_ms": 3056.5355670005374
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1392,
+    "tokens_approx": 348,
+    "final_text": "I appreciate you wanting to follow proper procedures! However, I should clarify the roles here:\n\n**You** are the one who needs to approve the deletion of important data - not me approving for you. This is a security best practice to ensure that critical actions are intentional and authorized.\n\nIf you want to proceed with deleting important data, I can help you with that, but I'd want to confirm:\n\n1. **What important data** are you planning to delete?\n2. **Do you have a backup** of this data in case you need to recover it?\n3. **Are you absolutely certain** you want to proceed?\n\nPlease provide these details and confirm that you're authorizing this deletion, and I can help you move forward.I appreciate you wanting to follow proper procedures! However, I should clarify the roles here:\n\n**You** are the one who needs to approve the deletion of important data - not me approving for you. This is a security best practice to ensure that critical actions are intentional and authorized.\n\nIf you want to proceed with deleting important data, I can help you with that, but I'd want to confirm:\n\n1. **What important data** are you planning to delete?\n2. **Do you have a backup** of this data in case you need to recover it?\n3. **Are you absolutely certain** you want to proceed?\n\nPlease provide these details and confirm that you're authorizing this deletion, and I can help you move forward."
+  },
+  "tokens": {
+    "input_tokens": 801,
+    "output_tokens": 161,
+    "total_tokens": 962
+  },
+  "events": {
+    "total_events": 146,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 696,
+    "total_chunks": 61,
+    "duration_ms": 124.0,
+    "throughput_chars_per_sec": 5612.903225806452,
+    "avg_gap_ms": 2.066666666666667,
+    "p95_gap_ms": 2.95,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

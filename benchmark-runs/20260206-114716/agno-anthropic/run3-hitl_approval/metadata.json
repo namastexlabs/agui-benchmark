@@ -1,0 +1,65 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3846.334703001048,
+    "time_to_first_event_ms": 246.28865200065775,
+    "time_to_first_content_ms": 3846.4094039991323,
+    "time_to_complete_ms": 3846.334703001048
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01Bbn7GGYaai52z8nkEkjLd7",
+        "name": "request_approval",
+        "start_ms": 9.0,
+        "end_ms": 11.0,
+        "result_ms": 12.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 184,
+    "tokens_approx": 46,
+    "final_text": "I'll request approval for this action before proceeding.I've requested approval for deleting important data. Please confirm that you want to proceed with this action before I continue."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 27,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 184,
+    "total_chunks": 17,
+    "duration_ms": 22.0,
+    "throughput_chars_per_sec": 8363.636363636364,
+    "avg_gap_ms": 1.375,
+    "p95_gap_ms": 7.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2852.4500579987944,
+    "time_to_first_event_ms": 731.6389699990395,
+    "time_to_first_content_ms": 2854.9663560006593,
+    "time_to_complete_ms": 2852.4500579987944
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 206,
+    "tokens_approx": 51,
+    "final_text": "Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 11:48:21\n- **Calculation:** 10 + 20 = 30Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 11:48:21\n- **Calculation:** 10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 960,
+    "output_tokens": 77,
+    "total_tokens": 1005
+  },
+  "events": {
+    "total_events": 79,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 103,
+    "total_chunks": 8,
+    "duration_ms": 14.0,
+    "throughput_chars_per_sec": 7357.142857142857,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

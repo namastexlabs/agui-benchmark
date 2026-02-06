@@ -1,0 +1,40 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact", "_timestamp": 27112.660136107, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "role": "assistant", "_timestamp": 27112.661136107, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "Here", "_timestamp": 27112.662136107, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "'s a simple Python function that adds two", "_timestamp": 27112.663136107, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " numbers:\n\n```", "_timestamp": 27112.664136107, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "python\ndef add_numbers(a", "_timestamp": 27112.665136107, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": ", b):\n    \"\"\"\n    ", "_timestamp": 27112.666136107, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "Add two numbers an", "_timestamp": 27112.667136107, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "d return the result.", "_timestamp": 27112.668136107, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "\n    \n    Args:\n        ", "_timestamp": 27112.669136106997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "a: The first number\n        b", "_timestamp": 27112.670136106997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": ": The second number\n    \n    ", "_timestamp": 27112.671136106997, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "Returns:\n        The sum of a", "_timestamp": 27112.672136106998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " and b\n    \"\"\"\n    return", "_timestamp": 27112.673136106998, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " a + b", "_timestamp": 27112.674136106998, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "\n\n\n# Example usage:\nresult = ad", "_timestamp": 27112.675136107, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "d_numbers(5, 3)", "_timestamp": 27112.676136107, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "\nprint(result", "_timestamp": 27112.677136107, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": ")  # Output: 8", "_timestamp": 27112.678136107, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "\n```\n\nThis function:\n- Takes", "_timestamp": 27112.679136107, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " two parameters `a` and `b", "_timestamp": 27112.680136107, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "`", "_timestamp": 27112.681136107, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "\n- Returns their sum\n-", "_timestamp": 27112.682136107, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " Includes", "_timestamp": 27112.683136107, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " a docstring explaining what", "_timestamp": 27112.684136107, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " it", "_timestamp": 27112.685136107, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " does\n- Works", "_timestamp": 27112.686136107, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " with integers", "_timestamp": 27112.687136106997, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": ", floats, and other", "_timestamp": 27112.688136106997, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " numeric", "_timestamp": 27112.689136106997, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " types\n\nYou", "_timestamp": 27112.690136106998, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " can use", "_timestamp": 27112.691136106998, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " it like:", "_timestamp": 27112.692136106998, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " `add_numbers(10", "_timestamp": 27112.693136107, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": ", 20)` which", "_timestamp": 27112.694136107, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": " woul", "_timestamp": 27112.695136107, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "d return `", "_timestamp": 27112.696136107, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "delta": "30`.", "_timestamp": 27112.697136107, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_END", "messageId": "73e3e557-3225-42fc-9e2a-3fc8c29f55f2", "_timestamp": 27112.698136107, "_offset_ms": 38.0, "_index": 38}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact", "_timestamp": 27112.699136107, "_offset_ms": 39.0, "_index": 39}

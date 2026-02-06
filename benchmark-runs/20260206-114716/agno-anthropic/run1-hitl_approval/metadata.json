@@ -1,0 +1,65 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4234.40659300104,
+    "time_to_first_event_ms": 272.66932600105065,
+    "time_to_first_content_ms": 4234.5435339993855,
+    "time_to_complete_ms": 4234.40659300104
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 3.0,
+    "tool_calls_detail": [
+      {
+        "tool_call_id": "toolu_01MhVRzRbrz2oQVHtmvng1f8",
+        "name": "request_approval",
+        "start_ms": 14.0,
+        "end_ms": 16.0,
+        "result_ms": 17.0,
+        "duration_ms": 3.0,
+        "execution_time_ms": 1.0,
+        "success": true,
+        "result": ""
+      }
+    ]
+  },
+  "response": {
+    "chars": 456,
+    "tokens_approx": 114,
+    "final_text": "I appreciate you being upfront about this. Let me request approval for this sensitive action.I've submitted a request for approval to delete the important data. This action requires human authorization before it can proceed. \n\nCould you provide more details about:\n- **What specific data** needs to be deleted?\n- **Why** does it need to be deleted?\n- **Is there a backup** of this data somewhere?\n\nOnce approval is confirmed, I can help you proceed safely."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 54,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 456,
+    "total_chunks": 44,
+    "duration_ms": 49.0,
+    "throughput_chars_per_sec": 9306.122448979591,
+    "avg_gap_ms": 1.1395348837209303,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

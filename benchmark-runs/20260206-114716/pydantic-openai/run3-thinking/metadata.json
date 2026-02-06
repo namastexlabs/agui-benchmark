@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5802.054397001484,
+    "time_to_first_event_ms": 200.50620999973034,
+    "time_to_first_content_ms": 5802.1987860010995,
+    "time_to_complete_ms": 5802.054397001484
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 139,
+    "tokens_approx": 34,
+    "final_text": "Solution: x = 7.\n\nReasoning (brief): Subtract 5 from both sides of the equation x + 5 = 12 to isolate x: x = 12 \u2212 5 = 7. Check: 7 + 5 = 12."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 59,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 139,
+    "total_chunks": 55,
+    "duration_ms": 54.0,
+    "throughput_chars_per_sec": 2574.074074074074,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

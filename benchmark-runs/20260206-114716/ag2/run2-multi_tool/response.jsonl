@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 27052.419888254, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "b3c57422-c2b3-49b8-a189-4ef36097fea8", "role": "assistant", "_timestamp": 27052.420888254, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b3c57422-c2b3-49b8-a189-4ef36097fea8", "delta": "Current date (server): 2026-02-06.  \n10 + 20 = 30.\n\nIf you want the exact current clock time in a specific timezone, tell me which timezone (or your location) and I\u2019ll provide it.", "_timestamp": 27052.421888254, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "b3c57422-c2b3-49b8-a189-4ef36097fea8", "_timestamp": 27052.422888254, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 27052.423888254, "_offset_ms": 4.0, "_index": 4}

@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10527.475962000608,
+    "time_to_first_event_ms": 2810.175911999977,
+    "time_to_first_content_ms": 10528.101220999815,
+    "time_to_complete_ms": 10527.475962000608
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 757,
+    "tokens_approx": 189,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. I can only call the tools exposed here (current time and a calculator), or I can simulate/describe what that nonexistent tool would do and implement the task using the available tools or plain responses.\n\nAvailable options \u2014 tell me which you want:\n- Use the current-time tool (I can return the current date/time).\n- Use the calculator tool (I can evaluate math expressions).\n- I can simulate the behavior of your requested tool or help design it (describe inputs/outputs and how it would work).\n- I can do the task directly without a tool if you tell me what \u201cdo something\u201d means (e.g., summarize text, generate code, plan, etc.).\n\nWhich would you like me to do, and what specifically should be done?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 167,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

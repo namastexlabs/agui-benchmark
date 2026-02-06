@@ -1,0 +1,49 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7931.254814000567,
+    "time_to_first_event_ms": 194.22832299824222,
+    "time_to_first_content_ms": 7931.656308999663,
+    "time_to_complete_ms": 7931.254814000567
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 826,
+    "tokens_approx": 206,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it isn\u2019t available in this environment. Available tools I can use now are:\n- get_current_time \u2014 return current date/time\n- calculator \u2014 evaluate math expressions\n- request_approval \u2014 ask a human to approve a sensitive action\n- multi_tool_use.parallel \u2014 run multiple functions.* tools in parallel\n\nWhat would you like to do with the nonexistent tool? Options:\n- Tell me the action you expected it to perform and I\u2019ll perform it directly (if it\u2019s doable with the available tools) or simulate it here.\n- I can show you how to define/spec a new tool (name, parameters, return type) so it can be added to the system.\n- I can provide working code (pseudocode or real) that implements the nonexistent tool locally or in a server.\n\nWhich do you prefer, and what should the tool do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 187,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 826,
+    "total_chunks": 183,
+    "duration_ms": 182.0,
+    "throughput_chars_per_sec": 4538.461538461538,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

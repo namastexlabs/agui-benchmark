@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5382.293353002751,
+    "time_to_first_event_ms": 4956.243127002381,
+    "time_to_first_content_ms": 5382.349253002758,
+    "time_to_complete_ms": 5382.293353002751
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 503,
+    "tokens_approx": 125,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. In this case, we have x + 5 = 12. Here's the step-by-step process:\n\n1. Our goal is to isolate x, so let's start by looking at the addition operation (+5) that is currently added to x. To get rid of this addition, we need to subtract 5 from both sides of the equation.\n\n   x + 5 = 12\n\n   Subtracting 5 from both sides gives us:\n   x + 5 - 5 = 12 - 5\n\n   Simplifying the equation gives us:\n   x = 7\n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 58,
+    "output_tokens": 150,
+    "total_tokens": 208
+  },
+  "events": {
+    "total_events": 18,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 503,
+    "total_chunks": 13,
+    "duration_ms": 12.0,
+    "throughput_chars_per_sec": 41916.666666666664,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

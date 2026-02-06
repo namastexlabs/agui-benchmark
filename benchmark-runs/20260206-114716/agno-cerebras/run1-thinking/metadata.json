@@ -1,0 +1,37 @@
+{
+  "agent": "agno-cerebras",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1476.2607959964953,
+    "time_to_first_event_ms": 1255.8898179995595,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 1476.2607959964953
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 2,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED"
+    ]
+  },
+  "streaming": null
+}

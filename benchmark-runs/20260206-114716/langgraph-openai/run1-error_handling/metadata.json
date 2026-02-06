@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5591.085072999704,
+    "time_to_first_event_ms": 1485.594186000526,
+    "time_to_first_content_ms": 5592.439804000605,
+    "time_to_complete_ms": 5591.085072999704
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 456,
+    "tokens_approx": 114,
+    "final_text": "Hello! I'm ChatGPT, an AI assistant here to help with information, writing, calculations, and problem-solving. I run on the LangGraph framework and can tell the current time, do basic math, and assist with a wide range of tasks.Hello! I'm ChatGPT, an AI assistant here to help with information, writing, calculations, and problem-solving. I run on the LangGraph framework and can tell the current time, do basic math, and assist with a wide range of tasks."
+  },
+  "tokens": {
+    "input_tokens": 275,
+    "output_tokens": 187,
+    "total_tokens": 462
+  },
+  "events": {
+    "total_events": 122,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 228,
+    "total_chunks": 50,
+    "duration_ms": 98.0,
+    "throughput_chars_per_sec": 2326.530612244898,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

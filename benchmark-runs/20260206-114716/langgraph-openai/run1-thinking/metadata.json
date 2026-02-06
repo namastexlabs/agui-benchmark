@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7022.132263999083,
+    "time_to_first_event_ms": 1422.296438999183,
+    "time_to_first_content_ms": 7023.336829999607,
+    "time_to_complete_ms": 7022.132263999083
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 290,
+    "tokens_approx": 72,
+    "final_text": "Hello! I'm ChatGPT, an AI assistant here to help with questions, planning, and creative tasks. Tell me what you need and I'll do my best to help.Hello! I'm ChatGPT, an AI assistant here to help with questions, planning, and creative tasks. Tell me what you need and I'll do my best to help."
+  },
+  "tokens": {
+    "input_tokens": 275,
+    "output_tokens": 235,
+    "total_tokens": 510
+  },
+  "events": {
+    "total_events": 91,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 145,
+    "total_chunks": 34,
+    "duration_ms": 66.0,
+    "throughput_chars_per_sec": 2196.969696969697,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

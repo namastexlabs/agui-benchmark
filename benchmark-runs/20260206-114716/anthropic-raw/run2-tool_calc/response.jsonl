@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_calc", "_timestamp": 27052.445323819, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "toolCallName": "calculator", "_timestamp": 27052.446323819, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "delta": "", "_timestamp": 27052.447323819, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "delta": "{\"ex", "_timestamp": 27052.448323819, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "delta": "pressi", "_timestamp": 27052.449323819, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "delta": "on\": \"42 * 1", "_timestamp": 27052.450323819, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "delta": "7\"}", "_timestamp": 27052.451323819, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "_timestamp": 27052.452323819, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01LVGYxCAm32dFzad1sXEPpQ", "result": "42 * 17 = 714", "_timestamp": 27052.453323819, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_START", "message_id": "fda632c3-f85a-4027-a812-a36d49141f49", "role": "assistant", "_timestamp": 27052.454323818998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "fda632c3-f85a-4027-a812-a36d49141f49", "delta": "The result of", "_timestamp": 27052.455323819, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "fda632c3-f85a-4027-a812-a36d49141f49", "delta": " 42 \u00d7", "_timestamp": 27052.456323819, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "fda632c3-f85a-4027-a812-a36d49141f49", "delta": " 17 is **714**.", "_timestamp": 27052.457323819, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_END", "message_id": "fda632c3-f85a-4027-a812-a36d49141f49", "_timestamp": 27052.458323819, "_offset_ms": 13.0, "_index": 13}
+{"type": "USAGE_METADATA", "input_tokens": 684, "output_tokens": 56, "total_tokens": 740, "model": "claude-haiku-4-5-20251001", "_timestamp": 27052.459323819, "_offset_ms": 14.0, "_index": 14}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_calc", "_timestamp": 27052.460323819, "_offset_ms": 15.0, "_index": 15}

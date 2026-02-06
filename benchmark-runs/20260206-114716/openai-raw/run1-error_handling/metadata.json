@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 51171.93790800229,
+    "time_to_first_event_ms": 51170.54293199908,
+    "time_to_first_content_ms": 51172.30327700236,
+    "time_to_complete_ms": 51171.93790800229
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 740,
+    "tokens_approx": 185,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available here. Available tools I can use now are:\n- functions.get_current_time \u2014 returns the current date/time\n- functions.calculator \u2014 evaluates a math expression\n- multi_tool_use.parallel \u2014 runs multiple of the above tools in parallel\n\nTell me what you wanted \"nonexistent_tool\" to do and I\u2019ll:\n- use one of the available tools if it fits (e.g., get the current time or do a calculation), or\n- simulate the requested behavior myself, or\n- suggest an alternative implementation.\n\nExamples:\n- \"Get the current time\" \u2192 I\u2019ll call get_current_time.\n- \"Compute 234*17\" \u2192 I\u2019ll call calculator with expression \"234 * 17\".\n- \"Do both\" \u2192 I can run both in parallel.\n\nWhat should I do?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 378,
+    "total_tokens": 584
+  },
+  "events": {
+    "total_events": 182,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 740,
+    "total_chunks": 177,
+    "duration_ms": 176.0,
+    "throughput_chars_per_sec": 4204.545454545454,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

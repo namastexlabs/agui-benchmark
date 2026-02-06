@@ -1,0 +1,53 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4968.181799999002,
+    "time_to_first_event_ms": 1495.504817001347,
+    "time_to_first_content_ms": 4970.088858000963,
+    "time_to_complete_ms": 4968.181799999002
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 330,
+    "tokens_approx": 82,
+    "final_text": "Hello \u2014 I'm ChatGPT, an AI assistant here to help with information, writing, and problem-solving. Ask me anything and I'll do my best to give clear, helpful answers.Hello \u2014 I'm ChatGPT, an AI assistant here to help with information, writing, and problem-solving. Ask me anything and I'll do my best to give clear, helpful answers."
+  },
+  "tokens": {
+    "input_tokens": 275,
+    "output_tokens": 109,
+    "total_tokens": 384
+  },
+  "events": {
+    "total_events": 94,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 165,
+    "total_chunks": 36,
+    "duration_ms": 70.0,
+    "throughput_chars_per_sec": 2357.1428571428573,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3105.8299710020947,
+    "time_to_first_event_ms": 3104.3809350012452,
+    "time_to_first_content_ms": 3105.915623000328,
+    "time_to_complete_ms": 3105.8299710020947
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 143,
+    "tokens_approx": 35,
+    "final_text": "Hello! I'm ChatGPT, an AI assistant here to help with information, writing, and problem-solving. Ask me anything and I'll do my best to assist."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 105,
+    "total_tokens": 313
+  },
+  "events": {
+    "total_events": 37,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 143,
+    "total_chunks": 32,
+    "duration_ms": 31.0,
+    "throughput_chars_per_sec": 4612.903225806452,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

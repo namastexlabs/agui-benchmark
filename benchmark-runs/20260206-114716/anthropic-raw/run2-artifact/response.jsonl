@@ -1,0 +1,45 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact", "_timestamp": 27052.449894877, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "role": "assistant", "_timestamp": 27052.450894877, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "Here", "_timestamp": 27052.451894877002, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "'s a simple Python function that adds two", "_timestamp": 27052.452894877002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " numbers:\n\n```", "_timestamp": 27052.453894877002, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "python\ndef add_numbers(a", "_timestamp": 27052.454894877003, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ", b):\n    \"\"\"", "_timestamp": 27052.455894877003, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\n    Add two numbers an", "_timestamp": 27052.456894877003, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "d return the result.", "_timestamp": 27052.457894877003, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\n    \n    Args:\n        ", "_timestamp": 27052.458894877, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "a: The first number\n        b", "_timestamp": 27052.459894877, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ": The second number\n    \n    ", "_timestamp": 27052.460894877, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "Returns:\n        The sum of a", "_timestamp": 27052.461894877, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " and b\n    \"\"\"\n    return", "_timestamp": 27052.462894877, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " a + b", "_timestamp": 27052.463894877, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\n\n\n# Example usage:", "_timestamp": 27052.464894877, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\nresult = add_numbers(5", "_timestamp": 27052.465894877, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ", 3)\nprint(result", "_timestamp": 27052.466894877, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ")  # Output: 8", "_timestamp": 27052.467894877, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\n```\n\nThis function:\n- Takes", "_timestamp": 27052.468894877, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " two parameters (`a` and `b", "_timestamp": 27052.469894877002, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "`)", "_timestamp": 27052.470894877002, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "\n- Returns their sum\n-", "_timestamp": 27052.471894877002, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " Includes", "_timestamp": 27052.472894877003, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " a docstring explaining", "_timestamp": 27052.473894877003, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " what", "_timestamp": 27052.474894877003, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " it", "_timestamp": 27052.475894877003, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " does\n- Works", "_timestamp": 27052.476894877, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " with integers", "_timestamp": 27052.477894877, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ", floats, and other", "_timestamp": 27052.478894877, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " numeric", "_timestamp": 27052.479894877, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " types\n\nYou can use", "_timestamp": 27052.480894877, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " it like `", "_timestamp": 27052.481894877, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "add_numbers(10", "_timestamp": 27052.482894877, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ", 20)` or `ad", "_timestamp": 27052.483894877, "_offset_ms": 34.0, "_index": 34}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "d_numbers(3", "_timestamp": 27052.484894877, "_offset_ms": 35.0, "_index": 35}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ".5", "_timestamp": 27052.485894877, "_offset_ms": 36.0, "_index": 36}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ", 2.1", "_timestamp": 27052.486894877, "_offset_ms": 37.0, "_index": 37}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": ")` for", "_timestamp": 27052.487894877002, "_offset_ms": 38.0, "_index": 38}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " any numbers", "_timestamp": 27052.488894877002, "_offset_ms": 39.0, "_index": 39}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": " you", "_timestamp": 27052.489894877002, "_offset_ms": 40.0, "_index": 40}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "delta": "'d like to add!", "_timestamp": 27052.490894877003, "_offset_ms": 41.0, "_index": 41}
+{"type": "TEXT_MESSAGE_END", "message_id": "e3b3feff-dd69-4ad8-8f87-4bfa2c8a7aaf", "_timestamp": 27052.491894877003, "_offset_ms": 42.0, "_index": 42}
+{"type": "USAGE_METADATA", "input_tokens": 681, "output_tokens": 200, "total_tokens": 881, "model": "claude-haiku-4-5-20251001", "_timestamp": 27052.492894877003, "_offset_ms": 43.0, "_index": 43}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact", "_timestamp": 27052.493894877003, "_offset_ms": 44.0, "_index": 44}

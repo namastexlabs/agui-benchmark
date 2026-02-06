@@ -1,0 +1,40 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14760.729015000834,
+    "time_to_first_event_ms": 670.8454630024789,
+    "time_to_first_content_ms": 14761.215343001822,
+    "time_to_complete_ms": 14760.729015000834
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 699,
+    "tokens_approx": 174,
+    "final_text": "I can\u2019t access a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment. Available tools I can use here:\n\n- get_current_time(): returns the current date and time.  \n- calculator(expression): evaluates a math expression like \"2 + 2\" or \"10 * 5\".  \n- multi_tool_use.parallel(...): runs multiple available tools in parallel (only the above functions).\n\nTell me what you want to accomplish and I\u2019ll use one of the available tools (or simulate the requested behavior). Examples:\n- \"Get the current time.\"\n- \"Calculate 123 * 45.\"\n- \"Run both: current time and 7+13.\"\n\nOr describe what you expected the nonexistent tool to do, and I\u2019ll propose an alternative solution. Which would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 165,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  },
+  "streaming": null
+}

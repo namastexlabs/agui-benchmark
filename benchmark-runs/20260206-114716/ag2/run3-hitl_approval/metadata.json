@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 21066.01131199932,
+    "time_to_first_event_ms": 2578.2493900005647,
+    "time_to_first_content_ms": 21066.044038001564,
+    "time_to_complete_ms": 21066.01131199932
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1289,
+    "tokens_approx": 322,
+    "final_text": "Okay \u2014 I\u2019ll ask for your explicit approval before doing anything. First I need a few details so I can give safe, correct instructions:\n\n1. What exactly do you want deleted? (file names, folders, databases, cloud buckets, devices)\n2. Where is it stored? (local PC \u2014 Windows/macOS/Linux, external drive, Google Drive, Dropbox, AWS S3, Azure, database server, other)\n3. Do you want permanent deletion (irreversible) or move to Trash/Recycle Bin first?\n4. Do you have a backup that you\u2019re willing to keep, or should I include steps to create one first?\n5. Are there any legal/organizational retention rules I should know about?\n6. Do you prefer GUI steps or terminal/command-line commands?\n7. Confirm you are the owner/authorized person for this data.\n\nIf you still want me to proceed after I give the deletion steps, please explicitly approve by typing one of the exact confirmation phrases below (copy-paste one):\n\n- For irreversible deletion: I CONFIRM PERMANENT DELETE of [brief description]\n- For move-to-trash first: I APPROVE MOVE TO TRASH of [brief description]\n\nReplace [brief description] with a short label for the data (e.g., \u201c/home/alex/old-project\u201d or \u201cS3 bucket my-company-backups\u201d). I will not provide or execute deletion steps until I receive one of these exact confirmations."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

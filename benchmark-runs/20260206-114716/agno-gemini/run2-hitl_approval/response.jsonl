@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-hitl_approval", "_timestamp": 27052.368980788, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "3e922aa2-91eb-4fd9-a69b-bc4fb125d721", "role": "assistant", "_timestamp": 27052.369980788, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_END", "messageId": "3e922aa2-91eb-4fd9-a69b-bc4fb125d721", "_timestamp": 27052.370980788, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_START", "toolCallId": "aa3f11ea-ca68-4cd8-8cbf-47abd721e4da", "toolCallName": "request_approval", "parentMessageId": "3e922aa2-91eb-4fd9-a69b-bc4fb125d721", "_timestamp": 27052.371980788, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "aa3f11ea-ca68-4cd8-8cbf-47abd721e4da", "delta": "{\"action\": \"delete important data\"}", "_timestamp": 27052.372980788, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_END", "toolCallId": "aa3f11ea-ca68-4cd8-8cbf-47abd721e4da", "_timestamp": 27052.373980788, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_RESULT", "messageId": "96abe9e2-0003-488f-97bf-6de39bfdd600", "toolCallId": "aa3f11ea-ca68-4cd8-8cbf-47abd721e4da", "content": "APPROVAL_REQUESTED: Action 'delete important data' requires human approval", "role": "tool", "_timestamp": 27052.374980788, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_START", "messageId": "c3f98b29-5569-4b2e-94c6-194b3ae4f3be", "role": "assistant", "_timestamp": 27052.375980788, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c3f98b29-5569-4b2e-94c6-194b3ae4f3be", "delta": "Your approval has been requested to delete important data.", "_timestamp": 27052.376980788, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "messageId": "c3f98b29-5569-4b2e-94c6-194b3ae4f3be", "_timestamp": 27052.377980788, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-hitl_approval", "_timestamp": 27052.378980788, "_offset_ms": 10.0, "_index": 10}

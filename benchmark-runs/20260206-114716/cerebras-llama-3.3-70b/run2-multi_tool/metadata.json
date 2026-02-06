@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4757.203152999864,
+    "time_to_first_event_ms": 4054.527013999177,
+    "time_to_first_content_ms": 4757.249975999002,
+    "time_to_complete_ms": 4757.203152999864
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 288,
+    "tokens_approx": 72,
+    "final_text": "The current time is: 06 Feb 2026 12:00 (Please note that I'm a large language model, I don't have real-time access to the current time. The time I provided is fictional and for demonstration purposes only.)\n\nNow, let's calculate 10 + 20:\n10 + 20 = 30\n\nThe result of the calculation is 30."
+  },
+  "tokens": {
+    "input_tokens": 49,
+    "output_tokens": 79,
+    "total_tokens": 128
+  },
+  "events": {
+    "total_events": 15,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 288,
+    "total_chunks": 10,
+    "duration_ms": 9.0,
+    "throughput_chars_per_sec": 32000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

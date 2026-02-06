@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 26993.65278324, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "bfa60669-4b22-4874-af9f-faed4a82ae8a", "role": "assistant", "_timestamp": 26993.65378324, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bfa60669-4b22-4874-af9f-faed4a82ae8a", "delta": "I can't find a tool called `nonexistent_tool`. Please check the name and try again.", "_timestamp": 26993.65478324, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "bfa60669-4b22-4874-af9f-faed4a82ae8a", "_timestamp": 26993.65578324, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 26993.65678324, "_offset_ms": 4.0, "_index": 4}

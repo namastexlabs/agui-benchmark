@@ -1,0 +1,40 @@
+{
+  "agent": "google-adk",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4990.468915999372,
+    "time_to_first_event_ms": 2704.3410389997007,
+    "time_to_first_content_ms": 4990.4922529967735,
+    "time_to_complete_ms": 4990.468915999372
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 43,
+    "tokens_approx": 10,
+    "final_text": "The current time is 11:49:27 on 2026-02-06."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}

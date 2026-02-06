@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 27112.721505933, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "72dfc3f2-e5ad-491f-9e74-ff1e16fdb703", "role": "assistant", "_timestamp": 27112.722505933, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "72dfc3f2-e5ad-491f-9e74-ff1e16fdb703", "delta": "I am sorry, but the tool 'nonexistent_tool' does not exist. I can only use the 'get_current_time' and 'calculator' tools.", "_timestamp": 27112.723505933, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "72dfc3f2-e5ad-491f-9e74-ff1e16fdb703", "_timestamp": 27112.724505933, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling", "_timestamp": 27112.725505933002, "_offset_ms": 4.0, "_index": 4}

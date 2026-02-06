@@ -1,0 +1,11 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 27052.462574904, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "b71309df-7395-4ab0-a66b-751a9e5d65c4", "role": "assistant", "_timestamp": 27052.463574904, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "b71309df-7395-4ab0-a66b-751a9e5d65c4", "delta": "To solve for x in the equation x + 5 = 12, we need to isolate x.\n1. Start with the equation: x + 5 = 12\n2. Subtract 5 from both", "_timestamp": 27052.464574904, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "b71309df-7395-4ab0-a66b-751a9e5d65c4", "delta": " sides of the equation: x + 5 - 5 = 12 - 5\n3. This simplifies to: x = 7\n\nTherefore, x is 7.\n", "_timestamp": 27052.465574904, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_START", "toolCallId": "9b1246d9-6b75-4998-8a19-258a0f16a22e", "toolCallName": "calculator", "_timestamp": 27052.466574904, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "9b1246d9-6b75-4998-8a19-258a0f16a22e", "delta": "{\"expression\": \"12 - 5\"}", "_timestamp": 27052.467574904, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_END", "toolCallId": "9b1246d9-6b75-4998-8a19-258a0f16a22e", "_timestamp": 27052.468574904, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "9b1246d9-6b75-4998-8a19-258a0f16a22e", "result": "12 - 5 = 7", "_timestamp": 27052.469574904, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_END", "message_id": "b71309df-7395-4ab0-a66b-751a9e5d65c4", "_timestamp": 27052.470574904, "_offset_ms": 8.0, "_index": 8}
+{"type": "USAGE_METADATA", "input_tokens": 130, "output_tokens": 101, "total_tokens": 396, "model": "gemini-2.5-flash", "_timestamp": 27052.471574903997, "_offset_ms": 9.0, "_index": 9}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-thinking", "_timestamp": 27052.472574903997, "_offset_ms": 10.0, "_index": 10}

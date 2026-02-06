@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 18119.82323399934,
+    "time_to_first_event_ms": 3742.6313450014277,
+    "time_to_first_content_ms": 18120.23226599922,
+    "time_to_complete_ms": 18119.82323399934
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 968,
+    "tokens_approx": 242,
+    "final_text": "Okay \u2014 I will not proceed until you explicitly approve. A few quick clarifying questions so I give safe, correct steps:\n\n1. Where is the data stored? (local PC, external drive, server/VM, cloud storage like S3, database, etc.)\n2. Exactly what should be deleted? (file paths, bucket name, database/table name, user account, etc.)\n3. Do you have a current backup or snapshot? Do you want a backup made first?\n4. Any legal, compliance, or recovery concerns I should know about?\n5. Do you want irreversible deletion (secure overwrite/shred) or just removal to trash/recycle?\n\nIf you understand the deletion is potentially irreversible, reply with one of these confirmations:\n- \u201cI APPROVE \u2014 proceed and provide deletion steps\u201d (I\u2019ll give the exact commands and safety checks),\n- or \u201cI APPROVE \u2014 proceed and execute\u201d (I cannot execute actions myself, I will still only provide commands).\n\nI\u2019ll wait for your answers and explicit approval before giving deletion instructions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 215,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 968,
+    "total_chunks": 211,
+    "duration_ms": 210.0,
+    "throughput_chars_per_sec": 4609.523809523809,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

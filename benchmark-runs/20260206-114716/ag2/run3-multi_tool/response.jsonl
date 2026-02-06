@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 27112.71260656, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "b3acac2e-79be-4cd7-92d5-872df5cb3dcd", "role": "assistant", "_timestamp": 27112.71360656, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b3acac2e-79be-4cd7-92d5-872df5cb3dcd", "delta": "Today's date is 2026-02-06. I don't have access to a live clock in this interface \u2014 tell me your timezone (or say \u201cUTC\u201d) and I\u2019ll give the exact current time. \n\n10 + 20 = 30.", "_timestamp": 27112.71460656, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "b3acac2e-79be-4cd7-92d5-872df5cb3dcd", "_timestamp": 27112.71560656, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool", "_timestamp": 27112.71660656, "_offset_ms": 4.0, "_index": 4}

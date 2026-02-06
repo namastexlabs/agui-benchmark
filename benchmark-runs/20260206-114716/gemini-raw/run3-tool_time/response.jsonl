@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 27112.748939136, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "451c6245-b197-4360-a2b3-c064068cfef9", "toolCallName": "get_current_time", "_timestamp": 27112.749939136, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "451c6245-b197-4360-a2b3-c064068cfef9", "delta": "{}", "_timestamp": 27112.750939136, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "451c6245-b197-4360-a2b3-c064068cfef9", "_timestamp": 27112.751939136, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "451c6245-b197-4360-a2b3-c064068cfef9", "result": "2026-02-06 11:49:27", "_timestamp": 27112.752939136, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "22c94f8f-0560-4312-9ff2-6183785ad63d", "role": "assistant", "_timestamp": 27112.753939136, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "22c94f8f-0560-4312-9ff2-6183785ad63d", "delta": "The current time is", "_timestamp": 27112.754939136, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "22c94f8f-0560-4312-9ff2-6183785ad63d", "delta": " 11:49:27 on February 6, 202", "_timestamp": 27112.755939136, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "22c94f8f-0560-4312-9ff2-6183785ad63d", "delta": "6.", "_timestamp": 27112.756939136, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_END", "message_id": "22c94f8f-0560-4312-9ff2-6183785ad63d", "_timestamp": 27112.757939135998, "_offset_ms": 9.0, "_index": 9}
+{"type": "USAGE_METADATA", "input_tokens": 117, "output_tokens": 12, "total_tokens": 169, "model": "gemini-2.5-flash", "_timestamp": 27112.758939135998, "_offset_ms": 10.0, "_index": 10}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time", "_timestamp": 27112.759939135998, "_offset_ms": 11.0, "_index": 11}

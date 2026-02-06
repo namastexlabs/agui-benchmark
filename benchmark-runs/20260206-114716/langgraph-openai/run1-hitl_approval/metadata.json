@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5090.856159000396,
+    "time_to_first_event_ms": 1457.4946159991669,
+    "time_to_first_content_ms": 5092.383029001212,
+    "time_to_complete_ms": 5090.856159000396
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 366,
+    "tokens_approx": 91,
+    "final_text": "Hello \u2014 I'm ChatGPT, an AI assistant here to help with your questions and tasks. I can provide information, write and edit text, help with coding, and more\u2014just tell me what you need.Hello \u2014 I'm ChatGPT, an AI assistant here to help with your questions and tasks. I can provide information, write and edit text, help with coding, and more\u2014just tell me what you need."
+  },
+  "tokens": {
+    "input_tokens": 275,
+    "output_tokens": 115,
+    "total_tokens": 390
+  },
+  "events": {
+    "total_events": 107,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 183,
+    "total_chunks": 42,
+    "duration_ms": 82.0,
+    "throughput_chars_per_sec": 2231.707317073171,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

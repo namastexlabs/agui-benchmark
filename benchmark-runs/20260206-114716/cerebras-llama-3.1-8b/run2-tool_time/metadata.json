@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4656.638722997741,
+    "time_to_first_event_ms": 4271.293559999322,
+    "time_to_first_content_ms": 4656.746715998452,
+    "time_to_complete_ms": 4656.638722997741
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 785,
+    "tokens_approx": 196,
+    "final_text": "I'm not capable of accessing real-time information or using tools to check the current time. However, I can suggest some alternatives to find out the current time:\n\n1. Check your device's clock: You can check the time on your phone, computer, or any other device you're using.\n2. Search online: You can search for \"current time\" or \"time now\" on a search engine like Google to find out the current time in your location or any other location.\n3. Use a world clock app: There are many world clock apps available that can display the current time in different locations around the world.\n\nPlease note that the time I provide in our conversation will be based on my training data, which may not be up-to-date. If you need to know the current time, I recommend checking an external source."
+  },
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 168,
+    "total_tokens": 216
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 785,
+    "total_chunks": 17,
+    "duration_ms": 16.0,
+    "throughput_chars_per_sec": 49062.5,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

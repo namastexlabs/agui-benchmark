@@ -1,0 +1,54 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6519.885989000613,
+    "time_to_first_event_ms": 728.1517079973128,
+    "time_to_first_content_ms": 6522.13308499995,
+    "time_to_complete_ms": 6519.885989000613
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 856,
+    "tokens_approx": 214,
+    "final_text": "I don't have a tool named \"nonexistent_tool.\" Available tools I can use are:\n- get_current_time \u2014 return the current date/time\n- calculator \u2014 evaluate a math expression\n- request_approval \u2014 request human approval for an action\n- multi_tool_use.parallel \u2014 run multiple of the above in parallel\n\nTell me what you want done (e.g., compute an expression, get the current time, or request approval) and I\u2019ll run the appropriate tool.I don't have a tool named \"nonexistent_tool.\" Available tools I can use are:\n- get_current_time \u2014 return the current date/time\n- calculator \u2014 evaluate a math expression\n- request_approval \u2014 request human approval for an action\n- multi_tool_use.parallel \u2014 run multiple of the above in parallel\n\nTell me what you want done (e.g., compute an expression, get the current time, or request approval) and I\u2019ll run the appropriate tool."
+  },
+  "tokens": {
+    "input_tokens": 273,
+    "output_tokens": 295,
+    "total_tokens": 568
+  },
+  "events": {
+    "total_events": 211,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 428,
+    "total_chunks": 94,
+    "duration_ms": 186.0,
+    "throughput_chars_per_sec": 2301.0752688172047,
+    "avg_gap_ms": 2.0,
+    "p95_gap_ms": 2.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

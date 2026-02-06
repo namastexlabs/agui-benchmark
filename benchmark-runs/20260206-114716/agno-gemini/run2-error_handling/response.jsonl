@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 27052.369064545, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "45bad6b5-4e49-4601-a24a-aa66faaf4991", "role": "assistant", "_timestamp": 27052.370064545, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "45bad6b5-4e49-4601-a24a-aa66faaf4991", "delta": "I'm sorry, the tool 'nonexistent_tool' does not exist.", "_timestamp": 27052.371064545, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "45bad6b5-4e49-4601-a24a-aa66faaf4991", "_timestamp": 27052.372064545, "_offset_ms": 3.0, "_index": 3}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling", "_timestamp": 27052.373064545, "_offset_ms": 4.0, "_index": 4}

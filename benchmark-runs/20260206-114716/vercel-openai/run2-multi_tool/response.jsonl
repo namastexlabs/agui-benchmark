@@ -1,0 +1,36 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-multi_tool", "_timestamp": 27052.396055111, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-1", "toolCallName": "get_current_time", "_timestamp": 27052.397055111, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-1", "delta": "{}", "_timestamp": 27052.398055111, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-1", "_timestamp": 27052.399055111, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-1", "result": "2026-02-06 14:48:26", "_timestamp": 27052.400055111, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-2", "toolCallName": "calculator", "_timestamp": 27052.401055111, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-2", "delta": "{\"expression\":\"10 + 20\"}", "_timestamp": 27052.402055111, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-2", "_timestamp": 27052.403055111, "_offset_ms": 7.0, "_index": 7}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-2", "result": "10 + 20 = 30", "_timestamp": 27052.404055111, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770389301162", "role": "assistant", "_timestamp": 27052.405055110998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "Current", "_timestamp": 27052.406055110998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " time", "_timestamp": 27052.407055110998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": ":", "_timestamp": 27052.408055111, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " ", "_timestamp": 27052.409055111, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "202", "_timestamp": 27052.410055111, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "6", "_timestamp": 27052.411055111, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "-", "_timestamp": 27052.412055111, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "02", "_timestamp": 27052.413055111, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "-", "_timestamp": 27052.414055111, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "06", "_timestamp": 27052.415055111, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " ", "_timestamp": 27052.416055111, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "14", "_timestamp": 27052.417055111, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": ":", "_timestamp": 27052.418055111, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "48", "_timestamp": 27052.419055111, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": ":", "_timestamp": 27052.420055111, "_offset_ms": 24.0, "_index": 24}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "26", "_timestamp": 27052.421055111, "_offset_ms": 25.0, "_index": 25}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "\n", "_timestamp": 27052.422055111, "_offset_ms": 26.0, "_index": 26}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "10", "_timestamp": 27052.423055110998, "_offset_ms": 27.0, "_index": 27}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " +", "_timestamp": 27052.424055110998, "_offset_ms": 28.0, "_index": 28}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " ", "_timestamp": 27052.425055110998, "_offset_ms": 29.0, "_index": 29}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "20", "_timestamp": 27052.426055111, "_offset_ms": 30.0, "_index": 30}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " =", "_timestamp": 27052.427055111, "_offset_ms": 31.0, "_index": 31}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": " ", "_timestamp": 27052.428055111, "_offset_ms": 32.0, "_index": 32}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770389301162", "delta": "30", "_timestamp": 27052.429055111, "_offset_ms": 33.0, "_index": 33}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770389301162", "_timestamp": 27052.430055111, "_offset_ms": 34.0, "_index": 34}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-multi_tool", "_timestamp": 27052.431055111, "_offset_ms": 35.0, "_index": 35}

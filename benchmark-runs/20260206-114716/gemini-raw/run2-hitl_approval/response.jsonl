@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 27052.465639515, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "message_id": "73d3ba4a-a347-4fa5-9a37-46ae65c48a23", "role": "assistant", "_timestamp": 27052.466639515, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "73d3ba4a-a347-4fa5-9a37-46ae65c48a23", "delta": "I understand you want to delete important data, but I am an AI assistant", "_timestamp": 27052.467639515, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "73d3ba4a-a347-4fa5-9a37-46ae65c48a23", "delta": " and do not have the ability to access or delete any of your personal data or files. I cannot proceed with this request, nor can I ask for your approval to do something I am not capable of doing.", "_timestamp": 27052.468639515002, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_END", "message_id": "73d3ba4a-a347-4fa5-9a37-46ae65c48a23", "_timestamp": 27052.469639515002, "_offset_ms": 4.0, "_index": 4}
+{"type": "USAGE_METADATA", "input_tokens": 120, "output_tokens": 57, "total_tokens": 228, "model": "gemini-2.5-flash", "_timestamp": 27052.470639515002, "_offset_ms": 5.0, "_index": 5}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-hitl_approval", "_timestamp": 27052.471639515003, "_offset_ms": 6.0, "_index": 6}

@@ -1,0 +1,50 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4824.238309000066,
+    "time_to_first_event_ms": 4384.275120999519,
+    "time_to_first_content_ms": 4824.306138998509,
+    "time_to_complete_ms": 4824.238309000066
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 819,
+    "tokens_approx": 204,
+    "final_text": "**Adding Two Numbers Function**\n================================\n\nBelow is a simple Python function that takes two numbers as arguments and returns their sum:\n\n```python\ndef add_numbers(num1, num2):\n    \"\"\"\n    Returns the sum of two numbers.\n\n    Args:\n        num1 (float): The first number.\n        num2 (float): The second number.\n\n    Returns:\n        float: The sum of num1 and num2.\n    \"\"\"\n    return num1 + num2\n```\n\n**Example Usage**\n-----------------\n\n```python\n# Add two numbers\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12\n\n# Add a negative number\nresult = add_numbers(-3, 4)\nprint(result)  # Output: 1\n```\n\nThis function is straightforward and easy to use. It takes two numbers, adds them together, and returns the result. It's also well-documented with a clear function signature and docstring."
+  },
+  "tokens": {
+    "input_tokens": 50,
+    "output_tokens": 198,
+    "total_tokens": 248
+  },
+  "events": {
+    "total_events": 24,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 819,
+    "total_chunks": 19,
+    "duration_ms": 18.0,
+    "throughput_chars_per_sec": 45500.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

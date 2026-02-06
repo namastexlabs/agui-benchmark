@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_calc", "_timestamp": 26993.683474543, "_offset_ms": 0.0, "_index": 0}
+{"type": "TOOL_CALL_START", "toolCallId": "97494932-96ff-4637-b81d-cc744b2ae6f2", "toolCallName": "calculator", "_timestamp": 26993.684474543, "_offset_ms": 1.0, "_index": 1}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "97494932-96ff-4637-b81d-cc744b2ae6f2", "delta": "{\"expression\": \"42 * 17\"}", "_timestamp": 26993.685474543, "_offset_ms": 2.0, "_index": 2}
+{"type": "TOOL_CALL_END", "toolCallId": "97494932-96ff-4637-b81d-cc744b2ae6f2", "_timestamp": 26993.686474543, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "97494932-96ff-4637-b81d-cc744b2ae6f2", "result": "42 * 17 = 714", "_timestamp": 26993.687474543, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_START", "message_id": "a95c0ae5-e855-40f5-a5da-d9f67210ecfd", "role": "assistant", "_timestamp": 26993.688474543, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "a95c0ae5-e855-40f5-a5da-d9f67210ecfd", "delta": "42 * 17 = 714", "_timestamp": 26993.689474543, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_END", "message_id": "a95c0ae5-e855-40f5-a5da-d9f67210ecfd", "_timestamp": 26993.690474543, "_offset_ms": 7.0, "_index": 7}
+{"type": "USAGE_METADATA", "input_tokens": 122, "output_tokens": 18, "total_tokens": 206, "model": "gemini-2.5-flash", "_timestamp": 26993.691474543, "_offset_ms": 8.0, "_index": 8}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_calc", "_timestamp": 26993.692474542997, "_offset_ms": 9.0, "_index": 9}

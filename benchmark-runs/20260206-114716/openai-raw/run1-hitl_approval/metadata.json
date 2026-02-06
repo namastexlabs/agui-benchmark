@@ -1,0 +1,50 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 42376.38582100044,
+    "time_to_first_event_ms": 42373.82798099861,
+    "time_to_first_content_ms": 42376.944539999386,
+    "time_to_complete_ms": 42376.38582100044
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1397,
+    "tokens_approx": 349,
+    "final_text": "I can help \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and then your clear confirmation.\n\n1) Tell me:\n- Where the data is stored (local machine, external drive, cloud service, database, backup system, etc.).\n- Which specific data/files/folders or identifiers (paths, filenames, database tables/rows) to delete.\n- Whether you want a permanent (irreversible) delete or a soft delete/archival.\n- Any legal/retention constraints or other people who must be informed.\n- Whether you have a backup and want one created first.\n\n2) Risks and recommendations (please confirm you understand):\n- Permanent deletion may be irreversible. I strongly recommend creating a backup or export before deleting.\n- Deleting database rows or system files can break applications that depend on them.\n- Ensure you have authority to delete this data.\n\n3) Approval step (I will only proceed after this):\n- After you provide the details above, reply with the exact confirmation phrase below (copy-paste) to authorize deletion:\n  I AUTHORIZE PERMANENT DELETION of the specified data.\n- If you want a soft delete or archive instead, reply with:\n  I AUTHORIZE SOFT DELETE/ARCHIVE of the specified data.\n\nTell me the details requested, then reply with one of those exact confirmation phrases when you\u2019re ready. I\u2019ll wait for your confirmation before taking any deletion steps."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 812,
+    "total_tokens": 1023
+  },
+  "events": {
+    "total_events": 296,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1397,
+    "total_chunks": 291,
+    "duration_ms": 290.0,
+    "throughput_chars_per_sec": 4817.241379310345,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

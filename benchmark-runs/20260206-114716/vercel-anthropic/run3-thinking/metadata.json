@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3537.9619160012226,
+    "time_to_first_event_ms": 1441.7463919999136,
+    "time_to_first_content_ms": 3538.113094000437,
+    "time_to_complete_ms": 3537.9619160012226
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 650,
+    "tokens_approx": 162,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, we need to remove the +5 from the left side. We do this by subtracting 5 from both sides of the equation (whatever we do to one side, we must do to the other to keep the equation balanced).\n\nx + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\nx = 7\n\n**Step 4: Verify the answer**\nLet me check: 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\nThe reasoning is based on the principle of maintaining equation balance\u2014by subtracting 5 from both sides, we isolate x while keeping the equation valid."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 64,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 650,
+    "total_chunks": 60,
+    "duration_ms": 59.0,
+    "throughput_chars_per_sec": 11016.949152542375,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

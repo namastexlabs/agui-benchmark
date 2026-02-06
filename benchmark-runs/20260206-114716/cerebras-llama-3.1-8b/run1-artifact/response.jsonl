@@ -1,0 +1,27 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b", "_timestamp": 26993.68907148, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770389241", "role": "assistant", "_timestamp": 26993.69007148, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "**", "_timestamp": 26993.69107148, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "Simple Addition Function in Python**\n=====================================\n\nHere's a basic example", "_timestamp": 26993.69207148, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " of a function that adds two numbers in Python:\n\n```", "_timestamp": 26993.69307148, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "python\ndef add_numbers(a: float, b:", "_timestamp": 26993.69407148, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " float) -> float:\n    \"\"\"\n    This", "_timestamp": 26993.69507148, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " function adds two numbers together.\n\n    Args:\n        a", "_timestamp": 26993.69607148, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " (float): The first number.\n        b (float", "_timestamp": 26993.69707148, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "): The second number.\n\n    Returns:\n        float:", "_timestamp": 26993.698071479997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " The sum of a and b.\n    \"\"\"\n    return", "_timestamp": 26993.699071479998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " a + b\n```\n\n**Example Use Cases", "_timestamp": 26993.700071479998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": ":**\n--------------------\n\n```python\n# Example 1", "_timestamp": 26993.701071479998, "_offset_ms": 12.0, "_index": 12}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": ": Adding two integers\nprint(add_numbers(5, ", "_timestamp": 26993.70207148, "_offset_ms": 13.0, "_index": 13}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "7))  # Output: 12\n\n# Example", "_timestamp": 26993.70307148, "_offset_ms": 14.0, "_index": 14}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " 2: Adding two floats\nprint(add_numbers(", "_timestamp": 26993.70407148, "_offset_ms": 15.0, "_index": 15}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "5.5, 7.2))  # Output", "_timestamp": 26993.70507148, "_offset_ms": 16.0, "_index": 16}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": ": 12.7\n```\n\nYou can save", "_timestamp": 26993.70607148, "_offset_ms": 17.0, "_index": 17}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " this code in a Python file (e.g., `", "_timestamp": 26993.70707148, "_offset_ms": 18.0, "_index": 18}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "addition_function.py`) and run it using Python (", "_timestamp": 26993.70807148, "_offset_ms": 19.0, "_index": 19}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "e.g., `python addition_function.py`). The code", "_timestamp": 26993.70907148, "_offset_ms": 20.0, "_index": 20}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " is well-structured, readable, and includes a doc", "_timestamp": 26993.71007148, "_offset_ms": 21.0, "_index": 21}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": "string that explains the function's purpose, input arguments,", "_timestamp": 26993.71107148, "_offset_ms": 22.0, "_index": 22}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389241", "delta": " and return value.", "_timestamp": 26993.71207148, "_offset_ms": 23.0, "_index": 23}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770389241", "_timestamp": 26993.71307148, "_offset_ms": 24.0, "_index": 24}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 228, "total_tokens": 278, "model": "llama-3.1-8b", "_timestamp": 26993.71407148, "_offset_ms": 25.0, "_index": 25}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "_timestamp": 26993.71507148, "_offset_ms": 26.0, "_index": 26}

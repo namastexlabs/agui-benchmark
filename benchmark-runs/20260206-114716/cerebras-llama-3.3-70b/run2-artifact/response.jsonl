@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "model": "llama-3.3-70b", "_timestamp": 27052.478171149, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770389303", "role": "assistant", "_timestamp": 27052.479171149, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": "```", "_timestamp": 27052.480171149, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": "python\ndef add_numbers(a: float, b: float) -> float", "_timestamp": 27052.481171149, "_offset_ms": 3.0, "_index": 3}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": ":\n    \"\"\"\n    Adds two numbers together.\n\n   ", "_timestamp": 27052.482171149, "_offset_ms": 4.0, "_index": 4}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": " Args:\n        a (float): The first number.\n        b (float): The second number", "_timestamp": 27052.483171149, "_offset_ms": 5.0, "_index": 5}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": ".\n\n    Returns:\n        float: The sum of a and b.\n   ", "_timestamp": 27052.484171149, "_offset_ms": 6.0, "_index": 6}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": " \"\"\"\n    return a + b\n\n# Example usage:\nif __", "_timestamp": 27052.485171149, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": "name__ == \"__main__\":\n    num1 = 5\n    num2 =", "_timestamp": 27052.486171149, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": " 7\n    result = add_numbers(num1, num2)\n    print", "_timestamp": 27052.487171148998, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": "(f\"The sum of {num1} and {num2} is: {result}\")\n", "_timestamp": 27052.488171148998, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770389303", "delta": "```", "_timestamp": 27052.489171148998, "_offset_ms": 11.0, "_index": 11}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770389303", "_timestamp": 27052.490171149, "_offset_ms": 12.0, "_index": 12}
+{"type": "USAGE_METADATA", "input_tokens": 50, "output_tokens": 126, "total_tokens": 176, "model": "llama-3.3-70b", "_timestamp": 27052.491171149, "_offset_ms": 13.0, "_index": 13}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "_timestamp": 27052.492171149, "_offset_ms": 14.0, "_index": 14}

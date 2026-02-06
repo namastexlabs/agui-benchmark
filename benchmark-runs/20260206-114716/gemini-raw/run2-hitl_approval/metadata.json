@@ -1,0 +1,50 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12631.519317998027,
+    "time_to_first_event_ms": 12631.230184997548,
+    "time_to_first_content_ms": 12631.55055199968,
+    "time_to_complete_ms": 12631.519317998027
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 267,
+    "tokens_approx": 66,
+    "final_text": "I understand you want to delete important data, but I am an AI assistant and do not have the ability to access or delete any of your personal data or files. I cannot proceed with this request, nor can I ask for your approval to do something I am not capable of doing."
+  },
+  "tokens": {
+    "input_tokens": 120,
+    "output_tokens": 57,
+    "total_tokens": 228
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  },
+  "streaming": {
+    "total_chars": 267,
+    "total_chunks": 2,
+    "duration_ms": 1.0,
+    "throughput_chars_per_sec": 267000.0,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

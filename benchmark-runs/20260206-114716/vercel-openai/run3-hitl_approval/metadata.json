@@ -1,0 +1,49 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 21594.84280000106,
+    "time_to_first_event_ms": 1906.9973670011677,
+    "time_to_first_content_ms": 21595.410154001,
+    "time_to_complete_ms": 21594.84280000106
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1181,
+    "tokens_approx": 295,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything. Before I proceed, please provide these details and confirm:\n\n1) What exactly will be deleted (files, database rows, cloud bucket, etc.)?  \n2) Where it\u2019s located (file path, server, service and account, database name/table).  \n3) Do you have a current backup? If not, do you want instructions to create one first?  \n4) Do you want permanent deletion (irreversible) or a soft/archive/delete-to-recycle-bin option?  \n5) When should the deletion occur? Now or scheduled?\n\nWarning: permanent deletion can be irreversible. If this is critical data, I strongly recommend creating a backup before proceeding.\n\nIf you still want me to continue, please confirm by typing one of these exact phrases so I don\u2019t act on an accidental reply:\n- For permanent deletion: CONFIRM DELETE PERMANENT  \n- For soft-delete/archive: CONFIRM DELETE SOFT\n\nAfter you send the exact confirmation phrase and the details above, I\u2019ll either (a) give step-by-step deletion commands/instructions, or (b) proceed with any deletion steps you\u2019ve asked me to perform \u2014 but only after I receive that exact confirmation. Which data are we deleting?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": {
+    "total_chars": 1181,
+    "total_chunks": 255,
+    "duration_ms": 254.0,
+    "throughput_chars_per_sec": 4649.606299212598,
+    "avg_gap_ms": 1.0,
+    "p95_gap_ms": 1.0,
+    "stalls": 0,
+    "stall_time_ms": 0
+  }
+}

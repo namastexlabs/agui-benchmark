@@ -1,0 +1,13 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 27112.669693047, "_offset_ms": 0.0, "_index": 0}
+{"type": "TEXT_MESSAGE_START", "messageId": "59320ec9-f7e9-457d-a443-5eada9135d1d", "role": "assistant", "_timestamp": 27112.670693047, "_offset_ms": 1.0, "_index": 1}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "59320ec9-f7e9-457d-a443-5eada9135d1d", "delta": "To find x in the equation x + 5 = 12, we can subtract 5 from both sides of the equation:\n\nx = 12 - 5\n\n", "_timestamp": 27112.671693047, "_offset_ms": 2.0, "_index": 2}
+{"type": "TEXT_MESSAGE_END", "messageId": "59320ec9-f7e9-457d-a443-5eada9135d1d", "_timestamp": 27112.672693047, "_offset_ms": 3.0, "_index": 3}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_4546dd6010f1415ead021dd40b6caaa9", "toolCallName": "calculator", "parentMessageId": "59320ec9-f7e9-457d-a443-5eada9135d1d", "_timestamp": 27112.673693047, "_offset_ms": 4.0, "_index": 4}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_4546dd6010f1415ead021dd40b6caaa9", "delta": "{\"expression\":\"12 - 5\"}", "_timestamp": 27112.674693047, "_offset_ms": 5.0, "_index": 5}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_4546dd6010f1415ead021dd40b6caaa9", "_timestamp": 27112.675693047, "_offset_ms": 6.0, "_index": 6}
+{"type": "TOOL_CALL_RESULT", "messageId": "64a683bd-f680-4d66-94a0-03b92427980a", "toolCallId": "pyd_ai_4546dd6010f1415ead021dd40b6caaa9", "content": "12 - 5 = 7", "role": "tool", "_timestamp": 27112.676693047, "_offset_ms": 7.0, "_index": 7}
+{"type": "TEXT_MESSAGE_START", "messageId": "df9505bb-38a5-484e-b43f-25c47f34fcac", "role": "assistant", "_timestamp": 27112.677693047, "_offset_ms": 8.0, "_index": 8}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "df9505bb-38a5-484e-b43f-25c47f34fcac", "delta": "So", "_timestamp": 27112.678693046997, "_offset_ms": 9.0, "_index": 9}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "df9505bb-38a5-484e-b43f-25c47f34fcac", "delta": ", x = 7.", "_timestamp": 27112.679693046997, "_offset_ms": 10.0, "_index": 10}
+{"type": "TEXT_MESSAGE_END", "messageId": "df9505bb-38a5-484e-b43f-25c47f34fcac", "_timestamp": 27112.680693046997, "_offset_ms": 11.0, "_index": 11}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-thinking", "_timestamp": 27112.681693046998, "_offset_ms": 12.0, "_index": 12}

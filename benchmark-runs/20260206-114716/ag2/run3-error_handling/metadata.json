@@ -1,0 +1,40 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 20098.894042999746,
+    "time_to_first_event_ms": 2576.975312000286,
+    "time_to_first_content_ms": 20098.93041900068,
+    "time_to_complete_ms": 20098.894042999746
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0,
+    "tool_calls_detail": []
+  },
+  "response": {
+    "chars": 1190,
+    "tokens_approx": 297,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool\" available. I can\u2019t call something that doesn\u2019t exist, but I can help in several ways \u2014 pick one:\n\n- Do the action directly for you (e.g., compute, summarize, edit text, generate code).\n- Provide a ready-to-run example of how you would call a tool/API named \"nonexistent_tool\" (Python, curl, etc.).\n- Mock or simulate what that tool\u2019s output would look like given an input.\n- Suggest an existing tool or library that does what you need and show how to use it.\n\nIf you want an example, here\u2019s a simple placeholder you can adapt to a real API:\n\nPython (requests)\npayload = {\"task\": \"do something\", \"input\": \"your input here\"}\nresponse = requests.post(\"https://api.example.com/nonexistent_tool\", json=payload, headers={\"Authorization\":\"Bearer YOUR_KEY\"})\nprint(response.json())\n\ncurl\ncurl -X POST \"https://api.example.com/nonexistent_tool\" -H \"Authorization: Bearer YOUR_KEY\" -H \"Content-Type: application/json\" -d '{\"task\":\"do something\",\"input\":\"your input here\"}'\n\nOr I can just do the task now \u2014 tell me what \u201cdo something\u201d means (e.g., summarize a text, generate code, run a calculation, fetch facts), and I\u2019ll handle it. Which would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  },
+  "streaming": null
+}
