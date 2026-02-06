@@ -1553,6 +1553,13 @@ async def main():
         print(f"   - Streaming responses (JSONL): */response.jsonl")
         print(f"   - Test metadata: */metadata.json")
         print(f"   - Run summary: summary.json")
+        print(f"\n📊 Generate research reports:")
+        print(f"   python3 generate_reports.py")
+        print(f"\n📈 Reports will be saved to:")
+        print(f"   - docs/reports/EVENT-COVERAGE-MATRIX.md")
+        print(f"   - docs/reports/FRAMEWORK-COMPARISON-MATRIX.md")
+        print(f"   - docs/reports/EVENT-TYPE-ANALYSIS.md")
+        print(f"   - docs/reports/BENCHMARK-SUMMARY.md")
 
 
 if __name__ == "__main__":
