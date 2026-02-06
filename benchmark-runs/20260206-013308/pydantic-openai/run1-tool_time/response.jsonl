@@ -1,0 +1,30 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_VnGOq1N2kdw2et9d91XD2ms0", "toolCallName": "get_current_time", "parentMessageId": "1aacb632-27e3-4de6-9321-13647f6c1d19"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_VnGOq1N2kdw2et9d91XD2ms0", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_VnGOq1N2kdw2et9d91XD2ms0"}
+{"type": "TOOL_CALL_RESULT", "messageId": "2c48ca84-35fd-4793-ab3e-dddd89a5afc5", "toolCallId": "call_VnGOq1N2kdw2et9d91XD2ms0", "content": "2026-02-06 01:33:12", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "Current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "from"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "):"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "33"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "12"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "messageId": "bd504c80-1c0d-41d1-88e1-45e9e9061a4f"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_time"}

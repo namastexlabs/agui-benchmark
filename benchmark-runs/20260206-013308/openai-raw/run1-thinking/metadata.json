@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 17797.603101003915,
+    "time_to_first_event_ms": 17796.51234904304,
+    "time_to_first_content_ms": 17797.759307082742,
+    "time_to_complete_ms": 17797.603101003915
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 216,
+    "tokens_approx": 54,
+    "final_text": "Sorry \u2014 I can\u2019t share my internal step-by-step chain-of-thought. I can, however, give the answer and a brief, direct explanation.\n\nx + 5 = 12  \nSubtract 5 from both sides: x = 12 \u2212 5 = 7\n\nCheck: 7 + 5 = 12, so x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 78,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

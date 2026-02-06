@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6205.29156900011,
+    "time_to_first_event_ms": 1424.0024910541251,
+    "time_to_first_content_ms": 6207.6520380796865,
+    "time_to_complete_ms": 6205.29156900011
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 214,
+    "tokens_approx": 53,
+    "final_text": "The current system time is 2026-02-06 01:33:12. Would you like this shown in a specific timezone or format?The current system time is 2026-02-06 01:33:12. Would you like this shown in a specific timezone or format?"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 168,
+    "total_tokens": 414
+  },
+  "events": {
+    "total_events": 113,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5292.460780940019,
+    "time_to_first_event_ms": 4355.013172957115,
+    "time_to_first_content_ms": 5292.512771906331,
+    "time_to_complete_ms": 5292.460780940019
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 644,
+    "tokens_approx": 161,
+    "final_text": "Before proceeding with deleting any data, I need to confirm that you are certain about this action. \n\nTo confirm, you want to delete important data. Can you please provide me with more information about the data you are trying to delete, such as its location (e.g. computer, cloud storage, etc.) and the type of data (e.g. documents, images, etc.)? \n\nAlso, I would like to confirm that you have made a backup of the data, and that you are aware of the irreversibility of this action. \n\nPlease type 'DELETE' to confirm that you are certain about deleting the data. If you are not certain, or if you need further assistance, please type 'CANCEL'."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 18,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "a, b):\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "Args:\n        a: The first"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " number\n        b: The second number"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "\n    \n    Returns:\n        "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "The sum of a and b\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "\"\"\"\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "\n\n\n# Example usage:\nresult = ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "d(5, 3)\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "\n```\n\nThis"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " function takes"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " two parameters (`a` and `b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "`) and returns their sum. You"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " can call"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " it with"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " any numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": " you'"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258", "delta": "d like!"}
+{"type": "TEXT_MESSAGE_END", "messageId": "1f4b1b2b-0043-4017-ac4d-a02048471258"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}

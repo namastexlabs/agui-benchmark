@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2639.2234369413927,
+    "time_to_first_event_ms": 1095.1746379723772,
+    "time_to_first_content_ms": 2639.2604599241167,
+    "time_to_complete_ms": 2639.2234369413927
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 138,
+    "tokens_approx": 34,
+    "final_text": "I'm sorry, I cannot use the `nonexistent_tool` as it does not exist. I can tell you the current time or help with basic math calculations."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

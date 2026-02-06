@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9664.954914944246,
+    "time_to_first_event_ms": 340.1887519285083,
+    "time_to_first_content_ms": 9665.749529958703,
+    "time_to_complete_ms": 9664.954914944246
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1034,
+    "tokens_approx": 258,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need some details and a clear confirmation from you.\n\nPlease provide:\n1. Exactly what to delete (file paths, bucket names, database/table/row IDs, or other identifiers).  \n2. Where it is located (local machine, server name/IP, cloud provider & region, etc.).  \n3. Whether you have a current backup and, if not, whether you want instructions to create one first.  \n4. Any timing constraints or dependencies (downtime window, related services to stop, etc.).  \n5. Confirmation that you are authorized to delete this data.\n\nWhen you\u2019ve given the details above, confirm you want me to proceed by replying with the exact phrase:\nCONFIRM DELETE \u2014 I AUTHORIZE PERMANENT REMOVAL\n\nI will take no deletion actions until I receive that exact confirmation. Note: I can\u2019t directly access your systems unless you connect them or run the commands I provide \u2014 I can give step-by-step commands, scripts, or a checklist for safe deletion. Which would you prefer?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 225,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

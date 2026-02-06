@@ -1,0 +1,60 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "python"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "def"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " ->"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "Return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ".\"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " Example"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "3"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ")\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " print"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " #"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "0"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "c4494610-63b3-451f-b5d5-ca6e75bdc260"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-artifact"}

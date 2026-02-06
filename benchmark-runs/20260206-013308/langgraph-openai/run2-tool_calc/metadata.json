@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5282.874198979698,
+    "time_to_first_event_ms": 848.1130650034174,
+    "time_to_first_content_ms": 5284.42012204323,
+    "time_to_complete_ms": 5282.874198979698
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 86,
+    "tokens_approx": 21,
+    "final_text": "I used the calculator tool \u2014 42 \u00d7 17 = 714.I used the calculator tool \u2014 42 \u00d7 17 = 714."
+  },
+  "tokens": {
+    "input_tokens": 248,
+    "output_tokens": 88,
+    "total_tokens": 336
+  },
+  "events": {
+    "total_events": 95,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

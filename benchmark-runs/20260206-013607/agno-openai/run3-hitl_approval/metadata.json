@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10623.419414972886,
+    "time_to_first_event_ms": 254.9675269983709,
+    "time_to_first_content_ms": 10623.920595040545,
+    "time_to_complete_ms": 10623.419414972886
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1173,
+    "tokens_approx": 293,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I ask for that approval, I need a few quick details so you and I both know exactly what will be deleted and the consequences:\n\nPlease tell me:\n1. Exact data to delete (file names, folders, database/table names, or system components).  \n2. Where it is stored (server name/IP, cloud provider and bucket, local machine path, etc.).  \n3. Do you have a backup or snapshot? If not, do you want me to create one or recommend how to back up?  \n4. Is deletion irreversible (permanent delete vs. move to trash/archive)?  \n5. When should the deletion occur (immediately or scheduled)?  \n6. Do you confirm you have authorization to delete this data?  \n\nWhen you\u2019re ready to proceed, please give explicit approval by replying with this exact phrase (replace bracketed text):  \n\"I approve deletion of [exact data description] at [location]. I confirm backups/authorization as stated above.\"\n\nOnce I receive that exact approval phrase, I\u2019ll proceed with the deletion steps we agreed. If you prefer, I can first provide a safe deletion plan and the exact commands/steps for you to run instead. Which do you want?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

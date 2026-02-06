@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2022.6295659085736,
+    "time_to_first_event_ms": 302.0078589906916,
+    "time_to_first_content_ms": 2022.7736739907414,
+    "time_to_complete_ms": 2022.6295659085736
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 849,
+    "tokens_approx": 212,
+    "final_text": "# Simple Python Function to Add Two Numbers\n\nHere's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"Add two numbers and return the result.\"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nYou can also create a more documented version with type hints:\n\n```python\ndef add(a: float, b: float) -> float:\n    \"\"\"\n    Add two numbers together.\n    \n    Args:\n        a: The first number\n        b: The second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nprint(add(5, 3))      # Output: 8\nprint(add(5.5, 2.5))  # Output: 8.0\n```\n\nBoth versions work the same way\u2014just pick whichever style you prefer! The second one with type hints is generally better for larger projects as it makes the code more readable and helps with debugging."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 52,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

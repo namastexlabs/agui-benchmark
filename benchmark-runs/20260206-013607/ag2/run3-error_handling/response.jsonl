@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e09e17f3-76ee-467c-83f7-b6304a4a8d6c", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e09e17f3-76ee-467c-83f7-b6304a4a8d6c", "delta": "I don\u2019t have access to a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my environment. I can\u2019t call external tools that aren\u2019t present.\n\nTell me what you want done and I can:\n- Do the work myself right here (write code, analyze text, compute, draft email, etc.)\n- Simulate what \"nonexistent_tool\" *would* do and show sample output\n- Show how to implement a tool by that name (small script or CLI) so you can run it locally\n\nWhich would you like, and what specific task should I perform?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "e09e17f3-76ee-467c-83f7-b6304a4a8d6c"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-error_handling"}

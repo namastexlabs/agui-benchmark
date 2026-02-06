@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "0d6e4db8-19dd-45ee-b8ee-8e5b89e05233", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "0d6e4db8-19dd-45ee-b8ee-8e5b89e05233"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_012wG418Lqiz8kYzQZyVuGMq", "toolCallName": "get_current_time", "parentMessageId": "0d6e4db8-19dd-45ee-b8ee-8e5b89e05233"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_012wG418Lqiz8kYzQZyVuGMq", "delta": "{}"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_011sXrmSM6bwmELQpNuMBdUt", "toolCallName": "calculator", "parentMessageId": "0d6e4db8-19dd-45ee-b8ee-8e5b89e05233"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_011sXrmSM6bwmELQpNuMBdUt", "delta": "{\"expression\": \"10 + 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_012wG418Lqiz8kYzQZyVuGMq"}
+{"type": "TOOL_CALL_RESULT", "messageId": "8e956295-4c19-458f-9a9b-099179ba91f8", "toolCallId": "toolu_012wG418Lqiz8kYzQZyVuGMq", "content": "2026-02-06 01:34:00", "role": "tool"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_011sXrmSM6bwmELQpNuMBdUt"}
+{"type": "TOOL_CALL_RESULT", "messageId": "289a60e6-4307-4231-b571-1e005d37aa24", "toolCallId": "toolu_011sXrmSM6bwmELQpNuMBdUt", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": "Perfect"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": "! Here are the results:\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": "Current time:** "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": "2026-02-06 01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": ":34:00\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": "Calculation:** 10 + 20"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a", "delta": " = 30"}
+{"type": "TEXT_MESSAGE_END", "messageId": "aa083c75-739f-4e30-8bec-f78b8b88f89a"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-multi_tool"}

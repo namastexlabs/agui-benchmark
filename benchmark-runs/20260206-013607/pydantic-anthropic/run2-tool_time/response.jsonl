@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01Dra4iDUKjcmL5nDLyL9fuF", "toolCallName": "get_current_time", "parentMessageId": "abb16a1b-19d3-40d5-97b8-d36caa673cba"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01Dra4iDUKjcmL5nDLyL9fuF", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01Dra4iDUKjcmL5nDLyL9fuF"}
+{"type": "TOOL_CALL_RESULT", "messageId": "2f13a582-39ad-47b8-9719-edc0216ec3c7", "toolCallId": "toolu_01Dra4iDUKjcmL5nDLyL9fuF", "content": "2026-02-06 01:36:50", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": "2026-02-06 at"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " 01:36:50** ("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": "just"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " after"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " 1:36 "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": "AM"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " on"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " February 6th"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad", "delta": " 2026)."}
+{"type": "TEXT_MESSAGE_END", "messageId": "fc170ead-8408-4484-bc37-4967e8a464ad"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_time"}

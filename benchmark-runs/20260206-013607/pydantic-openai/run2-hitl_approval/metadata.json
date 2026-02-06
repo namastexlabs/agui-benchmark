@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9541.876076022163,
+    "time_to_first_event_ms": 356.71664006076753,
+    "time_to_first_content_ms": 9542.277597007342,
+    "time_to_complete_ms": 9541.876076022163
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 788,
+    "tokens_approx": 197,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we continue, please tell me:\n\n1. Exactly what should be deleted (files, folders, database rows, cloud bucket, etc.).  \n2. Where it is located (path, server, cloud provider/account, database name).  \n3. Do you have a backup or snapshot? (If not, I strongly recommend making one.)  \n4. Do you want a permanent (irreversible) delete or a recoverable/soft delete?  \n5. Do you want me to (a) give step-by-step commands/scripts you run, or (b) if you provide access, execute the deletion for you?\n\nIf you still want me to proceed after answering the questions above, please type this exact confirmation phrase: CONFIRM DELETE\n\nI will wait for your answers and that exact confirmation before taking any deletion steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 181,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

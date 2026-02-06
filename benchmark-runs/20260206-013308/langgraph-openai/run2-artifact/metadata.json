@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5126.769715105183,
+    "time_to_first_event_ms": 853.3150200964883,
+    "time_to_first_content_ms": 5127.992085996084,
+    "time_to_complete_ms": 5126.769715105183
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 164,
+    "tokens_approx": 41,
+    "final_text": "```python\ndef add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n``````python\ndef add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 210,
+    "output_tokens": 163,
+    "total_tokens": 373
+  },
+  "events": {
+    "total_events": 74,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

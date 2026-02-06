@@ -1,0 +1,24 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352614", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " solve the equation x + 5 = 12, I'll"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " follow these steps:\n\n1. **Understand the equation**: The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " equation x + 5 = 12 means we have a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " variable 'x' added to 5, and the result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " is 12.\n\n2. **Isolate the variable**: To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " find the value of 'x', we need to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " isolate it on one side of the equation. To do this,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " we'll subtract 5 from both sides of the equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": ".\n\n3. **Perform the subtraction**: \n   - On the left"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " side, we have x + 5. Subtracting "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "5 from this will leave us with just x.\n   -"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " On the right side, we have 12. Subtracting "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "5 from this will give us 12 - 5 = "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "7.\n\n4. **Simplify the equation**: After subtract"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "ing 5 from both sides, the equation becomes:\n   x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " + 5 - 5 = 12 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "\n   This simplifies to:\n   x = 7\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "Therefore, the value of x is "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352614"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10876.502820057794,
+    "time_to_first_event_ms": 232.8541970346123,
+    "time_to_first_content_ms": 10877.202330040745,
+    "time_to_complete_ms": 10876.502820057794
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1556,
+    "tokens_approx": 389,
+    "final_text": "Understood \u2014 I will not delete anything unless you explicitly approve. Before I help, I need a few details and an explicit confirmation phrase from you.\n\n1) Quick checklist I need from you\n- What exactly will be deleted? (files, folders, database rows, cloud buckets, user accounts, etc.)\n- Where is it stored? (local Windows/macOS/Linux, AWS/Azure/GCP, Git repo, MySQL/Postgres, etc.)\n- Is there a backup you can restore from if needed? (Yes/No)\n- Is this deletion irreversible (permanent) or can items be moved to Trash/Quarantine first?\n- Do you have authority to delete these items (are you the owner/admin)?\n\n2) Risks and recommendations (brief)\n- Permanent deletion is often irreversible. Back up anything you might need.\n- For critical systems, test on a copy first or schedule downtime.\n- I can provide safe commands (move to trash, archive, then delete) or irreversible commands (shred, rm -rf, DROP TABLE).\n\n3) How to approve\nIf you confirm you understand and want me to prepare and show deletion steps/commands, reply with this exact confirmation phrase, replacing <TARGET> with a short name you choose (e.g., projectX-files):\n\nCONFIRM DELETE: <TARGET>\n\nExample: CONFIRM DELETE: projectX-files\n\nAfter I receive that exact phrase, I will:\n- Re-state what will be deleted and the exact commands/steps I will provide,\n- Ask one final yes/no if needed,\n- Then give the deletion commands and safety steps (I cannot execute them for you; you must run them).\n\nTell me the details from (1) and your chosen <TARGET> confirmation phrase when you\u2019re ready."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 359,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352572", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " find the value of x, we need to isolate x on one side of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " the equation. \n\nStep 1: We have the equation x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " + 5 = 12. \n\nStep "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "2: To isolate x, we need to get rid of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " the +5 on the left side of the equation. We can"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " do this by subtracting 5 from both sides of the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " equation. \n\nStep 3: When we subtract 5 from"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " x + 5, we get x. So the equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " becomes x + 5 - 5 = 12 - "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "5.\n\nStep 4: Simplifying the equation, we"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " have x = 12 - 5.\n\nStep 5:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " Performing the subtraction, we get x = 7.\n\nTherefore"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": ", the value of x is 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352572"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

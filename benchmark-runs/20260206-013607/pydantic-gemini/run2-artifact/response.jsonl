@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935", "delta": "Here is a simple Python function that adds two numbers:\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935", "delta": "```python\ndef add_two_"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935", "delta": "numbers(a, b):\n    return a + b\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "3c9d24e6-77f4-4f8f-850e-4f1d0ae6a935"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}

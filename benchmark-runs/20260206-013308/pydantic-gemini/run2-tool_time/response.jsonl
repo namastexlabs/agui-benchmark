@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_9d42c40f83dd40759bf333104fee9757", "toolCallName": "get_current_time", "parentMessageId": "5c7e1f4a-a17e-4a84-8054-be69e738549f"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_9d42c40f83dd40759bf333104fee9757"}
+{"type": "TOOL_CALL_RESULT", "messageId": "a9f4c705-dec8-402d-9f7f-ae01407862f8", "toolCallId": "pyd_ai_9d42c40f83dd40759bf333104fee9757", "content": "2026-02-06 01:33:59", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "b4c0b33d-c934-4abf-afbf-5c7aae295485", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b4c0b33d-c934-4abf-afbf-5c7aae295485", "delta": "The current time is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b4c0b33d-c934-4abf-afbf-5c7aae295485", "delta": " 01:33:59 on 2026-02-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b4c0b33d-c934-4abf-afbf-5c7aae295485", "delta": "06."}
+{"type": "TEXT_MESSAGE_END", "messageId": "b4c0b33d-c934-4abf-afbf-5c7aae295485"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_time"}

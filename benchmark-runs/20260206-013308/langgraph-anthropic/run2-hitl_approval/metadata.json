@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4664.478265913203,
+    "time_to_first_event_ms": 853.3350529614836,
+    "time_to_first_content_ms": 4665.999693912454,
+    "time_to_complete_ms": 4664.478265913203
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1366,
+    "tokens_approx": 341,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data**. I can only:\n\n1. **Tell you the current date and time**\n2. **Perform basic math calculations**\n\nI don't have access to files, databases, accounts, or any systems that store data. I cannot delete, modify, or access any of your information.\n\nIf you need to delete important data, you'll need to:\n- Use the application or service where that data is stored directly\n- Contact the appropriate administrator or support team\n- Follow your organization's data deletion procedures\n\nIs there something else I can help you with, like answering questions or doing calculations?I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data**. I can only:\n\n1. **Tell you the current date and time**\n2. **Perform basic math calculations**\n\nI don't have access to files, databases, accounts, or any systems that store data. I cannot delete, modify, or access any of your information.\n\nIf you need to delete important data, you'll need to:\n- Use the application or service where that data is stored directly\n- Contact the appropriate administrator or support team\n- Follow your organization's data deletion procedures\n\nIs there something else I can help you with, like answering questions or doing calculations?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 154,
+    "total_tokens": 834
+  },
+  "events": {
+    "total_events": 114,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

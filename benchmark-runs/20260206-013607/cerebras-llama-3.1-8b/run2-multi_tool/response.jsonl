@@ -1,0 +1,15 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352614", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "'m a large language model, I don't have a real-time clock, but"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " I can use the system time to get the current time. Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "'s how you can do it:\n\n```python\nfrom datetime"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " import datetime\n\n# Get the current time\ncurrent_time = datetime"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": ".now().strftime(\"%H:%M:%S\")\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "print(f\"Current time: {current_time}\")\n\n# Calculate"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " 10 + 20\nresult = 10 + "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "20\n\nprint(f\"10 + 20 = {result}\")\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": "```\n\nWhen you run this code, it will print the current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352614", "delta": " time and the result of the calculation."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352614"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-multi_tool"}

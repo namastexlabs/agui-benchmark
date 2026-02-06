@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9531.59637900535,
+    "time_to_first_event_ms": 2340.2981749968603,
+    "time_to_first_content_ms": 9532.18265005853,
+    "time_to_complete_ms": 9531.59637900535
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1112,
+    "tokens_approx": 278,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I proceed, I need a few details and an explicit confirmation from you.\n\nPlease answer these now:\n1. What exactly do you want deleted? (files, database rows, cloud bucket, account, etc.) Include names/paths and approximate size.\n2. Where is it stored? (local machine, server name, cloud provider and bucket/container, database name/table)\n3. Do you have a current backup? If not, do you want me to create one (or walk you through creating one) before deletion?\n4. Is this irreversible? Are there legal/compliance or shared-access concerns (other owners, users who must be notified)?\n5. When should the deletion happen (immediately or scheduled)?\n\nIf you understand the risks and want me to proceed after I confirm details, please give explicit approval by typing this exact phrase (case-sensitive):\n\n    I confirm permanent deletion of the items described above. DELETE NOW.\n\nOnce you provide the details and that exact confirmation phrase, I will list the exact steps I will take and the final checklist before performing the deletion."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 231,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

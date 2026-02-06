@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1428.8330419221893,
+    "time_to_first_event_ms": 234.12464698776603,
+    "time_to_first_content_ms": 1428.908915957436,
+    "time_to_complete_ms": 1428.8330419221893
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 374,
+    "tokens_approx": 93,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nCould you let me know what you'd like to do? I'd be happy to help using one of the available tools, or if you need something specific, I can try to assist you in another way!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 31,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

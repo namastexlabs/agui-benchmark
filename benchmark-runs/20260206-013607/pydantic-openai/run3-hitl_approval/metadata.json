@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 18093.539976980537,
+    "time_to_first_event_ms": 242.792206001468,
+    "time_to_first_content_ms": 18094.283720944077,
+    "time_to_complete_ms": 18093.539976980537
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1446,
+    "tokens_approx": 361,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and an explicit confirmation from you.\n\nPlease provide:\n1. What exactly should be deleted? (file paths, bucket names, database/table/row identifiers, or a clear description)\n2. Where is the data stored? (local machine, server name/IP, cloud provider and bucket/instance, database type and host, etc.)\n3. Is there a backup or snapshot available? Do you want me to create one or show how to create one first?\n4. Do any services or users depend on this data? Any legal/retention requirements?\n5. When do you want the deletion to happen (immediately or scheduled)?\n6. Do you want a dry-run first (a list of items that would be deleted)?\n7. Will I be given access/credentials to perform the deletion, or do you want step-by-step commands you run yourself?\n\nSafety and authorization:\n- Confirm you are authorized to delete this data.\n- Deletion may be irreversible. I strongly recommend a backup unless you\u2019re sure.\n\nExplicit approval required:\nIf you still want me to proceed after answering the questions above, please type the exact confirmation phrase:\n   CONFIRM DELETE: [brief description of what to delete]\nFor example:\n   CONFIRM DELETE: all files in /var/www/html and bucket my-company-backups/old/\n\nI will not run any deletion until I see that exact confirmation phrase and have the details requested. What would you like to delete?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 315,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10981.792013975792,
+    "time_to_first_event_ms": 2548.627187963575,
+    "time_to_first_content_ms": 10981.830272939987,
+    "time_to_complete_ms": 10981.792013975792
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1355,
+    "tokens_approx": 338,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool\" \u2014 I can\u2019t call a tool that isn\u2019t available. I can, however, help in a few ways. Pick one:\n\n1) Tell me what you want done and I\u2019ll do it directly here (no external tool).  \n2) Describe the tool\u2019s expected inputs and outputs and I\u2019ll simulate what its result would be.  \n3) I can provide code and instructions to implement or integrate a real tool (example wrappers, error handling, test stubs).\n\nIf helpful, here\u2019s a minimal Python example showing how to handle a missing tool and provide a stub or real implementation:\n\n- Example: raising error when the tool is missing\n```\ndef call_nonexistent_tool(*args, **kwargs):\n    raise RuntimeError(\"Tool 'nonexistent_tool' is not available.\")\n\ntry:\n    result = call_nonexistent_tool(\"do\", \"something\")\nexcept RuntimeError as e:\n    print(\"Tool call failed:\", e)\n```\n\n- Example: provide a stub implementation (simulate output)\n```\ndef call_nonexistent_tool_stub(task, **params):\n    # Simulate behavior based on task and params\n    if task == \"summarize\":\n        return \"Simulated summary: [...]\"\n    return f\"Simulated result for task={task}, params={params}\"\n\n# Usage\nresult = call_nonexistent_tool_stub(\"summarize\", text=\"Long document...\")\nprint(result)\n```\n\nWhich option do you want? Or tell me specifically what \u201cdo something\u201d means and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

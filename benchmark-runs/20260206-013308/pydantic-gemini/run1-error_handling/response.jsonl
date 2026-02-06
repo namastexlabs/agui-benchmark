@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "372204d0-487f-4832-9a4d-4d3194380f55", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "372204d0-487f-4832-9a4d-4d3194380f55", "delta": "I can't use a tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "372204d0-487f-4832-9a4d-4d3194380f55", "delta": " that doesn't exist. I can tell you the current time or evaluate a mathematical expression."}
+{"type": "TEXT_MESSAGE_END", "messageId": "372204d0-487f-4832-9a4d-4d3194380f55"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}

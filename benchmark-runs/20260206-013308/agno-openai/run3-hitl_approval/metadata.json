@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9881.59330689814,
+    "time_to_first_event_ms": 324.60975798312575,
+    "time_to_first_content_ms": 9882.191351964138,
+    "time_to_complete_ms": 9881.59330689814
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1316,
+    "tokens_approx": 329,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and your explicit confirmation method.\n\nPlease answer these:\n\n1. Exactly what data do you want deleted? (file/folder names, database/table names, bucket names, repo, device, etc.)\n2. Where is it stored? (local path, server hostname, cloud provider and bucket/path, Google Drive/Dropbox/GitHub, etc.)\n3. Do you want permanent deletion or a soft-delete (move to Trash/Recycle Bin/archive)?\n4. Is there a current backup or snapshot? If not, do you want me to create/advise a backup before deletion?\n5. Who owns the data and do you have the necessary permissions to delete it? (I will not ask for passwords.)\n6. When should the deletion occur? (immediately, scheduled date/time, or after a final confirmation)\n7. Any legal/compliance concerns or retention requirements I should know about?\n\nWhen you\u2019re ready to proceed, give explicit approval by typing one of these phrases (choose one and type it exactly):\n- \"DELETE NOW \u2014 I approve permanent deletion\"\nor\n- \"SOFT-DELETE NOW \u2014 I approve moving to Trash/Archive\"\n\nIf you want a different confirmation phrase, tell me which exact phrase I should wait for. I\u2019ll wait for your answers and that explicit approval before taking any action or giving deletion steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 293,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "f492fee9-6f84-48e1-a0f4-b1a54a3095d4", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f492fee9-6f84-48e1-a0f4-b1a54a3095d4", "delta": "10 + 20 = 30.\n\nFor the current time: do you want it in your local timezone or in UTC? I don't have access to your device clock \u2014 tell me your timezone/location (e.g., \"America/New_York\") or say \"UTC\" and I'll give the current time accordingly."}
+{"type": "TEXT_MESSAGE_END", "messageId": "f492fee9-6f84-48e1-a0f4-b1a54a3095d4"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-multi_tool"}

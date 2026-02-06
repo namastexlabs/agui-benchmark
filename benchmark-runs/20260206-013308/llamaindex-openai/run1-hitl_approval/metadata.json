@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14189.273836906068,
+    "time_to_first_event_ms": 2303.1978389481083,
+    "time_to_first_content_ms": 14189.774410915561,
+    "time_to_complete_ms": 14189.273836906068
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 912,
+    "tokens_approx": 228,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything. Before we proceed, I need a few details and your clear confirmation.\n\nPlease tell me:\n1. Exactly what to delete (file paths, database/table names, record IDs, etc.).  \n2. Where it is stored (local machine, cloud provider, database engine, service name).  \n3. Whether you want me to perform the deletion for you or only provide step\u2011by\u2011step instructions.  \n4. That you have authorization to delete this data.  \n5. Whether you have a backup or want a backup/export made first.\n\nWarning: deletion may be irreversible. I recommend a backup and a dry run (list of items that would be deleted) before actual removal.\n\nIf you want me to proceed, confirm by replying with this exact phrase (so I don\u2019t act on accidental messages):\nCONFIRM DELETE: [list the exact items to delete]\n\nIf you change your mind, reply CANCEL. What would you like to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 206,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1774.6243749279529,
+    "time_to_first_event_ms": 344.3234240403399,
+    "time_to_first_content_ms": 1774.9867159873247,
+    "time_to_complete_ms": 1774.6243749279529
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 542,
+    "tokens_approx": 135,
+    "final_text": "Hello! I'm a helpful assistant running on the LangGraph framework. I'm here to help you with a variety of tasks, including telling you the current date and time, and performing basic math calculations. Feel free to ask me anything within these capabilities!Hello! \ud83d\udc4b I'm a helpful AI assistant running on the LangGraph framework, designed to help you with tasks like telling the current time and performing basic math calculations. I'm here to answer your questions and assist you in a friendly and concise way. What can I help you with today?"
+  },
+  "tokens": {
+    "input_tokens": 677,
+    "output_tokens": 55,
+    "total_tokens": 732
+  },
+  "events": {
+    "total_events": 49,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

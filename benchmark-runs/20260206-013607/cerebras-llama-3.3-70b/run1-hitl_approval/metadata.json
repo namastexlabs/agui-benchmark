@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 690.2440619887784,
+    "time_to_first_event_ms": 301.68903002049774,
+    "time_to_first_content_ms": 690.2866000309587,
+    "time_to_complete_ms": 690.2440619887784
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 365,
+    "tokens_approx": 91,
+    "final_text": "Before we proceed, I want to confirm that you are aware of the potential consequences of deleting important data. Once data is deleted, it may be irretrievable.\n\nTo ensure that I have your explicit approval, I will ask: Are you certain you want to proceed with deleting the important data? Please confirm with a clear \"yes\" or \"no\" before I take any further action."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

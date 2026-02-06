@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352657", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "python\ndef add_numbers(a, b):\n    \"\"\"\n    Adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " numbers.\n\n    Args:\n        a (float): The first number.\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "        b (float): The second number.\n\n    Returns:\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "        float: The sum of a and b.\n    \"\"\"\n   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " return a + b\n\n# Example usage:\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "(add_numbers(5, 7))  # Output:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " 12\n```\n\nThis function takes two arguments, `a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "` and `b`, and returns their sum. It includes"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " a docstring with information about the function's parameters and return value"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ". You can replace the example usage with your own numbers to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " see the function in action."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352657"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

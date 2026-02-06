@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8686.29141303245,
+    "time_to_first_event_ms": 242.94263205956668,
+    "time_to_first_content_ms": 8686.665100045502,
+    "time_to_complete_ms": 8686.29141303245
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 720,
+    "tokens_approx": 180,
+    "final_text": "I can\u2019t access a tool called \"nonexistent_tool\" \u2014 it isn\u2019t available in my environment. If you tell me what you want that tool to do, I can either:\n\n- Use one of the available tools instead:\n  - get_current_time \u2014 return the current date/time\n  - calculator \u2014 evaluate a math expression (e.g., \"2 + 2\")\n  - multi_tool_use.parallel \u2014 run multiple of the above tools in parallel\n- Simulate or describe how \"nonexistent_tool\" would behave, if you explain its expected inputs/outputs\n- Perform the task directly without a tool (if it\u2019s something I can do textually)\n\nWhat do you want done? If you want a specific tool run, tell me which of the available tools to use and the parameters (for calculator, give the expression)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 172,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

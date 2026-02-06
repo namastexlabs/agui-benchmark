@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3192.89295503404,
+    "time_to_first_event_ms": 256.5495640737936,
+    "time_to_first_content_ms": 3193.1014760630205,
+    "time_to_complete_ms": 3192.89295503404
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 877,
+    "tokens_approx": 219,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data.** I can only:\n\n1. **Tell you the current time**\n2. **Do basic math calculations**\n\nI cannot access, modify, or delete files, databases, or any data on your system or elsewhere. If you need to delete important data, you would need to:\n\n- Use your operating system's file manager or command line tools directly\n- Use the application that manages that data\n- Contact your IT department or system administrator if it's shared/organizational data\n\n**Before deleting important data**, I'd recommend:\n\u2713 Creating backups first\n\u2713 Double-checking you're deleting the right files\n\u2713 Confirming with relevant stakeholders if it's shared data\n\u2713 Reviewing any retention policies that might apply\n\nIs there something else I can help you with, like doing a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

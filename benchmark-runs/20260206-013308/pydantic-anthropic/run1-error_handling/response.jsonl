@@ -1,0 +1,29 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": "'t have access"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " to a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " only"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " tools available to me are:\n\n1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": ". **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " **calculator** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " expressions\n\nIs"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " you what"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " it is or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " perform math"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " calculations for"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "89494274-f960-4692-9edd-9635de04ff0e", "delta": " you."}
+{"type": "TEXT_MESSAGE_END", "messageId": "89494274-f960-4692-9edd-9635de04ff0e"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-error_handling"}

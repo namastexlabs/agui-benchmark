@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 29216.372171998955,
+    "time_to_first_event_ms": 29213.96061195992,
+    "time_to_first_content_ms": 29216.80639195256,
+    "time_to_complete_ms": 29216.372171998955
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1025,
+    "tokens_approx": 256,
+    "final_text": "I won\u2019t delete anything unless you explicitly tell me to. Before we proceed, I need a few details so I can give the right instructions and warn you about risks.\n\nPlease answer these:\n1. Where is the data stored? (local PC \u2014 Windows/macOS/Linux, external drive, phone, Google Drive, Dropbox, OneDrive, AWS S3, etc.)\n2. Exactly which files/folders or buckets do you want deleted? (full path or names)\n3. Do you have a backup, or should I include steps to make one first?\n4. Do you want a normal delete (recycle/trash) or secure/irreversible deletion (overwriting, shred, or S3 permanent delete)?\n5. Are you asking me to (A) give step-by-step commands you will run, (B) generate a script you will run, or (C) describe the process only?\n\nWhen you\u2019re ready, confirm you want me to proceed by replying with one of these exact confirmations:\n- \u201cYes \u2014 proceed with normal delete\u201d\n- \u201cYes \u2014 proceed with secure delete\u201d\n- \u201cNo \u2014 don\u2019t delete yet\u201d\n\nIf you confirm, I\u2019ll provide precise, irreversible instructions tailored to your answers."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 249,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

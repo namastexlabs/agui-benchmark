@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "cb57724c-180c-4ec7-9af7-0a97c5a2262a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "cb57724c-180c-4ec7-9af7-0a97c5a2262a"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01VtEMYtKVJxx7MpScgd1JaW", "toolCallName": "get_current_time", "parentMessageId": "cb57724c-180c-4ec7-9af7-0a97c5a2262a"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01VtEMYtKVJxx7MpScgd1JaW", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01VtEMYtKVJxx7MpScgd1JaW"}
+{"type": "TOOL_CALL_RESULT", "messageId": "1091b4f8-f6e0-4f8a-a28f-e94b4da735d5", "toolCallId": "toolu_01VtEMYtKVJxx7MpScgd1JaW", "content": "2026-02-06 01:36:50", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": "February"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": " 6, 2026 at"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": " 1:36:50 AM"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": " (01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": ":36:50 in"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa", "delta": " 24-hour format)."}
+{"type": "TEXT_MESSAGE_END", "messageId": "5e575185-5112-4568-a54e-79a16ecee2fa"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_time"}

@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3399.836258031428,
+    "time_to_first_event_ms": 846.036050003022,
+    "time_to_first_content_ms": 3400.923397974111,
+    "time_to_complete_ms": 3399.836258031428
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 80,
+    "tokens_approx": 20,
+    "final_text": "The current time is 2026-02-06 01:34:01.The current time is 2026-02-06 01:34:01."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 88,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 32820.08945895359,
+    "time_to_first_event_ms": 32818.03146796301,
+    "time_to_first_content_ms": 32820.60554192867,
+    "time_to_complete_ms": 32820.08945895359
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 859,
+    "tokens_approx": 214,
+    "final_text": "I will not delete anything until you explicitly approve. Before I prepare deletion steps, tell me:\n\n1. What exact data do you want deleted? (files, emails, database rows, cloud storage objects, accounts, etc.)  \n2. Where is it stored? (local PC \u2014 Windows/Mac/Linux, external drive, Google Drive, Dropbox, AWS S3, Gmail, a SQL/NoSQL database, etc.)  \n3. Do you have a backup or do you want it permanently unrecoverable? (permanent wipe vs. move to trash/archival)  \n4. Any constraints or timing (do this now, scheduled, or during maintenance window)?  \n5. Do you want commands/scripts I can run, or step\u2011by\u2011step manual instructions?\n\nWarning: permanent deletion may be irreversible. If you still want me to prepare deletion instructions or a script, type exactly CONFIRM DELETE and I will proceed to generate the specific steps for the environment you specify."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 201,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

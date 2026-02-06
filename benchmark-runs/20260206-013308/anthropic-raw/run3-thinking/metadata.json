@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8562.250772956759,
+    "time_to_first_event_ms": 8561.30236305762,
+    "time_to_first_content_ms": 8562.464665039442,
+    "time_to_complete_ms": 8562.250772956759
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 680,
+    "tokens_approx": 170,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to isolate x on one side of the equation.\n\n**Step 2: Use inverse operations**\nSince 5 is being added to x, we do the opposite operation (subtraction) to both sides of the equation to keep it balanced.\n\n**Step 3: Subtract 5 from both sides**\n- x + 5 - 5 = 12 - 5\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check: 7 + 5 = 12 \u2713\n\n**Answer: x = 7**\n\n**Reasoning:** To solve for an unknown variable, we perform the same operation on both sides of the equation to isolate the variable. Since 5 was added to x, we subtracted 5 from both sides, which gave us x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 65,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

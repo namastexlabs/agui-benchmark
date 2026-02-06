@@ -1,0 +1,38 @@
+{
+  "agent": "google-adk",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4620.004934957251,
+    "time_to_first_event_ms": 2967.0955119654536,
+    "time_to_first_content_ms": 4620.0268199900165,
+    "time_to_complete_ms": 4620.004934957251
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 70,
+    "tokens_approx": 17,
+    "final_text": "I can't use a tool that doesn't exist. Can I help with something else?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

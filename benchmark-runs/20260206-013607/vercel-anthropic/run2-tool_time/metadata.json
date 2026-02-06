@@ -1,0 +1,42 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2814.722231007181,
+    "time_to_first_event_ms": 1292.182639008388,
+    "time_to_first_content_ms": 2814.7570410510525,
+    "time_to_complete_ms": 2814.722231007181
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0008040806278586388
+  },
+  "response": {
+    "chars": 61,
+    "tokens_approx": 15,
+    "final_text": "The current time is **February 6, 2026 at 4:36:51 AM** (UTC)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 14,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

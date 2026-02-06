@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01SQqGwz4ZEhaE22F8NZMLMr", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01SQqGwz4ZEhaE22F8NZMLMr", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01SQqGwz4ZEhaE22F8NZMLMr"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_01SQqGwz4ZEhaE22F8NZMLMr", "result": "2026-02-06 01:34:03"}
+{"type": "TEXT_MESSAGE_START", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": "2026-02-06 01"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": ":34:03**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " (1"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": ":34 "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": "AM an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": "d 3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " seconds"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " on"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " February"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " 6th"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be", "delta": " 2026)."}
+{"type": "TEXT_MESSAGE_END", "message_id": "3ceb708e-17e0-46e5-97f7-9cd7162535be"}
+{"type": "USAGE_METADATA", "input_tokens": 679, "output_tokens": 39, "total_tokens": 718, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}

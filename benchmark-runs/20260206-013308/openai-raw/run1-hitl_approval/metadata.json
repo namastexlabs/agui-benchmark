@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 32911.5228750743,
+    "time_to_first_event_ms": 32909.005958004855,
+    "time_to_first_content_ms": 32912.019017967395,
+    "time_to_complete_ms": 32911.5228750743
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1235,
+    "tokens_approx": 308,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details so I can prepare a safe, reversible plan and show you exactly what will be deleted.\n\nPlease provide:\n1. What exactly to delete (paths, filenames, database name/table, S3 bucket/prefix, VM/disk name, etc.).\n2. Where it lives (local machine, server hostname or IP, cloud provider and region, database engine + connection info).\n3. Desired method (move to trash/recycle bin, permanent delete, secure overwrite/zero-fill, shred, delete backups as well).\n4. Any backups or snapshots that must be preserved, and whether you have verified them.\n5. Time window / downtime constraints and whether other users/processes depend on this data.\n6. Your preferred outcome if something goes wrong (rollback, restore from backup, stop procedure).\n7. Whether you want a dry-run (show commands that would run without executing) and logs of actions.\n\nWhen you\u2019ve given the details above, type the exact confirmation phrase:\nCONFIRM DELETE\n\nI will not take any deletion action until I see that exact phrase after the details. If you prefer, I can also first produce a deletion plan/commands for you to review (no changes) \u2014 tell me which you want."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 268,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

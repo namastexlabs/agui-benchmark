@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9667.62618208304,
+    "time_to_first_event_ms": 2648.9920830354095,
+    "time_to_first_content_ms": 9667.656194069423,
+    "time_to_complete_ms": 9667.62618208304
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 772,
+    "tokens_approx": 193,
+    "final_text": "I can help, but I won\u2019t proceed without your explicit approval.\n\nBefore I do anything, please tell me:\n1. Exactly what you want deleted (file/folder names or paths, or which account/service).  \n2. Where the data is located (Windows, macOS, Linux, external drive, Google Drive, Dropbox, etc.).  \n3. Whether you have a backup and whether deletion should be reversible (trash/recycle) or permanent/secure (overwritten).  \n4. Any time constraints or other constraints.\n\nI can\u2019t delete files directly from your device \u2014 I\u2019ll give step\u2011by\u2011step instructions once you confirm.\n\nIf you understand and still want to proceed, type this exact confirmation phrase: I confirm delete and include the answers to 1\u20133 above. I will not take further action until I receive that confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

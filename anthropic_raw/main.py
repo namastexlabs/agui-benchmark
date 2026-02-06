@@ -187,6 +187,16 @@ async def agent_endpoint(input_data: RunAgentInput):
                 # Get the final message to check if we need follow-up
                 final_message = stream.get_final_message()
 
+                # Store usage for later emission
+                usage_data = None
+                if hasattr(final_message, 'usage') and final_message.usage:
+                    usage_data = {
+                        "input_tokens": final_message.usage.input_tokens,
+                        "output_tokens": final_message.usage.output_tokens,
+                        "total_tokens": final_message.usage.input_tokens + final_message.usage.output_tokens,
+                        "model": "claude-haiku-4-5-20251001"
+                    }
+
                 # If there were tool uses, make a follow-up call
                 if final_message.stop_reason == "tool_use":
                     tool_results = []
@@ -225,6 +235,10 @@ async def agent_endpoint(input_data: RunAgentInput):
             # End message
             if message_started:
                 yield encode_sse("TEXT_MESSAGE_END", {"message_id": msg_id})
+
+            # EMIT USAGE_METADATA
+            if usage_data:
+                yield encode_sse("USAGE_METADATA", usage_data)
 
         except Exception as e:
             yield encode_sse("RUN_ERROR", {

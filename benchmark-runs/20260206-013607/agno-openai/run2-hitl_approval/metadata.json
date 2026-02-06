@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12337.971761007793,
+    "time_to_first_event_ms": 249.7157440520823,
+    "time_to_first_content_ms": 12339.136930997483,
+    "time_to_complete_ms": 12337.971761007793
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1669,
+    "tokens_approx": 417,
+    "final_text": "I can help \u2014 but I will not proceed until you explicitly approve. Before I give deletion commands or steps, I need some details and a clear, deliberate confirmation from you.\n\nPlease provide the following information:\n1. What exactly should be deleted (full paths, filenames, database names/tables, cloud buckets, etc.). Be specific \u2014 e.g., /home/alice/Documents/project-archive.tar.gz or DB: production.customers.table_orders.  \n2. Where the data is stored (OS and version, or cloud provider and service \u2014 e.g., Windows 10, Ubuntu 22.04, AWS S3, Google Drive, MySQL on RDS).  \n3. Do you want the data removed only from the live system, or also from backups and snapshots?  \n4. Any regulatory or legal constraints I should know about (retention requirements, e-discovery holds, GDPR concerns)?  \n5. Do you have verified backups you can restore from if needed? (I strongly recommend confirming this before irretrievable deletion.)  \n6. Preferred method: manual steps (commands I\u2019ll give you) or a script/automation?  \n7. Do you want a dry-run first (commands that show what would be deleted without removing anything)?\n\nIf you understand the consequences and want me to proceed, type this exact confirmation message (including the list of items to delete in place of [ITEMS]):\n\nCONFIRM DELETE: I AUTHORIZE PERMANENT DELETION of the following items: [ITEMS]. I confirm I have backups (or accept risk of no backups) and understand this deletion may be irreversible.\n\nOnce you post that confirmation message with the exact items, I will provide the safe, step-by-step deletion instructions for your environment (or a script) and note any additional safeguards to run first."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 369,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12732.328925048932,
+    "time_to_first_event_ms": 2648.482103017159,
+    "time_to_first_content_ms": 12732.357367989607,
+    "time_to_complete_ms": 12732.328925048932
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 492,
+    "tokens_approx": 123,
+    "final_text": "I don\u2019t have access to a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my environment. I can\u2019t call external tools that aren\u2019t present.\n\nTell me what you want done and I can:\n- Do the work myself right here (write code, analyze text, compute, draft email, etc.)\n- Simulate what \"nonexistent_tool\" *would* do and show sample output\n- Show how to implement a tool by that name (small script or CLI) so you can run it locally\n\nWhich would you like, and what specific task should I perform?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

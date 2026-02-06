@@ -1,0 +1,39 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "Here's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " two numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": ", b):\n    \"\"\"Add two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "d return the result.\"\"\"\n    return a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " + b\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\nresult = add(5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "3)\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\n```\n\nThis"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " function:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\n- Takes two parameters `a`"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " and `b`\n- Returns their"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " sum using the `+` operator"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\n- Includes"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " a docstring explaining"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " what"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " it"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " does\n- Works"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " with integers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": ", floats, or"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " any"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " numeric types\n\nYou can use"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": " it like this:\n```python"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\nad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "d(10, 20)      "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "# Returns 30\nadd(3"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": ".5, 2.5)"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "    # Returns 6.0"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "\nadd(-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": ", 10)      # Returns "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a", "delta": "5\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "0e61d555-73b8-4d78-81f3-c229deb5d10a"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-artifact"}

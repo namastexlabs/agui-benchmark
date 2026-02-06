@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e783e185-0258-466a-8435-bd29c8c21d5a", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e783e185-0258-466a-8435-bd29c8c21d5a", "delta": "To find x in the equation x + 5 ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e783e185-0258-466a-8435-bd29c8c21d5a", "delta": " 12, we can subtract 5 from both sides of the equation:\n\nx + 5 - 5 = 12 - 5\nx = 7"}
+{"type": "TEXT_MESSAGE_END", "messageId": "e783e185-0258-466a-8435-bd29c8c21d5a"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking"}

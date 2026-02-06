@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "305caf3f-8261-4bec-b890-bc869efe30ce", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "305caf3f-8261-4bec-b890-bc869efe30ce", "delta": "I am sorry, I cannot do that. The tool 'nonexistent_"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "305caf3f-8261-4bec-b890-bc869efe30ce", "delta": "tool' does not exist."}
+{"type": "TEXT_MESSAGE_END", "messageId": "305caf3f-8261-4bec-b890-bc869efe30ce"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling"}

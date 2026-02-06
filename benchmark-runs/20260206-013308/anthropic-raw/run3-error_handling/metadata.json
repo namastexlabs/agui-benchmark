@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13292.120494064875,
+    "time_to_first_event_ms": 13291.703702998348,
+    "time_to_first_content_ms": 13292.18867002055,
+    "time_to_complete_ms": 13292.120494064875
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 383,
+    "tokens_approx": 95,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nWould you like me to help you with one of these instead? For example, I can:\n- Tell you what time it is right now\n- Calculate math problems for you\n\nLet me know what you'd like to do!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 30,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5223.687878926285,
+    "time_to_first_event_ms": 4273.188318940811,
+    "time_to_first_content_ms": 5223.748205928132,
+    "time_to_complete_ms": 5223.687878926285
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 732,
+    "tokens_approx": 183,
+    "final_text": "I'm not currently able to share the time.  However, I can suggest some ways for you to find out the current time. \n\n1. You can check the time on your phone, computer, or any other device by looking at the clock or calendar app.\n2. You can also ask a voice assistant like Siri, Google Assistant, or Alexa to tell you the current time.\n3. You can search for \"current time\" or \"time now\" on a search engine like Google to find out the current time in your location or a specific location.\n\nPlease note that I'm a large language model, I don't have real-time access to the current time. I can provide general information and answers to your questions, but I may not be able to provide up-to-the-minute information like the current time."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

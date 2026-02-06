@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6469.153773970902,
+    "time_to_first_event_ms": 354.56333798356354,
+    "time_to_first_content_ms": 6469.429709017277,
+    "time_to_complete_ms": 6469.153773970902
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 525,
+    "tokens_approx": 131,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool.\" Available tools I can use here are:\n- get_current_time \u2014 returns the current date/time\n- calculator \u2014 evaluates a math expression\n- multi_tool_use.parallel \u2014 runs multiple of the above in parallel\n\nTell me what you want done and I\u2019ll either:\n- run one of those tools (if appropriate), or\n- perform the task directly here.\n\nExamples you can reply with:\n- \u201cGet the current time.\u201d\n- \u201cCalculate 12345 * 6789.\u201d\n- \u201cRun current time and 2+2 in parallel.\u201d\n\nWhat would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 132,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

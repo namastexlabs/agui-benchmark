@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13830.163993989117,
+    "time_to_first_event_ms": 299.82120101340115,
+    "time_to_first_content_ms": 13830.619252985343,
+    "time_to_complete_ms": 13830.163993989117
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1093,
+    "tokens_approx": 273,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. A few quick questions and a confirmation step so I can proceed safely:\n\n1. What exactly do you want deleted? (file paths, database names and rows, cloud bucket/object names, account IDs, etc.)\n2. Where is it stored? (local machine, server, cloud provider and region, database type)\n3. Do you have a recent backup or snapshot? If not, do you want me to create one (or walk you through creating one) before deletion?\n4. Is this deletion permanent (irreversible) or a soft/archival delete first?\n5. Any legal, compliance, or other users affected that I should be aware of?\n6. Do you have the credentials/permissions needed, or do you want instructions so you can run the commands yourself?\n\nIf you still want me to proceed after answering the above, please give an explicit confirmation phrase. For example, reply with:\n\nCONFIRM DELETE \u2014 [short description of what to delete]\n\n(e.g., CONFIRM DELETE \u2014 /mnt/data/projectX and s3://company-backups/projectX)\n\nI will not take any action until I receive that explicit confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 245,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

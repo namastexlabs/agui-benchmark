@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1900.1149700488895,
+    "time_to_first_event_ms": 256.2206709990278,
+    "time_to_first_content_ms": 1900.874046026729,
+    "time_to_complete_ms": 1900.1149700488895
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 560,
+    "tokens_approx": 140,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, here to assist you with a variety of tasks. I can help you with things like telling you the current time, performing mathematical calculations, and answering questions. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer your questions in a friendly and concise manner. Feel free to ask me anything you'd like help with!"
+  },
+  "tokens": {
+    "input_tokens": 677,
+    "output_tokens": 61,
+    "total_tokens": 738
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

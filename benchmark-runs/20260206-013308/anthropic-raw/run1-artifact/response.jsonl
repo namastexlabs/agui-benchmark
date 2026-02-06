@@ -1,0 +1,45 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "python\ndef add_two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "_numbers(a, b):"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n    \"\"\"\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "Args:\n        a: First number"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n        b: Second number\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n    Returns:\n        The sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " of a and b\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\nresult = add_two_numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "(5, 3)\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n```\n\nThis function:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n- Takes two parameters `a`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " and `b`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "\n- Returns their sum using"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " the `+` operator\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " Includes"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " a docstring explaining"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " what"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " it"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " does\n- Has an example showing how"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " to use it\n\nYou"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " can call"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " it with"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " any two numbers:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " `add_two_numbers(10"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": ", 20)` \u2192"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " `30`,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " `"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "add_two_numbers(2"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": "5, 3.7)`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " \u2192 `6.2`,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01", "delta": " etc."}
+{"type": "TEXT_MESSAGE_END", "message_id": "8cd1ca23-8c55-401f-ae48-c14f25ac9c01"}
+{"type": "USAGE_METADATA", "input_tokens": 681, "output_tokens": 215, "total_tokens": 896, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}

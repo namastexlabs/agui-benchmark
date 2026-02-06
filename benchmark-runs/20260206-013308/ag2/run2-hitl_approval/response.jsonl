@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-hitl_approval"}
+{"type": "TEXT_MESSAGE_START", "messageId": "f456d095-72be-43c5-bb1c-9842432bb405", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f456d095-72be-43c5-bb1c-9842432bb405", "delta": "I won\u2019t delete anything until you explicitly approve. Before I proceed, please confirm a few details so I can act safely:\n\n1. What exactly do you want deleted? (file/folder names, full paths, account or service)\n2. Where is it stored? (local PC, external drive, server, cloud provider \u2014 name the provider)\n3. Do you have a recent backup or do you want me to create one first?\n4. Do you want a normal delete (recoverable) or a secure wipe (hard to recover)?\n5. Any time window or constraints?\n\nWhen you\u2019re ready, reply with:\n- your answers to 1\u20135, and\n- the exact confirmation phrase: CONFIRM DELETE\n\nI will only proceed after I receive that confirmation."}
+{"type": "TEXT_MESSAGE_END", "messageId": "f456d095-72be-43c5-bb1c-9842432bb405"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-hitl_approval"}

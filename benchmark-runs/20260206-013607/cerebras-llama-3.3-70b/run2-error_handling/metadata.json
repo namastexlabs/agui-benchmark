@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4751.128311036155,
+    "time_to_first_event_ms": 4246.4303120505065,
+    "time_to_first_content_ms": 4751.162556000054,
+    "time_to_complete_ms": 4751.128311036155
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 323,
+    "tokens_approx": 80,
+    "final_text": "There is no such thing as a \"nonexistent_tool.\" It doesn't exist, and therefore, it's not possible to use it to do anything. If you'd like to accomplish a specific task, I'd be happy to help you find a real tool or method to achieve your goal. Please let me know what you're trying to do, and I'll do my best to assist you!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 12,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

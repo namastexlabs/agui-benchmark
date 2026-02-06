@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8633.456601994112,
+    "time_to_first_event_ms": 847.9152360232547,
+    "time_to_first_content_ms": 8658.639473025687,
+    "time_to_complete_ms": 8633.456601994112
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1662,
+    "tokens_approx": 415,
+    "final_text": "I can do that. Before I proceed I need to confirm a few things and get your explicit approval.\n\n1) What exactly do you want deleted (files, accounts, database rows, backups, etc.)?\n2) Where is the data stored (device, cloud provider, service name, path or identifier)?\n3) Should the deletion be permanent (irreversible) or a soft-delete/archival?\n4) Do you have a recent backup? Who else (if anyone) will be affected?\n5) Any timing constraints or specific items to exclude?\n\nI will not take any deletion action until you explicitly approve. If you understand the risks and want me to proceed with permanent deletion, please type this exact confirmation phrase (case-sensitive):\n\nCONFIRM PERMANENT DELETE\n\nIf you want a soft-delete or need more time/questions answered, reply with details or say what confirmation phrase you prefer.I can do that. Before I proceed I need to confirm a few things and get your explicit approval.\n\n1) What exactly do you want deleted (files, accounts, database rows, backups, etc.)?\n2) Where is the data stored (device, cloud provider, service name, path or identifier)?\n3) Should the deletion be permanent (irreversible) or a soft-delete/archival?\n4) Do you have a recent backup? Who else (if anyone) will be affected?\n5) Any timing constraints or specific items to exclude?\n\nI will not take any deletion action until you explicitly approve. If you understand the risks and want me to proceed with permanent deletion, please type this exact confirmation phrase (case-sensitive):\n\nCONFIRM PERMANENT DELETE\n\nIf you want a soft-delete or need more time/questions answered, reply with details or say what confirmation phrase you prefer."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 571,
+    "total_tokens": 782
+  },
+  "events": {
+    "total_events": 380,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

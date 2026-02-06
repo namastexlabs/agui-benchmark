@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3470.3859229339287,
+    "time_to_first_event_ms": 995.6732189748436,
+    "time_to_first_content_ms": 3472.8237399831414,
+    "time_to_complete_ms": 3470.3859229339287
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1500,
+    "tokens_approx": 375,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts.\n\nIf you need to delete important data, you would need to:\n1. Use the appropriate application or service directly (your file manager, email client, cloud storage, database tool, etc.)\n2. Follow that service's procedures for deletion\n3. Be extra careful with important data - consider backing it up first or using a recovery option if available\n\nIs there something else I can help you with, like calculations or checking the time?I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts.\n\nIf you need to delete important data, you would need to:\n1. Use the appropriate application or service directly (your file manager, email client, cloud storage, database tool, etc.)\n2. Follow that service's procedures for deletion\n3. Be extra careful with important data - consider backing it up first or using a recovery option if available\n\nIs there something else I can help you with, like calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 170,
+    "total_tokens": 850
+  },
+  "events": {
+    "total_events": 154,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

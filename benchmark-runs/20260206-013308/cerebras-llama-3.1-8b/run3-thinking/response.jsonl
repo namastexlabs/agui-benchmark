@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352488", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " find the value of x, we need to isolate x on"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " one side of the equation. \n\n1. We have the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " equation: x + 5 = 12\n2. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " goal is to get x by itself, so we need to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " get rid of the +5 on the left side.\n3"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": ". We can do this by subtracting 5 from both sides"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " of the equation. This keeps the equation balanced.\n4."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " Subtract 5 from both sides: x + 5 -"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " 5 = 12 - 5\n5. Simplify"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " the equation: x = 7\n\nNow we have the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " value of x."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352488"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

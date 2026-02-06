@@ -1,0 +1,54 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "I'll"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " solve this step-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "by-step:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "Step 1: Identify"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "**\nWe"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " have: x + 5 ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " 12\n\n**Step 2:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " Isol"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "ate x**\nTo"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " fin"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "d x, I nee"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "d to get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " x by itself on"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " one side of the equation.\nThe"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "5 is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " being"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " added to x"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": ", so I'll subtract 5 "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "from both sides:\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " x + 5 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " = 12 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "\n\n**Step 3: Simplify"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " x + 0 = 7"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "\n- x = 7\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "Step 4: Verify the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " answer**\nLet me check: "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "7 + 5 = "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "12 \u2713\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "Answer: x = 7**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": "\n\nLet"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " me also calculate"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": " confirm"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12", "delta": ":"}
+{"type": "TEXT_MESSAGE_END", "messageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_0159mP9yUk7AJhiksJZGMfF6", "toolCallName": "calculator", "parentMessageId": "ca98b771-c6e3-4260-a5ab-2e4b0aa17a12"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_0159mP9yUk7AJhiksJZGMfF6", "delta": "{\"expression\": \"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_0159mP9yUk7AJhiksJZGMfF6"}
+{"type": "TOOL_CALL_RESULT", "messageId": "c5cfee63-31b5-4d62-a1d0-4dbf729782c2", "toolCallId": "toolu_0159mP9yUk7AJhiksJZGMfF6", "content": "12 - 5 = 7", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "711f8c16-9f44-4565-96f4-fe9a6afb7cff", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "711f8c16-9f44-4565-96f4-fe9a6afb7cff", "delta": "Perfect"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "711f8c16-9f44-4565-96f4-fe9a6afb7cff", "delta": "! The calculation confirms that **x ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "711f8c16-9f44-4565-96f4-fe9a6afb7cff", "delta": " 7**."}
+{"type": "TEXT_MESSAGE_END", "messageId": "711f8c16-9f44-4565-96f4-fe9a6afb7cff"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-thinking"}

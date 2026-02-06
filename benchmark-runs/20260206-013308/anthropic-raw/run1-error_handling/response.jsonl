@@ -1,0 +1,34 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "'t have access to a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " called "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "'nonexistent_tool'. The"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " tools"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " available to me are:\n\n1."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " **calculator** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " expressions\n\nIs"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": ":\n- Tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " you what"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " it is right"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " now\n- Do math"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " calculations for"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "\n\nLet"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " me know what you'd like to "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "do!"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea", "delta": "\ud83d\ude0a"}
+{"type": "TEXT_MESSAGE_END", "message_id": "9120ac82-9b20-4113-8535-4fef426377ea"}
+{"type": "USAGE_METADATA", "input_tokens": 680, "output_tokens": 107, "total_tokens": 787, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-error_handling"}

@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8066.231640987098,
+    "time_to_first_event_ms": 318.755573942326,
+    "time_to_first_content_ms": 8066.956650000066,
+    "time_to_complete_ms": 8066.231640987098
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1176,
+    "tokens_approx": 294,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we do anything, I need a few details and a clear confirmation method so there\u2019s no ambiguity.\n\nPlease provide:\n1. What exactly do you want deleted? (files, database records, account, etc.)  \n2. Where is it located? (server name, path, database/table, cloud provider)  \n3. Do you have a backup? If not, do you want me to create one first?  \n4. Any time constraints or required downtime?  \n5. Who is the authorized approver? (yourself \u2014 confirm how you\u2019ll prove identity if needed)\n\nApproval procedure I\u2019ll follow (confirm or modify):\n- I will summarize the specific items to be deleted and the consequences (irreversible or recoverable).  \n- You must reply with the exact approval phrase: APPROVE DELETE \u2014 [resource name] \u2014 [current date/time]. (Example: APPROVE DELETE \u2014 payroll_db \u2014 2026-02-06 14:30)  \n- I will only proceed after I receive that exact phrase from your authorized account.\n\nPlease provide the deletion details above and confirm you accept the approval procedure (or tell me how you\u2019d prefer to grant approval). Once you do, I\u2019ll prepare the final summary for your explicit approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 268,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

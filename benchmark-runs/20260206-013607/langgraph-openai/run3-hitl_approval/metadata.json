@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10975.76011205092,
+    "time_to_first_event_ms": 848.2064020354301,
+    "time_to_first_content_ms": 10981.80853400845,
+    "time_to_complete_ms": 10975.76011205092
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2134,
+    "tokens_approx": 533,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I take any action, please answer these questions so I can proceed safely:\n\n1. What exactly do you want deleted? (file names, folders, database/table names, cloud buckets, etc.)\n2. Where is it located? (local PC, server, AWS/Azure/GCP, Dropbox, Google Drive, SQL database, etc.)\n3. Do you want permanent deletion (irreversible) or move to recycle/trash/soft-delete?\n4. Do you have a current backup or snapshot? If not, do you want me to create/export one first?\n5. Do you have the necessary access/permissions (admin, root, DB owner)?\n6. Any constraints or timing (do this now, schedule, or after a review)?\n\nWhen you\u2019ve provided those details, confirm you understand the deletion is potentially irreversible. Then type the exact confirmation phrase below to allow me to proceed:\n\nCONFIRM DELETE \u2014 [brief description of what to delete]\n\nExample: CONFIRM DELETE \u2014 /home/alice/old_backups\n\nI will only perform deletion after you supply the details above and type the exact confirmation phrase.Understood \u2014 I will not delete anything until you explicitly approve. Before I take any action, please answer these questions so I can proceed safely:\n\n1. What exactly do you want deleted? (file names, folders, database/table names, cloud buckets, etc.)\n2. Where is it located? (local PC, server, AWS/Azure/GCP, Dropbox, Google Drive, SQL database, etc.)\n3. Do you want permanent deletion (irreversible) or move to recycle/trash/soft-delete?\n4. Do you have a current backup or snapshot? If not, do you want me to create/export one first?\n5. Do you have the necessary access/permissions (admin, root, DB owner)?\n6. Any constraints or timing (do this now, schedule, or after a review)?\n\nWhen you\u2019ve provided those details, confirm you understand the deletion is potentially irreversible. Then type the exact confirmation phrase below to allow me to proceed:\n\nCONFIRM DELETE \u2014 [brief description of what to delete]\n\nExample: CONFIRM DELETE \u2014 /home/alice/old_backups\n\nI will only perform deletion after you supply the details above and type the exact confirmation phrase."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 630,
+    "total_tokens": 841
+  },
+  "events": {
+    "total_events": 497,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_a768078ce53542319c3469ed787d8d7b", "toolCallName": "calculator", "parentMessageId": "de1dcb1d-9d37-403e-ae45-b6fbd24368a6"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_a768078ce53542319c3469ed787d8d7b", "delta": "{\"expression\":\"42 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_a768078ce53542319c3469ed787d8d7b"}
+{"type": "TOOL_CALL_RESULT", "messageId": "ff753c03-5b76-4ff7-98a8-421d5fed4967", "toolCallId": "pyd_ai_a768078ce53542319c3469ed787d8d7b", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "3e37b67a-c502-4ca8-9e2a-9a1163a0f677", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3e37b67a-c502-4ca8-9e2a-9a1163a0f677", "delta": "The result of "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3e37b67a-c502-4ca8-9e2a-9a1163a0f677", "delta": "42 * 17 is 714.\n"}
+{"type": "TEXT_MESSAGE_END", "messageId": "3e37b67a-c502-4ca8-9e2a-9a1163a0f677"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-tool_calc"}

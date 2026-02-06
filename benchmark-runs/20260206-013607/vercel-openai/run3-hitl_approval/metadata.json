@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9352.444490999915,
+    "time_to_first_event_ms": 1891.2546429783106,
+    "time_to_first_content_ms": 9352.93171799276,
+    "time_to_complete_ms": 9352.444490999915
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1123,
+    "tokens_approx": 280,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and an explicit confirmation from you.\n\nPlease provide:\n1. What exactly will be deleted (files, database, account, etc.) and where it\u2019s located (local machine, server name/IP, cloud provider and service, database type and name).\n2. The scope (single file, folder, database table, entire database, all backups, etc.).\n3. Any dependencies or users who will be affected.\n4. Whether you have a recent backup or want me to create one first.\n5. Any time constraints or scheduled window for the deletion.\n6. Your preferred method (GUI steps, terminal/CLI commands, cloud console, API).\n\nIf you understand the risks and want me to proceed after we finalize the details, reply with one of these exact confirmation phrases (pick one and paste it as your reply):\n- CONFIRM DELETE \u2014 proceed with deletion now\n- CONFIRM BACKUP AND DELETE \u2014 create a backup first, then delete\n- CANCEL \u2014 do not delete\n\nI will wait for those details and your exact confirmation phrase before taking any deletion steps or giving precise commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 242,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

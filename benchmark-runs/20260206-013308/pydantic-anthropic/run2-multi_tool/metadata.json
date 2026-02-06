@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1743.5798520455137,
+    "time_to_first_event_ms": 234.60177204106003,
+    "time_to_first_content_ms": 1743.658346007578,
+    "time_to_complete_ms": 1743.5798520455137
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0008810311555862427
+  },
+  "response": {
+    "chars": 90,
+    "tokens_approx": 22,
+    "final_text": "Perfect! Here are the results:\n\n- **Current time:** 2026-02-06 01:33:59\n- **10 + 20 = 30**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 24,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

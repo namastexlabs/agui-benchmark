@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 37197.21876003314,
+    "time_to_first_event_ms": 37195.84359694272,
+    "time_to_first_content_ms": 37197.5210349774,
+    "time_to_complete_ms": 37197.21876003314
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 676,
+    "tokens_approx": 169,
+    "final_text": "I don\u2019t have a tool called \"nonexistent_tool.\" Available tools I can use here are:\n- get_current_time (returns the current date/time)\n- calculator (evaluate a math expression)\n- multi_tool_use.parallel (run the above tools in parallel)\n\nTell me what you want the nonexistent tool to do and I\u2019ll:\n- use one of the available tools (for example calculator for math or get_current_time for time), or\n- implement the action directly in chat if a tool isn\u2019t required.\n\nExamples:\n- \"Calculate 12345 * 678\" \u2014 I\u2019ll use the calculator.\n- \"What time is it now?\" \u2014 I\u2019ll use get_current_time.\n- \"Do both: time and compute 2^20\" \u2014 I can run both in parallel.\n\nWhich would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 170,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

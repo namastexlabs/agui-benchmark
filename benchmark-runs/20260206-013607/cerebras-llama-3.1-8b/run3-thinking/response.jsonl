@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352657", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " find the value of x, we need to isolate x on one side"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " of the equation. \n\nStep 1:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " Our equation is x + 5 = 12. We"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " need to get rid of the +5 on the left"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " side of the equation.\n\nStep 2: To do this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ", we can subtract 5 from both sides of the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " equation. When we subtract 5 from the left side"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ", it cancels out the +5. When we subtract"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " 5 from the right side, we are essentially moving"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " the 5 to the left side.\n\nStep 3"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ": The equation now becomes x + 5 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " = 12 - 5. Simplifying the left"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " side, we get x = 7. Simplifying the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " right side, we get 7.\n\nStep 4"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ": Now that we have simplified both sides of the equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ", we have a new equation: x = 7."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " This means that the value of x is 7.\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "Therefore, the value of x is 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352657"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

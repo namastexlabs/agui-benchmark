@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10493.06270107627,
+    "time_to_first_event_ms": 3223.566644010134,
+    "time_to_first_content_ms": 10493.602807051502,
+    "time_to_complete_ms": 10493.06270107627
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1200,
+    "tokens_approx": 300,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before I proceed, please provide and confirm the following so I can act safely:\n\n1. What exactly should be deleted? (file names, folders, database/tables, account, etc.)  \n2. Where is it located? (local device path, cloud provider & project, server, service name, database host, etc.)  \n3. Do you have a backup or snapshot? If not, do you want instructions to make one first?  \n4. Are there dependencies or other systems that might be affected?  \n5. Do you want me to:  \n   - a) provide step-by-step deletion instructions or a deletion script, or  \n   - b) proceed with deletion now (note: I cannot directly access your systems; I can only give commands for you to run).  \n6. Do you understand this action may be irreversible and confirm you are the authorized person to request it?\n\nIf you\u2019re sure, type one of these exact confirmation phrases (I will not act on anything less specific):\n- \u201cYES \u2014 delete the data described above\u201d  \nor  \n- \u201cCONFIRM DELETE: [short description of data]\u201d\n\nOnce you provide the details and one of the exact confirmation phrases, I\u2019ll prepare the safe deletion steps and any backup/recovery recommendations."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 271,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

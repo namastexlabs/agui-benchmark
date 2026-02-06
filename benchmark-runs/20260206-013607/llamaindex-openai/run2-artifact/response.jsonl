@@ -1,0 +1,33 @@
+{"type": "RUN_STARTED", "timestamp": 1770352609, "threadId": "test-thread-llamaindex-openai", "runId": "test-run-llamaindex-openai-artifact"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "```"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "python"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "def"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " add"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "(a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": ","}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " b"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "):\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "   "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " \"\"\"\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "   "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " Return"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352611, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " the"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " sum"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " of"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " and"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " b"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": ".\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "   "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " \"\"\"\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "   "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " return"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " +"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": " b"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352612, "messageId": "695d730a-d32e-4091-948b-bdf3e897d2be", "role": "assistant", "delta": "```"}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770352612, "messages": [{"id": "b0f4ef0c-e16b-43fa-a479-5c212ef2c295", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "Create a simple Python function that adds two numbers. Return it as code."}, {"id": "71087dec-0dbb-4b76-b1dd-0652150b51be", "role": "assistant", "content": "```python\ndef add(a, b):\n    \"\"\"\n    Return the sum of a and b.\n    \"\"\"\n    return a + b\n```"}]}
+{"type": "RUN_FINISHED", "timestamp": 1770352612, "threadId": "test-thread-llamaindex-openai", "runId": "test-run-llamaindex-openai-artifact"}

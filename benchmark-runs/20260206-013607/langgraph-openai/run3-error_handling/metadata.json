@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6441.594031988643,
+    "time_to_first_event_ms": 851.1289249872789,
+    "time_to_first_content_ms": 6445.8374499809,
+    "time_to_complete_ms": 6441.594031988643
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1102,
+    "tokens_approx": 275,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available. Available tools here are:\n\n- functions.get_current_time \u2014 returns the current date/time\n- functions.calculator \u2014 evaluates a math expression\n- multi_tool_use.parallel \u2014 runs the above tools in parallel if you need both\n\nTell me what you wanted \"nonexistent_tool\" to do and I can either:\n- run one of the available tools now (e.g., \"get current time\" or \"calculate 123*45\"), or\n- perform the task myself if it\u2019s something I can do without a special tool.\n\nWhat would you like me to do?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available. Available tools here are:\n\n- functions.get_current_time \u2014 returns the current date/time\n- functions.calculator \u2014 evaluates a math expression\n- multi_tool_use.parallel \u2014 runs the above tools in parallel if you need both\n\nTell me what you wanted \"nonexistent_tool\" to do and I can either:\n- run one of the available tools now (e.g., \"get current time\" or \"calculate 123*45\"), or\n- perform the task myself if it\u2019s something I can do without a special tool.\n\nWhat would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 332,
+    "total_tokens": 538
+  },
+  "events": {
+    "total_events": 286,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

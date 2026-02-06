@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352393", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352393", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352393", "delta": " can't help with that request. The \"nonexistent_tool\" is not a real tool, so I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352393", "delta": "'t have any information on how to use it. If you're looking to accomplish a specific task, I'd be"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352393", "delta": " happy to try and assist you using actual tools and methods."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352393"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-error_handling"}

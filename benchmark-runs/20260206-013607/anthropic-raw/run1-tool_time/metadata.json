@@ -1,0 +1,43 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2710.5448939837515,
+    "time_to_first_event_ms": 2708.8603699812666,
+    "time_to_first_content_ms": 2710.581539897248,
+    "time_to_complete_ms": 2710.5448939837515
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0006509944796562195
+  },
+  "response": {
+    "chars": 88,
+    "tokens_approx": 22,
+    "final_text": "The current time is **2026-02-06 01:36:09** (February 6, 2026 at 1:36 AM and 9 seconds)."
+  },
+  "tokens": {
+    "input_tokens": 679,
+    "output_tokens": 39,
+    "total_tokens": 718
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

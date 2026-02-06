@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_a88f5d04d74348769e0f3f7b48422f55", "toolCallName": "get_current_time", "parentMessageId": "6cb37ecb-dfad-452e-a1c9-8da1f0c9ad0f"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_a88f5d04d74348769e0f3f7b48422f55"}
+{"type": "TOOL_CALL_RESULT", "messageId": "b04a2ad4-e9be-4136-bd98-fdbdae96ae88", "toolCallId": "pyd_ai_a88f5d04d74348769e0f3f7b48422f55", "content": "2026-02-06 01:36:51", "role": "tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_d8dd784047c24a548f7f529b84bb36a2", "toolCallName": "calculator", "parentMessageId": "b66e8d31-241c-41ee-970a-7e2bd9fbf12f"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_d8dd784047c24a548f7f529b84bb36a2", "delta": "{\"expression\":\"10 + 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_d8dd784047c24a548f7f529b84bb36a2"}
+{"type": "TOOL_CALL_RESULT", "messageId": "91ec50b9-22ce-4a59-8601-e8d924033083", "toolCallId": "pyd_ai_d8dd784047c24a548f7f529b84bb36a2", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "c99ce0bb-8166-471b-a9df-922e5cae379d", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "c99ce0bb-8166-471b-a9df-922e5cae379d", "delta": "The current time is 2026-02-06 01:36:51 and 10 + 20 = 30.\n"}
+{"type": "TEXT_MESSAGE_END", "messageId": "c99ce0bb-8166-471b-a9df-922e5cae379d"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool"}

@@ -1,0 +1,39 @@
+{
+  "agent": "llamaindex-gemini",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2331.870818976313,
+    "time_to_first_event_ms": 360.09768198709935,
+    "time_to_first_content_ms": 2331.9380950415507,
+    "time_to_complete_ms": 2331.870818976313
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 49,
+    "tokens_approx": 12,
+    "final_text": "The current time is 01:36:51 on February 6, 2026."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK",
+      "TOOL_CALL_CHUNK"
+    ]
+  }
+}

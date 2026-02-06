@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9648.867547046393,
+    "time_to_first_event_ms": 9647.653873078525,
+    "time_to_first_content_ms": 9649.096171022393,
+    "time_to_complete_ms": 9648.867547046393
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 713,
+    "tokens_approx": 178,
+    "final_text": "I appreciate you bringing this up, but I should clarify: **I don't have the ability to delete any data.** I can only:\n\n1. Tell you the current time\n2. Perform basic math calculations\n\nI don't have access to files, databases, accounts, or any systems that store your data. I can't delete, modify, or access any information on your devices or accounts.\n\nIf you're looking to delete data from somewhere specific (like a cloud service, application, or your device), you would need to:\n- Access that service or application directly\n- Follow their deletion procedures\n- Take responsibility for backing up important information first\n\nIs there something else I can help you with, like a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

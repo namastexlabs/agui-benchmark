@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12314.348207088187,
+    "time_to_first_event_ms": 2500.679259072058,
+    "time_to_first_content_ms": 12314.377392991446,
+    "time_to_complete_ms": 12314.348207088187
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 588,
+    "tokens_approx": 147,
+    "final_text": "I don\u2019t have access to a time-checking tool in this chat, so I can\u2019t read the current clock directly. I can:\n\n- Tell you the current time if you tell me your city or time zone, or\n- Give a quick command you can run on your device to get the exact time (examples below).\n\nCommands you can run now:\n- macOS / Linux terminal: date\n- Windows PowerShell: Get-Date\n- JavaScript (browser console): new Date().toString()\n- Python: python -c \"import datetime; print(datetime.datetime.now())\"\n\nWhich option do you prefer (tell me your location/time zone or paste the output of one of the commands)?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

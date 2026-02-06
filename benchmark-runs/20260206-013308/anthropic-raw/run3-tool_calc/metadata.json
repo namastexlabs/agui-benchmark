@@ -1,0 +1,43 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6577.725492999889,
+    "time_to_first_event_ms": 6575.635117013007,
+    "time_to_first_content_ms": 6577.784555032849,
+    "time_to_complete_ms": 6577.725492999889
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0014450633898377419
+  },
+  "response": {
+    "chars": 33,
+    "tokens_approx": 8,
+    "final_text": "The result of 42 * 17 is **714**."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 15,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4638.090754975565,
+    "time_to_first_event_ms": 3301.9434029702097,
+    "time_to_first_content_ms": 4638.122853008099,
+    "time_to_complete_ms": 4638.090754975565
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 197,
+    "tokens_approx": 49,
+    "final_text": "Hello! I'm a friendly assistant powered by the Vercel AI SDK. I can help you with a few things, like telling you the current time or evaluating mathematical expressions. How can I assist you today?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

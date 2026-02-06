@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352443", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": "python\n# Function to add two numbers\ndef add_numbers(num1, num2):\n    \"\"\"\n    This function adds two numbers together.\n\n    Args:\n        num1 (float): The first number to add.\n        num2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " (float): The second number to add.\n\n    Returns:\n        float: The sum of num1 and num2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": ".\n    \"\"\"\n    return num1 + num2\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": "# Example usage:\nprint(add_numbers(5, 3)) "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " # Output: 8\nprint(add_numbers(-2,"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " 4))  # Output: 2\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": "```\n\nThis function takes two arguments (`num1` and"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " `num2`) and returns their sum. It also includes a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " docstring that explains what the function does and how to use"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " it. The example usage demonstrates how to call the function with different"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352443", "delta": " inputs."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352443"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

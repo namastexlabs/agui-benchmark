@@ -1,0 +1,40 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2861.375248990953,
+    "time_to_first_event_ms": 852.4612570181489,
+    "time_to_first_content_ms": 2861.6046890383586,
+    "time_to_complete_ms": 2861.375248990953
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 53,
+    "tokens_approx": 13,
+    "final_text": "```python\ndef add_numbers(a, b):\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 19,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED"
+    ]
+  }
+}

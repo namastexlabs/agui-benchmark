@@ -1,0 +1,36 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "a, b):\n    \"\"\"Ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "d two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "d return the result.\"\"\"\n    return a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " + b\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\nresult = add(5, 3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": ")\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\n```\n\nThis function:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\n- Takes two parameters `a`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " and `b`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\n- Returns their sum\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " Includes"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " a docstring explaining"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " what it"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " does"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\n- Has"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " an example showing how to use it"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "\n\nYou can call"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " it with"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " any numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " `add(10, 20)"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "`,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": " `add(3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": ".5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": ", 2.5)`, etc"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "message_id": "4a04d59d-d22d-4b80-a038-b60801a231e1"}
+{"type": "USAGE_METADATA", "input_tokens": 681, "output_tokens": 145, "total_tokens": 826, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}

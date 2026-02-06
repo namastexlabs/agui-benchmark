@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10091.524959076196,
+    "time_to_first_event_ms": 2598.541450104676,
+    "time_to_first_content_ms": 10091.557516017929,
+    "time_to_complete_ms": 10091.524959076196
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 901,
+    "tokens_approx": 225,
+    "final_text": "Understood \u2014 I will not perform or describe any destructive steps until you explicitly approve. A few quick questions before I proceed:\n\n1. Exactly which data do you want to delete? (file/folder paths, device, cloud account, database, etc.)\n2. Where is it stored? (local drive, external drive, NAS, Google Drive, Dropbox, AWS S3, database server\u2026)\n3. Do you have a verified backup you can restore from if needed? Deletion may be irreversible.\n4. Do you want a simple delete (trash/recycle) or permanent/secure deletion (overwriting)? Secure deletion is harder/impossible on some storage types (e.g., SSDs, cloud services).\n5. Any legal, compliance, or account-access concerns I should know about?\n\nIf you still want me to proceed after answering the above, please confirm explicitly by typing: I approve deleting the specified data \u2014 and include the exact target(s). I will wait for that confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9742.270502028987,
+    "time_to_first_event_ms": 2684.3809880083427,
+    "time_to_first_content_ms": 9742.301990045235,
+    "time_to_complete_ms": 9742.270502028987
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 654,
+    "tokens_approx": 163,
+    "final_text": "I won\u2019t delete anything until you explicitly approve. Before I proceed, please confirm a few details so I can act safely:\n\n1. What exactly do you want deleted? (file/folder names, full paths, account or service)\n2. Where is it stored? (local PC, external drive, server, cloud provider \u2014 name the provider)\n3. Do you have a recent backup or do you want me to create one first?\n4. Do you want a normal delete (recoverable) or a secure wipe (hard to recover)?\n5. Any time window or constraints?\n\nWhen you\u2019re ready, reply with:\n- your answers to 1\u20135, and\n- the exact confirmation phrase: CONFIRM DELETE\n\nI will only proceed after I receive that confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

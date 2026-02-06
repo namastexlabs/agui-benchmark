@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2631.8632209440693,
+    "time_to_first_event_ms": 286.55531897675246,
+    "time_to_first_content_ms": 2631.970989983529,
+    "time_to_complete_ms": 2631.8632209440693
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 92,
+    "tokens_approx": 23,
+    "final_text": "```python\ndef add(a, b):\n    \"\"\"\n    Return the sum of a and b.\n    \"\"\"\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 33,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

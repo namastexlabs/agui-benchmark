@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3073.4622390009463,
+    "time_to_first_event_ms": 257.1834520203993,
+    "time_to_first_content_ms": 3073.62518098671,
+    "time_to_complete_ms": 3073.4622390009463
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 958,
+    "tokens_approx": 239,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't have the ability to delete any data.** \n\nI'm a helpful assistant with access to only two tools:\n- Getting the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system or accounts. Any data deletion would need to be done directly by you through your own applications, systems, or services.\n\nIf you're looking to delete important data, here are some general best practices:\n1. **Back up first** - Always create a backup before deleting anything important\n2. **Double-check** - Verify you're deleting the right data\n3. **Understand recovery options** - Know if deleted items go to trash/recycle bin first\n4. **Document what you're deleting** - Keep records of what was removed and when\n\nIs there something specific I can help you with, like calculations or information about the current time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 84,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

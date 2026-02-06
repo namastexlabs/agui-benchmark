@@ -1,0 +1,52 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " Simple Python Function to Add Two Numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n\nHere's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " two numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "a, b):\n    \"\"\"Ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d return the result.\"\"\"\n    return a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n\n\n# Example usage:\nresult = ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d(5, 3)\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n```\n\nYou can also create a more"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " documente"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d version with type hints:\n\n```python"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\ndef add(a: float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": ", b: float) -> float:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n    Add two numbers together.\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n    Args:\n        a:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " first number\n        b: The secon"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d number\n    \n    Returns:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n        The sum of a and b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n    \"\"\"\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "\n\n\n# Example usage:\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "(add(5, 3))"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "      "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "# Output: 8\nprint("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "add(5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": ".5, 2.5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "))  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": ".0\n```\n\nBoth"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " versions work the same way\u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "just"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " pick"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " wh"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "ichever style you prefer! The secon"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "d one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " with"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " type hints is generally"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " better"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " for larger"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " projects as it makes the code more readable"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " and helps"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": " with debugging"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "messageId": "8b07b51b-7ac9-4d7c-a854-4a606dffe140"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-artifact"}

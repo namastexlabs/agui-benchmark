@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4784.143113996834,
+    "time_to_first_event_ms": 256.16408698260784,
+    "time_to_first_content_ms": 4784.356591990218,
+    "time_to_complete_ms": 4784.143113996834
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 449,
+    "tokens_approx": 112,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it doesn\u2019t exist in my environment. Available tools I can use right now:\n\n- functions.get_current_time \u2014 returns the current date/time.\n- functions.calculator \u2014 evaluates math expressions.\n- multi_tool_use.parallel \u2014 runs multiple of the above tools in parallel.\n\nTell me what you want to do (e.g., get the current time, evaluate a math expression, or both), and I\u2019ll run the appropriate tool(s)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 102,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

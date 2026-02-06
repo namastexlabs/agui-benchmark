@@ -1,0 +1,38 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-multi_tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "aed2721a-3bcd-48e0-8432-baaf27b88236", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "aed2721a-3bcd-48e0-8432-baaf27b88236"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_Q1LxyXWJAfH5TupXxDyKkcdX", "toolCallName": "get_current_time", "parentMessageId": "aed2721a-3bcd-48e0-8432-baaf27b88236"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_Q1LxyXWJAfH5TupXxDyKkcdX", "delta": "{}"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_qSGX3K3q5OHAlIZx4zVapswe", "toolCallName": "calculator", "parentMessageId": "aed2721a-3bcd-48e0-8432-baaf27b88236"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_qSGX3K3q5OHAlIZx4zVapswe", "delta": "{\"expression\": \"10 + 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_Q1LxyXWJAfH5TupXxDyKkcdX"}
+{"type": "TOOL_CALL_RESULT", "messageId": "bbfb7b35-13d1-493a-aafa-6f4650994ac0", "toolCallId": "call_Q1LxyXWJAfH5TupXxDyKkcdX", "content": "2026-02-06 01:36:12", "role": "tool"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_qSGX3K3q5OHAlIZx4zVapswe"}
+{"type": "TOOL_CALL_RESULT", "messageId": "3a88446f-6663-4b70-89ee-1d2b893ae87b", "toolCallId": "call_qSGX3K3q5OHAlIZx4zVapswe", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "Current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "36"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "12"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "20"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9", "delta": "30"}
+{"type": "TEXT_MESSAGE_END", "messageId": "a819c6fc-84ee-4052-9a2d-a184c9f809b9"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-multi_tool"}

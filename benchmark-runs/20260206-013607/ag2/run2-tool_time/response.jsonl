@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "232da8e0-c8c3-40b3-9453-1c25d7b85966", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "232da8e0-c8c3-40b3-9453-1c25d7b85966", "delta": "I don\u2019t have access to a time-checking tool in this chat, so I can\u2019t read the current clock directly. I can:\n\n- Tell you the current time if you tell me your city or time zone, or\n- Give a quick command you can run on your device to get the exact time (examples below).\n\nCommands you can run now:\n- macOS / Linux terminal: date\n- Windows PowerShell: Get-Date\n- JavaScript (browser console): new Date().toString()\n- Python: python -c \"import datetime; print(datetime.datetime.now())\"\n\nWhich option do you prefer (tell me your location/time zone or paste the output of one of the commands)?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "232da8e0-c8c3-40b3-9453-1c25d7b85966"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

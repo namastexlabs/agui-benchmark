@@ -1,0 +1,331 @@
+{
+  "timestamp": "20260206-013308",
+  "end_time": "2026-02-06T01:35:31.039329",
+  "analysis": {
+    "total_tests": 702,
+    "successful": 690,
+    "failed": 12
+  },
+  "fastest_by_model": {
+    "claude": {
+      "name": "pydantic-anthropic",
+      "framework": "pydantic-ai",
+      "time_ms": 1578.9102519629523
+    },
+    "openai": {
+      "name": "llamaindex-openai",
+      "framework": "llamaindex",
+      "time_ms": 4724.341563065536
+    },
+    "gemini": {
+      "name": "pydantic-gemini",
+      "framework": "pydantic-ai",
+      "time_ms": 2070.995593909174
+    },
+    "cerebras": {
+      "name": "agno-cerebras",
+      "framework": "agno",
+      "time_ms": 306.52745300903916
+    }
+  },
+  "overall_fastest": {
+    "name": "agno-cerebras",
+    "time_ms": 306.52745300903916,
+    "framework": "agno",
+    "model": "cerebras"
+  },
+  "overall_slowest": {
+    "name": "openai-raw",
+    "time_ms": 19280.193688930012,
+    "framework": "openai-raw",
+    "model": "openai"
+  },
+  "all_results": {
+    "agno-anthropic": {
+      "framework": "agno",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 2250.952086993493,
+      "median_ttfb_ms": 269.21065303031355,
+      "median_ttfc_ms": 2251.0204219724983,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-openai": {
+      "framework": "agno",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 5174.1091079311445,
+      "median_ttfb_ms": 315.5727150151506,
+      "median_ttfc_ms": 5174.297345918603,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-gemini": {
+      "framework": "agno",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 9477.798860985786,
+      "median_ttfb_ms": 324.8697289964184,
+      "median_ttfc_ms": 9477.827023947611,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "agno-cerebras": {
+      "framework": "agno",
+      "model": "cerebras",
+      "model_id": "llama-3.3-70b",
+      "type": "native",
+      "median_time_ms": 306.52745300903916,
+      "median_ttfb_ms": 274.49623099528253,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "langgraph-anthropic": {
+      "framework": "langgraph",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 2554.3310249922797,
+      "median_ttfb_ms": 332.87817402742803,
+      "median_ttfc_ms": 2555.8282069396228,
+      "tests_passed": 25,
+      "tests_total": 27
+    },
+    "langgraph-openai": {
+      "framework": "langgraph",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 6205.29156900011,
+      "median_ttfb_ms": 992.4981869990006,
+      "median_ttfc_ms": 6207.6520380796865,
+      "tests_passed": 25,
+      "tests_total": 27
+    },
+    "langgraph-gemini": {
+      "framework": "langgraph",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 3417.843092000112,
+      "median_ttfb_ms": 994.1252139396966,
+      "median_ttfc_ms": 3418.4752180008218,
+      "tests_passed": 25,
+      "tests_total": 27
+    },
+    "langgraph-cerebras": {
+      "framework": "langgraph",
+      "model": "cerebras",
+      "model_id": "llama-3.3-70b",
+      "type": "native",
+      "median_time_ms": 2863.222924992442,
+      "median_ttfb_ms": 991.6220180457458,
+      "median_ttfc_ms": 2863.542184000835,
+      "tests_passed": 25,
+      "tests_total": 27
+    },
+    "pydantic-anthropic": {
+      "framework": "pydantic-ai",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 1578.9102519629523,
+      "median_ttfb_ms": 238.44992904923856,
+      "median_ttfc_ms": 1579.0003640577197,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "pydantic-openai": {
+      "framework": "pydantic-ai",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 4946.613922016695,
+      "median_ttfb_ms": 243.0118729826063,
+      "median_ttfc_ms": 4946.755671990104,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "pydantic-gemini": {
+      "framework": "pydantic-ai",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 2070.995593909174,
+      "median_ttfb_ms": 255.3617450175807,
+      "median_ttfc_ms": 2071.0245409281924,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "llamaindex-anthropic": {
+      "framework": "llamaindex",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 1636.5573449875228,
+      "median_ttfb_ms": 332.12742541218176,
+      "median_ttfc_ms": 1636.6701325168833,
+      "tests_passed": 24,
+      "tests_total": 27
+    },
+    "llamaindex-openai": {
+      "framework": "llamaindex",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "native",
+      "median_time_ms": 4724.341563065536,
+      "median_ttfb_ms": 345.34328302834183,
+      "median_ttfc_ms": 4724.416345008649,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "llamaindex-gemini": {
+      "framework": "llamaindex",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 2887.408566486556,
+      "median_ttfb_ms": 1040.006016031839,
+      "median_ttfc_ms": 2887.451805465389,
+      "tests_passed": 26,
+      "tests_total": 27
+    },
+    "vercel-anthropic": {
+      "framework": "vercel-ai-sdk",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "wrapped",
+      "median_time_ms": 2532.677751034498,
+      "median_ttfb_ms": 1241.1283359397203,
+      "median_ttfc_ms": 2532.7528410125524,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "vercel-openai": {
+      "framework": "vercel-ai-sdk",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "wrapped",
+      "median_time_ms": 5980.939727975056,
+      "median_ttfb_ms": 1927.3270990233868,
+      "median_ttfc_ms": 5981.06772697065,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "vercel-gemini": {
+      "framework": "vercel-ai-sdk",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "wrapped",
+      "median_time_ms": 4215.263453079388,
+      "median_ttfb_ms": 2135.716218035668,
+      "median_ttfc_ms": 4215.303614968434,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "crewai": {
+      "framework": "crewai",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "native",
+      "median_time_ms": 17097.28631004691,
+      "median_ttfb_ms": 9824.414401082322,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "ag2": {
+      "framework": "ag2",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "wrapped",
+      "median_time_ms": 8489.783550030552,
+      "median_ttfb_ms": 2538.642030907795,
+      "median_ttfc_ms": 8489.811980980448,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "google-adk": {
+      "framework": "google-adk",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "native",
+      "median_time_ms": 4091.3831560174003,
+      "median_ttfb_ms": 2802.210165071301,
+      "median_ttfc_ms": 4091.4067699341103,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "openai-raw": {
+      "framework": "openai-raw",
+      "model": "openai",
+      "model_id": "gpt-5-mini",
+      "type": "raw",
+      "median_time_ms": 19280.193688930012,
+      "median_ttfb_ms": 19279.061288922094,
+      "median_ttfc_ms": 19280.327180982567,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "anthropic-raw": {
+      "framework": "anthropic-raw",
+      "model": "claude",
+      "model_id": "claude-haiku-4-5-20251001",
+      "type": "raw",
+      "median_time_ms": 7813.247926067561,
+      "median_ttfb_ms": 7812.661766074598,
+      "median_ttfc_ms": 7813.3451690664515,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "gemini-raw": {
+      "framework": "gemini-raw",
+      "model": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "type": "raw",
+      "median_time_ms": 7886.484180926345,
+      "median_ttfb_ms": 7886.14073197823,
+      "median_ttfc_ms": 5669.23875908833,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.3-70b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.3-70b",
+      "type": "raw",
+      "median_time_ms": 4181.129308999516,
+      "median_ttfb_ms": 3775.8107089903206,
+      "median_ttfc_ms": 4130.062082083896,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.1-70b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.1-70b",
+      "type": "raw",
+      "median_time_ms": 4455.062063992955,
+      "median_ttfb_ms": 4142.2333309892565,
+      "median_ttfc_ms": 0,
+      "tests_passed": 27,
+      "tests_total": 27
+    },
+    "cerebras-llama-3.1-8b": {
+      "framework": "cerebras-raw",
+      "model": "cerebras",
+      "model_id": "llama-3.1-8b",
+      "type": "raw",
+      "median_time_ms": 4943.304420914501,
+      "median_ttfb_ms": 4359.669142984785,
+      "median_ttfc_ms": 4943.340850993991,
+      "tests_passed": 27,
+      "tests_total": 27
+    }
+  }
+}

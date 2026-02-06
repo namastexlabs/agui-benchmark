@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3918.225956032984,
+    "time_to_first_event_ms": 851.2397119775414,
+    "time_to_first_content_ms": 3918.7612669775262,
+    "time_to_complete_ms": 3918.225956032984
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 38,
+    "tokens_approx": 9,
+    "final_text": "To find x, we subtract 5 from 12.\n12 -"
+  },
+  "tokens": {
+    "input_tokens": 240,
+    "output_tokens": 63,
+    "total_tokens": 303
+  },
+  "events": {
+    "total_events": 49,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

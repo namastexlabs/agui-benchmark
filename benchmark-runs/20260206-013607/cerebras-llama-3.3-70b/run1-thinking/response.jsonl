@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352567", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " find the value of x, we need to isolate x on one side of the equation. Here's"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " my step"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": "-by-step reasoning process:\n\nGiven equation: x + 5 = 12\n\nMy goal"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " is to get x by itself on the left side of the equation."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " To do this, I need to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " \"get rid\" of the +5 that's"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " added to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " x.\n\nTo cancel"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " out the +5, I can subtract 5 from"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " both sides of the equation. This will keep the equation balanced and"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " allow me to isolate x.\n\nSo, I'll subtract 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " from both sides:\n\nx + 5 - 5 = 12 - 5\n\nThis simplifies"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " to:\n\nx = 7\n\nTherefore, the value of x is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352567", "delta": " 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352567"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking"}

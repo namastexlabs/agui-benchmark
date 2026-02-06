@@ -1,0 +1,59 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "python"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "def"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " ->"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "Return"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " of"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ".\"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " return"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " Example"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "2"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " #"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " =="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "0"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "message_id": "6fd02bda-4259-4fbd-8063-b7eff8f473e2"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-artifact"}

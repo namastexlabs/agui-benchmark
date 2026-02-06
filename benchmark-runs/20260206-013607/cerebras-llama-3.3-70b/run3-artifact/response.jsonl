@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352657", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "python\ndef add_numbers(a: float, b: float) -> float:\n    \"\"\"\n    Adds two numbers together.\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "    Args:\n        a (float): The first number to add.\n        b (float): The second number to add.\n\n   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " Returns:\n        float: The sum of a and b.\n    \"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "    return a + b\n\n#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " Example usage:\nif __name__ == \"__main__\":\n    num1 = 5\n    num2 = 7\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": " result = add_numbers(num1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": ", num2)\n    print(f\"The sum of {num1} and {num2} is: {result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352657", "delta": "}\")\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352657"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-artifact"}

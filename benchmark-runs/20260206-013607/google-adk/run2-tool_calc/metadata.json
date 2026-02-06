@@ -1,0 +1,38 @@
+{
+  "agent": "google-adk",
+  "run_number": 2,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6056.564402999356,
+    "time_to_first_event_ms": 2753.919098060578,
+    "time_to_first_content_ms": 6056.588466977701,
+    "time_to_complete_ms": 6056.564402999356
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 29,
+    "tokens_approx": 7,
+    "final_text": "The result of 42 * 17 is 714."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

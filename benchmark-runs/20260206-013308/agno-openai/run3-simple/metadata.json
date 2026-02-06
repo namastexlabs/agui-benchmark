@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3243.389408919029,
+    "time_to_first_event_ms": 315.72075991425663,
+    "time_to_first_content_ms": 3243.502784986049,
+    "time_to_complete_ms": 3243.389408919029
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 170,
+    "tokens_approx": 42,
+    "final_text": "Hello! I\u2019m ChatGPT, an AI assistant running on the Agno framework (powered by GPT\u20114o\u2011mini). I can help with questions, calculations, and tasks\u2014just tell me what you need."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 48,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

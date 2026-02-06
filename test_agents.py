@@ -672,6 +672,14 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
 
                 # Extract token usage from various event types
                 # Different frameworks report usage in different places
+
+                # Check for USAGE_METADATA event (raw API wrappers)
+                if event_type == "USAGE_METADATA":
+                    metrics.input_tokens = max(metrics.input_tokens, event.get("input_tokens", 0))
+                    metrics.output_tokens = max(metrics.output_tokens, event.get("output_tokens", 0))
+                    metrics.total_tokens = max(metrics.total_tokens, event.get("total_tokens", 0))
+
+                # Check for usage_metadata field (some frameworks)
                 if "usage_metadata" in event:
                     usage = event["usage_metadata"]
                     if isinstance(usage, dict):

@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2739.8568129865453,
+    "time_to_first_event_ms": 280.4727399488911,
+    "time_to_first_content_ms": 2739.950789953582,
+    "time_to_complete_ms": 2739.8568129865453
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 756,
+    "tokens_approx": 189,
+    "final_text": "I appreciate you being cautious, but I should clarify: **I don't actually have the ability to delete data on your system**. I can only:\n\n- Tell you the current time\n- Perform basic math calculations\n\nI don't have access to your files, databases, or any storage systems. I can't execute delete commands or modify your data in any way.\n\nIf you're looking to delete important data on your own system, I'd recommend:\n1. **Back up your data first** if you haven't already\n2. **Double-check what you're deleting** to make sure it's really what you want to remove\n3. **Verify the deletion method** is appropriate for your system (recycle bin, secure deletion tools, etc.)\n\nIs there something else I can help you with, like doing calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 63,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

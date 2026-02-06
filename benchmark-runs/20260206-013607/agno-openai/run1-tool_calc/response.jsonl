@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "91f4e9c6-159e-4e0a-922d-31bd1fb3c33c", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "91f4e9c6-159e-4e0a-922d-31bd1fb3c33c"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_b556FWkoJOdqd9VbPgRKmBhZ", "toolCallName": "calculator", "parentMessageId": "91f4e9c6-159e-4e0a-922d-31bd1fb3c33c"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_b556FWkoJOdqd9VbPgRKmBhZ", "delta": "{\"expression\": \"42 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_b556FWkoJOdqd9VbPgRKmBhZ"}
+{"type": "TOOL_CALL_RESULT", "messageId": "5abba6a0-8b50-4c33-aa9e-b10ccf822c8e", "toolCallId": "call_b556FWkoJOdqd9VbPgRKmBhZ", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": "42"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": " *"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": "17"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500", "delta": "714"}
+{"type": "TEXT_MESSAGE_END", "messageId": "fae5a372-3d28-4d02-932a-4f825bfaf500"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_calc"}

@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3952.986460062675,
+    "time_to_first_event_ms": 851.8462580395862,
+    "time_to_first_content_ms": 3955.16797399614,
+    "time_to_complete_ms": 3952.986460062675
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2014,
+    "tokens_approx": 503,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system. Any data deletion would need to be done directly by you through your operating system, applications, or services.\n\n**If you're planning to delete important data, here are some safety tips:**\n1. **Back it up first** - Create a backup copy before deleting anything\n2. **Double-check the target** - Make sure you're deleting the right files/folders\n3. **Use trash/recycle bin** - Avoid permanent deletion methods when possible, so you can recover if needed\n4. **Document what you're deleting** - Keep a record for reference\n\nIs there something specific you'd like help with regarding your data, like understanding what needs to be backed up or how to organize your files safely?I appreciate you bringing this to my attention, but I should clarify: **I don't actually have the ability to delete any data.** \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete files, databases, or any other data on your system. Any data deletion would need to be done directly by you through your operating system, applications, or services.\n\n**If you're planning to delete important data, here are some safety tips:**\n1. **Back it up first** - Create a backup copy before deleting anything\n2. **Double-check the target** - Make sure you're deleting the right files/folders\n3. **Use trash/recycle bin** - Avoid permanent deletion methods when possible, so you can recover if needed\n4. **Document what you're deleting** - Keep a record for reference\n\nIs there something specific you'd like help with regarding your data, like understanding what needs to be backed up or how to organize your files safely?"
+  },
+  "tokens": {
+    "input_tokens": 680,
+    "output_tokens": 232,
+    "total_tokens": 912
+  },
+  "events": {
+    "total_events": 177,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

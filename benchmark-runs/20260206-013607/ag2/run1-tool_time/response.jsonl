@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "8cd439f3-6b91-4b5a-8b7a-cd1be7fa0544", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "8cd439f3-6b91-4b5a-8b7a-cd1be7fa0544", "delta": "I don't have access to the \"time\" tool in this environment. I can still tell the current time if you tell me which timezone you want (or I can give UTC). Which timezone would you like me to use?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "8cd439f3-6b91-4b5a-8b7a-cd1be7fa0544"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

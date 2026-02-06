@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2554.4632410164922,
+    "time_to_first_event_ms": 319.1476169740781,
+    "time_to_first_content_ms": 2554.6359620057046,
+    "time_to_complete_ms": 2554.4632410164922
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 843,
+    "tokens_approx": 210,
+    "final_text": "I appreciate you being cautious about data deletion! However, I should clarify what I can actually do:\n\nI don't have the ability to delete any data. The tools available to me are:\n- Getting the current date and time\n- Performing basic math calculations\n\nI cannot access, modify, or delete files, databases, accounts, or any other data on your system or elsewhere.\n\nIf you need to delete important data, you should:\n1. **Back it up first** if there's any chance you might need it later\n2. **Use your system's native tools** (file explorer, database management software, cloud storage interface, etc.)\n3. **Be very careful** and double-check before confirming deletion\n4. **Consider using recovery tools** if deletion is reversible on your platform\n\nIs there something else I can help you with, like doing some calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 75,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

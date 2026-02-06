@@ -1,0 +1,40 @@
+{"type": "RUN_STARTED", "timestamp": 1770352389, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-artifact"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "a, b):\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "Args:\n        a: First"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352389, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " number\n        b: Second number"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n    \n    Returns:\n        The"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " sum of a and b\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n    return a + b"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n\n\n# Example usage:\nresult = ad"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "d(5, 3)\nprint"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n```\n\nThis function:\n- Takes"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " two parameters `a` and `b"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "`"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "\n- Returns their sum\n-"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " Includes"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " a docstring explaining"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " what"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " it"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " does\n- Works"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " with integers"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": ", floats, and other"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " numeric types\n\nYou can use"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " it like `"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": "add(10"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": ", 20)` to"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " get `30`,"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " or `add(3"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": ".5"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": ", 2.5)` to"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770352390, "messageId": "b296e133-b20d-4871-8250-77ff5d4835b3", "role": "assistant", "delta": " get `6.0`."}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770352390, "messages": [{"id": "dd7069ec-6475-421a-8c96-38a5a1345d48", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "Create a simple Python function that adds two numbers. Return it as code."}, {"id": "f3388c24-292f-43f8-bd10-05d95880fb38", "role": "assistant", "content": "Here's a simple Python function that adds two numbers:\n\n```python\ndef add(a, b):\n    \"\"\"\n    Add two numbers and return the result.\n    \n    Args:\n        a: First number\n        b: Second number\n    \n    Returns:\n        The sum of a and b\n    \"\"\"\n    return a + b\n\n\n# Example usage:\nresult = add(5, 3)\nprint(result)  # Output: 8\n```\n\nThis function:\n- Takes two parameters `a` and `b`\n- Returns their sum\n- Includes a docstring explaining what it does\n- Works with integers, floats, and other numeric types\n\nYou can use it like `add(10, 20)` to get `30`, or `add(3.5, 2.5)` to get `6.0`."}]}
+{"type": "RUN_FINISHED", "timestamp": 1770352390, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-artifact"}

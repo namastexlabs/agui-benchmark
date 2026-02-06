@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13266.271805972792,
+    "time_to_first_event_ms": 2647.705312934704,
+    "time_to_first_content_ms": 13266.299234004691,
+    "time_to_complete_ms": 13266.271805972792
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 243,
+    "tokens_approx": 60,
+    "final_text": "10 + 20 = 30.\n\nFor the current time: do you want it in your local timezone or in UTC? I don't have access to your device clock \u2014 tell me your timezone/location (e.g., \"America/New_York\") or say \"UTC\" and I'll give the current time accordingly."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

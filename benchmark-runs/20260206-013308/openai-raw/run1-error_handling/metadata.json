@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 41065.60509803239,
+    "time_to_first_event_ms": 41063.700565020554,
+    "time_to_first_content_ms": 41066.08264602255,
+    "time_to_complete_ms": 41065.60509803239
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1132,
+    "tokens_approx": 283,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in this environment. I can, however help in several ways. Which would you like?\n\nOptions:\n- Tell me what you wanted \"nonexistent_tool\" to do and I\u2019ll perform the action myself (or simulate the output).\n- I can use the available tools here (current time or calculator) if your task fits those.\n- I can show code to implement a tool like that (example in Python/Node) so you can run it locally.\n- I can mock an example response from the nonexistent tool so you can see expected output/format.\n\nIf you want code, here's a minimal Python example you can adapt to create a tool called nonexistent_tool:\n\ndef nonexistent_tool(input_data):\n    \"\"\"Example placeholder: replace with real implementation.\"\"\"\n    # validate input\n    if not isinstance(input_data, dict):\n        raise ValueError(\"input_data must be a dict\")\n    # perform whatever task you need (this is just a stub)\n    result = {\"status\": \"ok\", \"received\": input_data}\n    return result\n\nTell me which option you prefer and what the tool should do (inputs, outputs, any constraints), and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 254,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

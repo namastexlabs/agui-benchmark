@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "369cc880-6c97-4fe6-af4f-1c1bd7b14911", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "369cc880-6c97-4fe6-af4f-1c1bd7b14911", "delta": "I am sorry, but the tool 'nonexistent_tool' does not exist. Please check the tool name and try again."}
+{"type": "TEXT_MESSAGE_END", "messageId": "369cc880-6c97-4fe6-af4f-1c1bd7b14911"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}

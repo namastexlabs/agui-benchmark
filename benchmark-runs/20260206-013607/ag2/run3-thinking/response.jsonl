@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "b8104dbb-01c4-4925-b806-445bb3f3e846", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8104dbb-01c4-4925-b806-445bb3f3e846", "delta": "Answer: x = 7.\n\nBrief solution: Start with x + 5 = 12. Subtract 5 from both sides to isolate x: x = 12 \u2212 5 = 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "b8104dbb-01c4-4925-b806-445bb3f3e846"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}

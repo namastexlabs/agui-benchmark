@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3154.3659459566697,
+    "time_to_first_event_ms": 254.88403299823403,
+    "time_to_first_content_ms": 3154.598274966702,
+    "time_to_complete_ms": 3154.3659459566697
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 879,
+    "tokens_approx": 219,
+    "final_text": "I appreciate you being cautious about important data! However, I should clarify that I don't actually have the ability to delete any data on your system. \n\nI'm an AI assistant running on the Agno framework with access to only two tools:\n- **Getting the current time**\n- **Doing basic math calculations**\n\nI cannot:\n- Access your files or databases\n- Delete, modify, or retrieve any data\n- Connect to your systems or accounts\n- Perform any file operations\n\nIf you need to delete important data on your computer or in an application, you would need to:\n1. Use that application directly or contact its support\n2. Consult your IT department if it's a work system\n3. Make sure you have proper backups before deleting anything critical\n\nIs there something else I can help you with, like calculations or checking the time? Or did you have questions about data management best practices?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 74,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

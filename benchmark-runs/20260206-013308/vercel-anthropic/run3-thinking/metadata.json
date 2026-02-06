@@ -1,0 +1,42 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4964.85276799649,
+    "time_to_first_event_ms": 1246.845696005039,
+    "time_to_first_content_ms": 4965.000402997248,
+    "time_to_complete_ms": 4964.85276799649
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0013490207493305206
+  },
+  "response": {
+    "chars": 551,
+    "tokens_approx": 137,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, we need to remove the 5 from the left side. We do this by subtracting 5 from both sides of the equation:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\nLet me calculate the right side:**Result:** x = 7\n\n**Verification:** Let's check our answer by substituting x = 7 back into the original equation:\u2713 **Correct!** Since 7 + 5 = 12, our answer is verified.\n\n**Answer: x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 62,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

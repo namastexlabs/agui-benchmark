@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9984.073886997066,
+    "time_to_first_event_ms": 250.65839802846313,
+    "time_to_first_content_ms": 9984.10775710363,
+    "time_to_complete_ms": 9984.073886997066
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1215,
+    "tokens_approx": 303,
+    "final_text": "I can help \u2014 I will not perform or describe any destructive action until you explicitly approve it.\n\nFirst, a few quick questions so I give safe, correct instructions:\n1. What exactly is the data (files, database, cloud buckets, email, etc.)?\n2. Where is it stored (local machine and OS, server, AWS/GCP/Azure, NAS)?\n3. Do you have backups or snapshots you can restore from if needed?\n4. Is this deletion reversible (soft delete) or permanent/irreversible?\n5. Any legal/compliance concerns (retention requirements, shared ownership)?\n\nRecommended checklist before deletion:\n- Make a full backup or snapshot and verify it can be restored.\n- Export any metadata or logs you may need later.\n- Inform any stakeholders who rely on this data.\n- If possible, perform a test deletion on a copy.\n- Plan a rollback procedure and timeline.\n\nIf you want me to proceed with step-by-step deletion instructions, type a clear confirmation phrase so I know you approve irreversible actions. For example, reply with:\nCONFIRM DELETE \u2014 [brief description of what you want deleted]\n\nI will wait for that exact confirmation (and the details above) before giving commands or further action. Which data and environment are we dealing with?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

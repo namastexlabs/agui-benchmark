@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6175.645178067498,
+    "time_to_first_event_ms": 992.2626520274207,
+    "time_to_first_content_ms": 6179.358080029488,
+    "time_to_complete_ms": 6175.645178067498
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1306,
+    "tokens_approx": 326,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in my environment. I do have these tools I can use:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 runs multiple (allowed) functions in parallel\n\nTell me what you want done and I\u2019ll use one of the available tools (or combine them) to do it. Examples:\n- \u201cWhat time is it now?\u201d \u2014 I\u2019ll call get_current_time.\n- \u201cCalculate 245 * 19.7\u201d \u2014 I\u2019ll use the calculator.\n- \u201cGet the current time and compute 2+2 in parallel\u201d \u2014 I\u2019ll use the parallel tool.\n\nWhich action would you like me to take?I can\u2019t call a tool named \"nonexistent_tool\" \u2014 that tool isn\u2019t available in my environment. I do have these tools I can use:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 runs multiple (allowed) functions in parallel\n\nTell me what you want done and I\u2019ll use one of the available tools (or combine them) to do it. Examples:\n- \u201cWhat time is it now?\u201d \u2014 I\u2019ll call get_current_time.\n- \u201cCalculate 245 * 19.7\u201d \u2014 I\u2019ll use the calculator.\n- \u201cGet the current time and compute 2+2 in parallel\u201d \u2014 I\u2019ll use the parallel tool.\n\nWhich action would you like me to take?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 360,
+    "total_tokens": 566
+  },
+  "events": {
+    "total_events": 344,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

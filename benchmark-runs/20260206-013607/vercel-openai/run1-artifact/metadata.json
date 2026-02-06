@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7024.517329060473,
+    "time_to_first_event_ms": 3210.0257870042697,
+    "time_to_first_content_ms": 7024.644592078403,
+    "time_to_complete_ms": 7024.517329060473
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 155,
+    "tokens_approx": 38,
+    "final_text": "```python\ndef add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b\n\n# Example:\nif __name__ == \"__main__\":\n    print(add(2, 3))  # Output: 5\n```"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 57,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2532.677751034498,
+    "time_to_first_event_ms": 1450.9839680977166,
+    "time_to_first_content_ms": 2532.7528410125524,
+    "time_to_complete_ms": 2532.677751034498
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 388,
+    "tokens_approx": 97,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time** - Get the current date and time\n2. **calculator** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can:\n- Tell you what time it is right now\n- Do math calculations for you\n\nLet me know what you'd like to do!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 29,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

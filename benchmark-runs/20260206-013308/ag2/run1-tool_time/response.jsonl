@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "dd8f76ca-ae21-4636-a345-0bd4b4c91c6f", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "dd8f76ca-ae21-4636-a345-0bd4b4c91c6f", "delta": "I\u2019m sorry \u2014 I don\u2019t have access to the \u201ctime\u201d tool in this chat session. I can\u2019t directly read the current clock here.\n\nYou can either:\n- Tell me your timezone (or city) and I\u2019ll give instructions or compute the local time for you, or\n- Run a quick command on your device (Linux/Mac: date, Windows: time /T) and paste the result here.\n\nWhich would you prefer?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "dd8f76ca-ae21-4636-a345-0bd4b4c91c6f"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

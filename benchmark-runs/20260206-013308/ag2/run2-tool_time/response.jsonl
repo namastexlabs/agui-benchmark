@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a978eb36-5fd2-495e-848a-ab93e6044ac8", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a978eb36-5fd2-495e-848a-ab93e6044ac8", "delta": "I don\u2019t have access to the \u201ctime\u201d tool from this environment, so I can\u2019t check the system clock directly. I do have the current date (2026-02-06), but not the exact time.\n\nTell me your timezone or a city (or allow access to your system clock), and I\u2019ll give the current local time or convert between zones. If you prefer to check it yourself, here are quick commands:\n\n- macOS / Linux terminal: date\n- Windows command prompt: time /T\n- In a browser console: new Date().toString() or new Date().toLocaleString()\n\nWhich timezone or city should I use?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "a978eb36-5fd2-495e-848a-ab93e6044ac8"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

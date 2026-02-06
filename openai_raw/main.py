@@ -125,19 +125,22 @@ async def agent_endpoint(input_data: RunAgentInput):
             messages.append({"role": msg.role, "content": msg.content})
 
         try:
-            # Call OpenAI with streaming
+            # Call OpenAI with streaming (include usage data)
             response = client.chat.completions.create(
                 model="gpt-5-mini",
                 messages=messages,
                 tools=tools,
-                stream=True
+                stream=True,
+                stream_options={"include_usage": True}
             )
 
             msg_id = str(uuid.uuid4())
             message_started = False
             tool_calls_buffer = {}  # Buffer for tool calls
+            final_chunk = None  # Store final chunk for usage
 
             for chunk in response:
+                final_chunk = chunk  # Keep updating to get the last one
                 delta = chunk.choices[0].delta if chunk.choices else None
 
                 if delta:
@@ -226,10 +229,12 @@ async def agent_endpoint(input_data: RunAgentInput):
                 follow_up = client.chat.completions.create(
                     model="gpt-5-mini",
                     messages=messages,
-                    stream=True
+                    stream=True,
+                    stream_options={"include_usage": True}
                 )
 
                 for chunk in follow_up:
+                    final_chunk = chunk  # Update to get usage from follow-up
                     delta = chunk.choices[0].delta if chunk.choices else None
                     if delta and delta.content:
                         if not message_started:
@@ -246,6 +251,15 @@ async def agent_endpoint(input_data: RunAgentInput):
             # End message
             if message_started:
                 yield encode_sse("TEXT_MESSAGE_END", {"message_id": msg_id})
+
+            # EMIT USAGE_METADATA
+            if final_chunk and hasattr(final_chunk, 'usage') and final_chunk.usage:
+                yield encode_sse("USAGE_METADATA", {
+                    "input_tokens": final_chunk.usage.prompt_tokens,
+                    "output_tokens": final_chunk.usage.completion_tokens,
+                    "total_tokens": final_chunk.usage.total_tokens,
+                    "model": "gpt-5-mini"
+                })
 
         except Exception as e:
             yield encode_sse("RUN_ERROR", {

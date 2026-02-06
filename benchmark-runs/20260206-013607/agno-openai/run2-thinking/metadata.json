@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9403.725332929753,
+    "time_to_first_event_ms": 250.95034996047616,
+    "time_to_first_content_ms": 9403.890646994114,
+    "time_to_complete_ms": 9403.725332929753
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 190,
+    "tokens_approx": 47,
+    "final_text": "Answer: x = 7.\n\nReasoning (concise steps):\n1. Start with x + 5 = 12.\n2. Subtract 5 from both sides to isolate x: x = 12 \u2212 5.\n3. Compute 12 \u2212 5 = 7.\n4. Check: 7 + 5 = 12, so x = 7 is correct."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 84,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

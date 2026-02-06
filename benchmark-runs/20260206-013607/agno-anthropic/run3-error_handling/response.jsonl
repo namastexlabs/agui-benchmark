@@ -1,0 +1,29 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "'t have access to a tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "'nonexistent_tool'."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " tools available to me are:\n\n1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": ". **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "get_current_time** - Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " the current date and time\n2."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " **calculator** - Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " expressions\n\nIs"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " there something I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " can help you with using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " of these tools?"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " For example, I can"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": ":\n- Tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " you what"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " time it is right"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " now\n- Do math"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " calculations for"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "\n\nLet"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": " me know what you'd like to "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1", "delta": "do!"}
+{"type": "TEXT_MESSAGE_END", "messageId": "f38156ba-5bdd-4d6b-855c-7a61f076d9e1"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}

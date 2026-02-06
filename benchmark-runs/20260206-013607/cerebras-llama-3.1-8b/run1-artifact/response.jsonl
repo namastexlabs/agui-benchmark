@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352572", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "Simple Addition Function**\n================================\n\nHere's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " two numbers:\n\n```python\ndef add_numbers(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": ": float, b: float) -> float:\n    \"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "    Returns the sum of two numbers.\n\n    Args:\n        a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " (float): The first number.\n        b (float):"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " The second number.\n\n    Returns:\n        float: The sum of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " a and b.\n    \"\"\"\n    return a + b\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "```\n\n**Example Use Case**\n--------------------\n\nYou can use this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " function like this:\n\n```python\nresult = add_numbers("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "5, 7)\nprint(result)  # Outputs: "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": "12.0\n```\n\nThis function is concise, readable"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": ", and well-documented. It uses type hints to specify the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " expected input types and the return type, making it easier to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352572", "delta": " understand how to use the function."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352572"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-artifact"}

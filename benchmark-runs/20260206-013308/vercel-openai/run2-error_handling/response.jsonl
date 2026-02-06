@@ -1,0 +1,122 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770352440614", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " don"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\u2019t"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " have"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " called"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " \""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "non"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "existent"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "_tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " available"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " The"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " tools"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " can"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " are"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ":\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " functions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ".get"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "_current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "_time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " \u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " returns"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " date"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "/time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "  \n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " functions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ".cal"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "culator"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " \u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " evaluates"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " math"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " expressions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "  \n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " multi"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "_tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "_use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ".parallel"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " \u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " runs"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " multiple"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " functions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "from"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " above"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " in"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " parallel"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "Tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " what"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " want"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " done"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\u2019ll"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " either"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " run"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " of"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " available"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " tools"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "give"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " expression"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " ask"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " for"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "),"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " simulate"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "/"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "implement"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " requested"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " action"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " myself"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "ex"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "plain"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " goal"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "\u2019ll"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " provide"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " steps"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " code"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": ").\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "What"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " would"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " like"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": " do"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352440614", "delta": "?"}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770352440614"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-openai", "run_id": "test-run-vercel-openai-error_handling"}

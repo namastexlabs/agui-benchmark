@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8768.435637000948,
+    "time_to_first_event_ms": 808.0846769735217,
+    "time_to_first_content_ms": 8773.797857924365,
+    "time_to_complete_ms": 8768.435637000948
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1830,
+    "tokens_approx": 457,
+    "final_text": "I will ask for explicit approval before doing any deletion. A few quick questions so I can help safely:\n\n1. What exactly do you want to delete? (paths, filenames, cloud service, database, device)\n2. Where is it located? (local PC \u2014 Windows/macOS/Linux, external drive, Google Drive, Dropbox, AWS S3, a database, etc.)\n3. Do you have a backup? Do you want me to walk you through creating one first?\n4. Do you want a dry run/list of what will be deleted before I give the final delete command?\n5. Is deletion permanent (irreversible) or should items go to Trash/Recycle Bin first?\n\nWhen you\u2019re ready to proceed, please confirm explicitly by typing one of these (pick one or modify as you wish):\n- CONFIRM DELETE: [describe target]  \nor\n- YES, PERMANENTLY DELETE: [describe target]\n\nI will not run or provide any deletion commands until you send that explicit confirmation. Which target and confirmation do you choose?I will ask for explicit approval before doing any deletion. A few quick questions so I can help safely:\n\n1. What exactly do you want to delete? (paths, filenames, cloud service, database, device)\n2. Where is it located? (local PC \u2014 Windows/macOS/Linux, external drive, Google Drive, Dropbox, AWS S3, a database, etc.)\n3. Do you have a backup? Do you want me to walk you through creating one first?\n4. Do you want a dry run/list of what will be deleted before I give the final delete command?\n5. Is deletion permanent (irreversible) or should items go to Trash/Recycle Bin first?\n\nWhen you\u2019re ready to proceed, please confirm explicitly by typing one of these (pick one or modify as you wish):\n- CONFIRM DELETE: [describe target]  \nor\n- YES, PERMANENTLY DELETE: [describe target]\n\nI will not run or provide any deletion commands until you send that explicit confirmation. Which target and confirmation do you choose?"
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 604,
+    "total_tokens": 815
+  },
+  "events": {
+    "total_events": 445,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

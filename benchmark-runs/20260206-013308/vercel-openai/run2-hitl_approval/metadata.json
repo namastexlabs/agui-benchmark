@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11688.697817036882,
+    "time_to_first_event_ms": 1956.1911170603707,
+    "time_to_first_content_ms": 11689.100004034117,
+    "time_to_complete_ms": 11688.697817036882
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1121,
+    "tokens_approx": 280,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before taking any deletion steps.\n\nBefore I provide deletion instructions, please answer these quick questions so I can give safe, correct steps:\n\n1. What exactly is the data you want deleted? (file names/folders/databases/accounts)\n2. Where is it stored? (local PC, external drive, company server, cloud provider \u2014 name the provider)\n3. Do you want it permanently unrecoverable (secure erase) or just removed/soft-deleted?\n4. Do you have backups you want to keep? If so, where?\n5. Are you authorized to delete this data (you own it or have explicit permission)?\n6. Any time constraints or legal/regulatory concerns I should know about?\n\nI cannot access your devices or perform the deletion for you \u2014 I\u2019ll give step-by-step instructions and warnings. Deletion can be irreversible; if you want a secure erase I\u2019ll include secure-wipe commands or recommended tools.\n\nWhen you\u2019re ready, reply with an explicit approval in this form:\n\"I approve permanent deletion of [brief description of data and location].\"\n\nI will not proceed further until I receive that exact approval."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 241,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

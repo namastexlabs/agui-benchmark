@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 16726.43971198704,
+    "time_to_first_event_ms": 1931.423919973895,
+    "time_to_first_content_ms": 16726.825478021055,
+    "time_to_complete_ms": 16726.43971198704
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 893,
+    "tokens_approx": 223,
+    "final_text": "Understood \u2014 I will not take any deletion steps until you explicitly approve.\n\nBefore we continue, please answer these quick questions:\n1. What exactly is the data? (files/folder names, database, cloud account, etc.)  \n2. Where is it stored? (Windows/Mac/Linux, external drive, Dropbox/Google Drive/AWS, etc.)  \n3. Do you have a backup, or do you want me to include backup steps?  \n4. Should the data be permanently erased (irreversible) or moved to Trash/Recycle Bin first?\n\nIf you want me to proceed after that, confirm by replying with the exact phrase:\nI APPROVE DELETION of [brief description and location]\n\u2014for example: I APPROVE DELETION of \"project_x\" on my MacBook.\n\nNote: I cannot delete files directly from your device or accounts. Once you confirm, I will provide precise, platform-appropriate instructions or commands to carry out the deletion and warn about irreversible actions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 205,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3865.9568059956655,
+    "time_to_first_event_ms": 310.3931830264628,
+    "time_to_first_content_ms": 3868.470130022615,
+    "time_to_complete_ms": 3865.9568059956655
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 735,
+    "tokens_approx": 183,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1: Identify what we're solving**\nWe have: x + 5 = 12\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, I need to remove the +5 from the left side. I can do this by subtracting 5 from both sides of the equation:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 12 - 5\n\n**Step 4: Calculate the result****Answer: x = 7**\n\n**Verification:** Let me check this is correct by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\nThe answer is correct!**Answer: x = 7**\n\n**Verification:** Let me check this is correct by substituting x = 7 back into the original equation:\n- 7 + 5 = 12 \u2713\n\nThe answer is correct!"
+  },
+  "tokens": {
+    "input_tokens": 927,
+    "output_tokens": 58,
+    "total_tokens": 985
+  },
+  "events": {
+    "total_events": 166,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

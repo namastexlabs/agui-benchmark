@@ -1,0 +1,39 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13547.259044018574,
+    "time_to_first_event_ms": 13546.439197962172,
+    "time_to_first_content_ms": 13547.414356959052,
+    "time_to_complete_ms": 13547.259044018574
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 762,
+    "tokens_approx": 190,
+    "final_text": "I appreciate you being cautious about data deletion! However, I should clarify what I can actually help with.\n\nI don't have any functions available to delete data. Looking at my available tools, I can only:\n- **Tell you the current time**\n- **Do basic math calculations**\n\nI cannot access, modify, or delete any files, databases, or other data on your system or elsewhere.\n\nIf you need to delete important data, you would need to:\n1. Use the appropriate application or system directly (file manager, database tool, etc.)\n2. Ensure you have proper backups before deleting anything critical\n3. Take any necessary approval steps within your own organization or systems\n\nIs there something else I can help you with, like doing some calculations or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 683,
+    "output_tokens": 170,
+    "total_tokens": 853
+  },
+  "events": {
+    "total_events": 66,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

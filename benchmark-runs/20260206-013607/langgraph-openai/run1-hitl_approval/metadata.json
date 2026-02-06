@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5118.825908051804,
+    "time_to_first_event_ms": 1355.667524971068,
+    "time_to_first_content_ms": 5119.830977986567,
+    "time_to_complete_ms": 5118.825908051804
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 28,
+    "tokens_approx": 7,
+    "final_text": "42 \u00d7 17 = 714.42 \u00d7 17 = 714."
+  },
+  "tokens": {
+    "input_tokens": 248,
+    "output_tokens": 145,
+    "total_tokens": 393
+  },
+  "events": {
+    "total_events": 82,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

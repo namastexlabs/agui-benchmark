@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2178.542262990959,
+    "time_to_first_event_ms": 238.44992904923856,
+    "time_to_first_content_ms": 2178.703445009887,
+    "time_to_complete_ms": 2178.542262990959
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 738,
+    "tokens_approx": 184,
+    "final_text": "I appreciate you reaching out, but I should clarify what I can actually help with. \n\nI don't have access to any functions that can delete data from your system. Looking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI cannot access, modify, or delete any files, databases, or personal information on your device or accounts.\n\n**If you're trying to delete data:**\n- You'll need to do this directly through your device, application, or service\n- Always make sure you have backups before deleting important information\n- Most systems have confirmation prompts to prevent accidental deletion\n\nIs there something else I can help you with, like calculations or time-related questions?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

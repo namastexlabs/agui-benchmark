@@ -1,0 +1,9 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352488", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " calculate 42 * 17, we multiply the numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": " together.\n\n42 * 10 = 420"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": "\n420 * 7 = 2940\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352488", "delta": "So the result of 42 * 17 is 2940."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352488"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-tool_calc"}

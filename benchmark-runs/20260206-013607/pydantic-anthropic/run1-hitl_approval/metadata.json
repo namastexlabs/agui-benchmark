@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2273.3268800657243,
+    "time_to_first_event_ms": 267.23324100021273,
+    "time_to_first_content_ms": 2273.523237090558,
+    "time_to_complete_ms": 2273.3268800657243
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 803,
+    "tokens_approx": 200,
+    "final_text": "I appreciate you mentioning this, but I should clarify: I don't have the ability to delete any data on your computer or systems. I can only:\n\n1. **Tell you the current time**\n2. **Perform basic math calculations**\n\nI cannot access, modify, or delete files, databases, or any other data on your devices.\n\nIf you need to delete important data, you'll need to do that directly through your operating system, applications, or relevant tools. Before doing so, I'd strongly recommend:\n\n- **Backing up** your important data first (if you haven't already)\n- **Double-checking** what you're deleting to make sure it's actually what you want to remove\n- **Verifying** that you have proper permissions to delete the data\n\nIs there anything else I can help you with, like calculating something or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 61,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

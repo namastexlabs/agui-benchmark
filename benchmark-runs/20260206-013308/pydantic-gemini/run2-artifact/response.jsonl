@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "f7552051-a65e-4794-a127-4a230cc63735", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f7552051-a65e-4794-a127-4a230cc63735", "delta": "```python\ndef add_numbers(a, b):\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f7552051-a65e-4794-a127-4a230cc63735", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f7552051-a65e-4794-a127-4a230cc63735", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "f7552051-a65e-4794-a127-4a230cc63735"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-artifact"}

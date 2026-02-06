@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14714.799175038934,
+    "time_to_first_event_ms": 625.99357299041,
+    "time_to_first_content_ms": 14715.37976700347,
+    "time_to_complete_ms": 14714.799175038934
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1352,
+    "tokens_approx": 338,
+    "final_text": "Understood \u2014 I will always ask for your explicit approval before proceeding. A few quick clarifying questions so I can prepare the safe, correct deletion plan:\n\n1. Where is the data located? (local PC, external drive, cloud provider \u2014 name, or a database \u2014 name and connection details)\n2. Do you want permanent (irrecoverable) secure deletion, or just move to trash/archive so it can be recovered for a time?\n3. Do you already have a backup? If not, do you want help making one first?\n4. Any legal/retention or access constraints I should know about (e.g., compliance, other users who rely on this data)?\n5. Do you want me to:\n   - provide step-by-step commands/instructions for you to run, or\n   - generate a script you\u2019ll review and run, or\n   - (if applicable) prepare commands for an admin who has system access?\n   Note: I cannot directly access or delete files on your systems \u2014 I can only provide instructions or scripts.\n\nIf you want me to proceed after I prepare the plan, reply with this exact confirmation phrase so I know you explicitly approve irreversible action:\n\"I APPROVE PERMANENT DELETION\"\n\nIf you prefer a different confirmation phrase or want a soft deletion first, tell me which. Once you answer the questions above, I\u2019ll prepare a deletion plan and wait for your exact confirmation phrase before giving any irreversible commands."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 297,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

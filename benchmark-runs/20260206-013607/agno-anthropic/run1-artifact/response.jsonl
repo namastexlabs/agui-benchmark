@@ -1,0 +1,22 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "Here's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " two numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "a, b):\n    \"\"\"Ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "d two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "d return the result.\"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "\nresult = add(5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "3)\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "\n```\n\nThis"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " function takes two parameters (`"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": "a` and `b`) and returns"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " their sum. You"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " can call it with"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " any numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44", "delta": " you'd like to add together!"}
+{"type": "TEXT_MESSAGE_END", "messageId": "e8b4ff63-1ac0-419e-b79e-fbaf56732d44"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}

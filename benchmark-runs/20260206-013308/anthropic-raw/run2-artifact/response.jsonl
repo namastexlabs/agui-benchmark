@@ -1,0 +1,28 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "Here's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " two numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "python\ndef add_numbers(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": ", b):\n    \"\"\"\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "Args:\n        a: The first"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " number\n        b: The second number"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "\n    \n    Returns:\n        "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "The sum of a and b\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "\"\"\"\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "\n\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "\nresult = add_numbers(5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": ", 3)\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "\n```\n\nYou can use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " this function by calling `"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "add_numbers(x"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": ", y)` where `x`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " and `y` are the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": " you want to add together"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "message_id": "26b4faa7-e2d0-4744-97a5-bc4af49f9d2d"}
+{"type": "USAGE_METADATA", "input_tokens": 681, "output_tokens": 148, "total_tokens": 829, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}

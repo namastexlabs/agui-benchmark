@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_016gmDVSSmGeUtBEGpLp46ny", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_016gmDVSSmGeUtBEGpLp46ny", "delta": ""}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_016gmDVSSmGeUtBEGpLp46ny"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "toolu_016gmDVSSmGeUtBEGpLp46ny", "result": "2026-02-06 01:33:10"}
+{"type": "TEXT_MESSAGE_START", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": "2026-02-06 01"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": ":33:10**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": " (1"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": ":33 "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": "AM an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": "d 10"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": " seconds on"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": " February"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": " 6th"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb", "delta": " 2026)."}
+{"type": "TEXT_MESSAGE_END", "message_id": "17cef95d-09c2-4c12-986e-fc7cbb5b56bb"}
+{"type": "USAGE_METADATA", "input_tokens": 679, "output_tokens": 39, "total_tokens": 718, "model": "claude-haiku-4-5-20251001"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-tool_time"}

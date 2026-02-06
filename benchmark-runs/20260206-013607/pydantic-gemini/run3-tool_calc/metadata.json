@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2665.131550980732,
+    "time_to_first_event_ms": 246.02111300919205,
+    "time_to_first_content_ms": 2665.175303001888,
+    "time_to_complete_ms": 2665.131550980732
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0009660143405199051
+  },
+  "response": {
+    "chars": 30,
+    "tokens_approx": 7,
+    "final_text": "The result of 42 * 17 is 714.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

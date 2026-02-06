@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770352389", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " don't have information about a tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " called \"nonexistent_tool\" as"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " it doesn't exist."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " I can provide"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " general information or help"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " with a different task if"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770352389", "delta": " you'd like. Please let me know how I can assist you further!"}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770352389"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-error_handling"}

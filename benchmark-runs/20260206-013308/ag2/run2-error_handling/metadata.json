@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 13505.29254192952,
+    "time_to_first_event_ms": 2702.0199769176543,
+    "time_to_first_content_ms": 13505.325963022187,
+    "time_to_complete_ms": 13505.29254192952
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1250,
+    "tokens_approx": 312,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my environment. I can\u2019t call it, but I can help in several ways. Which would you like?\n\nOptions\n- I can do the task myself if you tell me what you wanted that tool to do (e.g., fetch a webpage, transform data, generate images).\n- I can simulate the tool\u2019s output if you describe expected behavior and inputs.\n- I can provide code to check for and call a command-line tool, or to implement the tool as a Python/Node program.\n- I can recommend real, existing tools or libraries that accomplish the same goal and show how to use them.\n\nQuick examples\n\n1) Check-and-run a CLI tool (shell/Python):\n- shell:\n  if command -v nonexistent_tool >/dev/null 2>&1; then nonexistent_tool arg1; else echo \"nonexistent_tool not found\"; fi\n- Python:\n  import shutil, subprocess\n  if shutil.which(\"nonexistent_tool\") is None:\n      print(\"nonexistent_tool not installed\")\n  else:\n      subprocess.run([\"nonexistent_tool\", \"arg1\"], check=True)\n\n2) Handle a missing Python module:\n  try:\n      import nonexistent_tool\n  except ImportError:\n      print(\"Install with: pip install <package-name>\")\n\nTell me what you wanted \"nonexistent_tool\" to do and which option you prefer, and I\u2019ll proceed."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

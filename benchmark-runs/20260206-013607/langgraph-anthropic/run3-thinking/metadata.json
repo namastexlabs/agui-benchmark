@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4816.988434991799,
+    "time_to_first_event_ms": 272.10157306399196,
+    "time_to_first_content_ms": 4819.348172051832,
+    "time_to_complete_ms": 4816.988434991799
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 654,
+    "tokens_approx": 163,
+    "final_text": "I'll work through this step-by-step algebraic problem:\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to solve for x, which means isolating x on one side of the equation.\n\n**Step 2: Use inverse operations**\nSince x is being added to 5, we need to subtract 5 from both sides to undo this operation and keep the equation balanced.\n\n**Step 3: Apply the operation**\nx + 5 - 5 = 12 - 5\n\nLet me calculate the right side:**Step 4: Simplify**\nx = 7\n\n**Verification:** Let me check our answer by substituting x = 7 back into the original equation:\u2713 Correct! 7 + 5 = 12\n\n**Answer: x = 7**\u2713 Correct! 7 + 5 = 12\n\n**Answer: x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 1018,
+    "output_tokens": 28,
+    "total_tokens": 1046
+  },
+  "events": {
+    "total_events": 212,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

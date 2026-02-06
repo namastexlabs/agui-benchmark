@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9958.428099984303,
+    "time_to_first_event_ms": 354.2284140130505,
+    "time_to_first_content_ms": 9959.016470937058,
+    "time_to_complete_ms": 9958.428099984303
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1046,
+    "tokens_approx": 261,
+    "final_text": "I can help \u2014 but I will not perform or instruct any destructive action until you give explicit approval. Please provide the following, then type the approval phrase I give below:\n\n1) Exact data to delete (be specific: filenames, folders, database tables, account IDs).  \n2) Location (local machine, server name/IP, cloud provider and bucket/container, database type and connection).  \n3) Do you have a verified backup? If not, do you want instructions to make one first?  \n4) Are you authorized to delete this data? (who owns it / legal or policy considerations)  \n5) How do you want me to proceed: (a) provide step-by-step commands/scripts you will run, or (b) run deletion actions here (I can\u2019t access your systems, so I can only provide commands)?\n\nTo confirm you want me to proceed after you\u2019ve answered the items above, type this exact approval phrase (replace [description] with the exact data description from item 1):\n\nI approve deletion of [description]\n\nI will not proceed or provide deletion commands until you enter that exact phrase."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 228,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

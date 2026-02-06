@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12710.115693043917,
+    "time_to_first_event_ms": 2303.5027630394325,
+    "time_to_first_content_ms": 12710.634088027291,
+    "time_to_complete_ms": 12710.115693043917
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 864,
+    "tokens_approx": 216,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in my available toolset. Available tools I can actually use here:\n\n- get_current_time(): returns the current date/time.\n- calculator(expression): evaluates a math expression.\n- multi_tool_use.parallel(...): run the above tools in parallel.\n\nOptions I can offer \u2014 tell me which you prefer:\n1. Describe what you wanted \"nonexistent_tool\" to do and I\u2019ll either (a) do the same thing with the tools I have, or (b) simulate the tool\u2019s behavior and give results.\n2. If you want me to actually run something I can do now, say which one: get_current_time or a calculation (give the expression), or ask me to run both in parallel.\n3. If you want a real new tool added, tell me the tool name, inputs, and expected outputs (or provide the integration), and I\u2019ll explain how to add it.\n\nWhich option do you want?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 205,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

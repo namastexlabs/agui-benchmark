@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-anthropic",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1525.7955110864714,
+    "time_to_first_event_ms": 279.70542502589524,
+    "time_to_first_content_ms": 1525.8989880094305,
+    "time_to_complete_ms": 1525.7955110864714
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 393,
+    "tokens_approx": 98,
+    "final_text": "I don't have access to a tool called 'nonexistent_tool'. The tools available to me are:\n\n1. **get_current_time()** - Get the current date and time\n2. **calculator(expression)** - Evaluate mathematical expressions\n\nIs there something I can help you with using one of these tools? For example, I can tell you the current time or perform math calculations. Just let me know what you'd like to do!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 30,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

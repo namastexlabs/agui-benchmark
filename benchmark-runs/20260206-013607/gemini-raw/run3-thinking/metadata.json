@@ -1,0 +1,42 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7726.924799033441,
+    "time_to_first_event_ms": 7726.581442984752,
+    "time_to_first_content_ms": 7726.955431047827,
+    "time_to_complete_ms": 7726.924799033441
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0007749767974019051
+  },
+  "response": {
+    "chars": 216,
+    "tokens_approx": 54,
+    "final_text": "To find x, we need to isolate x on one side of the equation.\n\nGiven the equation:\nx + 5 = 12\n\nSubtract 5 from both sides of the equation:\nx + 5 - 5 = 12 - 5\nx = 7\n\nLet's use the calculator to verify the subtraction:\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

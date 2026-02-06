@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12207.185394014232,
+    "time_to_first_event_ms": 2597.1655240282416,
+    "time_to_first_content_ms": 12207.219779025763,
+    "time_to_complete_ms": 12207.185394014232
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1300,
+    "tokens_approx": 325,
+    "final_text": "I don\u2019t have access to a tool called \"nonexistent_tool\" (and I can\u2019t call tools that aren\u2019t actually available). Tell me what you want that tool to do and I\u2019ll either:\n\n- do the task here directly, or\n- give you code to implement a CLI/utility that performs the task, or\n- show how to use an existing real tool (curl, wget, ffmpeg, etc.) to achieve it.\n\nIf you want a quick starting point, here\u2019s a concise Python CLI template you can save as nonexistent_tool.py and run:\n\n```python\n#!/usr/bin/env python3\nimport argparse\n\ndef process(text, repeat):\n    # Replace this with the actual logic you need\n    return (text.upper() + \"\\n\") * repeat\n\ndef main():\n    p = argparse.ArgumentParser(description=\"nonexistent_tool \u2014 example CLI\")\n    p.add_argument(\"--input\", \"-i\", type=str, required=True, help=\"Input text\")\n    p.add_argument(\"--repeat\", \"-r\", type=int, default=1, help=\"How many times to repeat\")\n    args = p.parse_args()\n\n    result = process(args.input, args.repeat)\n    print(result)\n\nif __name__ == \"__main__\":\n    main()\n```\n\nRun:\n- chmod +x nonexistent_tool.py\n- ./nonexistent_tool.py -i \"hello\" -r 3\n\nTell me what functionality you need (fetch a URL, transform text, process images, run commands, etc.) and I\u2019ll either perform it here or produce a tailored implementation/instructions."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

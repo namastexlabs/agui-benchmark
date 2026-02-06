@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4863.572746980935,
+    "time_to_first_event_ms": 4345.668729976751,
+    "time_to_first_content_ms": 4863.634071894921,
+    "time_to_complete_ms": 4863.572746980935
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 654,
+    "tokens_approx": 163,
+    "final_text": "```python\n# Function to add two numbers\ndef add_numbers(num1, num2):\n    \"\"\"\n    This function adds two numbers together.\n\n    Args:\n        num1 (float): The first number to add.\n        num2 (float): The second number to add.\n\n    Returns:\n        float: The sum of num1 and num2.\n    \"\"\"\n    return num1 + num2\n\n# Example usage:\nprint(add_numbers(5, 3))  # Output: 8\nprint(add_numbers(-2, 4))  # Output: 2\n```\n\nThis function takes two arguments (`num1` and `num2`) and returns their sum. It also includes a docstring that explains what the function does and how to use it. The example usage demonstrates how to call the function with different inputs."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

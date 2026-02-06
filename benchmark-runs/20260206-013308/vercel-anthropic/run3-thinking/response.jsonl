@@ -1,0 +1,62 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-thinking"}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770352485288", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "I'll"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " solve this step-by-step for"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " you.\n\n**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "Given"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": ":** x + 5 = "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "12\n\n**Step 1:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " Identify"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " what"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " we nee"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "d to find**\nWe need to fin"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "d the value of x."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "\n\n**Step 2: Isol"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "ate x**\nTo"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " isol"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "ate x, we"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " need to remove"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " the "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "5 from the left side."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " We "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "do this by subtracting 5 "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "from both sides of"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " the equation:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " x + 5 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " = 12 - 5"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "\n\n**Step 3: Simplify"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "\nLet"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " calculate"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " the right side:"}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-1", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-1", "delta": "{\"expression\":\"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-1"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-1", "result": "12 - 5 = 7"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "**Result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": ":** x ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " 7\n\n**Verification"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": ":** Let"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "'s"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " check our"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " answer by"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " substituting x = 7 back"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " into the original equation:"}
+{"type": "TOOL_CALL_START", "toolCallId": "tc-2", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "tc-2", "delta": "{\"expression\":\"7 + 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "tc-2"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "tc-2", "result": "7 + 5 = 12"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "\u2713"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " **Correct"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "!"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "** Since"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "7 + 5 = "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": "12, our"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " answer is verified.\n\n**Answer:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352485288", "delta": " x = 7**"}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770352485288"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-anthropic", "run_id": "test-run-vercel-anthropic-thinking"}

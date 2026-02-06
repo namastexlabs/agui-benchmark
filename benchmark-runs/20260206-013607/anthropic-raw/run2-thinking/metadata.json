@@ -1,0 +1,43 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9936.39023695141,
+    "time_to_first_event_ms": 9935.709250974469,
+    "time_to_first_content_ms": 9936.52652099263,
+    "time_to_complete_ms": 9936.39023695141
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0009279465302824974
+  },
+  "response": {
+    "chars": 602,
+    "tokens_approx": 150,
+    "final_text": "I need to solve the equation **x + 5 = 12** for x.\n\nHere's my step-by-step reasoning:\n\n1. **Start with the equation:** x + 5 = 12\n\n2. **Isolate x:** To get x by itself, I need to remove the +5 from the left side. I do this by subtracting 5 from both sides of the equation.\n\n3. **Apply the operation:** \n   - Left side: x + 5 - 5 = x\n   - Right side: 12 - 5 = 7\n\n4. **Result:** x = 7\n\nLet me verify this with a calculation:**Answer: x = 7** \u2713\n\nThe reasoning is based on the principle that whatever operation you perform on one side of an equation, you must perform on the other side to keep it balanced."
+  },
+  "tokens": {
+    "input_tokens": 692,
+    "output_tokens": 209,
+    "total_tokens": 901
+  },
+  "events": {
+    "total_events": 64,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START",
+      "USAGE_METADATA"
+    ]
+  }
+}

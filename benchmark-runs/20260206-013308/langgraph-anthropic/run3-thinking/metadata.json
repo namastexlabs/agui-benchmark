@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3517.210804973729,
+    "time_to_first_event_ms": 333.5944910068065,
+    "time_to_first_content_ms": 3519.467380014248,
+    "time_to_complete_ms": 3517.210804973729
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 803,
+    "tokens_approx": 200,
+    "final_text": "I need to solve for x in the equation: x + 5 = 12\n\nLet me work through this step-by-step:\n\n**Step 1: Identify what we know**\n- We have the equation: x + 5 = 12\n- We need to find the value of x\n\n**Step 2: Isolate x**\n- To isolate x, I need to remove the \"+ 5\" from the left side\n- I can do this by subtracting 5 from both sides of the equation\n- This maintains the equality: x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\n- Left side: x + 5 - 5 = x\n- Right side: 12 - 5 = ?\n\nLet me calculate the right side:**Step 4: State the answer**\n- Therefore: **x = 7**\n\n**Verification:**\nLet me check: if x = 7, then x + 5 = 7 + 5 = 12 \u2713\n\nThe answer is **x = 7**.**Step 4: State the answer**\n- Therefore: **x = 7**\n\n**Verification:**\nLet me check: if x = 7, then x + 5 = 7 + 5 = 12 \u2713\n\nThe answer is **x = 7**."
+  },
+  "tokens": {
+    "input_tokens": 956,
+    "output_tokens": 69,
+    "total_tokens": 1025
+  },
+  "events": {
+    "total_events": 166,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

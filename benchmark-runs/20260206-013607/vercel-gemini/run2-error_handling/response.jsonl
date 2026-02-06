@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "msg-1770352611816", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352611816", "delta": "I am sorry, but the tool 'nonexistent_"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "msg-1770352611816", "delta": "tool' does not exist. I can tell you the current time or evaluate a mathematical expression."}
+{"type": "TEXT_MESSAGE_END", "message_id": "msg-1770352611816"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-vercel-gemini", "run_id": "test-run-vercel-gemini-error_handling"}

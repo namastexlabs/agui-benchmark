@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2237.8158650826663,
+    "time_to_first_event_ms": 358.32302109338343,
+    "time_to_first_content_ms": 2238.366982084699,
+    "time_to_complete_ms": 2237.8158650826663
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 123,
+    "tokens_approx": 30,
+    "final_text": "The result of 42 \u00d7 17 is **714**.The current time is **2026-02-06 01:36:08** (February 6th, 2026 at 1:36 AM and 8 seconds)."
+  },
+  "tokens": {
+    "input_tokens": 758,
+    "output_tokens": 56,
+    "total_tokens": 775
+  },
+  "events": {
+    "total_events": 63,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

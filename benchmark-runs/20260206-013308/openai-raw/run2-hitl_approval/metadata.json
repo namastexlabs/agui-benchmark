@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 32197.651716065593,
+    "time_to_first_event_ms": 32195.247731986456,
+    "time_to_first_content_ms": 32198.049584054388,
+    "time_to_complete_ms": 32197.651716065593
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1030,
+    "tokens_approx": 257,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and will ask for explicit confirmation.\n\nPlease tell me:\n1. Exactly what data you want deleted (files, folders, database, account, etc.) and where it\u2019s stored (device, cloud provider, server, path).\n2. Whether you have a current backup or want me to walk you through making one.\n3. Should the data be permanently deleted (irrecoverable) or moved to an archive/recycle bin for a grace period?\n4. Any constraints or consequences I should know about (legal/organizational policies, shared access, linked services).\n5. Do you want me to provide deletion commands/steps, or to proceed if I had the ability to delete?\n\nWhen you\u2019ve answered, I will ask for an explicit approval step. To confirm deletion you will need to reply with one of these exact phrases (pick one when ready):\n- \u201cI approve permanent deletion\u201d\n- \u201cI approve archive deletion\u201d\n- \u201cCancel \u2014 do not delete\u201d\n\nWhich data are we targeting, and do you have a backup?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 230,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

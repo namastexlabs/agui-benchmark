@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7834.8999340087175,
+    "time_to_first_event_ms": 427.6420420501381,
+    "time_to_first_content_ms": 7835.427446989343,
+    "time_to_complete_ms": 7834.8999340087175
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1056,
+    "tokens_approx": 264,
+    "final_text": "Understood \u2014 I will not do anything until you explicitly approve. Before we continue, please confirm a few details so I can proceed safely when you give approval:\n\n1. What exactly do you want deleted? (files, folders, database rows, cloud objects, entire disk, etc.)  \n2. Where is it stored? (local PC, external drive, Google Drive, AWS S3, Azure, a specific server, database name, etc.)  \n3. Is there a backup? Do you want me to create one or guide you to create one first?  \n4. Is deletion permanent (irreversible) or do you want to move to trash/archival first?  \n5. Any time constraints or user/account permissions I should be aware of?\n\nWhen you\u2019re ready to proceed, explicitly approve by replying with this exact phrase including the description of what to delete:\n\nI APPROVE deleting: [brief description of the data and location]\n\nExample:\nI APPROVE deleting: folder \"OldInvoices\" on Google Drive account user@example.com, permanent delete.\n\nI will wait for that exact approval phrase before giving deletion instructions or taking any further steps."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 234,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

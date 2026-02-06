@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4628.799190977588,
+    "time_to_first_event_ms": 4219.475197955035,
+    "time_to_first_content_ms": 4628.859749995172,
+    "time_to_complete_ms": 4628.799190977588
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 868,
+    "tokens_approx": 217,
+    "final_text": "I'm not capable of using the \"time tool\" as it seems you're referring to a local operating system function. I'm a text-based AI assistant and do not have real-time access to your device's clock. However, I can suggest a few options to find the current time:\n\n1. Check your device's clock: You can check the current time on your computer, phone, or any other device by looking at the clock displayed on the screen.\n2. Use a search engine: You can search for \"current time\" or \"time now\" on a search engine like Google to find the current time in your location.\n3. Ask a voice assistant: If you have a voice assistant like Siri, Google Assistant, or Alexa, you can ask them to tell you the current time.\n\nIf you want to know the current time in a specific location, I can try to provide it based on my training data. Please let me know the location you're interested in."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 21,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 29931.68426398188,
+    "time_to_first_event_ms": 29929.650659905747,
+    "time_to_first_content_ms": 29932.14266898576,
+    "time_to_complete_ms": 29931.68426398188
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1043,
+    "tokens_approx": 260,
+    "final_text": "Okay \u2014 I will not do anything until you explicitly approve. A few quick questions so I can proceed safely once you confirm:\n\n1. What exactly do you want deleted? (files, folders, database rows, cloud objects, email, etc.)\n2. Where is it located? (local machine \u2014 give OS and paths, server \u2014 give hostname/SSH access method, cloud provider and bucket/container, database and table, etc.)\n3. Is this irreversible? Do you want a permanent/secure wipe (overwriting) or just moving to trash/recycling bin?\n4. Do you have a backup or do you want me to outline how to make one first?\n5. Do you have authority to delete this data? (I\u2019ll ask you to confirm this.)\n6. How would you like to confirm? Type one of these exact confirmation phrases:\n   - \"I CONFIRM DELETE\" \u2014 proceed with deletion steps provided\n   - \"I CONFIRM SECURE DELETE\" \u2014 proceed with secure overwrite where applicable\n   - Or reply \"CANCEL\" to stop\n\nTell me the answers to 1\u20135 and then type your chosen confirmation phrase. I will not proceed until I receive that exact confirmation."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 246,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

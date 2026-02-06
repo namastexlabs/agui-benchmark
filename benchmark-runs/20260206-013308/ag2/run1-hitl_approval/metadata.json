@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10092.13887003716,
+    "time_to_first_event_ms": 298.98711608257145,
+    "time_to_first_content_ms": 10092.179524013773,
+    "time_to_complete_ms": 10092.13887003716
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1043,
+    "tokens_approx": 260,
+    "final_text": "I can do that. Before I do anything, I need some details and your explicit confirmation.\n\nPlease tell me:\n- What exactly to delete (file paths, folder names, database/tables, cloud bucket + object names, etc.)\n- Where it lives (Windows/macOS/Linux machine, cloud provider and account, server, phone)\n- Whether you want permanent deletion (irreversible) or move to trash/archive first\n- Whether there are backups or retention policies I should know about\n- Any legal/regulatory or business constraints\n\nWarning: permanent deletion may be irreversible and can cause data loss or service outage. I strongly recommend creating a backup (or letting me show a dry-run of what would be removed) before proceeding.\n\nI will not perform any deletion until you explicitly approve. If you want me to proceed now, please confirm by replying with the exact confirmation phrase:\nDELETE: <short description of what to delete>\n(for example: DELETE: /home/alice/project folder on server-1)\n\nIf you prefer a dry-run or prepared deletion commands instead, say so."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

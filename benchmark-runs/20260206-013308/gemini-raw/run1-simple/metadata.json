@@ -1,0 +1,38 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 645.6550790462643,
+    "time_to_first_event_ms": 642.6635220414028,
+    "time_to_first_content_ms": 645.6814439734444,
+    "time_to_complete_ms": 645.6550790462643
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 114,
+    "tokens_approx": 28,
+    "final_text": "Hello! I'm a large language model, trained by Google. I can provide information and assist you with various tasks."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

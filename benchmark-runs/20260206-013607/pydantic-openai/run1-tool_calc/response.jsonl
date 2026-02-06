@@ -1,0 +1,22 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "toolCallName": "calculator", "parentMessageId": "2fcae599-21e8-4b1b-b0ad-20421a9e37f0"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "{\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "expression"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "\":\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "42"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": " *"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": " "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "17"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "delta": "\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE"}
+{"type": "TOOL_CALL_RESULT", "messageId": "5f7ad745-9db8-413b-906f-2c323d37bd24", "toolCallId": "call_UJUIZmuOplJu6EcuJdt4MtdE", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": "42"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": " *"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": "17"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04", "delta": "714"}
+{"type": "TEXT_MESSAGE_END", "messageId": "29202451-9078-45a8-88f0-45c6ee054f04"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_calc"}

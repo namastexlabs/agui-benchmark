@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 36140.92898298986,
+    "time_to_first_event_ms": 36139.54366603866,
+    "time_to_first_content_ms": 36141.24961500056,
+    "time_to_complete_ms": 36140.92898298986
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 689,
+    "tokens_approx": 172,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it doesn\u2019t exist in the available toolset. Available tools I can use here are:\n- get_current_time \u2014 returns the current date/time\n- calculator \u2014 evaluates math expressions\n- multi_tool_use.parallel \u2014 runs multiple available tools in parallel\n\nTell me what you want to do and I\u2019ll use one of those (or simulate the behavior of a nonexistent tool). Examples:\n- \"Compute 12345 * 678\" \u2014 I\u2019ll use the calculator.\n- \"What time is it now?\" \u2014 I\u2019ll call get_current_time.\n- \"Do both: multiply 12*12 and give current time\" \u2014 I\u2019ll run both with parallel.\n\nOr say \"simulate nonexistent_tool that returns X\" and I\u2019ll mock the output. Which would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 170,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

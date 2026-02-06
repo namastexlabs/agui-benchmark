@@ -66,6 +66,7 @@ async def stream_cerebras_to_agui(request_data: dict) -> AsyncIterator[str]:
     }
 
     message_id = f"msg-{int(time.time())}"
+    usage_data = None  # Store usage from final chunk
 
     # Yield TEXT_MESSAGE_START
     yield f"data: {json.dumps({'type': 'TEXT_MESSAGE_START', 'messageId': message_id, 'role': 'assistant'})}\n\n"
@@ -93,6 +94,11 @@ async def stream_cerebras_to_agui(request_data: dict) -> AsyncIterator[str]:
 
                         try:
                             chunk = json.loads(data_str)
+
+                            # Extract usage if present (OpenAI format)
+                            if "usage" in chunk:
+                                usage_data = chunk["usage"]
+
                             delta = chunk.get("choices", [{}])[0].get("delta", {})
                             content = delta.get("content", "")
 
@@ -109,6 +115,16 @@ async def stream_cerebras_to_agui(request_data: dict) -> AsyncIterator[str]:
 
     # Yield TEXT_MESSAGE_END
     yield f"data: {json.dumps({'type': 'TEXT_MESSAGE_END', 'messageId': message_id})}\n\n"
+
+    # EMIT USAGE_METADATA
+    if usage_data:
+        yield f"data: {json.dumps({
+            'type': 'USAGE_METADATA',
+            'input_tokens': usage_data.get('prompt_tokens', 0),
+            'output_tokens': usage_data.get('completion_tokens', 0),
+            'total_tokens': usage_data.get('total_tokens', 0),
+            'model': model
+        })}\n\n"
 
     # Yield RUN_FINISHED
     yield f"data: {json.dumps({'type': 'RUN_FINISHED', 'threadId': thread_id, 'runId': run_id})}\n\n"

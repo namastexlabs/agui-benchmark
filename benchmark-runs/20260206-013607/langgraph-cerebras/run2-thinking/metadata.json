@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2451.5415789792314,
+    "time_to_first_event_ms": 802.971594966948,
+    "time_to_first_content_ms": 2451.9590790150687,
+    "time_to_complete_ms": 2451.5415789792314
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 548,
+    "tokens_approx": 137,
+    "final_text": "To find the value of x, we need to isolate x on one side of the equation. We can do this by subtracting 5 from both sides of the equation.\n\nGiven equation: x + 5 = 12\n\nSubtract 5 from both sides: x + 5 - 5 = 12 - 5\n\nThis simplifies to: x = 7\n\nTherefore, the value of x is 7.To find the value of x, we need to isolate x on one side of the equation. We can do this by subtracting 5 from both sides of the equation.\n\nGiven equation: x + 5 = 12\n\nSubtract 5 from both sides: x + 5 - 5 = 12 - 5\n\nThis simplifies to: x = 7\n\nTherefore, the value of x is 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 34,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

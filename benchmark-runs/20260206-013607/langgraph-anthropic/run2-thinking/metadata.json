@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4106.657407013699,
+    "time_to_first_event_ms": 304.74059702828526,
+    "time_to_first_content_ms": 4110.205603996292,
+    "time_to_complete_ms": 4106.657407013699
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 513,
+    "tokens_approx": 128,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate x**\nTo find x, I need to get it by itself on one side of the equation. Since 5 is being added to x, I'll subtract 5 from both sides:\n\nx + 5 - 5 = 12 - 5\n\n**Step 3: Simplify both sides**\nLet me calculate what's on the right side:**Step 4: Solution**\nx = 7\n\n**Verification:** Let me check: 7 + 5 = ?Perfect! \u2713 The answer checks out.\n\n**Answer: x = 7**Perfect! \u2713 The answer checks out.\n\n**Answer: x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 998,
+    "output_tokens": 23,
+    "total_tokens": 1021
+  },
+  "events": {
+    "total_events": 185,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "f4a245b9-769f-438e-b112-5c6f6ffcffeb", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "f4a245b9-769f-438e-b112-5c6f6ffcffeb", "delta": "I'm sorry, the tool 'nonexistent_tool' does not exist. I can only help with telling the current time and basic math calculations."}
+{"type": "TEXT_MESSAGE_END", "messageId": "f4a245b9-769f-438e-b112-5c6f6ffcffeb"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-error_handling"}

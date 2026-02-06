@@ -1,0 +1,42 @@
+{
+  "agent": "vercel-gemini",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7412.190212053247,
+    "time_to_first_event_ms": 3618.959548068233,
+    "time_to_first_content_ms": 7412.240811041556,
+    "time_to_complete_ms": 7412.190212053247
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0014549586921930313
+  },
+  "response": {
+    "chars": 58,
+    "tokens_approx": 14,
+    "final_text": "The current time is 04:36:12 on 2026-02-06.\n10 + 20 = 30.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 16,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

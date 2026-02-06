@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7341.63357608486,
+    "time_to_first_event_ms": 263.20412708446383,
+    "time_to_first_content_ms": 7341.940685058944,
+    "time_to_complete_ms": 7341.63357608486
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 622,
+    "tokens_approx": 155,
+    "final_text": "I don\u2019t have a tool named \"nonexistent_tool\" available. I can\u2019t call tools that aren\u2019t defined here.\n\nTell me what you want to accomplish and I\u2019ll either:\n- use one of the available tools (I can get the current time or run math expressions),  \n- run multiple available tools in parallel, or  \n- simulate or write code that would call a tool you describe.\n\nExamples:\n- \"What time is it?\" \u2014 I can call the current-time tool.\n- \"Compute 234 * 17\" \u2014 I can run the calculator.\n- \"Run both: get current time and compute 234 * 17\" \u2014 I can run them in parallel.\n\nWhich would you like, or what does the nonexistent tool need to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 157,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

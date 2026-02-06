@@ -1,0 +1,38 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11732.268842984922,
+    "time_to_first_event_ms": 706.8552519194782,
+    "time_to_first_content_ms": 11732.295088935643,
+    "time_to_complete_ms": 11732.268842984922
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 203,
+    "tokens_approx": 50,
+    "final_text": "I'm sorry, I cannot delete any data. My capabilities are limited to telling the current time and doing basic math calculations. I am an AI assistant and do not have access to your personal data or files."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

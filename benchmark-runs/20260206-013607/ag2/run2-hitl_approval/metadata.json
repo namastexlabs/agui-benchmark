@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10601.036772015505,
+    "time_to_first_event_ms": 2539.6951920120046,
+    "time_to_first_content_ms": 10601.073986967094,
+    "time_to_complete_ms": 10601.036772015505
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1292,
+    "tokens_approx": 323,
+    "final_text": "I will not perform any destructive action unless you explicitly approve. Before I prepare deletion steps, I need a few details and your explicit confirmation method.\n\nPlease answer these:\n\n1. What exactly do you want deleted? (file paths, folder names, database/table/rows, cloud buckets, user accounts, etc.)\n2. Where is it stored? (local machine with OS, Windows/Linux/macOS; cloud provider and region; database type and host; NAS; etc.)\n3. Is there a backup or snapshot? If not, do you want me to include backup steps first?\n4. Any legal/retention/regulatory holds or other people who must be notified?\n5. Do you want permanent secure deletion (overwrite/shred) or a normal delete/trash?\n6. Do you want a dry-run/preview before actual deletion?\n7. When should the deletion occur (immediately or scheduled)?\n\nOnce you reply with the above, type the confirmation phrase exactly as shown to authorize proceeding with the deletion plan/commands:\nCONFIRM DELETE\n\nAfter you type that phrase I will:\n- provide a safe, step-by-step plan (including backup and verification steps if requested),\n- show the exact commands to run (I will not run them),\n- ask you one final time to type CONFIRM DELETE before giving any irreversible commands.\n\nWaiting for your answers and explicit confirmation phrase."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

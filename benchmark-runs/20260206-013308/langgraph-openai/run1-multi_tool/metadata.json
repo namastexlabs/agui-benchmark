@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6663.141115102917,
+    "time_to_first_event_ms": 1446.309596998617,
+    "time_to_first_content_ms": 6664.793854113668,
+    "time_to_complete_ms": 6663.141115102917
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 288,
+    "tokens_approx": 72,
+    "final_text": "According to the time tool, the current time is 2026-02-06 01:33:12 (system time). Would you like it converted to a specific timezone or format?According to the time tool, the current time is 2026-02-06 01:33:12 (system time). Would you like it converted to a specific timezone or format?"
+  },
+  "tokens": {
+    "input_tokens": 246,
+    "output_tokens": 240,
+    "total_tokens": 486
+  },
+  "events": {
+    "total_events": 139,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

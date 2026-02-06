@@ -1,0 +1,38 @@
+{
+  "agent": "google-adk",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4029.5038330368698,
+    "time_to_first_event_ms": 370.9699490573257,
+    "time_to_first_content_ms": 4029.5366760110483,
+    "time_to_complete_ms": 4029.5038330368698
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 193,
+    "tokens_approx": 48,
+    "final_text": "To find x, we need to isolate it in the equation x + 5 = 12.\n\n1.  Subtract 5 from both sides of the equation:\n    x + 5 - 5 = 12 - 5\n    x = 12 - 5\n2.  Now, let's calculate the value:So, x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 6,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

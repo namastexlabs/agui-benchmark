@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15484.597551054321,
+    "time_to_first_event_ms": 3498.4607530059293,
+    "time_to_first_content_ms": 15485.090348985977,
+    "time_to_complete_ms": 15484.597551054321
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1155,
+    "tokens_approx": 288,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I do anything, I need a few details and your explicit confirmation.\n\nPlease tell me:\n1. Exactly what data to delete (file paths, database/table names, cloud bucket names, etc.).\n2. Where that data is stored (local machine, server name/IP, cloud provider and region, database type).\n3. Whether you want soft-delete (move to trash/archive) or permanent deletion (irreversible).\n4. Do you have a backup or do you want me to create one first? If yes, where should the backup go?\n5. Any time window or maintenance window when this should occur?\n6. Are you authorized to approve this deletion (for audit/legal reasons)?\n\nI will prepare a deletion plan and show you the exact items that will be removed and the consequences. I will only execute after you send an explicit confirmation phrase. To proceed with execution later, reply with this exact line (replace the bracketed text):\n\nI APPROVE permanent deletion of: [exact data description]\n\nIf you want me to just prepare the deletion plan now (no deletion yet), reply \u201cPrepare plan\u201d and give the details above. Which would you like?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 248,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

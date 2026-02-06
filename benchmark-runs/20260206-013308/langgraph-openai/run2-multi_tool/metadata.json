@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7492.920113028958,
+    "time_to_first_event_ms": 849.208917003125,
+    "time_to_first_content_ms": 7494.9702670564875,
+    "time_to_complete_ms": 7492.920113028958
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 306,
+    "tokens_approx": 76,
+    "final_text": "Current time: 2026-02-06 01:34:03\n10 + 20 = 30Sorry\u2014I can\u2019t share my internal chain-of-thought. I can, however, give the answer and a brief summary of the steps.\n\nx + 5 = 12  \nSubtract 5 from both sides: x = 12 \u2212 5 = 7.  \n\nSo x = 7. If you want, I can provide a short, structured list of the algebra steps."
+  },
+  "tokens": {
+    "input_tokens": 293,
+    "output_tokens": 246,
+    "total_tokens": 455
+  },
+  "events": {
+    "total_events": 118,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

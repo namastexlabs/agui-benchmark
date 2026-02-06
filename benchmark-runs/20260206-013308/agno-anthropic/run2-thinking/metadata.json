@@ -1,0 +1,42 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3283.340030000545,
+    "time_to_first_event_ms": 225.70215398445725,
+    "time_to_first_content_ms": 3283.4764880826697,
+    "time_to_complete_ms": 3283.340030000545
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0007079215720295906
+  },
+  "response": {
+    "chars": 438,
+    "tokens_approx": 109,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Step 1: Identify the equation**\nWe have: x + 5 = 12\n\n**Step 2: Isolate the variable x**\nTo find x, I need to get it by itself on one side of the equation. Since 5 is being added to x, I'll subtract 5 from both sides:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 12 - 5\n\nLet me calculate that:**Answer: x = 7**\n\n**Verification:**\nLet me check: 7 + 5 = 12 \u2713\n\nThis confirms our answer is correct!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 55,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

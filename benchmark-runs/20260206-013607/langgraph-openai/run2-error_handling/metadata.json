@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7572.316776029766,
+    "time_to_first_event_ms": 808.2866419572383,
+    "time_to_first_content_ms": 7576.61787699908,
+    "time_to_complete_ms": 7572.316776029766
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1008,
+    "tokens_approx": 252,
+    "final_text": "I can\u2019t run a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available here. The tools I do have are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates a math expression  \n- multi_tool_use.parallel \u2014 runs the above tools in parallel\n\nTell me what you want done and I\u2019ll use one of those (or simulate the missing tool). Examples:\n- \"Get the current time.\"\n- \"Calculate 12345 * 0.07.\"\n- \"Do both: current time and calculate 12/7.\"\n\nWhich would you like me to run?I can\u2019t run a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available here. The tools I do have are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates a math expression  \n- multi_tool_use.parallel \u2014 runs the above tools in parallel\n\nTell me what you want done and I\u2019ll use one of those (or simulate the missing tool). Examples:\n- \"Get the current time.\"\n- \"Calculate 12345 * 0.07.\"\n- \"Do both: current time and calculate 12/7.\"\n\nWhich would you like me to run?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 389,
+    "total_tokens": 595
+  },
+  "events": {
+    "total_events": 272,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

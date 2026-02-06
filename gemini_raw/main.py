@@ -215,6 +215,16 @@ async def agent_endpoint(input_data: RunAgentInput):
             if message_started:
                 yield encode_sse("TEXT_MESSAGE_END", {"message_id": msg_id})
 
+            # EMIT USAGE_METADATA
+            # Gemini provides usage_metadata after streaming completes
+            if hasattr(response, 'usage_metadata') and response.usage_metadata:
+                yield encode_sse("USAGE_METADATA", {
+                    "input_tokens": response.usage_metadata.prompt_token_count,
+                    "output_tokens": response.usage_metadata.candidates_token_count,
+                    "total_tokens": response.usage_metadata.total_token_count,
+                    "model": "gemini-2.5-flash"
+                })
+
         except Exception as e:
             yield encode_sse("RUN_ERROR", {
                 "message": str(e),

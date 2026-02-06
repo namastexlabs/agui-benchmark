@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 26210.936301969923,
+    "time_to_first_event_ms": 26208.652882021852,
+    "time_to_first_content_ms": 26211.390952928923,
+    "time_to_complete_ms": 26210.936301969923
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1189,
+    "tokens_approx": 297,
+    "final_text": "I will not delete anything until you explicitly approve. Before I give deletion steps, I need a few details and a clear confirmation from you.\n\n1) Quick questions\n- What exactly do you want to delete (file names, folders, database/table, cloud bucket, device)?\n- Where is it located (local PC, Windows/Mac/Linux, AWS/GCP/Azure, Dropbox/Google Drive, SQL/NoSQL database, remote server)?\n- Do you want permanent deletion (irreversible) or move to Trash/Archive first?\n- Do you have a backup or want me to help create one first?\n- Are you authorized to delete this data?\n\n2) Risks and precautions\n- Permanent deletion may be irreversible. I recommend backing up/exporting first.\n- If this is a production system or shared account, confirm the timing and notify stakeholders.\n\n3) If you\u2019re ready to proceed\nType the exact confirmation phrase below and include the target (so I know you approve deletion of that specific data):\nConfirm by replying: I CONFIRM DELETE [describe target/location]\n\nExample: I CONFIRM DELETE /home/alice/projectX (local Linux)\n\nOnce you send that confirmation I will provide step-by-step deletion instructions (or a deletion command/script) for the specified system."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

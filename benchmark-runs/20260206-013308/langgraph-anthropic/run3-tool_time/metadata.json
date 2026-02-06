@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3153.2823209417984,
+    "time_to_first_event_ms": 995.536693953909,
+    "time_to_first_content_ms": 3154.5317029813305,
+    "time_to_complete_ms": 3153.2823209417984
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 114,
+    "tokens_approx": 28,
+    "final_text": "The current time is **2:34:46 AM on February 6th, 2026**.The current time is **2:34:46 AM on February 6th, 2026**."
+  },
+  "tokens": {
+    "input_tokens": 739,
+    "output_tokens": 39,
+    "total_tokens": 764
+  },
+  "events": {
+    "total_events": 63,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

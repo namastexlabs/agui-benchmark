@@ -1,0 +1,42 @@
+{
+  "agent": "openai-raw",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10236.320372088812,
+    "time_to_first_event_ms": 10235.794035019353,
+    "time_to_first_content_ms": 10236.401068046689,
+    "time_to_complete_ms": 10236.320372088812
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0006509944796562195
+  },
+  "response": {
+    "chars": 100,
+    "tokens_approx": 25,
+    "final_text": "The current time is 2026-02-06 01:33:14. Would you like it shown in a different time zone or format?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 39,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}
