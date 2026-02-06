@@ -114,9 +114,9 @@ gemini_agent = Agent(
 cerebras_api_key = os.getenv("CEREBRAS_API_KEY")
 cerebras_agent = None
 agui_interfaces = [
-    AGUI(agent=anthropic_agent, prefix="/agui/anthropic"),
-    AGUI(agent=openai_agent, prefix="/agui/openai"),
-    AGUI(agent=gemini_agent, prefix="/agui/gemini"),
+    AGUI(agent=anthropic_agent, prefix="/anthropic"),
+    AGUI(agent=openai_agent, prefix="/openai"),
+    AGUI(agent=gemini_agent, prefix="/gemini"),
 ]
 
 if cerebras_api_key:
@@ -134,7 +134,7 @@ if cerebras_api_key:
             description="Agno agent with Cerebras Llama 3.3 70B (OpenAI-compatible)",
         )
         logger.info("✅ Cerebras agent initialized successfully")
-        agui_interfaces.append(AGUI(agent=cerebras_agent, prefix="/agui/cerebras"))
+        agui_interfaces.append(AGUI(agent=cerebras_agent, prefix="/cerebras"))
     except Exception as e:
         logger.error(f"❌ Failed to initialize Cerebras agent: {str(e)}")
         cerebras_agent = None

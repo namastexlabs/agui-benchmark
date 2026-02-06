@@ -70,7 +70,7 @@ AGENTS = {
     # === AGNO (Multi-model) ===
     # Note: AGUI interface adds /agui suffix to the prefix
     "agno-anthropic": {
-        "url": "http://localhost:7771/agui/anthropic/agui",
+        "url": "http://localhost:7771/anthropic/agui",
         "port": 7771,
         "health": "http://localhost:7771/health",
         "type": "native",
@@ -80,7 +80,7 @@ AGENTS = {
         "model_id": "claude-haiku-4-5-20251001",
     },
     "agno-openai": {
-        "url": "http://localhost:7771/agui/openai/agui",
+        "url": "http://localhost:7771/openai/agui",
         "port": 7771,
         "health": "http://localhost:7771/health",
         "type": "native",
@@ -90,7 +90,7 @@ AGENTS = {
         "model_id": "gpt-5-mini",
     },
     "agno-gemini": {
-        "url": "http://localhost:7771/agui/gemini/agui",
+        "url": "http://localhost:7771/gemini/agui",
         "port": 7771,
         "health": "http://localhost:7771/health",
         "type": "native",
@@ -100,7 +100,7 @@ AGENTS = {
         "model_id": "gemini-2.5-flash",
     },
     "agno-cerebras": {
-        "url": "http://localhost:7771/agui/cerebras/agui",
+        "url": "http://localhost:7771/cerebras/agui",
         "port": 7771,
         "health": "http://localhost:7771/health",
         "type": "native",
