@@ -1,0 +1,41 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-multi_tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "33461162-6e3a-4895-996d-5def6f326faa", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "33461162-6e3a-4895-996d-5def6f326faa", "delta": "{}"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "toolCallName": "calculator"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "{\"ex"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "press"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "ion\": "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "\"10 "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "+ 20\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "delta": "}"}
+{"type": "TOOL_CALL_END", "toolCallId": "33461162-6e3a-4895-996d-5def6f326faa"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "33461162-6e3a-4895-996d-5def6f326faa", "result": "2026-02-06 01:17:21"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "call_hUI8HoEPrgu47IEWzx9kPkj0", "result": "10 + 20 = 30"}
+{"type": "TEXT_MESSAGE_START", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "Current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "01"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "17"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "21"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "10"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "20"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd", "delta": "30"}
+{"type": "TEXT_MESSAGE_END", "message_id": "aab0bba7-737a-4324-a1d0-fcbb0f307efd"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-multi_tool"}

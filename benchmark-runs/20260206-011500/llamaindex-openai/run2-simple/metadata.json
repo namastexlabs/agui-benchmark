@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3549.8083600541577,
+    "time_to_first_event_ms": 356.2130290083587,
+    "time_to_first_content_ms": 3549.9782600672916,
+    "time_to_complete_ms": 3549.8083600541577
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 201,
+    "tokens_approx": 50,
+    "final_text": "Hello \u2014 I\u2019m ChatGPT, an AI assistant here to help with information, writing, and problem-solving. I can answer questions, summarize text, and do basic math or date/time queries \u2014 tell me what you need."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 49,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

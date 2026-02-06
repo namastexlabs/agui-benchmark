@@ -1,0 +1,42 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3042.225703014992,
+    "time_to_first_event_ms": 366.09472101554275,
+    "time_to_first_content_ms": 3042.2864720458165,
+    "time_to_complete_ms": 3042.225703014992
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0008540228009223938
+  },
+  "response": {
+    "chars": 65,
+    "tokens_approx": 16,
+    "final_text": "The current time is **2026-02-06 01:15:02** and 10 + 20 = **30**."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

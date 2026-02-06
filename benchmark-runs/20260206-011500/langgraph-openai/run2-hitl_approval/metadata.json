@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9976.774001959711,
+    "time_to_first_event_ms": 872.0920999767259,
+    "time_to_first_content_ms": 10010.86259202566,
+    "time_to_complete_ms": 9976.774001959711
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2384,
+    "tokens_approx": 596,
+    "final_text": "I can help, but first a few important points and questions \u2014 and I will not proceed until you give explicit approval.\n\nQuick notes\n- I cannot access or delete files myself; I can only provide instructions/commands or a checklist for you (or for an admin you designate) to run.\n- Deleting important data can be irreversible. Consider making a backup or snapshot first.\n- Make sure you are authorized to delete this data.\n\nBefore I give deletion steps, tell me:\n1) Exactly what you want to delete (file paths, folder names, bucket name, database/table, server ID, etc.).  \n2) Where it is (Windows, macOS, Linux, AWS S3, GCP, Azure, MySQL/Postgres/other DB, etc.).  \n3) Do you want simple deletion (recycle/trash or drop) or secure/irreversible wiping?  \n4) Do you have a backup or snapshot? If not, do you want instructions to make one?  \n5) Confirm you are authorized to delete this data.\n\nIf you want me to proceed with destructive instructions, please give explicit approval by typing exactly:\nI AUTHORIZE DELETION of [short description of the data]\n\n(Replace the bracketed part with what you want deleted.) I will not provide destructive commands until I receive that exact approval string.I can help, but first a few important points and questions \u2014 and I will not proceed until you give explicit approval.\n\nQuick notes\n- I cannot access or delete files myself; I can only provide instructions/commands or a checklist for you (or for an admin you designate) to run.\n- Deleting important data can be irreversible. Consider making a backup or snapshot first.\n- Make sure you are authorized to delete this data.\n\nBefore I give deletion steps, tell me:\n1) Exactly what you want to delete (file paths, folder names, bucket name, database/table, server ID, etc.).  \n2) Where it is (Windows, macOS, Linux, AWS S3, GCP, Azure, MySQL/Postgres/other DB, etc.).  \n3) Do you want simple deletion (recycle/trash or drop) or secure/irreversible wiping?  \n4) Do you have a backup or snapshot? If not, do you want instructions to make one?  \n5) Confirm you are authorized to delete this data.\n\nIf you want me to proceed with destructive instructions, please give explicit approval by typing exactly:\nI AUTHORIZE DELETION of [short description of the data]\n\n(Replace the bracketed part with what you want deleted.) I will not provide destructive commands until I receive that exact approval string."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 791,
+    "total_tokens": 1002
+  },
+  "events": {
+    "total_events": 564,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

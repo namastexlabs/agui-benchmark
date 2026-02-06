@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 6490.378646063618,
+    "time_to_first_event_ms": 318.03376600146294,
+    "time_to_first_content_ms": 6490.534285083413,
+    "time_to_complete_ms": 6490.378646063618
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 220,
+    "tokens_approx": 55,
+    "final_text": "Sorry\u2014I can\u2019t share my internal step-by-step chain-of-thought. I can, however, give the answer and a brief direct explanation.\n\nSolution (concise):\n- Subtract 5 from both sides: x = 12 \u2212 5\n- So x = 7.\n\nCheck: 7 + 5 = 12."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 73,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

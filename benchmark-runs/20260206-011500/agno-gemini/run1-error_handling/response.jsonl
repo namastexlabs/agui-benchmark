@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "a53db4e5-90e3-4b66-90c9-0f670d883be0", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a53db4e5-90e3-4b66-90c9-0f670d883be0", "delta": "I am sorry, but the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "a53db4e5-90e3-4b66-90c9-0f670d883be0", "delta": " tool 'nonexistent_tool' does not exist. I can only use the `get_current_time` and `calculator` tools."}
+{"type": "TEXT_MESSAGE_END", "messageId": "a53db4e5-90e3-4b66-90c9-0f670d883be0"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-error_handling"}

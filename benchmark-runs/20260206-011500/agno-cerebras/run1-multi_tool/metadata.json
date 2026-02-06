@@ -1,0 +1,32 @@
+{
+  "agent": "agno-cerebras",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1141.1573379300535,
+    "time_to_first_event_ms": 1138.4055939270183,
+    "time_to_first_content_ms": 0,
+    "time_to_complete_ms": 1141.1573379300535
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 0,
+    "tokens_approx": 0,
+    "final_text": ""
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 0,
+    "event_types": []
+  }
+}

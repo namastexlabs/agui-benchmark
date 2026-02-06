@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "4cee8c63-120e-4131-8422-c22b3aff6462", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "4cee8c63-120e-4131-8422-c22b3aff6462", "delta": "I don\u2019t have access to an external \u201ctime\u201d tool from here, so I can\u2019t read the clock on your device. If you tell me your time zone (e.g., America/New_York) or your UTC offset (e.g., UTC\u221205:00), I\u2019ll give the current local time.\n\nIf you just want to check it yourself, here are quick methods:\n\n- In a browser console (JavaScript): new Date().toLocaleTimeString()  \n- For a specific zone in JS: new Date().toLocaleTimeString('en-US', {timeZone: 'Europe/London'})  \n- macOS / Linux terminal: date  \n- Windows command prompt: time /T\n\nTell me your time zone or offset and I\u2019ll compute the current time for you."}
+{"type": "TEXT_MESSAGE_END", "messageId": "4cee8c63-120e-4131-8422-c22b3aff6462"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-tool_time"}

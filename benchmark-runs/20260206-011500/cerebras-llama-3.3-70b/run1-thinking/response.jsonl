@@ -1,0 +1,17 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770351301", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " solve for x, I will follow these steps"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": ":\n\n1. Write down the given equation: x + "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": "5 = 12\n2. My goal is to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " isolate x, which means I need to get x by itself on one side of the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " equation.\n3. To do this, I will subtract"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " 5 from both sides of the equation. This is because whatever operation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " I perform on one side of the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " equation, I must also perform on the other side"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " to keep the equation balanced.\n4. So, I will"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " subtract 5 from both sides: x + 5 - 5 = 12"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": " - 5\n5. Simplifying the equation, I get: x = "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351301", "delta": "7\n\nTherefore, the value of x is 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770351301"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-thinking"}

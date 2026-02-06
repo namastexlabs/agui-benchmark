@@ -1,0 +1,41 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2791.970174992457,
+    "time_to_first_event_ms": 1991.3375760661438,
+    "time_to_first_content_ms": 2792.1863320516422,
+    "time_to_complete_ms": 2791.970174992457
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 466,
+    "tokens_approx": 116,
+    "final_text": "Hello, I'm an assistant here to help with basic tasks such as telling the current time and doing simple math calculations. I'm happy to assist you with any questions or problems you might have. I'm looking forward to chatting with you.Hello, I'm an assistant here to help with basic tasks such as telling the current time and performing simple math calculations. I'm happy to assist you with any questions or problems you might have. Just let me know how I can help!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

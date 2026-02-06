@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10639.322409057058,
+    "time_to_first_event_ms": 216.87819506041706,
+    "time_to_first_content_ms": 10639.790776069276,
+    "time_to_complete_ms": 10639.322409057058
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1134,
+    "tokens_approx": 283,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and an explicit confirmation from you.\n\nPlease provide:\n1. Exactly what you want deleted (file names and full paths, or a folder/bucket name).  \n2. Where it\u2019s stored (local machine, external drive, cloud provider and account).  \n3. Whether you have a backup or want me to make one first.  \n4. Whether you want a normal delete (trash/recoverable) or a permanent/secure overwrite.\n\nWhen you\u2019re ready, give explicit approval by copying and sending this exact confirmation phrase (replace the bracketed text with the exact data description you provided above):\nYES \u2014 permanently delete: [full description of data and location]\n\nIf you want a non-permanent delete or a backup-first option, reply with one of these exact phrases instead:\n- YES \u2014 move to trash/recycle bin: [full description]  \n- YES \u2014 create backup first, then delete: [full description]\n\nIf you do not want deletion, reply: NO \u2014 do not delete.\n\nTell me the details and then paste the exact confirmation phrase you choose. I\u2019ll wait for that before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 247,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

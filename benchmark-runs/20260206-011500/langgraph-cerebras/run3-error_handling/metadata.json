@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2215.918584028259,
+    "time_to_first_event_ms": 835.9717689454556,
+    "time_to_first_content_ms": 2216.2629859521985,
+    "time_to_complete_ms": 2215.918584028259
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 200,
+    "tokens_approx": 50,
+    "final_text": "I don't have access to a 'nonexistent_tool'. If you need help with something else, feel free to ask!I don't have access to a 'nonexistent_tool'. If you need help with something else, feel free to ask!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 31,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

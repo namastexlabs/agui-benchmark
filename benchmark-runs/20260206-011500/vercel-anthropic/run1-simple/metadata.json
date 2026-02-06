@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 1,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 993.315274012275,
+    "time_to_first_event_ms": 50.95035198610276,
+    "time_to_first_content_ms": 993.4008090058342,
+    "time_to_complete_ms": 993.315274012275
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 265,
+    "tokens_approx": 66,
+    "final_text": "Hello! \ud83d\udc4b I'm an AI assistant powered by the Vercel AI SDK framework, here to help you with a variety of tasks. I can tell you the current time, perform mathematical calculations, and answer your questions in a friendly and concise way. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

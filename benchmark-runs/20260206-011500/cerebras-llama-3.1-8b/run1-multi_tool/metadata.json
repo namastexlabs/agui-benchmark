@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5148.377500008792,
+    "time_to_first_event_ms": 4784.089658991434,
+    "time_to_first_content_ms": 5148.4114760532975,
+    "time_to_complete_ms": 5148.377500008792
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 233,
+    "tokens_approx": 58,
+    "final_text": "I'm not capable of displaying the current time, but I can generate a response with the current time based on my last knowledge update.\n\nCurrent Time:  (Note: This will be an outdated time)\n\nNow, let's calculate 10 + 20.\n\n10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 10,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

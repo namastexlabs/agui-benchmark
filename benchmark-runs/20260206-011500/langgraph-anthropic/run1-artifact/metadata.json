@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1907.675878959708,
+    "time_to_first_event_ms": 339.09808401949704,
+    "time_to_first_content_ms": 1908.1721890252084,
+    "time_to_complete_ms": 1907.675878959708
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 578,
+    "tokens_approx": 144,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with various tasks. I can tell you the current time and perform basic math calculations, and I'm here to help answer your questions in a friendly and concise way. Feel free to ask me anything!Hello! \ud83d\udc4b I'm a helpful assistant running on the LangGraph framework, designed to assist you with a variety of tasks. I can tell you the current time and perform basic math calculations, all while keeping my responses concise and friendly. Feel free to ask me anything within these capabilities!"
+  },
+  "tokens": {
+    "input_tokens": 677,
+    "output_tokens": 67,
+    "total_tokens": 744
+  },
+  "events": {
+    "total_events": 60,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8395.392925012857,
+    "time_to_first_event_ms": 2520.0365380151197,
+    "time_to_first_content_ms": 8395.423333044164,
+    "time_to_complete_ms": 8395.392925012857
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 707,
+    "tokens_approx": 176,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available. I can, however help in several other ways. Tell me what you want that tool to do and I will:\n\n- do the task myself (generate text, run calculations, analyze data, plan, etc.),\n- write code or a script that would implement the tool (Python, bash, etc.) and instructions to run it locally, or\n- simulate the tool\u2019s expected output so you can see how it would behave.\n\nExamples you can pick from or describe your own:\n- \u201cAnalyze this CSV and summarize key stats.\u201d  \n- \u201cWrite a Python script that calls an API and saves results.\u201d  \n- \u201cSimulate a tool that transforms text X into Y.\u201d\n\nWhich would you like, and what\u2019s the specific task or input?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

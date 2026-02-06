@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4656.306463060901,
+    "time_to_first_event_ms": 870.2151770703495,
+    "time_to_first_content_ms": 4660.4317530291155,
+    "time_to_complete_ms": 4656.306463060901
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 924,
+    "tokens_approx": 231,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\"\u2014that tool doesn\u2019t exist in my environment. Available tools I can use right now are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 runs multiple of the above in parallel\n\nTell me what you want done (e.g., \u201ccalculate 123*456\u201d, \u201cwhat time is it\u201d, or \u201crun two calculations at once\u201d), and I\u2019ll run the appropriate tool(s).I can\u2019t call a tool named \"nonexistent_tool\"\u2014that tool doesn\u2019t exist in my environment. Available tools I can use right now are:\n\n- functions.get_current_time \u2014 returns the current date/time  \n- functions.calculator \u2014 evaluates math expressions  \n- multi_tool_use.parallel \u2014 runs multiple of the above in parallel\n\nTell me what you want done (e.g., \u201ccalculate 123*456\u201d, \u201cwhat time is it\u201d, or \u201crun two calculations at once\u201d), and I\u2019ll run the appropriate tool(s)."
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 307,
+    "total_tokens": 513
+  },
+  "events": {
+    "total_events": 234,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

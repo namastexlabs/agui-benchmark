@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2500.0401301076636,
+    "time_to_first_event_ms": 868.851968087256,
+    "time_to_first_content_ms": 2501.2844640295953,
+    "time_to_complete_ms": 2500.0401301076636
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 454,
+    "tokens_approx": 113,
+    "final_text": "I don't have access to a 'nonexistent_tool'. I can only provide information and perform basic math calculations, and I also have access to functions like getting the current time and a calculator. What else can I help you with?I don't have access to a 'nonexistent_tool'. I can only provide information and perform basic math calculations, and I also have access to functions like getting the current time and a calculator. What else can I help you with?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 45,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

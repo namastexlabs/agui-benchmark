@@ -1,0 +1,42 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5075.895000947639,
+    "time_to_first_event_ms": 2628.8943499093875,
+    "time_to_first_content_ms": 5075.95681597013,
+    "time_to_complete_ms": 5075.895000947639
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.00119104515761137
+  },
+  "response": {
+    "chars": 94,
+    "tokens_approx": 23,
+    "final_text": "The current time is 01:15:04 on February 6, 2026. Now, let's calculate 10 + 20.\n10 + 20 = 30.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 18,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

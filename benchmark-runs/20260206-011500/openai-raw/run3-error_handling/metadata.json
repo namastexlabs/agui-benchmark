@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 49040.58656899724,
+    "time_to_first_event_ms": 49039.03711005114,
+    "time_to_first_content_ms": 49040.9038560465,
+    "time_to_complete_ms": 49040.58656899724
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 746,
+    "tokens_approx": 186,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it isn\u2019t available in the environment. I can help in a few ways \u2014 pick what you want:\n\n- If you meant a specific action (e.g., compute something, get the current time, fetch or transform data), tell me what it is and I\u2019ll do it directly or with the available tools (calculator, get_current_time) where appropriate.\n- If you want me to simulate or mock the output of a hypothetical tool, tell me the expected behavior and I\u2019ll produce a simulated result.\n- If you\u2019re asking how to add or call a new tool in code, tell me the platform and I can show example code or an API definition for adding that tool.\n\nWhich would you like? If it\u2019s a calculation or current time, say so and I\u2019ll run it now."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 175,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

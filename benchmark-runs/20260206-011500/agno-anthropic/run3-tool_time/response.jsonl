@@ -1,0 +1,20 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "4996b520-607e-4d2f-b2b0-3bd02adf88a9", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "4996b520-607e-4d2f-b2b0-3bd02adf88a9"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01LqoiaAjH1GL6q3CNRRPNxp", "toolCallName": "get_current_time", "parentMessageId": "4996b520-607e-4d2f-b2b0-3bd02adf88a9"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01LqoiaAjH1GL6q3CNRRPNxp", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01LqoiaAjH1GL6q3CNRRPNxp"}
+{"type": "TOOL_CALL_RESULT", "messageId": "5143cabe-b032-4afa-b716-1fa772dc72c1", "toolCallId": "toolu_01LqoiaAjH1GL6q3CNRRPNxp", "content": "2026-02-06 01:16:26", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": "The current time is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": "February"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " 6, 2026 at"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " 1:16:26 AM"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": "**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " (just"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " after"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": "1:16 in"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002", "delta": " the morning)."}
+{"type": "TEXT_MESSAGE_END", "messageId": "73cb83f9-f23b-41e2-8205-677594aee002"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-tool_time"}

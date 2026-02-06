@@ -1,0 +1,42 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 14130.57151902467,
+    "time_to_first_event_ms": 729.5820519793779,
+    "time_to_first_content_ms": 14130.61170198489,
+    "time_to_complete_ms": 14130.57151902467
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.000633997842669487
+  },
+  "response": {
+    "chars": 49,
+    "tokens_approx": 12,
+    "final_text": "The current time is 01:15:13 on February 6, 2026."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 13,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

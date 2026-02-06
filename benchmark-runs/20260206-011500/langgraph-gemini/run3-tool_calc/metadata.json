@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 3,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2784.0705109992996,
+    "time_to_first_event_ms": 841.1855099257082,
+    "time_to_first_content_ms": 2784.6300549572334,
+    "time_to_complete_ms": 2784.0705109992996
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 44,
+    "tokens_approx": 11,
+    "final_text": "The result of The result of 42 * 17 is 714.\n"
+  },
+  "tokens": {
+    "input_tokens": 242,
+    "output_tokens": 3,
+    "total_tokens": 245
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

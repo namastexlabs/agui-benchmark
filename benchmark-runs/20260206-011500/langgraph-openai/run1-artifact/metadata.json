@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3936.946319998242,
+    "time_to_first_event_ms": 1454.9859300022945,
+    "time_to_first_content_ms": 3937.988703022711,
+    "time_to_complete_ms": 3936.946319998242
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 268,
+    "tokens_approx": 67,
+    "final_text": "Hello! I\u2019m ChatGPT, an AI language model here to help with questions, ideas, and tasks. Ask me anything and I\u2019ll do my best to assist.Hello! I\u2019m ChatGPT, an AI language model here to help with questions, ideas, and tasks. Ask me anything and I\u2019ll do my best to assist."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 107,
+    "total_tokens": 315
+  },
+  "events": {
+    "total_events": 91,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

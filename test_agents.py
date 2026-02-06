@@ -35,6 +35,35 @@ MODELS = {
     "cerebras": "llama-3.3-70b",  # Cerebras: fastest LLM inference
 }
 
+# Model pricing (per 1M tokens) as of 2026-02
+# Prices in USD
+MODEL_PRICING = {
+    "claude-haiku-4-5-20251001": {
+        "input": 0.80,    # $0.80 per 1M input tokens
+        "output": 4.00,   # $4.00 per 1M output tokens
+    },
+    "gpt-5-mini": {
+        "input": 0.150,   # $0.15 per 1M input tokens
+        "output": 0.600,  # $0.60 per 1M output tokens
+    },
+    "gemini-2.5-flash": {
+        "input": 0.075,   # $0.075 per 1M input tokens (up to 128K context)
+        "output": 0.30,   # $0.30 per 1M output tokens
+    },
+    "llama-3.3-70b": {
+        "input": 0.60,    # $0.60 per 1M input tokens
+        "output": 0.60,   # $0.60 per 1M output tokens
+    },
+    "llama-3.1-70b": {
+        "input": 0.60,
+        "output": 0.60,
+    },
+    "llama-3.1-8b": {
+        "input": 0.10,
+        "output": 0.10,
+    },
+}
+
 # Agent configurations organized by framework and model
 # Multi-model frameworks have separate entries per model for fair comparison
 AGENTS = {
@@ -429,6 +458,11 @@ class TestMetrics:
     response_chars: int = 0
     response_tokens_approx: int = 0
 
+    # Token usage (for cost calculation)
+    input_tokens: int = 0
+    output_tokens: int = 0
+    total_tokens: int = 0
+
     # Event counts
     total_events: int = 0
     event_types: set = field(default_factory=set)
@@ -547,6 +581,11 @@ def save_test_data(run_dir: Path, agent_name: str, run_num: int,
             "tokens_approx": metrics.response_tokens_approx,
             "final_text": metrics.final_response,
         },
+        "tokens": {
+            "input_tokens": metrics.input_tokens,
+            "output_tokens": metrics.output_tokens,
+            "total_tokens": metrics.total_tokens,
+        },
         "events": {
             "total_events": metrics.total_events,
             "event_types": sorted(list(metrics.event_types)),
@@ -555,6 +594,17 @@ def save_test_data(run_dir: Path, agent_name: str, run_num: int,
 
     with open(test_dir / "metadata.json", "w") as f:
         json.dump(metadata, f, indent=2)
+
+
+def calculate_cost(model_id: str, input_tokens: int, output_tokens: int) -> float:
+    """Calculate cost in USD for the given token usage."""
+    if model_id not in MODEL_PRICING:
+        return 0.0
+
+    pricing = MODEL_PRICING[model_id]
+    input_cost = (input_tokens / 1_000_000) * pricing["input"]
+    output_cost = (output_tokens / 1_000_000) * pricing["output"]
+    return input_cost + output_cost
 
 
 async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
@@ -619,6 +669,40 @@ async def test_agent(client: httpx.AsyncClient, name: str, config: dict,
                 if event_type == "TEXT_MESSAGE_CONTENT":
                     delta = event.get("delta", "")
                     response_parts.append(delta)
+
+                # Extract token usage from various event types
+                # Different frameworks report usage in different places
+                if "usage_metadata" in event:
+                    usage = event["usage_metadata"]
+                    if isinstance(usage, dict):
+                        metrics.input_tokens = max(metrics.input_tokens, usage.get("input_tokens", 0))
+                        metrics.output_tokens = max(metrics.output_tokens, usage.get("output_tokens", 0))
+                        metrics.total_tokens = max(metrics.total_tokens, usage.get("total_tokens", 0))
+
+                # Check for usage in rawEvent (LangGraph pattern)
+                if "rawEvent" in event:
+                    raw = event["rawEvent"]
+                    if isinstance(raw, dict) and "data" in raw:
+                        data = raw["data"]
+                        if isinstance(data, dict):
+                            # LangGraph usage_metadata in chunk
+                            if "chunk" in data:
+                                chunk = data["chunk"]
+                                if isinstance(chunk, dict) and "usage_metadata" in chunk:
+                                    usage = chunk["usage_metadata"]
+                                    if isinstance(usage, dict):
+                                        metrics.input_tokens = max(metrics.input_tokens, usage.get("input_tokens", 0))
+                                        metrics.output_tokens = max(metrics.output_tokens, usage.get("output_tokens", 0))
+                                        metrics.total_tokens = max(metrics.total_tokens, usage.get("total_tokens", 0))
+                            # LangGraph usage_metadata in output
+                            if "output" in data:
+                                output = data["output"]
+                                if isinstance(output, dict) and "usage_metadata" in output:
+                                    usage = output["usage_metadata"]
+                                    if isinstance(usage, dict):
+                                        metrics.input_tokens = max(metrics.input_tokens, usage.get("input_tokens", 0))
+                                        metrics.output_tokens = max(metrics.output_tokens, usage.get("output_tokens", 0))
+                                        metrics.total_tokens = max(metrics.total_tokens, usage.get("total_tokens", 0))
 
                 elif event_type == "MESSAGES_SNAPSHOT":
                     messages = event.get("messages", [])
@@ -952,6 +1036,112 @@ def analyze_results(results: List[TestMetrics]) -> Dict[str, Any]:
     return analysis
 
 
+def print_cost_breakdown(all_metrics: Dict[str, List[TestMetrics]]):
+    """Print cost breakdown by framework, model, and total."""
+    print("\n" + "=" * 120)
+    print("💰 COST BREAKDOWN (Token Usage & Pricing)")
+    print("=" * 120)
+
+    # Aggregate costs by framework -> model
+    framework_costs = {}
+    model_costs = {}
+    total_cost = 0.0
+    total_input_tokens = 0
+    total_output_tokens = 0
+
+    for name, metrics_list in all_metrics.items():
+        config = AGENTS.get(name, {})
+        framework = config.get("framework", "unknown")
+        model_id = config.get("model_id", "unknown")
+
+        for metrics in metrics_list:
+            if not metrics.success or metrics.input_tokens == 0:
+                continue
+
+            cost = calculate_cost(model_id, metrics.input_tokens, metrics.output_tokens)
+
+            # Aggregate by framework
+            if framework not in framework_costs:
+                framework_costs[framework] = {
+                    "cost": 0.0,
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "models": {}
+                }
+            framework_costs[framework]["cost"] += cost
+            framework_costs[framework]["input_tokens"] += metrics.input_tokens
+            framework_costs[framework]["output_tokens"] += metrics.output_tokens
+
+            # Aggregate by framework -> model
+            if model_id not in framework_costs[framework]["models"]:
+                framework_costs[framework]["models"][model_id] = {
+                    "cost": 0.0,
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "tests": 0
+                }
+            framework_costs[framework]["models"][model_id]["cost"] += cost
+            framework_costs[framework]["models"][model_id]["input_tokens"] += metrics.input_tokens
+            framework_costs[framework]["models"][model_id]["output_tokens"] += metrics.output_tokens
+            framework_costs[framework]["models"][model_id]["tests"] += 1
+
+            # Aggregate by model
+            if model_id not in model_costs:
+                model_costs[model_id] = {
+                    "cost": 0.0,
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "tests": 0
+                }
+            model_costs[model_id]["cost"] += cost
+            model_costs[model_id]["input_tokens"] += metrics.input_tokens
+            model_costs[model_id]["output_tokens"] += metrics.output_tokens
+            model_costs[model_id]["tests"] += 1
+
+            total_cost += cost
+            total_input_tokens += metrics.input_tokens
+            total_output_tokens += metrics.output_tokens
+
+    # Print by model
+    print("\n📊 COST BY MODEL")
+    print("-" * 100)
+    print(f"{'Model':<30} {'Tests':<8} {'Input Tokens':<15} {'Output Tokens':<15} {'Total Cost':<12}")
+    print("-" * 100)
+
+    for model_id in sorted(model_costs.keys()):
+        stats = model_costs[model_id]
+        print(f"{model_id:<30} {stats['tests']:<8} {stats['input_tokens']:>14,} {stats['output_tokens']:>14,} ${stats['cost']:>10.6f}")
+
+    # Print by framework
+    print("\n📊 COST BY FRAMEWORK")
+    print("-" * 100)
+
+    for framework in sorted(framework_costs.keys()):
+        stats = framework_costs[framework]
+        print(f"\n🔷 {framework.upper()}")
+        print(f"   Total: ${stats['cost']:.6f} ({stats['input_tokens']:,} in / {stats['output_tokens']:,} out)")
+
+        for model_id in sorted(stats["models"].keys()):
+            model_stats = stats["models"][model_id]
+            print(f"     - {model_id}: ${model_stats['cost']:.6f} ({model_stats['tests']} tests)")
+
+    # Print total
+    print("\n" + "=" * 100)
+    print(f"💵 TOTAL BENCHMARK COST: ${total_cost:.6f}")
+    print(f"   Input Tokens:  {total_input_tokens:,}")
+    print(f"   Output Tokens: {total_output_tokens:,}")
+    print(f"   Total Tokens:  {total_input_tokens + total_output_tokens:,}")
+    print("=" * 100)
+
+    # Cost per 1000 tests estimate
+    if total_cost > 0:
+        num_successful = sum(len([m for m in metrics_list if m.success and m.input_tokens > 0])
+                           for metrics_list in all_metrics.values())
+        if num_successful > 0:
+            cost_per_1k = (total_cost / num_successful) * 1000
+            print(f"\n📈 Estimated cost per 1,000 similar tests: ${cost_per_1k:.2f}")
+
+
 async def main():
     print("🧪 AG-UI Multi-Framework Multi-Model Test Suite")
     print("=" * 120)
@@ -1080,6 +1270,7 @@ async def main():
         print_comparison_by_framework(all_metrics)
         print_overall_ranking(all_metrics)
         print_test_breakdown(all_metrics)
+        print_cost_breakdown(all_metrics)
         print_startup_times(load_startup_times())
 
         # Final verdict

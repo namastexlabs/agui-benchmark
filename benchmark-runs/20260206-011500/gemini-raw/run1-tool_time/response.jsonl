@@ -1,0 +1,10 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time"}
+{"type": "TOOL_CALL_START", "toolCallId": "c025f1b0-114c-4633-aea6-f2d64a00b88c", "toolCallName": "get_current_time"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "c025f1b0-114c-4633-aea6-f2d64a00b88c", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "c025f1b0-114c-4633-aea6-f2d64a00b88c"}
+{"type": "TOOL_CALL_RESULT", "toolCallId": "c025f1b0-114c-4633-aea6-f2d64a00b88c", "result": "2026-02-06 01:15:03"}
+{"type": "TEXT_MESSAGE_START", "message_id": "2a51cdc3-bddd-4aa3-b522-61525713e31f", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2a51cdc3-bddd-4aa3-b522-61525713e31f", "delta": "The current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "2a51cdc3-bddd-4aa3-b522-61525713e31f", "delta": " time is 01:15:03 on February 6, 2026."}
+{"type": "TEXT_MESSAGE_END", "message_id": "2a51cdc3-bddd-4aa3-b522-61525713e31f"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-tool_time"}

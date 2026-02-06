@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3093.878163024783,
+    "time_to_first_event_ms": 1968.6602799920365,
+    "time_to_first_content_ms": 3094.322817050852,
+    "time_to_complete_ms": 3093.878163024783
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 576,
+    "tokens_approx": 144,
+    "final_text": "Hello, I'm an assistant here to help with basic tasks such as telling the current time and performing simple math calculations. I'm friendly and concise, and I look forward to assisting you with any questions or needs you may have. I'm ready when you are, so feel free to ask me anything.Hello, I'm an assistant here to help with basic tasks such as telling the current time and performing simple math calculations. I'm friendly and concise, and I look forward to assisting you with any questions or needs you may have. I'm ready when you are, so feel free to ask me anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 37,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

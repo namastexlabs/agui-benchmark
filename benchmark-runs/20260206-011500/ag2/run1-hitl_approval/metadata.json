@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9768.61100899987,
+    "time_to_first_event_ms": 299.2081270786002,
+    "time_to_first_content_ms": 9768.64499610383,
+    "time_to_complete_ms": 9768.61100899987
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 943,
+    "tokens_approx": 235,
+    "final_text": "I can\u2019t delete files from your system myself, but I can guide you step\u2011by\u2011step. Before I give any deletion commands I need to confirm a few things and get your explicit approval.\n\nPlease answer these quickly:\n1. Where are the items located? (local PC \u2014 macOS/Windows/Linux, external drive, cloud service, or a database; include full paths or bucket/object names.)\n2. Do you want recoverable deletion (move to Trash/Recycle Bin) or permanent/secure erase (irreversible)?\n3. Do you have a backup or do you want instructions to make one first?\n4. Any legal, compliance, or shared\u2011account concerns?\n\nIf you want me to proceed after I have those details, reply with an explicit approval phrase including the paths, for example:\nI APPROVE deletion of: /path/to/file1, /path/to/folder2\n\nOnce I receive that exact approval phrase and the details above, I will provide precise, safe deletion steps (and optional secure\u2011wipe commands) for your platform."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

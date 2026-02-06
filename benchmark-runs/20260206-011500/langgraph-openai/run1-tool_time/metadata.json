@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4494.383285054937,
+    "time_to_first_event_ms": 1355.4116650484502,
+    "time_to_first_content_ms": 4495.925109018572,
+    "time_to_complete_ms": 4494.383285054937
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 380,
+    "tokens_approx": 95,
+    "final_text": "Hello! I\u2019m ChatGPT, an AI assistant here to help with information, writing, and problem-solving. I can answer questions, run calculations, and help you brainstorm\u2014just tell me what you need.Hello! I\u2019m ChatGPT, an AI assistant here to help with information, writing, and problem-solving. I can answer questions, run calculations, and help you brainstorm\u2014just tell me what you need."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 115,
+    "total_tokens": 323
+  },
+  "events": {
+    "total_events": 109,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

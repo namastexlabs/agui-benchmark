@@ -1,0 +1,14 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "1dad2510-2fda-4313-8485-c047c6710614", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1dad2510-2fda-4313-8485-c047c6710614", "delta": "To find x, we need to isolate it in the equation x + 5 = 12.\n\n1.  Start with the equation"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "1dad2510-2fda-4313-8485-c047c6710614", "delta": ": x + 5 = 12\n2.  Subtract 5 from both sides of the equation: x = 12 - 5\n"}
+{"type": "TEXT_MESSAGE_END", "messageId": "1dad2510-2fda-4313-8485-c047c6710614"}
+{"type": "TOOL_CALL_START", "toolCallId": "c4875ef5-be4b-4100-9424-199e8ae45758", "toolCallName": "calculator", "parentMessageId": "1dad2510-2fda-4313-8485-c047c6710614"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "c4875ef5-be4b-4100-9424-199e8ae45758", "delta": "{\"expression\": \"12 - 5\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "c4875ef5-be4b-4100-9424-199e8ae45758"}
+{"type": "TOOL_CALL_RESULT", "messageId": "6f296a78-dde1-433f-83c2-f8068ae6fd8e", "toolCallId": "c4875ef5-be4b-4100-9424-199e8ae45758", "content": "12 - 5 = 7", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "50dfd815-eb27-4b1a-a46a-0920f89aa9f1", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "50dfd815-eb27-4b1a-a46a-0920f89aa9f1", "delta": "Therefore, x ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "50dfd815-eb27-4b1a-a46a-0920f89aa9f1", "delta": " 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "50dfd815-eb27-4b1a-a46a-0920f89aa9f1"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-thinking"}

@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3929.8878989648074,
+    "time_to_first_event_ms": 1553.7942299852148,
+    "time_to_first_content_ms": 3931.7322890274227,
+    "time_to_complete_ms": 3929.8878989648074
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 348,
+    "tokens_approx": 87,
+    "final_text": "Hello! I\u2019m ChatGPT, an AI assistant here to help with questions, ideas, and tasks. I can provide information, brainstorm, and walk you through solutions\u2014how can I help today?Hello! I\u2019m ChatGPT, an AI assistant here to help with questions, ideas, and tasks. I can provide information, brainstorm, and walk you through solutions\u2014how can I help today?"
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 113,
+    "total_tokens": 321
+  },
+  "events": {
+    "total_events": 102,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

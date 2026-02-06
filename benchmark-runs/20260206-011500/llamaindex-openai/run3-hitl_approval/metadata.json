@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 21145.744800101966,
+    "time_to_first_event_ms": 317.12381599936634,
+    "time_to_first_content_ms": 21147.02232601121,
+    "time_to_complete_ms": 21145.744800101966
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1402,
+    "tokens_approx": 350,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details so I can be safe and accurate:\n\n1. What exactly do you want deleted? (file paths, bucket names, database + table + row criteria, app/account, etc.)  \n2. Where is it stored? (local machine and OS, server SSH, AWS/GCP/Azure, Google Drive, Dropbox, etc.)  \n3. Do you want permanent deletion or to move to trash/archive first? Do you have backups or want instructions to create one?  \n4. Do you want me to (A) provide exact commands/scripts you will run, (B) walk you through a web-console process, or (C) perform the deletion (note: I can\u2019t execute actions on your systems unless you run commands I provide)?\n\nSafety/confirmation procedure I\u2019ll use\n- I will not perform or provide destructive commands until you give an explicit approval phrase. To confirm, reply with this exact line (including the items to delete after the colon):\n  CONFIRM DELETE \u2014 [list the exact items to delete, e.g. /home/alice/data.db or s3://my-bucket/folder or DB:users WHERE id=123]\n\nExample reply you would send to approve:\nCONFIRM DELETE \u2014 /home/alice/important.db\n\nTell me the details from questions 1\u20134 above and how you want backups handled. When you\u2019re ready, reply using the exact confirmation phrase format shown and I will proceed with careful, step-by-step instructions (or deletion guidance) as requested."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 327,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

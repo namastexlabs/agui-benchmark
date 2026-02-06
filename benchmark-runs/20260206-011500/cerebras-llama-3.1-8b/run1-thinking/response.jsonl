@@ -1,0 +1,16 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking", "model": "llama-3.1-8b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770351305", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " find the value of x, we need to isolate x on one side"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " of the equation. Here's the step-by-step"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " process:\n\n1. Start with the given equation: \n  "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " x + 5 = 12\n\n2. The goal is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " to isolate x, so we need to get rid of the "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": "5 on the same side as x. Since they are added"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " together, we need to subtract 5 from both sides of the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " equation to maintain the equality.\n\n   x + 5 -"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": " 5 = 12 - 5\n\n3. Subtract "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": "5 from both sides:\n   x = 7\n\nSo"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351305", "delta": ", the value of x is 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770351305"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.1-8b", "runId": "test-run-cerebras-llama-3.1-8b-thinking"}

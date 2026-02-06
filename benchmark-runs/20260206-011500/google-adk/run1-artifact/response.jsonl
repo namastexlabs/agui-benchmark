@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "784e80fc-c17d-4d3a-9211-bb84653488fe", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "784e80fc-c17d-4d3a-9211-bb84653488fe", "delta": "```python\ndef add_two_numbers(a, b):\n  return a + b\n```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "784e80fc-c17d-4d3a-9211-bb84653488fe"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-google-adk", "runId": "test-run-google-adk-artifact"}

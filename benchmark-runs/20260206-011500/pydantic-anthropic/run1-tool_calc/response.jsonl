@@ -1,0 +1,19 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "toolCallName": "calculator", "parentMessageId": "4e4802de-e8a0-4b1e-86e6-a365b796d6b3"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": ""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": "{\"e"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": "xp"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": "ressio"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": "n\": \"42 * 17"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "delta": "\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF"}
+{"type": "TOOL_CALL_RESULT", "messageId": "70ffa7a5-6d1f-42ae-a565-0ed2019bca30", "toolCallId": "toolu_01PER1C17WGiSbSgjjwMyhKF", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": "The result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": " of 42 * 17 "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": "is **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": "714**"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": ". "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b", "delta": "\ud83d\ude0a"}
+{"type": "TEXT_MESSAGE_END", "messageId": "599e9374-43ff-48b1-a437-988c429eec0b"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-anthropic", "runId": "test-run-pydantic-anthropic-tool_calc"}

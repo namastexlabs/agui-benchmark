@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8304.40465407446,
+    "time_to_first_event_ms": 839.611379080452,
+    "time_to_first_content_ms": 8306.321811047383,
+    "time_to_complete_ms": 8304.40465407446
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 190,
+    "tokens_approx": 47,
+    "final_text": "Current time: 2026-02-06 01:16:32\nCalculation: 10 + 20 = 30\n\nAnything else you\u2019d like me to do?Current time: 2026-02-06 01:16:32\nCalculation: 10 + 20 = 30\n\nAnything else you\u2019d like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 293,
+    "output_tokens": 246,
+    "total_tokens": 467
+  },
+  "events": {
+    "total_events": 142,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

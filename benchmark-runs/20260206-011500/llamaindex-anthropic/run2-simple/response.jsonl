@@ -1,0 +1,23 @@
+{"type": "RUN_STARTED", "timestamp": 1770351341, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-simple"}
+{"type": "STATE_SNAPSHOT", "snapshot": {}}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": "Hello! "}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": "\ud83d\udc4b I'm a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " helpful assistant"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " running on the LlamaIndex framework"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": ","}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " here"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " to assist"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " you with a"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " variety"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " of tasks."}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " I can"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " tell"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " you the current time,"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " perform"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " basic math calculations, and answer"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " questions to"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " the best of my ability"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": ". Feel"}
+{"type": "TEXT_MESSAGE_CHUNK", "timestamp": 1770351342, "messageId": "7de26742-3de7-417c-a61f-89fcac5936ff", "role": "assistant", "delta": " free to ask me anything!"}
+{"type": "MESSAGES_SNAPSHOT", "timestamp": 1770351342, "messages": [{"id": "fb8b14e7-52b3-4bb0-a6bb-5314a7f5b3fb", "role": "system", "content": "You are a helpful assistant running on the LlamaIndex framework.\nYou can tell the current time and do basic math calculations.\nBe concise and friendly in your responses."}, {"id": "msg-1", "role": "user", "content": "Say hello and introduce yourself briefly in 2-3 sentences."}, {"id": "bcc9980c-a662-4d60-9beb-47816f8c2afb", "role": "assistant", "content": "Hello! \ud83d\udc4b I'm a helpful assistant running on the LlamaIndex framework, here to assist you with a variety of tasks. I can tell you the current time, perform basic math calculations, and answer questions to the best of my ability. Feel free to ask me anything!"}]}
+{"type": "RUN_FINISHED", "timestamp": 1770351342, "threadId": "test-thread-llamaindex-anthropic", "runId": "test-run-llamaindex-anthropic-simple"}

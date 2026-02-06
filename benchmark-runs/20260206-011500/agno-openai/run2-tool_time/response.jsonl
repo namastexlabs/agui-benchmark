@@ -1,0 +1,39 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time"}
+{"type": "TEXT_MESSAGE_START", "messageId": "aa79fd09-2d24-421d-8e4f-4727faa31140", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "aa79fd09-2d24-421d-8e4f-4727faa31140"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_KF8voZktB66nhq97YBVWJC1R", "toolCallName": "get_current_time", "parentMessageId": "aa79fd09-2d24-421d-8e4f-4727faa31140"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_KF8voZktB66nhq97YBVWJC1R", "delta": "{}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_KF8voZktB66nhq97YBVWJC1R"}
+{"type": "TOOL_CALL_RESULT", "messageId": "77185e0e-72bf-4109-8bbc-b50745bed2b2", "toolCallId": "call_KF8voZktB66nhq97YBVWJC1R", "content": "2026-02-06 01:15:43", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "The"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " system"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "6"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "02"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "06"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "01"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "15"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "43"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " Want"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " convert"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " this"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " specific"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": " timezone"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54", "delta": "?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "b8135c82-6053-45a2-ba3e-dfb162ac6d54"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-tool_time"}

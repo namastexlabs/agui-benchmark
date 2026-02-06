@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12931.112116086297,
+    "time_to_first_event_ms": 3345.538045046851,
+    "time_to_first_content_ms": 12931.618271046318,
+    "time_to_complete_ms": 12931.112116086297
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1264,
+    "tokens_approx": 316,
+    "final_text": "I will ask for your approval before doing anything. A few quick questions so I can help safely:\n\n1) What exactly do you want deleted? (file names/folders, database/tables, cloud resources \u2014 be specific)\n2) Where is it located? (local machine, external drive, AWS/GCP/Azure, Dropbox, Git repo, database host, etc.)\n3) Do you have a backup you want to keep? If not, do you want me to show how to make one first?\n4) Do you want a soft delete (move to trash/Recycle Bin), permanent wipe, or something specific (e.g., DROP TABLE, delete S3 bucket)?\n5) Do you want commands/instructions I can run, or a script to run, or guidance for a cloud console?\n\nI cannot directly access or delete files on your devices or cloud accounts. I can only provide the exact commands/instructions \u2014 I will not provide or run them until you explicitly confirm.\n\nIf you understand and want me to proceed with deletion instructions for the item(s) you specify, reply with this exact confirmation line (case-sensitive):\n\nCONFIRM DELETE: <brief description of what to delete>\n\nExample:\nCONFIRM DELETE: delete folder /home/alice/old-project and its contents\n\nAfter I receive that exact confirmation I will provide step-by-step deletion instructions (and safety checks) for the target you named."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 286,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

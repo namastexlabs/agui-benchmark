@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.3-70b",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4818.386176018976,
+    "time_to_first_event_ms": 4234.917044988833,
+    "time_to_first_content_ms": 4818.424709024839,
+    "time_to_complete_ms": 4818.386176018976
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 210,
+    "tokens_approx": 52,
+    "final_text": "The current time is: 06 Feb 2026 00:00 (Please note that I'm a text-based AI and do not have real-time access to the current time. This is just a simulated response.)\n\nNow, let's calculate 10 + 20:\n10 + 20 = 30"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 13,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

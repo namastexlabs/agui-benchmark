@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10608.148062019609,
+    "time_to_first_event_ms": 317.5300139700994,
+    "time_to_first_content_ms": 10608.6017730413,
+    "time_to_complete_ms": 10608.148062019609
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 978,
+    "tokens_approx": 244,
+    "final_text": "I can help with deleting important data, but I will not take any action until you explicitly approve. A few quick questions and a confirmation step first:\n\n1) Tell me exactly what will be deleted (paths, filenames, cloud service and bucket, or app name) and where it\u2019s stored (Windows, macOS, Linux, AWS S3, Google Drive, Dropbox, etc.).  \n2) Do you have a backup? Deletion may be irreversible \u2014 tell me if you want a permanent wipe or just move-to-trash/recycle-bin.  \n3) Do you want me to (a) give step-by-step instructions/commands you run, (b) prepare a script/command you can run, or (c) outline safe rollback steps?\n\nIf you understand the risk and want me to proceed with instructions, type one of these exact confirmation phrases and include the data location and chosen method:\n- I approve deletion \u2014 permanent\nor\n- I approve deletion \u2014 move to trash\n\nI will not provide deletion commands or scripts until you send that exact confirmation and the data location + method."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 223,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8993.560733040795,
+    "time_to_first_event_ms": 839.2051490955055,
+    "time_to_first_content_ms": 8997.778054093942,
+    "time_to_complete_ms": 8993.560733040795
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1542,
+    "tokens_approx": 385,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" because it\u2019s not available here. The only tools I can use are:\n\n- functions.get_current_time \u2014 to get the current date/time  \n- functions.calculator \u2014 to evaluate math expressions  \n- multi_tool_use.parallel \u2014 to run those functions simultaneously if needed\n\nTell me what you wanted \"nonexistent_tool\" to do and I\u2019ll either:\n- use one of the available tools (tell me which), or\n- perform the task directly here, or\n- show how to add/integrate a new tool if you control the environment.\n\nExamples:\n- If you wanted the current time, say \u201cGet current time.\u201d  \n- If you wanted a calculation, give the expression (e.g., \u201cCalculate 12345 * 678\u201d).  \n- If you wanted both, say so and I can run them in parallel.\n\nWhich would you like?I can\u2019t call a tool named \"nonexistent_tool\" because it\u2019s not available here. The only tools I can use are:\n\n- functions.get_current_time \u2014 to get the current date/time  \n- functions.calculator \u2014 to evaluate math expressions  \n- multi_tool_use.parallel \u2014 to run those functions simultaneously if needed\n\nTell me what you wanted \"nonexistent_tool\" to do and I\u2019ll either:\n- use one of the available tools (tell me which), or\n- perform the task directly here, or\n- show how to add/integrate a new tool if you control the environment.\n\nExamples:\n- If you wanted the current time, say \u201cGet current time.\u201d  \n- If you wanted a calculation, give the expression (e.g., \u201cCalculate 12345 * 678\u201d).  \n- If you wanted both, say so and I can run them in parallel.\n\nWhich would you like?"
+  },
+  "tokens": {
+    "input_tokens": 206,
+    "output_tokens": 448,
+    "total_tokens": 654
+  },
+  "events": {
+    "total_events": 392,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

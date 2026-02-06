@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4210.892572999001,
+    "time_to_first_event_ms": 1709.5712689915672,
+    "time_to_first_content_ms": 4211.454250966199,
+    "time_to_complete_ms": 4210.892572999001
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 44,
+    "tokens_approx": 11,
+    "final_text": "The result of The result of 42 * 17 is 714.\n"
+  },
+  "tokens": {
+    "input_tokens": 245,
+    "output_tokens": 3,
+    "total_tokens": 248
+  },
+  "events": {
+    "total_events": 54,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

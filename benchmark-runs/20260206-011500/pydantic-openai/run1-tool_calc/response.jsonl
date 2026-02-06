@@ -1,0 +1,32 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_calc"}
+{"type": "TOOL_CALL_START", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "toolCallName": "calculator", "parentMessageId": "116008ae-d398-41d2-8da9-f9e57010ffee"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "{\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "expression"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "\":\""}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "42"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": " *"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": " "}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "17"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "delta": "\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH"}
+{"type": "TOOL_CALL_RESULT", "messageId": "62e722ae-3860-40ad-87a8-4ea19f1e7185", "toolCallId": "call_3PAWDn5gXjNX6QLy4cBNkblH", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": "42"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " \u00d7"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": "17"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": "714"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " used"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " calculator"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " compute"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": " that"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "messageId": "703e993d-285d-4378-ab6e-746cc2943cad"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-openai", "runId": "test-run-pydantic-openai-tool_calc"}

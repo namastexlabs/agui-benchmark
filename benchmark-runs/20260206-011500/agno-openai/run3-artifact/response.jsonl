@@ -1,0 +1,57 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "python"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "def"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "(a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ":"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " ->"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " float"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "Return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ".\"\"\"\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "   "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " +"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " Example"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "#"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " add"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "2"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "3"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": ")"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " #"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "0"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb", "delta": "```"}
+{"type": "TEXT_MESSAGE_END", "messageId": "ee52ce00-f011-48e6-ab0c-4e801cdcc4bb"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-openai", "runId": "test-run-agno-openai-artifact"}

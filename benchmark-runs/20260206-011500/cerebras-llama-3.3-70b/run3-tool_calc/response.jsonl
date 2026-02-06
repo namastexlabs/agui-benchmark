@@ -1,0 +1,8 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-tool_calc", "model": "llama-3.3-70b"}
+{"type": "TEXT_MESSAGE_START", "messageId": "msg-1770351390", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351390", "delta": "To"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351390", "delta": " calculate 42 * 17, I get:\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351390", "delta": "42 * 17 ="}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "msg-1770351390", "delta": " 714\n\nThe result is 714."}
+{"type": "TEXT_MESSAGE_END", "messageId": "msg-1770351390"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-cerebras-llama-3.3-70b", "runId": "test-run-cerebras-llama-3.3-70b-tool_calc"}

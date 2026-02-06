@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 8316.717855050229,
+    "time_to_first_event_ms": 231.11625597812235,
+    "time_to_first_content_ms": 8317.306054988876,
+    "time_to_complete_ms": 8316.717855050229
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1332,
+    "tokens_approx": 333,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we continue I need a few details and an explicit confirmation from you.\n\n1) Tell me:\n- Exactly what data you want deleted (files, folders, databases, S3 buckets, specific records, etc.).\n- Where it\u2019s located (local machine path, server, cloud provider and bucket/region, database name/table, etc.).\n- Whether you want permanent deletion or to move the data to an archive/trash for recovery.\n\n2) Warnings and safety:\n- Deletions can be irreversible. Do you have a backup or snapshot? If not, I recommend creating one first.\n- If this is production data, confirm downtime windows or any dependent services.\n\n3) How I\u2019ll proceed once you confirm:\n- I can (a) give you exact commands and step-by-step instructions to run, or (b) if you want me to perform actions (via automation you provide), I will only proceed after you send the explicit confirmation phrase below.\n\nPlease confirm using this exact phrase (copy/paste, case-sensitive) so I know you really approve:\n    I confirm permanent deletion of: [brief description of data and location]\n\nReplace [brief description of data and location] with what you specified in (1). After I receive that exact phrase I\u2019ll proceed with the deletion plan you requested (or provide the commands if you asked for them)."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 288,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

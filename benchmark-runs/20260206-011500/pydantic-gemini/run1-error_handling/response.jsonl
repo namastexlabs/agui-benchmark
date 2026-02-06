@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "cdf29122-9a90-4a54-936e-06309687c30e", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cdf29122-9a90-4a54-936e-06309687c30e", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "cdf29122-9a90-4a54-936e-06309687c30e", "delta": " am sorry, but the tool 'nonexistent_tool' does not exist. I can tell you the current time or evaluate a mathematical expression for you."}
+{"type": "TEXT_MESSAGE_END", "messageId": "cdf29122-9a90-4a54-936e-06309687c30e"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}

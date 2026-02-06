@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9527.450210996903,
+    "time_to_first_event_ms": 2801.1837899684906,
+    "time_to_first_content_ms": 9527.971428935416,
+    "time_to_complete_ms": 9527.450210996903
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 877,
+    "tokens_approx": 219,
+    "final_text": "Okay \u2014 I will not delete anything until you explicitly approve. Before I proceed I need a few details and a clear confirmation from you.\n\nPlease tell me:\n- What exactly you want deleted (files, database rows, cloud bucket, account, etc.).\n- Where it is located (local machine \u2014 path, server \u2014 hostname, cloud provider and bucket/DB name, etc.).\n- Whether you have a backup or want me to show backup steps first.\n- Whether you want me to provide deletion commands/instructions or (if I have access) perform the deletion for you.\n\nWarning: deletion may be irreversible. If you understand and still want me to proceed, type one of the following exact confirmation phrases:\n- CONFIRM DELETE (to proceed with deletion now)\n- PROVIDE INSTRUCTIONS (to only receive step-by-step deletion commands)\n\nI\u2019ll wait for your details and one of those exact confirmations before doing anything."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 186,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

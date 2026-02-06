@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5054.378947010264,
+    "time_to_first_event_ms": 1523.337742080912,
+    "time_to_first_content_ms": 5055.9316030703485,
+    "time_to_complete_ms": 5054.378947010264
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 388,
+    "tokens_approx": 97,
+    "final_text": "Hello \u2014 I'm ChatGPT, an AI assistant here to help with information, answer questions, and assist with tasks. I'm concise and friendly and can help with writing, research, calculations, and more.Hello \u2014 I'm ChatGPT, an AI assistant here to help with information, answer questions, and assist with tasks. I'm concise and friendly and can help with writing, research, calculations, and more."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 177,
+    "total_tokens": 385
+  },
+  "events": {
+    "total_events": 103,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

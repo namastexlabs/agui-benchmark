@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4226.367958006449,
+    "time_to_first_event_ms": 1423.7203400116414,
+    "time_to_first_content_ms": 4227.69344097469,
+    "time_to_complete_ms": 4226.367958006449
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 304,
+    "tokens_approx": 76,
+    "final_text": "Hello \u2014 I\u2019m ChatGPT, an AI assistant here to help with questions, explanations, and everyday tasks. Tell me what you need and I\u2019ll do my best to assist.Hello \u2014 I\u2019m ChatGPT, an AI assistant here to help with questions, explanations, and everyday tasks. Tell me what you need and I\u2019ll do my best to assist."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 109,
+    "total_tokens": 317
+  },
+  "events": {
+    "total_events": 94,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

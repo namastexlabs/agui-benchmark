@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 30129.612040007487,
+    "time_to_first_event_ms": 30127.370590926148,
+    "time_to_first_content_ms": 30130.066806916147,
+    "time_to_complete_ms": 30129.612040007487
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1240,
+    "tokens_approx": 310,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before I proceed, I need a few details and an explicit confirmation phrase from you.\n\nPlease answer these so I know exactly what to do and what the risks are:\n1. What data exactly do you want deleted? (file names/paths, database/table/rows, cloud bucket, email account, etc.)\n2. Where is it stored? (local PC, server name, cloud provider and bucket, database type and host, SaaS app)\n3. Do you want permanent (irreversible) deletion or a soft/delete-to-trash that can be recovered?\n4. Do you have a verified backup you can restore from if needed? If not, do you want me to include backup instructions first?\n5. Timing: delete now or schedule for later?\n6. Do you want step-by-step instructions I can give you, or do you want me to run commands (note: I cannot directly access your systems \u2014 I can provide exact commands to run)?\n\nIf you still want me to proceed after answering, please confirm explicitly by replying with this exact phrase:\n\"CONFIRM DELETE \u2014 proceed with permanent deletion\"\n\n(Or, if you prefer soft delete, reply with:\n\"CONFIRM DELETE \u2014 proceed with soft delete\")\n\nI will wait for your answers and that exact confirmation before doing anything further."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 275,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

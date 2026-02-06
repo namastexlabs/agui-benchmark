@@ -1,0 +1,18 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_3709816b294948808fff65d53e02165c", "toolCallName": "get_current_time", "parentMessageId": "8d6972cb-8abc-419b-b7ed-116d2f6af2c9"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_3709816b294948808fff65d53e02165c"}
+{"type": "TOOL_CALL_RESULT", "messageId": "c93cf74d-9256-429c-90bd-62346b78ec13", "toolCallId": "pyd_ai_3709816b294948808fff65d53e02165c", "content": "2026-02-06 01:15:04", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6", "delta": "The current time is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6", "delta": " 01:15:04 on February 6, 202"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6", "delta": "6. Now, let's calculate 10 + 20.\n"}
+{"type": "TEXT_MESSAGE_END", "messageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6"}
+{"type": "TOOL_CALL_START", "toolCallId": "pyd_ai_98033679fabf45b49decec541388ef20", "toolCallName": "calculator", "parentMessageId": "0d6a9608-77f3-4411-81c8-fb35384d03a6"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "pyd_ai_98033679fabf45b49decec541388ef20", "delta": "{\"expression\":\"10 + 20\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "pyd_ai_98033679fabf45b49decec541388ef20"}
+{"type": "TOOL_CALL_RESULT", "messageId": "24e0f01f-d262-43b9-abf6-e0d0cd76529b", "toolCallId": "pyd_ai_98033679fabf45b49decec541388ef20", "content": "10 + 20 = 30", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "9977e1f1-d17c-4cbb-a81d-70fd50511dbc", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9977e1f1-d17c-4cbb-a81d-70fd50511dbc", "delta": "1"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9977e1f1-d17c-4cbb-a81d-70fd50511dbc", "delta": "0 + 20 = 30.\n"}
+{"type": "TEXT_MESSAGE_END", "messageId": "9977e1f1-d17c-4cbb-a81d-70fd50511dbc"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-multi_tool"}

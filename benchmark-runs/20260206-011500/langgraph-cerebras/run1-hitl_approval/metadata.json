@@ -1,0 +1,41 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2796.2450629565865,
+    "time_to_first_event_ms": 2012.0676209917292,
+    "time_to_first_content_ms": 2796.540139010176,
+    "time_to_complete_ms": 2796.2450629565865
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 462,
+    "tokens_approx": 115,
+    "final_text": "Hello, I'm an assistant here to help with basic tasks such as telling the current time and performing simple math calculations. I'm happy to assist you with any questions or problems you might have. Just let me know how I can help!Hello, I'm an assistant here to help with basic tasks such as telling the current time and performing simple math calculations. I'm happy to assist you with any questions or problems you might have. Just let me know how I can help!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 37,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

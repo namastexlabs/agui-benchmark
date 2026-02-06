@@ -1,0 +1,117 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " can"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "\u2019t"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " call"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " named"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " \""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "non"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "existent"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "_tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " \u2014"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " that"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " isn"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "\u2019t"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " available"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "."}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " can"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " however"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ","}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " available"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " tools"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ":\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " date"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "/time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "functions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ".get"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "_current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "_time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ")\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " Evaluate"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " math"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " expressions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "functions"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ".cal"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "culator"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ")\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " Run"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " those"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " in"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " parallel"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " if"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " needed"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "multi"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "_tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "_use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ".parallel"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ")\n\n"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "What"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " do"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " you"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " want"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " to"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " accomplish"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " with"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " nonexistent"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "?"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " Tell"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " me"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " task"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " ("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "e"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ".g"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ".,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " \u201c"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "give"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " current"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " time"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ",\u201d"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " \u201c"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "calculate"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "23"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "*"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "47"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": ",\u201d"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " \u201c"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "compare"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "\u201d),"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " and"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " I"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "\u2019ll"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " the"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " appropriate"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " available"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " or"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " provide"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " a"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": " workaround"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6", "delta": "."}
+{"type": "TEXT_MESSAGE_END", "message_id": "ff8c2b21-cfec-4fb5-9cf3-6d1337fc30f6"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-openai-raw", "run_id": "test-run-openai-raw-error_handling"}

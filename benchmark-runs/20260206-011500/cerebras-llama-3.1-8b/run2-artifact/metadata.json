@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 2,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5004.255103995092,
+    "time_to_first_event_ms": 4557.331785093993,
+    "time_to_first_content_ms": 5004.315861035138,
+    "time_to_complete_ms": 5004.255103995092
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 759,
+    "tokens_approx": 189,
+    "final_text": "**Simple Python Function to Add Two Numbers**\n=====================================================\n\nHere's a simple Python function that adds two numbers and returns the result:\n\n```python\ndef add_numbers(a, b):\n    \"\"\"\n    Returns the sum of two numbers.\n\n    Args:\n        a (float): The first number.\n        b (float): The second number.\n\n    Returns:\n        float: The sum of a and b.\n    \"\"\"\n    return a + b\n```\n\n**Example Use Cases**\n----------------------\n\n```python\n# Example 1: Adding two integers\nresult = add_numbers(5, 7)\nprint(result)  # Output: 12\n\n# Example 2: Adding two floating-point numbers\nresult = add_numbers(3.5, 2.7)\nprint(result)  # Output: 6.2\n```\n\nYou can use this function to add any two numbers, and it will return the result."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

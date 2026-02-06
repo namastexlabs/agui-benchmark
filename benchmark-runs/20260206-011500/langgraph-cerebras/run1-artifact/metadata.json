@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3033.783096005209,
+    "time_to_first_event_ms": 2053.823419031687,
+    "time_to_first_content_ms": 3035.1011379389092,
+    "time_to_complete_ms": 3033.783096005209
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 390,
+    "tokens_approx": 97,
+    "final_text": "Hello, I'm an assistant here to help with basic math and provide information. I can also tell you the current time if you need it. Feel free to ask me anything, and I'll do my best to assist you!Hello, I'm an assistant here to help with basic math and provide information. I can also tell you the current time if you need it. Feel free to ask me anything, and I'll do my best to assist you!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 41,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

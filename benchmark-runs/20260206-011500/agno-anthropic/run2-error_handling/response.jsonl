@@ -1,0 +1,21 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "I don"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "'t have access to a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " tool"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " called "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "'nonexistent_tool'."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "\n\nThe"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " tools I actually"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " have available are:\n- **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "get_current_time**: Get"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " the current date and time\n- **"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": "calculator**: Evaluate mathematical"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " expressions\n\nWould you like me to help"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " you with something using"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " one"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " of these available"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53", "delta": " tools instead?"}
+{"type": "TEXT_MESSAGE_END", "messageId": "82201891-4e86-4dec-b7e5-22d1cb800f53"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-error_handling"}

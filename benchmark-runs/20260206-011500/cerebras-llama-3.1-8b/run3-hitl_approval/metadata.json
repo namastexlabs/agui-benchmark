@@ -1,0 +1,38 @@
+{
+  "agent": "cerebras-llama-3.1-8b",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5042.668042005971,
+    "time_to_first_event_ms": 4603.938236949034,
+    "time_to_first_content_ms": 5042.736273026094,
+    "time_to_complete_ms": 5042.668042005971
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 734,
+    "tokens_approx": 183,
+    "final_text": "Before proceeding with deleting any data, I need to confirm that you are certain about this action. This is a crucial step to prevent accidental deletion of important information.\n\nTo ensure that we are on the same page, I will ask you a few questions to confirm your intention:\n\n1. What type of data do you need to delete (e.g., files, documents, emails, database entries)?\n2. Are you aware of the consequences of deleting this data (e.g., irretrievable loss, impact on future operations)?\n3. Have you considered backup options (e.g., saving a copy, archiving the data)?\n\nPlease provide me with the answers to these questions, and I will proceed with your approval.\n\n**Please note that once deleted, the data will be irretrievable.**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 20,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

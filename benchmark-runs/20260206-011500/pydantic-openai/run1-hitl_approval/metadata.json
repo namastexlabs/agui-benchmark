@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10135.86955703795,
+    "time_to_first_event_ms": 2143.443697015755,
+    "time_to_first_content_ms": 10136.356586008333,
+    "time_to_complete_ms": 10135.86955703795
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1159,
+    "tokens_approx": 289,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. A few quick clarifying questions so I can give the right, safe instructions:\n\n1. Where is the data stored? (local computer \u2014 Windows/macOS/Linux, external drive, cloud provider and service \u2014 e.g., AWS S3, Google Drive, Dropbox, or a database \u2014 e.g., MySQL, PostgreSQL, MongoDB)\n2. Exactly what should be deleted? (file paths, bucket names, database/table names, or \u201ceverything in X folder\u201d)\n3. Do you have a backup or snapshot you can restore from if needed? Do you want me to show how to create one before deleting?\n4. Is deletion permanent (irrecoverable) or should it be moved to trash/archival first?\n5. Any time constraints or maintenance windows?\n\nWarning: deletion may be irreversible and can cause downtime or data loss. I will not proceed until you confirm.\n\nIf you understand the risks and want me to proceed with deletion instructions, reply with the exact confirmation phrase:\nYES \u2014 PERMANENT DELETE\n\nAlso answer the questions above (1\u20135). Once you send the exact confirmation phrase plus the details, I\u2019ll provide the precise, step-by-step deletion commands and safety checks."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 259,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

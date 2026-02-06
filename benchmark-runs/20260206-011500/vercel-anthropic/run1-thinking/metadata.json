@@ -1,0 +1,42 @@
+{
+  "agent": "vercel-anthropic",
+  "run_number": 1,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3396.944719948806,
+    "time_to_first_event_ms": 268.17427203059196,
+    "time_to_first_content_ms": 3397.135121980682,
+    "time_to_complete_ms": 3396.944719948806
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.001267995685338974
+  },
+  "response": {
+    "chars": 740,
+    "tokens_approx": 185,
+    "final_text": "I'll solve this step-by-step for you.\n\n**Given equation:** x + 5 = 12\n\n**Step 1: Identify what we need to find**\nWe need to find the value of x.\n\n**Step 2: Isolate x**\nTo isolate x, we need to remove the +5 from the left side. We do this by subtracting 5 from both sides of the equation:\n- x + 5 - 5 = 12 - 5\n\n**Step 3: Simplify**\n- x = 7\n\n**Step 4: Verify the answer**\nLet me check this using the calculator:Perfect! \u2713\n\n**Answer: x = 7**\n\n**Reasoning:** We used the principle that whatever operation we do to one side of an equation, we must do to the other side to keep it balanced. By subtracting 5 from both sides, we isolated x and found that x equals 7. We verified this by substituting 7 back into the original equation: 7 + 5 = 12 \u2713"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 78,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

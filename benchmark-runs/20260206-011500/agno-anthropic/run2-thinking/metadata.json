@@ -1,0 +1,42 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4996.110988082364,
+    "time_to_first_event_ms": 255.02513302490115,
+    "time_to_first_content_ms": 4996.303049032576,
+    "time_to_complete_ms": 4996.110988082364
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0009699724614620209
+  },
+  "response": {
+    "chars": 610,
+    "tokens_approx": 152,
+    "final_text": "I need to solve the equation x + 5 = 12 step by step.\n\n**My reasoning process:**\n\n1. **Identify the equation:** x + 5 = 12\n\n2. **Isolate x:** To find x, I need to get it by itself on one side of the equation.\n\n3. **Apply the inverse operation:** Since 5 is being added to x, I'll subtract 5 from both sides of the equation to cancel it out:\n   - x + 5 - 5 = 12 - 5\n\n4. **Simplify:** Let me calculate the right side:5. **Result:** x = 7\n\n**Verification:** Let me check this is correct by substituting x = 7 back into the original equation:\u2713 Confirmed! Since 7 + 5 = 12, our answer is correct.\n\n**Answer: x = 7**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 69,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

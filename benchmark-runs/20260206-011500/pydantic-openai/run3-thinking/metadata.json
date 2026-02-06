@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-openai",
+  "run_number": 3,
+  "prompt_type": "thinking",
+  "prompt": "Think step-by-step: If x + 5 = 12, what is x? Show your reasoning process.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5988.496775040403,
+    "time_to_first_event_ms": 219.29550997447222,
+    "time_to_first_content_ms": 5988.607877981849,
+    "time_to_complete_ms": 5988.496775040403
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 143,
+    "tokens_approx": 35,
+    "final_text": "I can\u2019t share my internal step-by-step chain-of-thought, but here\u2019s a concise solution:\n\nSubtract 5 from both sides: x = 12 \u2212 5 = 7.\n\nSo x = 7."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 49,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

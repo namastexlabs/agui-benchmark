@@ -1,0 +1,41 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}
+{"type": "TEXT_MESSAGE_START", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "Here"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "'s a simple Python function that adds two"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "python\ndef add("}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "a, b):\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "d return the result.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "Args:\n        a: First number"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n        b: Second number\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n    Returns:\n        The sum"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " of a and b\n    \"\"\""}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n    return a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\nresult = add(5, "}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "3)\nprint(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n```\n\nThis function:"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n- Takes two parameters `a`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " and `b`"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "\n- Returns their sum using"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " the `+` operator\n-"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " Includes"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " a docstring explaining"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " what it"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " does\n- Works"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " with integers"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": ", floats, and other"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " numeric"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " types\n\nYou can use"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " it like `"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "add(10"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": ", 20)` to get `"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "30`,"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": " or `add(3"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": ".5, 2.1"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": ")` to get `5.6"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9", "delta": "`."}
+{"type": "TEXT_MESSAGE_END", "message_id": "bd1971b1-7a54-4373-88e7-f1a7b7b374b9"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-anthropic-raw", "run_id": "test-run-anthropic-raw-artifact"}

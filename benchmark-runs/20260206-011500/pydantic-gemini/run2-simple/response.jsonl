@@ -1,0 +1,7 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple"}
+{"type": "TEXT_MESSAGE_START", "messageId": "3f25a857-da19-410e-8eb1-f1639a2a6e63", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3f25a857-da19-410e-8eb1-f1639a2a6e63", "delta": "Hello! I'"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3f25a857-da19-410e-8eb1-f1639a2a6e63", "delta": "m a helpful assistant powered by Google, ready to assist you. I can tell you"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "3f25a857-da19-410e-8eb1-f1639a2a6e63", "delta": " the current time and evaluate mathematical expressions."}
+{"type": "TEXT_MESSAGE_END", "messageId": "3f25a857-da19-410e-8eb1-f1639a2a6e63"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-simple"}

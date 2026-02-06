@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 10558.325220015831,
+    "time_to_first_event_ms": 240.96630699932575,
+    "time_to_first_content_ms": 10559.031709097326,
+    "time_to_complete_ms": 10558.325220015831
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1632,
+    "tokens_approx": 408,
+    "final_text": "Got it \u2014 I will not delete anything until you explicitly approve. Before we proceed, I need a few details and I\u2019ll show a clear confirmation step you must give.\n\n1) Quick clarifying questions\n- What exactly do you want deleted? (file(s), folder, database, VM, cloud bucket, user account, etc.)\n- Where is it located? (local PC, Windows/macOS/Linux, company server, AWS/Azure/GCP, Dropbox/Google Drive, etc.)\n- Is there any backup you want kept (or created) first?\n- Do you need a secure/irreversible wipe (overwriting) or a normal delete/trash?\n- Are there any legal, compliance, or business owners I should be aware of?\n- Do you want me to provide step-by-step commands/instructions, or do you want me to run the deletion (note: I can\u2019t directly access your systems unless you provide a connected tool; I can only guide you)?\n\n2) Risks and recommendations (read before approving)\n- Deletion may be irreversible. Secure wipes are usually unrecoverable.\n- Make a backup if you might need the data later.\n- Check for dependencies (apps, services, users) that rely on the data.\n- If this is production/business data, notify stakeholders and ensure compliance.\n\n3) Proposed plan (example \u2014 I\u2019ll adapt after your answers)\n- I will list the exact items to be deleted and the commands/steps I propose.\n- You review and confirm.\n- You reply with the exact approval phrase: CONFIRM DELETE \u2014 then I\u2019ll provide/execute the deletion instructions you requested.\n\nPlease answer the clarifying questions and tell me which plan you prefer. When you\u2019re ready, give the approval phrase exactly: CONFIRM DELETE. I will wait for that before proceeding."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 368,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "agno-gemini",
+  "run_number": 3,
+  "prompt_type": "artifact",
+  "prompt": "Create a simple Python function that adds two numbers. Return it as code.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 17968.341358937323,
+    "time_to_first_event_ms": 237.37703799270093,
+    "time_to_first_content_ms": 17968.37009990122,
+    "time_to_complete_ms": 17968.341358937323
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 174,
+    "tokens_approx": 43,
+    "final_text": "I apologize. I made a mistake by trying to use a tool that isn't available.\n\nHere is the Python function you requested:\n\n```python\ndef add_numbers(a, b):\n    return a + b\n```"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 7,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 11445.020781015046,
+    "time_to_first_event_ms": 840.4089310206473,
+    "time_to_first_content_ms": 11450.004503014497,
+    "time_to_complete_ms": 11445.020781015046
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 2106,
+    "tokens_approx": 526,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and then your clear confirmation.\n\nPlease answer these:\n1. What exactly is the \"important data\" (files, database, account, cloud storage, etc.)?\n2. Where is it stored (local machine, server name/IP, cloud provider and bucket/container, database name)?\n3. Scope: all data or specific folders/records (give paths or query)?\n4. Desired action: permanent deletion (secure wipe) or move to recycle/trash/archive?\n5. Do you have a verified backup? If not, do you want me to create one or walk you through creating one first?\n6. Do you have authorization to delete this data (are you the owner/admin)?\n7. Preferred time to perform deletion (now or schedule)?\n\nIf you confirm the details above and want me to proceed, type the exact confirmation phrase:\nI CONFIRM DELETE\n\nI will only proceed after you send that exact phrase and I\u2019ve verified the details. I can also provide step-by-step commands or a safe checklist once you\u2019ve answered the questions.Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed I need a few details and then your clear confirmation.\n\nPlease answer these:\n1. What exactly is the \"important data\" (files, database, account, cloud storage, etc.)?\n2. Where is it stored (local machine, server name/IP, cloud provider and bucket/container, database name)?\n3. Scope: all data or specific folders/records (give paths or query)?\n4. Desired action: permanent deletion (secure wipe) or move to recycle/trash/archive?\n5. Do you have a verified backup? If not, do you want me to create one or walk you through creating one first?\n6. Do you have authorization to delete this data (are you the owner/admin)?\n7. Preferred time to perform deletion (now or schedule)?\n\nIf you confirm the details above and want me to proceed, type the exact confirmation phrase:\nI CONFIRM DELETE\n\nI will only proceed after you send that exact phrase and I\u2019ve verified the details. I can also provide step-by-step commands or a safe checklist once you\u2019ve answered the questions."
+  },
+  "tokens": {
+    "input_tokens": 211,
+    "output_tokens": 685,
+    "total_tokens": 896
+  },
+  "events": {
+    "total_events": 479,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

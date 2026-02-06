@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2384.095508023165,
+    "time_to_first_event_ms": 217.49986603390425,
+    "time_to_first_content_ms": 2384.247708017938,
+    "time_to_complete_ms": 2384.095508023165
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 713,
+    "tokens_approx": 178,
+    "final_text": "I appreciate you being cautious, but I should clarify: **I don't actually have the ability to delete any data**. I can only:\n\n- Tell you the current date and time\n- Perform basic math calculations\n\nI don't have access to files, databases, accounts, or any systems where data is stored. So there's nothing for me to delete, and no approval is needed from me.\n\n**If you're looking to delete data on your own systems**, I'd recommend:\n1. Making sure you have backups first\n2. Double-checking what you're about to delete\n3. Using your system's built-in tools (like file managers, database tools, or application settings)\n4. Being extra cautious with important information\n\nIs there something else I can help you with?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 68,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

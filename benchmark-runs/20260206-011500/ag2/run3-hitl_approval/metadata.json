@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15029.418020974845,
+    "time_to_first_event_ms": 2480.1624299725518,
+    "time_to_first_content_ms": 15029.455173993483,
+    "time_to_complete_ms": 15029.418020974845
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 938,
+    "tokens_approx": 234,
+    "final_text": "I can help \u2014 but I will not proceed until you explicitly approve. Before we go further, please tell me:\n\n1) Exactly what you want deleted (file/folder/database name and full path or service, e.g., /home/me/secret.zip, C:\\Users\\Me\\Documents\\folder, AWS S3 bucket my-bucket, MySQL database mydb).  \n2) Whether deletion should be permanent (bypass Trash/Recycle Bin) or just moved to Trash.  \n3) Your platform or service (Windows / macOS / Linux / AWS S3 / Google Drive / MySQL / PostgreSQL / etc.).  \n4) Whether you have a backup or want instructions to make one first.\n\nTo confirm you really want me to proceed, reply with the exact confirmation phrase below (replace <description>):\n\nCONFIRM DELETE: <description> \u2014 PERMANENT\n\nExample:\nCONFIRM DELETE: /home/me/secret.zip \u2014 PERMANENT\n\nI will not provide deletion steps or run any actions until I receive that exact confirmation. I also recommend making a backup before permanent deletion."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

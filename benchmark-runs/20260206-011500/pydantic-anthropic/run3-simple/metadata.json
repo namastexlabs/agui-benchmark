@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-anthropic",
+  "run_number": 3,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 1267.013228032738,
+    "time_to_first_event_ms": 217.29320602025837,
+    "time_to_first_content_ms": 1267.0832320582122,
+    "time_to_complete_ms": 1267.013228032738
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 271,
+    "tokens_approx": 67,
+    "final_text": "Hello! \ud83d\udc4b I'm a helpful assistant powered by PydanticAI, and I'm here to help you with a variety of tasks. I can tell you the current time, perform mathematical calculations, and answer your questions in a friendly and concise way. Feel free to ask me anything you'd like!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 22,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2224.6284970315173,
+    "time_to_first_event_ms": 836.6176589624956,
+    "time_to_first_content_ms": 2225.1423419220373,
+    "time_to_complete_ms": 2224.6284970315173
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 848,
+    "tokens_approx": 212,
+    "final_text": "I'm not able to directly delete data, but I can guide you through the process. Before we proceed, I want to confirm that you're aware of the potential consequences of deleting important data. It may result in permanent loss of information and could have significant impacts.\n\nPlease confirm that you have thought this through and are prepared to move forward with deleting the data. Can you provide your approval to proceed?I'm not able to directly delete data, but I can guide you through the process. Before we proceed, I want to confirm that you're aware of the potential consequences of deleting important data. It may result in permanent loss of information and could have significant impacts.\n\nPlease confirm that you have thought this through and are prepared to move forward with deleting the data. Can you provide your approval to proceed?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 48,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

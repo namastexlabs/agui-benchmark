@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 7915.156538016163,
+    "time_to_first_event_ms": 354.71418499946594,
+    "time_to_first_content_ms": 7915.729635045864,
+    "time_to_complete_ms": 7915.156538016163
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 980,
+    "tokens_approx": 245,
+    "final_text": "Understood \u2014 I will ask for your explicit approval before doing anything. Before I proceed, please answer the following so I can be safe and precise:\n\n1. Exactly which data should be deleted? (Give file names, folders, database/table names, or paths and the system where it lives.)\n2. Where is the data stored? (Local machine, cloud provider and bucket, specific server, database name, etc.)\n3. Do you have a backup? If not, do you want me to create one or recommend one before deletion?\n4. Is deletion irreversible (permanent delete) or do you want it moved to a recycle/trash/archive first?\n5. When should the deletion occur? (Now or scheduled time.)\n6. Type the exact confirmation phrase you want me to require before proceeding (for example: DELETE NOW, or I CONFIRM DELETE of [description]). I will refuse to proceed unless you send that exact phrase.\n\nReply with the answers and the confirmation phrase. I will not take any deletion action until I receive that exact phrase."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 215,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

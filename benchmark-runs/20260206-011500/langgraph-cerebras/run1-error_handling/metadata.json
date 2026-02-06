@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-cerebras",
+  "run_number": 1,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2846.3961839443073,
+    "time_to_first_event_ms": 2032.9095899360254,
+    "time_to_first_content_ms": 2846.9682439463213,
+    "time_to_complete_ms": 2846.3961839443073
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 484,
+    "tokens_approx": 121,
+    "final_text": "Hello, I'm a helpful assistant here to provide you with basic information and assist with simple tasks, such as telling the current time and doing math calculations. I'm looking forward to helping you with any questions or needs you may have.Hello, I'm a helpful assistant here to provide you with basic information and assist with simple tasks, such as telling the current time and doing math calculations. I'm looking forward to helping you with any questions or needs you may have."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 36,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

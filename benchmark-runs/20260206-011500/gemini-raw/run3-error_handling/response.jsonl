@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling"}
+{"type": "TEXT_MESSAGE_START", "message_id": "f2020343-84fa-411e-a8f8-d2a5275f2eff", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f2020343-84fa-411e-a8f8-d2a5275f2eff", "delta": "I'"}
+{"type": "TEXT_MESSAGE_CONTENT", "message_id": "f2020343-84fa-411e-a8f8-d2a5275f2eff", "delta": "m sorry, I don't have a tool called `nonexistent_tool`. I can tell you the current time or evaluate a mathematical expression for you."}
+{"type": "TEXT_MESSAGE_END", "message_id": "f2020343-84fa-411e-a8f8-d2a5275f2eff"}
+{"type": "RUN_FINISHED", "thread_id": "test-thread-gemini-raw", "run_id": "test-run-gemini-raw-error_handling"}

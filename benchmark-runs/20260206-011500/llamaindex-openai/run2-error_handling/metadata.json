@@ -1,0 +1,38 @@
+{
+  "agent": "llamaindex-openai",
+  "run_number": 2,
+  "prompt_type": "error_handling",
+  "prompt": "Use the 'nonexistent_tool' to do something.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5971.095595043153,
+    "time_to_first_event_ms": 353.53030206169933,
+    "time_to_first_content_ms": 5971.405079006217,
+    "time_to_complete_ms": 5971.095595043153
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 404,
+    "tokens_approx": 101,
+    "final_text": "I can\u2019t call a tool named \"nonexistent_tool\" \u2014 it isn\u2019t available in this environment. \n\nIf you tell me what you wanted that tool to do, I can:\n- Use get_current_time() to return the current date/time,\n- Use calculator(expression) to evaluate math expressions (e.g., \"12*3.5\" or \"sqrt(2) + 4\"),\n- Or suggest how to add/integrate an external tool or API if you describe it.\n\nWhich would you like me to do?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 111,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "TEXT_MESSAGE_CHUNK"
+    ]
+  }
+}

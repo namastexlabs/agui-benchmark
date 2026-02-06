@@ -1,0 +1,6 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}
+{"type": "TEXT_MESSAGE_START", "messageId": "835e7aef-8b27-4a37-8644-1773da6e697b", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "835e7aef-8b27-4a37-8644-1773da6e697b", "delta": "I can't use `nonexistent_tool` because it doesn't exist."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "835e7aef-8b27-4a37-8644-1773da6e697b", "delta": " I can only use `get_current_time` and `calculator`."}
+{"type": "TEXT_MESSAGE_END", "messageId": "835e7aef-8b27-4a37-8644-1773da6e697b"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-pydantic-gemini", "runId": "test-run-pydantic-gemini-error_handling"}

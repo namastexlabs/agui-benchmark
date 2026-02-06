@@ -1,0 +1,47 @@
+{
+  "agent": "langgraph-gemini",
+  "run_number": 1,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 3325.1966011011973,
+    "time_to_first_event_ms": 1614.5026170415804,
+    "time_to_first_content_ms": 3325.7821240695193,
+    "time_to_complete_ms": 3325.1966011011973
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 79,
+    "tokens_approx": 19,
+    "final_text": "The current time is 01:15:03 on 2026The current time is 01:15:03 on 2026-02-06."
+  },
+  "tokens": {
+    "input_tokens": 235,
+    "output_tokens": 18,
+    "total_tokens": 236
+  },
+  "events": {
+    "total_events": 51,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

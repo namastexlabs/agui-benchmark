@@ -1,0 +1,12 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_calc"}
+{"type": "TEXT_MESSAGE_START", "messageId": "1a1d0a6f-d4d7-4728-8f07-8b9bacc027d5", "role": "assistant"}
+{"type": "TEXT_MESSAGE_END", "messageId": "1a1d0a6f-d4d7-4728-8f07-8b9bacc027d5"}
+{"type": "TOOL_CALL_START", "toolCallId": "f61a2c08-aee0-4e4f-b943-6ad1c24c028b", "toolCallName": "calculator", "parentMessageId": "1a1d0a6f-d4d7-4728-8f07-8b9bacc027d5"}
+{"type": "TOOL_CALL_ARGS", "toolCallId": "f61a2c08-aee0-4e4f-b943-6ad1c24c028b", "delta": "{\"expression\": \"42 * 17\"}"}
+{"type": "TOOL_CALL_END", "toolCallId": "f61a2c08-aee0-4e4f-b943-6ad1c24c028b"}
+{"type": "TOOL_CALL_RESULT", "messageId": "afa9e4f3-1393-4c73-a670-d9885d9782f5", "toolCallId": "f61a2c08-aee0-4e4f-b943-6ad1c24c028b", "content": "42 * 17 = 714", "role": "tool"}
+{"type": "TEXT_MESSAGE_START", "messageId": "7cbbcee7-9db6-4f04-8ca3-14447ead72db", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "7cbbcee7-9db6-4f04-8ca3-14447ead72db", "delta": "The result of "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "7cbbcee7-9db6-4f04-8ca3-14447ead72db", "delta": "42 * 17 is 714."}
+{"type": "TEXT_MESSAGE_END", "messageId": "7cbbcee7-9db6-4f04-8ca3-14447ead72db"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-gemini", "runId": "test-run-agno-gemini-tool_calc"}

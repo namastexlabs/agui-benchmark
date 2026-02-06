@@ -1,0 +1,38 @@
+{
+  "agent": "ag2",
+  "run_number": 2,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12169.85997010488,
+    "time_to_first_event_ms": 2561.3861030433327,
+    "time_to_first_content_ms": 12169.89119304344,
+    "time_to_complete_ms": 12169.85997010488
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1079,
+    "tokens_approx": 269,
+    "final_text": "Okay \u2014 I can help, but before I do anything I need your explicit approval. A few quick questions first so I can proceed safely and correctly:\n\n1. What exactly do you want to delete? (file/folder paths, database, cloud storage, account, etc.)\n2. Where is it stored? (Windows/Mac/Linux, Android/iPhone, Google Drive/Dropbox/AWS S3, database type, external drive\u2026)\n3. Do you want a backup made first? (strongly recommended)\n4. Do you want a normal delete (trash/recycle) or permanent/secure wipe (overwriting)?\n5. Are you authorized to delete this data? (legal/organizational clearance)\n6. Do you want step-by-step instructions, commands I can paste, or a script?\n\nIf you want me to proceed after answering the questions, please explicitly confirm by typing one of the following confirmation phrases (pick one and include the target description):\n- CONFIRM DELETE \u2014 I approve deleting [brief description], no backup.\n- CONFIRM DELETE & BACKUP \u2014 I approve deleting [brief description] after backup.\n\nI will not proceed until you provide answers and one of those confirmation phrases."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

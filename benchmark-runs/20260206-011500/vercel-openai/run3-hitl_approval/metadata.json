@@ -1,0 +1,38 @@
+{
+  "agent": "vercel-openai",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9377.58292502258,
+    "time_to_first_event_ms": 1790.8109120326117,
+    "time_to_first_content_ms": 9377.956768032163,
+    "time_to_complete_ms": 9377.58292502258
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 782,
+    "tokens_approx": 195,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. A few quick clarifying questions so I can proceed safely:\n\n1. What exact data do you want deleted (file names, folders, databases, accounts)?  \n2. Where is it stored (device, cloud provider and bucket, database type and host, etc.)?  \n3. Do you have a backup or do you want me to create one first?  \n4. Should this be a permanent delete or move to Trash/soft-delete?  \n5. Any time window or constraints, and do I need admin credentials or remote access?\n\nWhen you\u2019re ready, confirm you want me to proceed by replying with a clear approval (for example: \u201cYes \u2014 delete now\u201d or \u201cCONFIRM DELETE\u201d). I\u2019ll wait for that explicit approval before taking any action and will outline the exact steps I will take beforehand."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 180,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "openai-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 43921.181618003175,
+    "time_to_first_event_ms": 43919.176219031215,
+    "time_to_first_content_ms": 43921.6015660204,
+    "time_to_complete_ms": 43921.181618003175
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1063,
+    "tokens_approx": 265,
+    "final_text": "Understood \u2014 I will not delete anything until you explicitly approve. Before we proceed, please answer these quick questions so I can act safely and correctly:\n\n1. What exactly do you want deleted? (file/folder names, database/table names, device, cloud account, etc.)\n2. Where is the data located? (local machine path, server/hostname, cloud provider and bucket/container, app name)\n3. Do you want permanent secure deletion or just move to trash/archive? (permanent irreversible overwrite vs. recoverable)\n4. Do you have a backup or do you want me to provide steps to make one first?\n5. Do you have the necessary permissions/access to perform deletion, or do you want instructions/commands for an admin?\n6. Any legal/privacy/ownership concerns I should know about?\n\nWhen you\u2019re ready to proceed, type the exact confirmation phrase below (replace [description] with the short description of the items above):\n\nI confirm permanent deletion of: [description]\n\nI will take no destructive action until I receive that exact confirmation. What would you like to delete?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 224,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

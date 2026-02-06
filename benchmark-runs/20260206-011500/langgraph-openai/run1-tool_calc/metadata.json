@@ -1,0 +1,43 @@
+{
+  "agent": "langgraph-openai",
+  "run_number": 1,
+  "prompt_type": "tool_calc",
+  "prompt": "Calculate 42 * 17 using the calculator tool and tell me the result.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4482.71895898506,
+    "time_to_first_event_ms": 1392.5670500611886,
+    "time_to_first_content_ms": 4484.878428047523,
+    "time_to_complete_ms": 4482.71895898506
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 312,
+    "tokens_approx": 78,
+    "final_text": "Hello! I'm ChatGPT, an AI assistant here to help with questions, writing, coding, and basic calculations. Tell me what you need and I'll do my best to help.Hello! I'm ChatGPT, an AI assistant here to help with questions, writing, coding, and basic calculations. Tell me what you need and I'll do my best to help."
+  },
+  "tokens": {
+    "input_tokens": 208,
+    "output_tokens": 109,
+    "total_tokens": 317
+  },
+  "events": {
+    "total_events": 96,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "STEP_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

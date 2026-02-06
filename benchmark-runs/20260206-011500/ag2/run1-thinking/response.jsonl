@@ -1,0 +1,5 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}
+{"type": "TEXT_MESSAGE_START", "messageId": "9d2562bf-14db-4e26-9919-c552ef5bdb98", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9d2562bf-14db-4e26-9919-c552ef5bdb98", "delta": "We want x + 5 = 12. Subtract 5 from both sides to isolate x:\n\nx = 12 \u2212 5 = 7.\n\nCheck: 7 + 5 = 12, so x = 7."}
+{"type": "TEXT_MESSAGE_END", "messageId": "9d2562bf-14db-4e26-9919-c552ef5bdb98"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-ag2", "runId": "test-run-ag2-thinking"}

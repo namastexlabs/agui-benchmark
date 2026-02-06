@@ -1,0 +1,42 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "multi_tool",
+  "prompt": "First get the current time, then calculate 10 + 20.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 15326.441976008937,
+    "time_to_first_event_ms": 15326.06355601456,
+    "time_to_first_content_ms": 15326.498438953422,
+    "time_to_complete_ms": 15326.441976008937
+  },
+  "tools": {
+    "tool_calls": 2,
+    "tool_call_time_ms": 0.0014399411156773567
+  },
+  "response": {
+    "chars": 72,
+    "tokens_approx": 18,
+    "final_text": "**Current time:** 2026-02-06 01:16:41\n\n**Calculation:** 10 + 20 = **30**"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 23,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

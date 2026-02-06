@@ -1,0 +1,38 @@
+{
+  "agent": "pydantic-gemini",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 4370.45925098937,
+    "time_to_first_event_ms": 2471.0571189643815,
+    "time_to_first_content_ms": 4370.483989012428,
+    "time_to_complete_ms": 4370.45925098937
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 182,
+    "tokens_approx": 45,
+    "final_text": "I cannot delete data. I am a large language model, able to communicate in response to a wide range of prompts and questions, but I am not able to perform actions like deleting data.\n"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 5,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

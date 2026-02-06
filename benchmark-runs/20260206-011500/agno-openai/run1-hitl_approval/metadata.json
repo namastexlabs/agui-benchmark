@@ -1,0 +1,38 @@
+{
+  "agent": "agno-openai",
+  "run_number": 1,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 9353.92351297196,
+    "time_to_first_event_ms": 636.8671149248257,
+    "time_to_first_content_ms": 9354.376130970195,
+    "time_to_complete_ms": 9353.92351297196
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 1166,
+    "tokens_approx": 291,
+    "final_text": "Got it \u2014 I will ask for explicit approval before doing anything destructive.\n\nBefore I proceed, tell me:\n1. Exactly what you want to delete (files, folders, database rows/tables, S3 bucket, VM snapshot, etc.).\n2. Where it lives (local path, server name, cloud provider and region, database type and connection details if applicable \u2014 don\u2019t share sensitive credentials here unless you intend to provide them securely).\n3. Whether you want a soft delete (trash/recycle) or permanent removal.\n4. Whether there\u2019s a backup or snapshot you want me to create first, and where to store it.\n5. Any maintenance window or downtime constraints.\n\nI will not perform any deletion until you give explicit confirmation. If you understand and still want to proceed, type the exact confirmation phrase below (replace <resource> with the resource name):\n\n  CONFIRM DELETE: <resource>\n\nIf you\u2019d like, I can also:\n- Provide a safe step-by-step deletion procedure or commands for your platform.\n- Prepare a rollback/backup plan and verify it first.\n- Do a dry-run or list the items that would be deleted.\n\nTell me the details above and then type the confirmation phrase when you\u2019re ready."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 250,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

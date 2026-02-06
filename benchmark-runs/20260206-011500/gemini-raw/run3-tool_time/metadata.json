@@ -1,0 +1,42 @@
+{
+  "agent": "gemini-raw",
+  "run_number": 3,
+  "prompt_type": "tool_time",
+  "prompt": "What is the current time? Use the time tool to check.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 5383.385022054426,
+    "time_to_first_event_ms": 5383.019536035135,
+    "time_to_first_content_ms": 5383.418921031989,
+    "time_to_complete_ms": 5383.385022054426
+  },
+  "tools": {
+    "tool_calls": 1,
+    "tool_call_time_ms": 0.0007589114829897881
+  },
+  "response": {
+    "chars": 52,
+    "tokens_approx": 13,
+    "final_text": "The current time is 01:16:31 AM on February 6, 2026."
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 11,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START",
+      "TOOL_CALL_ARGS",
+      "TOOL_CALL_END",
+      "TOOL_CALL_RESULT",
+      "TOOL_CALL_START"
+    ]
+  }
+}

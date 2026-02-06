@@ -1,0 +1,42 @@
+{
+  "agent": "langgraph-anthropic",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2233.553390018642,
+    "time_to_first_event_ms": 391.05431200005114,
+    "time_to_first_content_ms": 2233.901327010244,
+    "time_to_complete_ms": 2233.553390018642
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 228,
+    "tokens_approx": 57,
+    "final_text": "Hello! I'm a helpful assistant running on the LangGraph framework. I'm here to help you with tasks like telling you the current time and performing basic math calculations. Feel free to ask me anything within these capabilities!"
+  },
+  "tokens": {
+    "input_tokens": 677,
+    "output_tokens": 48,
+    "total_tokens": 725
+  },
+  "events": {
+    "total_events": 46,
+    "event_types": [
+      "MESSAGES_SNAPSHOT",
+      "RAW",
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "STATE_SNAPSHOT",
+      "STEP_FINISHED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

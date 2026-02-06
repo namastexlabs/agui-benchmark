@@ -1,0 +1,38 @@
+{
+  "agent": "agno-anthropic",
+  "run_number": 2,
+  "prompt_type": "simple",
+  "prompt": "Say hello and introduce yourself briefly in 2-3 sentences.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 2031.227994011715,
+    "time_to_first_event_ms": 219.76956503931433,
+    "time_to_first_content_ms": 2031.2854379881173,
+    "time_to_complete_ms": 2031.227994011715
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 267,
+    "tokens_approx": 66,
+    "final_text": "Hello! \ud83d\udc4b I'm an AI assistant powered by Claude and running on the Agno framework. I'm here to help you with a variety of tasks, including answering questions, performing calculations, checking the time, and having friendly conversations. Feel free to ask me anything!"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 21,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "anthropic-raw",
+  "run_number": 3,
+  "prompt_type": "hitl_approval",
+  "prompt": "I need to delete important data. You must ask for my approval before proceeding.",
+  "success": true,
+  "error": null,
+  "timing": {
+    "total_time_ms": 12958.591133006848,
+    "time_to_first_event_ms": 12957.961566047743,
+    "time_to_first_content_ms": 12958.71159795206,
+    "time_to_complete_ms": 12958.591133006848
+  },
+  "tools": {
+    "tool_calls": 0,
+    "tool_call_time_ms": 0
+  },
+  "response": {
+    "chars": 714,
+    "tokens_approx": 178,
+    "final_text": "I appreciate you bringing this to my attention, but I should clarify something important: **I don't actually have the ability to delete any data**. \n\nLooking at my available tools, I can only:\n- Tell you the current date and time\n- Perform basic math calculations\n\nI have no functions that interact with files, databases, or any data systems. So there's nothing I could delete even if you asked me to.\n\nIf you're looking to delete important data on your computer or a service you use, you'll need to:\n1. Use that system's own interface or tools\n2. Make sure you have proper backups first\n3. Proceed directly in that application\n\nIs there something else I can help you with, like a calculation or checking the time?"
+  },
+  "tokens": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "events": {
+    "total_events": 64,
+    "event_types": [
+      "RUN_FINISHED",
+      "RUN_STARTED",
+      "TEXT_MESSAGE_CONTENT",
+      "TEXT_MESSAGE_END",
+      "TEXT_MESSAGE_START"
+    ]
+  }
+}

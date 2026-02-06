@@ -1,0 +1,56 @@
+{"type": "RUN_STARTED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}
+{"type": "TEXT_MESSAGE_START", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "role": "assistant"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "Here's a simple Python function that adds"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " two numbers:\n\n```"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "python\ndef add_two"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "_numbers(a, b):"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n    \"\"\"\n    Add two numbers an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "d return the result."}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n    \n    Args:\n        "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "a: The first number\n        b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": ": The second number\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "Returns:\n        The sum of a"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " and b\n    \"\"\"\n    return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " a + b"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n\n\n# Example usage:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\nresult = add_two_numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "(5, 3)\nprint"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "(result"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": ")  # Output: 8"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n```\n\nYou can also create a more"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " versat"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "ile version that handles multiple"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " numbers:\n\n```python\ndef ad"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "d_numbers"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "(*"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "args"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "):\n    \"\"\"\n    Add any"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " number of arguments"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " an"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "d return the sum.\n    \n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "Args:\n        *args: Variable"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " length"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " argument list of"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " numbers\n    \n    Returns:"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n        The sum of all arguments\n    "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\"\"\"\n    return"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " sum(args)\n\n\n# Example usage"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": ":\nresult = add_numbers("}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "5"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": ", 3, 2, "}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "10"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": ")\nprint(result)  #"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " Output: 20"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "\n```\n\nBoth functions work great"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "!"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " The first is"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " straight"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": "forward for"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " adding"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " exactly"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " two numbers, while the second is more"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " flexible if"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " you need to add multiple numbers at"}
+{"type": "TEXT_MESSAGE_CONTENT", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723", "delta": " once."}
+{"type": "TEXT_MESSAGE_END", "messageId": "9663f284-6ebe-4c5e-a427-f1c9ede4b723"}
+{"type": "RUN_FINISHED", "threadId": "test-thread-agno-anthropic", "runId": "test-run-agno-anthropic-artifact"}
